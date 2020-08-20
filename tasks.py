@@ -25,7 +25,7 @@ CONFIG = {
     'ssh_user': 'ninikske',
     'ssh_host': '207.38.94.7',
     'ssh_port': '22',
-    'ssh_path': 'webapps/schaakstudiespinsels2',
+    'ssh_path': '/home/ninikske/webapps/schaakstudiespinsels2',
     # Port for `serve`
     'port': 8000,
 }
