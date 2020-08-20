@@ -1,4 +1,4 @@
-Title: Ten Geleide
+Title: Ten Geleide
 Pageorder: 002
 
 <div style="text-align: right"><b>Daar ik partijschaken meer</b></div>
@@ -10,7 +10,7 @@ Pageorder: 002
 <div style="text-align: right"><b>die ik koester en waardeer</b></div>
 <div style="text-align: right"><b>in een schone schaakstudie.</b></div>
 
-Een gefantaseerd schaakeindspel, beter gekend als een schaakstudie, is
+Een gefantaseerd schaakeindspel, beter gekend als een schaakstudie, is
 een willekeurige opstelling van de schaakstukken, door een componist
 bedacht, waarbij hij beweert winst of remise te kunnen bereiken op een
 technisch unieke, maar vooral artistieke wijze. Uniek, zodat tijdens het
@@ -46,7 +46,7 @@ Het derde boek bevat omzeggens mijn hele oeuvre qua gepubliceerde
 eindspelstudies, plus verscheidene recente originele composities:
 - **SchaakStudieSpinselS.** (2008)
 
-En hier ligt dan voor U de herziene en bovendien flink uitgebreide editie:
+En hier ligt dan voor U de herziene en bovendien flink uitgebreide editie:
 
 - **SchaakStudieSpinselS 2 met meer dan driehonderd eindspelen.**
 Componeren blijft immers een _neverending-stokpaardje._
