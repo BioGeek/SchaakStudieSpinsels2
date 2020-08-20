@@ -33,7 +33,7 @@ nooit grote geleerden of grote kunstenaars kunnen zien. Zo blijft het
 schaakspel altijd een soort stiefkind, maar de logica en de schoonheid ervan
 zullen door de eeuwen heen bewondering oogsten.
 
-Vooral in de eindspelstudie zijn wetenschap en schoonheid verenigd. Wie
+Vooral in de eindspelstudie zijn wetenschap en schoonheid verenigd. Wie
 voor het eerst kennis maakt met een mooie compositie zal niet op dezelfde
 manier ontroerd raken, als bij het aanschouwen of beluisteren van kunstwerken, maar wel zal hij of zij soms de adem inhouden als de rijkdom aan
 finesses van een mooie studie tot het brein, het grootste fenomeen van de

@@ -1,4 +1,4 @@
-Title: Ten Geleide
+Title: Ten Geleide
 Pageorder: 002
 
 <div style="text-align: right"><b>Daar ik partijschaken meer</b></div>
@@ -47,7 +47,7 @@ Het derde boek bevat omzeggens mijn hele oeuvre qua gepubliceerde
 eindspelstudies, plus verscheidene recente originele composities:
 - **SchaakStudieSpinselS.** (2008)
 
-En hier ligt dan voor U de herziene en bovendien flink uitgebreide editie:
+En hier ligt dan voor U de herziene en bovendien flink uitgebreide editie:
 
 - **SchaakStudieSpinselS 2 met meer dan driehonderd eindspelen.**
 Componeren blijft immers een _neverending-stokpaardje._
