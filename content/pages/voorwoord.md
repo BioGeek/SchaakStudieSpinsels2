@@ -1,7 +1,8 @@
 Title: Voorwoord
+Pageorder: 001
 
-> A thing of beauty is a joy for ever  
-> (Keats)
+<div style="text-align: right"><b>A thing of beauty is a joy for ever</b></div>
+<div style="text-align: right">(Keats)</div>
 
 Is een eindspelcomponist een kunstenaar? Onder de velen die zich met
 deze vraag hebben bezig gehouden, was de grote Hongaarse schaakmeester Géza Maroczy, een wereldtopper in het begin van de twintigste eeuw. Hij

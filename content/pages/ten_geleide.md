@@ -1,13 +1,14 @@
 Title: Ten Geleide
+Pageorder: 002
 
-<div style="text-align: right"><b>Daar ik partijschaken meer </b></div>
+<div style="text-align: right"><b>Daar ik partijschaken meer</b></div>
 <div style="text-align: right"><b>als pure proza bezie,</b></div>
 <div style="text-align: right"><b>en openingen dan weer</b></div>
 <div style="text-align: right"><b>als tactische theorie,</b></div>
 <div style="text-align: right"><b>zijn eindspelen veeleer</b></div>
 <div style="text-align: right"><b>onverhoopte poëzie,</b></div>
 <div style="text-align: right"><b>die ik koester en waardeer</b></div>
-<div style="text-align: right"><b>in een schone schaakstudie. </b></div>
+<div style="text-align: right"><b>in een schone schaakstudie.</b></div>
 
 Een gefantaseerd schaakeindspel, beter gekend als een schaakstudie, is
 een willekeurige opstelling van de schaakstukken, door een componist
@@ -37,17 +38,17 @@ kende toch de regels van het spel. Tot op heden is het ontleden en vooral
 het componeren van studies voor mij een verslavende hobby gebleven.
 
 De eerste borelingen heb ik bijeengebracht in het boek:
+
 - **64 Studies op 64 Velden.** (1994)
 Een tweede boek, in samenwerking met Julien Vandiest en Roger Missiaen, verscheen in het Engels onder de titel:
 - **Flemish Miniatures.** (1997)
 Het derde boek bevat omzeggens mijn hele oeuvre qua gepubliceerde
 eindspelstudies, plus verscheidene recente originele composities:
 - **SchaakStudieSpinselS.** (2008)
-14
 
 En hier ligt dan voor U de herziene en bovendien flink uitgebreide editie:
 
-- **SchaakStudieSpinselS 2** met meer dan driehonderd eindspelen.
+- **SchaakStudieSpinselS 2 met meer dan driehonderd eindspelen.**
 Componeren blijft immers een _neverending-stokpaardje._
 
 Al ben ik soms wel eens sceptisch omtrent de smaakbeoordeling of de
