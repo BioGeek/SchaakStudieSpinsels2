@@ -9,7 +9,8 @@ Pageorder: 002
 <div style="text-align: right"><b>onverhoopte poëzie,</b></div>
 <div style="text-align: right"><b>die ik koester en waardeer</b></div>
 <div style="text-align: right"><b>in een schone schaakstudie.</b></div>
-
+<br />
+<br />
 Een gefantaseerd schaakeindspel, beter gekend als een schaakstudie, is
 een willekeurige opstelling van de schaakstukken, door een componist
 bedacht, waarbij hij beweert winst of remise te kunnen bereiken op een

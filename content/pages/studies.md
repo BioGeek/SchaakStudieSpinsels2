@@ -1,5 +1,5 @@
 Title: Studies
 Pageorder: 011
 
-Finis coronat opus
-Het einde kroont het werk
+<div style="text-align: right"><b>Finis coronat opus</b></div>
+<div style="text-align: right"><b>Het einde kroont het werk</b></div>
