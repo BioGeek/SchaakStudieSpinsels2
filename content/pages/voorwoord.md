@@ -1,6 +1,4 @@
 Title: Voorwoord
-Date: 2020-08-20 20:38
-Category: hoofdstukken
 
 > A thing of beauty is a joy for ever  
 > (Keats)

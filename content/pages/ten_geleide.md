@@ -1,6 +1,4 @@
 Title: Ten Geleide
-Date: 2020-08-20 20:38
-Category: hoofdstukken
 
 <div style="text-align: right"><b>Daar ik partijschaken meer </b></div>
 <div style="text-align: right"><b>als pure proza bezie,</b></div>
