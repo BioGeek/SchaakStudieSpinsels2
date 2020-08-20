@@ -61,7 +61,7 @@ Pelican is een static site generator die paginas in Markdown omvormt naar HTML p
 
 Ik heb de laatste versie  van de pdf naar text omgezet. Hiermee verlies je dus alle formatting. De plain tekst moet opgedeeld worden in 1 Markdown document per eindspelstudie. Idem voor de paar inleidende hoofdstukken.
 
-Ik heb er al een paar gedaan, zie bv [Voorwoord](./pages/voorwoord.md) en [Ten geleide](./pages/ten_geleide.md). 
+Ik heb er al een paar gedaan, zie bv [Voorwoord](./content/pages/voorwoord.md) en [Ten geleide](./content/pages/ten_geleide.md). 
 
 
 
