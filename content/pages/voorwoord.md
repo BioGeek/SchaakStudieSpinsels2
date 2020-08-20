@@ -5,7 +5,7 @@ Pageorder: 001
 <div style="text-align: right">(Keats)</div>
 <br/>
 <br/>
-Is een eindspelcomponist een kunstenaar? Onder de velen die zich met
+Is een eindspelcomponist een kunstenaar? Onder de velen die zich met
 deze vraag hebben bezig gehouden, was de grote Hongaarse schaakmeester Géza Maroczy, een wereldtopper in het begin van de twintigste eeuw. Hij
 schreef daarover in zijn beroemd geworden Morphy-boek en benaderde de
 vraag in de vorm van een sprookje. Dat kwam ongeveer neer op het volgende:
