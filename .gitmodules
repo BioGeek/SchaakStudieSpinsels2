@@ -1,0 +1,3 @@
+[submodule "plugins/pelican_javascript"]
+	path = plugins/pelican_javascript
+	url = https://github.com/mortada/pelican_javascript.git
