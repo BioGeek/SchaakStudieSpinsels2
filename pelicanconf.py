@@ -18,6 +18,10 @@ SITEIMAGE = 'cover.jpg'
 # sort pages by attribute Pageorder (001, 002, ...)
 PAGE_ORDER_BY = 'pageorder'
 
+# Plugins
+PLUGIN_PATHS = ["./plugins/"]
+PLUGINS = ["pelican_javascript"]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
