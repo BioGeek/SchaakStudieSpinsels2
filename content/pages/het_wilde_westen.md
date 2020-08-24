@@ -1,5 +1,5 @@
 Title: Het Wilde Westen
-Pageorder: 012
+Pageorder: 320
 
 The struggle for life
 De strijd om ‘t bestaan

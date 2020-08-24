@@ -1,5 +1,5 @@
 Title: Mini - Studies
-Pageorder: 008
+Pageorder: 079
 
 
 <div style="text-align: right"><b>In der Beschränkung zeigt sich erst der Meister</b></div>

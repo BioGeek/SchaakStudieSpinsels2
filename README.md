@@ -86,6 +86,43 @@ Nog uit te zoeken, welke Javascript library te gebruiken:
 
 
 
+# Nummering:
+
+001     Voorwoord
+002     Ten Geleide
+003     Enkele Voor- en Nabeschouwingen
+004     You feel at ease in your command of English
+005     Een Fidele Boel
+006     Manke Maljutka’s (Nu hersteld)
+007     - 1 -
+... 
+033     - 27 -
+034     Maljutka’s (4 of 5 stukken op het bord)
+035     - 28 -
+...
+078     - 71 -
+079     Mini - Studies (of Ultra-miniaturen = 6 stukken op het bord)
+080     - 72 -
+...
+159     - 151 -
+160     Miniaturen (7 stukken op het bord)
+161     - 152 -
+...
+226     - 217 -
+227     Bijna - Miniaturen (8 stukken op het bord)
+228     - 218 -
+...
+272     - 262 -
+273     Studies (9 of meer stukken op het bord)
+274     - 263 -
+...
+319     - 308 -
+320     Het Wilde Westen
+321     De Bermuda Driehoek (Een probleem! Een record?)
+322     Een Vervelende Viervoeter
+323     Index = GBR code
+324     Recensies bij de eerste druk
+325     Colofon
 
 
 
