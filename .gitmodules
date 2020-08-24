@@ -1,3 +1,7 @@
 [submodule "plugins/pelican_javascript"]
 	path = plugins/pelican_javascript
 	url = https://github.com/mortada/pelican_javascript.git
+[submodule "themes/brutalist"]
+	path = themes/brutalist
+	url = https://github.com/BioGeek/brutalist.git
+	branch = schaakstudiespinsels
