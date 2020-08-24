@@ -4,21 +4,23 @@ Code voor de website [http://schaakstudiespinsels2.be/](http://schaakstudiespins
 
 Bevat in:
  * data: de brondocumenten met de text van het boek van Bompa
-     * schaakstudiespinsels2.pdf: dit is de printklare pdf die gebruikt is voor de gedrukte versie op [Lulu](https://www.lulu.com/de/de/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html). Dit is dus zeker de meest recente versie van de tekst.
-     * schaakstudiespinsels2.docx: de meest recente Word versie die ik heb teruggevonden, maar komt niet overeen met de inhoud van de pdf hierboven, dus is een oudere versie
-     * schaakstudiespinsels2_from_pdf.txt: plain text versie gegenereerd van de pdf
-     * schaakstudiespinsels2_from_docx.txt: plain text versie gegenereerd van de docx
+     * `schaakstudiespinsels2.pdf`: dit is de printklare pdf die gebruikt is voor de gedrukte versie op [Lulu](https://www.lulu.com/de/de/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html). Dit is dus zeker de meest recente versie van de tekst.
+     * `schaakstudiespinsels2.docx`: de meest recente Word versie die ik heb teruggevonden, maar komt niet overeen met de inhoud van de pdf hierboven, dus is een oudere versie
+     * `schaakstudiespinsels2_from_pdf.txt`: plain text versie gegenereerd van de pdf
+     * `schaakstudiespinsels2_from_docx.txt`: plain text versie gegenereerd van de docx
  * scripts: Python scripts om de text te parsen.
  * content: de tekst opgeplitst per hoofdstul/indspel studie in [Markdown](https://daringfireball.net/projects/markdown/) formaat. Dient als basis voor de [Pelican static site generator](https://docs.getpelican.com/en/stable/)
  * output: de html files die automatisch gegenereerd worden door Pelican op basis van de Markdown files
+ * plugins: De plugins die gebruikt worden. Momenteel enkel [pelican_javascript](https://github.com/mortada/pelican_javascript). Is geïnstaleerd als [git submodule](https://github.blog/2016-02-01-working-with-submodules/).
+ * themes: Het thema dat ik gekozen heb voor de website: [brutalist](https://github.com/mc-buckets/brutalist). Ik heb [een fork gemaakt met een branch `schaakstudiespinsels`](https://github.com/BioGeek/brutalist/tree/schaakstudiespinsels) waar ik nog wat extra wijzigingen heb aangebracht. Is ook geïnstaleerd als een git submodule.
 
 # Installatie
 
 Zie dat je Python 3.6 of hoger geïnstaleerd hebt.
 
-Clone deze repository
+Clone deze repository. De `--recursive` is nodig omdat ook de content van de submodules te downloaden.
 
-    git clone https://github.com/BioGeek/SchaakStudieSpinsels2.git 
+    git clone --recursive https://github.com/BioGeek/SchaakStudieSpinsels2.git 
 
 Ga in de folder:
 
@@ -76,6 +78,10 @@ Voor de eindspel studies wil ik een interactief Javascript schaakbord hebben dat
 Wat we hiervoor waarschijnlijk moeten doen is: 
 * elke studie omzetten in [PGN formaat](https://en.wikipedia.org/wiki/Portable_Game_Notation)
 * elke de startpositie omzetten in [FEN formaat](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation)
+
+Nog uit te zoeken, welke Javascript library te gebruiken:
+* [chessboard.js](https://chessboardjs.com/) + [chess.js](https://github.com/jhlywa/chess.js)
+* [Ab-Chess](https://nimzozo.github.io/Ab-Chess/)
 
 
 
