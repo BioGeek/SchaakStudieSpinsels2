@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'nl'
 
-THEME = "/home/jervan/github/pelican-themes/brutalist"
+THEME = "themes/brutalist"
 SITEIMAGE = 'cover.jpg'
 
 # sort pages by attribute Pageorder (001, 002, ...)
