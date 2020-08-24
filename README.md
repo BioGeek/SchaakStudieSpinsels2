@@ -1,5 +1,7 @@
 # SchaakStudieSpinsels2
 
+Code voor de website [http://schaakstudiespinsels2.be/](http://schaakstudiespinsels2.be/).
+
 Bevat in:
  * data: de brondocumenten met de text van het boek van Bompa
      * schaakstudiespinsels2.pdf: dit is de printklare pdf die gebruikt is voor de gedrukte versie op [Lulu](https://www.lulu.com/de/de/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html). Dit is dus zeker de meest recente versie van de tekst.
