@@ -82,6 +82,7 @@ Wat we hiervoor waarschijnlijk moeten doen is:
 Nog uit te zoeken, welke Javascript library te gebruiken:
 * [chessboard.js](https://chessboardjs.com/) + [chess.js](https://github.com/jhlywa/chess.js)
 * [Ab-Chess](https://nimzozo.github.io/Ab-Chess/)
+* [PgnViewerJS](https://github.com/mliebelt/PgnViewerJS): ziet er veelbelovend uit, maar moet geïnstaleerd worden met `npm` wat niet goed samenwerkt met `Pelican`.
 
 Zien of we de studies kunnen koppelen/laten checken door endgame tablesbases zoals:
  * [Syzygy endgame tablebases](https://syzygy-tables.info/): alle studies tot 7 stukken
