@@ -135,7 +135,13 @@ Potentieel ook interessant:
     324     Recensies bij de eerste druk
     325     Colofon
 
+# 3D book cover
 
+Vervang de cover image met:
+
+    <script src="https://3dbook.xyz/books/5f9833d709347300172fa70c/cover.js"></script>
+
+    
 
 
 
