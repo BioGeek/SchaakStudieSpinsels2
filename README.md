@@ -26,6 +26,10 @@ Ga in de folder:
 
     cd SchaakStudieSpinsels2
 
+Activeer de submodule
+
+    git submodule update --init --recursive
+
 [Instaleer/update `pip` en maak een virtuele environment aan](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 Op Windows:
@@ -89,7 +93,7 @@ Zien of we de studies kunnen koppelen/laten checken door endgame tablesbases zoa
      * [lila-tablebase](https://github.com/niklasf/lila-tablebase): public API voor bovenstaande tablebase, accepteert FEN strings
  * [Lomonosov tablebases](http://tb7.chessok.com/): alle studies tot en met 7 stukken, maar is niet gratis
  * [Shredder Endgame Database](http://rgvtxchess.org/page.php?93): alle studies met 3, 4, 5 en 6 (uitgezonderd 5 tegen 1) stukken
- * [http://www.k4it.de/?topic=egtb&lang=en](Nalimov Endgame Tablebases): alle studies tot en met 6 stukken
+ * [Nalimov Endgame Tablebase](http://www.k4it.de/?topic=egtb&lang=en): alle studies tot en met 6 stukken
 
 
 Potentieel ook interessant:
