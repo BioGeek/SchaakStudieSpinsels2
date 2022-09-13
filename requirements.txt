@@ -2,6 +2,7 @@ blinker==1.5
 commonmark==0.9.1
 docutils==0.19
 feedgenerator==2.0.0
+ghp-import==2.1.0
 importlib-metadata==4.12.0
 invoke==1.7.1
 Jinja2==3.1.2

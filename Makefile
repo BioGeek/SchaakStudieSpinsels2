@@ -8,14 +8,14 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=207.38.94.7
-FTP_USER=ninikske
+FTP_HOST=
+FTP_USER=
 FTP_TARGET_DIR=webapps/schaakstudiespinsels2
 
-SSH_HOST=207.38.94.7
+SSH_HOST=
 SSH_PORT=22
-SSH_USER=ninikske
-SSH_TARGET_DIR=webapps/schaakstudiespinsels2
+SSH_USER=
+SSH_TARGET_DIR=
 
 
 DEBUG ?= 0
@@ -78,8 +78,13 @@ else
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 endif
 
-publish:
+publish_old:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+publish:
+	ghp-import --cname=schaakstudiespinsels2.be  output
+	git push origin gh-pages
+	
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
