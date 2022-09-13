@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=
 FTP_USER=
-FTP_TARGET_DIR=webapps/schaakstudiespinsels2
+FTP_TARGET_DIR=
 
 SSH_HOST=
 SSH_PORT=22
