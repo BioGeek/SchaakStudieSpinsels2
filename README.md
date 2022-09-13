@@ -66,6 +66,13 @@ Draai de site lokaal:
 Open nu in een browser [http://localhost:8000/](http://localhost:8000/)
 
 
+# Publis to Github pages
+
+```
+make publish
+
+```
+
 # TODOs
 
 Pelican is een static site generator die paginas in Markdown omvormt naar HTML paginas.
