@@ -65,8 +65,27 @@ Draai de site lokaal:
 
 Open nu in een browser [http://localhost:8000/](http://localhost:8000/)
 
+## submodules
+
+Het [brutalist thema is geïnstalleerd als submodule](https://github.com/BioGeek/SchaakStudieSpinsels2/tree/master/themes) van de [`schaakstudiespinsels` branch van mijn fork](https://github.com/BioGeek/brutalist/tree/schaakstudiespinsels).
+
+Als je veranderingen daarin aanbrengt moet je die pushen met:
+
+```
+cd themses/brutalist
+git add templates/index.html # voorbeeld
+git commit -m "Add review qoutes to frontpage" # voorbeeld
+git push origin HEAD:schaakstudiespinsels
+```
 
 # Publis to Github pages
+
+```
+ghp-import --cname=schaakstudiespinsels2.be  output
+git push origin gh-pages
+```
+
+of, korter:
 
 ```
 make publish
