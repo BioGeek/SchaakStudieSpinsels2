@@ -78,7 +78,7 @@ git commit -m "Add review qoutes to frontpage" # voorbeeld
 git push origin HEAD:schaakstudiespinsels
 ```
 
-# Publis to Github pages
+# Publish to Github pages
 
 ```
 ghp-import --cname=schaakstudiespinsels2.be  output
