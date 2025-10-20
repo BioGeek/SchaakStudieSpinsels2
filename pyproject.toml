@@ -24,6 +24,7 @@ dependencies = [
     "pelican>=4.11.0",
     "plotly>=6.3.1",
     "pygments>=2.18.0",
+    "pymupdf>=1.26.5",
     "python-dateutil>=2.9.0.post0",
     "pytz>=2025.2",
     "rich>=14.1.0",
