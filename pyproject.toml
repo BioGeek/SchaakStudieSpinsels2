@@ -1,0 +1,35 @@
+[project]
+name = "schaakstudiespinsels2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "blinker>=1.9.0",
+    "commonmark>=0.9.1",
+    "docutils>=0.21.2",
+    "feedgenerator>=2.2.0",
+    "ghp-import>=2.1.0",
+    "importlib-metadata>=8.7.0",
+    "invoke>=2.2.0",
+    "ipykernel>=6.30.0",
+    "jinja2>=3.1.6",
+    "llm>=0.27.1",
+    "lxml>=6.0.0",
+    "markdown>=3.8.2",
+    "markupsafe>=3.0.2",
+    "matplotlib>=3.10.3",
+    "nbformat>=4.2.0",
+    "pandas>=2.3.1",
+    "pelican>=4.11.0",
+    "plotly>=6.3.1",
+    "pygments>=2.18.0",
+    "python-dateutil>=2.9.0.post0",
+    "pytz>=2025.2",
+    "rich>=14.1.0",
+    "seaborn>=0.13.2",
+    "six>=1.17.0",
+    "typing-extensions>=4.14.1",
+    "unidecode>=1.4.0",
+    "zipp>=3.23.0",
+]
