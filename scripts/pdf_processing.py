@@ -273,14 +273,40 @@ def extract_and_save_content(doc, structure, base_dir):
             diagram_rect = extract_diagram(start_page, study['number'])
             
             if diagram_rect:
-                new_doc = pymupdf.open()
-                new_page = new_doc.new_page(width=diagram_rect.width, height=diagram_rect.height)
-                new_page.show_pdf_page(new_page.rect, doc, start_page_num, clip=diagram_rect)
+                # Render the diagram region to a high-resolution image
+                mat = start_page.get_pixmap(matrix=pymupdf.Matrix(3, 3), clip=diagram_rect)
+                img_data = mat.tobytes("png")
                 
-                diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.pdf"
-                new_doc.save(str(diagram_path))
-                new_doc.close()
-                print(f"  Saved diagram to {diagram_path.name}")
+                # Load into numpy array for processing
+                nparr = np.frombuffer(img_data, np.uint8)
+                img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+                
+                # Convert to grayscale for contour detection
+                gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+                
+                # Threshold to find the checkerboard
+                _, binary = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY_INV)
+                
+                # Find contours
+                contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                
+                if contours:
+                    # Find the largest contour (the checkerboard)
+                    largest_contour = max(contours, key=cv2.contourArea)
+                    x, y, w, h = cv2.boundingRect(largest_contour)
+                    
+                    # Crop to the tight bounding box
+                    cropped = img[y:y+h, x:x+w]
+                    
+                    # Save as PNG image
+                    diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.png"
+                    cv2.imwrite(str(diagram_path), cropped)
+                    print(f"  Saved diagram to {diagram_path.name}")
+                else:
+                    # Fallback: save the full rect if no contours found
+                    diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.png"
+                    mat.save(str(diagram_path))
+                    print(f"  Saved diagram to {diagram_path.name} (no crop applied)")
 
             # --- Column Extraction (temporary) ---
             temp_columns = []
