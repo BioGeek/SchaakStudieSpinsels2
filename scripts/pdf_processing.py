@@ -4,8 +4,6 @@ from pathlib import Path
 import os
 import cv2
 import numpy as np
-from PIL import Image
-import io
 
 
 def sanitize_filename(name):
@@ -55,13 +53,16 @@ def create_directory_structure(pdf_path, chapters_of_interest):
     # Find all pages where a new study begins
     study_regex = re.compile(r"-\s*(\d+)\s*-")
     study_locations = []
+    seen = set()
     for i, page in enumerate(doc):
         # A study starts with a header like '- 1 -' typically at the top of a column.
         # We check the top half of the page to be more specific.
         page_top_half = page.get_text("text", clip=pymupdf.Rect(0, 0, page.rect.width, page.rect.height / 2))
         match = study_regex.search(page_top_half)
         if match:
-            study_locations.append({'number': int(match.group(1)), 'start_page': i})
+            if int(match.group(1)) not in seen:
+                study_locations.append({'number': int(match.group(1)), 'start_page': i})
+                seen.add(int(match.group(1)))
 
     # Create a sorted list of all break points (start of a new chapter or the end of the document)
     break_points = sorted(list(chapter_locations.values()) + [len(doc)])
@@ -116,15 +117,25 @@ def find_page_number_region(page, page_num):
     page_num_instances = page.search_for(printed_page_num)
     
     if page_num_instances:
-        # Find the lowest occurrence (closest to bottom)
-        lowest_y = 0
-        for rect in page_num_instances:
-            if rect.y0 > lowest_y:
-                lowest_y = rect.y0
+        # Find instances that are likely page numbers (in bottom 20% of page)
+        # and relatively isolated (not surrounded by much other text)
+        bottom_threshold = height * 0.8
         
-        # Exclude everything from slightly above the page number
-        if lowest_y > height - 100:  # Only if it's in the bottom portion
-            return lowest_y - 5
+        for rect in page_num_instances:
+            # Check if it's in the bottom portion
+            if rect.y0 > bottom_threshold:
+                # Check if this is an isolated number (page number)
+                # by examining text around it
+                search_area = pymupdf.Rect(
+                    rect.x0 - 20, rect.y0 - 10,
+                    rect.x1 + 20, rect.y1 + 10
+                )
+                nearby_text = page.get_text("text", clip=search_area).strip()
+                
+                # If the nearby text is just the number (or number with minimal whitespace),
+                # it's likely a page number
+                if nearby_text.replace('\n', '').replace(' ', '') == printed_page_num:
+                    return rect.y0 - 5
     
     # Default: exclude bottom 40 points
     return height - 40
@@ -148,14 +159,7 @@ def extract_diagram(page, study_number):
         # Convert to OpenCV format
         nparr = np.frombuffer(img_data, np.uint8)
         img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-        # Save the rendered image to a subfolder for debugging
-        import os
-        subfolder = "diagram_images"
-        os.makedirs(subfolder, exist_ok=True)
-        
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        # filename = os.path.join(subfolder, f"study_{study_number}_page_{page.number + 1}_gray.png")
-        # cv2.imwrite(filename, gray)
         
         # Apply binary threshold to enhance checkerboard pattern
         _, binary = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY_INV)
@@ -166,16 +170,9 @@ def extract_diagram(page, study_number):
         # Look for square-ish contours that could be the checkerboard
         candidates = []
         
-        for i, contour in enumerate(contours):
+        for contour in contours:
             # Get bounding rectangle
             x, y, w, h = cv2.boundingRect(contour)
-            # Draw rectangle on the grayscale image and save it for debugging
-            debug_img = gray.copy()
-            RED = (0, 0, 255)
-            cv2.rectangle(debug_img, (x, y), (x + w, y + h), RED, 3)
-            debug_filename = os.path.join(subfolder, f"study_{study_number}_page_{page.number + 1}_{i}rect.png")
-            cv2.imwrite(debug_filename, debug_img)
-
             area = w * h
             
             # Filter for reasonably sized, square-ish regions
@@ -187,7 +184,7 @@ def extract_diagram(page, study_number):
             aspect_ratio = w / h if h > 0 else 0
             
             # Should be roughly square
-            if 0.85 <= aspect_ratio <= 1.15:
+            if 0.85 <= aspect_ratio <= 1.35:
 
                 candidates.append({'rect': (x, y, w, h), 'area': area, 'aspect': aspect_ratio})
         
@@ -271,6 +268,19 @@ def extract_and_save_content(doc, structure, base_dir):
 
             print(f"\nProcessing study {study['number']} (pages {start_page_num}-{end_page_num})")
 
+            # --- Diagram Extraction ---
+            start_page = doc.load_page(start_page_num)
+            diagram_rect = extract_diagram(start_page, study['number'])
+            
+            if diagram_rect:
+                new_doc = pymupdf.open()
+                new_page = new_doc.new_page(width=diagram_rect.width, height=diagram_rect.height)
+                new_page.show_pdf_page(new_page.rect, doc, start_page_num, clip=diagram_rect)
+                
+                diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.pdf"
+                new_doc.save(str(diagram_path))
+                new_doc.close()
+                print(f"  Saved diagram to {diagram_path.name}")
 
             # --- Column Extraction (temporary) ---
             temp_columns = []
@@ -280,7 +290,7 @@ def extract_and_save_content(doc, structure, base_dir):
                 page = doc.load_page(page_num)
                 width = page.rect.width
                 mid_point = width / 2
-                    
+                
                 # Find where page number region starts
                 content_height = find_page_number_region(page, page_num)
 
@@ -290,30 +300,28 @@ def extract_and_save_content(doc, structure, base_dir):
                     pymupdf.Rect(mid_point, 0, width, content_height)
                 ]
 
-                for rect in col_rects:
+                for col_idx, rect in enumerate(col_rects):
+                    # Skip the left column if this is the start page and study begins in right column
+                    # Detect this by checking if the study header appears in the right column
+                    if page_num == start_page_num and col_idx == 0:
+                        # Check if study header is in the right column
+                        right_col_rect = pymupdf.Rect(mid_point, 0, width, content_height)
+                        right_col_text = page.get_text("text", clip=right_col_rect)
+                        study_header_pattern = f"- {study['number']} -"
+                        
+                        if study_header_pattern in right_col_text:
+                            # Study starts in right column, skip left column
+                            print(f"  Study {study['number']}: Starts in right column, skipping left column")
+                            continue
+                    
                     new_doc = pymupdf.open()
                     new_page = new_doc.new_page(width=rect.width, height=rect.height)
                     new_page.show_pdf_page(new_page.rect, doc, page_num, clip=rect)
-
-                    if col_counter == 1:
-                        # --- Diagram Extraction ---
-                        diagram_rect = extract_diagram(new_page, study['number'])
-                        
-                        if diagram_rect:
-                            diagram_doc = pymupdf.open()
-                            diagram_page = diagram_doc.new_page(width=diagram_rect.width, height=diagram_rect.height)
-                            diagram_page.show_pdf_page(diagram_page.rect, doc, start_page_num, clip=diagram_rect)
-                            
-                            diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.pdf"
-                            diagram_doc.save(str(diagram_path))
-                            diagram_doc.close()
-                            print(f"  Saved diagram to {diagram_path.name}")
-
+                    
                     col_path = study_dir / f"temp_col{col_counter:02d}.pdf"
                     new_doc.save(str(col_path))
                     new_doc.close()
                     temp_columns.append(col_path)
-
                     col_counter += 1
 
             # --- Combine all columns into a single PDF ---
