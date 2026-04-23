@@ -172,6 +172,13 @@ Vervang de cover image met:
     <script src="https://3dbook.xyz/books/5f9833d709347300172fa70c/cover.js"></script>
 
     
+# Structure
 
-
+The structure is clear now. Key observations:
+  - Left column: diagram image + GBR code (4001.00 d1b3) + result sign (+/=) + intro text + start of solution
+  - Right column: continuation of solution + variants (A, B, a), b)...)
+  - Notation is Dutch (K=Koning, D=Dame, T=Toren, L=Loper, P=Paard; pawns lowercase)
+  - Variants branch via Variant A/B (top-level) and a), b) (sub-variants)
+  - Back-references like (zie zet 2.) / (zie zet 5.) link into the main line
+  - Source attribution sits just under the - N - header (e.g. "Origineel, 2008", "EBUR, 1999")
 

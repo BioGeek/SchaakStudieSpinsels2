@@ -130,3 +130,21 @@ dmypy.json
 
 # Pelican specific
 output
+
+# Editor
+.vscode/
+
+# Scratch / work-in-progress
+analysis copy.ipynb
+
+# Derived ingestion artifacts — regenerable from data/schaakstudiespinsels2.pdf
+# (do not commit these; commit the source PDF + scripts/ instead)
+data/debug/
+data/endgames/
+data/md/
+
+# Node / Astro
+node_modules/
+dist/
+.astro/
+pnpm-debug.log*

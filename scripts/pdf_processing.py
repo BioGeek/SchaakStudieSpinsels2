@@ -4,7 +4,9 @@ from pathlib import Path
 import os
 import cv2
 import numpy as np
-
+import cv2
+import numpy as np
+from operator import itemgetter
 
 def sanitize_filename(name):
     """
@@ -140,6 +142,189 @@ def find_page_number_region(page, page_num):
     # Default: exclude bottom 40 points
     return height - 40
 
+def extract_piece_templates(template_image_path, debug_dir=None):
+    """
+    Extracts individual chess piece templates from the template image.
+    Saves debug images of contours and individual templates if debug_dir is provided.
+    """
+    templates = {}
+    template_image = cv2.imread(template_image_path)
+    if template_image is None:
+        raise FileNotFoundError(f"Template image not found at {template_image_path}")
+
+    gray_template = cv2.cvtColor(template_image, cv2.COLOR_BGR2GRAY)
+    _, thresh = cv2.threshold(gray_template, 200, 255, cv2.THRESH_BINARY_INV)
+    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    piece_names = ["K", "Q", "R", "B", "N", "P"]
+    if len(contours) < len(piece_names):
+        print("Warning: Fewer contours found than the expected number of piece types.")
+        return {}
+
+    contours = sorted(contours, key=lambda c: cv2.boundingRect(c)[0])
+    
+    # --- Debug Logging ---
+    if debug_dir:
+        # Ensure debug directory exists
+        os.makedirs(debug_dir, exist_ok=True)
+        
+        # Draw contours on the original template image for visualization
+        debug_template_image = template_image.copy()
+        cv2.drawContours(debug_template_image, contours, -1, (0, 255, 0), 2)
+        cv2.imwrite(os.path.join(debug_dir, "1_template_contours.png"), debug_template_image)
+    # --- End Debug ---
+
+    for i, contour in enumerate(contours):
+        if i < len(piece_names):
+            x, y, w, h = cv2.boundingRect(contour)
+            piece_template = gray_template[y:y+h, x:x+w]
+            templates[piece_names[i]] = piece_template
+
+            # --- Debug Logging ---
+            if debug_dir:
+                # Ensure debug directory exists
+                os.makedirs(debug_dir, exist_ok=True)
+                
+                # Save each extracted template image
+                template_filename = os.path.join(debug_dir, f"2_template_{piece_names[i]}.png")
+                cv2.imwrite(template_filename, piece_template)
+            # --- End Debug ---
+            
+    return templates
+
+
+def detect_chessboard_and_squares(image_path, debug_dir=None):
+    """
+    Detects the chessboard and extracts its 64 squares.
+    Saves a debug image of the board with a grid if debug_dir is provided.
+    """
+    board_image = cv2.imread(image_path)
+    if board_image is None:
+        raise FileNotFoundError(f"Board image not found at {image_path}")
+
+    gray_board = cv2.cvtColor(board_image, cv2.COLOR_BGR2GRAY)
+    height, width = gray_board.shape
+    square_size = width // 8
+    
+    squares = []
+    for i in range(8):
+        for j in range(8):
+            square = gray_board[i*square_size:(i+1)*square_size, j*square_size:(j+1)*square_size]
+            squares.append(((i, j), square))
+
+    # --- Debug Logging ---
+    if debug_dir:
+        # Ensure debug directory exists
+        os.makedirs(debug_dir, exist_ok=True)
+        
+        debug_board_image = board_image.copy()
+        for i in range(1, 8):
+            # Draw vertical lines
+            cv2.line(debug_board_image, (i * square_size, 0), (i * square_size, height), (0, 255, 0), 2)
+            # Draw horizontal lines
+            cv2.line(debug_board_image, (0, i * square_size), (width, i * square_size), (0, 255, 0), 2)
+        board_image_filename = os.path.basename(image_path)
+        board_image_name, _ = os.path.splitext(board_image_filename)
+        debug_filename = f"3_board_grid_{board_image_name}.png"
+        abs_debug_path = os.path.abspath(os.path.join(debug_dir, debug_filename))
+        cv2.imwrite(abs_debug_path, debug_board_image)
+        print(f"Debug board grid image saved at {abs_debug_path}")
+    # --- End Debug ---
+            
+    return board_image, squares
+
+
+def identify_pieces(original_board_image, squares, templates, debug_dir=None):
+    """
+    Identifies pieces on the board by color and shape.
+    Saves a detailed debug image annotating each square if debug_dir is provided.
+    """
+    board_representation = [['1' for _ in range(8)] for _ in range(8)]
+    debug_annotated_board = original_board_image.copy() if debug_dir else None
+
+    BLACK_PIECE_THRESHOLD = 100
+    WHITE_PIECE_THRESHOLD = 180
+    LIGHT_SQUARE_INTENSITY = 191
+    DARK_SQUARE_INTENSITY = 168
+
+    for (row, col), square in squares:
+        avg_intensity = np.mean(square)
+        piece_color = None
+
+        if avg_intensity < BLACK_PIECE_THRESHOLD:
+            piece_color = 'b'
+        elif avg_intensity > WHITE_PIECE_THRESHOLD:
+            piece_color = 'w'
+
+        # Determine square color based on intensity
+        square_color = "Light" if avg_intensity > (LIGHT_SQUARE_INTENSITY + DARK_SQUARE_INTENSITY) / 2 else "Dark"
+        piece_info_for_debug = f"I:{int(avg_intensity)} {square_color}"
+        
+        if piece_color:
+            best_match_shape = (None, -1)
+            
+            for name, template in templates.items():
+                if template.shape[0] > square.shape[0] or template.shape[1] > square.shape[1]:
+                    template = cv2.resize(template, (square.shape[1]-10, square.shape[0]-10))
+
+                res = cv2.matchTemplate(square, template, cv2.TM_CCOEFF_NORMED)
+                _, max_val, _, _ = cv2.minMaxLoc(res)
+
+                if max_val > best_match_shape[1]:
+                    best_match_shape = (name, max_val)
+            
+            confidence_threshold = 0.7
+            if best_match_shape[1] > confidence_threshold:
+                piece_char = best_match_shape[0]
+                board_representation[row][col] = piece_color + piece_char
+                piece_info_for_debug += f" {piece_color}{piece_char}({best_match_shape[1]:.2f})"
+            else:
+                piece_info_for_debug += f" NoMatch({best_match_shape[1]:.2f})"
+
+        # --- Debug Logging ---
+        if debug_dir:
+            square_size = square.shape[0]
+            # Position text to avoid overlap - use smaller font and better positioning
+            text_pos = (col * square_size + 2, row * square_size + 12)
+            cv2.putText(debug_annotated_board, piece_info_for_debug, text_pos, 
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.3, (0, 0, 255), 1)
+        # --- End Debug ---
+
+    # --- Debug Logging ---
+    if debug_dir:
+        # Ensure debug directory exists
+        os.makedirs(debug_dir, exist_ok=True)
+        
+        cv2.imwrite(os.path.join(debug_dir, "4_final_detection_annotated.png"), debug_annotated_board)
+    # --- End Debug ---
+            
+    return board_representation
+
+def board_to_fen(board_representation):
+    """
+    Converts the internal 2D board representation to a FEN string.
+    """
+    fen = ""
+    for row in board_representation:
+        empty_squares = 0
+        for square in row:
+            if square == '1':
+                empty_squares += 1
+            else:
+                if empty_squares > 0:
+                    fen += str(empty_squares)
+                    empty_squares = 0
+                
+                piece_color, piece_type = square[0], square[1]
+                fen += piece_type.upper() if piece_color == 'w' else piece_type.lower()
+        
+        if empty_squares > 0:
+            fen += str(empty_squares)
+        
+        fen += "/"
+        
+    return fen.rstrip('/') + " w KQkq - 0 1"
+
 def extract_diagram(page, study_number):
     """
     Extracts the chess diagram from a page using OpenCV to detect the checkerboard pattern.
@@ -245,7 +430,7 @@ def extract_diagram(page, study_number):
     
     raise ValueError(f"  Study {study_number}: Could not locate diagram")
 
-def extract_and_save_content(doc, structure, base_dir):
+def extract_and_save_content(doc, structure, base_dir, piece_templates):
     """
     Iterates through the structured data, extracts diagrams and columns for each
     endgame study, and saves them to the appropriate folders.
@@ -254,6 +439,7 @@ def extract_and_save_content(doc, structure, base_dir):
         doc (pymupdf.Document): The opened PDF document.
         structure (dict): The dictionary containing the book structure.
         base_dir (str): The root directory for the output.
+        piece_templates (dict): A dictionary of piece templates.
     """
     for chapter_name, studies in structure.items():
         chapter_dir = Path(base_dir) / chapter_name
@@ -302,11 +488,25 @@ def extract_and_save_content(doc, structure, base_dir):
                     diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.png"
                     cv2.imwrite(str(diagram_path), cropped)
                     print(f"  Saved diagram to {diagram_path.name}")
+
+                    # Extract FEN from the diagram
+                    board_image_gray, board_squares = detect_chessboard_and_squares(diagram_path, debug_dir='data/debug')
+
+                    # Step 3: Identify pieces on the board
+                    board_state = identify_pieces(board_image_gray, board_squares, piece_templates, debug_dir='data/debug')
+
+                    # Step 4: Convert the board state to FEN
+                    fen_notation = board_to_fen(board_state)
+
+                    if fen_notation:
+                        fen_path = study_dir / "fen.txt"
+                        with open(fen_path, 'w') as f:
+                            f.write(fen_notation)
+                        print(f"  Saved FEN to fen.txt")
+
+
                 else:
-                    # Fallback: save the full rect if no contours found
-                    diagram_path = study_dir / f"endgame{study['number']:03d}_diagram.png"
-                    mat.save(str(diagram_path))
-                    print(f"  Saved diagram to {diagram_path.name} (no crop applied)")
+                    raise ValueError(f"  Study {study['number']}: Could not locate diagram")
 
             # --- Column Extraction (temporary) ---
             temp_columns = []
@@ -390,9 +590,13 @@ def main():
 
     print("Parsing PDF and creating directory structure...")
     doc, structure = create_directory_structure(pdf_path, chapters_to_process)
+
+    piece_templates = extract_piece_templates("data/template.png")
+    if not piece_templates:
+        raise ValueError("Could not extract piece templates. Exiting.")
     
     print("\nExtracting diagrams and columns for each study...")
-    extract_and_save_content(doc, structure, base_output_dir)
+    extract_and_save_content(doc, structure, base_output_dir, piece_templates)
     
     doc.close()
     print(f"\n{'='*60}")
