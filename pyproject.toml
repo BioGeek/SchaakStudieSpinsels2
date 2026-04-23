@@ -22,6 +22,7 @@ dependencies = [
     "nbformat>=4.2.0",
     "pandas>=2.3.1",
     "pelican>=4.11.0",
+    "python-chess>=1.999",
     "plotly>=6.3.1",
     "pygments>=2.18.0",
     "pymupdf>=1.26.5",
