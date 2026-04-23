@@ -19,17 +19,28 @@ DST_EN = ROOT / "src" / "content" / "pages" / "en"
 
 HEADER_RE = re.compile(r"^(?P<k>[A-Za-z]+):\s*(?P<v>.*)$")
 
+# C0 control characters other than tab (0x09), newline (0x0a) and carriage
+# return (0x0d). The source .md files contain embedded form-feed (0x0c)
+# bytes — artefacts of the original Word → text → Markdown conversion —
+# and Python's `splitlines()` would treat them as line breaks, corrupting
+# both the header parse and the body text. Strip defensively across the
+# whole file, not just the header, so ported pages are consistently clean.
+_CTRL_CHARS = "".join(chr(c) for c in range(0x20) if c not in (0x09, 0x0A, 0x0D))
+_CTRL_TABLE = str.maketrans("", "", _CTRL_CHARS)
+
+
+def scrub_controls(text: str) -> str:
+    """Remove stray C0 control chars (except tab/LF/CR) from any text."""
+    return text.translate(_CTRL_TABLE)
+
 
 def parse_pelican_header(text: str) -> tuple[dict[str, str], str]:
     """Split a Pelican-style `Key: Value` header from the body.
 
-    Uses plain `\\n` splitting (not `splitlines()`) because several of the
-    source files contain embedded form-feed / vertical-tab bytes that
-    `splitlines()` would treat as line breaks and corrupt the header.
+    Assumes `text` has already been passed through `scrub_controls`.
+    Uses plain `\\n` splitting (not `splitlines()`) to avoid treating any
+    residual vertical whitespace as a line break.
     """
-    # Scrub stray control characters from header values — they're artefacts of
-    # the original Word → text → Markdown conversion and carry no meaning.
-    text = text.replace("\f", "").replace("\v", "")
     lines = text.split("\n")
     headers: dict[str, str] = {}
     i = 0
@@ -55,7 +66,8 @@ def yaml_escape(s: str) -> str:
 
 
 def port_one(md: Path) -> None:
-    headers, body = parse_pelican_header(md.read_text(encoding="utf-8"))
+    raw = md.read_text(encoding="utf-8")
+    headers, body = parse_pelican_header(scrub_controls(raw))
     if "Title" not in headers or "Pageorder" not in headers:
         print(f"skip (no Title/Pageorder): {md}", file=sys.stderr)
         return
