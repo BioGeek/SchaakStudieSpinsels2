@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: theme('fontFamily.serif');
+    background: theme('colors.paper.light');
+    color: theme('colors.ink.DEFAULT');
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      background: theme('colors.paper.dark');
+      color: #f0e8d5;
+    }
+  }
+
+  h1, h2, h3 {
+    font-family: theme('fontFamily.display');
+    letter-spacing: 0.02em;
+  }
+
+  /* Small-caps cover feel for top-level titles */
+  h1.title {
+    font-variant-caps: small-caps;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+}

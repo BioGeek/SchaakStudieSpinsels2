@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+import LanguageToggle from '../components/LanguageToggle.astro';
+import { t, type Locale } from '../i18n/ui';
+
+interface Props {
+  title: string;
+  locale: Locale;
+  pathSansLocale: string; // e.g. "/studies/001"
+}
+
+const { title, locale, pathSansLocale } = Astro.props;
+const siteTitle = t(locale, 'site.title');
+const pageTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    />
+  </head>
+  <body class="min-h-screen antialiased">
+    <header class="border-b border-ink-muted/30">
+      <div class="mx-auto flex max-w-5xl items-baseline justify-between px-6 py-5">
+        <a href={`/${locale}/`} class="font-display text-xl tracking-wide">
+          <span style="font-variant-caps: small-caps; letter-spacing: 0.08em;">
+            {t(locale, 'site.title')}
+          </span>
+        </a>
+        <nav class="flex items-baseline gap-6 text-sm">
+          <a href={`/${locale}/chapters/`} class="hover:text-accent">
+            {t(locale, 'nav.chapters')}
+          </a>
+          <a href={`/${locale}/studies/`} class="hover:text-accent">
+            {t(locale, 'nav.studies')}
+          </a>
+          <LanguageToggle locale={locale} pathSansLocale={pathSansLocale} />
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-6 py-10">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-ink-muted/30 py-6 text-center text-sm text-ink-muted">
+      <p>&copy; Ignace Vandecasteele</p>
+    </footer>
+  </body>
+</html>

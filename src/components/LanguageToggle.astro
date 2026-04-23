@@ -1,0 +1,33 @@
+---
+import { t, locales, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  pathSansLocale: string;
+}
+
+const { locale, pathSansLocale } = Astro.props;
+const other: Locale = locale === 'nl' ? 'en' : 'nl';
+const href = `/${other}${pathSansLocale}`;
+---
+
+<a
+  href={href}
+  class="text-sm hover:text-accent"
+  data-lang-switch
+  data-target-locale={other}
+>
+  {t(locale, 'lang.switch')}
+</a>
+
+<script>
+  // Persist the reader's language preference across visits. The server already
+  // emits a fully-routed href; this script only records the choice so that
+  // entry-points like "/" can jump to the last-used locale.
+  document.querySelectorAll<HTMLAnchorElement>('[data-lang-switch]').forEach((el) => {
+    el.addEventListener('click', () => {
+      const target = el.dataset.targetLocale;
+      if (target) localStorage.setItem('ssp2.locale', target);
+    });
+  });
+</script>

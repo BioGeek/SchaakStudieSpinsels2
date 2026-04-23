@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { locales, type Locale } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((p: CollectionEntry<'pages'>) => {
+    const [locale, ...rest] = p.id.replace(/\.(md|mdx)$/, '').split('/');
+    return {
+      params: { locale, slug: rest.join('/') },
+      props: { entry: p },
+    };
+  });
+}
+
+interface Props {
+  entry: CollectionEntry<'pages'>;
+}
+
+const { entry } = Astro.props;
+const locale = Astro.params.locale as Locale;
+const { Content } = await entry.render();
+const pathSansLocale = '/' + entry.slug.replace(/^(nl|en)\//, '') + '/';
+---
+
+<BaseLayout title={entry.data.title} locale={locale} pathSansLocale={pathSansLocale}>
+  <article class="prose prose-lg mx-auto">
+    <h1 class="title text-center text-4xl">{entry.data.title}</h1>
+    <Content />
+  </article>
+</BaseLayout>

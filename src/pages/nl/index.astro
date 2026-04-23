@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../i18n/ui';
+
+const locale = 'nl';
+const pages = (await getCollection('pages', (p) => p.id.startsWith('nl/')))
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title={t(locale, 'site.title')} locale={locale} pathSansLocale="/">
+  <section class="prose prose-lg mx-auto">
+    <h1 class="title text-center text-5xl">{t(locale, 'site.title')}</h1>
+    <p class="text-center italic text-ink-muted">{t(locale, 'site.subtitle')}</p>
+
+    <hr class="my-8 border-ink-muted/30" />
+
+    <ol class="space-y-2">
+      {pages.map((p) => (
+        <li>
+          <a href={`/${locale}/${p.slug.replace(/^nl\//, '')}/`} class="no-underline hover:text-accent">
+            <span class="mr-3 font-mono text-sm text-ink-muted">{String(p.data.order).padStart(3, '0')}</span>
+            <span>{p.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+</BaseLayout>

@@ -1,0 +1,19 @@
+---
+// Root-level redirect to the default locale. A tiny client-side shim then
+// rewrites to the user's stored preference (if any) without flashing content.
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/nl/" />
+    <script is:inline>
+      const stored = localStorage.getItem('ssp2.locale');
+      if (stored === 'en') location.replace('/en/');
+      else location.replace('/nl/');
+    </script>
+    <title>Schaakstudiespinsels 2</title>
+  </head>
+  <body></body>
+</html>
