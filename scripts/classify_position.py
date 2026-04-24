@@ -45,10 +45,15 @@ PIECE_ORDER = ["K", "Q", "R", "B", "N", "P"]
 
 
 # Size to which detected silhouettes and templates are resized for
-# direct-pixel correlation. 48 px is large enough to preserve piece
-# distinctions (king's cross vs queen's crown) while small enough to
-# stay fast over 64 squares × hundreds of studies.
-REF_SIZE = 48
+# direct-pixel correlation. 64 px preserves the top-of-piece details
+# that distinguish queen (spiky crown), rook (flat battlements), king
+# (cross), and bishop (mitre).
+REF_SIZE = 64
+# Fraction of the silhouette (from the top) to weight more heavily in
+# shape matching. The body of every piece is a similar tapered column;
+# the distinguishing features all sit up top.
+HEAD_FRAC = 0.4
+HEAD_WEIGHT = 3.0
 
 
 @dataclass
@@ -59,7 +64,13 @@ class Template:
 
 
 def _normalize_silhouette(binary: np.ndarray) -> np.ndarray:
-    """Crop to the silhouette's bounding box and resize to REF_SIZE × REF_SIZE."""
+    """Crop to the silhouette's bounding box and resize to REF_SIZE × REF_SIZE.
+
+    Uses uniform (non-aspect-preserving) resize because aspect-preserving
+    variants made match quality worse empirically on the exemplar set —
+    the distortion is symmetric so both detected piece and template stretch
+    identically, preserving their relative shape similarity.
+    """
     contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     if not contours:
         return np.zeros((REF_SIZE, REF_SIZE), dtype=np.uint8)
@@ -183,6 +194,13 @@ def classify_square(
     bg = float(np.median(corners))
     diff = np.abs(inner.astype(np.int16) - bg).astype(np.uint8)
     _, any_mask = cv2.threshold(diff, 40, 255, cv2.THRESH_BINARY)
+    # White pieces render with fuzzy anti-aliased edges; morphological
+    # closing fills tiny gaps inside the silhouette and opening clears
+    # isolated speckle. That makes the resulting contour match the
+    # solid-template silhouette more faithfully.
+    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+    any_mask = cv2.morphologyEx(any_mask, cv2.MORPH_CLOSE, kernel, iterations=2)
+    any_mask = cv2.morphologyEx(any_mask, cv2.MORPH_OPEN, kernel, iterations=1)
 
     occupied_ratio = float(any_mask.mean()) / 255.0
     if occupied_ratio < 0.05:
@@ -221,12 +239,23 @@ def classify_square(
     # the small distinguishing features (queen points, king cross,
     # knight's horse head).
     piece_mask = _normalize_silhouette(any_mask)
+    head_rows = int(REF_SIZE * HEAD_FRAC)
+    piece_head = piece_mask[:head_rows]
+
+    def iou(a: np.ndarray, b: np.ndarray) -> float:
+        inter = float(np.logical_and(a > 0, b > 0).sum())
+        union = float(np.logical_or(a > 0, b > 0).sum())
+        return inter / union if union > 0 else 0.0
 
     def distance(t: Template) -> float:
-        inter = float(np.logical_and(piece_mask > 0, t.mask > 0).sum())
-        union = float(np.logical_or(piece_mask > 0, t.mask > 0).sum())
-        iou = inter / union if union > 0 else 0.0
-        return (1.0 - iou) + 0.5 * abs(aspect - t.aspect)
+        # Combined IoU: the whole silhouette plus a head-region boost.
+        # The body of every piece is a tapered column, so the top-of-
+        # piece region (crown vs battlements vs cross vs mitre) carries
+        # the signal that separates queen from rook.
+        whole = iou(piece_mask, t.mask)
+        head = iou(piece_head, t.mask[:head_rows])
+        combined = (whole + HEAD_WEIGHT * head) / (1.0 + HEAD_WEIGHT)
+        return (1.0 - combined) + 0.5 * abs(aspect - t.aspect)
 
     best = min(templates, key=distance)
     return colour, best.letter

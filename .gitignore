@@ -143,6 +143,7 @@ data/debug/
 data/endgames/
 data/exemplar/
 data/md/
+data/build_summary.json
 
 # Node / Astro
 node_modules/
