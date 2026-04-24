@@ -20,6 +20,7 @@ dependencies = [
     "markupsafe>=3.0.2",
     "matplotlib>=3.10.3",
     "nbformat>=4.2.0",
+    "opencv-python>=4.12",
     "pandas>=2.3.1",
     "pelican>=4.11.0",
     "python-chess>=1.999",
