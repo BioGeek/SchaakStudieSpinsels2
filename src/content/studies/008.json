@@ -128,7 +128,8 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": ""
+      "after": "",
+      "beforeVariant": {}
     }
   }
 }

@@ -408,6 +408,11 @@ def parse_study(
     all_moves: list[Move] = []
     prose_before: list[str] = []
     prose_after: list[str] = []
+    # Prose anchored to specific variant labels — e.g. "Er zijn nu zelfs
+    # twee varianten:" just before Variant A. Keyed by the variant id
+    # ("A", "B", "main.a", …); rendered immediately above that section.
+    prose_before_variant: dict[str, list[str]] = {}
+    pending_prose: list[str] = []  # prose waiting for the next variant_header
 
     # State machine walking the tokens:
     #  - "main" variant is the trunk; its last move is the branch point for
@@ -423,16 +428,33 @@ def parse_study(
     for tok in tokens:
         kind = tok["kind"]
         if kind == "prose":
-            (prose_after if any_move_seen else prose_before).append(tok["text"])
+            if any_move_seen:
+                # Hold onto trailing prose so we can anchor it to the
+                # upcoming variant header if one arrives soon. If no
+                # variant follows, it gets flushed into prose_after.
+                pending_prose.append(tok["text"])
+            else:
+                prose_before.append(tok["text"])
             continue
 
         if kind == "variant_header":
             current_variant = tok["label"]  # "A", "B", ...
             # Top-level variants branch from the end of the main line.
             last_move_id_in_variant[current_variant] = main_end_id
+            # Any prose accumulated since the last moves block becomes
+            # the intro for this variant, not orphaned tail prose.
+            if pending_prose:
+                prose_before_variant.setdefault(current_variant, []).extend(pending_prose)
+                pending_prose.clear()
             continue
 
         if kind == "subvariant_header":
+            # Same pending-prose flush as variant_header, keyed by the
+            # sub-variant's composite id.
+            sub_id = f"{current_variant}.{tok['label']}"
+            if pending_prose:
+                prose_before_variant.setdefault(sub_id, []).extend(pending_prose)
+                pending_prose.clear()
             # Sub-variant like "a) 2.Da4+? Kb1 …" BRANCHES BEFORE the move in
             # its enclosing variant that has the same move-number+side as its
             # first move. So "a) 2.Da4+?" (white's move 2) branches off the
@@ -488,6 +510,10 @@ def parse_study(
                 main_end_id = tail
             any_move_seen = any_move_seen or bool(new_moves)
 
+    # Any prose still pending at end-of-stream is truly trailing.
+    if pending_prose:
+        prose_after.extend(pending_prose)
+
     result = {
         "number": study_number,
         "chapter": chapter_name,
@@ -501,6 +527,10 @@ def parse_study(
             "nl": {
                 "before": "\n\n".join(p for p in prose_before if p),
                 "after": "\n\n".join(p for p in prose_after if p),
+                "beforeVariant": {
+                    k: "\n\n".join(p for p in v if p)
+                    for k, v in prose_before_variant.items()
+                },
             }
         },
     }

@@ -497,7 +497,11 @@
   "prose": {
     "nl": {
       "before": "Laten we starten met de correctie\nvan een studie van een der groot-\nste Nederlandse componisten. Ik\nkan me niet meer herinneren of ik\ndeze verrijking ooit gepubliceerd\nheb. Daarom nu:",
-      "after": "Er zijn nu zelfs twee varianten:\n\n(zie zei 4.)\n\nEn wit wint in beide varianten.\nCarel Mann speelde in Caissa\n(1935):\n\n1.Pa5+ Ka2 2.Pc4 Dd8+ 3.Kc2\n\nDg8  4.De2  Db8  5.Kc3+  Ka1\n\nkorter) 7…Da2 8.Db5 (8.Dd1+ is\nkorter)  8…Db1   9.De5  Dd1\n\neveneens korter;)\n\nDe vermaarde ‘damespcialist’ be-\nschikte in 1935 uiteraard niet over\neen schaakprogramma om  zijn\nstudie te verifieren, via de compu-\nter, naar een kortere correcte zet."
+      "after": "1.Pa5+ Ka2 2.Pc4 Dd8+ 3.Kc2\n\nEn wit wint in beide varianten.\nCarel Mann speelde in Caissa\n(1935):\n\nDg8  4.De2  Db8  5.Kc3+  Ka1\n\nkorter) 7…Da2 8.Db5 (8.Dd1+ is\nkorter)  8…Db1   9.De5  Dd1\n\neveneens korter;)\n\nDe vermaarde ‘damespcialist’ be-\nschikte in 1935 uiteraard niet over\neen schaakprogramma om  zijn\nstudie te verifieren, via de compu-\nter, naar een kortere correcte zet.",
+      "beforeVariant": {
+        "A": "Er zijn nu zelfs twee varianten:",
+        "B": "(zie zei 4.)"
+      }
     }
   }
 }

@@ -74,7 +74,11 @@
   "prose": {
     "nl": {
       "before": "Dit is een van de eerste studies die\nik  componeerde  en   hoopvol\nopstuurde naar het bovenstaand\ntijdschrift.",
-      "after": "Na 3.Pa6+? Ka7 4. b8D+ Kxa6 is\ner geen winst meer voor wit.\n\nWit wint.\n\nOok hier winst.\n\n1...          e2        2.Pc5       e1D        3.Pd7+      Kc7       4.b8D+      Kxc6        5.Pe5+      Kc5\n\nNa 5…Ke5 wint zowel 6.Bb7+ als\n\noplosbaar.(Nalimov)\n\nEn ook hier wint wit.\n\nNa publicatie las ik tevreden:“Een\nkeurige voorstelling in duplo van\neen klassiek thema”. Dat ik uiter-\naard een halve eeuw geleden niet\nkende."
+      "after": "1...          e2        2.Pc5       e1D        3.Pd7+      Kc7       4.b8D+      Kxc6        5.Pe5+      Kc5\n\nNa 5…Ke5 wint zowel 6.Bb7+ als\n\noplosbaar.(Nalimov)\n\nEn ook hier wint wit.\n\nNa publicatie las ik tevreden:“Een\nkeurige voorstelling in duplo van\neen klassiek thema”. Dat ik uiter-\naard een halve eeuw geleden niet\nkende.",
+      "beforeVariant": {
+        "A.b": "Na 3.Pa6+? Ka7 4. b8D+ Kxa6 is\ner geen winst meer voor wit.\n\nWit wint.",
+        "B": "Ook hier winst."
+      }
     }
   }
 }

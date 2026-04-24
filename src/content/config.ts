@@ -35,10 +35,12 @@ const studies = defineCollection({
       nl: z.object({
         before: z.string().default(''),
         after: z.string().default(''),
+        beforeVariant: z.record(z.string()).default({}),
       }),
       en: z.object({
         before: z.string().default(''),
         after: z.string().default(''),
+        beforeVariant: z.record(z.string()).default({}),
       }).optional(),
     }),
   }),

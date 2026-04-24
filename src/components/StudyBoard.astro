@@ -18,6 +18,10 @@ interface StudyData {
   fen: string;
   stipulation: '+' | '=';
   moves: StudyMove[];
+  prose?: {
+    nl?: { before?: string; after?: string; beforeVariant?: Record<string, string> };
+    en?: { before?: string; after?: string; beforeVariant?: Record<string, string> };
+  };
 }
 
 interface Props {
@@ -144,8 +148,12 @@ for (const m of study.moves) {
     {sections.length > 0 && (
       <section class="variants">
         <h3>{t(locale, 'study.variants')}</h3>
-        {sections.map((sec) => (
+        {sections.map((sec) => {
+          const intro = study.prose?.[locale]?.beforeVariant?.[sec.id]
+            ?? study.prose?.nl?.beforeVariant?.[sec.id];
+          return (
           <details open class="variant-section">
+            {intro && <p class="variant-intro">{intro}</p>}
             <summary>{sec.label}</summary>
             <table class="move-table">
               <tbody>
@@ -199,7 +207,7 @@ for (const m of study.moves) {
               </div>
             ))}
           </details>
-        ))}
+        );})}
       </section>
     )}
   </div>
@@ -303,6 +311,13 @@ for (const m of study.moves) {
     font-style: italic;
     color: theme('colors.ink.muted');
     padding-top: 0.15rem;
+  }
+  .variant-intro {
+    font-family: theme('fontFamily.serif');
+    font-size: 0.95rem;
+    color: theme('colors.ink.soft');
+    margin: 0.5rem 0 0.25rem;
+    font-style: italic;
   }
   .move {
     background: transparent;
