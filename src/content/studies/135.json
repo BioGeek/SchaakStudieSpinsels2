@@ -1,0 +1,315 @@
+{
+  "number": 135,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Probleemblad, 2011",
+  "gbr": "0001.03 f1h1",
+  "fen": "8/5p2/4p3/2N5/8/7r/8/5K1k w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3N1p2/4p3/8/8/7r/8/5K1k b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/3N1p2/4p3/8/8/7r/7k/5K2 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/3N1p2/4p3/8/8/7r/5K1k/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/3N1p2/4p3/8/8/7r/5K2/7k w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ne5",
+      "nl": "Pe5",
+      "fenAfter": "8/5p2/4p3/4N3/8/7r/5K2/7k b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/5p2/4p3/4N3/8/7r/5K1k/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "8/5p2/4p3/8/6N1/7r/5K1k/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/5p2/4p3/8/6N1/7r/5K2/7k w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/5p2/4p3/8/6N1/7r/8/5K1k b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "e5",
+      "nl": "e5",
+      "fenAfter": "8/5p2/8/4p3/6N1/7r/8/5K1k w - - 0 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Nxe5",
+      "nl": "Pxe5",
+      "fenAfter": "8/5p2/8/4N3/8/7r/8/5K1k b - - 0 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/5p2/8/4N3/8/7r/7k/5K2 w - - 1 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/5p2/8/4N3/8/7r/5K1k/8 b - - 2 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/5p2/8/4N3/8/7r/5K2/7k w - - 3 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Nf3",
+      "nl": "Pf3",
+      "fenAfter": "8/5p2/8/8/8/5N1r/5K2/7k b - - 4 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "f5",
+      "nl": "f5",
+      "fenAfter": "8/8/8/5p2/8/5N1r/5K2/7k w - - 0 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/5p2/8/5N1r/8/5K1k b - - 1 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "f4",
+      "nl": "f4",
+      "fenAfter": "8/8/8/8/5p2/5N1r/8/5K1k w - - 0 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Ne5",
+      "nl": "Pe5",
+      "fenAfter": "8/8/8/4N3/5p2/7r/8/5K1k b - - 1 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/8/4N3/5p2/7r/7k/5K2 w - - 2 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/4N3/5p2/7r/5K1k/8 b - - 3 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/8/4N3/5p2/7r/5K2/7k w - - 4 12",
+      "variant": "A",
+      "parent": "A.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Ng4",
+      "nl": "Pg4",
+      "fenAfter": "8/8/8/8/5pN1/7r/5K2/7k b - - 5 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "A.24",
+      "ply": 24,
+      "san": "f3",
+      "nl": "f3",
+      "fenAfter": "8/8/8/8/6N1/5p1r/5K2/7k w - - 0 13",
+      "variant": "A",
+      "parent": "A.23"
+    },
+    {
+      "id": "A.25",
+      "ply": 25,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/6N1/5p1r/8/5K1k b - - 1 13",
+      "variant": "A",
+      "parent": "A.24"
+    },
+    {
+      "id": "A.26",
+      "ply": 26,
+      "san": "f2",
+      "nl": "f2",
+      "fenAfter": "8/8/8/8/6N1/7r/5p2/5K1k w - - 0 14",
+      "variant": "A",
+      "parent": "A.25"
+    },
+    {
+      "id": "A.27",
+      "ply": 27,
+      "san": "Nxf2+",
+      "nl": "Pxf2+",
+      "fenAfter": "8/8/8/8/8/7r/5N2/5K1k b - - 0 14",
+      "variant": "A",
+      "parent": "A.26"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "f5",
+      "nl": "f5",
+      "fenAfter": "8/8/4p3/5p2/6N1/7r/8/5K1k w - - 0 6",
+      "variant": "B",
+      "parent": "main.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ne5",
+      "nl": "Pe5",
+      "fenAfter": "8/8/4p3/4Np2/8/7r/8/5K1k b - - 1 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/4p3/4Np2/8/7r/7k/5K2 w - - 2 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/4p3/4Np2/8/7r/5K1k/8 b - - 3 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.a.14",
+      "ply": 14,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/4p3/4Np2/8/7r/5K2/7k w - - 4 8",
+      "variant": "B.a",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.b.14",
+      "ply": 14,
+      "san": "f4",
+      "nl": "f4",
+      "fenAfter": "8/8/4p3/4N3/5p2/7r/5K1k/8 w - - 0 8",
+      "variant": "B.b",
+      "parent": "B.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Een kleine vebetering van een fijn\n     werkje van Missiaen (1996): Na\n\nnevenoplosbaar. Sorry.",
+      "beforeVariant": {}
+    }
+  }
+}

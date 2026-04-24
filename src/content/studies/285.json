@@ -1,0 +1,132 @@
+{
+  "number": 285,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2005",
+  "gbr": "0130.15 c5d8",
+  "fen": "3k4/7R/5p2/1PK2p2/5p1p/4p3/3b4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b6",
+      "nl": "b6",
+      "fenAfter": "3k4/7R/1P3p2/2K2p2/5p1p/4p3/3b4/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Ba5",
+      "nl": "La5?",
+      "fenAfter": "3k4/7R/1P3p2/b1K2p2/5p1p/4p3/8/8 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "3k4/1P5R/5p2/b1K2p2/5p1p/4p3/8/8 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "3k4/1Pb4R/5p2/2K2p2/5p1p/4p3/8/8 w - - 1 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "3k4/1Pb4R/2K2p2/5p2/5p1p/4p3/8/8 b - - 2 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "3k4/1P5R/2K2p2/4bp2/5p1p/4p3/8/8 w - - 3 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Bb4+",
+      "nl": "Lb4+?",
+      "fenAfter": "3k4/7R/1P3p2/2K2p2/1b3p1p/4p3/8/8 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "3k4/7R/1PK2p2/5p2/1b3p1p/4p3/8/8 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "3k4/7R/1PK2p2/5p2/5p1p/2b1p3/8/8 w - - 3 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.c.2",
+      "ply": 2,
+      "san": "e2",
+      "nl": "e2?",
+      "fenAfter": "3k4/7R/1P3p2/2K2p2/5p1p/8/3bp3/8 w - - 0 2",
+      "variant": "main.c",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "3k4/1P5R/5p2/2K2p2/5p1p/8/3bp3/8 b - - 0 2",
+      "variant": "main.c",
+      "parent": "main.c.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Be3+",
+      "nl": "Le3+",
+      "fenAfter": "3k4/1P5R/5p2/2K2p2/5p1p/4b3/4p3/8 w - - 1 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Kd5 (Zie mijn zet 5.) 1…e2 2.Kc6\n\nEn eveneens mat.\n     In 1978 kregen M. Klinkhov & A.\n    Kuznetsov een Speciale  Prijs  in\n      Bull. CCCM voor de onderstaande\n     versie, die ik niet kende toen ik mijn\n     huidige studie componeerde\n\n    Kd4 Tg7 b7 g3 /\n             Kb8 Ld6 e3 f4 f5 f6 +\n\n    met een inleiding die vier (4) zet-\n     ten korter is dan die mijne:\n\nKa7 3.Tg8 Lb8 4.Te8 f3 5.Te3 Ld6\n\nwit wint dank zij pion g3.\n\n    Maar hier wint ook 5.g4 en  bij-\n     voorbeeld 5…f2 6.Te3 Ld6 7.Txe2\n    f1D 8.Ta2+ Da6+ 9.Txa6+ 10.Kxa6\n    Kxd6  11.Kxb7   gxf5.  Of   hier\n\nIn de hoofvariant winnen ook de\n     zetten 6.g4 en  zelfs 9.Tc1 e1D\n\nf1D 13.b8D+ Ka6 14.Db6+ en mat\n    Dus driemaal nevenoplosbaar.\n\n    Dat de  prijsrechter Pauli Perko-\n     noja de zet 9.Tc1 niet heeft opge-\n     merkt vind ik zeer raar; vermits hij\n     mijn correcte oplossing wel ken-\n     de. (Zie het Juryrapport  in Pro-\n    bleemblad N°5 Dec 2009)",
+      "beforeVariant": {
+        "main.a": "Want  1.Kd6?  faalt  op 1…Lb4\n\nFout is\n\nen mat, of hier 2…Lb4+ 3.Kc6\n   Ld6 4.Kxd6 e1D 5.b8D+ en\n    mat.\n\nKe6 5.Th8 e2, en geen winst.\n\nWeer niet goed is:",
+        "main.b": "(3…Lb8 4.Th8+ Ke7 5.Txb8 e2\n\nKg6  9.Dg2+  Kh6  10.Dxe2,\n    enzovoort.  :\n\nLb4+ 5.Ke6 Lxe7 6.b8D+ Kg7\n\nKh5 10.Kxf6 e1D 11.Dg6+ en\n    mat.",
+        "main.c": "Kb8 5.Td8+ Ka7 6.Ta8+ mat)",
+        "A": "La5  5.b7+ Kb8  6.Kc6  Ld8\n\nen eveneens mat.\n\nOok  10.Kxd6?  Kxb7  is  onvol-\ndoende voor de winst.\n\nDa5 13.Txa5+ en mat.\n\nOm veld a1 te dekken, want na:\n\nKxa7  14.Kc7 Ka6 15.b8D Ka5\n\nDit verplicht zwart tot:\n\nNa bijvoorbeeld 12…Lg3? 13.Ta1\nis mat op a8 onvermijdelijk.\n\nJulien Vandiest vond:”Dat 13.Tc1\nis een juweeltje.”",
+        "B": "Kxa6 18.b8D, enzovoort.\n\nen mat."
+      }
+    }
+  }
+}

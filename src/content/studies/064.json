@@ -1,0 +1,129 @@
+{
+  "number": 64,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "-Origineel, 2011",
+  "gbr": "0014.00 d5f1",
+  "fen": "8/1n6/8/3K4/8/B7/8/1N3k2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "8/1n6/8/3K4/8/B7/3N4/5k2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/1n6/8/3K4/8/B7/3Nk3/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "8/1n6/8/3K4/8/BN6/4k3/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/1n6/8/3K4/8/BN1k4/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "8/1n6/8/3K4/1B6/1N1k4/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nd8",
+      "nl": "Pd8",
+      "fenAfter": "3n4/8/8/3K4/1B6/1N1k4/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "3n4/8/3B4/3K4/8/1N1k4/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nf7",
+      "nl": "Pf7",
+      "fenAfter": "8/5n2/3B4/3K4/8/1N1k4/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/5n2/3B4/3K4/3N4/3k4/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/5n2/3B4/3K4/3N4/4k3/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/5n2/3B4/3K1N2/8/4k3/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/5n2/3B4/3K1N2/8/3k4/8/8 w - - 12 7",
+      "variant": "A",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit tracht het afgelegen paard te\nvangen, en 1.Kc6?  faalt op de\nzetten: 1…Pd8 of 1…Pa5.\nDaarom  brengt  wit  zijn  paard\ndichterbij via:",
+      "after": "En het paard gaat verloren met\nwinst voor wit.\n\nVariant A heb ik opgestuurd naar:\nBCPS  2012  Tourney  Studies.\nZonder gevolg.",
+      "beforeVariant": {
+        "A": "Ook de zwarte koning nadert.\n\nDekt veld c3.want na bijvoorbeeld\n\nremise.\n\nNa 4.Le7? ontsnapt het paard:\n\nenzovoort.\n\nVerhindert opnieuw 5…Kc3\n\nNa 7.Pc5? Pf7 8.Lf4 Kb4 9.Pe6\nKb5 10.Le3 Ka5 11.Kc6 Pe5+\n\nmise.\n\nDreigt 9.Ke6 en 9.Pc6",
+        "B": "De énige correcte zet op de dia-\ngonaal c1-h6, want 11.Lf4? Pd8\n\nge omweg.\n\nDreigt 14.Kf6, enzovoort.\n\nEn mat."
+      }
+    }
+  }
+}

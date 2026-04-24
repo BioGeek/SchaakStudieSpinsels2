@@ -1,0 +1,125 @@
+{
+  "number": 238,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2012",
+  "gbr": "0310.22 c5a5",
+  "fen": "8/p7/1Pp2rB1/k1K5/8/1P6/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "8/pP6/2p2rB1/k1K5/8/1P6/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bf7",
+      "nl": "Lf7?",
+      "fenAfter": "8/p4B2/1Pp2r2/k1K5/8/1P6/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Bc2",
+      "nl": "Lc2?",
+      "fenAfter": "8/p7/1Pp2r2/k1K5/8/1P6/2B5/8 b - - 1 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/p7/kPp2r2/2K5/8/1P6/2B5/8 w - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.d.3",
+      "ply": 3,
+      "san": "Bd3",
+      "nl": "Ld3?",
+      "fenAfter": "8/p7/1Pp2r2/k1K5/8/1P1B4/8/8 b - - 1 1",
+      "variant": "main.d",
+      "parent": null
+    },
+    {
+      "id": "main.d.4",
+      "ply": 4,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/8/pPp2r2/k1K5/8/1P1B4/8/8 w - - 0 2",
+      "variant": "main.d",
+      "parent": "main.d.3"
+    },
+    {
+      "id": "main.d.5",
+      "ply": 5,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/8/pPp2r2/k1K5/2B5/1P6/8/8 b - - 1 2",
+      "variant": "main.d",
+      "parent": "main.d.4"
+    },
+    {
+      "id": "main.e.3",
+      "ply": 3,
+      "san": "Be4",
+      "nl": "Le4?",
+      "fenAfter": "8/p7/1Pp2r2/k1K5/4B3/1P6/8/8 b - - 1 1",
+      "variant": "main.e",
+      "parent": null
+    },
+    {
+      "id": "main.e.4",
+      "ply": 4,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/p7/kPp2r2/2K5/4B3/1P6/8/8 w - - 2 2",
+      "variant": "main.e",
+      "parent": "main.e.3"
+    },
+    {
+      "id": "main.e.5",
+      "ply": 5,
+      "san": "Bxc6",
+      "nl": "Lxc6",
+      "fenAfter": "8/p7/kPB2r2/2K5/8/1P6/8/8 b - - 0 2",
+      "variant": "main.e",
+      "parent": "main.e.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/1P6/p1p2rB1/k1K5/8/1P6/8/8 w - - 0 2",
+      "variant": "A",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Dit is mijn verbeterde versie van\neen  studie  die  ik samen  met\nMissiaen  publiceerde  in EBUR\n2002 voor het Quiet Move Ty.",
+      "after": "1…           Tf8        2.Lh5\n\nEn ook hier wint wit met pion c3.\n     Deze nu hopelijk correcte studie is\nf      ontstaan op zoek naar een verbe-\n       tering van een 1ste prijs van Pal\n     Benko in Sakkélet (1975):\n\n     Kc5 Le6 b3 b6 / Ka6 Ta8 a7 +\n\n        Zijn auteursoplossing luidt: 1.Lc4+\n     Ka5 2.b7 Tf8 3.Ld3 Tg8 4.b4+ Ka4\nt      5.Lc2+ Ka3 6.b5 Tf8 7.Ld1 Tg8\n\nMaar ik ontdekte een nevenoplos-\n       sing, na: 2...Tf8, is 3.Kc6 ook win-\n      nend met 3...Kb4 4.Kc7 a5(Th8)\n\nTh8 8.La4, en wit ruilt zijn tot pro-\n      motie dreigende pion tegen de to-\n      ren en wint.\n\n       In mijn studie  zijn hier de beide\n         stille zetten 2.Lh5 en 3.Lg4 win-\n      nend.",
+      "beforeVariant": {
+        "main.a": "Maar niet het gulzige 1.bxa7? we-\ngens 1…Tf8 2.Ld3 Ta8 3.b4+ Ka4\n:4.Lc2+ Ka3 5.Kb6 Txa7 6.Kxa7\nKxb4.\n\nEen afwachtende, maar correcte\nzet, want:\n\nTxb7  5.Lxb7+  Kxb7,  met\n    remise. Of  hier 3.Kxc6 Tf6+\n\nTf7 en wit komt niet verder.\n\nDe beste zet. Men zie:",
+        "main.b": "Kd2  5.Lg4 Kc3  6.Lc8 Tf6+\n\nTxb7+ 10.Kxb7 Kxb3, met re-\n    mise.\n\nKb4 5.Kc7 Tc5+ 6.Kb8 Td5\n\na6 10.Ka7 a5 11.Kb6 Kxb4",
+        "main.c": "Txb7+ 5.Kxb7 a5 6.Kb6 a4!",
+        "main.d": "Tf7+  5.Kc6  Tf6+,  (En  niet\n\nKb4  8.Lc2  a5  9.Kb6  Kc3\n\nKb4  5.Ld1 Ka5  6.Lc2  Lb4\n\nTh8 13.La4 Kd4 14.Kc7 Kc5\n\nvoort. Alle drie met winst.",
+        "main.e": "Kb4 5.Kc7 Txb7+ 6.Kxb7 a5,\n    enzovoort, of:",
+        "A": "hier 3…Th8 4.Le2 Ka5 5.Lg4\n   Ka6 6.Lc8 Th5+ 7.Kxc6 Th6\n\nOok de juiste zet: dreigt 4.Lc8.\nWant nu een afwachtende zet zo-\nals 3...Th8? wordt afgestraft met\n\ncxb5  6.Lc8  Th5+  7.Kd4  Th4+",
+        "B": "En nu de pion b3 gedekt is wint wit\nna ruil van de pion b7 met de toren"
+      }
+    }
+  }
+}

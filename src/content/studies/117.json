@@ -1,0 +1,354 @@
+{
+  "number": 117,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2010",
+  "gbr": "0800.00 h3c1",
+  "fen": "8/8/8/8/8/7K/RR6/rrk5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rc2+",
+      "nl": "Tc2+",
+      "fenAfter": "8/8/8/8/8/7K/R1R5/rrk5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/8/7K/R1R5/rr1k4 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rd2+",
+      "nl": "Td2+",
+      "fenAfter": "8/8/8/8/8/7K/R2R4/rr1k4 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/8/8/7K/R2R4/rr2k3 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Re2+",
+      "nl": "Te2+",
+      "fenAfter": "8/8/8/8/8/7K/R3R3/rr2k3 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/8/7K/R3R3/rr1k4 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rad2+",
+      "nl": "Tad2+",
+      "fenAfter": "8/8/8/8/8/7K/3RR3/rr1k4 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/8/8/8/7K/3RR3/rrk5 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rc2+",
+      "nl": "Tc2+",
+      "fenAfter": "8/8/8/8/8/7K/2R1R3/rrk5 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/8/7K/2R1R3/rr1k4 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Red2+",
+      "nl": "Ted2+",
+      "fenAfter": "8/8/8/8/8/7K/2RR4/rr1k4 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/8/8/7K/2RR4/rr2k3 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rh2",
+      "nl": "Th2",
+      "fenAfter": "8/8/8/8/8/7K/2R4R/rr2k3 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Ra3+",
+      "nl": "Ta3+",
+      "fenAfter": "8/8/8/8/8/r6K/2R4R/1r2k3 w - - 14 8",
+      "variant": "A",
+      "parent": "main.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/8/r7/2R3KR/1r2k3 b - - 15 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/8/r7/2R3KR/1r1k4 w - - 16 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Rf2",
+      "nl": "Tf2",
+      "fenAfter": "8/8/8/8/8/r7/5RKR/1r1k4 b - - 17 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "8/8/8/8/8/4r3/5RKR/1r1k4 w - - 18 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Rh1+",
+      "nl": "Th1+",
+      "fenAfter": "8/8/8/8/8/4r3/5RK1/1r1k3R b - - 19 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Re1",
+      "nl": "Te1",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r1kr2R w - - 20 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Rxe1+",
+      "nl": "Txe1+",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r1kR3 b - - 0 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Kxe1",
+      "nl": "Kxe1",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r2k3 w - - 0 12",
+      "variant": "A",
+      "parent": "A.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Rf1",
+      "nl": "Tf1",
+      "fenAfter": "8/8/8/8/8/8/6K1/1r2kR2 b - - 1 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "A.24",
+      "ply": 24,
+      "san": "Ke2",
+      "nl": "K~",
+      "fenAfter": "8/8/8/8/8/8/4k1K1/1r3R2 w - - 2 13",
+      "variant": "A",
+      "parent": "A.23"
+    },
+    {
+      "id": "A.25",
+      "ply": 25,
+      "san": "Rxb1",
+      "nl": "Txb1",
+      "fenAfter": "8/8/8/8/8/8/4k1K1/1R6 b - - 0 13",
+      "variant": "A",
+      "parent": "A.24"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/8/7K/2R4R/rr1k4 w - - 14 8",
+      "variant": "B",
+      "parent": "main.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Rcf2",
+      "nl": "Tcf2",
+      "fenAfter": "8/8/8/8/8/7K/5R1R/rr1k4 b - - 15 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Ra3+",
+      "nl": "Ta3+",
+      "fenAfter": "8/8/8/8/8/r6K/5R1R/1r1k4 w - - 16 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/8/r7/5RKR/1r1k4 b - - 17 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "8/8/8/8/8/4r3/5RKR/1r1k4 w - - 18 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Rh1+",
+      "nl": "Th1+",
+      "fenAfter": "8/8/8/8/8/4r3/5RK1/1r1k3R b - - 19 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Re1",
+      "nl": "Te1",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r1kr2R w - - 20 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Rxe1+",
+      "nl": "Txe1+",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r1kR3 b - - 0 11",
+      "variant": "B",
+      "parent": "B.20"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Kxe1",
+      "nl": "Kxe1",
+      "fenAfter": "8/8/8/8/8/8/5RK1/1r2k3 w - - 0 12",
+      "variant": "B",
+      "parent": "B.21"
+    },
+    {
+      "id": "B.23",
+      "ply": 23,
+      "san": "Rf1+",
+      "nl": "Tf1+",
+      "fenAfter": "8/8/8/8/8/8/6K1/1r2kR2 b - - 1 12",
+      "variant": "B",
+      "parent": "B.22"
+    },
+    {
+      "id": "B.24",
+      "ply": 24,
+      "san": "Ke2",
+      "nl": "K~",
+      "fenAfter": "8/8/8/8/8/8/4k1K1/1r3R2 w - - 2 13",
+      "variant": "B",
+      "parent": "B.23"
+    },
+    {
+      "id": "B.25",
+      "ply": 25,
+      "san": "Rxb1",
+      "nl": "Txb1",
+      "fenAfter": "8/8/8/8/8/8/4k1K1/1R6 b - - 0 13",
+      "variant": "B",
+      "parent": "B.24"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Zonder die twee zwarte pionnen in\nde vorige studie is het hier boven\nstaand  economisch  miniatuurtje\n(met de witte koning dus op h3)\ntoch gewonnen voor wit:",
+      "after": "Na 10.Tf1+? Kc2 wint ook 11.Kg1\nof 11.Kh1. Dus eveneens neven-\noplosbaar.\n\nEn wit wint eveneens.\n\nDe vraag blijft of het wel mogelijk is\nom, van uit de beginstand van een\npartij, tot de bovenstaande hoek-\nstelling te komen?\n\nMaar dat geldt voor vele studies.",
+      "beforeVariant": {
+        "A": "Na 3…Kf1? 4.Tf2+ Ke1 wint zowel\n\nals 6.Tgb2. Dus nevenoplosbaar.",
+        "B": "Na 10.Tf1+? Kc2 wint ook 11.Kg1+\nof 11.Kh1. Nevenoplosbaar.\n\nEn wint."
+      }
+    }
+  }
+}

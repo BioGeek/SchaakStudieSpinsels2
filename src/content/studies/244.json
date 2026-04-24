@@ -1,0 +1,153 @@
+{
+  "number": 244,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "EBUR, 2004",
+  "gbr": "0350.11 c8d6",
+  "fen": "2Kb4/8/3k1P2/r7/B7/2p5/1B6/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f7",
+      "nl": "f7?",
+      "fenAfter": "2Kb4/5P2/3k4/r7/B7/2p5/1B6/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "2K5/4bP2/3k4/r7/B7/2p5/1B6/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ba3+",
+      "nl": "La3+",
+      "fenAfter": "2K5/4bP2/3k4/r7/B7/B1p5/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "2K5/4bP2/4k3/r7/B7/B1p5/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "2K5/4bP2/4k3/r7/8/BBp5/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "2K5/4bP2/5k2/r7/8/BBp5/8/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "2K5/4bP2/5k2/r7/8/1Bp5/8/2B5 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rb5",
+      "nl": "Tb5",
+      "fenAfter": "2K5/4bP2/5k2/1r6/8/1Bp5/8/2B5 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ba4",
+      "nl": "La4",
+      "fenAfter": "2K5/4bP2/5k2/1r6/B7/2p5/8/2B5 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rb1",
+      "nl": "Tb1",
+      "fenAfter": "2K5/4bP2/5k2/8/B7/2p5/8/1rB5 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Be3",
+      "nl": "Le3",
+      "fenAfter": "2K5/4bP2/5k2/8/B7/2p1B3/8/1r6 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kxf7",
+      "nl": "Kxf7",
+      "fenAfter": "2K5/4bk2/8/8/B7/2p1B3/8/1r6 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bd2",
+      "nl": "Ld2",
+      "fenAfter": "2K5/4bk2/8/8/B7/2p5/3B4/1r6 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rxb3",
+      "nl": "Txb3",
+      "fenAfter": "2K5/4bP2/5k2/8/B7/1rp5/8/2B5 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bg5+",
+      "nl": "Lg5+",
+      "fenAfter": "2K5/4bP2/5k2/6B1/B7/2p5/8/1r6 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Twee  witte  lopers en een pion\nstaan aangevallen. En niet goed is",
+      "after": "1.La3+      Ke6        2.Lb3+       Kxf6        3.Lb4        Tb5 3…Ta8? 4.Kb7 c2 5.Lxc2, remise.        4.Lxc3+      Ke7\n\nen zwart wint door overmacht.\n\nNu houdt wit remise met de enige\njuiste zet:\n\nfaalt: 5…Txb3 6.Lh4+ Kd6 7.Lxd8\n(7.Kxd8? 8.Tb8+ en mat) 7…Kc6\n\nTxe7, en zwart wint.\n\nniets uit.\n\nEen verlokkelijke zet.\n\nEn niet: 7.Lxd8? zoals vermeldt.\n\nEn remise door zetherhaling.\n\nHet is mijn correctie van een 1ste\nPrijs in Szachie (1988) voor een\ngezamenlijk werk van twee russen:\nde grootmeesters David Gurgenid-\nze en Nikolai Kralin:\n\nKb7 La3 Lb3 f6 / Kd7 Tf5 Ld8 c3 =\n\nmet de  oplossing:  1.La4+ Ke6\n\nTb5  5.Lxc3+  Ke7  6.Ld2  Txb3\n\nmise. Fraai.\n\nMaar na 2...Lxf6! wint zwart met\n\nDxf5 6.Kd7 c2 7.La5 Ke5 8.Kc6\nKd4 9.Lb5 Kc3 10.Lc1 Kb3 11.Ld2\nLb2  12.Le3  Ka2  13.Ld2  Kb1\n\nc1D+ 20.Kd5 Dd1+  , enzovoort.\nOef. (Nalimov.)\n\n“Verbeelding  is  belangrijker dan\nkennis.” wist Albert Einstein.",
+      "beforeVariant": {}
+    }
+  }
+}

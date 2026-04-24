@@ -1,0 +1,112 @@
+{
+  "number": 161,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1983",
+  "gbr": "0320.11 h6e5",
+  "fen": "8/8/R3P2K/4k1p1/1r5Q/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "8/4P3/R6K/4k1p1/1r5Q/8/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Rxh4+",
+      "nl": "Txh4+?",
+      "fenAfter": "8/4P3/R6K/4k1p1/7r/8/8/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/4P1K1/R7/4k1p1/7r/8/8/8 b - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Rb6+",
+      "nl": "Tb6+?",
+      "fenAfter": "8/4P3/Rr5K/4k1p1/7Q/8/8/8 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/4P1K1/Rr6/4k1p1/7Q/8/8/8 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Re6",
+      "nl": "Te6",
+      "fenAfter": "8/4P1K1/R3r3/4k1p1/7Q/8/8/8 w - - 3 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rb6+",
+      "nl": "Tb6+",
+      "fenAfter": "8/4P3/Rr5K/4k1p1/7Q/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "8/4P2K/Rr6/4k1p1/7Q/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rb7",
+      "nl": "Tb7",
+      "fenAfter": "8/1r2P2K/R7/4k1p1/7Q/8/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "7K/1r2P3/R7/4k1p1/7Q/8/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "In dit miniatuurtje moet wit op zijn\nhoede zijn voor een matval.",
+      "after": "Txf8 6.Lxe8;.\n\nopnieuw pat.\n\nenzovoort.\n\nMaar niet 5.Lh5+? Ke6 en de e-\n     pion is gepend en gaat verloren.\n\nHebben  is hebben denkt  zwart,\n    want na 6…Tb8? wint wit met bii-\n     voorbeeld 7.Lf6 Kd7+ 8.Kf7 Kd6\n\nDoch na het slaan van de pion\n      volgt:\n\nofwel: 7…Kd8? 8.La4 K~ 9.Lxd7\n    En nu de énige winnende zet:\n\nEn wit wint met beide lopers.\n\n    Roger Missiaen vond  het: “The\n     kind of endings you rush to show\n     your friends.”",
+      "beforeVariant": {
+        "main.a": "Dreigt mat, en fout is:\n\nzijn onvoldoende.\n\nKe8 6.Lxe6 en pat.\n\nNiet:",
+        "main.c": "Kd6 4.Kf7 Kd7 5.Lc8+ Kxc8\n    Kxc6. Natuurlijk niet:",
+        "main.b": "Txe8 6.Lxe8 en net geen pat.\n       En ook niet:"
+      }
+    }
+  }
+}

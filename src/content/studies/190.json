@@ -1,0 +1,165 @@
+{
+  "number": 190,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Probleemblad, 2004",
+  "gbr": "0040.12 a1h2",
+  "fen": "8/8/1B2p2P/4p3/1b6/8/7k/K7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "8/2B5/4p2P/4p3/1b6/8/7k/K7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "h7",
+      "nl": "h7?",
+      "fenAfter": "8/7P/1B2p3/4p3/1b6/8/7k/K7 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/7P/1B2p3/4p3/8/2b5/7k/K7 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Kb2",
+      "nl": "Kb2?",
+      "fenAfter": "8/8/1B2p2P/4p3/1b6/8/1K5k/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Bf8",
+      "nl": "Lf8",
+      "fenAfter": "5b2/8/1B2p2P/4p3/8/8/1K5k/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "h7",
+      "nl": "h7",
+      "fenAfter": "5b2/7P/1B2p3/4p3/8/8/1K5k/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "8/6bP/1B2p3/4p3/8/8/1K5k/8 w - - 1 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/4p2P/4p3/1b1B4/8/7k/K7 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "exd4",
+      "nl": "exd4",
+      "fenAfter": "8/8/4p2P/8/1b1p4/8/7k/K7 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/2B5/4p2P/4p3/1b6/8/6k1/K7 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ba5",
+      "nl": "La5",
+      "fenAfter": "8/8/4p2P/B3p3/1b6/8/6k1/K7 b - - 3 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "h7",
+      "nl": "h7?",
+      "fenAfter": "8/7P/1B2p3/4p3/1b6/8/7k/K7 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/7P/1B2p3/8/1b2p3/8/7k/K7 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Ba5",
+      "nl": "La5?",
+      "fenAfter": "8/8/4p2P/B3p3/1b6/8/7k/K7 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/4p2P/B7/1b2p3/8/7k/K7 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/4p2P/B7/1b2p3/8/6k1/K7 w - - 0 3",
+      "variant": "main",
+      "parent": "main.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…          Lc3+        2.Ka2 2.Kb1?  Kg2  3.La5  (Ld8 ?  e4) 3...Ld4 4.Lb6 Lc3 5.Kc2 La1, en :\n\ne3 9.h7 e2 10.Kd2 Kf1, en ook\n    remise.\n\nEn de zwarte pion komt te laat.\n\nDit miniatuurtje verscheen eerder\nzonder de pion op e6, in EBUR\n(1994), maar dan is er een dual.\nPrijsrechter Gady Costeff vond de\nhuidige  versie:  “An  interesting\nstudy that borrows the Bishop ma-\nneuvers  from  classic  Heuäcker\n(Neue Presse). However, the au-\nthor also adds two clever black\ndefenses, one based on promo-\ntion threads of the e-Pawn, the\nauthor showing a pretty maneuver\n(Lh8 and e5).”",
+      "beforeVariant": {
+        "main.b": "Kh6 is het over and out. Ook\n   na\n\nnoch",
+        "main.a": "voort\n\nDreigt 3…e4. Wit heeft een offer-\naanbod dat zwart moet weigeren:\n\nMaar niet"
+      }
+    }
+  }
+}

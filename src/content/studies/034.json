@@ -1,0 +1,183 @@
+{
+  "number": 34,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Rene Olthof 40JT, 1999",
+  "gbr": "0001.11 e8h8",
+  "fen": "4K2k/3P4/8/8/8/8/5p2/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3QK2k/8/8/8/8/8/5p2/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "f1=Q",
+      "nl": "f1D",
+      "fenAfter": "3QK2k/8/8/8/8/8/8/5q2 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "4K2k/8/8/8/3Q4/8/8/5q2 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "4K3/7k/8/8/3Q4/8/8/5q2 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qe4+",
+      "nl": "De4+",
+      "fenAfter": "4K3/7k/8/8/4Q3/8/8/5q2 b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "4K2k/8/8/8/4Q3/8/8/5q2 w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qe5+",
+      "nl": "De5+",
+      "fenAfter": "4K2k/8/8/4Q3/8/8/8/5q2 b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "4K3/7k/8/4Q3/8/8/8/5q2 w - - 6 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "4K3/7k/8/7Q/8/8/8/5q2 b - - 7 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "4K1k1/8/8/7Q/8/8/8/5q2 w - - 8 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qh6+",
+      "nl": "Dh6+",
+      "fenAfter": "4K1k1/8/7Q/8/8/8/8/5q2 b - - 9 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Qg5+",
+      "nl": "Dg5+?",
+      "fenAfter": "4K1k1/8/8/6Q1/8/8/8/5q2 b - - 9 6",
+      "variant": "main.a",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Qg6+",
+      "nl": "Dg6+?",
+      "fenAfter": "4K1k1/8/6Q1/8/8/8/8/5q2 b - - 9 6",
+      "variant": "main.b",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "4K2k/8/6Q1/8/8/8/8/5q2 w - - 10 7",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.b.13",
+      "ply": 13,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "4K2k/8/8/7Q/8/8/8/5q2 b - - 11 7",
+      "variant": "main.b",
+      "parent": "main.b.12"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "4K1k1/8/8/7Q/8/8/8/5q2 w - - 12 8",
+      "variant": "main.b",
+      "parent": "main.b.13"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "4K1k1/8/7Q/8/8/8/8/4q3 w - - 10 7",
+      "variant": "A",
+      "parent": "main.13"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Qe2",
+      "nl": "De2",
+      "fenAfter": "4K1k1/8/7Q/8/8/8/4q3/8 w - - 10 7",
+      "variant": "B",
+      "parent": "main.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Dat deze maljutka, (door sommi-\n    gen ondergewaardeerd, omdat er\n     slechts  vijf stukken op het bord\n     staan.) werd bekroond op  het\n      International Chess Tournement\n      in ’s Hertogenbosch, stemt mij te-\n     vreden.\n\n    René Olthof is overtuigd: “Queen\n    and knight versus queen seems a\n      virtually inexhaustable well.”",
+      "beforeVariant": {
+        "main.a": "zet 7. in de hoofdvariant.)\n\nzie zet 7.\n\nEn  niet 5…Kg7?  6.Pf5+  Kf6\n\nen 10.Pxf1.\n\nzet in het hoekje.",
+        "B": "Nog het beste, want bijvoorbeeld\n\nKg6 10.Pe7+ Kh6 11.Pg8+ Kg6\n\nmeverlies.\n\nZie zet 9.)\n\nNa 9…Dg1? wint wit met bijvoor-\nbeeld: 10.Dc7 Dg2 11.Kf8+ Kh8\n\nbeeld Kh5 12.Dg6+ Kh4 13.Pf5+\nKh3 14.Dg3 mat.\n\nZwart kruipt uit het hoekje, en na\nbijvoorbeeld 11…Kg8? 12.Dg4+\nKh7 13. Pf5 Da7 14.Dh5+ Kg8\n\nNa 12…Kh6(7) volgt mat in het\nhoekje door 13.Pf5(+), enzovoort.\nOm hieraan te ontsnappen speelt\nzwart:\n\nMaar na de paardvork\n\nverovert wit uiteindelijk de zwarte\nkoningin op hetzelfde veld waar zij\nals pionnetje startte."
+      }
+    }
+  }
+}

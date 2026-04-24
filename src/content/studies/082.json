@@ -1,0 +1,148 @@
+{
+  "number": 82,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 1993",
+  "gbr": "0010.12 g5b1",
+  "fen": "8/8/4p3/6K1/8/Bp6/4P3/1k6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/8/4pK2/8/8/Bp6/4P3/1k6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "e4",
+      "nl": "e4?",
+      "fenAfter": "8/8/4p3/6K1/4P3/Bp6/8/1k6 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/4p3/6K1/4P3/Bp6/k7/8 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/4p3/6K1/4P3/1p6/k7/2B5 b - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bd6",
+      "nl": "Ld6?",
+      "fenAfter": "8/8/3Bp3/6K1/8/1p6/4P3/1k6 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/3Bp3/6K1/8/1p6/2k1P3/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "8/8/4p3/4B1K1/8/1p6/2k1P3/8 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/4p3/4B1K1/8/1p6/3kP3/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/4p3/4B1K1/4P3/1p6/3k4/8 b - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.c.1",
+      "ply": 1,
+      "san": "Kf4",
+      "nl": "Kf4?",
+      "fenAfter": "8/8/4p3/8/5K2/Bp6/4P3/1k6 b - - 1 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.2",
+      "ply": 2,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/4p3/8/5K2/Bp6/k3P3/8 w - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.1"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/4p3/8/5K2/1p6/k3P3/2B5 b - - 3 2",
+      "variant": "main.c",
+      "parent": "main.c.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "b2",
+      "nl": "b2",
+      "fenAfter": "8/8/4p3/8/5K2/8/kp2P3/2B5 w - - 0 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/4pK2/8/8/Bp6/2k1P3/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Alles draait hier om veld e5",
+      "after": "1…         Ka2                          j        2.Lc1       Kb1        3.Le3\n\nKd3 en wit moet de winst op-\n    geven.\n\nDit is een probleemzet.\n\nWit  snijdt  zijn enig overlevende\nsoldaat de pas af. Want niet cor-\nrect is 3.Lf4? Kc2 4.Le5 Kd2 5.e4\nKd3, met remise.\n\nEn wint gemakkelijk na::\n\nvolgens ‘het boekje’.\n\nDe raadsheer heeft hier zijn plaats\n(e5) afgestaan aan de koning. En\ndie beleefdheid word beloond.\n\nIn Finales…y temas vond José\nCopié het: “Un trabajo didactico,\ninstructivo, interesante. En fin, una\nminiatura, sin duda una obra de\narte muy bella. Por que no esta en\nel podio? Son muchas las obras de\narte que no han merecido un real\nreconocimiento de parte de quie-\nnes deben hacerio. Sin aficionados\nlas tienen en cuenta… pero seria\nmejor que también lo hicieran los\njueces en los concursos.”",
+      "beforeVariant": {
+        "main.a": "Te vroeg is",
+        "main.b": "e5 3.Kf5 Kb1 4.La3 Ka2 met\n    remise. Ook fout is",
+        "main.c": "Ke3 en de witte pion sneuvelt\n   op de volgende zet. Tenslotte\n     faalt eveneens:"
+      }
+    }
+  }
+}

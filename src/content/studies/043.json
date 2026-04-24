@@ -1,0 +1,120 @@
+{
+  "number": 43,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Probleemblad, 2005",
+  "gbr": "1330.00 e1a1",
+  "fen": "8/8/4b3/1r6/8/8/8/k3K2Q w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qa8+",
+      "nl": "Da8+",
+      "fenAfter": "Q7/8/4b3/1r6/8/8/8/k3K3 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ba2",
+      "nl": "La2",
+      "fenAfter": "Q7/8/8/1r6/8/8/b7/k3K3 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qh8+",
+      "nl": "Dh8+",
+      "fenAfter": "7Q/8/8/1r6/8/8/b7/k3K3 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Rb2",
+      "nl": "Tb2",
+      "fenAfter": "7Q/8/8/8/8/8/br6/k3K3 w - - 4 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Qh7+",
+      "nl": "Dh7+",
+      "fenAfter": "8/7Q/8/8/8/8/br6/k3K3 b - - 5 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "7Q/8/8/1r6/8/8/b7/1k2K3 w - - 4 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Qd4",
+      "nl": "Dd4",
+      "fenAfter": "8/8/8/1r6/3Q4/8/b7/1k2K3 b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Rd5",
+      "nl": "Td5",
+      "fenAfter": "8/8/8/3r4/3Q4/8/b7/1k2K3 w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Qc3+",
+      "nl": "Dc3+?",
+      "fenAfter": "8/8/8/3r4/8/2Q5/b7/1k2K3 b - - 7 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Rd3",
+      "nl": "Td3",
+      "fenAfter": "8/8/8/8/8/2Qr4/b7/1k2K3 w - - 8 5",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Qe5+",
+      "nl": "De5+",
+      "fenAfter": "8/8/8/4Q3/8/3r4/b7/1k2K3 b - - 9 5",
+      "variant": "B",
+      "parent": "B.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Om te winnen tegen toren en lo-\nper rent de dame vanuit de hoek\nrechtsonderaan naar de schuin\ntegenoverliggende hoek:",
+      "after": "waarop wit antwoordt met:\n\nEen stille zet.\n\nEen tweede stille zet.\n\nEen derde stille zet.\n\n(Zie zet 6.)\n\nEn ook hier winst.\n\nVriend Ward  Stoffelen  schreef\ndat: “Het begint met een variant\nop het viervensterthema en ein-\ndigt met een trapje”.",
+      "beforeVariant": {
+        "A": "Kc3 4.Dxb5.\nDan naar de rechterbovenhoek.",
+        "B": "Het  beste  want  bijvoorbeeld:\n\nEn wit daalt zelfzeker de trap af:\n\nEn mat\n\nMaar zwart heeft een andere ver-\ndediging. Hij speelt namelij"
+      }
+    }
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "number": 273,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "New Statesman, 1975",
+  "gbr": "0330.52 b8a6",
+  "fen": "1K6/2p5/k5P1/5p2/P3P3/6P1/5rP1/6b1 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g7",
+      "nl": "g7",
+      "fenAfter": "1K6/2p3P1/k7/5p2/P3P3/6P1/5rP1/6b1 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rb2+",
+      "nl": "Tb2+",
+      "fenAfter": "1K6/2p3P1/k7/5p2/P3P3/6P1/1r4P1/6b1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "K7/2p3P1/k7/5p2/P3P3/6P1/1r4P1/6b1 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kc8",
+      "nl": "Kc8?",
+      "fenAfter": "2K5/2p3P1/k7/5p2/P3P3/6P1/1r4P1/6b1 b - - 2 2",
+      "variant": "main.a",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "2K5/b1p3P1/k7/5p2/P3P3/6P1/1r4P1/8 w - - 3 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "g8=Q",
+      "nl": "g8D",
+      "fenAfter": "2K3Q1/b1p5/k7/5p2/P3P3/6P1/1r4P1/8 b - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Rb8+",
+      "nl": "Tb8+",
+      "fenAfter": "1rK3Q1/b1p5/k7/5p2/P3P3/6P1/6P1/8 w - - 1 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kxc7",
+      "nl": "Kxc7?",
+      "fenAfter": "8/2K3P1/k7/5p2/P3P3/6P1/1r4P1/6b1 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "8/1rK3P1/k7/5p2/P3P3/6P1/6P1/6b1 w - - 1 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "K7/b1p3P1/k7/5p2/P3P3/6P1/1r4P1/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "g8=Q",
+      "nl": "g8D",
+      "fenAfter": "K5Q1/b1p5/k7/5p2/P3P3/6P1/1r4P1/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rb8+",
+      "nl": "Tb8+",
+      "fenAfter": "Kr4Q1/b1p5/k7/5p2/P3P3/6P1/6P1/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qxb8",
+      "nl": "Dxb8",
+      "fenAfter": "KQ6/b1p5/k7/5p2/P3P3/6P1/6P1/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bxb8",
+      "nl": "Lxb8",
+      "fenAfter": "Kb6/2p5/k7/5p2/P3P3/6P1/6P1/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "e5",
+      "nl": "e5",
+      "fenAfter": "Kb6/2p5/k7/4Pp2/P7/6P1/6P1/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Kxb8",
+      "nl": "Kxb8?",
+      "fenAfter": "1K6/2p5/k7/5p2/P3P3/6P1/6P1/8 b - - 0 5",
+      "variant": "main.a",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "fxe4",
+      "nl": "fxe4",
+      "fenAfter": "1K6/2p5/k7/8/P3p3/6P1/6P1/8 w - - 0 6",
+      "variant": "main.a",
+      "parent": "main.a.9"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "exf5",
+      "nl": "exf5?",
+      "fenAfter": "Kb6/2p5/k7/5P2/P7/6P1/6P1/8 b - - 0 5",
+      "variant": "main.b",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "K7/b1p5/k7/5P2/P7/6P1/6P1/8 w - - 1 6",
+      "variant": "main.b",
+      "parent": "main.b.9"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "K7/b1p5/k4P2/8/P7/6P1/6P1/8 b - - 0 6",
+      "variant": "main.b",
+      "parent": "main.b.10"
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "K7/2p5/k4P2/8/P2b4/6P1/6P1/8 w - - 1 7",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.b.13",
+      "ply": 13,
+      "san": "f7",
+      "nl": "f7",
+      "fenAfter": "K7/2p2P2/k7/8/P2b4/6P1/6P1/8 b - - 0 7",
+      "variant": "main.b",
+      "parent": "main.b.12"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "K7/2p2Pb1/k7/8/P7/6P1/6P1/8 w - - 1 8",
+      "variant": "main.b",
+      "parent": "main.b.13"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "K7/b1p5/k7/4Pp2/P7/6P1/6P1/8 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "e6",
+      "nl": "e6",
+      "fenAfter": "K7/b1p5/k3P3/5p2/P7/6P1/6P1/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "K7/2p5/k3P3/2b2p2/P7/6P1/6P1/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1K6/2p5/k3P3/2b2p2/P7/6P1/6P1/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "1K6/2p5/k2bP3/5p2/P7/6P1/6P1/8 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.a.14",
+      "ply": 14,
+      "san": "c6",
+      "nl": "c6",
+      "fenAfter": "1K6/8/k1p1P3/2b2p2/P7/6P1/6P1/8 w - - 0 8",
+      "variant": "main.a",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.a.15",
+      "ply": 15,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K5/k1p1P3/2b2p2/P7/6P1/6P1/8 b - - 1 8",
+      "variant": "main.a",
+      "parent": "main.a.14"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "1K6/2p5/1k2P3/2b2p2/P7/6P1/6P1/8 w - - 3 8",
+      "variant": "main.b",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.b.15",
+      "ply": 15,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2K5/2p5/1k2P3/2b2p2/P7/6P1/6P1/8 b - - 4 8",
+      "variant": "main.b",
+      "parent": "main.b.14"
+    },
+    {
+      "id": "main.b.16",
+      "ply": 16,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "2K5/2p5/1k1bP3/5p2/P7/6P1/6P1/8 w - - 5 9",
+      "variant": "main.b",
+      "parent": "main.b.15"
+    },
+    {
+      "id": "main.b.17",
+      "ply": 17,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/2pK4/1k1bP3/5p2/P7/6P1/6P1/8 b - - 6 9",
+      "variant": "main.b",
+      "parent": "main.b.16"
+    },
+    {
+      "id": "main.b.18",
+      "ply": 18,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1kpK4/3bP3/5p2/P7/6P1/6P1/8 w - - 7 10",
+      "variant": "main.b",
+      "parent": "main.b.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "1K6/2p5/k2bP3/P4p2/8/6P1/6P1/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "c5",
+      "nl": "c5",
+      "fenAfter": "1K6/8/k2bP3/P1p2p2/8/6P1/6P1/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "B.41",
+      "ply": 41,
+      "san": "Kc8",
+      "nl": "K~",
+      "fenAfter": "2K5/8/k2bP3/P1p2p2/8/6P1/6P1/8 b - - 1 9",
+      "variant": "B",
+      "parent": "main.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Nadat wit een nog te behalen da-\nme ruilt tegen de toren, ontstaat er\neen stelling met wit aan zet. Men\nzie:",
+      "after": "En niet 19.a7? c1D 20.e8D Dd2+\n\nEn zwart kan niet winnen.\n\n    De witte koning wandelt via Ka8,\n    Kb8, Kc8, Kd7, Ke8, Kf7, Kg6, Kf5,\n    Ke4, en Kd4 naar Kd5 om tot de\n     zwarte  pion  te komen.De  prijs-\n     rechters schreven dan ook: “White\n     King outside the c-pawn quadrant,\n     tours the board to get sufficient\n     counterplay.”\n\n    Het leuke is dat op het einde wit in\n     variant A. 19.a7 moet spelen en in\n     variant B. 19.e7 om remise te ha-\n      len.\n\n    Deze laatste variant (19.e7) vond\n      ik jammer genoeg eerst na de prijs-\n      uitreiking. Bij het eerder vermelden\n     ervan had ik misschien hoger ge-\n    scoord?",
+      "beforeVariant": {
+        "main.a": "Tot zover dus de inleiding. En nu:\n\nloopt door.\n\nNu niet 5...c5 6.Kxb8 c4 7.e6 c3\n\nEen eerste functie van pion a4.\n\nZwart blokkeert hier de doorgang\nvoor zijn c-pion, dus:\n\nMaakt de weg  vrij voor de pion,\nwant bijvoorbeeld:",
+        "A": "pion a4, waardoor de zwarte\n    koning vroeg of laat de eigen\n    pion moet loslaten) 10…Kb8\n\nNu dreigt er 9.e7 Lxe7 10.Kxc7,\ndaarom nu of nooit:\n\nMaar nu  is de loper geblokkerd\ndoor de eigen pion, dus:\n\nNa 9…c4 10.Kxd6 c3 11.e7 c2\n\nKa6 15.Db5+ Ka7 16.Dc5+ Dxc5+\n\nEn na deze achtervolging slaat wit\neen vervelende pion:\n\nNa 13...Ka5? 14.g4 c4 15.g5 Lxg5\n\nhier: 15...c3 16.g6 c2 17.g7 c1D\n\nEen derde functie van de a-pion is\ndat  zij 14...Kb5  niet  toelaat. En\nnatuurlijk  niet  14...e3?  15.Kd3\nLf6(Lb4) 16.e7 Lxe7 en 17.Kxc3.\n\nEen vierde functie van de a-pion.\nHij dreigt door te lopen. En nu zijn\ner twee voortzettingen voor zwart:",
+        "A.a": "Maar  niet  19.e7? c1D  20.e8D\nDc4+ 21.Ke5 De2+ en 22...Dxe8.\nOf  hier  nog  21.Kc6 Db5+  en",
+        "A.b": "Remise of hier 20..Dd2+? 21.Ke5,\nremise. (Ken Thompson) Of ook:"
+      }
+    }
+  }
+}

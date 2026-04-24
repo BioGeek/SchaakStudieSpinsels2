@@ -1,0 +1,199 @@
+{
+  "number": 222,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1967",
+  "gbr": "0031.13 b1b8",
+  "fen": "1k6/8/p4ppP/2N5/8/2b5/8/1K6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "1k6/8/p4ppP/2N5/8/2b5/2K5/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ba1",
+      "nl": "La1",
+      "fenAfter": "1k6/8/p4ppP/2N5/8/8/2K5/b7 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nb3",
+      "nl": "Pb3?",
+      "fenAfter": "1k6/8/p4ppP/8/8/1N6/2K5/b7 b - - 3 2",
+      "variant": "main.a",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "1k6/8/p4ppP/4b3/8/1N6/2K5/8 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Na5",
+      "nl": "Pa5",
+      "fenAfter": "1k6/8/p4ppP/N3b3/8/8/2K5/8 b - - 5 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Ba1",
+      "nl": "La1",
+      "fenAfter": "1k6/8/p4ppP/N7/8/8/2K5/b7 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Nc4",
+      "nl": "Pc4",
+      "fenAfter": "1k6/8/p4ppP/8/2N5/8/2K5/b7 b - - 7 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "1k6/8/p4ppP/8/8/1N6/2K5/b7 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "1k6/8/p4ppP/4b3/8/1N6/2K5/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Ne4",
+      "nl": "Pe4?",
+      "fenAfter": "1k6/8/p4ppP/8/4N3/8/2K5/b7 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "1k6/8/p4ppP/4b3/4N3/8/2K5/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Nc5",
+      "nl": "Pc5",
+      "fenAfter": "1k6/8/p4ppP/2N1b3/8/8/2K5/8 b - - 5 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Ba1",
+      "nl": "La1",
+      "fenAfter": "1k6/8/p4ppP/2N5/8/8/2K5/b7 w - - 6 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "1k6/8/p4ppP/8/8/3N4/2K5/b7 b - - 7 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Nd3",
+      "nl": "Pd3?",
+      "fenAfter": "1k6/8/p4ppP/8/8/3N4/2K5/b7 b - - 3 2",
+      "variant": "main.c",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "1k6/8/p4ppP/8/3b4/3N4/2K5/8 w - - 4 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.c.5",
+      "ply": 5,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "1k6/8/p4ppP/8/3b1N2/8/2K5/8 b - - 5 3",
+      "variant": "main.c",
+      "parent": "main.c.4"
+    },
+    {
+      "id": "main.c.6",
+      "ply": 6,
+      "san": "f5",
+      "nl": "f5",
+      "fenAfter": "1k6/8/p5pP/5p2/3b1N2/8/2K5/8 w - - 0 4",
+      "variant": "main.c",
+      "parent": "main.c.5"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Na5",
+      "nl": "Pa5",
+      "fenAfter": "1k6/8/p4ppP/N3b3/8/8/2K5/8 b - - 5 3",
+      "variant": "B",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit moet het opspelen van pion f6                   W\nverhinderen.. Met directe en indi-\nrecte dreigingen om de loper te\nslaan, tracht hij de diagonaal a1-h8\ngesloten te houden.",
+      "after": "En nu zoals in variant A:\n\nenzovoort.\n\nEn ook hier kan dan de h-pion dus\npromoveren tot dame, met winst.\n\nJosé A. Copié schreef in 2009 in\nFinales y Temas: “La idea de este\nestupendo Estudio es de una sólo\nhebra; la obstrucción de la gran\ndiagonal negra mediante la inter-\nposición del Caballo, que realiza\nuna sutil danza triunfal, o bien con\nel Rey como se ve en la posición\nfinal. Esta obra se incluyó en el\nÁlbum FIDE, 1965–1967“.\n\nAlhoewel deze studie in het FIDE-\nalbum prijkt, kreeg ze geen belo-\nning van de prijsrechter.\n-\n\nl\n\n-",
+      "beforeVariant": {
+        "main.a": "Niet goed zijn:",
+        "main.b": "Ld4  5.Kd3 La1  6.Pa5 Kc7",
+        "main.c": "Ld4 5.Pf4 f5, en de diagonaal\n    gaat open. Ook na:                                    v",
+        "A": "Zwart heeft twee mogelijkheden:",
+        "A.a": "Dreigt 5.Pd7+.\n\nWant niet goed zijn:\n\nWeerom de enige goede zet.",
+        "A.b": "Kc6 7.Pf5, noch",
+        "A.c": "(6...Kd6  7.Pf5+  Ke6  8.h7)",
+        "B": "ook na 8…Kc7 9.Pd4,\n\nEr is niets beter 8...Lb2 9.Pd4 f5+\n\nOmdat nu de diagonaal a1-h8 ge-\nsloten blijft, kan de h-pion promo-\nveren  tot dame met  winst.  Dit\ndankzij het  fijne samenspel van\nkoning en paard.",
+        "B.a": "Of:"
+      }
+    }
+  }
+}

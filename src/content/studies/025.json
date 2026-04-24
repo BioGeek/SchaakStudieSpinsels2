@@ -1,0 +1,117 @@
+{
+  "number": 25,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "Origineel, 2009",
+  "gbr": "0310.01 d6a8",
+  "fen": "k7/3p1r2/3K4/2B5/8/8/8/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "k7/2Kp1r2/8/2B5/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rh7",
+      "nl": "Th7",
+      "fenAfter": "k7/2Kp3r/8/2B5/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bf2",
+      "nl": "Lf2",
+      "fenAfter": "k7/2Kp3r/8/8/8/8/5B2/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rh2",
+      "nl": "Th2",
+      "fenAfter": "k7/2Kp4/8/8/8/8/5B1r/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "k7/2Kp4/8/8/8/6B1/7r/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rh3",
+      "nl": "Th3",
+      "fenAfter": "k7/2Kp4/8/8/8/6Br/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "k7/2Kp4/3B4/8/8/7r/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rh7",
+      "nl": "Th7",
+      "fenAfter": "k7/2Kp3r/3B4/8/8/8/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "k7/2Kp3r/8/2B5/8/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "d6",
+      "nl": "d6",
+      "fenAfter": "k7/2K4r/3p4/2B5/8/8/8/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kxd6",
+      "nl": "Kxd6",
+      "fenAfter": "k7/7r/3K4/2B5/8/8/8/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "De énige zet.\n\nWeerom de énige goede zet.\n\nEn nogmaals de énige zet tot ge-\nlijkspel, daar steeds de zwarte ko-\nning buitenspel staat.\nDan maar:\n\nEn wit houdt dus remise.\n\nDrie unieke witte zetten!\n     Dit is mijn correctie van een 2de\n     prijs van A. Akerblom in Schack-\n    världen 1941 (!)\n\n   Reeds in de oorlogsjaren gaf de\n    componist deze oplossing: 1.Kc7\n   Th7 2.Lf2 Tf7 3.Lc5 (Ook 3.Lg1 of\n\nof 8.Lc5 zijn ook correct) 8…Tf4\n\nremise.\n\n    Mijn kortere oplossing  is correct\n    volgens de Nalimov Endgame Ta-\n    blebase, waarover Akerblom toen\n     uiteraard niet beschikte.\n\n   Een knappe oplosser die dit op een\n    oploswedstrijd ontrafelt.",
+      "beforeVariant": {}
+    }
+  }
+}

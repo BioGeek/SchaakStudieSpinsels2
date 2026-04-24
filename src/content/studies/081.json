@@ -1,0 +1,171 @@
+{
+  "number": 81,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 1989",
+  "gbr": "0040.11 b1g3",
+  "fen": "8/8/3B4/4p3/7P/6k1/1b6/1K6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "h5",
+      "nl": "h5",
+      "fenAfter": "8/8/3B4/4p2P/8/6k1/1b6/1K6 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/3B4/4p2P/3b4/6k1/8/1K6 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "h6",
+      "nl": "h6",
+      "fenAfter": "8/8/3B3P/4p3/3b4/6k1/8/1K6 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/8/3B3P/4p3/3b2k1/8/8/1K6 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "8/8/7P/2B1p3/3b2k1/8/8/1K6 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/8/7P/2B1p3/6k1/2b5/8/1K6 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/7P/2B1p3/6k1/2b5/2K5/8 b - - 4 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ba1",
+      "nl": "La1",
+      "fenAfter": "8/8/7P/2B1p3/6k1/8/2K5/b7 w - - 5 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "8/8/7P/4p3/1B4k1/8/2K5/b7 b - - 6 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/7P/8/1B2p1k1/8/2K5/b7 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/8/7P/8/4p1k1/2B5/2K5/b7 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bxc3",
+      "nl": "Lxc3",
+      "fenAfter": "8/8/7P/8/4p1k1/2b5/2K5/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kxc3",
+      "nl": "Kxc3",
+      "fenAfter": "8/8/7P/8/4p1k1/2K5/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "e3",
+      "nl": "e3",
+      "fenAfter": "8/8/7P/8/6k1/2K1p3/8/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "h7",
+      "nl": "h7",
+      "fenAfter": "8/7P/8/8/6k1/2K1p3/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "8/7P/8/8/6k1/2K5/4p3/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/7P/8/8/6k1/8/3Kp3/8 b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De aangevallen  witte pion staat\nnog ver van het promotieveld en\nstart met:",
+      "after": "Dreigt 2…Le3\n\nDit is beter dan 2…Kf3? 3.Lf8 e4\nLg7 e3 5.Lxd4 e2 6.Lc3, en de\nwitte pion loopt door..\n\nNatuurlijk niet 3.h7? e4 4.La3 en\nbijvoorbeeld 4…Kf5 5.Lb2 Kg6 en\nde witte pion haalt het niet.\n\nMaar niet 5.La3? e4 6.Lb2 Lxb2\n\nen  zwart,  halen dame,  zonder\nwinst.\n\nWit haalt toch het promotieveld.",
+      "beforeVariant": {}
+    }
+  }
+}

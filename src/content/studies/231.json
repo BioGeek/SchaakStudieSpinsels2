@@ -1,0 +1,229 @@
+{
+  "number": 231,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1975",
+  "gbr": "0410.12 h6e8",
+  "fen": "4k3/3R4/7K/6r1/8/2p2B1p/7P/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc6",
+      "nl": "Lc6",
+      "fenAfter": "4k3/3R4/2B4K/6r1/8/2p4p/7P/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rc5",
+      "nl": "Tc5",
+      "fenAfter": "4k3/3R4/2B4K/2r5/8/2p4p/7P/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ba4",
+      "nl": "La4",
+      "fenAfter": "4k3/3R4/7K/2r5/B7/2p4p/7P/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "5k2/3R4/7K/2r5/B7/2p4p/7P/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "5k2/3R4/6K1/2r5/B7/2p4p/7P/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "c2",
+      "nl": "c2",
+      "fenAfter": "5k2/3R4/6K1/2r5/B7/7p/2p4P/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Rc4",
+      "nl": "Tc4?",
+      "fenAfter": "5k2/3R4/6K1/8/B1r5/2p4p/7P/8 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "5k2/5R2/6K1/8/B1r5/2p4p/7P/8 b - - 7 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.a.8",
+      "ply": 8,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/5R2/6K1/8/B1r5/2p4p/7P/8 w - - 8 5",
+      "variant": "main.a",
+      "parent": "main.a.7"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Bb3",
+      "nl": "Lb3",
+      "fenAfter": "6k1/5R2/6K1/8/2r5/1Bp4p/7P/8 b - - 9 5",
+      "variant": "main.a",
+      "parent": "main.a.8"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "5k2/1R6/6K1/2r5/B7/7p/2p4P/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Ra5",
+      "nl": "Ta5?",
+      "fenAfter": "5k2/3R4/6K1/r7/B7/2p4p/7P/8 w - - 6 4",
+      "variant": "main.b",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "5k2/5R2/6K1/r7/B7/2p4p/7P/8 b - - 7 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.b.8",
+      "ply": 8,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/5R2/6K1/r7/B7/2p4p/7P/8 w - - 8 5",
+      "variant": "main.b",
+      "parent": "main.b.7"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "Bb3",
+      "nl": "Lb3",
+      "fenAfter": "6k1/5R2/6K1/r7/8/1Bp4p/7P/8 b - - 9 5",
+      "variant": "main.b",
+      "parent": "main.b.8"
+    },
+    {
+      "id": "main.c.6",
+      "ply": 6,
+      "san": "Rc8",
+      "nl": "Tc8?",
+      "fenAfter": "2r2k2/3R4/6K1/8/B7/2p4p/7P/8 w - - 6 4",
+      "variant": "main.c",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.c.7",
+      "ply": 7,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "2r2k2/5R2/6K1/8/B7/2p4p/7P/8 b - - 7 4",
+      "variant": "main.c",
+      "parent": "main.c.6"
+    },
+    {
+      "id": "main.c.8",
+      "ply": 8,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "2r3k1/5R2/6K1/8/B7/2p4p/7P/8 w - - 8 5",
+      "variant": "main.c",
+      "parent": "main.c.7"
+    },
+    {
+      "id": "main.c.9",
+      "ply": 9,
+      "san": "Bb3",
+      "nl": "Lb3",
+      "fenAfter": "2r3k1/5R2/6K1/8/8/1Bp4p/7P/8 b - - 9 5",
+      "variant": "main.c",
+      "parent": "main.c.8"
+    },
+    {
+      "id": "main.c.10",
+      "ply": 10,
+      "san": "Rb8",
+      "nl": "Tb8",
+      "fenAfter": "1r4k1/5R2/6K1/8/8/1Bp4p/7P/8 w - - 10 6",
+      "variant": "main.c",
+      "parent": "main.c.9"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rg5+",
+      "nl": "Tg5+",
+      "fenAfter": "5k2/1R6/6K1/6r1/B7/7p/2p4P/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "5k2/1R6/5K2/6r1/B7/7p/2p4P/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "5k2/1R6/5K2/6r1/B7/7p/7P/2q5 w - - 0 6",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Beide torens staan en prise, daar-\nom dekt wit zijn toren:",
+      "after": "(en niet het gulzige 7.Txc6?\n        c1D 8.Txc1, en pat) 7…Tc8\n\nmat) 9.Le6+ Kh8 10.Tf8+ en\n          mat.\n\nNa 6…Kh8  volgt  bijvoorbeeld:\n\nEn wit wint nu door overmacht.\n\n     Maar nu opgepast voor de valstrik\n      van zwart, na 8…Kxg6+ is 9.Kxg6\n       pat.\n\nt      Eindspelredacteur Freek Spinho-\n      ven vond het een “Goede studie.”",
+      "beforeVariant": {
+        "main.a": "slaat later ook de andere zwarte pi-\non, waarna de h-pion de beslis-\nsing brengt.\n\nEr dreigt nu een wit aftrekschaak\nom de toren te vangen. Bijvoor-\nbeeld: 2…Tc8 3.Kg7 c2 4.Tc7+\nKd8 5.Txc8+ Kxc8 6.Lxc2, en wint.\n\nNog het beste:\n\nWit wint.\n\nEen tweede batterij.\n\nWant andere zetten falen:",
+        "main.b": "Tg4+ 6.Kh6 Th4+ 7.Kg5 Tb4\n\nwinst.\n\nDxc4 8.Txc4.",
+        "main.c": "Tb5  6.Tb7+  Txb3  7.Txb3,\n          enzovoort.\n\nTxe6 8.Txe6."
+      }
+    }
+  }
+}

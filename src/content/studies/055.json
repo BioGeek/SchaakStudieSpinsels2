@@ -1,0 +1,210 @@
+{
+  "number": 55,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EBUR, 2000",
+  "gbr": "4001.00 g4c4",
+  "fen": "8/5r2/8/3N4/2k3K1/8/8/7Q w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qe4+",
+      "nl": "De4+",
+      "fenAfter": "8/5r2/8/3N4/2k1Q1K1/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/5r2/8/3N4/4Q1K1/1k6/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qb1+",
+      "nl": "Db1+",
+      "fenAfter": "8/5r2/8/3N4/6K1/1k6/8/1Q6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/5r2/8/3N4/2k3K1/8/8/1Q6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/5r2/8/3N4/2k3K1/8/2Q5/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/5r2/8/1k1N4/6K1/8/2Q5/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "8/5r2/8/1k1N4/6K1/1Q6/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/5r2/8/2kN4/6K1/1Q6/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qb4+",
+      "nl": "Db4+",
+      "fenAfter": "8/5r2/8/2kN4/1Q4K1/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/5r2/2k5/3N4/1Q4K1/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qb6+",
+      "nl": "Db6+",
+      "fenAfter": "8/5r2/1Qk5/3N4/6K1/8/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/3k1r2/1Q6/3N4/6K1/8/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qc7+",
+      "nl": "Dc7+",
+      "fenAfter": "8/2Qk1r2/8/3N4/6K1/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/2Q2r2/4k3/3N4/6K1/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/2Q2r2/4k3/8/5NK1/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2Q2r2/5k2/8/5NK1/8/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qd6+",
+      "nl": "Dd6+",
+      "fenAfter": "8/5r2/3Q1k2/8/5NK1/8/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/5rk1/3Q4/8/5NK1/8/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Ne6+",
+      "nl": "Pe6+",
+      "fenAfter": "8/5rk1/3QN3/8/6K1/8/8/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/5r2/3QN1k1/8/6K1/8/8/8 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "8/5r2/3Q2k1/6N1/6K1/8/8/8 b - - 21 11",
+      "variant": "main",
+      "parent": "main.20"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.De2+ Kd4 2.De3+ Kc4 3.Dc3+\n\nEn wint.\nHet  is een verbetering van een\nstudie van W. Prigoenov in Ces-\nkovensky Sach (1992):\n\nKg4 Da6 Pd5 / Ke4 Df7 +\n\nKb5 4.Db4+ Kc6 5.Db6+ Kd7\n\nKg7  9.Pe6 Kg6  10.Pg5+  Df6\n\n(Winnen ook:14.Dd5+,14.Dd8+,\n\nkorter.)   17…Dg8    18.Dh1?\n(18.Dc6 of 18.De4 winnen ook.)\n\nDa6+ 21.Pe6 Da2 22.Dg4 Df2\n\nDa5+ 28.Kg6, en wit wint.\n\nVele malen nevenoplosbaar dus.",
+      "beforeVariant": {
+        "main.a": "(Ze zet 5.)\n\nEen verrassende stille zet.\n\nKg8 16.Kh5 (Zie zet 14.)\n\nWeerom een stille zet.",
+        "main.b": "zet 15.)"
+      }
+    }
+  }
+}

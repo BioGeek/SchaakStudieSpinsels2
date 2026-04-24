@@ -1,0 +1,129 @@
+{
+  "number": 249,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2008",
+  "gbr": "0330.31 a8h6",
+  "fen": "K7/2pr4/1P5k/4P3/8/8/5P2/6b1 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "K7/1Ppr4/7k/4P3/8/8/5P2/6b1 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rd8+",
+      "nl": "Td8+",
+      "fenAfter": "K2r4/1Pp5/7k/4P3/8/8/5P2/6b1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "b8=Q",
+      "nl": "b8D",
+      "fenAfter": "KQ1r4/2p5/7k/4P3/8/8/5P2/6b1 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rxb8+",
+      "nl": "Txb8+",
+      "fenAfter": "Kr6/2p5/7k/4P3/8/8/5P2/6b1 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kxb8",
+      "nl": "Kxb8",
+      "fenAfter": "1K6/2p5/7k/4P3/8/8/5P2/6b1 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "c5",
+      "nl": "c5",
+      "fenAfter": "1K6/8/7k/2p1P3/8/8/5P2/6b1 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "e6",
+      "nl": "e6",
+      "fenAfter": "1K6/8/4P2k/2p5/8/8/5P2/6b1 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bh2+",
+      "nl": "Lh2+",
+      "fenAfter": "1K6/8/4P2k/2p5/8/8/5P1b/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.a.8",
+      "ply": 8,
+      "san": "Bxf2",
+      "nl": "Lxf2?",
+      "fenAfter": "1K6/8/4P2k/2p5/8/8/5b2/8 w - - 0 5",
+      "variant": "main.a",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.b.8",
+      "ply": 8,
+      "san": "Kg7",
+      "nl": "Kg7?",
+      "fenAfter": "1K6/6k1/4P3/2p5/8/8/5P2/6b1 w - - 1 5",
+      "variant": "main.b",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K3k1/4P3/2p5/8/8/5P2/6b1 b - - 2 5",
+      "variant": "main.b",
+      "parent": "main.b.8"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2K5/4Pk2/2p5/8/8/5P2/6b1 w - - 3 6",
+      "variant": "main.b",
+      "parent": "main.b.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Fout is 5.Kb7? Ld6 6.Kc6 en na\nbijvoorbeeld  6...Le7  7.Kd5 Kg6\nhoudt zwart de witte pionnen in be-\ndwang   terwijl   zijn  eigen  pion\ndoorloopt.\n\nDe loper is gehinderd door zijn ei-\ngen pion.\n\nMaar  niet 7.f4? Kg6 8.Ke8 Kf6\n\nOpnieuw staat een eigen stuk de\nzwarte loper  in de weg: 7...Lg7\n\nEn zwart komt niet verder.\nRemise.\n\nHet leuke is dat zowel een witte als\nde zwarte pion van uit hun start-\npositie de eindmeet bereiken.\n\nTwee ‘Excelsiors’ dus.",
+      "beforeVariant": {
+        "main.a": "Na 1…c5, volgt 2.b8D en bijvoor-\nbeeld 2…Lxf2 3.Df8+ Tg7 4.Dxf2\nmet winst.\n\nNiet 3...c6? 4.e6 Lh2 5.Kb7 en of-\nwel valt de zwarte pion, ofwel loopt\nde witte pion door.",
+        "main.b": "moveert. Ook niet goed is:"
+      }
+    }
+  }
+}

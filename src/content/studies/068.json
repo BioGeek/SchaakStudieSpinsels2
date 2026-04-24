@@ -1,0 +1,183 @@
+{
+  "number": 68,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2012",
+  "gbr": "0001.11 a8c7",
+  "fen": "K7/2k5/7p/2P3N1/8/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "K7/2k5/7p/2P5/4N3/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "h5",
+      "nl": "h5",
+      "fenAfter": "K7/2k5/8/2P4p/4N3/8/8/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "8/K1k5/8/2P4p/4N3/8/8/8 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "h4",
+      "nl": "h4",
+      "fenAfter": "8/K1k5/8/2P5/4N2p/8/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/2k5/K7/2P5/4N2p/8/8/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/8/K1k5/2P5/4N2p/8/8/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/8/2k5/K1P5/4N2p/8/8/8 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "8/8/2k5/K1P5/4N3/7p/8/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/2k5/2P5/1K2N3/7p/8/8 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "h2",
+      "nl": "h2",
+      "fenAfter": "8/8/2k5/2P5/1K2N3/8/7p/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ng3",
+      "nl": "Pg3?",
+      "fenAfter": "8/8/2k5/2P5/1K6/6N1/7p/8 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/8/2Pk4/1K6/6N1/7p/8 w - - 2 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1KPk4/8/6N1/7p/8 b - - 3 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/8/1KP1k3/8/6N1/7p/8 w - - 4 8",
+      "variant": "A",
+      "parent": "main.13"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/1KP5/3k4/6N1/7p/8 w - - 4 8",
+      "variant": "B",
+      "parent": "main.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "c6",
+      "nl": "c6",
+      "fenAfter": "8/8/2P5/1K6/3k4/6N1/7p/8 b - - 0 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/8/2P5/1K6/8/4k1N1/7p/8 w - - 1 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/2P5/8/1K6/4k1N1/7p/8 b - - 2 9",
+      "variant": "B",
+      "parent": "B.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "En eerste verleiding  is 1.Pe6+?\nKc6 2.Ka7 h5 3.Ka6 h4 4.Ka5 h3\n\nen wit komt te laat. Daarom:",
+      "after": "En wint eveneens.\n\n    Deze maljutka is een antwoord op\n     de 2de eervolle vermelding van S.\n     Badalov in het Ali Tebrizi Shat-\n       ranji MT 2009:\n\n    Kd6 Ph3 c5 e3 / Kd3 Pb8 a6 +\n\n     Met de oplossing: 1.Pf4+ Kxe3\n\nKc6 5.Ka7 a5 6.Ka6 a4 7.Ka5 a3\n\ntwee mogelijkheden: 10.Pb3  of\n\nDe prijsrechter Bakhtiyar Rusta-\n    mov uit Baku, Azerbaijan schreef:\n     “An interesting trajectory of white\n     moves. The king revives around\n      the Pc5, while the knight moves in\n     a symmetric wave-like pattern”.\n\n     Mooi, maar al is mijn inleiding iets\n      korter: ‘Less is more’, of ‘Meer met\n      minder’.",
+      "beforeVariant": {
+        "A": "En nu niet de tweede vergissing:\n\nKe5 8.c6 Kf4 9.Ph1 Kf3 10.c7 Kg2",
+        "B": "En wit wint."
+      }
+    }
+  }
+}

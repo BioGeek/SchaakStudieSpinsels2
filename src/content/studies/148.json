@@ -1,0 +1,153 @@
+{
+  "number": 148,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2012",
+  "gbr": "0410.01 f5a8",
+  "fen": "k1r5/8/pR6/5K2/B7/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc6+",
+      "nl": "Lc6+",
+      "fenAfter": "k1r5/8/pRB5/5K2/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "2r5/k7/pRB5/5K2/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "2r5/kR6/p1B5/5K2/8/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k1r5/1R6/p1B5/5K2/8/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "k1r5/1R6/p7/5K2/4B3/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "k1r5/1R6/8/p4K2/4B3/8/8/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "k1r5/1R6/4K3/p7/4B3/8/8/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "k1r5/1R6/4K3/8/p3B3/8/8/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "k1r5/1R1K4/8/8/p3B3/8/8/8 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rf8",
+      "nl": "Tf8",
+      "fenAfter": "k4r2/1R1K4/8/8/p3B3/8/8/8 w - - 2 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "k4r2/1R6/3K4/8/p3B3/8/8/8 b - - 3 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "a3",
+      "nl": "a3",
+      "fenAfter": "k4r2/1R6/3K4/8/4B3/p7/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "k4r2/5R2/3K4/8/4B3/p7/8/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k3r2/5R2/3K4/8/4B3/p7/8/8 w - - 2 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rxf8",
+      "nl": "Txf8",
+      "fenAfter": "1k3R2/8/3K4/8/4B3/p7/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Een klein en fijn kleinood.",
+      "beforeVariant": {}
+    }
+  }
+}

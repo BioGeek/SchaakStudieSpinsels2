@@ -1,0 +1,138 @@
+{
+  "number": 239,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Jubiläulturnier",
+  "gbr": "0613.20 d8h7",
+  "fen": "3KB3/3PP2k/8/2n5/8/3r4/8/2r5 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "4B3/2KPP2k/8/2n5/8/3r4/8/2r5 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Nd7+",
+      "nl": "Pd7+",
+      "fenAfter": "4B3/2KnP2k/8/8/8/3r4/8/2r5 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bf7",
+      "nl": "Lf7",
+      "fenAfter": "3K4/3PPB1k/8/2n5/8/3r4/8/2r5 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Rxd7+",
+      "nl": "Txd7+",
+      "fenAfter": "3K4/3rPB1k/8/2n5/8/8/8/2r5 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "3K4/3PP2k/8/2n4B/8/3r4/8/2r5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "3K4/1n1PP2k/8/7B/8/3r4/8/2r5 w - - 2 2",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4K3/1n1PP2k/8/7B/8/3r4/8/2r5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "4K3/3PP2k/3n4/7B/8/3r4/8/2r5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3K4/3PP2k/3n4/7B/8/3r4/8/2r5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "3K4/3PPn1k/8/7B/8/3r4/8/2r5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4K3/3PPn1k/8/7B/8/3r4/8/2r5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "4K3/3PPn1k/8/7B/8/3r4/8/7r w - - 8 5",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "d8=N",
+      "nl": "d8P",
+      "fenAfter": "3NK3/4Pn1k/8/7B/8/3r4/8/7r b - - 0 5",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Twee witte pionnen staant te po-\npelen om te promoveren.",
+      "after": "1.Lg6+      Kg7\n\nmet  matdreiging. Want  6.d8D?\nfaalt inderdaad op 6…Pe5 7.Lh7\nTxh7 8.Dd5 Th8+ 9.Dg8+ Txg8+\nen mat. Daarom:\n\nEen eerste minorpromotie.\n\nBeter dan bijvoorbeeld: 6…Pd6+?\n\nwinst voor wit.\n\nHier niet: 8.Kd6? Pxd3, en zwart\nwint volgens Nalimov EGTB.\n\nDe énige remisezet.\nEn niet goed is 9.Kd7? Pc5+ met\nbijvoorbeeld: 10.Kd6 Pe4+ 11.Ke6\nPf6 12.Pf7 Ta8 13.Pd6 Kg6 14.Pc4\nTa6+  15.Ke5 Ta2  16.Pe3 Ta4\n\nmaar:\n\nWant op  zijn beurt  faalt hier de\nafwachtende zet 9…Tg8, op  bij-\nvoorbeeld: 10.Pd6 Pc5+ 11.Kd5\nPd7 en nu 12.e8P, met remise.\nNog een minorpromotie.\n\nDe pion kan nu  niet  ongestraft\npromoveren tot dame, toren of lo-\nper. Men  zie: 11.e8D? Pf6+ en\n\nwint zwart.\nGelukkig is er nog een remisezet,\nnamelijk een tweede paardpromo-\ntie:\n\nEn remise is een feit.\n      Het commentaar van prijsrechter\n      Yochanan Afek luidde: “The two\n      advanced pawns are underpromo-\n       ted to knights; yet the real hero of\n       the battle  is the acrobatic black\n        knight.”\n\nt      Persoonlijk vind ik dat een 2de Eer-\n        volle Vermelding eerder een wat\n     magere beloning is voor deze dub-\n       bele paardpromotie.\n\n        Maar...... “Goesting  is goesting.”\n       zei mijn wijze moeder zaliger…",
+      "beforeVariant": {
+        "main.a": "Maar wit biedt eerst zijn loper aan:\n\nachteloos: 2…Kg7 met: 3.Kc7!\n   (maar niet 3.e8D? Pb7+ 4.Ke7\n   Te1+ 5.Le4 Txe4+ en mat.)\n\nTxe8 6.Kxe8, remise.\n\n(Pb7+) 5.Ke8 Th8+ en mat. Of\n    hier 4.d8D Th8+ en ook mat.",
+        "main.b": "dame  houdt  remise  door\n                                                                  f   eeuwig schaak  te geven  of\n    door een toren te veroveren.\n    Bijvoorbeeld: 2…Kg7 3.De5+\n   Kg6 4.De8+ Kg5 5.Ke5+ Kg4\n\nw    14.Ke7, en het is zover.\n\nreeds zagen.\n\nTh8+ 5.Kd7 Txd8+ 6.exd8D\n    Pxd8, met remise."
+      }
+    }
+  }
+}

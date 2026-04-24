@@ -1,0 +1,156 @@
+{
+  "number": 171,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Magyar Sakkélet, 1996",
+  "gbr": "0313.20 e1g1",
+  "fen": "8/8/3P4/8/8/n1B5/6Pr/4K1k1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "d7",
+      "nl": "d7",
+      "fenAfter": "8/3P4/8/8/8/n1B5/6Pr/4K1k1 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nc2+",
+      "nl": "Pc2+",
+      "fenAfter": "8/3P4/8/8/8/2B5/2n3Pr/4K1k1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/3P4/8/8/8/2B5/2n3Pr/3K2k1 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rh5",
+      "nl": "Th5",
+      "fenAfter": "8/3P4/8/7r/8/2B5/2n3P1/3K2k1 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Ne3+",
+      "nl": "Pe3+?",
+      "fenAfter": "8/3P4/8/8/8/2B1n3/6Pr/3K2k1 w - - 3 3",
+      "variant": "main.a",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/3P4/8/8/8/2B1n3/6Pr/2K3k1 b - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Rxg2",
+      "nl": "Txg2",
+      "fenAfter": "8/3P4/8/8/8/2B1n3/6r1/2K3k1 w - - 0 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q4/8/8/8/8/2B1n3/6r1/2K3k1 b - - 0 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Rxg2",
+      "nl": "Txg2?",
+      "fenAfter": "8/3P4/8/8/8/2B5/2n3r1/3K2k1 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q4/8/8/8/8/2B5/2n3r1/3K2k1 b - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "3Q4/8/8/8/8/2B1n3/6r1/3K2k1 w - - 1 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "3Q4/8/8/8/8/2B1n3/6r1/2K3k1 b - - 2 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q4/8/8/7r/8/2B5/2n3P1/3K2k1 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rd5+",
+      "nl": "Td5+",
+      "fenAfter": "3Q4/8/8/3r4/8/2B5/2n3P1/3K2k1 w - - 1 4",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qxd5",
+      "nl": "Dxd5",
+      "fenAfter": "8/8/8/3Q4/8/2B5/2n3P1/3K2k1 b - - 0 4",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Tc2+ 5.Kb1 Txc3 wint ook\n\nNa 3.d8D? Td5+ 4.Dxf5 Pe3+ en\n\nZwart weigert uiteraard het offer\nwant 3…Pxd4 4.d8D en wit wint,\nmaar biedt er zelf een aan:\n\nEn niet 4..Kxg2?, met een hoopvol\n\ndan  houdt  zwart  remise  na\n\nDaarom een tweede offeraanbod:\n\nWie kon vermoeden dat dit pion-\n     netje nog zou winnen.\n\nEnzovoort.\n\n     Pion g2 wint met een Exelsior.",
+      "beforeVariant": {
+        "main.a": "Want na:",
+        "main.b": "Tc2+ 5.Kb1 Txc3 6.Dd4 Ta3"
+      }
+    }
+  }
+}

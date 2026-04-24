@@ -1,0 +1,148 @@
+{
+  "number": 272,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "“Liberation”",
+  "gbr": "0014.04 g4c5",
+  "fen": "8/p4R1r/p7/p1k5/p5K1/8/1B6/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/p4R1r/p7/p1k2K2/p7/8/1B6/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bg7",
+      "nl": "Lg7?",
+      "fenAfter": "8/p4RBr/p7/p1k5/p5K1/8/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "a3",
+      "nl": "a3",
+      "fenAfter": "8/p4RBr/p7/p1k5/6K1/p7/8/8 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.c.1",
+      "ply": 1,
+      "san": "Ba3+",
+      "nl": "La3+?",
+      "fenAfter": "8/p4R1r/p7/p1k5/p5K1/B7/8/8 b - - 1 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.2",
+      "ply": 2,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/p4R1r/p7/p7/p1k3K1/B7/8/8 w - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.1"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/p4R1r/p7/p4K2/p1k5/B7/8/8 b - - 3 2",
+      "variant": "main.c",
+      "parent": "main.c.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/p4R1r/p7/p4K2/p7/Bk6/8/8 w - - 4 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.c.5",
+      "ply": 5,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "8/p4R1r/p2B4/p4K2/p7/1k6/8/8 b - - 5 3",
+      "variant": "main.c",
+      "parent": "main.c.4"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kc4",
+      "nl": "Kc4?",
+      "fenAfter": "8/p4R1r/p7/p4K2/p1k5/8/1B6/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "8/p4RBr/p7/p4K2/p1k5/8/8/8 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "a3",
+      "nl": "a3",
+      "fenAfter": "8/p4R1r/p7/p1k2K2/8/p7/1B6/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/p4R1r/p5K1/p1k5/8/p7/1B6/8 b - - 1 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/p4R1r/p5K1/pk6/8/p7/1B6/8 w - - 2 3",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.37",
+      "ply": 37,
+      "san": "Bxa3",
+      "nl": "Lxa3",
+      "fenAfter": "8/p4R1r/p5K1/pk6/8/B7/8/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Eerst tracht wit het zwart paard te\nisoleren met:",
+      "after": "1...         Kc6\n\nkoning komt naderbij. Ook hier\n   na bijvoorbeeld 3...a2 4.Kxh7\n   Kb3  5.Pd6 Kc2  6.Pc4 Kc1\n\nEn het zwarte paard kan niet weg.\nDit is beter dan 2.Lg7 Kd7 3.Kg6\nKe7 4.Pe5 Pf8+, enzovoort.\n\nen niet 2…Kd5? 3.Ld6 K~ 4.Kg6,\nenzovoort,\n\nNu kan wit het paard niet onge-\nstraft slaan, maar gaat hij op jacht\nnaar pionnenroof:\n\nDe eerste zwarte pion wordt ge-\nplukt.\n\nNiet 6...Kb6? 7.Pc4+ Kb5 8.Pb2 en\nhet zwarte paard wordt veroverd,\nmet vrij makkelijke winst voor wit.\n\nDe enige afwachtende zet want\n\nDaar verdwijnt de tweede pion.\n\nEn opnieuw:\n\nOf 18...a5? 19.La3 Pf6 20.Pg5+\nKe5 21.Lb2+ en 22.Kxf6.\n\nOok de derde pion sneuvelt.\n\nEn ook de laatste pion wordt op-\ngeslokt.\n\nHier  ziet men waarom 26.Lc5?\n     fout   is.  Er  volgt  dan 26…Pf6\n\nontsnapt of er is loperverlies.\n\nEn wit wint.\n\n    Voor deze drievoudige heen en\n    weer gaande manoeuvre gaf het\n      jurylid P.Joita mij, op een totaal\n    van 10 punten, een 7 voor de ori-\n      ginaliteit, een 8 voor de artistieke\n     impressie en een 6 voor de moei-\n     lijkheidsgraad.\n\n    Maar Julien Vandiest schreef  in\n     Flemish Miniatures: “Seems to me\n     that a reward of only 21 out of 30\n    does not sufficiently do justice to\n      this highly original composition.”\n\n    En Roger Missiaen concludeerde\n     leuk met: “A fine finding! An amu-\n     sing feature is the way an hungry\n     Knight galops back and front  all\n     over the board to enjoyment of the\n     spectaters”.",
+      "beforeVariant": {
+        "main.a": "En niet:\n\na3 4.Kg6 a2 5.Le5 Pf8+ en-\n    zovoort.\n\nNatuurlijk niet::",
+        "main.b": "Ke7 4.Lb2 Pf8+ 5.Kg7 Pe6+ en\n    het  zwarte  paard  ontsnapt.\n   Ook na:",
+        "main.c": "a1D 4.Lxa1 Pf8+ 5.Kg7 Pe6+.\n   En ook na:"
+      }
+    }
+  }
+}

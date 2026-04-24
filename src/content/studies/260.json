@@ -1,0 +1,142 @@
+{
+  "number": 260,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Original, 2011",
+  "gbr": "0304.30 g5a8",
+  "fen": "k7/P3N3/P6P/6K1/8/3r4/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "h7",
+      "nl": "h7",
+      "fenAfter": "k7/P3N2P/P7/6K1/8/3r4/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rd8",
+      "nl": "Td8",
+      "fenAfter": "k2r4/P3N2P/P7/6K1/8/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ng8",
+      "nl": "Pg8",
+      "fenAfter": "k2r2N1/P6P/P7/6K1/8/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Rd5+",
+      "nl": "Td5+",
+      "fenAfter": "k5N1/P6P/P7/3r2K1/8/8/8/8 w - - 3 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "k5N1/P6P/P7/3r4/6K1/8/8/8 b - - 4 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.a.5",
+      "ply": 5,
+      "san": "Kg6",
+      "nl": "Kg6?",
+      "fenAfter": "k5N1/P6P/P5K1/3r4/8/8/8/8 b - - 4 3",
+      "variant": "A.a",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.b.5",
+      "ply": 5,
+      "san": "Kh6",
+      "nl": "Kh6?",
+      "fenAfter": "k5N1/P6P/P6K/3r4/8/8/8/8 b - - 4 3",
+      "variant": "A.b",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.c.5",
+      "ply": 5,
+      "san": "Kh4",
+      "nl": "Kh4?",
+      "fenAfter": "k5N1/P6P/P7/3r4/7K/8/8/8 b - - 4 3",
+      "variant": "A.c",
+      "parent": "A.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Rd7",
+      "nl": "Td7",
+      "fenAfter": "k5N1/P2r3P/P7/6K1/8/8/8/8 w - - 3 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Ne7",
+      "nl": "Pe7",
+      "fenAfter": "k7/P2rN2P/P7/6K1/8/8/8/8 b - - 4 3",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Rd8",
+      "nl": "Td8",
+      "fenAfter": "k2r4/P3N2P/P7/6K1/8/8/8/8 w - - 5 4",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "h8=Q",
+      "nl": "h8D",
+      "fenAfter": "k2r3Q/P3N3/P7/6K1/8/8/8/8 b - - 0 4",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Rxh8",
+      "nl": "Txh8",
+      "fenAfter": "k6r/P3N3/P7/6K1/8/8/8/8 w - - 0 5",
+      "variant": "B",
+      "parent": "B.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Txh8  9.Kxh8  7.Kb7  10.Pe5\n   Ka6 11.Pc4.\n\nDus nevenoplosbaar.\n-\n\n-",
+      "beforeVariant": {
+        "A.a": "De juiste zet. Men zie:\n\nVerrassend, want 11.Pxc8? is pat.\nNu na 10…Kxa7?, volgt 11.Pc6+\nDaarom een beslissende zet:",
+        "A.b": "Txh6? 6.Kg7 Txh7. Of:\n\nNet op tijd. Of:",
+        "A.c": "Pe6+ 6.K~ Th8 7.Kf6 Txh7 Of:",
+        "B": "Dreigt 13.Pg8\n\nmet winst. Ook na:",
+        "B.a": "Niet 3.h8D? Txg8+ 4.Dxg8+ Pxg8\nen remise.\n\nMaar opnieuw  niet 4.h8D? Th7\n\nNa 6.Pxc8? is het eveneens pat.\n\nDeze studie is een correctie van\neen  1ste  Eervolle Vermelding  in\nChervony  girnic XXVII,  uit 1997\nvan  V. Kondratev (Gravilov Po-\nsad, Ukraine.):\n\nKg5 Pf6 a5 a7 h6 / Ka8 Td3 Ph5 +\n\nMet de oplossing: 1.h7 Td8 2.Pg8\nPf6 3.Kxf6 Td7 4.Pe7 (4.h8D Th7)\n\nEn met dit commentaar: “Interes-\nting black counterplay for stalema-\nte. At the finish it is Black, who has\nbeen setting up a zugzwang for\nWhite, who falls victim to  it him-\nself.”\n\nMaar helaas is er een dual: 6.Sg6\n(in plaats van 6.a8D+), met:",
+        "B.b": "Kxa8 9.Kxh7 Kb7 10.Pe5 Ka6"
+      }
+    }
+  }
+}

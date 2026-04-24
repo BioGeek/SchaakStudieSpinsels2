@@ -1,0 +1,207 @@
+{
+  "number": 60,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Probleemblad, 2011",
+  "gbr": "0400.10 e4g4",
+  "fen": "8/5R2/3r2P1/8/4K1k1/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g7",
+      "nl": "g7",
+      "fenAfter": "8/5RP1/3r4/8/4K1k1/8/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Re6+",
+      "nl": "Te6+",
+      "fenAfter": "8/5RP1/4r3/8/4K1k1/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/5RP1/4r3/3K4/6k1/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rg6",
+      "nl": "Tg6",
+      "fenAfter": "8/5RP1/6r1/3K4/6k1/8/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rf1",
+      "nl": "Tf1",
+      "fenAfter": "8/6P1/6r1/3K4/6k1/8/8/5R2 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/6P1/6r1/3K4/8/7k/8/5R2 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rh1+",
+      "nl": "Th1+",
+      "fenAfter": "8/6P1/6r1/3K4/8/7k/8/7R b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/6P1/6r1/3K4/8/8/6k1/7R w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rh7",
+      "nl": "Th7",
+      "fenAfter": "8/6PR/6r1/3K4/8/8/6k1/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/6PR/6r1/3K4/8/5k2/8/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/6PR/6r1/4K3/8/5k2/8/8 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/6PR/6r1/4K3/6k1/8/8/8 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "8/6P1/6r1/4K3/6k1/8/8/7R b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/6P1/6r1/4K3/8/5k2/8/7R w - - 13 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rf1+",
+      "nl": "Tf1+",
+      "fenAfter": "8/6P1/6r1/4K3/8/5k2/8/5R2 b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/6P1/6r1/4K3/8/8/6k1/5R2 w - - 15 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rf7",
+      "nl": "Tf7",
+      "fenAfter": "8/5RP1/6r1/4K3/8/8/6k1/8 b - - 16 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/5RP1/6r1/4K3/8/6k1/8/8 w - - 17 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/5RP1/6r1/5K2/8/6k1/8/8 b - - 18 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Rxg7",
+      "nl": "Txg7",
+      "fenAfter": "8/5Rr1/8/5K2/8/6k1/8/8 w - - 0 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Rxg7+",
+      "nl": "Txg7+",
+      "fenAfter": "8/6R1/8/5K2/8/6k1/8/8 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Tf1 Kh3 2.Th1+ Kg2 3.Th7 Kf3 4.Ke5 Kg4 5.Th1 Kf3 6.Tf1 Kg2 7.Tf7 Kg3 8.Kf5 Tg4 9.Kf6.\n\nNa deze rondgang staat de witte\ntoren terug op zijn startplaats.\n\nSpeelt zwart nu 10…Tg4?, dan\nklimt de witte koning via 11.Ke(f)6\nnaar winst.\nDaarom pleegt zwart kamikaze:\n\nMaar wit wint.\n\nDeze maljutka is een verlenging\nmet twee zetten van een eenvou-\ndige  studie van M.H. Kleiman\nverschenen  in  Chess  Review.\n(1968):\n\nKd5 Tf7 g7 / Kg4 Tg6 +\n\nMaar ook 9.Ke6 is goed.\n\nDaar de zet 2.Kd5 de énige cor-\nrecte is in mijn extensie, vond ik\nhet de moeite waard dit te publi-\nceren. Niks grandioos overigens.",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "number": 179,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "EBUR, 2001",
+  "gbr": "4013.01 g4g8",
+  "fen": "6k1/8/6Br/8/5pK1/2Q5/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qc4+",
+      "nl": "Dc4+",
+      "fenAfter": "6k1/8/6Br/8/2Q2pK1/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "7k/8/6Br/8/2Q2pK1/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "7k/8/6Br/8/3Q1pK1/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/8/6Br/8/3Q1pK1/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd5+",
+      "nl": "Dd5+",
+      "fenAfter": "6k1/8/6Br/3Q4/5pK1/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "7k/8/6Br/3Q4/5pK1/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qe5+",
+      "nl": "De5+",
+      "fenAfter": "7k/8/6Br/4Q3/5pK1/8/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/8/6Br/4Q3/5pK1/8/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qe6+",
+      "nl": "De6+",
+      "fenAfter": "6k1/8/4Q1Br/8/5pK1/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/6k1/4Q1Br/8/5pK1/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "8/5Qk1/6Br/8/5pK1/8/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "7k/5Q2/6Br/8/5pK1/8/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qf6+",
+      "nl": "Df6+",
+      "fenAfter": "7k/8/5QBr/8/5pK1/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "B.29",
+      "ply": 29,
+      "san": "Qd6",
+      "nl": "Dd6!",
+      "fenAfter": "8/6k1/3Q2Br/8/5pK1/8/8/8 b - - 11 6",
+      "variant": "B",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Lg6 Dg7 2.Dc8+ Dg8 3.Dc3+\n\nEen lange studie van Th.C.L. Kok:\n\nKg4 Dd7 Lh5 /\n           Kh8 De5 a2 f4 h3 +\n\nin de Nieuwe Haagse Courant  uit\nhet jaar 1935(!), opgedragen aan\nDr. Tartakover, luidt:\n\nDg7  4.Dxh3 Kg8  5.Db3+ Kh8\n\nKg8 9.Dxa2+ Kh8 10.Da8+ Dg8\n\nEn nu: 15.Dh4+? Kg7 16.Dg5 f3\n\nKh6 25.Dg6+ en mat.\n\nIk vond evenwel een kortere ne-\nvenoplossing met de  stille  zet:\n\nKg8 18.Kh6 Dh2+ 19.Lh5 en nu\ngedwongen: 19...Dxh5+ 20.Kxh5\nmet winst.\n\nMet respect voor de lange oplos-\nsing van de Nederlander heb ik het\nessentiële er nu uitgehaald, ver-\nsterkt met een Friese volbloed.",
+      "beforeVariant": {
+        "A": "Nog de koning noch de dame heb-\nben een goede zet.",
+        "A.a": "Een mooie totempaal.\n\nEen nieuwe zwarte dame, want na\nook hier 12…Da8+ volgt 13.Le4+\nKf7 en valt zowel de oude als de\nnieuwe dame, na 14.Lxa8.",
+        "A.b": "en eindelijk mat.",
+        "B": "Ook hier mat."
+      }
+    }
+  }
+}

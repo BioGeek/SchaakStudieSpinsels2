@@ -1,0 +1,138 @@
+{
+  "number": 274,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Schakend Nederland, 1983",
+  "gbr": "0014.22 g5d6",
+  "fen": "3B4/3p4/3k4/3P2K1/8/8/pP1N4/2n5 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne4+",
+      "nl": "Pe4+",
+      "fenAfter": "3B4/3p4/3k4/3P2K1/4N3/8/pP6/2n5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "3B4/3p4/8/3Pk1K1/4N3/8/pP6/2n5 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "3B4/3p4/8/3Pk1K1/8/2N5/pP6/2n5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "3B4/3p4/8/3Pk1K1/8/2N5/1P6/q1n5 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bf6+",
+      "nl": "Lf6+",
+      "fenAfter": "8/3p4/5B2/3Pk1K1/8/2N5/1P6/q1n5 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/3p4/3k1B2/3P2K1/8/2N5/1P6/q1n5 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nb5+",
+      "nl": "Pb5+",
+      "fenAfter": "8/3p4/3k1B2/1N1P2K1/8/8/1P6/q1n5 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kxd5",
+      "nl": "Kxd5",
+      "fenAfter": "8/3p4/5B2/1N1k2K1/8/8/1P6/q1n5 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "b4",
+      "nl": "b4",
+      "fenAfter": "8/3p4/5B2/1N1k2K1/1P6/8/8/q1n5 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "Qa2",
+      "nl": "Da2?",
+      "fenAfter": "8/3p4/5B2/1N1k2K1/1P6/8/q7/2n5 w - - 1 6",
+      "variant": "main.a",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Qa6",
+      "nl": "Da6?",
+      "fenAfter": "8/3p4/q4B2/1N1k2K1/1P6/8/8/2n5 w - - 1 6",
+      "variant": "main.b",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Qxf6+",
+      "nl": "Dxf6+",
+      "fenAfter": "8/3p4/5q2/1N1k2K1/1P6/8/8/2n5 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kxf6",
+      "nl": "Kxf6",
+      "fenAfter": "8/3p4/5K2/1N1k4/1P6/8/8/2n5 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit kan de promotie van de zwar-\nte pion  tot dame  niet  beletten,\nmaar toch is de dan prille koningin\ngeen lang leven beschoren.",
+      "after": "zet 6.Pc7+\nDan maar:\n\nEn het is remise.",
+      "beforeVariant": {
+        "main.a": "Niet: 1...Kxd5? 2.Pc3+ en 3.Pxa2.\n\nToch. Want na 2.Lf6+? Kxe4 3.b4\nKxd5, wint zwart vrij makkelijk.\n\nNa 4...Kc5? volgt uiteraard 5.b4+,\ngevolgd door 6.Lxa1.\nMaar ook nu speelt wit\n\nEn plots heeft de pas verworven,\nen aangevallen dame, geen goed\nvluchtveld meer. Het paard ver-\nschalkt hare majesteit namelijk na:",
+        "main.b": "met de zet 6.Pc3+. En ook na"
+      }
+    }
+  }
+}

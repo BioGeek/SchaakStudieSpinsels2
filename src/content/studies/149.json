@@ -1,0 +1,153 @@
+{
+  "number": 149,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2015",
+  "gbr": "0301.20 g3a7",
+  "fen": "8/k7/8/4P3/8/4N1K1/5P2/7r w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e6",
+      "nl": "e6",
+      "fenAfter": "8/k7/4P3/8/8/4N1K1/5P2/7r b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rh6",
+      "nl": "Th6",
+      "fenAfter": "8/k7/4P2r/8/8/4N1K1/5P2/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "8/k3P3/7r/8/8/4N1K1/5P2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Re6",
+      "nl": "Te6",
+      "fenAfter": "8/k3P3/4r3/8/8/4N1K1/5P2/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "8/k3P3/4r3/3N4/8/6K1/5P2/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k2P3/4r3/3N4/8/6K1/5P2/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "f4",
+      "nl": "f4",
+      "fenAfter": "8/1k2P3/4r3/3N4/5P2/6K1/8/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/4P3/2k1r3/3N4/5P2/6K1/8/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "f5",
+      "nl": "f5",
+      "fenAfter": "8/4P3/2k1r3/3N1P2/8/6K1/8/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Re5",
+      "nl": "Te5",
+      "fenAfter": "8/4P3/2k5/3NrP2/8/6K1/8/8 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "8/4P3/2k2P2/3Nr3/8/6K1/8/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kxd5",
+      "nl": "Kxd5",
+      "fenAfter": "8/4P3/5P2/3kr3/8/6K1/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "f7",
+      "nl": "f7",
+      "fenAfter": "8/4PP2/8/3kr3/8/6K1/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Rxe7",
+      "nl": "Txe7",
+      "fenAfter": "8/4rP2/8/3k4/8/6K1/8/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "f8=Q",
+      "nl": "f8D",
+      "fenAfter": "5Q2/4r3/8/3k4/8/6K1/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.e6          Th6       2.e7          Te6       3.Pf5         Kb6      4.Pd6        Kc5      5.e8D         Txe8      6.Pxe8       Kd4       7.Kf2         Kd3      8.Ke1\n\nWit wint met de extra pion op f2.\n\nIndien men het pionnetje op  f1\nverplaats naar veld d1, dan is er\neen andere oplossing:\n\nKg3 Pe3 d2 e5 / Ka7 Th1 +\n\nOok hier met winst.",
+      "beforeVariant": {}
+    }
+  }
+}

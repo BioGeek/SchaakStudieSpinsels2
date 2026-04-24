@@ -1,0 +1,216 @@
+{
+  "number": 198,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "EG, 2010",
+  "gbr": "0040.12 h3h5",
+  "fen": "8/8/2p5/4P2k/1pB5/7K/8/4b3 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e6",
+      "nl": "e6",
+      "fenAfter": "8/8/2p1P3/7k/1pB5/7K/8/4b3 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bh4",
+      "nl": "Lh4",
+      "fenAfter": "8/8/2p1P3/7k/1pB4b/7K/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Be2+",
+      "nl": "Le2+",
+      "fenAfter": "8/8/2p1P3/7k/1p5b/7K/4B3/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/8/2p1P1k1/8/1p5b/7K/4B3/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kxh4",
+      "nl": "Kxh4",
+      "fenAfter": "8/8/2p1P1k1/8/1p5K/8/4B3/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "8/8/2p1P1k1/8/7K/1p6/4B3/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/8/2p1P1k1/8/2B4K/1p6/8/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "b2",
+      "nl": "b2",
+      "fenAfter": "8/8/2p1P1k1/8/2B4K/8/1p6/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "8/4P3/2p3k1/8/2B4K/8/1p6/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "b1=Q",
+      "nl": "b1D",
+      "fenAfter": "8/4P3/2p3k1/8/2B4K/8/8/1q6 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "e8=Q+",
+      "nl": "e8D+",
+      "fenAfter": "4Q3/8/2p3k1/8/2B4K/8/8/1q6 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "4Q3/8/2p5/5k2/2B4K/8/8/1q6 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "8/8/2p5/5k1Q/2B4K/8/8/1q6 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/2p5/7Q/2B2k1K/8/8/1q6 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qg5+",
+      "nl": "Dg5+",
+      "fenAfter": "8/8/2p5/6Q1/2B2k1K/8/8/1q6 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/2p5/6Q1/2B4K/5k2/8/1q6 w - - 5 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qg3+",
+      "nl": "Dg3+",
+      "fenAfter": "8/8/2p5/8/2B4K/5kQ1/8/1q6 b - - 6 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/2p5/8/2B1k2K/6Q1/8/1q6 w - - 7 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "8/8/2p3Q1/8/2B1k2K/8/8/1q6 b - - 8 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/2p3Q1/8/2Bk3K/8/8/1q6 w - - 9 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qxb1",
+      "nl": "Dxb1",
+      "fenAfter": "8/8/2p5/8/2Bk3K/8/8/1Q6 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kxc4",
+      "nl": "Kxc4",
+      "fenAfter": "8/8/2p5/8/2k4K/8/8/1Q6 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Na  bijvoorbeeld  3...Kf6?  4.Lc4\nhoudt de loper de zwarte pionnen\ntegen en komt de witte koning ter\nhulp.\n\nBeide hebben  het  promotieveld\nbereikt, maar na:\n\nMaar wit wint.\n     In Shakhmatnaja Moskva (1965)\n     publiceerde E. Pogosjants deze\n     ministudie:\n\n    Kh3 Lc4 e5 / Kh5 Le1 b4 +\n\n    De beginzetten  zijn  gelijklopend\n    met de mijne, maar na zet 6...Kf6\n      (in plaats van mijn 6...Kf5) gaat de\n    componist verder met:  7.De6+\n    Kg7  8.Df7+  Kh6  9.Df8+  Kg6\n\nring van de dame.\n\n    Maar helaas  zijn ook de zetten\n\nIn mijn versie worden alle neven-\n     oplossingen  teniet gedaan door\n     het  bijplaatsen  van,  jawel, een\n     extra zwarte pion. Je moet alleen\n    maar weten waar die moet staan.\n\n    Ook dat is componeren.\n\n      Ulrichsen  schreef: “Ignace has\n    made the line 7.Qh5+ unique, for\n     without  the  Black pawn  White\n     could play 7.Qf7+ Ke5 8.Qd5+.”",
+      "beforeVariant": {}
+    }
+  }
+}

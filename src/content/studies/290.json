@@ -1,0 +1,147 @@
+{
+  "number": 290,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Corus Endgame Study",
+  "gbr": "0410.05 g7a8",
+  "fen": "k2B4/1p4K1/8/4r3/3p2p1/4pp2/8/7R w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "k7/1p4K1/1B6/4r3/3p2p1/4pp2/8/7R b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Re7+",
+      "nl": "Te7+",
+      "fenAfter": "k7/1p2r1K1/1B6/8/3p2p1/4pp2/8/7R w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "k7/1p2r3/1B3K2/8/3p2p1/4pp2/8/7R b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "k3r3/1p6/1B3K2/8/3p2p1/4pp2/8/7R w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "k3r3/1p3K2/1B6/8/3p2p1/4pp2/8/7R b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rc8",
+      "nl": "Tc8",
+      "fenAfter": "k1r5/1p3K2/1B6/8/3p2p1/4pp2/8/7R w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "k1r5/1p2K3/1B6/8/3p2p1/4pp2/8/7R b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rc6",
+      "nl": "Tc6",
+      "fenAfter": "k7/1p2K3/1Br5/8/3p2p1/4pp2/8/7R w - - 8 5",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bxd4",
+      "nl": "Lxd4",
+      "fenAfter": "k7/1p2K3/2r5/8/3B2p1/4pp2/8/7R b - - 0 5",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k6/1p2K3/2r5/8/3B2p1/4pp2/8/7R w - - 1 6",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/4pp2/8/7R b - - 2 6",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/5p2/4p3/7R w - - 0 7",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ra1",
+      "nl": "Ta1",
+      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/5p2/4p3/R7 b - - 1 7",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Rc7+",
+      "nl": "Tc7+",
+      "fenAfter": "k7/1pr1K3/8/8/3B2p1/4pp2/8/7R w - - 1 6",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Een boeiende maar ingewikkelde\nstrijd  van  toren-en-loper  tegen\ntoren, start met het blokkeren van\npion b7, en matdreiging op h8:",
+      "after": "en eveneens mat.",
+      "beforeVariant": {
+        "A": "Na 1…Te8? volgt korter: 2.Tf7\nKc8, enzovoort.\n\nEn niet 2.Kf8? wegens 2…Te6 en\n\nwinst.\n\nDe vorst zit de toren op de hielen.\n\nNiet 3…Tb8? 4.Ta1+ en mat.\nNu  is 4.Ta1+  te vroeg: 4…Kb8\n\nkoning komt vrij. Daarom:\n\nEn niet 4.Lxd4? Tc7+ 5.Ke6 b5 met\nremise.\n\nNa de aanval op de loper: 4..Tc6?\nvolgt 5.Th8+ Tc8 6.Txc8+ en mat\n\nNu wel. Daar 6...e1D? 7.Txe1 f2\n\nen pionverlies is.\n\nDoor de pionnenversperring is dit\nslechts het enige veld met mat-\ndreiging, want 9.Tc1?  is  onvol-\ndoende :  9…b6  10.Tc8+  Kb7\n\nhaling van zetten.\n\nWat nu? 10…f1D? Txf1 is stuk- en\ntijdverlies. En 10…b5+ loopt falie-\nkant  uit: 11.Lb6 Txb6  12.Kxb6,\nmet winst. Dus:\n\nEn  hier  niet 11…Ka8? 12.Lxb6\nTxb6+ 13.Kxb6+ e1D 14.Th8+ De8\n\nEn nu komt de finishing touch:\n\nDe beslissende stille genadeslag.\nMen zie:",
+        "B": "en eindelijk mat."
+      }
+    }
+  }
+}

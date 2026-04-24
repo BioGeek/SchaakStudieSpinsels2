@@ -1,0 +1,128 @@
+{
+  "number": 133,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "0041.01 b5b7",
+  "fen": "8/1kp5/4N3/1K3B2/8/8/n7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd8+",
+      "nl": "Pd8+",
+      "fenAfter": "3N4/1kp5/8/1K3B2/8/8/n7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k2N4/2p5/8/1K3B2/8/8/n7/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Be4+",
+      "nl": "Le4+",
+      "fenAfter": "k2N4/2p5/8/1K6/4B3/8/n7/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k1N4/2p5/8/1K6/4B3/8/n7/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "1k6/2p5/2N5/1K6/4B3/8/n7/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k5/2p5/2N5/1K6/4B3/8/n7/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bf5+",
+      "nl": "Lf5+",
+      "fenAfter": "2k5/2p5/2N5/1K3B2/8/8/n7/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1kp5/2N5/1K3B2/8/8/n7/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/1kp5/2N5/2K2B2/8/8/n7/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/2p5/k1N5/2K2B2/8/8/n7/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "8/2p5/k1N5/2K5/4B3/8/n7/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.a.21",
+      "ply": 21,
+      "san": "Bd3+",
+      "nl": "Ld3+",
+      "fenAfter": "8/1kp5/4N3/1K6/8/3B4/n7/8 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Kb4 Pc4 2.Kxc4 Lc8 3.Pe5 Le6+ 4.Kb5 Lxa2 5.Pc6+ Kb7 6.Le4 Kc8 7.Lf5+ Kb7 8.Kc5 Lg8 9.Lb1 Ka6 10.Le4 10...Lb3? En nu:\n\n1.Pc6+ Ka8 2.Le4 Kb7 en 3.Kb5!\n\nDus nevenoplosbaar. De betere\nzet   is:  10...Le6!  11.Ld3+ Kb7\n\nJarl Ulrichsen schreef: In EG / 185\nwe challenged the readers to sha-\nre with us their view about Ignace\nVandecasteele’s miniature version\nof Kuryatnikov’s idea.  I received\ncritical evaluations from Timothy\nWhitworth and Marcel Van Herck\nand a defence from Ignace  to\nwhom Marcel had sent a copy.\nTimothy dacht: “The move 6.Be4\nlooks to me like a dual rather than\na harmless time-waster.” En ook\n“Marcel cocludes that 6.Be4 is a\ncook  (referring  to the vieuw  of\nMissiaen and  HhdbIV)  and he\nwould have disqualified the study if\nhe had acted as a judge.”\nKlinkklare nonsens! Beide heren\nzijn fout. Er Is geen dual maar wel\neen onnodige omweg van twee\nzetten. In Endgame Challenge be-\nschouwde John Nunn zet 6.Be4?\ndan ook  als “a mere postpone-\nment”. Mijn studie is dus correct\nvolgens Nalimov’s datbase.\n\nDe nu als ‘Judge’ beïnvloedbare\nMarcel beweerde verder: “Ignace\njust cuts the introduction of Kury-\natnikov’s prizewinner. As result the\nbK is confined to the corner region\nright from the  start. Economy  is\nimportant, but Kuryatnikov’s intro-\nduction was far from trivial.”\n\nWat is nu economischer om tot de\nonderstaande stelling te komen:\n  Kb5 Lf5 Pc6 / Kb7 La2 c7\n - zeven zetten spelen, door het\nslaan van een paard én een pion?\n  Of:\n-  slechts vier zetten spelen, om\naldus een langere inleiding te cre-\nëren zonder bijkomend materiaal?\nDus géén “just cuts the introduc-\ntion.” Maar net andersom: de in-\nleiding wordt in feite met één zet\nverlengd, zonder twee overbodige\nstukken te slaan.\n\nMijn hogerstaand  fijn miniatuurtje\nheeft dus, door na tien correcte\nzetten de loper te veroveren, on-\ntegensprekelijk bestaansrecht.\n    Bovendien is het originele idee:\n     ‘Een strijd van loper en paard te-\n    gen loper en een c7-pion’, eerder\n    van Missiaen (1985) dan van Ku-\n     ryatnikov (1988). Beide versies zijn\n      fraai, maar jammer genoeg neven-\n     oplosbaar op het einde.\n\n     In EG N°190 bevestigde Ulrichsen\n      zijn ‘afkeuring’ met:  “In Ignace’s\n     version the white king does not\n    need to find the right square b5\n     (instead of c5) for his king”. Inder-\n    daad is 4.Kb5! een fijne zet. Daar-\n   om stel ik nu deze aangepaste, en\n     steeds correcte, variant voor. (EG\n    N°191 2013):\n\n    Kb4 Lf5 Pe5 / Kb8 La2 c7 +\n\n    Met de gelijkwaardige oplossing:\n\n(Yes we can) 3...Kc8 4.Lf5+ Kb7\n\nEn wint.\n\n    Het is niet, omdat ik de beide stu-\n     dies heb verbeterd, én van Mis-\n     siaen én van Kuryatnikov, dat mijn\n     studie nu een correctie zou zijn van\n    deze laatste, zoals Ed van de Ge-\n     vel het fout aankondigde in EG.\n\n    Het is een knap op zichzelf staand\n     origineel ultraminiatuurtje.",
+      "beforeVariant": {
+        "main.a": "Een onnodige omweg  is: 6.Le4?\nKa6 7Ld3+ Kb7 8.Lb1 (Zie zet 6.)\n\nEn wit wint.\n\nHet is een fijne verrijking van een\nwerkje van Missiaen en mezelf:\nKc5 Lf5 Pc4 / Kb7 Lg8 b4 c7 +, dat\nU kunt terugvinden in dit boek.\nZie studie - 173 -.\n\nDit ultraminiatuurtje is ontstaan op\nzoek naar een correctie van de 2de\nPrijs van Kuryatnikov, in het Sa-\nrychev Mem.Tny (1988.)\n\nKc3 Lh7 Pg4 a2 / Kb8 Lb7 Pa3 c7 +"
+      }
+    }
+  }
+}

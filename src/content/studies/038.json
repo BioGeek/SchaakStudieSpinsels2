@@ -1,0 +1,376 @@
+{
+  "number": 38,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EBUR, 2002",
+  "gbr": "0014.00 b8a6",
+  "fen": "1K6/8/k7/8/4N2B/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K5/k7/8/4N2B/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/2K5/8/1k6/4N2B/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/8/3K4/1k6/4N2B/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/8/3K4/8/2k1N2B/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/8/4K3/2k1N2B/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/4K3/4N2B/3k4/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/8/8/4NK1B/3k4/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/4NK1B/8/4k3/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "8/8/8/8/5K1B/2N5/4k3/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/8/5K1B/2Nk4/8/8 w - - 10 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Nb5",
+      "nl": "Pb5",
+      "fenAfter": "8/8/8/1N6/5K1B/3k4/8/8 b - - 11 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/1N6/5K1B/8/4k3/8 w - - 12 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "8/8/8/8/3N1K1B/8/4k3/8 b - - 13 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/8/3N1K1B/3k4/8/8 w - - 14 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Nf3",
+      "nl": "Pf3",
+      "fenAfter": "8/8/8/8/5K1B/3k1N2/8/8 b - - 15 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/5K1B/5N2/4k3/8 w - - 16 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Ng1+",
+      "nl": "Pg1+",
+      "fenAfter": "8/8/8/8/5K1B/8/4k3/6N1 b - - 17 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/5K1B/8/8/5kN1 w - - 18 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Nh3",
+      "nl": "Ph3",
+      "fenAfter": "8/8/8/8/5K1B/7N/8/5k2 b - - 19 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/5K1B/7N/6k1/8 w - - 20 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/8/8/8/6KB/7N/6k1/8 b - - 21 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/6KB/7N/8/5k2 w - - 22 12",
+      "variant": "A",
+      "parent": "A.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/8/8/7B/5K1N/8/5k2 b - - 23 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/5K1B/2N5/8/5k2 w - - 10 6",
+      "variant": "B",
+      "parent": "main.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/8/8/8/7B/2N1K3/8/5k2 b - - 11 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/7B/2N1K3/6k1/8 w - - 12 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/8/8/8/7B/4K3/4N1k1/8 b - - 13 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/8/8/8/7B/4K2k/4N3/8 w - - 14 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Be1",
+      "nl": "Le1",
+      "fenAfter": "8/8/8/8/8/4K2k/4N3/4B3 b - - 15 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/8/4K3/4N1k1/4B3 w - - 16 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/8/5N2/4K3/6k1/4B3 b - - 17 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/5N2/4K3/8/4Bk2 w - - 18 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "8/8/8/8/8/3NK3/8/4Bk2 b - - 19 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/8/3NK3/6k1/4B3 w - - 20 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/8/8/5K2/3N4/6k1/4B3 b - - 21 11",
+      "variant": "B",
+      "parent": "B.20"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/5K2/3N4/8/4Bk2 w - - 22 12",
+      "variant": "B",
+      "parent": "B.21"
+    },
+    {
+      "id": "B.23",
+      "ply": 23,
+      "san": "Bh4",
+      "nl": "Lh4",
+      "fenAfter": "8/8/8/8/5K1B/3N4/8/5k2 b - - 23 12",
+      "variant": "B",
+      "parent": "B.22"
+    },
+    {
+      "id": "B.a.24",
+      "ply": 24,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/5K1B/3N4/4k3/8 w - - 24 13",
+      "variant": "B.a",
+      "parent": "B.23"
+    },
+    {
+      "id": "B.b.24",
+      "ply": 24,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/5K1B/3N4/6k1/8 w - - 24 13",
+      "variant": "B.b",
+      "parent": "B.23"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het zwart paard zit opgesloten, en\nbeide koningen reppen er  zich\nnaar toe.",
+      "after": "En niet 15.Lxf2? pat.\nDit miniatuurtje is geïnspireerd op\neen  niet zuivere studie van V.\nKaljagin en L. Mitrofanov in Pat a\nMat (1992):\n\nKf7 La1 Pb7 e4 / Kh6 c7 d6 h4 +\n\nNa 1.e5 h3 2.exd6 cxd6 3.Pxd6 h2\n\ngoed)  5...Kh5 6.Kf5 Kh4  7.Kf4\nKh3  8.Kf3  Kh2  9.Le5+  Kh3\n\nen 10.Ld6) 10...Kh4 11.Kg2 en\nhet zwart paard wordt veroverd\n\nReiner Staudtes’ oordeel omtrent\nmijn studie luidde: “The diagonal\nwalk of the king and then the duel\nof knight and black king make us\nforget that two pieces are only\nspectaters all the time.”",
+      "beforeVariant": {
+        "A": "En na de aanval van het paard op\nde koning:\n\nkan deze nu twee richtingen uit:",
+        "A.a": "(Zie zet 12.)",
+        "A.b": "En niet 13.Lxf2? pat. Ofwel:",
+        "B": "En niet 13.Lxg3? pat.",
+        "B.a": "Met twee mogelijkheden:",
+        "B.b": "En niet 15.Lxf2? pat."
+      }
+    }
+  }
+}

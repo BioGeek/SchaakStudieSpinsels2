@@ -18,7 +18,9 @@ const studies = defineCollection({
     source: z.string().optional(),
     gbr: z.string(),
     fen: z.string(),
-    stipulation: z.enum(['+', '=']),
+    // Some studies' stipulation glyph doesn't survive text extraction
+    // cleanly; allow empty and default to '+'.
+    stipulation: z.union([z.enum(['+', '=']), z.literal('')]).default('+'),
     kings: z.string().optional(),
     moves: z.array(
       z.object({

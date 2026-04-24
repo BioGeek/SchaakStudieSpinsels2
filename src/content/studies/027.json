@@ -1,0 +1,144 @@
+{
+  "number": 27,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2001",
+  "gbr": "0004.10 e6e8",
+  "fen": "4k3/8/N3K1P1/8/8/5n2/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g7",
+      "nl": "g7",
+      "fenAfter": "4k3/6P1/N3K3/8/8/5n2/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "4k3/6P1/N3K3/6n1/8/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4k3/6P1/N4K2/6n1/8/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nh7+",
+      "nl": "Ph7+",
+      "fenAfter": "4k3/6Pn/N4K2/8/8/8/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "4k3/6Pn/N5K1/8/8/8/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nf8+",
+      "nl": "Pf8+",
+      "fenAfter": "4kn2/6P1/N5K1/8/8/8/8/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "4kn2/6P1/N6K/8/8/8/8/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "5n2/5kP1/N6K/8/8/8/8/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nc7",
+      "nl": "Pc7",
+      "fenAfter": "5n2/2N2kP1/7K/8/8/8/8/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "5nk1/2N3P1/7K/8/8/8/8/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "5nk1/6P1/7K/3N4/8/8/8/8 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "5n2/5kP1/7K/3N4/8/8/8/8 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "g8=Q+",
+      "nl": "g8D+",
+      "fenAfter": "5nQ1/5k2/7K/3N4/8/8/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "5nk1/8/7K/3N4/8/8/8/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.15"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.g7 Pg5+ 2.Kf6 Ph7+ 3.Kg6 Pf8+     4.Kh5 Kf7 5.Kh6 en 5…Pe6(?)     6.Pd8+ Pxd8 7.Kh7 en wit wint.\n\nzet 3.)\n\nMet de dubbele schaakdreiging op\nveld e7 of veld g6.\n\nEn, opgelet, niet 7.Kxg6? pat.\n\nEn wit wint.\n   De gedeelde  1ste en 2de Eervolle\n    Vermelding van  P.  Arestov  die\n    verscheen  in  het Serov-100 JT\n    1994 is niet correct:\n\n   Ke6 Pb7 g6 / Ke8 Pf3 +\n\nMaar na de zet 5.Ph6 speelt zwart\n     niet 5…Pe6, maar  bijvoorbeeld\n\nse.\n\n    Het verplaatsen van het wit paard\n    van veld b7 naar veld a6 bracht\n    redding.\n\nMalju\nutka’s\n\n Eenvoud is het kenmerk van het ware\n                          (Devies van Boerhave)",
+      "beforeVariant": {}
+    }
+  }
+}

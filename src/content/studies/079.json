@@ -1,0 +1,126 @@
+{
+  "number": 79,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Schakend Nederland, 1986",
+  "gbr": "0310.11 f1g6",
+  "fen": "7r/8/3P2k1/8/8/5B1p/8/5K2 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "7r/8/3P2k1/8/8/5B1p/8/6K1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "h2+",
+      "nl": "h2+",
+      "fenAfter": "7r/8/3P2k1/8/8/5B2/7p/6K1 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "7r/8/3P2k1/8/8/5B2/7p/7K b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "7r/8/3P4/5k2/8/5B2/7p/7K w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "d7",
+      "nl": "d7",
+      "fenAfter": "7r/3P4/8/5k2/8/5B2/7p/7K b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "7r/3P4/8/8/5k2/5B2/7p/7K w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "7r/3P4/8/3B4/5k2/8/7p/7K b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "7r/3P4/8/3B4/8/6k1/7p/7K w - - 3 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bg8",
+      "nl": "Lg8",
+      "fenAfter": "6Br/3P4/8/8/8/6k1/7p/7K b - - 4 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rxg8",
+      "nl": "Txg8",
+      "fenAfter": "6r1/3P4/8/8/8/6k1/7p/7K w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q2r1/8/8/8/8/6k1/7p/7K b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Rxd8",
+      "nl": "Txd8",
+      "fenAfter": "3r4/8/8/8/8/6k1/7p/7K w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Hier moet de koning de loper bij-\nspringen, want na 1.d7? h2 2.Lh1\nKf6 3.Kf2 Ke7 heeft wit geen goe-\nde zet meer.",
+      "after": "1.La2 Kd2 2.d5 Ke3 3.d6 3.Kf2! te\n\nen nu de probleemzet:\n\nAlle andere zetten falen, bijvoor-\nbeeld 4.Lc6? Kg3 en nu de zet\n\ntoegankelijk maakt voor de toren,\nwant er volgt een lange overwin-\nningsmars van zwart, beginnend\nmet: 5…Td8 6.Lc6 Kf2 7.Lb5 Ta8\n\nTa1 14.d8D Txb1+ 15.Dd1 Txd1+\nen mat.\n\nZwart dekt nu eerst zijn pion zodat\n       hij met de toren kan spelen, want\n    na 4…Td8? slaat wit de pion op h2,\n    met remise.\n\nEen onverwacht offer.\n\nEn wit staat pat.\n\n    Het  is een verbetering van een\n     miniatuurtje van Jindrich Fritz:\n\n    Kh1 Lb1 d4 / Kc1 Th8 h2 =\n\n    Het kreeg de eerste prijs in Revis-\n     ta Romana de Sah (1973) met de\n     oplossing 1.La2 Kd2 2.d5 Ke3 3.d6\n    Kf4? 4.d7 Kg3 5.Lg8 Txg8 6.d8D\n     Txd8, pat.\n\n    Maar  ik kraakte de studie door\n\nspelen en na 4.d7 Td8 5.Le6 Kg3\n\nEn zwart wint.",
+      "beforeVariant": {}
+    }
+  }
+}

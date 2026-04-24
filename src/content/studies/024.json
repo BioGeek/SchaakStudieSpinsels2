@@ -1,0 +1,108 @@
+{
+  "number": 24,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "Origineel, 2009",
+  "gbr": "0400.01 d3a3",
+  "fen": "8/8/8/8/8/k2K1R2/1r4p1/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc4+",
+      "nl": "Kc4+",
+      "fenAfter": "8/8/8/8/2K5/k4R2/1r4p1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/8/8/2K5/5R2/kr4p1/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rg3",
+      "nl": "Tg3",
+      "fenAfter": "8/8/8/8/2K5/6R1/kr4p1/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/8/8/2K5/6R1/1r4p1/1k6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/8/3K4/6R1/1r4p1/1k6 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/8/8/3K4/6R1/1r4p1/2k5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/8/8/4K3/6R1/1r4p1/2k5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/8/4K3/6R1/1r4p1/3k4 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/8/8/8/5KR1/1r4p1/3k4 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/8/8/5KR1/1r4p1/4k3 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "In het ‘S. Isenegger Tourney’ van\n1966 stond een maljutka van M.\nMarysko:\n\nKd2 Tc3 / Ka1 Tb7 g2 =\n\nMet deze oplossing: 1.Tg3 Tb2+\n\nen 3.Tg8 zijn allen ook goed voor\nremise.\n\nJaren geleden heb  ik deze cor-\nrectie gedaan, maar of ik ze ooit\ngepubliceerd heb? Nu dan.\n\nRecent ontdekte ik dat, in de stu-\ndie van Marysko, de zet 2…Kb1! in\nplaats van 2…Ka2? wel correct is:",
+      "beforeVariant": {}
+    }
+  }
+}

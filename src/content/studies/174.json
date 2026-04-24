@@ -1,0 +1,176 @@
+{
+  "number": 174,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2016",
+  "gbr": "0041.11 h7h5",
+  "fen": "8/7K/8/3b3k/4N3/5Pp1/4B3/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bf1",
+      "nl": "Lf1",
+      "fenAfter": "8/7K/8/3b3k/4N3/5Pp1/8/5B2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Nxg3+",
+      "nl": "Pxg3+?",
+      "fenAfter": "8/7K/8/3b3k/8/5PN1/4B3/8 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/7K/8/3b2k1/8/5PN1/4B3/8 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/7K/8/3b2k1/8/5P2/4B3/5N2 b - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/7K/8/3b4/5k2/5P2/4B3/5N2 w - - 3 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/7K/8/3b4/5k2/5P2/3NB3/8 b - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Nf6+",
+      "nl": "Pf6+?",
+      "fenAfter": "8/7K/5N2/3b3k/8/5Pp1/4B3/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/7K/5N2/3b2k1/8/5Pp1/4B3/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Nxd5",
+      "nl": "Pxd5",
+      "fenAfter": "8/7K/8/3N2k1/8/5Pp1/4B3/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "g2",
+      "nl": "g2",
+      "fenAfter": "8/7K/8/3N2k1/8/5P2/4B1p1/8 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "f4+",
+      "nl": "f4+",
+      "fenAfter": "8/7K/8/3N2k1/5P2/8/4B1p1/8 b - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.c.1",
+      "ply": 1,
+      "san": "f4+",
+      "nl": "f4+?",
+      "fenAfter": "8/7K/8/3b3k/4NP2/6p1/4B3/8 b - - 0 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.2",
+      "ply": 2,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/7K/8/3b4/4NP1k/6p1/4B3/8 w - - 1 2",
+      "variant": "main.c",
+      "parent": "main.c.1"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Bf3",
+      "nl": "Lf3",
+      "fenAfter": "8/7K/8/3b4/4NP1k/5Bp1/8/8 b - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Bxe4",
+      "nl": "Lxe4",
+      "fenAfter": "8/7K/8/8/4bP1k/5Bp1/8/8 w - - 0 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.c.5",
+      "ply": 5,
+      "san": "Bxe4",
+      "nl": "Lxe4",
+      "fenAfter": "8/7K/8/8/4BP1k/6p1/8/8 b - - 0 3",
+      "variant": "main.c",
+      "parent": "main.c.4"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/7K/8/7k/2b1N3/5Pp1/8/5B2 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit moet hier zijn licht materiaal-\nvoordeel laten gelden. Maar dit is\nniet zo simpel want er dreigt reeds\neen zwarte promotie: 1…g2.\nDaarom:",
+      "after": "1…         Lb3        2.Pxg3+     Kg5        3.Pe2        Le6        4.Lg2\n\n1.Lf1        Kh4        2.Kh6        Lc4        3.Lg2         Lf1        4.Lxf1       g2        5.Pg3\n\n1.Lf1 Lb5 2.Lg2  Lf1  3.Lxf1 g2 4.Pg3 g1D 5.Pf5+ en mat.\n\nNa 5.Lxg2? is het pat.\n\nWant 5…Kxg3? 6.Lxg2 wint.\n\nen mat.\nVariant B is éen zet langer dan in\nde  studie van  Pogosjants,  ver-\nschenen in  Shakhmaty Moskva,\n(1961) waar  hij terecht de eerste\nprijs kreeg met deze versie:\n\nKh6 La6 Pe4 f3 / Kh4 Le8 g3 +\n\nIn Flemish Miniatures 1997 publi-\nceerde ik samen met vriend Roger\nMissiaen het diagram op bladzijde\nhiernaast met deze foute oplos-\nsing:1.Lf1 Le6 2.Pxg3+ Kg5 3.Pe2\nLd5 4.f4+ Kg4 5.Kg6 Lc4 6.f5 Ld3\n\nEn de pion brengt redding.\n\nDeze verrijkte versie ontlokte aan\nmijn andere vriend Julien Vandiest\ndeze ontboezeming: “Forget for a\nmoment who the three involved\ncomposers are, just admire the litle\nmasterpiece.”\n\nLater ontdekte  ik dat na de zet\n\nvoorbeeld met 4…Lc4 5.Pg1 Kf4\n\nNevenoplosbaar.\n\nMaar uiteindelijk is de eer van de\ndrie musketiers dus toch gered.",
+      "beforeVariant": {
+        "main.b": "Ke3, en wit verliest een stuk.\n   En na:",
+        "main.c": "Kh4 loopt de zwarte pion door.",
+        "A": "Kg4 4.f5 g2 5.Lxg2 Kxf5.\nEr dreigt nu de paardvork 2.Pf6+\nen na 1...Lxe4+ 2.fxe4 loopt de\nwitte pion door.\n\nVerder spelen alle stukken mee.\nZie maar:",
+        "B": "Na 4.Kg7? of 4.Kh8 volgt 4…Lc4\n\nEn wit wint"
+      }
+    }
+  }
+}
