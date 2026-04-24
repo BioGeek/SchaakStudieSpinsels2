@@ -1,0 +1,254 @@
+---
+import { t, type Locale } from '../i18n/ui';
+
+interface StudyMove {
+  id: string;
+  ply: number;
+  san: string;
+  nl: string;
+  fenAfter: string;
+  variant: string;
+  parent: string | null;
+}
+
+interface StudyData {
+  number: number;
+  source?: string;
+  gbr: string;
+  fen: string;
+  stipulation: '+' | '=';
+  moves: StudyMove[];
+}
+
+interface Props {
+  study: StudyData;
+  locale: Locale;
+}
+
+const { study, locale } = Astro.props;
+const boardId = `board-${study.number}`;
+
+// Main-line moves, in order. Variants are accessible via the move list below
+// (click-to-jump UI lives inside the client controller).
+const mainLine = study.moves
+  .filter((m) => m.variant === 'main')
+  .sort((a, b) => a.ply - b.ply);
+
+// Variants keyed by label (A, B, main.a, …), preserving source ordering.
+const variantIds = [...new Set(study.moves.map((m) => m.variant).filter((v) => v !== 'main'))];
+---
+
+<div class="study-board" data-board-id={boardId} data-study={JSON.stringify(study)}>
+  <div class="board-frame">
+    <div id={boardId} class="board"></div>
+    <div class="board-controls" role="group" aria-label={t(locale, 'study.moves')}>
+      <button type="button" data-nav="start" aria-label={t(locale, 'board.start')}>⏮</button>
+      <button type="button" data-nav="prev" aria-label={t(locale, 'board.prev')}>◀</button>
+      <button type="button" data-nav="next" aria-label={t(locale, 'board.next')}>▶</button>
+      <button type="button" data-nav="end" aria-label={t(locale, 'board.end')}>⏭</button>
+    </div>
+  </div>
+
+  <div class="moves-panel">
+    {study.source && (
+      <p class="source">
+        <em>{study.source}</em>
+      </p>
+    )}
+    <p class="gbr">
+      <span class="stipulation">{study.stipulation}</span>
+      <span>{study.gbr}</span>
+    </p>
+
+    <section class="main-line">
+      <h3 class="sr-only">{t(locale, 'study.moves')}</h3>
+      <ol>
+        {mainLine.map((m, i) => {
+          const moveNum = Math.floor(m.ply / 2) + (m.ply % 2 === 1 ? 1 : 0);
+          const isWhite = m.ply % 2 === 1;
+          const showNumber = isWhite || i === 0;
+          return (
+            <li>
+              {showNumber && (
+                <span class="move-num">
+                  {moveNum}{isWhite ? '.' : '…'}
+                </span>
+              )}
+              <button type="button" data-move={m.id} class="move" title={m.san}>
+                {m.nl}
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+
+    {variantIds.length > 0 && (
+      <section class="variants">
+        <h3>{t(locale, 'study.variants')}</h3>
+        {variantIds.map((vid) => {
+          const vmoves = study.moves.filter((m) => m.variant === vid).sort((a, b) => a.ply - b.ply);
+          if (vmoves.length === 0) return null;
+          return (
+            <details open>
+              <summary>{vid.startsWith('main.') ? vid.slice(5) + ')' : `Variant ${vid}`}</summary>
+              <ol>
+                {vmoves.map((m, i) => {
+                  const moveNum = Math.floor(m.ply / 2) + (m.ply % 2 === 1 ? 1 : 0);
+                  const isWhite = m.ply % 2 === 1;
+                  const showNumber = isWhite || i === 0;
+                  return (
+                    <li>
+                      {showNumber && (
+                        <span class="move-num">
+                          {moveNum}{isWhite ? '.' : '…'}
+                        </span>
+                      )}
+                      <button type="button" data-move={m.id} class="move">
+                        {m.nl}
+                      </button>
+                    </li>
+                  );
+                })}
+              </ol>
+            </details>
+          );
+        })}
+      </section>
+    )}
+  </div>
+</div>
+
+<script>
+  import { initStudyBoard } from './study-board.client.ts';
+  document.querySelectorAll<HTMLElement>('.study-board').forEach((el) => initStudyBoard(el));
+</script>
+
+<style>
+  .study-board {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  @media (min-width: 900px) {
+    .study-board {
+      grid-template-columns: 420px 1fr;
+      align-items: start;
+    }
+    .board-frame {
+      position: sticky;
+      top: 1rem;
+    }
+  }
+
+  .board {
+    aspect-ratio: 1;
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .board-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    justify-content: center;
+  }
+
+  .board-controls button {
+    font-size: 1.25rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid theme('colors.ink.muted' / 50%);
+    background: theme('colors.paper.light');
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .board-controls button:hover {
+    background: theme('colors.paper.DEFAULT');
+  }
+
+  .moves-panel .source {
+    margin: 0 0 0.25rem;
+    color: theme('colors.ink.muted');
+  }
+  .moves-panel .gbr {
+    font-family: monospace;
+    margin: 0 0 1rem;
+    color: theme('colors.ink.muted');
+    font-size: 0.9rem;
+  }
+  .stipulation {
+    font-weight: 700;
+    margin-right: 0.5em;
+    font-family: theme('fontFamily.serif');
+    color: theme('colors.ink.DEFAULT');
+  }
+
+  .main-line ol,
+  .variants ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+    font-family: monospace;
+    font-size: 0.95rem;
+  }
+  .main-line li,
+  .variants li {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.2rem;
+  }
+  .move-num {
+    color: theme('colors.ink.muted');
+  }
+  .move {
+    background: transparent;
+    border: none;
+    padding: 0 2px;
+    cursor: pointer;
+    color: inherit;
+    font: inherit;
+    border-radius: 2px;
+  }
+  .move:hover {
+    background: rgba(122, 31, 14, 0.12);
+  }
+  .move.active {
+    background: rgba(122, 31, 14, 0.22);
+    outline: 1px solid rgba(122, 31, 14, 0.45);
+  }
+
+  .variants {
+    margin-top: 1.25rem;
+  }
+  .variants h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: theme('colors.ink.muted');
+    margin: 0 0 0.5rem;
+  }
+  .variants details {
+    margin-bottom: 0.5rem;
+  }
+  .variants summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.25rem 0;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

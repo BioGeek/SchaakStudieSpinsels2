@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import StudyBoard from '../../../components/StudyBoard.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { t, type Locale } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const studies = await getCollection('studies');
+  const paths = [];
+  for (const s of studies) {
+    for (const locale of ['nl', 'en'] as const) {
+      paths.push({
+        params: { locale, num: String(s.data.number).padStart(3, '0') },
+        props: { study: s, locale },
+      });
+    }
+  }
+  return paths;
+}
+
+interface Props {
+  study: CollectionEntry<'studies'>;
+  locale: Locale;
+}
+
+const { study, locale } = Astro.props;
+const data = study.data;
+const title = `${data.chapter} — ${data.stipulation} ${data.gbr}`;
+const num = String(data.number).padStart(3, '0');
+---
+
+<BaseLayout title={title} locale={locale} pathSansLocale={`/studies/${num}`}>
+  <article class="study">
+    <header class="mb-6 text-center">
+      <p class="text-sm uppercase tracking-widest text-ink-muted">
+        {data.chapter}
+      </p>
+      <h1 class="title text-4xl my-2">— {data.number} —</h1>
+    </header>
+
+    {data.prose.nl.before && (
+      <div class="prose prose-lg mx-auto mb-4 whitespace-pre-line">
+        {locale === 'nl' ? data.prose.nl.before : data.prose.en?.before}
+      </div>
+    )}
+
+    <StudyBoard study={data} locale={locale} />
+
+    {data.prose.nl.after && (
+      <div class="prose prose-lg mx-auto mt-8 whitespace-pre-line text-ink-soft">
+        {locale === 'nl' ? data.prose.nl.after : data.prose.en?.after}
+      </div>
+    )}
+  </article>
+</BaseLayout>

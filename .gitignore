@@ -141,6 +141,7 @@ analysis copy.ipynb
 # (do not commit these; commit the source PDF + scripts/ instead)
 data/debug/
 data/endgames/
+data/exemplar/
 data/md/
 
 # Node / Astro
