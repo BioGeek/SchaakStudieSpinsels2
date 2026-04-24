@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { t, type Locale } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'nl' } }, { params: { locale: 'en' } }];
+}
+
+const locale = Astro.params.locale as Locale;
+const studies = (await getCollection('studies')).sort((a, b) => a.data.number - b.data.number);
+
+// Group by chapter so the list reads like the book's TOC.
+const byChapter = new Map<number, { name: string; studies: typeof studies }>();
+for (const s of studies) {
+  const entry = byChapter.get(s.data.chapterNumber) ?? { name: s.data.chapter, studies: [] };
+  entry.studies.push(s);
+  byChapter.set(s.data.chapterNumber, entry);
+}
+---
+
+<BaseLayout title={t(locale, 'nav.studies')} locale={locale} pathSansLocale="/studies/">
+  <section class="prose prose-lg mx-auto">
+    <h1 class="title text-center text-4xl">{t(locale, 'nav.studies')}</h1>
+
+    {[...byChapter.entries()].sort((a, b) => a[0] - b[0]).map(([num, { name, studies }]) => (
+      <section class="mt-8">
+        <h2>{num}. {name}</h2>
+        <ul class="list-none p-0 flex flex-wrap gap-2">
+          {studies.map((s) => (
+            <li>
+              <a
+                href={`/${locale}/studies/${String(s.data.number).padStart(3, '0')}/`}
+                class="inline-block min-w-[3.5ch] rounded border border-ink-muted/30 bg-paper px-3 py-1 text-center font-mono text-sm no-underline hover:border-accent hover:text-accent"
+              >
+                {s.data.number}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </section>
+</BaseLayout>
