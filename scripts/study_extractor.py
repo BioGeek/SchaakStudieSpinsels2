@@ -241,7 +241,29 @@ def main() -> None:
             json.dumps(target.as_dict(), indent=2), encoding="utf-8"
         )
         (args.out / "text.txt").write_text(text, encoding="utf-8")
-        print(f"wrote {args.out}/region.json and text.txt ({len(text)} chars)")
+
+        # Render the start-of-study area as a PNG so we can eyeball the
+        # diagram and derive the starting FEN manually (the book's own
+        # piece-classification pipeline is not yet trustworthy). Width:
+        # the start column; height: from the header down to the next
+        # header or a generous default.
+        page = doc[target.start_page]
+        w = page.rect.width
+        x_left = 0.0 if target.start_column == 0 else w / 2
+        x_right = w / 2 if target.start_column == 0 else w
+        y_top = target.start_y
+        y_bot = (
+            target.end_y
+            if target.end_page == target.start_page and target.end_column == target.start_column
+            else min(y_top + 400, page.rect.height)
+        )
+        clip = pymupdf.Rect(x_left, y_top, x_right, y_bot)
+        pix = page.get_pixmap(clip=clip, matrix=pymupdf.Matrix(3, 3))
+        pix.save(str(args.out / "diagram_region.png"))
+        print(
+            f"wrote {args.out}/region.json, text.txt ({len(text)} chars), "
+            f"and diagram_region.png"
+        )
     finally:
         doc.close()
 

@@ -266,7 +266,13 @@ def extract_moves_from_lines(lines: list[str]) -> list[tuple[int, bool, str]]:
             return None
         if "/" in tok:
             tok = tok.split("/", 1)[0]  # keep first alternative
-        return tok if MOVE_RE.fullmatch(tok) else None
+        if MOVE_RE.fullmatch(tok):
+            return tok
+        # Wildcard shorthand like "K~" (any king move, destination not
+        # given). Destination gets resolved later in apply_moves.
+        if re.fullmatch(r"[KDTLP]~[+#!?]*", tok):
+            return tok
+        return None
 
     # Scan the blob looking for move-number markers and move tokens in order.
     # Accept every form the book uses for the move-number prefix:
@@ -338,6 +344,29 @@ def apply_moves(
         if in_inline:
             continue
         san = dutch_to_san(nl_move)
+        # The book uses "~" as a wildcard for "any move by this piece" (most
+        # commonly "K~" for a forced king move whose square is immaterial).
+        # python-chess doesn't understand that, so we pick any legal move
+        # made by the matching piece type and use its SAN as a stand-in.
+        if "~" in nl_move:
+            piece_nl = nl_move.rstrip("+#!?~")[0] if nl_move else ""
+            piece_en = NL_TO_EN.get(piece_nl)
+            chosen = _pick_wildcard_move(board, piece_en)
+            if chosen is None:
+                print(
+                    f"[warn] no legal {piece_nl}-move for wildcard '{nl_move}' "
+                    f"at {move_num}.{'' if is_white else '…'} of variant '{variant}'",
+                    file=sys.stderr,
+                )
+                break
+            san = board.san(chosen)
+            board.push(chosen)
+            last_ply = ply
+            move_id = f"{variant}.{ply}"
+            out.append(Move(id=move_id, ply=ply, san=san, nl=nl_move,
+                            fenAfter=board.fen(), variant=variant, parent=last_id))
+            last_id = move_id
+            continue
         try:
             move = board.parse_san(san)
         except (chess.IllegalMoveError, chess.InvalidMoveError, chess.AmbiguousMoveError, ValueError) as exc:
@@ -430,12 +459,13 @@ def parse_study(
             moves = extract_moves_from_lines(tok["lines"])
             if not moves:
                 continue
-            # A moves block that starts with move-number 1 while we're
-            # already inside a non-main variant is almost always a
-            # historical-game quotation in the trailing prose (e.g.
-            # "Carel Mann speelde in Caissa (1935): 1.Pa5+ Ka2 2.Pc4 …").
-            # Treat as prose instead of continuing the variant.
-            if moves[0][0] == 1 and any_move_seen and current_variant != "main":
+            # A moves block that starts with move-number 1 after we've
+            # already parsed moves is almost always a historical-game
+            # quotation buried in the trailing prose — e.g. "Carel Mann
+            # speelde in Caissa (1935): 1.Pa5+ Ka2 2.Pc4 …" at the end
+            # of study #1, or the Kolpakov reference solution at the
+            # tail of study #7. Treat as prose instead of continuing.
+            if moves[0][0] == 1 and any_move_seen:
                 prose_after.append(" ".join(tok["lines"]).strip())
                 continue
             parent = last_move_id_in_variant.get(current_variant)
@@ -485,6 +515,31 @@ def _fen_at(moves: list[Move], move_id: str | None, start_fen: str) -> str:
         if m.id == move_id:
             return m.fenAfter
     return start_fen
+
+
+_PIECE_MAP = {
+    "K": chess.KING, "Q": chess.QUEEN, "R": chess.ROOK,
+    "B": chess.BISHOP, "N": chess.KNIGHT, "P": chess.PAWN,
+}
+
+
+def _pick_wildcard_move(board: "chess.Board", piece_en: str | None) -> "chess.Move | None":
+    """Pick a legal move made by pieces of the given English letter.
+
+    Used for wildcard tokens like ``K~`` in the source text. Preferring
+    king moves is fine for the common case; other piece wildcards are
+    rare but handled for completeness. Returns None if no candidate.
+    """
+    if piece_en is None:
+        return None
+    piece_type = _PIECE_MAP.get(piece_en)
+    if piece_type is None:
+        return None
+    for move in board.legal_moves:
+        piece = board.piece_at(move.from_square)
+        if piece and piece.piece_type == piece_type:
+            return move
+    return None
 
 
 def _find_parent_at_ply(moves: list[Move], variant: str, target_ply: int) -> str | None:

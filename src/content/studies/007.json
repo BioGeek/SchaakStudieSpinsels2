@@ -1,0 +1,125 @@
+{
+  "number": 7,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2000",
+  "gbr": "4010.00 c7a6",
+  "fen": "8/2K5/k1B5/7Q/8/8/8/1q6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/2K5/k1B5/8/8/8/4Q3/1q6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/2K5/2B5/k7/8/8/4Q3/1q6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd2+",
+      "nl": "Dd2+",
+      "fenAfter": "8/2K5/2B5/k7/8/8/3Q4/1q6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/2K5/k1B5/8/8/8/3Q4/1q6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qf2",
+      "nl": "Df2",
+      "fenAfter": "8/2K5/k1B5/8/8/8/5Q2/1q6 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qb3",
+      "nl": "Db3",
+      "fenAfter": "8/2K5/k1B5/8/8/1q6/5Q2/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qf1+",
+      "nl": "Df1+",
+      "fenAfter": "8/2K5/k1B5/8/8/1q6/8/5Q2 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/2K5/2B5/k7/8/1q6/8/5Q2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/2K5/2B5/k7/8/1q6/8/4Q3 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/2K5/k1B5/8/8/1q6/8/4Q3 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qa1+",
+      "nl": "Da1+",
+      "fenAfter": "8/2K5/k1B5/8/8/1q6/8/Q7 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Qa4",
+      "nl": "D~",
+      "fenAfter": "8/2K5/k1B5/8/q7/8/8/Q7 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Dit vond ik als tegenhanger voor\neen foute studie van V. Kolpakov\ndie de 3de aanbeveling kreeg in\nhet Serov-100 JT (1994):\n\nKc7 Dh2 La4 / Ka8 Db1 +\n\nmet  als  oplossing: 1.Lc6? Ka7\n\nKa6 5.Df2 Db3 6.Df1+ Ka5 7.De1+\nKa6 8.Da1+, en wint.\n\nDe eerste zet is reeds fout.\nNa 1.Lb3! Dc1+ 2.Lc2  of 1.Lb5\nDc1+ 2.Lc6+, wint wit in 3 zetten.\n\nIk ontdekte intussen dat door een\nkleine wijziging aan de beginstand\nvan Kolpakov’s werk er een heel\nandere oplossing ontstaat."
+    }
+  }
+}
