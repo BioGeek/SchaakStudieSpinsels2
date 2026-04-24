@@ -47,7 +47,7 @@ export function initStudyBoard(host: HTMLElement): Controller {
     position: study.fen,
     style: {
       borderType: BORDER_TYPE.none,
-      pieces: { file: '/pieces/staunty.svg' }, // cm-chessboard default sprite (site-rooted)
+      pieces: { file: '/pieces/ignace.svg' }, // Ignace's silhouettes (generated from data/template.png)
     },
     responsive: true,
     animationDuration: 180,
