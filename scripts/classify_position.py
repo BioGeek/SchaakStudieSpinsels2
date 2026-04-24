@@ -248,10 +248,6 @@ def classify_square(
         return inter / union if union > 0 else 0.0
 
     def distance(t: Template) -> float:
-        # Combined IoU: the whole silhouette plus a head-region boost.
-        # The body of every piece is a tapered column, so the top-of-
-        # piece region (crown vs battlements vs cross vs mitre) carries
-        # the signal that separates queen from rook.
         whole = iou(piece_mask, t.mask)
         head = iou(piece_head, t.mask[:head_rows])
         combined = (whole + HEAD_WEIGHT * head) / (1.0 + HEAD_WEIGHT)
