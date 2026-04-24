@@ -28,14 +28,68 @@ interface Props {
 const { study, locale } = Astro.props;
 const boardId = `board-${study.number}`;
 
-// Main-line moves, in order. Variants are accessible via the move list below
-// (click-to-jump UI lives inside the client controller).
-const mainLine = study.moves
-  .filter((m) => m.variant === 'main')
-  .sort((a, b) => a.ply - b.ply);
+// Group plies into (number, white?, black?) rows the way a chess book does.
+function rowify(moves: StudyMove[]): Array<{ num: number; white?: StudyMove; black?: StudyMove }> {
+  const rows = new Map<number, { num: number; white?: StudyMove; black?: StudyMove }>();
+  for (const m of [...moves].sort((a, b) => a.ply - b.ply)) {
+    const num = Math.floor((m.ply + 1) / 2);
+    const row = rows.get(num) ?? { num };
+    if (m.ply % 2 === 1) row.white = m; else row.black = m;
+    rows.set(num, row);
+  }
+  return [...rows.values()].sort((a, b) => a.num - b.num);
+}
 
-// Variants keyed by label (A, B, main.a, …), preserving source ordering.
-const variantIds = [...new Set(study.moves.map((m) => m.variant).filter((v) => v !== 'main'))];
+const mainRows = rowify(study.moves.filter((m) => m.variant === 'main'));
+
+// Two-level variant hierarchy. Top-level variants (single-letter labels like
+// "A", "B") become their own sections; their sub-variants ("main.a", "B.c")
+// are nested as labelled rows inside. A sub-variant under "main" is a
+// sibling of Variant A/B — they all branch from the main line.
+interface VariantSection {
+  id: string;
+  label: string;
+  rows: ReturnType<typeof rowify>;
+  children: { label: string; rows: ReturnType<typeof rowify> }[];
+}
+
+const sections: VariantSection[] = [];
+const seenIds = new Set<string>();
+for (const m of study.moves) {
+  if (m.variant === 'main') continue;
+  if (seenIds.has(m.variant)) continue;
+  seenIds.add(m.variant);
+
+  const vid = m.variant;
+  const parts = vid.split('.');
+  if (parts.length === 1) {
+    // Top-level variant like "A" / "B"
+    sections.push({
+      id: vid,
+      label: `Variant ${vid}`,
+      rows: rowify(study.moves.filter((x) => x.variant === vid)),
+      children: [],
+    });
+  } else {
+    // Sub-variant "A.a" / "main.b" — attach to parent if present, else render as a top-level "section".
+    const parentId = parts.slice(0, -1).join('.');
+    const sublabel = `${parts[parts.length - 1]})`;
+    const parent = sections.find((s) => s.id === parentId);
+    if (parent) {
+      parent.children.push({
+        label: sublabel,
+        rows: rowify(study.moves.filter((x) => x.variant === vid)),
+      });
+    } else {
+      sections.push({
+        id: vid,
+        label: sublabel,
+        rows: rowify(study.moves.filter((x) => x.variant === vid)),
+        children: [],
+      });
+    }
+  }
+}
 ---
 
 <div class="study-board" data-board-id={boardId} data-study={JSON.stringify(study)}>
@@ -62,58 +116,90 @@ const variantIds = [...new Set(study.moves.map((m) => m.variant).filter((v) => v
 
     <section class="main-line">
       <h3 class="sr-only">{t(locale, 'study.moves')}</h3>
-      <ol>
-        {mainLine.map((m, i) => {
-          const moveNum = Math.floor(m.ply / 2) + (m.ply % 2 === 1 ? 1 : 0);
-          const isWhite = m.ply % 2 === 1;
-          const showNumber = isWhite || i === 0;
-          return (
-            <li>
-              {showNumber && (
-                <span class="move-num">
-                  {moveNum}{isWhite ? '.' : '…'}
-                </span>
-              )}
-              <button type="button" data-move={m.id} class="move" title={m.san}>
-                {m.nl}
-              </button>
-            </li>
-          );
-        })}
-      </ol>
+      <table class="move-table">
+        <tbody>
+          {mainRows.map((r) => (
+            <tr>
+              <td class="num">{r.num}.</td>
+              <td class="w">
+                {r.white && (
+                  <button type="button" data-move={r.white.id} class="move" title={r.white.san}>
+                    {r.white.nl}
+                  </button>
+                )}
+              </td>
+              <td class="b">
+                {r.black && (
+                  <button type="button" data-move={r.black.id} class="move" title={r.black.san}>
+                    {r.black.nl}
+                  </button>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </section>
 
-    {variantIds.length > 0 && (
+    {sections.length > 0 && (
       <section class="variants">
         <h3>{t(locale, 'study.variants')}</h3>
-        {variantIds.map((vid) => {
-          const vmoves = study.moves.filter((m) => m.variant === vid).sort((a, b) => a.ply - b.ply);
-          if (vmoves.length === 0) return null;
-          return (
-            <details open>
-              <summary>{vid.startsWith('main.') ? vid.slice(5) + ')' : `Variant ${vid}`}</summary>
-              <ol>
-                {vmoves.map((m, i) => {
-                  const moveNum = Math.floor(m.ply / 2) + (m.ply % 2 === 1 ? 1 : 0);
-                  const isWhite = m.ply % 2 === 1;
-                  const showNumber = isWhite || i === 0;
-                  return (
-                    <li>
-                      {showNumber && (
-                        <span class="move-num">
-                          {moveNum}{isWhite ? '.' : '…'}
-                        </span>
+        {sections.map((sec) => (
+          <details open class="variant-section">
+            <summary>{sec.label}</summary>
+            <table class="move-table">
+              <tbody>
+                {sec.rows.map((r) => (
+                  <tr>
+                    <td class="num">{r.num}{r.white ? '.' : '…'}</td>
+                    <td class="w">
+                      {r.white && (
+                        <button type="button" data-move={r.white.id} class="move" title={r.white.san}>
+                          {r.white.nl}
+                        </button>
                       )}
-                      <button type="button" data-move={m.id} class="move">
-                        {m.nl}
-                      </button>
-                    </li>
-                  );
-                })}
-              </ol>
-            </details>
-          );
-        })}
+                    </td>
+                    <td class="b">
+                      {r.black && (
+                        <button type="button" data-move={r.black.id} class="move" title={r.black.san}>
+                          {r.black.nl}
+                        </button>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            {sec.children.map((child) => (
+              <div class="sub-variant">
+                <span class="sub-label">{child.label}</span>
+                <table class="move-table">
+                  <tbody>
+                    {child.rows.map((r) => (
+                      <tr>
+                        <td class="num">{r.num}{r.white ? '.' : '…'}</td>
+                        <td class="w">
+                          {r.white && (
+                            <button type="button" data-move={r.white.id} class="move" title={r.white.san}>
+                              {r.white.nl}
+                            </button>
+                          )}
+                        </td>
+                        <td class="b">
+                          {r.black && (
+                            <button type="button" data-move={r.black.id} class="move" title={r.black.san}>
+                              {r.black.nl}
+                            </button>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+          </details>
+        ))}
       </section>
     )}
   </div>
@@ -185,25 +271,38 @@ const variantIds = [...new Set(study.moves.map((m) => m.variant).filter((v) => v
     color: theme('colors.ink.DEFAULT');
   }
 
-  .main-line ol,
-  .variants ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 0.5rem;
+  .move-table {
     font-family: monospace;
     font-size: 0.95rem;
+    border-collapse: collapse;
+    margin: 0.25rem 0;
   }
-  .main-line li,
-  .variants li {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 0.2rem;
+  .move-table td {
+    padding: 0.1rem 0.5rem 0.1rem 0;
+    vertical-align: baseline;
+    white-space: nowrap;
   }
-  .move-num {
+  .move-table td.num {
     color: theme('colors.ink.muted');
+    text-align: right;
+    padding-right: 0.5rem;
+    width: 2.5rem;
+  }
+  .move-table td.w, .move-table td.b {
+    min-width: 5rem;
+  }
+  .sub-variant {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 1rem;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  .sub-variant .sub-label {
+    font-family: theme('fontFamily.serif');
+    font-style: italic;
+    color: theme('colors.ink.muted');
+    padding-top: 0.15rem;
   }
   .move {
     background: transparent;
