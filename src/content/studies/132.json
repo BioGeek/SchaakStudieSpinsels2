@@ -1,0 +1,126 @@
+{
+  "number": 132,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EG, 2011",
+  "gbr": "0014.01 f8h7",
+  "fen": "3n1K2/7k/8/8/6Np/1B6/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "3n1K2/7k/8/3B4/6Np/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "3n1K2/8/6k1/3B4/6Np/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "3n4/4K3/6k1/3B4/6Np/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "3n4/4K3/8/3B1k2/6Np/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "3n4/4K3/5N2/3B1k2/7p/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "3n4/4K3/5N2/3Bk3/7p/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bg2",
+      "nl": "Lg2",
+      "fenAfter": "3n4/4K3/5N2/4k3/7p/8/6B1/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "8/4K3/4nN2/4k3/7p/8/6B1/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd7+",
+      "nl": "Pd7+",
+      "fenAfter": "8/3NK3/4n3/4k3/7p/8/6B1/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/3NK3/4n3/5k2/7p/8/6B1/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bh3+",
+      "nl": "Lh3+",
+      "fenAfter": "8/3NK3/4n3/5k2/7p/7B/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg6",
+      "nl": "K~",
+      "fenAfter": "8/3NK3/4n1k1/8/7p/7B/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Laten we proberen met 1.Lc2+?\nKh8 2.Lb3 Pc6 3.Ld5 Ld4 4.Lg8\nPc6 5.Ph6 Pe5 en  wit niet komt\nverder. Correct is:",
+      "after": "2.Kd2 Kc4 3.Pc3 (Maar 3.Pa3+\n\n5.Pe2+ Kc4 6.La6+. met verove-\n\nZodat het zwart paard  niet kan\nontsnappen.\n\nNu na 4…h3? wint 5.Pd7+ in 40\nzetten (Nalimov)\n\nMet deze laatste zet wint wit het\nsnelst.\n      Het is een correctie van een 2de\n         prijs in het Marwitz MT (1992) van\n      Roger Missiaen en mezelf dat ver-\n      scheen in Schakend Nederland:\n\n     Kc1 Le4 Pa3 / Ka2 Pe1 d7 +\n\n      Met  de  oplossing:  1.Pb5  Kb3\n\nwint  ook.) 3…Kd4  4.Lb7  Pd3\n\nring van het paard. Trouwens hier\n       wint ook 1.Pb1.\n\n     Dus nevenoplosbaar.\n\n      Vriend Jarl Ulrichsen besloot met:\n       “Ignace has corrected this work by\nt       turning the board and rearranging\n       the men.”\n\n       Later (Januari 2012) heeft Roger\n      de oorspronkelijke studie hersteld\n      door er een zwarte pion bij te plaat-\n      sen op veld f7, met dezelfde oplos-\n       sing als voorheen.\n\n     Kc1 Le4 Pa3 / Ka2 Pe1 d7 f7 +\n\n      Mooi zo.",
+      "beforeVariant": {}
+    }
+  }
+}
