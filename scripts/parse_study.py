@@ -293,8 +293,11 @@ def extract_moves_from_lines(lines: list[str]) -> list[tuple[int, bool, str]]:
       * Alternate-capture shorthand ``Dxa4/Dxb3`` keeps the first form
     """
     blob = " ".join(lines)
-    # Drop parenthesised annotations / back-refs before tokenising.
-    blob = re.sub(r"\([^)]*\)", " ", blob)
+    # Drop parenthesised annotations / back-refs before tokenising. Replace with
+    # nothing (not a space) so an inline alternative-square note glued into a
+    # token ("Ke(d)3" = "Ke3 or Kd3") rejoins to the parsable move "Ke3" rather
+    # than splitting into "Ke 3".
+    blob = re.sub(r"\([^)]*\)", "", blob)
     # Drop sub-variant prefixes like "a)" or "b)" that sit at the head of a
     # line — they're structural, not part of any move token.
     blob = re.sub(r"\b[a-z]\)", " ", blob)
