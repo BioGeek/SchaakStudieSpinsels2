@@ -4,47 +4,111 @@
   "chapterNumber": 4,
   "source": "Flemish Miniatures, 1998",
   "gbr": "0340.20 g3a1",
-  "fen": "8/1r6/P6P/2B3b1/8/6K1/8/k7 w - - 0 1",
+  "fen": "1b6/8/P6P/2B3r1/8/6K1/8/k7 w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
-      "id": "main.b.3",
-      "ply": 3,
-      "san": "h7",
-      "nl": "h7?",
-      "fenAfter": "8/1r5P/P7/2B3b1/8/6K1/8/k7 b - - 0 1",
-      "variant": "main.b",
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "1b6/8/P6P/2B3r1/7K/8/8/k7 b - - 1 1",
+      "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "1b6/8/P6P/2B3r1/7K/8/k7/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
     },
     {
       "id": "main.5",
       "ply": 5,
       "san": "h7",
       "nl": "h7",
-      "fenAfter": "8/1r5P/P7/2B3b1/8/6K1/8/k7 b - - 0 1",
+      "fenAfter": "1b6/7P/P7/2B3r1/7K/8/k7/8 b - - 0 2",
       "variant": "main",
-      "parent": null
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rg2",
+      "nl": "Tg2",
+      "fenAfter": "1b6/7P/P7/2B5/7K/8/k5r1/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.5"
     },
     {
       "id": "main.d.11",
       "ply": 11,
       "san": "Kh3",
       "nl": "Kh3?",
-      "fenAfter": "8/1r6/P6P/2B3b1/8/7K/8/k7 b - - 1 1",
+      "fenAfter": "1b6/8/P6P/2B3r1/8/7K/8/k7 b - - 1 1",
       "variant": "main.d",
       "parent": null
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "1b6/7P/P2B4/8/7K/8/k5r1/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Rg1",
+      "nl": "Tg1",
+      "fenAfter": "1b6/7P/P2B4/8/7K/8/k7/6r1 w - - 3 4",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "1b6/7P/P2B4/8/8/7K/k7/6r1 b - - 4 4",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Rg6",
+      "nl": "Tg6",
+      "fenAfter": "1b6/7P/P2B2r1/8/8/7K/k7/8 w - - 5 5",
+      "variant": "A",
+      "parent": "main.13"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "h8=Q",
+      "nl": "h8D",
+      "fenAfter": "1b5Q/8/P2B2r1/8/8/7K/k7/8 b - - 0 5",
+      "variant": "A",
+      "parent": "A.18"
     }
   ],
   "prose": {
     "nl": {
-      "before": "Maar niet:",
-      "after": "Een  ultieme  poging van  zwart,\nwant 9.Ld3?  is nu niet meer af-\ndoende wegens 10.h8D Le4 en\nbijvoorbeeld 11.Dd4 met materieel\noverwicht.\n\nVoor de  laatste maal het  juiste\nveld.  Want  na  11.Kh2?  Lc6+\n\nzwart nog remise halen.\n\nEn dame wint tegen toren.\n    Deze studie, ontdaan van de eer-\n     ste zet, stuurde  ik op naar mijn\n     vriend Hans Bouwmeester ter ge-\n     legenheid van zijn 75e verjaardag.\n\n    Toen die verscheen  in Schaak-\n    nieuws 2004 gaf de Internationale\n    Meester dit commentaar: “Gewel-\n     dig wat een componist met zo\n     weinig materiaal aan inhoud weet\n     te scheppen.”\n\n    En Roger Missiaen schreef over de\n     oorspronkelijke versie: “Black has\n      different ways to draw in this eco-\n     nomical miniature which has a rich\n     content. But Vandecasteele’s  in-\n     venttiveness leads via un unexpec-\n     ted manoeuvre of the white Bishop\n     to a surprising win.”\n\n    En ook Julien Vandiest vond het:\n    “Een  echte  ‘studie’,  superieure\n     moeilijkheidsgraad.”",
+      "before": "",
+      "after": "Een  ultieme  poging van  zwart,\nwant 9.Ld3?  is nu niet meer af-\ndoende wegens 10.h8D Le4 en\nbijvoorbeeld 11.Dd4 met materieel\noverwicht.\n\nVoor de  laatste maal het  juiste\nveld.  Want  na  11.Kh2?  Lc6+\n\n12.Kg1 Td1+  13.Kf2 Txd6 zou\n\nzwart nog remise halen.\n\nEn dame wint tegen toren.\n    Deze studie, ontdaan van de eer-\n     ste zet, stuurde  ik op naar mijn\n     vriend Hans Bouwmeester ter ge-\n     legenheid van zijn 75e verjaardag.\n\n    Toen die verscheen  in Schaak-\n    nieuws 2004 gaf de Internationale\n    Meester dit commentaar: “Gewel-\n     dig wat een componist met zo\n     weinig materiaal aan inhoud weet\n     te scheppen.”\n\n    En Roger Missiaen schreef over de\n     oorspronkelijke versie: “Black has\n      different ways to draw in this eco-\n     nomical miniature which has a rich\n     content. But Vandecasteele’s  in-\n     venttiveness leads via un unexpec-\n     ted manoeuvre of the white Bishop\n     to a surprising win.”\n\n    En ook Julien Vandiest vond het:\n    “Een  echte  ‘studie’,  superieure\n     moeilijkheidsgraad.”",
       "beforeVariant": {
-        "main.a2": "beide met remise.\n\nIn de loop van het spel zal blijken\ndat deze zet meer weerstand biedt\ndan 2…Kb1.\n\nEn niet 4.Kh3? Lf1 5.h8D Tg8+ en\n\nWederom is 5.Kh3? onvoldoende:\n\nEn nu volgt de hoofdpointe van\ndeze studie. Wit dient de énig juis-\nte winnende zet te vinden. We on-\nderzoeken de verschillende moge-\nlijkheden:",
+        "main.a": "Maar niet:",
+        "main.a2": "beide met remise.\n\nIn de loop van het spel zal blijken\ndat deze zet meer weerstand biedt\ndan 2…Kb1.\n\nEn niet 4.Kh3? Lf1 5.h8D Tg8+ en\n\nWederom is 5.Kh3? onvoldoende:\n\n8.h8D Le4 9.Lg3 Txg3, remise.\n\nEn nu volgt de hoofdpointe van\ndeze studie. Wit dient de énig juis-\nte winnende zet te vinden. We on-\nderzoeken de verschillende moge-\nlijkheden:",
         "main.b2": "Tg1 7.Lh2 Tg2 zijn onnodige\n   omwegen.",
         "main.c": "Txf4, en remise.",
         "main.d": "remise.",
-        "A": "beeld 7…Td2+  8.Kh4  Td8\n\nmaar eveneens remise.\nMaar correct is:\n\nWant na 6…Td2? (Tg7?) 7.h8D\nTxd6 8.Dg8 Ka1 9.Dg1+ Ka(b)2\n\nNu wel.",
+        "A": "beeld 7…Td2+  8.Kh4  Td8\n\nmaar eveneens remise.\nMaar correct is:\n\nWant na 6…Td2? (Tg7?) 7.h8D\nTxd6 8.Dg8 Ka1 9.Dg1+ Ka(b)2\n\n10.Dh2+, valt de toren: 10.Dxd6.\n\nNu wel.",
         "B": "In Flemish Miniatures ging ik hier\nverder met bovenstaande variant.\nMaar  later vond  ik een sterkere\ntegenstand van zwart:"
       }
     }

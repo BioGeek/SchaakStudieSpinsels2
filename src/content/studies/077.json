@@ -4,33 +4,250 @@
   "chapterNumber": 3,
   "source": "EG, 1976",
   "gbr": "0340.10 c6h6",
-  "fen": "6r1/8/P1K4k/8/8/2B5/8/7b w - - 0 1",
+  "fen": "6b1/8/P1K4k/8/8/2B5/8/7r w - - 0 1",
   "stipulation": "=",
   "moves": [
     {
-      "id": "A.5",
-      "ply": 5,
-      "san": "Kd7",
-      "nl": "Kd7",
-      "fenAfter": "6r1/3K4/P6k/8/8/2B5/8/7b b - - 1 1",
-      "variant": "A",
+      "id": "main.1",
+      "ply": 1,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "6b1/P7/2K4k/8/8/2B5/8/7r b - - 0 1",
+      "variant": "main",
       "parent": null
     },
     {
-      "id": "A.6",
-      "ply": 6,
-      "san": "Bd5",
-      "nl": "Ld5",
-      "fenAfter": "6r1/3K4/P6k/3b4/8/2B5/8/8 w - - 2 2",
+      "id": "A.2",
+      "ply": 2,
+      "san": "Rd1",
+      "nl": "Td1",
+      "fenAfter": "6b1/P7/2K4k/8/8/2B5/8/3r4 w - - 1 2",
       "variant": "A",
-      "parent": "A.5"
+      "parent": "main.1"
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "6b1/P7/2K4k/8/3B4/8/8/3r4 b - - 2 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "A.a.4",
+      "ply": 4,
+      "san": "Rc1",
+      "nl": "Tc1",
+      "fenAfter": "6b1/P7/2K4k/8/3B4/8/8/2r5 w - - 3 3",
+      "variant": "A.a",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.b.4",
+      "ply": 4,
+      "san": "Rxd4",
+      "nl": "Txd4",
+      "fenAfter": "6b1/P7/2K4k/8/3r4/8/8/8 w - - 0 3",
+      "variant": "A.b",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.c.4",
+      "ply": 4,
+      "san": "Bh7",
+      "nl": "Lh7",
+      "fenAfter": "8/P6b/2K4k/8/3B4/8/8/3r4 w - - 3 3",
+      "variant": "A.c",
+      "parent": "A.3"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Rh5",
+      "nl": "Th5",
+      "fenAfter": "6b1/P7/2K4k/7r/8/2B5/8/8 w - - 1 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "6b1/P7/2K4k/4B2r/8/8/8/8 b - - 2 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Rxe5",
+      "nl": "Txe5",
+      "fenAfter": "6b1/P7/2K4k/4r3/8/8/8/8 w - - 0 3",
+      "variant": "B",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "a8=Q",
+      "nl": "a8D",
+      "fenAfter": "Q5b1/8/2K4k/4r3/8/8/8/8 b - - 0 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "Q7/8/2K4k/3br3/8/8/8/8 w - - 1 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "Q7/8/3K3k/3br3/8/8/8/8 b - - 2 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Bxa8",
+      "nl": "Lxa8",
+      "fenAfter": "b7/8/3K3k/4r3/8/8/8/8 w - - 0 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Kxe5",
+      "nl": "Kxe5",
+      "fenAfter": "b7/8/7k/4K3/8/8/8/8 b - - 0 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "C.2",
+      "ply": 2,
+      "san": "Bh7",
+      "nl": "Lh7",
+      "fenAfter": "8/P6b/2K4k/8/8/2B5/8/7r w - - 1 2",
+      "variant": "C",
+      "parent": "main.1"
+    },
+    {
+      "id": "C.3",
+      "ply": 3,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/P6b/7k/3K4/8/2B5/8/7r b - - 2 2",
+      "variant": "C",
+      "parent": "C.2"
+    },
+    {
+      "id": "C.4",
+      "ply": 4,
+      "san": "Rd1+",
+      "nl": "Td1+",
+      "fenAfter": "8/P6b/7k/3K4/8/2B5/8/3r4 w - - 3 3",
+      "variant": "C",
+      "parent": "C.3"
+    },
+    {
+      "id": "C.5",
+      "ply": 5,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/P6b/7k/3K4/3B4/8/8/3r4 b - - 4 3",
+      "variant": "C",
+      "parent": "C.4"
+    },
+    {
+      "id": "C.6",
+      "ply": 6,
+      "san": "Re1",
+      "nl": "Te1",
+      "fenAfter": "8/P6b/7k/3K4/3B4/8/8/4r3 w - - 5 4",
+      "variant": "C",
+      "parent": "C.5"
+    },
+    {
+      "id": "C.7",
+      "ply": 7,
+      "san": "Be3",
+      "nl": "Le3",
+      "fenAfter": "8/P6b/7k/3K4/8/4B3/8/4r3 b - - 6 4",
+      "variant": "C",
+      "parent": "C.6"
+    },
+    {
+      "id": "C.8",
+      "ply": 8,
+      "san": "Rxe3",
+      "nl": "Txe3",
+      "fenAfter": "8/P6b/7k/3K4/8/4r3/8/8 w - - 0 5",
+      "variant": "C",
+      "parent": "C.7"
+    },
+    {
+      "id": "C.9",
+      "ply": 9,
+      "san": "a8=Q",
+      "nl": "a8D",
+      "fenAfter": "Q7/7b/7k/3K4/8/4r3/8/8 b - - 0 5",
+      "variant": "C",
+      "parent": "C.8"
+    },
+    {
+      "id": "C.10",
+      "ply": 10,
+      "san": "Be4+",
+      "nl": "Le4+",
+      "fenAfter": "Q7/8/7k/3K4/4b3/4r3/8/8 w - - 1 6",
+      "variant": "C",
+      "parent": "C.9"
+    },
+    {
+      "id": "C.11",
+      "ply": 11,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "Q7/8/7k/8/3Kb3/4r3/8/8 b - - 2 6",
+      "variant": "C",
+      "parent": "C.10"
+    },
+    {
+      "id": "C.12",
+      "ply": 12,
+      "san": "Bxa8",
+      "nl": "Lxa8",
+      "fenAfter": "b7/8/7k/8/3K4/4r3/8/8 w - - 0 7",
+      "variant": "C",
+      "parent": "C.11"
+    },
+    {
+      "id": "C.13",
+      "ply": 13,
+      "san": "Kxe3",
+      "nl": "Kxe3",
+      "fenAfter": "b7/8/7k/8/8/4K3/8/8 b - - 0 7",
+      "variant": "C",
+      "parent": "C.12"
     }
   ],
   "prose": {
     "nl": {
-      "before": "En nu:",
-      "after": "3.a1D(T)\n\n3.Kd5        Te1+        4.Le3+       Txe3        5.a8D(T)     Le4+        6.Kd4        Lxa8        7.Kxe3\n\nDe herhaling van het loperoffer in\n    echovorm is een verfijning van een\n     studie van A. Grin in Diagrammes.\n     (1965)\n\n    Kb7 La3 a7 h5 /\n                Kg7 Th1 Lg8 a6 =\n\n    Met  als  oplossing  1.Lb2+ Kh6\n\nLxe8 8.Kxe3 enzovoort.\n\n     Vriend Roger Missiaen vond het:\n     “A miniature made to measure.”\n\n    En John Beasly schreef: “La ver-\n     sion de Vandecasteele ne con-\n      tient que les pièces thématiques,\n      c’est une étude superbe.”",
+      "before": "",
+      "after": "2.Kc6 Td1 3.Ld4 Lh7 4.Kd5 Te1     5.Le3+ Txe3 6.a8D Le4+ 7.Kd4\n\nDe herhaling van het loperoffer in\n    echovorm is een verfijning van een\n     studie van A. Grin in Diagrammes.\n     (1965)\n\n    Kb7 La3 a7 h5 /\n                Kg7 Th1 Lg8 a6 =\n\n    Met  als  oplossing  1.Lb2+ Kh6\n\nLxe8 8.Kxe3 enzovoort.\n\n     Vriend Roger Missiaen vond het:\n     “A miniature made to measure.”\n\n    En John Beasly schreef: “La ver-\n     sion de Vandecasteele ne con-\n      tient que les pièces thématiques,\n      c’est une étude superbe.”",
       "beforeVariant": {
+        "A.a": "En nu:",
         "A.c": "Ld5+"
       }
     }

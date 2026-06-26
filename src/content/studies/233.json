@@ -4,32 +4,131 @@
   "chapterNumber": 5,
   "source": "Schakend Nederland, 1991",
   "gbr": "0431.20 f2f4",
-  "fen": "7R/1r6/8/b1P4N/P4k2/8/5K2/8 w - - 0 1",
+  "fen": "7N/1b6/8/r1P4R/P4k2/8/5K2/8 w - - 0 1",
   "stipulation": "+",
   "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "8/1b6/6N1/r1P4R/P4k2/8/5K2/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/1b6/6N1/r1P4R/P5k1/8/5K2/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
     {
       "id": "main.3",
       "ply": 3,
       "san": "c6",
       "nl": "c6",
-      "fenAfter": "7R/1r6/2P5/b6N/P4k2/8/5K2/8 b - - 0 1",
+      "fenAfter": "8/1b6/2P3N1/r6R/P5k1/8/5K2/8 b - - 0 2",
       "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rxh5",
+      "nl": "Txh5",
+      "fenAfter": "8/1b6/2P3N1/7r/P5k1/8/5K2/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Bxc6",
+      "nl": "Lxc6?",
+      "fenAfter": "8/8/2b3N1/r6R/P5k1/8/5K2/8 w - - 0 3",
+      "variant": "main.a",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Rxa5",
+      "nl": "Txa5",
+      "fenAfter": "8/8/2b3N1/R7/P5k1/8/5K2/8 b - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Kxh5",
+      "nl": "Kxh5",
+      "fenAfter": "8/1b6/2P3N1/r6k/P7/8/5K2/8 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "cxb7",
+      "nl": "cxb7",
+      "fenAfter": "8/1P6/6N1/r6k/P7/8/5K2/8 b - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.e.6",
+      "ply": 6,
+      "san": "Rxe5",
+      "nl": "Txe5?",
+      "fenAfter": "7N/1b6/8/r1P1R3/P4k2/8/5K2/8 b - - 1 1",
+      "variant": "main.e",
+      "parent": null
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "cxb7",
+      "nl": "cxb7",
+      "fenAfter": "8/1P6/6N1/7r/P5k1/8/5K2/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rh2+",
+      "nl": "Th2+",
+      "fenAfter": "8/1P6/6N1/8/P5k1/8/5K1r/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.b3.11",
+      "ply": 11,
+      "san": "Nf7",
+      "nl": "Pf7",
+      "fenAfter": "8/1b3N2/8/r1P4R/P4k2/8/5K2/8 b - - 1 1",
+      "variant": "main.b3",
       "parent": null
     }
   ],
   "prose": {
     "nl": {
-      "before": "Niet:  1.c6?  Txh5  2.Pg6+  Ke4\n\nTxb7. Maar eerst:\n\nwit wint.",
-      "after": "Kxc6, of hier 11.Pa5 Kb8  is er\n   geen winst.\n\nFout is hier 6.Pf7? met dezelfde\nbedoeling,  namelijk na  6...Txb7\nzwart af te straffen met een paard-\nvork. Zwart trapt niet in die val en\nspeelt hier 6…Ke6 7.a5 Kd7 8.a6\nKc7 9.Pd8 Kb8 10.Pc6+ Kc7, en\nwit komt niet verder: 11.Pa5 Kb8...\n\nWit blokkeert de eigen pion, maar\nbeschermt de andere.\n\nNa 8…Tb4+? 9.Kc5 Ta1 10.Pc6\nTxb7 volgt de paardvork 11.Pd8+\nen 12.Pxb7..\n\nOpnieuw  is 9….Txb7?  fout we-\ngens 10.Pd8+ en 11.Pxb7.\n\nDe overblijvende pion is gedekt en\nwit wint na promotie. Dankzij de 5de\nzet is de witte koning op tijd.",
+      "before": "Niet:  1.c6?  Txh5  2.Pg6+  Ke4\n\nTxb7. Maar eerst:",
+      "after": "Kxc6, of hier 11.Pa5 Kb8  is er\n   geen winst.\n\nFout is hier 6.Pf7? met dezelfde\nbedoeling,  namelijk na  6...Txb7\nzwart af te straffen met een paard-\nvork. Zwart trapt niet in die val en\nspeelt hier 6…Ke6 7.a5 Kd7 8.a6\nKc7 9.Pd8 Kb8 10.Pc6+ Kc7, en\nwit komt niet verder: 11.Pa5 Kb8...\n\n6…Txb7? 7.Pd6+ en 7.Pxb7.\n\nWit blokkeert de eigen pion, maar\nbeschermt de andere.\n\nNa 8…Tb4+? 9.Kc5 Ta1 10.Pc6\nTxb7 volgt de paardvork 11.Pd8+\nen 12.Pxb7..\n\nOpnieuw  is 9….Txb7?  fout we-\ngens 10.Pd8+ en 11.Pxb7.\n\nDe overblijvende pion is gedekt en\nwit wint na promotie. Dankzij de 5de\nzet is de witte koning op tijd.",
       "beforeVariant": {
-        "main.a": "Na:",
-        "main.a2": "voort..\nEn nu de gedurfde mooie zet:\n\nMen zie:",
+        "main.a": "6.Kg3 Tb8 7.Pc6+ Kc5 8.Pxb8 en\n\nwit wint.\n\nNa:",
+        "main.a2": "voort..\nEn nu de gedurfde mooie zet:\n\n3.Pe5+       Kf5        w\n\nMen zie:",
         "main.b2": "Th8 6.a5 Tf8 7.a6 Txf3+ 8.Ke2\n   Tb3 9.a7 enzovoort.",
         "main.c": "Tb2 6.Pd3+ en 7.Pxb2.",
         "main.d": "K~ 6.b8D.",
-        "main.e": "voor de hand liggende:",
+        "main.e": "6.a4, enzovoort. Teslotte het\n\nvoor de hand liggende:",
         "main.a3": "a6, enzovoort.\n\nOok een belangrijke zet:\nNa 5.Kf3? volgt 5...Tb2 en bijvoor-\nbeeld:",
-        "main.b3": "Tb2+ 9.Kd3 Kd7 10.Kc3 Tb6\n\nremise. Of hier na:"
+        "main.b3": "Tb2+ 9.Kd3 Kd7 10.Kc3 Tb6\n\n11.Kd4 Kc7 12.Kc5 Th6, met\n\nremise. Of hier na:"
       }
     }
   }

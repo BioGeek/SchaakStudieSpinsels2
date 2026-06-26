@@ -4,41 +4,68 @@
   "chapterNumber": 3,
   "source": "Origineel, 2011",
   "gbr": "4010.01 g8d8",
-  "fen": "3k2K1/2q5/8/8/8/7Q/5p2/6B1 w - - 0 1",
+  "fen": "3k2K1/2q5/8/8/8/7B/5p2/6Q1 w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
-      "id": "main.4",
-      "ply": 4,
-      "san": "Qg3+",
-      "nl": "Dg3+",
-      "fenAfter": "3k2K1/2q5/8/8/8/6Q1/5p2/6B1 b - - 1 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qg5+",
+      "nl": "Dg5+",
+      "fenAfter": "3k2K1/2q5/8/6Q1/8/7B/5p2/8 b - - 1 1",
       "variant": "main",
       "parent": null
     },
     {
-      "id": "main.8",
-      "ply": 8,
-      "san": "Qb7+",
-      "nl": "Db7+",
-      "fenAfter": "3k2K1/1q6/8/8/8/6Q1/5p2/6B1 w - - 2 2",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4k1K1/2q5/8/6Q1/8/7B/5p2/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "4k1K1/2q5/6Q1/8/8/7B/5p2/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "6K1/2q1k3/6Q1/8/8/7B/5p2/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qe6+",
+      "nl": "De6+",
+      "fenAfter": "6K1/2q1k3/4Q3/8/8/7B/5p2/8 b - - 5 3",
       "variant": "main",
       "parent": "main.4"
     },
     {
-      "id": "main.12",
-      "ply": 12,
-      "san": "Kf8",
-      "nl": "Kf8",
-      "fenAfter": "3k1K2/1q6/8/8/8/6Q1/5p2/6B1 b - - 3 2",
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3k2K1/2q5/4Q3/8/8/7B/5p2/8 w - - 6 4",
       "variant": "main",
-      "parent": "main.8"
+      "parent": "main.5"
     }
   ],
   "prose": {
     "nl": {
-      "before": "8/Dxe7          fID\n\nMet winst.\n\nEen gerelateerde tweeling met de\nvorige studie. Maar met een heel\nandere winstvoering.\n\nEn er is ook nog deze winststel-\nling, met de pion op c6:\n    Kg8 Dg1 Lh3 / Kd8 Dc7 c6 +\n\nDreigt mat op f8.",
-      "after": "Na 4.Kh8? of 4.Kh7? is het remi-\n     se.\n\neen onnodige omweg van twee\n     zetten.\n\nzetten.\n\nEn ook hier met winst.\n\n    Dus een drieling.",
+      "before": "",
+      "after": "1.Dg5+       Ke8           2.Df5\n\n2…          Dg3+           3.Lg4        Db3+          4.Kg7\n\n8/Dxe7          fID\n\nMet winst.\n\nEen gerelateerde tweeling met de\nvorige studie. Maar met een heel\nandere winstvoering.\n\nEn er is ook nog deze winststel-\nling, met de pion op c6:\n    Kg8 Dg1 Lh3 / Kd8 Dc7 c6 +\n\nDreigt mat op f8.\n\nNa 4.Kh8? of 4.Kh7? is het remi-\n     se.\n\n6.De4+? Kf8 7.Df5+ Ke8 8.De6 is\n\neen onnodige omweg van twee\n     zetten.\n\n13.Dh7+ is een omweg van vier\n\nzetten.\n\nEn ook hier met winst.\n\n    Dus een drieling.",
       "beforeVariant": {}
     }
   }

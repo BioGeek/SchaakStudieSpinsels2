@@ -4,26 +4,44 @@
   "chapterNumber": 5,
   "source": "Schakend Nederland, 1971",
   "gbr": "0420.02 b3g2",
-  "fen": "rR6/8/B7/6p1/1p6/1K3B2/6k1/8 w - - 0 1",
+  "fen": "rB6/8/B7/6p1/1p6/1K3R2/6k1/8 w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
-      "id": "main.9",
-      "ply": 9,
-      "san": "Bxa8",
-      "nl": "Lxa8",
-      "fenAfter": "BR6/8/B7/6p1/1p6/1K6/6k1/8 b - - 0 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rg3+",
+      "nl": "Tg3+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K4R1/6k1/8 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K4R1/7k/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bb7+",
+      "nl": "Lb7+",
+      "fenAfter": "rB6/1B6/8/6p1/1p6/1K4R1/7k/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
     }
   ],
   "prose": {
     "nl": {
-      "before": "Drie witte stukken staan aange-\nvallen! Na een lange  achtervol-\nging,  eerst neerwaarts dan op-\nwaarts, redt wit zich uiteindelijk, na\nvele offeraanbiedingen\n\nen de  witte Koning komt  hulp\nbieden.) 3.Te2+ Kf3 4.Lb7+ Kxe2",
-      "after": "Kf3 10.Lb7+ Kxg3 11.Lxa8\n\nMaar niet 8.Ld6+? Kc6 9.Lc4 Ta3+\n\nOf  hier  10.Kxb4 Txd3  11.Lxd3\nKxd6.\n\nEn nu dat La6 gedekt is speelt wit:\n\nZwarts laatste hoop.\n\nDaar gaat de witte toren, maar ook\nde zwarte:\n\nWit wit nu makkelijk met beide lo-\npers.",
+      "before": "Drie witte stukken staan aange-\nvallen! Na een lange  achtervol-\nging,  eerst neerwaarts dan op-\nwaarts, redt wit zich uiteindelijk, na\nvele offeraanbiedingen",
+      "after": "2...Kh3? 3.Th2+ Kg4 4.Lc8+ Kf3\n\n3.Th2+      Kg1        4.Th1+       Kf2        5.Tf1+       Ke3\n\nKf3 10.Lb7+ Kxg3 11.Lxa8\n\nMaar niet 8.Ld6+? Kc6 9.Lc4 Ta3+\n\n10.Kc2 Txd3 11.Lxd3 Kxd6 remise.\n\nOf  hier  10.Kxb4 Txd3  11.Lxd3\nKxd6.\n\nEn nu dat La6 gedekt is speelt wit:\n\nZwarts laatste hoop.\n\nDaar gaat de witte toren, maar ook\nde zwarte:\n\nWit wit nu makkelijk met beide lo-\npers.",
       "beforeVariant": {
-        "main.a": "voorbeeld 8.Tg2 Txa6 met remise.\n\nHet hardnekkigste.\nNa 6...Kd2 7.Td3+ en:",
-        "main.b": "beeld  na  8...Kf2  9.Tb6  g4",
+        "main.a": "1...Kf2?  2.Tg2+  Ke3  (2…Kxg2\n\nen de  witte Koning komt  hulp\nbieden.) 3.Te2+ Kf3 4.Lb7+ Kxe2\n\n5.Lxa8 en  wint. Of  hier 3...Kd4\n4.Le5+ K~ en de a-loper komt vrij.\n       2.Tg2+      Kh1      W\n\n5.Lb7+ en 6.Lxa8 met winst.\n\n6.Te1+? Kd2 7.Te2 Kd1 en  bij-\n\nvoorbeeld 8.Tg2 Txa6 met remise.\n\nHet hardnekkigste.\nNa 6...Kd2 7.Td3+ en:",
+        "main.b": "beeld  na  8...Kf2  9.Tb6  g4\n\n12.Lxg3 en wint.",
         "main.c": "Kb1 10.Td1+ en mat."
       }
     }
