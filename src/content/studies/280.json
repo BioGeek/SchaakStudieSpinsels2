@@ -1,0 +1,146 @@
+{
+  "number": 280,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2004",
+  "gbr": "0315.22 d6e8",
+  "fen": "4k1NN/8/3KpPr1/5B2/8/6n1/p2P4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f7+",
+      "nl": "f7+",
+      "fenAfter": "4k1NN/5P2/3Kp1r1/5B2/8/6n1/p2P4/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Nxg6",
+      "nl": "Pxg6?",
+      "fenAfter": "4k1N1/8/3KpPN1/5B2/8/6n1/p2P4/8 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Nxf5+",
+      "nl": "Pxf5+",
+      "fenAfter": "4k1N1/8/3KpPN1/5n2/8/8/p2P4/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kxe6",
+      "nl": "Kxe6",
+      "fenAfter": "4k1N1/8/4KPN1/5n2/8/8/p2P4/8 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "4k1N1/8/4KPN1/8/3n4/8/p2P4/8 w - - 1 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bxg6+",
+      "nl": "Lxg6+?",
+      "fenAfter": "4k1NN/8/3KpPB1/8/8/6n1/p2P4/8 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "5kNN/8/3KpPB1/8/8/6n1/p2P4/8 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bh7",
+      "nl": "Lh7",
+      "fenAfter": "5kNN/7B/3KpP2/8/8/6n1/p2P4/8 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "5kNN/7B/3KpP2/8/8/6n1/3P4/q7 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.c.1",
+      "ply": 1,
+      "san": "Bxe6",
+      "nl": "Lxe6?",
+      "fenAfter": "4k1NN/8/3KBPr1/8/8/6n1/p2P4/8 b - - 0 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.2",
+      "ply": 2,
+      "san": "Ne4+",
+      "nl": "Pe4+",
+      "fenAfter": "4k1NN/8/3KBPr1/8/4n3/8/p2P4/8 w - - 1 2",
+      "variant": "main.c",
+      "parent": "main.c.1"
+    },
+    {
+      "id": "main.c.3",
+      "ply": 3,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "4k1NN/8/2K1BPr1/8/4n3/8/p2P4/8 b - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.2"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "Nxf6",
+      "nl": "Pxf6",
+      "fenAfter": "4k1NN/8/2K1Bnr1/8/8/8/p2P4/8 w - - 0 3",
+      "variant": "main.c",
+      "parent": "main.c.3"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Kf8",
+      "nl": "K~",
+      "fenAfter": "5kNN/5P2/3Kp1r1/5B2/8/6n1/p2P4/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Het beste, want na bijvoorbeeld\n\nvoort, faalt. Ook andere paardzet-\nten van zwart doen het niet..\n    Na deze inleiding wint wit nu met:\n\nNu  reeds  7.Ke3?   faalt  merk-\n     waardig op 7…Pb1!     ( ja zeker\n\nEr ontstaat nu een hevige  strijd\n     tussen beide paarden:\n\nEn nu zwart zicht driemaal heeft\n     verdedigt met de zetten Pf1 en\n    Pd2, is het spel uit na:\n\nEn het zwarte paard is gevangen,\n    want na\n\nwordt het nu veroverd met\n\nEn wit wint.",
+      "beforeVariant": {
+        "main.b": "Ook niet met:"
+      }
+    }
+  }
+}
