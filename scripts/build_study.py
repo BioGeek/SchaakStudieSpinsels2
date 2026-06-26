@@ -25,7 +25,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+from resolve_types import resolve_types
 from study_extractor import list_studies
+from verify_studies import gbr_material as decode_gbr_material
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF = ROOT / "data" / "schaakstudiespinsels2.pdf"
@@ -101,6 +103,23 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
         if classification.get("warnings"):
             for w in classification["warnings"]:
                 print(f"[{study_number}] {w}", file=sys.stderr)
+
+        # Officer-type transpositions (rook/bishop, queen/bishop, knight/rook)
+        # keep the GBR material counts intact, so the material correction is
+        # blind to them. The solution is not: only the true placement makes the
+        # book's moves legal. Try GBR-consistent type assignments and adopt one
+        # only if it parses strictly deeper than the classifier's own guess.
+        res = resolve_types(
+            fen,
+            (out / "text.txt").read_text(),
+            region,
+            decode_gbr_material(gbr),
+        )
+        if res["changed"]:
+            print(f"[{study_number}] {res['reason']}", file=sys.stderr)
+            print(f"[{study_number}]   {fen}  ->  {res['fen']}", file=sys.stderr)
+            fen = res["fen"]
+            source = "classifier+solution"
 
     # 3. Parse moves.
     json_path = STUDY_CONTENT_DIR / f"{study_number:03d}.json"
