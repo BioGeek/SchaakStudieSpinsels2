@@ -1,0 +1,135 @@
+{
+  "number": 275,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Schakend Nederland, 1994",
+  "gbr": "0131.22 a8d4",
+  "fen": "K1b5/8/p7/7N/3k4/R7/P1p1P3/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rd3+",
+      "nl": "Td3+",
+      "fenAfter": "K1b5/8/p7/7N/3k4/3R4/P1p1P3/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "K1b5/8/p7/7N/2k5/3R4/P1p1P3/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rd6",
+      "nl": "Td6",
+      "fenAfter": "K1b5/8/p2R4/7N/2k5/8/P1p1P3/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "K1b5/8/p2R4/1k5N/8/8/P1p1P3/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "a4+",
+      "nl": "a4+",
+      "fenAfter": "K1b5/8/p2R4/1k5N/P7/8/2p1P3/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "K1b5/8/p2R4/2k4N/P7/8/2p1P3/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rd8",
+      "nl": "Td8",
+      "fenAfter": "K1bR4/8/p7/2k4N/P7/8/2p1P3/8 b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bf5",
+      "nl": "Lf5",
+      "fenAfter": "K2R4/8/p7/2k2b1N/P7/8/2p1P3/8 w - - 3 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "K2R4/8/p7/2k2b2/P4N2/8/2p1P3/8 b - - 4 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "K2R4/8/p7/5b2/Pk3N2/8/2p1P3/8 w - - 5 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rc8",
+      "nl": "Tc8",
+      "fenAfter": "K1R5/8/p7/5b2/Pk3N2/8/2p1P3/8 b - - 6 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Be4+",
+      "nl": "Le4+",
+      "fenAfter": "K1R5/8/p7/8/Pk2bN2/8/2p1P3/8 w - - 7 7",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "2R5/K7/p7/8/Pk2bN2/8/2p1P3/8 b - - 8 7",
+      "variant": "main",
+      "parent": "main.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Hoe kan wit de dreigende promo-\ntie van de zwarte c-pion verhin-\nderen?",
+      "after": "6...         Kb3            7.Pd3\n\n8.Td7 Lxd7 9.Pd3 Lxa4 10.Kb7\n\n7…          Lxd3            8.Txd3+     Kb4     8…Kc4? 9.Td8, enzovoort.            9.Td4+      Kb3          10.Td3+       Kb4          11.Td4+       Kb3          12.Td3+\n\nen zwart haalt na enkele zetten\ndame en wint..\n\nDreigt 3.Tc6+ en 4.Txc2.\nNiet goed is aanstonds 2.Td8? Lh3\n\nmet winst voor zwart.\n\nDreigt hier 5.Txc8+\n\nEn niet : 6.Tb8+? Kxa4 7.Pd3 Lxd3\n\npion zorgt voor winst.\n\nHier  faalt  7.Td3+?  op 7…Kc4\n\nLb5  11.Pc1  Kc3  12.Kb6  Kb2\n\nzegeviert.\n\nMet herhaling van zetten.\n\n    Dat wit hier eindigt met dezelfde\n     zet als waar hij mee begon, name-\n        lijk Tc3+, is een merkwaardig toe-\n      val.",
+      "beforeVariant": {}
+    }
+  }
+}

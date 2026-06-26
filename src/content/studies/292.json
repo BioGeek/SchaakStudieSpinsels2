@@ -1,0 +1,87 @@
+{
+  "number": 292,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel, 2008",
+  "gbr": "0434.31 f2h4",
+  "fen": "7N/1b6/2n5/rP1R3p/P6k/7P/5K2/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "8/1b6/2n3N1/rP1R3p/P6k/7P/5K2/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kxh3",
+      "nl": "Kxh3",
+      "fenAfter": "8/1b6/2n3N1/rP1R3p/P7/7k/5K2/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rxh5+",
+      "nl": "Txh5+",
+      "fenAfter": "8/1b6/2n3N1/rP5R/P7/7k/5K2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/1b6/2n3N1/rP5R/P5k1/8/5K2/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "bxc6",
+      "nl": "bxc6",
+      "fenAfter": "8/1b6/2P3N1/r6R/P5k1/8/5K2/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rxh5",
+      "nl": "Txh5",
+      "fenAfter": "8/1b6/2P3N1/7r/P5k1/8/5K2/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/1b6/2P3N1/7r/P5k1/4K3/8/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Om de overmacht van zwart te bre-\nken dient wit minstens een stuk te\nslaan, maar 1.bxc6  is  te vroeg.\nDaarom:",
+      "after": "4.Pe5+\n\n4.Txe5? 5.cxb7 Te8 6.a5 Tb8 7.a6\n\n4…          Kf5\n\nTxb7 12.Pd8+ Kd7 13.Pxb7\n\nOpnieuw    is   10...Txb7?   fout\nwegens 11.Pd8+ en 12.Pxb7.\nEn eindelijk na\n\nis de overblijvende pion gedekt.\n\nEn wit wint.",
+      "beforeVariant": {
+        "main.a": "En nu:\n\nDreigt 4.cxb7\n\nTa5+ Kxg6 7.Ta6 en 8.Txc6.\nThans zijn we op een belangrijk\npunt gekomen, want 4.cxb7? kan\nniet  winnen  wegens  4…Th2+\n\nwordt veroverd met remise.\nMaar wit heeft een buitengewoon\nofferaanbod:\n\nZwart  mag  dit niet aanvaarden:\n\nenzovoort. Het enige goede ant-\nwoord is nu:\n\nMen zie:",
+        "main.b": "Th8 7.a5 Tf8 8.a6 Txf3+ 9.Ke2\n   Tb3 10.a7 Txb7 11.a8D.",
+        "main.c": "Tb2 7.Pd3+ en 8.Pxb2.",
+        "main.a2": "Want na 5…Th8? volgt 6.Pc6 Ke6\n\nwinst.\n\nDit  is nog een  belangrijke  zet.\nWant 6.Kg3? verliest na 6…Tb2\n\nKe3  10.Ke3  Kd7  11.Kd4  Kc7\n\nFout is: 7.Pf7? Ke6 8.a5 Kd7 9.a6\nKc7  10.Pd8 Kb8  11.Pc6+ Kc7\n\nder.\n\nMaar  niet 7…Txb7? 8.Pd6+ en\n\nWit blokkeert wel de eigen pion,\nmaar beschermd de andere.",
+        "main.b2": "Txb8 12.Pxb8 Kc7 13.Pa6+\n   Kb6 14.Pc5."
+      }
+    }
+  }
+}
