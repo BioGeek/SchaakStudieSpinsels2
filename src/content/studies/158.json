@@ -323,20 +323,29 @@
       "parent": "main.a4.16"
     },
     {
+      "id": "main.b4.14",
+      "ply": 14,
+      "san": "Kg5",
+      "nl": "Kg5?",
+      "fenAfter": "8/4R1K1/8/6k1/6b1/6B1/3p4/8 w - - 3 8",
+      "variant": "main.b4",
+      "parent": "main.13"
+    },
+    {
       "id": "main.b4.15",
       "ply": 15,
       "san": "Re5+",
       "nl": "Te5+",
-      "fenAfter": "8/6K1/8/4R3/6b1/6Bk/3p4/8 b - - 4 8",
+      "fenAfter": "8/6K1/8/4R1k1/6b1/6B1/3p4/8 b - - 4 8",
       "variant": "main.b4",
-      "parent": "main.14"
+      "parent": "main.b4.14"
     },
     {
       "id": "main.b4.16",
       "ply": 16,
       "san": "Bf5",
       "nl": "Lf5",
-      "fenAfter": "8/6K1/8/4Rb2/8/6Bk/3p4/8 w - - 5 9",
+      "fenAfter": "8/6K1/8/4Rbk1/8/6B1/3p4/8 w - - 5 9",
       "variant": "main.b4",
       "parent": "main.b4.15"
     },
@@ -345,7 +354,7 @@
       "ply": 17,
       "san": "Rd5",
       "nl": "Td5",
-      "fenAfter": "8/6K1/8/3R1b2/8/6Bk/3p4/8 b - - 6 9",
+      "fenAfter": "8/6K1/8/3R1bk1/8/6B1/3p4/8 b - - 6 9",
       "variant": "main.b4",
       "parent": "main.b4.16"
     },
