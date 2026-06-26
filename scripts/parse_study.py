@@ -243,7 +243,38 @@ def tokenize_body(body: str) -> list[dict]:
 
     flush_prose()
     flush_moves()
-    return tokens
+
+    # A refutation line that merely opens with a move number (e.g.
+    # "3.f8D c1D met remise.") can get glued into a moves block when no blank
+    # line separates it from the real move table that follows. Left in place its
+    # illegal-from-the-diagram ply aborts the genuine main line. Split each moves
+    # block on the clean/prose boundary, routing the non-move-table lines to
+    # prose so they never seed the move tree.
+    cleaned: list[dict] = []
+    for tok in tokens:
+        if tok["kind"] != "moves":
+            cleaned.append(tok)
+            continue
+        run: list[str] = []
+        run_clean: bool | None = None
+        for ln in tok["lines"]:
+            ln_clean = _is_clean_move_row(ln)
+            if run and ln_clean != run_clean:
+                cleaned.append(
+                    {"kind": "moves", "lines": run}
+                    if run_clean
+                    else {"kind": "prose", "text": "\n".join(run).strip()}
+                )
+                run = []
+            run.append(ln)
+            run_clean = ln_clean
+        if run:
+            cleaned.append(
+                {"kind": "moves", "lines": run}
+                if run_clean
+                else {"kind": "prose", "text": "\n".join(run).strip()}
+            )
+    return cleaned
 
 
 def extract_moves_from_lines(lines: list[str]) -> list[tuple[int, bool, str]]:
@@ -419,15 +450,24 @@ def _is_clean_move_row(line: str) -> bool:
     a refutation like ``"1…Pe7+ en 2…Pxg8. Of:"`` — leaves real words behind,
     so it must not be trusted to decide side-to-move or castling rights.
     """
-    s = re.sub(r"\([^)]*\)", " ", line)                    # parenthetical asides
+    # Parenthetical asides. Drop them without leaving a gap so an inline
+    # alternative-square note ("Ke(d)3" = "Ke3 or Kd3") rejoins to a parsable
+    # move ("Ke3") instead of splitting into "Ke 3".
+    s = re.sub(r"\([^)]*\)", "", line)
     s = re.sub(r"\b[a-z]\)", " ", s)                        # sub-variant labels a) b)
-    s = re.sub(r"\d+\s*(?:\.+|…)+|\.\.\.|…", " ", s)        # move numbers + markers
+    # Move numbers + markers. The negative lookbehind keeps the digit of a move
+    # token (the "2" in "Kc2 .") from being swallowed as a move number when a
+    # bare "." trails it — otherwise "Kc2 ." reduces to "Kc" and the row reads
+    # as prose.
+    s = re.sub(r"(?<![A-Za-z])\d+\s*(?:\.+|…)+|\.\.\.|…", " ", s)
     s = re.sub(r"[0O]-[0O](?:-[0O])?[+#!?~]*", " ", s)      # castling
     s = re.sub(r"[KDTLP]~[+#!?~]*", " ", s)                 # wildcard ("K~")
     s = re.sub(
         r"[KDTLP]?[a-h]?[1-8]?[x:]?[a-h][1-8](?:=?[DTLP])?[+#!?~]*", " ", s
     )  # ordinary moves
-    return not s.strip(" .,:;")
+    # A genuine row now holds only separators and stray check/annotation marks
+    # (e.g. the second "+" of a "Pef2+ +" double-check); real prose leaves words.
+    return not s.strip(" .,:;+#!?~")
 
 
 def parse_study(

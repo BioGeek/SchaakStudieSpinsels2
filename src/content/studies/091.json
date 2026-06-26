@@ -1,0 +1,248 @@
+{
+  "number": 91,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 2000",
+  "gbr": "0001.12 g2d5",
+  "fen": "8/5p2/4P3/3k4/6N1/2p5/6K1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "8/4Pp2/8/3k4/6N1/2p5/6K1/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "c2",
+      "nl": "c2",
+      "fenAfter": "8/4Pp2/8/3k4/6N1/8/2p3K1/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "e8=Q",
+      "nl": "e8D",
+      "fenAfter": "4Q3/5p2/8/3k4/6N1/8/2p3K1/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "4Q3/5p2/8/3k4/6N1/8/6K1/2q5 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd7+",
+      "nl": "Dd7+",
+      "fenAfter": "8/3Q1p2/8/3k4/6N1/8/6K1/2q5 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/3Q1p2/8/8/4k1N1/8/6K1/2q5 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf2+",
+      "nl": "Pf2+",
+      "fenAfter": "8/3Q1p2/8/8/4k3/8/5NK1/2q5 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/3Q1p2/8/8/8/4k3/5NK1/2q5 w - - 4 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qd3+",
+      "nl": "Dd3+",
+      "fenAfter": "8/5p2/8/8/8/3Qk3/5NK1/2q5 b - - 5 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/5p2/8/8/5k2/3Q4/5NK1/2q5 w - - 6 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "8/5p2/8/8/5k2/5Q2/5NK1/2q5 b - - 7 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/5p2/8/6k1/8/5Q2/5NK1/2q5 w - - 8 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ne4+",
+      "nl": "Pe4+",
+      "fenAfter": "8/5p2/8/6k1/4N3/5Q2/6K1/2q5 b - - 9 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/5p2/6k1/8/4N3/5Q2/6K1/2q5 w - - 10 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qf6+",
+      "nl": "Df6+",
+      "fenAfter": "8/5p2/5Qk1/8/4N3/8/6K1/2q5 b - - 11 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "8/5p1k/5Q2/8/4N3/8/6K1/2q5 w - - 12 9",
+      "variant": "A",
+      "parent": "main.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "8/5p1k/5Q2/6N1/8/8/6K1/2q5 b - - 13 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Qxg5",
+      "nl": "Dxg5",
+      "fenAfter": "8/5p1k/5Q2/6q1/8/8/6K1/8 w - - 0 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Qxg5",
+      "nl": "Dxg5",
+      "fenAfter": "8/5p1k/8/6Q1/8/8/6K1/8 b - - 0 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/5p2/5Q2/7k/4N3/8/6K1/2q5 w - - 12 9",
+      "variant": "B",
+      "parent": "main.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Ng3+",
+      "nl": "Pg3+",
+      "fenAfter": "8/5p2/5Q2/7k/8/6N1/6K1/2q5 b - - 13 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/5p2/5Q2/8/6k1/6N1/6K1/2q5 w - - 14 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Qf5+",
+      "nl": "Df5+",
+      "fenAfter": "8/5p2/8/5Q2/6k1/6N1/6K1/2q5 b - - 15 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/5p2/8/5Q2/7k/6N1/6K1/2q5 w - - 16 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "8/5p2/8/7Q/7k/6N1/6K1/2q5 b - - 17 11",
+      "variant": "B",
+      "parent": "B.20"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na 1.exf7? c2 2.Pe3+ volgt 2…Ke6\n\n3.f8D c1D met remise.",
+      "after": "5.Kc5 5…Db3? 6.Kd6 Dd5+ 7.Ke7\n\nEn zwart wint.\n\nBovenstaand diagram ontstond nu\ndoor Juliens diagram op zijn kop te\nzetten, de pionnenstand  te  wij-\nzigen en een extra pion bij te voe-\ngen en tenslotte de kleuren te ver-\nwisselen.\n\n“Il faut le faire!”",
+      "beforeVariant": {
+        "A": "Na  4…Ke5?(Kf4?)   volgt  een\npaardvork met verlies van de da-\nme.",
+        "B": "Met winst. Of",
+        "B.a": "En mat.\n\nIn EBUR 2000 publiceerde Julien\nVandiest deze maljutka:\n\nKe4 f6 / Kb7 Pb5 d2 =\n\nMet als oplossing 1.f7 d1D 2.f8D\nDe2+ 3.Kd5 Pc7+ 4.Kd6 De6+\n\nDe6+  8.Kd8  Kc6  9.Df3+  Pd5\n\n10.Dc3+ Pxc3, remise.\n\nDoch ik vond een andere weg die\nnaar  winst  leidde  voor  zwart:\n\n5…Dc6+! 6.Kb4 Pd5+ en bijvoor-\n\nbeeld 7.Ka3 Dc3+ met",
+        "B.b": "10.Ka5 Da4+ en mat. Of hier"
+      }
+    }
+  }
+}
