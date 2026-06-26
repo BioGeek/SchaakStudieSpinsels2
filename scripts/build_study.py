@@ -58,6 +58,9 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
     region = json.loads((out / "region.json").read_text())
 
     # 2. Decide FEN: CLI override > sidecar file > classifier.
+    # Overrides are trusted ground truth, so their FEN is assumed sound.
+    classifier_kings_ok = True
+    classifier_material_ok = True
     override_file = out / "fen_override.txt"
     if fen_override:
         fen = fen_override
@@ -81,6 +84,8 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
         classification = json.loads(cres.stdout)
         fen = classification["fen"]
         source = "classifier"
+        classifier_kings_ok = classification.get("kings_ok", True)
+        classifier_material_ok = classification.get("material_ok", True)
         if classification.get("warnings"):
             for w in classification["warnings"]:
                 print(f"[{study_number}] {w}", file=sys.stderr)
@@ -103,6 +108,8 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
         "source": source,
         "moves": len(parsed["moves"]),
         "fen": fen,
+        "kings_ok": classifier_kings_ok,
+        "material_ok": classifier_material_ok,
     }
 
 

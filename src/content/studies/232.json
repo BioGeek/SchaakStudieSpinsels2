@@ -1,0 +1,75 @@
+{
+  "number": 232,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "64 studies op 64 velden, 1994",
+  "gbr": "0311.03 f3h2",
+  "fen": "8/7p/8/2Bp3r/8/5K2/4N1pk/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Kf2",
+      "nl": "Kf2?",
+      "fenAfter": "8/7p/8/2Bp3r/8/8/4NKpk/8 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bg1+",
+      "nl": "Lg1+?",
+      "fenAfter": "8/7p/8/3p3r/8/5K2/4N1pk/6B1 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/7p/8/3p3r/8/5K2/4N1p1/6Bk w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Be7+",
+      "nl": "Le7+",
+      "fenAfter": "8/4B2p/8/3p3r/8/5K2/4N1pk/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rg5",
+      "nl": "Tg5",
+      "fenAfter": "8/4B2p/8/3p2r1/8/5K2/4N1pk/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/4B2p/8/3p2r1/5N2/5K2/6pk/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.6"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Om de zwarte pionpromotie tegen\nte houden is:",
+      "after": "1.Ld6+      Kh3\n\n1.Kg4+? met 1…Kh1 2.Pg3+ Kg1       3.Pxh5 d4 en bijvoorbeeld: 4.Kf3\n\nh6  9.Le7  h5  10.Pe2  Kh3\n\nEn nu de toren niet weg kan, komt\nde witte koning de klus klaren met\nde énige goede zet:\n\nEen verraderlijk antwoord.\n\nwant 8.Kxd4? geeft slechts remi-\nse: 8...Kg5 9.Pe6+ Kf6 10.Pxg7\nKf7 en een wit stuk gaat verloren.\n\nOok 9.Ke5? is fout 9...Kg5 10.Lxg7\nd2 11.Ph3+ Kg6 12.Pf2 Kxg7.\n\nen mat.\nDeze studie is een uitbreiding van\neen miniatuurtje van Pogosyants,\ndie er de 2de eervolle vermelding\nmee behaalde in het Soviet Trans-\nUral C.S.l. (1984):\n\nKf3 Lb4 Pe6 / Kh5 Tg5 d5 h7 +\n\nMet de kortere oplossing: 1.Pf4+\nKh6 2.Lf8+ Tg7 3.Ke3 d4+ 4.Ke4\nd3 5.Kf5 d2 6.Kf6 d1D 7.Lxg7+ en\nmat,\n\nHet commentaar van de jury  bij\ndeze miniatuur luidde: “A surpri-\nsing itinerary by W.K.”En: “It is hard\nto believe in a win for W. here.”\n\nWat dan gezegd van mijn, met vier\n(4!) zetten verlengde, versie, plus\nnog een extra, tot promotie drei-\ngende, zwarte pion op g2?\n\n“Ja dat moet men zien om het te\ngeloven.” beaamde Vandiest.\n\nRecent (Januari-Maart 2014) ver-\nschreen dan plots (voor mij onbe-\ngrijpelijk), na twintig (20!) jaar, in\nProbleemblad, de  onderstaande\nveredelde versie, die ik in 1994\nopstuurde naar dat blad.\n      Kf4 Ld6 Pe2/Kh2 Th5 d5 g2 h7 +\n\n       Hier geeft mijn computer het foute\n-      aftrekschaak aan om rechtstreeks\n      de toren te veroveren. Namelijk:\n\nd3 5.Ke3 Kh1 6.Pg3+ Kh2 7.Pe4+\n     Kh1 8.Pf2+ Kg1 9.Pxd3 Kf1 10.Lh2\n     g1D 11.Lxg1 Kxg1. Remise dus.\n\n      Maar wit wint hier met het juiste\n       aftrekschaak. Door de zeer onver-\n      wachte probleemzet:  1.Kf3+! en\n-      verder 1…Kh3 2.Pf4+ Kh4, enzo-\n        voort, zoals in de oplossing hier-\n       naast, wordt de toren slechts op\n       het einde geslagen.\nr\n      Door het niet publiceren van deze\n       betere versie, met de verfijning van\n      de eerste zet, ben ik ze dan ook\n       vergeten. Maar hier is ze nu.\n\n       Beter laat dan nooit.\n\n      Marcel van Herck schreef: “Kan\n      Wit nog winnen, gezien de drei-\n      gende promotie? Toch wel, na een\n      verbazingwekkende reisroute van\n      de witte koning.”",
+      "beforeVariant": {
+        "main.b": "de, daar de toren dan in wer-\n    king treedt. En na:",
+        "main.a": "w    verder na bijvoorbeeld: 2.Pg3+\n   en Kxg1.\nDaarom:\n\nDe sterkste zet, want hier slaat wit\nna: 1...Kh1? 2.Pg3+ Kg1 de toren:\n\nZwart   dekt   zijn   toren,  want\n\nniet.\n\nDe koning wordt steeds hoger\ngedwongen met\n\nwant na 5...Kh4? heeft wit de mo-\ngelijkheid om eerst de d-pion te\nslaan: 6.Pxd5. en te winnen na"
+      }
+    }
+  }
+}

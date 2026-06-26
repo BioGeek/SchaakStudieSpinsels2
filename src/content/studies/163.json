@@ -1,0 +1,45 @@
+{
+  "number": 163,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1983",
+  "gbr": "0014.02 c2f4",
+  "fen": "8/7N/8/B2pnp2/5k2/8/2K5/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "8/2B4N/8/3pnp2/5k2/8/2K5/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/2B4N/8/3pnp2/4k3/8/2K5/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bxe5",
+      "nl": "Lxe5",
+      "fenAfter": "8/7N/8/3pBp2/4k3/8/2K5/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Hier winnen Loper en paard tegen\npaard omdat de  zwarte hengst\ngehinderd wordt door  zijn  pion-\nnen:",
+      "after": "Na 1...d4? verliest zwart snel zijn\npaard:  2.Pf6  d3+  3.Kd2  Kg5\n\nEn niet 2...Kf4? wegens 3.Pf7 en\n\nHier niet 4...Kf4? wegens 5.Pd3+\nen 6.Pxe5\n\nEn daar zwart zijn hengst niet wil\nloslaten is daar plots:\n\nEn mat.\n\nWant na 6...Kf4? wint wit b.v. door\n\nvoort.\n\nIn het boek Flemish  Miniatures\nschreef  Julien Vandiest: “One of\nthose carousels which have made\nVandecasteele famous.”\n\nEn Roger Missiaen: “A dainty and\ngraceful  pirouette by the Knight\nculminating in a sparkling check-\nmate in the center of the board.”",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "number": 264,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Tijdschrift KNSB, 1959",
+  "gbr": "0301.32 c1a5",
+  "fen": "8/p7/rP6/kP6/8/2p5/1P1N4/2K5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "b7",
+      "nl": "b7?",
+      "fenAfter": "8/pP6/r7/kP6/8/2p5/1P1N4/2K5 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "cxd2+",
+      "nl": "cxd2+",
+      "fenAfter": "8/pP6/r7/kP6/8/8/1P1p4/2K5 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "bxa6",
+      "nl": "bxa6?",
+      "fenAfter": "8/p7/PP6/k7/8/2p5/1P1N4/2K5 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "cxd2+",
+      "nl": "cxd2+",
+      "fenAfter": "8/p7/PP6/k7/8/8/1P1p4/2K5 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Kxd2",
+      "nl": "Kxd2",
+      "fenAfter": "8/p7/PP6/k7/8/8/1P1K4/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "xb4",
+      "nl": "xb4",
+      "fenAfter": "8/p7/rP6/kP6/1P6/2p5/3N4/2K5 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De  witte pionnen en het paard\nstaan alle aangevallen, en:",
+      "after": "1.Pc4+      Kxb5        2.b7         cxb2+        3.Kb1\n\nEn wit wint.\n\n    Na de listige zet 10...Tc4+? ant-\n     woordt wit niet met 11.Pxc4?, en is\n     er een vierde pat. Maar hij speelt\n     bijvoorbeeld 11.Kd5, enzovoort.\n    Met winst.\n\n    Even opmerken dat wit hier ook\n    zou winnen met de zet 6.Kb3, als\n     zwart dan zou antwoorden met\n\nwel na 108 zetten! (Nalimov.)",
+      "beforeVariant": {
+        "main.a": "Kxb6. Daarom\n\nNa 3.Kxb2? Kxc4  4.b8D,  volgt\n\nde winst.\n\nNu  niet  3...Kxc4?  4.b8D  Tb6\n\nde zetten van wit: 6.De7 Kd5 7.Dc7\nenzovoort volgens de Endgame\nDatabase van Ken Thompson.\n\nZwart hoopt nu op een pat: 5.b8D?\n    Tb1+ 6.Kxb1.",
+        "main.b": "staat een tweede pat. En na:",
+        "main.c": "mise, want 7.b8D Tb4+ en"
+      }
+    }
+  }
+}

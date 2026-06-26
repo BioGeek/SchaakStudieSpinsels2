@@ -1,0 +1,45 @@
+{
+  "number": 15,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2003",
+  "gbr": "0003.10 b8e2",
+  "fen": "1K2n3/8/8/1P6/8/8/4k3/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b6",
+      "nl": "b6",
+      "fenAfter": "1K2n3/8/1P6/8/8/8/4k3/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "1K2n3/8/1P6/8/8/3k4/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "4n3/1K6/1P6/8/8/3k4/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Blokkeert nog steeds de opmars\nvan de pion. 2.Kc8? Kc4 3.Kd7\n(Het beste) 3…Pf6+ 4.Kc6 Pd5\n\nMaar niet 3.Kc6? Pc4 4.b7 Pa5+\nen 6.Pxb7.\n\nEn niet 4.b7? Pc5 5.b8D Pa6+ en\n\nEn wint. Klein, fijn en rein.\n    Harrie  Grondijs  pibliceerde   in\n    Springerzauber  (1998), met  vier\n    stukjes op het bord, dit supermi-\n     niatuurtje:\n\n   Kb8 b5 / Kg1 Pe8 +\n\n     Hij  gaf  als  oplossing: 1.b6 Kf2\n\nook 4.Kc6, 4.Kc8, 4.Kd8, 4.Kb7\n   en 4.Kb8 zijn allen correct.) En dus\n    nevenoplosbaar.\n\n    “Grondijs geeft de stelling als de\n    énige  uitzondering op de  door\n    H.Rey gedefinieerde, en dus  fou-\n     tieve regel dat als de witte pion en\n    de koning op dezelfde lijn staan, de\n    pion minimaal op de  6derij moet\n    staan  wil  wit  kunnen  winnen.\n    Daarbij moet de zwarte koning ver\n   weg staan.” Aldus Harold van der\n    Heijden.\n\n   En  hij concludeerde met: “Het  is\n    dus  niet  zozeer  als  studie  be-\n    doeld, maar wordt dat wel door\n    Vandecasteele’s verbetering.”",
+      "beforeVariant": {}
+    }
+  }
+}

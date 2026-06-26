@@ -1,0 +1,57 @@
+{
+  "number": 300,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel, 2010",
+  "gbr": "4062.12 h1e6",
+  "fen": "8/3q1p2/4kN2/3bb3/N1pPQ3/8/8/7K w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nxd7",
+      "nl": "Pxd7?",
+      "fenAfter": "8/3N1p2/4k3/3bb3/N1pPQ3/8/8/7K b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bxe4+",
+      "nl": "Lxe4+",
+      "fenAfter": "8/3N1p2/4k3/4b3/N1pPb3/8/8/7K w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Kd6",
+      "nl": "Kd6?",
+      "fenAfter": "8/3N1p2/3k4/3bb3/N1pPQ3/8/8/7K w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Ke7",
+      "nl": "Ke7?",
+      "fenAfter": "8/3Nkp2/8/3bb3/N1pPQ3/8/8/7K w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Beide dames staan ‘en prise’. Na",
+      "after": "1.Pc5+       Kxf6\n\nDe zwarte weduwnaar dekt nu zijn\nloper, die nu op zijn beurt dreigt de\nwitte dame te veroveren. Maar nu\nkomt het paard in aktie:\n\nZwart dekt steeds de loper op d5\n\nEn niet 4…Lxb7?, want na 5.Dxb7\n     wint wit vrij makkelijk.\n\nDeze pion moet nog eerst geplukt\n    worden, zoals op het einde  zal\n      blijken.\n\nEn nu:\n\nMaar  niet 8.Pb7+? Ke6 9.Pc5+\n    Kd6 10.Kg1 Lxe4 11.Pxe4+ Kd5,\n    met remise.\n\nEen  laatste  verleiding: 9.Pe6+?\n    Kc6 10.Pd4+ Kc5 11.Dxd5+ Kxd5\n\nhier 12.Pf3 c3, ook remise.\n\nEn eindelijk wint wit, dankzij de 6de\n      zet, daar nu de weg vrij is naar pi-\n     onpromotie. Wie zou  dit  laatste\n    vermoeden bij het zien van de be-\n     ginstelling?",
+      "beforeVariant": {
+        "main.a": "zwart zelfs wint. En na 1.Pxd5?\nDxd5 2.Dxd5+ Kxd5  is er geen\nwinst meer. Dus:",
+        "main.b": "dekken faalt op bijvoorbeeld:\n\nvoort."
+      }
+    }
+  }
+}

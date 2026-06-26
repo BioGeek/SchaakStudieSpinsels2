@@ -1,0 +1,29 @@
+{
+  "number": 74,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Schakend Nederland, 1970",
+  "gbr": "0070.10 b8g1",
+  "fen": "1K6/B2b4/1P6/8/8/8/8/4b1k1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b7+",
+      "nl": "b7+",
+      "fenAfter": "1K6/BP1b4/8/8/8/8/8/4b1k1 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Een systematisch manoeuvre:",
+      "after": "1...         Kh2        2.Kc7       Lh3 2...Lg3+?  3.Kxd7 Kg2 4.Lb6 Lb8 5.Kc8 5...Le5 6.Lc7 Lxc7 7.Kxc7,\n\n1…         Kg2        2.Kc7       Lg4        3.Lc5        La5+        4.Kd6       Ld2        5.Ld4        Lb4+        6.Ke5        Le1        7.Le3        Kf3\n\n1.Bb6+ Kh2 2.Kc7 Be1 3.Bc5 Ba5+ 4.Kd6 Be1 5.Bd4 Bb4+ 6.Ke5 Be1 7.Be3 Bc3+  8.Kf4 Be1  9.Kg5,\n\nNa 7...Lg3+? wint wit met 8.Lf4\nLxf4 9.Kxf4\n\nMijn  Argentijnse  vriend, compo-\nnist  Zoilo Caputto vond het “Un\ntema conocido, bien realizado.’’\n\nIn EG N°203 staat een gelijkaar-\ndige studie van Helmut Waelzel\nin Schach uit 1999(!):\n\nKb8 La5 b7 / Kg1 Lb4 Lh3 +\n\nMet de bijna identieke oplssing:\n\nenzovoort.\n\nIs dit nu toeval of anticipatie?",
+      "beforeVariant": {
+        "B": "met pionpromotie.\n\nFout is 3.b8D? Lg3+ en 4...Lxb8.\n\nNa 5.Ke7? wint wit niet wegens"
+      }
+    }
+  }
+}

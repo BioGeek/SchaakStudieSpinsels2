@@ -1,0 +1,40 @@
+{
+  "number": 229,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1990",
+  "gbr": "0301.22 g2h6",
+  "fen": "8/2P4p/7k/5p2/1P6/6N1/1r4K1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/2P4p/7k/5p2/1P6/5KN1/1r6/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Rb3",
+      "nl": "Tb3",
+      "fenAfter": "8/2P4p/7k/5p2/1P6/1r3KN1/8/8 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Tb3+        2.Ke2        Tc3 2…Tb2+? 3.Kd1 Tb1+ 4.Kc2        3.Pxf5+      Kg5\n\n1…         Tc2        2.Pxf5+      Kg5        3.Pd4\n\nEn nu is dit de goede voortzetting!\n\nEn niet 3.Pg7? Kf6 4.b5 Ke7 5.b6\nKd7 6.Pe8 Kc8 7.Pd6+ Kd7 8.Pb5.\nVermits de toren hier niet wordt\naangevallen  is  het  remise met\n\nWit wint in beide varianten.\n\nDe verleiding in de eerste variant is\nde goede zet in de tweede, en vice\nversa.\n    Maar de studie werd uit het toer-\n     nooi geweerd door prijsrechter Jan\n    van Reek, die toen van mening\n    was dat er in Variant A “een on-\n      duidelijk eindspel van dame tegen\n     toren en pion” ontstond. Ten on-\n     rechte, zoals de database van Ken\n    Thomson het nu weerlegt. De stu-\n     die is toch correct.\n\n     Ietwat teleurgesteld componeerde\n      ik dan een nieuwe versie, die ver-\n    scheen   in het Tijdschrift van de\n   KNSB (1991) (Zie volgende blad-\n      zijde.)",
+      "beforeVariant": {
+        "A.a": "Niet goed is:\n\n(dreigt  6.Pc5.) 5…Tc6  6.b5\n   Txe6+ 7.Kd3 Te8 8.b6 Tc8\n\nDit is de goede voortzetting!\n\nWant 4.Pd4?, met dezelfde vork-\ndreiging op e6,  faalt na 4…Kf6\n\n(6…Tc1 7.Pc3) 7.Ke4 (Belet nog\neven 7…Ke6 wegens de vork op\nd4) 7…Ke7 8.Kd5 Kd7. En het blijft\nremise.\n\nEn niet:5.Pe8+? Ke7 met:\n\nen ook geen winst.",
+        "A.b": "en 6.Pxc8. En na\n\nKxe8 9.Kxc1 Kd7 met remise.",
+        "B": "En wit wint, bijvoorbeeld:"
+      }
+    }
+  }
+}

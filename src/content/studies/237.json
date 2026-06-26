@@ -1,0 +1,89 @@
+{
+  "number": 237,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Probleemblad, 2000",
+  "gbr": "0310.22 a1a7",
+  "fen": "8/kp6/P1P5/5r2/1p5B/8/8/K7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "c7",
+      "nl": "c7",
+      "fenAfter": "8/kpP5/P7/5r2/1p5B/8/8/K7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rf1+",
+      "nl": "Tf1+",
+      "fenAfter": "8/kpP5/P7/8/1p5B/8/8/K4r2 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/kpP5/P7/8/1p5B/8/1K6/5r2 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rc1",
+      "nl": "Tc1",
+      "fenAfter": "8/kpP5/P7/8/1p5B/8/1K6/2r5 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "c8=R",
+      "nl": "c8T",
+      "fenAfter": "2R5/kp6/P7/8/1p5B/8/1K6/2r5 b - - 0 3",
+      "variant": "A",
+      "parent": "main.4"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Rc4",
+      "nl": "Tc4",
+      "fenAfter": "2R5/kp6/P7/8/1pr4B/8/1K6/8 w - - 1 4",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "c8=R",
+      "nl": "c8T",
+      "fenAfter": "2R5/kp6/P7/8/1p5B/8/1K6/2r5 b - - 0 3",
+      "variant": "B",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "In samenwerking met mijn goede\nschaakvriend Roger Missiaen ont-\nstond deze vrij inhoudrijke studie,\nmet vele verleidingen:",
+      "after": "riant A b): 6...Kb7, met remi-\n    se.\n\n“Drie ineengeweven schaakmotie-\nven waarvoor wit moet opletten:\npat, dolle toren of slechte loper,\nknap verwerkt.” aldus besloot Fer-\nnand Joseph.\n\nJulien Vandiest vond het zelfs: “Als\nminiatuurtje  een  compositorisch\nhuzarenstukje.”\n -\n\ns",
+      "beforeVariant": {
+        "A": "En niet 1...Txa5+? 2.Kb2 Tc5 3.Lf2\nb6 4.Lxc5 Kb7 en 5.Lxb6\n\nUiteraard  niet  2.Ka2?  wegens\n\nMaar niet 4.Kc1? b3 5.c8D Tc2+\n\nw",
+        "A.a": "ge omweg. En nu 7.Kc4, faalt op\n\nWant  na  6...Tf3+?  7.Tc2  Tf2+\n\nTf5+ 11.Kd6 Txa5, wint 12.c8D.\nEn nu na de tekstzet 6...b5, wint\nenkel\n\nEn niet:",
+        "A.b": "meer voor wit, die de slechte\n    loper heeft. Ook:",
+        "B": "en  bijvoorbeeld  8.Le7  Tf7\n\nTxc7, enzovoort.\n\nDaar er nu geen pat meer ontstaat\nna 7…Tb4+ valt zwart de witte to-\nren aan. Deze kan geen kant uit\nzonder verlies. Maar na: .\n\nwint wit door overmacht.",
+        "B.a": "En ook hier is alleen de promotie\ntot toren winnend.",
+        "B.b": "Tc4+ 10.Dxc4 bxc4. Wit ver-\n     liest ook hier. En na:",
+        "B.c": "dat 6.c8D? remise  is,  is de\n    énige  goede  tegenzet  van\n    zwart: 6...Tf1 met 7.c8T Tb1+\n\nzwart de pion met remise. Na:"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "number": 6,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2000",
+  "gbr": "0031.01 f7d5",
+  "fen": "8/3b1K2/8/2Nk4/8/5p2/8/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "8/3b1K2/8/3k4/8/3N1p2/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/3b1K2/8/8/4k3/3N1p2/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf2+",
+      "nl": "Pf2+",
+      "fenAfter": "8/3b1K2/8/8/4k3/5p2/5N2/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/3b1K2/8/8/8/4kp2/5N2/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nh1",
+      "nl": "Ph1",
+      "fenAfter": "8/3b1K2/8/8/8/4kp2/8/7N b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Kan  wit de pion nog tegenhou-\nden?",
+      "after": "1.Pf6  f3 2.Pe4+ Kf4 3.Pf2 Ke3 4.Ph1 Lh3 5.Kg6 Lg2 6.Pg3  f2 7.Kf5 Lh3+ 8.Ke5 Lg2 9.Kf5 Lh3+ 10.Ke5, remise.\n\nzwart.\n\nRemise.  Dankzij de  voorzichtge\nzetten 4.Kg6, 6.Kf5 en 7.Kg4 kruipt\nde witte koning behouden uit het\nmijnenveld.\nIn mijn Manke Maljutka’s rubriek\n(EBUR 2000) ging de oplossing\nverder met 6…Lh3+ (in plaats van\n\nMaar zwart heeft een iets sterkere\nverdediging, namelijk 6…Ld5.\n\nMijn bovenstaande versie  is een\ncorrectie van een miniatuur van\nViktor Aleksandrovich Kaljagin in\nZadatschy & Etudyi (1998):\nKf7 Pg8 / Kg3 Lc8 f4 =\n\nDoch reeds na de eerste zet ver-\nliest wit: 1…f3 2.Pe4+ Kf4 3.Pf2,\nen nu niet 3…Ke3? maar 3…Lb7!\nen zwart wint na 25 zetten. (Nali-\nmov E.T.)\n\nDus zwart triomfeert.",
+      "beforeVariant": {
+        "main.a": "En niet 3.Pd1? Ke2 4.Pc3+ Kd2\n\n‘over and  out’. Of hier 6.Pg3 f2\n\nFout  is  4.Kf6? wegens  4...Lg2\n\npaard kan geen schaak meer ge-\nven. Dus 7.Kg6 f2, en na 8.Pf6+\nKh4, kan wit de promotie niet meer\nverhinderen.\n\nWeerom  de  énige  goede  zet:\n\nbeeld 8.Pe2(h5)+ Ke3 9.Pg3 Kf3,\nen zwart wint.\n\nNiet correct is:",
+        "main.b": "met   13...Kf1!  14.Pd4  La6\n\nenzovoort. Ook fout is:"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "number": 267,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Schakend Nederland, 1963",
+  "gbr": "0113.33 h7f6",
+  "fen": "4RB2/7K/5k2/4p3/1p6/nPP1P3/p7/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bg7+",
+      "nl": "Lg7+",
+      "fenAfter": "4R3/6BK/5k2/4p3/1p6/nPP1P3/p7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "4R3/5kBK/8/4p3/1p6/nPP1P3/p7/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "cxb4",
+      "nl": "cxb4",
+      "fenAfter": "4R3/5kBK/8/4p3/1P6/nP2P3/p7/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Er dreigt 1...a1D.",
+      "after": "nu  5...bxc3  6.Lxc3  of  5...Pb1\n\ndeze dame komt in het spel.\n\nNa  3...bxc3?  volgt  4.Lf8+  K~\n\nNa de tekstzet sluit het paard hier\nnu de eerste  rij af voor zijn toe-\nkomstige dame.\n\nNu of nooit, hoopt zwart.\n\nandere koningzetten is het eeuwig\nschaak. Eindelijk veilig hoopt zwart\nwant na 11.Ta5+? volgt 11...Dxa5.,\nmet winst.\nEn dan komt de pointe:\n\nen de zwarte dame is gevangen.\nBijvoorbeeld11...Da2?, of11..Da3?\n\nMaar het is dus remise.\n\nIk inspireerde mij voor deze stu-die\nop een werk van A.O. Herbst-man\nin Shackhmaty v SSSR (1953), dat\neen 2de prijs won:\n\nKh7 Tb6 Lh6 c2 c3 /\n                Kf5 Lb2 a2 b4 =\n\nMet de  oplossing;  1.Tb5+ Ke6\n\nKc6  8.Tc5+  Kb6  9.Tb5+  Ka6\n\nik door een paard.",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "number": 212,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2013",
+  "gbr": "4010.02 b4a2",
+  "fen": "8/8/2p5/8/BK6/8/k3pQ2/2q5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "8/8/2p5/8/1K6/1B6/k3pQ2/2q5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/8/2p5/8/1K6/1B6/4pQ2/k1q5 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Qf1+",
+      "nl": "Df1+",
+      "fenAfter": "8/8/2p5/8/1K6/1B6/4p3/k1q2Q2 b - - 3 2",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Qb1",
+      "nl": "Db1",
+      "fenAfter": "8/8/2p5/8/1K6/1B6/4p3/kq3Q2 w - - 4 3",
+      "variant": "A",
+      "parent": "A.21"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En ook mat.\n\n    Het commentaar van Ed van de\n     Gevel: “…a little mechanism whe-\n     re White needs 13 consecutive\n     checks, the  last one also being\n     mate.”",
+      "beforeVariant": {
+        "A": "Ka1? 2.Da7+ Da3 3.Dxa3 Kb1\n\nKb1 7.Da2+ Kc1 8.Dc2+ en mat.\n\nWeerom niet 5.Dxe2?, want dan\nkomt de zwarte dame in actie..",
+        "B": "En mat."
+      }
+    }
+  }
+}

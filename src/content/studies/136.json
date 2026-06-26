@@ -1,0 +1,36 @@
+{
+  "number": 136,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Ebur, 2000",
+  "gbr": "4010.01 g6g8",
+  "fen": "5Bk1/q7/6K1/p7/8/8/8/1Q6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "6k1/q3B3/6K1/p7/8/8/8/1Q6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Qa6+",
+      "nl": "Da6+",
+      "fenAfter": "6k1/4B3/q5K1/p7/8/8/8/1Q6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…          Da6+\n\n1.Lf6+ Kg8 2.Db3+ Kf8 3.Kg6 Da7 4.Db4+ Ke8 5.Db5+ Kf8 6.Db3\n\nEen verbluffend offeraanbod.\n\nwant 1..Dxe7? 2.Db8+ Df8 3.Db3+\nKh8 4.Dh3+ Kg8 5.Dd7+ en mat.\n\nMaar  niet  bijvoorbeeld 3.Da2+?\nKf8  4.Da3+ Ke8  5.Da4+  Dd7,\nremise.\n\nEen tweede offeraanbod.\n\nEn een derde offeraanbod.\n\nEn mat.\n\nDit is een correctie van een studie\nvan Julien Vandiest:\n\nKf5 Df3 Lh4 / Kh8 Dc7 +\n\nDg1+  7.Lg5  Da7  8.Df3+  Ke8\n\nMaarook  8.Db4+  wint: 8…Ke8\n\nen mat.\n\nDus nevenoplosbaar.",
+      "beforeVariant": {}
+    }
+  }
+}

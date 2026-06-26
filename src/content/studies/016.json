@@ -1,0 +1,75 @@
+{
+  "number": 16,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2003",
+  "gbr": "0014.00 e3a2",
+  "fen": "8/1n1B4/2N5/8/8/4K3/k7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/1n1B4/2N5/8/3K4/8/k7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Bc8",
+      "nl": "Lc8?",
+      "fenAfter": "2B5/1n6/2N5/8/8/4K3/k7/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Nd6",
+      "nl": "Pd6",
+      "fenAfter": "2B5/8/2Nn4/8/8/4K3/k7/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Bd7",
+      "nl": "Ld7",
+      "fenAfter": "8/3B4/2Nn4/8/8/4K3/k7/8 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.b.8",
+      "ply": 8,
+      "san": "Nb7",
+      "nl": "Pb7",
+      "fenAfter": "8/1n1B4/2N5/8/8/4K3/k7/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.7"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/1n1B4/2N5/8/3K4/1k6/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Pd6        2.Pe5\n\n1.Kb3 Lc6 2.Pd8 Ld5 3.Kb4 Pd6 4.Ka5  Kc5  5.Ka6  en 5…Pc8 6.Pb7+ Kb4 7.Pd8 Ka4 8.Pc6 Lxc6\n\n(Zie zet 3.)\n\nHet zwarte paard zit nu klem.\n\nEn niet 8.Pc8? Pb7 9.Kc6 Pa5+,\nmet remise.\n\nEen onnodige omweg  is 9.Ld5?\nKa6 10.Lc4+ Ka7 11.Kb5 (Zie zet\n\nEn de koppige Fries word gevan-\ngen op de volgende zet.\n\nDe 2de en 3de aanbeveling in het\nRudenko JT  in Sportiva Gazeta\n(1988) van A. Krochek luidde:\n\nKa2 Pb7 / Kd4 Ld7 Pc4 =\n\npat.\n\nMaar na 5.Ka6? verliest wit door\n\npaard wordt veroverd.\n\nHet leuke is dat in mijn correctie na\n\ngramstand  ontstaat  als  bij  Kro-\ncheck, maar dan in spiegelbeeld\nen met verwisselde kleuren.",
+      "beforeVariant": {
+        "main.a": "Met de dreiging 2.Kd5.\n\nMet dezelfde dreiging.",
+        "main.b": "(Zie zet 3.)"
+      }
+    }
+  }
+}

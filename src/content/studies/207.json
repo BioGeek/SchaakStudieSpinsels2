@@ -1,0 +1,56 @@
+{
+  "number": 207,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2012",
+  "gbr": "0001.13 c3e5",
+  "fen": "8/8/8/4kp2/7p/2Kp4/5P2/2N5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kxd3",
+      "nl": "Kxd3",
+      "fenAfter": "8/8/8/4kp2/7p/3K4/5P2/2N5 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "f4+",
+      "nl": "f4+",
+      "fenAfter": "8/8/8/4k3/5p1p/3K4/5P2/2N5 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/4k3/5p1p/8/4KP2/2N5 b - - 1 2",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.c.7",
+      "ply": 7,
+      "san": "Ne2",
+      "nl": "Pe2?",
+      "fenAfter": "8/8/8/4kp2/7p/2Kp4/4NP2/8 b - - 1 1",
+      "variant": "main.c",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit moet de eigen pion behouden\nen de zwarte pionpromotie verhin-\nderen.",
+      "after": "1…          Kf4\n\ngoed.\nMaar een onverwachte zijsprong\nvan het paard brengt redding:\n\nEen moeilijk te vinden zet, die de\nredding brengt.\n\nEn nu wel:\n\nEn wint.\nNog een laatste struikelsteen  is:\n\nheden: 8.Kh1 of 8.Kg1.",
+      "beforeVariant": {
+        "main.a": "niet verder, dus remise.\n\nVerleidelijk  is 1…h3? 2.Pe2 h2\n\nen dan wint wit zowel met 6…Ke3\nals met 6…Ke2. Dus nevenoplos-\nbaar.\n\nNu komt de moeilijkste zet:"
+      }
+    }
+  }
+}

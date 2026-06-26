@@ -1,0 +1,189 @@
+{
+  "number": 29,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EBUR, 2002",
+  "gbr": "0014.00 h4b1",
+  "fen": "6n1/8/2B5/N7/7K/8/8/1k6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "6n1/8/2B5/N5K1/8/8/8/1k6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "6n1/8/2B5/N5K1/8/8/1k6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bb7",
+      "nl": "Lb7",
+      "fenAfter": "6n1/1B6/8/N5K1/8/8/1k6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ne7",
+      "nl": "Pe7",
+      "fenAfter": "8/1B2n3/8/N5K1/8/8/1k6/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/1B2n3/5K2/N7/8/8/1k6/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ng8",
+      "nl": "Pg8",
+      "fenAfter": "6n1/1B6/5K2/N7/8/8/1k6/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "6n1/1B6/4K3/N7/8/8/1k6/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nh6",
+      "nl": "Ph6",
+      "fenAfter": "8/1B6/4K2n/N7/8/8/1k6/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bf3",
+      "nl": "Lf3",
+      "fenAfter": "8/8/4K2n/N7/8/5B2/1k6/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/8/4K2n/N7/8/2k2B2/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/8/5K1n/N7/8/2k2B2/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/5K1n/N7/3k4/5B2/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/8/6Kn/N7/3k4/5B2/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ng8",
+      "nl": "Pg8",
+      "fenAfter": "6n1/8/6K1/N7/3k4/5B2/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "6n1/8/2N3K1/8/3k4/5B2/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "6n1/8/2N3K1/2k5/8/5B2/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "6n1/6K1/2N5/2k5/8/5B2/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "6n1/6K1/2Nk4/8/8/5B2/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kxg8",
+      "nl": "Kxg8",
+      "fenAfter": "6K1/8/2Nk4/8/8/5B2/8/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Loper en paard tegen paard  is\nmeestal remise, doch deze studie\nis een uitzondering:",
+      "after": "Want na 8.Kg7? ontsnapt het ros\nvia bijvoorbeeld 8…Pe7.\n\nOf 8...Ke3? 9.Ld5 en het paard\ngaat verloren. Ook nu na:\n\nEn er is ook winst als het zwarte\npaard op f8 staat in plaats van op\ng8:",
+      "beforeVariant": {}
+    }
+  }
+}

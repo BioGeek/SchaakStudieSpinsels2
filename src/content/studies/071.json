@@ -1,0 +1,27 @@
+{
+  "number": 71,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2010",
+  "gbr": "0410.00 a5a7",
+  "fen": "8/k3r3/2R5/K2B4/8/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rc8",
+      "nl": "Tc8",
+      "fenAfter": "2R5/k3r3/8/K2B4/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Is een extra loper hier voldoende\nvoor de winst?",
+      "after": "1…          Te8        2.Tc7+\n\nmet de matdreiging op veld a8.\n\nNa 2.Txe8? is het pat.\n\nAndere torenzetten zijn onnodige\nomwegen.\n\nEen hopeloze aanval op de toren\nMaar mat volgt:\n\nMini -\n\nIn der Bes\n          In\n- Studies\n\nschränkung zeigt sich erst der Meister\nn de beperking toont zich pas de meester\n                                      (Goethe)",
+      "beforeVariant": {}
+    }
+  }
+}

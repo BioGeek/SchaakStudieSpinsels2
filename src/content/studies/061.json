@@ -1,0 +1,54 @@
+{
+  "number": 61,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EBUR, 2000",
+  "gbr": "4001.00 h5h8",
+  "fen": "7k/8/3N4/7K/8/6q1/8/7Q w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "7k/8/8/7K/4N3/6q1/8/7Q b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Qg8",
+      "nl": "Dg8",
+      "fenAfter": "6qk/8/8/7K/4N3/8/8/7Q w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ng5",
+      "nl": "Pg5",
+      "fenAfter": "6qk/8/8/6NK/8/8/8/7Q b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qa2",
+      "nl": "Da2",
+      "fenAfter": "7k/8/8/6NK/8/8/q7/7Q w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Een stille zet.\n\nEn wit wint.\n    Een knap en moeilijk op te lossen\n      miniatuurtje van Julien Vandiest in\n    EBUR (September 2000) luidde:\n\n    Kh5 Dh1 Pe4 / Kh8 Dg8 +\n\n     en startte met 1.Pg5 Da2 2.Kg6+,\n    Kg8 3.De4 enzovoort zoals in mijn\n      uitbreiding (Zie zet 4.)\n     (December 2000).\n\n      Mijn minuscule bijdrage is één zet\n     meer: 1.Pe4 Dg8. Dus een ietsie-\n      pietsie langere inleiding, die Julien\n     zeker zou gewaardeerd he",
+      "beforeVariant": {}
+    }
+  }
+}

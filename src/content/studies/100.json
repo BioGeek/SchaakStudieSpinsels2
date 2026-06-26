@@ -1,0 +1,425 @@
+{
+  "number": 100,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "4001.01 c4g2",
+  "fen": "8/8/2Q5/8/2K5/p4N2/6k1/7q w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "8/8/2Q5/4N3/2K5/p7/6k1/7q b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/2Q5/4N3/2K5/p7/8/6kq w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qb6+",
+      "nl": "Db6+",
+      "fenAfter": "8/8/1Q6/4N3/2K5/p7/8/6kq b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/1Q6/4N3/2K5/p7/6k1/7q w - - 4 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Qb7+",
+      "nl": "Db7+",
+      "fenAfter": "8/1Q6/8/4N3/2K5/p7/6k1/7q b - - 5 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/1Q6/8/4N3/2K5/p7/8/6kq w - - 6 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Qb1+",
+      "nl": "Db1+",
+      "fenAfter": "8/8/8/4N3/2K5/p7/8/1Q4kq b - - 7 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/4N3/2K5/p7/6k1/1Q5q w - - 8 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "Qe4+",
+      "nl": "De4+",
+      "fenAfter": "8/8/8/4N3/2K1Q3/p7/6k1/7q b - - 9 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/4N3/2K1Q3/p7/8/6kq w - - 10 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/8/8/4N3/2K5/p7/8/4Q1kq b - - 11 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/4N3/2K5/p7/6k1/4Q2q w - - 12 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/4N3/2K5/p7/4Q1k1/7q b - - 13 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/8/8/4N3/2K5/p5k1/4Q3/7q w - - 14 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "8/8/8/4N3/2K3Q1/p5k1/8/7q b - - 15 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/4N3/2K3Q1/p7/5k2/7q w - - 16 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/8/8/8/2K3Q1/p2N4/5k2/7q b - - 17 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/2K3Q1/p2N4/8/5k1q w - - 18 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Qd1+",
+      "nl": "Dd1+",
+      "fenAfter": "8/8/8/8/2K5/p2N4/8/3Q1k1q b - - 19 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/2K5/p2N4/6k1/3Q3q w - - 20 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/8/2K5/p2N4/4Q1k1/7q b - - 21 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/8/8/8/2K5/p2N2k1/4Q3/7q w - - 22 12",
+      "variant": "A",
+      "parent": "A.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Qe5+",
+      "nl": "De5+",
+      "fenAfter": "8/8/8/4Q3/2K5/p2N2k1/8/7q b - - 23 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "A.24",
+      "ply": 24,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/4Q3/2K5/p2N4/6k1/7q w - - 24 13",
+      "variant": "A",
+      "parent": "A.23"
+    },
+    {
+      "id": "A.25",
+      "ply": 25,
+      "san": "Qe4+",
+      "nl": "De4+",
+      "fenAfter": "8/8/8/8/2K1Q3/p2N4/6k1/7q b - - 25 13",
+      "variant": "A",
+      "parent": "A.24"
+    },
+    {
+      "id": "A.26",
+      "ply": 26,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/8/2K1Q3/p2N4/8/6kq w - - 26 14",
+      "variant": "A",
+      "parent": "A.25"
+    },
+    {
+      "id": "A.27",
+      "ply": 27,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/8/8/8/2K5/p2N4/8/4Q1kq b - - 27 14",
+      "variant": "A",
+      "parent": "A.26"
+    },
+    {
+      "id": "A.28",
+      "ply": 28,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/8/8/2K5/p2N4/7k/4Q2q w - - 28 15",
+      "variant": "A",
+      "parent": "A.27"
+    },
+    {
+      "id": "A.29",
+      "ply": 29,
+      "san": "Qh4+",
+      "nl": "Dh4+",
+      "fenAfter": "8/8/8/8/2K4Q/p2N4/7k/7q b - - 29 15",
+      "variant": "A",
+      "parent": "A.28"
+    },
+    {
+      "id": "A.30",
+      "ply": 30,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/2K4Q/p2N4/6k1/7q w - - 30 16",
+      "variant": "A",
+      "parent": "A.29"
+    },
+    {
+      "id": "A.31",
+      "ply": 31,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/8/2K2N1Q/p7/6k1/7q b - - 31 16",
+      "variant": "A",
+      "parent": "A.30"
+    },
+    {
+      "id": "A.32",
+      "ply": 32,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/8/2K2N1Q/p7/8/6kq w - - 32 17",
+      "variant": "A",
+      "parent": "A.31"
+    },
+    {
+      "id": "A.33",
+      "ply": 33,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/8/8/8/2K2N2/p7/8/4Q1kq b - - 33 17",
+      "variant": "A",
+      "parent": "A.32"
+    },
+    {
+      "id": "A.34",
+      "ply": 34,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/8/8/2K2N2/p7/7k/4Q2q w - - 34 18",
+      "variant": "A",
+      "parent": "A.33"
+    },
+    {
+      "id": "A.35",
+      "ply": 35,
+      "san": "Qf2+",
+      "nl": "Df2+",
+      "fenAfter": "8/8/8/8/2K2N2/p7/5Q1k/7q b - - 35 18",
+      "variant": "A",
+      "parent": "A.34"
+    },
+    {
+      "id": "A.36",
+      "ply": 36,
+      "san": "Qg2",
+      "nl": "Dg2",
+      "fenAfter": "8/8/8/8/2K2N2/p7/5Qqk/8 w - - 36 19",
+      "variant": "A",
+      "parent": "A.35"
+    },
+    {
+      "id": "A.37",
+      "ply": 37,
+      "san": "Qxg2+",
+      "nl": "Dxg2+",
+      "fenAfter": "8/8/8/8/2K2N2/p7/6Qk/8 b - - 0 19",
+      "variant": "A",
+      "parent": "A.36"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/1Q6/4N3/2K5/p7/7k/7q w - - 4 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Qf2+",
+      "nl": "Df2+",
+      "fenAfter": "8/8/8/4N3/2K5/p7/5Q1k/7q b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/8/8/4N3/2K5/p6k/5Q2/7q w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Qe3+",
+      "nl": "De3+",
+      "fenAfter": "8/8/8/4N3/2K5/p3Q2k/8/7q b - - 7 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/4N3/2K5/p3Q3/6k1/7q w - - 8 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/4N3/2K5/p7/4Q1k1/7q b - - 9 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/8/8/4N3/2K5/p5k1/4Q3/7q w - - 10 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "8/8/8/4N3/2K3Q1/p5k1/8/7q b - - 11 6",
+      "variant": "B",
+      "parent": "B.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Opgedragen aan mijn behulpza-\nme vriend Luc Palmans.",
+      "after": "En verder nu zoals in Variant A,\n     (Zie zet 8.)\n\n    De zwarte koningin kan  slechts\n    machteloos  toekijken, vanuit het\n     hoekveld, hoe haar gemaal onaf-\n    gebroken belaagd wordt door haar\n      rivale, met het  bittere einde als\n     gevolg.\n\n     Als start is 1.Pe5+! de énige juiste\n      uit de acht mogelijke paardzetten.",
+      "beforeVariant": {
+        "B": "zet 5. in de hoofdvariant.)\n\nNu moet de koning  zijn gemalin\nloslaten, anders verliest  hij haar\ndoor 7…Kg1 8.Pf3+ Dxf3 9.Dxf3.\n\nDe koning komt terug om zijn da-\n   me te beschermen.\n\nen mat."
+      }
+    }
+  }
+}

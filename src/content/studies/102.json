@@ -1,0 +1,59 @@
+{
+  "number": 102,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "0301.20 f2h4",
+  "fen": "8/8/2P4N/8/7k/1P6/5K2/7r w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/8/2P5/5N2/7k/1P6/5K2/7r b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/8/2P5/5Nk1/8/1P6/5K2/7r w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nd6",
+      "nl": "Pd6",
+      "fenAfter": "8/8/2PN4/6k1/8/1P6/5K2/7r b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rh7",
+      "nl": "Th7",
+      "fenAfter": "8/7r/2PN4/6k1/8/1P6/5K2/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De winst moet van een pionpro-\nmotie komen.",
+      "after": "Een krachtmeting tussen paard en\n     toren. En wit wint.",
+      "beforeVariant": {
+        "A": "Op weg naar de b-pion.",
+        "A.a": "Na 7.Kd3? loopt de zwarte koning\nschuin naar boven met b7…Ke5\nen houdt remise.\n     Zwart besluit na de tekszet met\n     ‘nu of nooit’:",
+        "A.b": "Wit wint daar hij de oppositie heeft.",
+        "B": "En de pionnen beslissen. Wit wint."
+      }
+    }
+  }
+}

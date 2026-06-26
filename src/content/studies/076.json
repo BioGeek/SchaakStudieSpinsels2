@@ -1,0 +1,93 @@
+{
+  "number": 76,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "New Statesman, 1975",
+  "gbr": "0160.01 h6f6",
+  "fen": "b6b/8/5k1K/8/8/4p3/8/7R w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rh3",
+      "nl": "Th3",
+      "fenAfter": "b6b/8/5k1K/8/8/4p2R/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Re1",
+      "nl": "Te1?",
+      "fenAfter": "b6b/8/5k1K/8/8/4p3/8/4R3 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "b7/6b1/5k1K/8/8/4p3/8/4R3 w - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "b7/6b1/5k2/7K/8/4p3/8/4R3 b - - 3 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Bf3+",
+      "nl": "Lf3+",
+      "fenAfter": "8/6b1/5k2/7K/8/4pb2/8/4R3 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/6b1/5k2/8/7K/4pb2/8/4R3 b - - 5 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Rh2",
+      "nl": "Th2?",
+      "fenAfter": "b6b/8/5k1K/8/8/4p3/7R/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bf3",
+      "nl": "Lf3",
+      "fenAfter": "7b/8/5k1K/8/8/4pb1R/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Lg7+\n\nper met 1…Lg7+ en wint door\n    overmacht.\nMaar na de tekstzet houdt wit re-\nmise:\n\nNiet snel 1…e2? 2.Te3 Lg7+ 3.Kh7\nLf3 4Tf3+ Ke5 Te3+ en 6.Txe1.\n\nMaakt ruimte voor de g-loper.\n\nNa 4.Txe2? Lf3+ en: 5…Lxe2.\n\nDe toren kan de loper niet onge-\nstraft slaan: 5.Txf3+? Ke4  en de\npion promoveert.\n\nEn na de gedwongen, maar  te-\nvens dwingende zet:\n\nstaat wit pat.\n\nOm zich veilig te stellen heeft de\nwitte koning een voorzichtige lan-\nge wandeling ondernomen, van\nveld h6 naar veld e1.\n\nHet commentaar luidde:\n“A miniature in which the white king\nmakes a long journey to get stale-\nmated.”\n\nEn Zoilo Caputto vond het: “Una\nlinda miniatura.”",
+      "beforeVariant": {
+        "main.a": "Fout is:",
+        "main.b": "Lh6 4.Kg3 Ld5, en de zwarte\n    koning nadert. Na:"
+      }
+    }
+  }
+}

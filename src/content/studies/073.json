@@ -1,0 +1,108 @@
+{
+  "number": 73,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Schakend Nederland, 1969",
+  "gbr": "0011.02 e8a7",
+  "fen": "4KB2/k7/1N6/8/7p/6p1/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nc8+",
+      "nl": "Pc8+",
+      "fenAfter": "2N1KB2/k7/8/8/7p/6p1/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Nd5",
+      "nl": "Pd5?",
+      "fenAfter": "4KB2/k7/8/3N4/7p/6p1/8/8 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "4KB2/k7/8/3N4/8/6pp/8/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "4KB2/k7/8/8/5N2/6pp/8/8 b - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "h2",
+      "nl": "h2",
+      "fenAfter": "4KB2/k7/8/8/5N2/6p1/7p/8 w - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bc5",
+      "nl": "Lc5?",
+      "fenAfter": "4K3/k7/1N6/2B5/7p/6p1/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "4K3/k7/1N6/2B5/8/6pp/8/8 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "4K3/k7/8/2BN4/8/6pp/8/8 b - - 1 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "4K3/1k6/8/2BN4/8/6pp/8/8 w - - 2 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "4K3/1k6/8/2B5/5N2/6pp/8/8 b - - 3 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het actieve paard rent schijnbaar\nweg van de oprukkende pionnen.",
+      "after": "1…         Kb7 1…Ka6? 2.Ld6 g2 3.Lh2 h3 en na\n\nh2, en zwart wint zelfs.\n\nbijvoorbeeld 4.Pd6 worden beide\npionnen veroverd, met winst.\n\nEn niet 3.Pe4? g2 4.Lc5 en na\n\nMaar niet 5.Pf3? wegens 5…h3 en\nwit kan de zwarte promotie niet\nverhinderen.\n\nEn wit wint.\n\n     In zijn eentje heeft het aangeval-\n     len paard het gerooid.",
+      "beforeVariant": {}
+    }
+  }
+}

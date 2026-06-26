@@ -1,0 +1,173 @@
+{
+  "number": 78,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EG, 1980",
+  "gbr": "0160.01 b1a3",
+  "fen": "2R5/2b5/8/8/8/k7/3p2b1/1K6 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "2R5/2b5/8/8/8/k7/2Kp2b1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ba5",
+      "nl": "La5",
+      "fenAfter": "2R5/8/8/b7/8/k7/2Kp2b1/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "4R3/8/8/b7/8/k7/2Kp2b1/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bc6",
+      "nl": "Lc6",
+      "fenAfter": "4R3/8/2b5/b7/8/k7/2Kp4/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Re3+",
+      "nl": "Te3+",
+      "fenAfter": "8/8/2b5/b7/8/k3R3/2Kp4/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/2b5/b7/8/4R3/k1Kp4/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Re2",
+      "nl": "Te2",
+      "fenAfter": "8/8/2b5/b7/8/8/k1KpR3/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ba4+",
+      "nl": "La4+",
+      "fenAfter": "8/8/8/b7/b7/8/k1KpR3/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/b7/b7/3K4/k2pR3/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bb5+",
+      "nl": "Lb5+",
+      "fenAfter": "8/8/8/bb6/8/3K4/k2pR3/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/8/bb6/8/8/k1KpR3/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bxe2",
+      "nl": "Lxe2",
+      "fenAfter": "8/8/8/b7/8/8/k1Kpb3/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/8/8/b7/b7/3K4/1k1pR3/8 w - - 10 6",
+      "variant": "main.a",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Rf2",
+      "nl": "Tf2",
+      "fenAfter": "8/8/8/b7/b7/3K4/1k1p1R2/8 b - - 11 6",
+      "variant": "main.a",
+      "parent": "main.a.10"
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "Bb4+",
+      "nl": "Lb4+",
+      "fenAfter": "8/8/8/8/bb6/3K4/1k1p1R2/8 w - - 12 7",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.a.13",
+      "ply": 13,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/8/8/8/bb6/4K3/1k1p1R2/8 b - - 13 7",
+      "variant": "main.a",
+      "parent": "main.a.12"
+    },
+    {
+      "id": "main.a.14",
+      "ply": 14,
+      "san": "Bc5+",
+      "nl": "Lc5+",
+      "fenAfter": "8/8/8/2b5/b7/4K3/1k1p1R2/8 w - - 14 8",
+      "variant": "main.a",
+      "parent": "main.a.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "",
+      "beforeVariant": {
+        "main.a": "Na 2…Ld5? 3.Te3+ Ka2(4) 4.Td3\nLe4 5.Kd1 Lxd3 is er een rein pat.\n\nmet verlies van de toren.\n\nNa 3…Ka4? houdt wit het snelst\nremise met 4.Td3 Le4 5.Kd1 Lxd3\nen weerom pat.\n\nEn hier niet 4.Td3? La4+ 5.Tb3\nLxb3+ 5.Kd3 d1D+.\n\nEen tweede rein pat onstaat na:\n\nKd4 Te5 b4 / Ka3 La5 Lg2 d2 =\n\nBovenstaande vorige versie haal-\nde de 3de prijs uit 274(!)  deelne-\nmende studies in het Roycroft JT\n(1978) met de oplossing: 1.Kc3\nLxb4+? 2.Kc2 Lc6 3.Te3+, enzo-\nvoort.  Later  ontdekte de  Tjech\nVladimir Kos een fout: 1.Kc3 Lc7!\n\nKxa4, en zwart wint. Nadien heb ik\neen verbeterd economisch mini-\natuurtje gecomponeerd met zelfs\néén stuk minder.\n\nJohn Roycroft  schreef bij de eer-\nste  versie: “Miniature perfection.\nEvery move has his point. Nothing\ndeep, but everything pertinent.” En\nVandiest besloot  met:“I want  to\nadd: a future classic !”\n\nDeze studie is geïnspireerd door\nhet beroemde  juweeltje van de\ngrote componist H. Matisson  in\nShakhmati Listok (1927)\n\nKd3 Td5 / Kb1 Lh2 Pa2 e2.=\n\nHet kreeg terecht de eerste prijs ex\naequo voor deze oplossing: 1.Kd2\nPc1 2.Tb5+ Ka2 3.Ta5+ Kb3 4.Tf5\nLd6 5.Tf3+ en nu:"
+      }
+    }
+  }
+}

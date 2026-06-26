@@ -1,0 +1,147 @@
+{
+  "number": 243,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Yehuda Hoch 50 JT, 1999",
+  "gbr": "0045.01 d1h6",
+  "fen": "8/8/b1p4k/8/1B3n2/8/2N5/3K3N w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bd2",
+      "nl": "Ld2",
+      "fenAfter": "8/8/b1p4k/8/5n2/8/2NB4/3K3N b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/8/b1p5/6k1/5n2/8/2NB4/3K3N w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf2",
+      "nl": "Pf2",
+      "fenAfter": "8/8/b1p5/6k1/5n2/8/2NB1N2/3K4 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/b1p5/5k2/5n2/8/2NB1N2/3K4 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "8/8/b1p5/5k2/3N1n2/8/3B1N2/3K4 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/b1p5/4k3/3N1n2/8/3B1N2/3K4 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nxc6+",
+      "nl": "Pxc6+?",
+      "fenAfter": "8/8/b1N5/4k3/5n2/8/3B1N2/3K4 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/b1N5/5k2/5n2/8/3B1N2/3K4 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "8/8/b7/5k2/3N1n2/8/3B1N2/3K4 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/b7/4k3/3N1n2/8/3B1N2/3K4 w - - 3 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "8/8/b7/4k3/5n2/5N2/3B1N2/3K4 b - - 4 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/b7/5k2/5n2/5N2/3B1N2/3K4 w - - 5 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nh4+",
+      "nl": "Ph4+",
+      "fenAfter": "8/8/b7/5k2/5n1N/8/3B1N2/3K4 b - - 6 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/b7/4k3/5n1N/8/3B1N2/3K4 w - - 7 8",
+      "variant": "main",
+      "parent": "main.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "wint.\n\nf     En wit wint dan ‘a la Troitzky’, met\n      twee paarden tegen een pion, ge-\n       stopt op  veld  c5.  Bijvoorbeeld:\n\nWit heeft zich hier niet verslikt in\n       gulzigheid door de pion te slaan.\n\n       “The long expedtion of the Knights\n         is impressive, and is  all done to\n       arrive  at  the  Troitzky  position.”\n      vond de jarige Yehuda Hoch.",
+      "beforeVariant": {
+        "main.a": "met:\n\nKd5(6) 6.Lxf4 Kxc6 7.Kxe2, of\n\nPxe2 8.Kxe2, met winst.\n\nKg4 5.Pf6+ Kg5, remise;\n\nKe5  8.Pg4+  Ke4  9.Pf6+  Ke5\n\nKe5 13.Pd7+ Ke4 14.Pf6+ Ke5, en\nwit komt niet verder. Remise.\n      Wit mag de pion dus niet slaan.\n\nWeerom is 11.Pxc6+? niet goed,\n       zoals verder blijkt.",
+        "main.b": "Kd5 15.Le7"
+      }
+    }
+  }
+}

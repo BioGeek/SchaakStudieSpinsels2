@@ -1,0 +1,59 @@
+{
+  "number": 123,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2010",
+  "gbr": "0133.10 a2f8",
+  "fen": "5k2/8/8/8/nP6/2b5/K7/R7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rc1",
+      "nl": "Tc1",
+      "fenAfter": "5k2/8/8/8/nP6/2b5/K7/2R5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Rc1",
+      "nl": "Tc1?",
+      "fenAfter": "5k2/8/8/8/nP6/2b5/K7/2R5 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "b5",
+      "nl": "b5?",
+      "fenAfter": "5k2/8/8/1P6/n7/2b5/K7/R7 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4k3/8/8/nP6/2b5/K7/2R5 w - - 2 2",
+      "variant": "A",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na 1.Ka3? en bijvoorbeeld 1…Lc2",
+      "after": "1…          Pd1+      2.Kc1         Pc3      3.Kd2         Pe4+      4.Ke3         Lc6       5.Ta6\n\nMaar niet 6.Ta7? Pd6, remise.\n\nOok de witte koning doet een duit\nin het zakje, want niet 7.Tb5? Pf6\nen geen winst meer.\n\nEveneens met winst.\n\nEen strijd van toren tegen loper en\npaard.\n\nZie ook de volgende studie.",
+      "beforeVariant": {
+        "main.a": "er geen winst meer.\n\nNiet goed is:",
+        "A.a": "En niet\n\nEn wit komt niet verder.\n\nNa",
+        "A.b": "per door bijvoorbeeld 7…Pd6.\n   En natuurlijk niet:",
+        "B": "met winst dankzij de pion. Of:"
+      }
+    }
+  }
+}

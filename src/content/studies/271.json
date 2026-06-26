@@ -1,0 +1,29 @@
+{
+  "number": 271,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Schakend Nederland, 1972",
+  "gbr": "0014.34 g5e6",
+  "fen": "3B4/3p1p2/4kN2/6K1/3Pp3/4P3/pP6/2n5 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "d5+",
+      "nl": "d5+",
+      "fenAfter": "3B4/3p1p2/4kN2/3P2K1/4p3/4P3/pP6/2n5 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De dreigende zwarte promotie van\nde a-pion is niet tegen te houden.\nMaar wit tracht de zwarte koning in\neen matnet te drijven:",
+      "after": "1...         Ke5        2.Lc7+       d6        3.La5\n\n1...         Kd6            2.Pxe4+     Ke5\n\nNa 5…Kxd5  volgt  3.Pc3+ K~\n\nEveneens remise.",
+      "beforeVariant": {
+        "B": "Dreigt mat op c3.\n\nToch! Een verrassend offer.\n\nDe koning is nu wel geïmmobili-\nseerd. maar zwart kan toch dame\nhalen:\n\nDekt de pion d5 met een dubbele\n     matdreiging 7.Pd7+ of 7.Pg4+.\n\nmet remise."
+      }
+    }
+  }
+}

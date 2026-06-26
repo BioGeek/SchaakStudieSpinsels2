@@ -1,0 +1,121 @@
+{
+  "number": 101,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "0040.20 a3d3",
+  "fen": "8/b7/8/3P4/3P4/K2k4/5B2/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "d6",
+      "nl": "d6",
+      "fenAfter": "8/b7/3P4/8/3P4/K2k4/5B2/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/b7/3P4/8/2kP4/K7/5B2/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bb6",
+      "nl": "Lb6?",
+      "fenAfter": "8/8/1b1P4/8/3P4/K2k4/5B2/8 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/1b1P4/8/1K1P4/3k4/5B2/8 b - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/1b1P4/8/1K1Pk3/8/5B2/8 w - - 3 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/1b1P4/1K6/3Pk3/8/5B2/8 b - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kc3",
+      "nl": "Kc3?",
+      "fenAfter": "8/b7/3P4/8/3P4/K1k5/5B2/8 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/b7/3P4/8/K2P4/2k5/5B2/8 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "d7",
+      "nl": "d7",
+      "fenAfter": "8/b2P4/8/8/2kP4/K7/5B2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/b2P4/8/8/3P4/K1k5/5B2/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q4/b7/8/8/3P4/K1k5/5B2/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "voorbeeld 5.Kb5 Kxd4 6.Kc6\n   La5  7.Lf2+ K~  8.Lb6 Lxb6\n\nNa 4…La5? wint  wit zowel met\n\nHet  bekende  driehoekje,  want\n\nis een onnodige omweg.\n\nNu  dreigt de  witte  koning  via\n\nmen, wat zwart wil beletten met:\n\nMaar dan volgt:\n\nEn wint.\nDe witte soeverein heeft geduldig\neen ‘ommetje’ gemaakt.\n\nIn een later ontdekte gelijkaardige\nstudie van Toon Balemans:\n\nKd1 Le5 d4 d7 / Kd3 Lb6 +\n\nmet de oplossing 1.Lf6 La5 2.Kc1\nKc3 3.Kb1 Lb6 4.Ka2 La5 5.Ka1\nKc4 6.Kb1 Lb6 7.Kb2 Lc7 8.Kc1,\nenzovoort, is de zet 4.Ka1 reeds\nde hond in het kegelspel.\n\nBij mij, slechts op de alerlaatste\nzet: 12.d8D(T).",
+      "beforeVariant": {
+        "main.b": "Ld8 4.Kc6, enzovoort. En na:\n\nNa:",
+        "main.a": "Kd5 7.Kc8 Le7 8.d8D Lxd8",
+        "main.c": "verrassend 5.Le1 Ld8 6.La5\n   Le7 7.Lb6 Lf6 8.Ka5 en de\n    koning gaat de pion steunen."
+      }
+    }
+  }
+}

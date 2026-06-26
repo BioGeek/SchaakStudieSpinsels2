@@ -1,0 +1,138 @@
+{
+  "number": 19,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "Origineel, 2008",
+  "gbr": "0041.00 d5c8",
+  "fen": "2k1N3/8/1b6/3K4/8/6B1/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "2k1N3/8/1bK5/8/8/6B1/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "2kbN3/8/2K5/8/8/6B1/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Kd8",
+      "nl": "Kd8?",
+      "fenAfter": "3kN3/8/1bK5/8/8/6B1/8/8 w - - 2 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nd6",
+      "nl": "Pd6",
+      "fenAfter": "3k4/8/1bKN4/8/8/6B1/8/8 b - - 3 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "3k4/8/2KN4/8/3b4/6B1/8/8 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Bh4+",
+      "nl": "Lh4+",
+      "fenAfter": "3k4/8/2KN4/8/3b3B/8/8/8 b - - 5 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "3k4/8/2KN1b2/8/7B/8/8/8 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Bg1",
+      "nl": "Lg1?",
+      "fenAfter": "2k1N3/8/2K5/8/8/6B1/8/6b1 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "2kb4/8/2K2N2/8/8/6B1/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "2k5/4b3/2K2N2/8/8/6B1/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "2k5/4b3/2K5/3N4/8/6B1/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "2k5/8/2K5/2bN4/8/6B1/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kxc5",
+      "nl": "Kxc5",
+      "fenAfter": "2k5/8/8/2KN4/8/6B1/8/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Kc6 Ld8 2.Le5 Lh4 3.Pd6+ Kd8     4.Ld4 Le7 5.Lb6+ en wint.\n\nDus nevenoplosbaar.\n\n    Roger Missiaen vond mijn versie\n    minder artistiek. Wellicht is dat zo,\n   maar ze is tenminste wel correct.",
+      "beforeVariant": {
+        "main.a": "Dreigt mat op b6 of e7\n\nMaar omdat de witte loper gedekt\nis door het paard volgt\n\nEn wit wint.\n     In het Minsk Watches Tourney  tij-\n    dens het WCCC-congres  in Sint\n    Petersberg (1998) kreeg V. Kuz-\n    michev een aanbeveling voor de-\n    ze oplossing :\n\nMaar na 3…Kd8 wint zowel",
+        "main.b": "als"
+      }
+    }
+  }
+}

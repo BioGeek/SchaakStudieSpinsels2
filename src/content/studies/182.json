@@ -1,0 +1,156 @@
+{
+  "number": 182,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Miniature Section Rishon-Le-Zion",
+  "gbr": "0046.10 a3a1",
+  "fen": "4n3/6n1/3P4/6b1/8/K7/5B2/k7 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "d7",
+      "nl": "d7",
+      "fenAfter": "4n3/3P2n1/8/6b1/8/K7/5B2/k7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Be7+",
+      "nl": "Le7+",
+      "fenAfter": "4n3/3Pb1n1/8/8/8/K7/5B2/k7 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "4n3/3Pb1n1/8/8/K7/8/5B2/k7 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "8/3Pb1n1/5n2/8/K7/8/5B2/k7 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "8/3Pb1n1/5n2/2B5/K7/8/8/k7 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "3b4/3P2n1/5n2/2B5/K7/8/8/k7 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd4+",
+      "nl": "Ld4+",
+      "fenAfter": "3b4/3P2n1/5n2/8/K2B4/8/8/k7 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "3b4/3P2n1/5n2/8/K2B4/8/k7/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "3b4/3P2n1/5n2/1K6/3B4/8/k7/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "3b4/3P4/4nn2/1K6/3B4/8/k7/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "3b4/3P4/1B2nn2/1K6/8/8/k7/8 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "8/3Pb1n1/5n2/1K6/3B4/8/k7/8 w - - 9 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3Q4/4b1n1/5n2/1K6/3B4/8/k7/8 b - - 0 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Bxc5",
+      "nl": "Lxc5",
+      "fenAfter": "3Q4/6n1/5n2/1Kb5/3B4/8/k7/8 w - - 1 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Kxc5",
+      "nl": "Kxc5",
+      "fenAfter": "3Q4/6n1/5n2/2K5/3B4/8/k7/8 b - - 0 7",
+      "variant": "A",
+      "parent": "A.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Ook met remise.\n\nHet is een correctie van een mini-\natuurtje van E. Paoli  in Schach\nEcho (1966):\n\nKa2 Lg2 e6 / Kc2 Lh5 Pf8 Ph7 =\n\nMet  de  auteursoplossing:  1.e7\nLf7+ 2.Ka1 Pg6 3.Lc6 Pf6 4.e8D\nPxe8 5.Ld5 Lxd5, pat.\n\nMaar mijn gevonden versie: 1.e7\nLf7+, en nu: 2.Ka3 Pg6 3.Ld5 Le8\n\nDus nevenoplosbaar.",
+      "beforeVariant": {
+        "A": "Na 1…Pd6 is zwart overtuigd dat\nwit hier nu met 2.d8Dame niet kan\nwinnen. En zie waarom 2…Pc4+\n(2…Lxd8  3.Ld4  Kb1   4.Lxg7,\nremise.) 3.Kb3 (3.Ka4 Lxd8 4.Ld4+\nKb1 5.Lxg7, ook remise.) 3...Pd2+\n(3…Lxd8 4.Kxc4, nogmaals remi-\nse.) 4.Dxd2 Lxd2, en er is geen\nwinst.\n\nZwart verhindert wel de promotie-\ndreiging, maar wit lokt nu de loper\nweg met:",
+        "B": "De zwarte loper zit plots geprangd\ntussen beide paarden.\n\nEn het is remise."
+      }
+    }
+  }
+}

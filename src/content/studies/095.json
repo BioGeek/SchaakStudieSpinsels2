@@ -1,0 +1,72 @@
+{
+  "number": 95,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 2000",
+  "gbr": "4010.01 c4a1",
+  "fen": "8/6p1/2Q5/B7/2K5/8/5q2/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/6p1/2Q5/8/2K5/2B5/5q2/k7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/6p1/2Q5/8/2K5/2B5/5q2/1k6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "8/6p1/6Q1/8/2K5/2B5/5q2/1k6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/6p1/6Q1/8/2K5/2B5/5q2/2k5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/6p1/6Q1/8/8/1KB5/5q2/2k5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/6p1/6Q1/8/8/1KB5/2q5/2k5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Dh2  4.Le5  Dh3+  5.Lg3  Kd2\n\nKd5 9.Dc4+ en mat.\n\nDeze studie was de basis voor de\nuitbreiding van de vorige studie.\nAls motivatie voor de 3de prijs gaf\nJulien Vandiest deze uitleg:\n\n“So there are 3 moves more…\nCoinnoisseurs will readely confirm\nit: knitting a (correct) extension to\na mininiature handling Queens is\nextremely  difficult. Moreover, the\nawarded study conceals some in-\nsidious  tries. The whole  of the\nwinning manoeuvre exhibits a re-\nfined series of moves, honouring\nthe consumer’s point of vieuw”.",
+      "beforeVariant": {}
+    }
+  }
+}

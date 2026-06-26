@@ -1,0 +1,32 @@
+{
+  "number": 165,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1993",
+  "gbr": "0131.02 e6h6",
+  "fen": "8/7p/R3K2k/8/b7/8/6p1/5N2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kf7+",
+      "nl": "Kf7+",
+      "fenAfter": "8/5K1p/R6k/8/b7/8/6p1/5N2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit tracht de dubbele zwarte pro-\nmotiedreiging uit te stellen met een\naftrekschaak.",
+      "after": "1...         Kh5        2.Ta5+\n\n1...         Kg5        2.Ta5 2.Pd2? met de dreiging 2…g1D 3.Pf3+ en 4.Pxg1, faalt op 2…Ld1 3.Ta1 g1D 4.Pf3+ Lxf3 5.Txg1, is\n\nEnzovoort, als in b).\nEn ook hier zegeviert wit.",
+      "beforeVariant": {
+        "A.a": "Want  een  verleidelijke  zet  als\n\nVergeefs is 2...Lb5? 3.Txb5+ en:",
+        "B": "Beide met winst voor wit.\n\nDreigt mat op veld h5\n\nIets beter dan 3...Ld1 met bijvoor-\nbeeld   4.Pf5+ Kg5 5.Pe3+ en\n\nNa 4.Kxe8? g1D is de winst weg.\n\nOf 4…Lb5? 5.Txb5 g1D 6.Th5+ en\nmat\n\nen ook mat.",
+        "B.a": "het slechts remise.",
+        "B.b": "Een aanval op het paard?.\n\nMet winst voor wit."
+      }
+    }
+  }
+}

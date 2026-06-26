@@ -1,0 +1,67 @@
+{
+  "number": 235,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Probleemblad, 2000",
+  "gbr": "0130.22 a2d5",
+  "fen": "R7/6p1/8/1P1k4/6b1/8/KPp5/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "b6",
+      "nl": "b6",
+      "fenAfter": "R7/6p1/1P6/3k4/6b1/8/KPp5/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Be6+",
+      "nl": "Le6+",
+      "fenAfter": "R7/6p1/1P2b3/3k4/8/8/KPp5/8 w - - 1 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "R7/6p1/1P2b3/3k4/8/1P6/K1p5/8 b - - 0 2",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "R7/6p1/1P2b3/3k4/8/1P6/K7/2q5 w - - 0 3",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "R7/6p1/1P6/3k3b/8/8/KPp5/8 w - - 1 2",
+      "variant": "B",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "om een schaak te beletten.\n\nHet is duidelijk dat zwart niet op\nde c-lijn mag, want dan valt de\ntoren langs achter aan.\n\nNa 7...c1T? is er geen winst meer.\n\nEn niet 8…Lxg4? wegens pat.\n\nDe zwarte toren moet na allerlei\nschaaks toch op de c-lijn komen.\n\nEn remise is een feit.\nDoor mijn vriend Ward Stoffelen\nwerd de  vorige  studie  voorge-\nschoteld aan de deelnemers van\nhet  28ste  Wereldkampioenschap\nOplossen van Schaakproblemen.\n\nEen eerdere, iets minder bevalli-\nge, versie was:",
+      "beforeVariant": {
+        "main.a": "Een poging om het promoveren\nvan de c-pion te verhinderen mis-\nlukt: 1.Td8+? Ke5 2.Te8+ Le6+\n\nEn niet 1...c1D? 2.b7 Dc4+ 3.Ka1\nDc1+  4.Ka2 Dc4+  5.Ka1 Df1+\n\nvan de witte pion niet verhinderen.\n\nWit dreigt nu met 3.Tc7+ en 4.Txc2\nde pion te slaan.\nMaar niet goed is 2.Ta3? hopend\nop 2…c1D 3.Tc3+ Dxc3 4.bxc3.\nZwart speelt echter: 2...Le6+ 3.b3\nof 3.Tb3 en 3...c1D.\nMaar nu eerst 2…Le6+? 3.b3 en\ndan 3…Dxb6? spelen is fout, want\ner volgt 4.Te7 met:",
+        "main.b": "het blijft eeuwig schaak.",
+        "B": "Want na 3…c1D?  geeft 4.Txg4\nremise.\n\nEn het is pat.."
+      }
+    }
+  }
+}

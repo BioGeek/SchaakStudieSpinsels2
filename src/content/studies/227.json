@@ -1,0 +1,45 @@
+{
+  "number": 227,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1983",
+  "gbr": "0011.13 a5a7",
+  "fen": "8/k7/7p/K3NB2/4P3/1p6/1p6/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "8/k7/2N4p/K4B2/4P3/1p6/1p6/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k6/2N4p/K4B2/4P3/1p6/1p6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nd8+",
+      "nl": "Pd8+",
+      "fenAfter": "3N4/1k6/7p/K4B2/4P3/1p6/1p6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Om de dreigende zwarte promotie\nte verhinderen draaft het wit paard\nhet hele bord rond:",
+      "after": "Natuurlijk niet: 2.e5? , wat de uit-\neindelijke bedoeling  is, want dan\nvolgt 2...Kxc6 3.e6 Kd6 4.Kb4 b1D\n\nOok hier niet 3.e5? Kxd8 4.Kb4\nKe7 5.Kc3 b1D 6.Lxb1 Ke6 7.Kd4\nh5, en  zowel  koning  als  loper\nmoeten  uiteindelijk de  pion e5\nprijsgeven.\n\nEnig goede zet, want na 4.Pd4? of\n\nKxe5 6.Lxb1, struikelt het paard.\n\nMaar nu niet 4...b1D? 5.e5+ Kxe5\n\nWeerom niet 6...b1D? 7.e5+ Kxc5\n\nEn nu slaat wit met het gevleugel-\nde paard de dame:\n\nOf 8…h5? 9.Kb4 h4 10.Kc1 b1D\n\nEn Pegasus zegeviert.\n\nEen hiervan afgeleide versie is de\nhiernaast staande studie.",
+      "beforeVariant": {}
+    }
+  }
+}

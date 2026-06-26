@@ -1,0 +1,130 @@
+{
+  "number": 84,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Belgisch Schaakbord, 1990",
+  "gbr": "0301.20 h7g5",
+  "fen": "8/7K/1P5N/6k1/5r2/P7/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6K1/8/1P5N/6k1/5r2/P7/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Kg7",
+      "nl": "Kg7?",
+      "fenAfter": "8/6K1/1P5N/6k1/5r2/P7/8/8 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Rf6",
+      "nl": "Tf6",
+      "fenAfter": "8/6K1/1P3r1N/6k1/8/P7/8/8 w - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "8/5NK1/1P3r2/6k1/8/P7/8/8 b - - 3 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/5NK1/1P3r2/5k2/8/P7/8/8 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "8/1P3NK1/5r2/5k2/8/P7/8/8 b - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "b7",
+      "nl": "b7?",
+      "fenAfter": "8/1P5K/7N/6k1/5r2/P7/8/8 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Rf8",
+      "nl": "Tf8",
+      "fenAfter": "5r2/1P5K/7N/6k1/8/P7/8/8 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "5r2/1P4K1/7N/6k1/8/P7/8/8 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Rb8",
+      "nl": "Tb8",
+      "fenAfter": "1r6/1P4K1/7N/6k1/8/P7/8/8 w - - 3 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "1r6/1P3NK1/8/6k1/8/P7/8/8 b - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kxh6",
+      "nl": "K~",
+      "fenAfter": "6K1/8/1P5k/8/5r2/P7/8/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Oorspronkelijk stond het paard op\nveld h8. Maar omdat ik het mooier\nvond, dat de koning  zijn paard\nreeds op de eerste zet in de steek\nmoet laten, verplaatste ik het naar\nveld h6",
+      "after": "1…           Tf6        2.Pf7+\n\n1…          Te4        2.Kf8        Te6        3.Pf7+        Kf6        4.b7         Tb6        5.Pd8       Ke5        6.Ke7       Kd5        7.a4        Kc5        8.a5         Txb7+        9.Pxb7+     Kc6       10.a6        Kb6       11.Pc5\n\nEn wit wint.\n     Vriend Roger Missiaen schreef in\n     Flemish Miniatures:\n\n     “Subtle and  elegant! The  poet\n    would be as pleased as Punch with\n     the unforgettable: ‘Lieve pion op\n     a3. Mooi klein ding, randpion ben\n      je, niet meer dan één veldje mag je\n     bestrijken. Je bent zo klein, bijna\n     niets en je hebt de hele partij daar\n    op je plaatsje gestaan, maar al die\n       tijd was mijn hoop op jou gebouwd\n    en al mijn angstig hunkeren was\n     voor jou.’”\n\n      (Uit een gedichtje van Jan Hein\n     Donner.)",
+      "beforeVariant": {
+        "main.b": "Tb6 4.Pd8 Ke5 5.a4 Kd6 6.a5\n   Kc7 7.axb6 Kb8 8.K~, pat\n\nKd5 6.b8D Txb8 7.Pxb8 Kc4\n   en de pion  is ten dode op-\n    geschreven) 5…Kd6 6.a5 Kc7\n   (Een onverwachte zet.) En nu:\n\nningszet is het pat.\n\nKd5 7.a5 Kc6 8.a6 Kb6 9.Pc5\n   en wint. Of:",
+        "main.a": "Kf4  4.Pd6 Ke5  5.Pc4 Kd4\n\nEen niet zo eenvoudig te vinden\neerste zet dus. Zwart heeft nu twee\nmogelijkheden:\n\nVatiant A\n\nDeze zet moet nú gespeeld wor-\nden, want eerst 2.b7? loopt slecht\naf door 2…Tb6 3.Pf7+ Kf6,  (Dit\nveld is nu niet bezet door de toren)\nEn nu:\n\nKb4  9.a5  Kb5  10.K~  Ka6",
+        "B": "En wit wint net op tijd, daar de wit-\nte koning hulp komt bieden."
+      }
+    }
+  }
+}

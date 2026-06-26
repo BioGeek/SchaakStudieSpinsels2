@@ -1,0 +1,27 @@
+{
+  "number": 248,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2008",
+  "gbr": "0040.13 a5g2",
+  "fen": "8/2B5/p3p3/K3p2P/8/6b1/6k1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "h6",
+      "nl": "h6",
+      "fenAfter": "8/2B5/p3p2P/K3p3/8/6b1/6k1/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1...          Le1+        2.Ka4\n\n1.La7 La1 2.Kb1 Lc3 3.Kc2 La1 4.Ld4 exd4 5.Kd3 en wint.\n\nOp weg naar promotie.\n\nNiet 2.Kxa6? Lc3, en nu mislukt het\nweglokken van de loper met 3.La5\nop 3...Lb2 4.h7 e4. Of 3.Kb5 e4\n\nDreigt 3...e4.\n                                 4       3.Kb3        La1\n\nEen vroege poging met 4.La5? e4\n\nremise.\n\nLokt de zwarte loper weg.\n\nAlles staat nu klaar voor de win-\nnende zet:\n\nMaar niet onmiddellijk 8.h7? we-\ngens 8...e4 9.Kc4 Lh8 10.Ld4 e5\n\nEn wint, want zwart komt te laat\nmet zijn pionpromotie.\n\nHet is een uitbreiding van een mi-\nniatuurtje van P. Heuäcker (1930):\n\nKc1 Lb8 h6 / Kh4 Ld4 e5 +\n\n“Dat briljante ideeën met een mi-\nnimum aan materiaal uit te drukken\nzijn  leert ons Heuäcker” besloot\nHans Bouwmeester in zijn boek:\n‘Schaakstukken spelen U voor’.\nVriend Ward Stoffelen schreef in\nzijn rubriek ‘Eindspel en -studie’ in\nSchaakschild  (1984)  dat  men\nAnatole  Mouterde  onrecht  zou\naandoen, mocht men hem  niet\nvernoemen als de voorganger van\nde ‘Letztform’ van Heuäcker.\n\nIn Sydsvenska Dagbladet  Snäll-\nposten  (1913)  verscheen  van\nMouterde onderstaande studie:\n\nKc1 Lb4 a3 f2 h5 /\n          Kb7 Lb6 a5 e5 h4 +\n\nmet de oplossing: 1.h6 Ld4 2.Lc5\nLa1 3.Kb1 Lc3 4.Kc2 La1 5.Ld4\nLxd4 5.Kd3 Lb2 6.Ke4 en wint.\n\nIn  mijn  oorspronkelijke  versie,\nzonder een extra pion op veld e6\n(Schakend Nederland 1962), is er\neen dual aanwezig, want dan wint\nwit ook met: 7.h7 e4 8.Kb3 Lh8\n\nr",
+      "beforeVariant": {}
+    }
+  }
+}

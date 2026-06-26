@@ -1,0 +1,45 @@
+{
+  "number": 144,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "4010.01 g8d8",
+  "fen": "3k2K1/2q5/8/8/8/7Q/5p2/6B1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qg3+",
+      "nl": "Dg3+",
+      "fenAfter": "3k2K1/2q5/8/8/8/6Q1/5p2/6B1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Qb7+",
+      "nl": "Db7+",
+      "fenAfter": "3k2K1/1q6/8/8/8/6Q1/5p2/6B1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "3k1K2/1q6/8/8/8/6Q1/5p2/6B1 b - - 3 2",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "8/Dxe7          fID\n\nMet winst.\n\nEen gerelateerde tweeling met de\nvorige studie. Maar met een heel\nandere winstvoering.\n\nEn er is ook nog deze winststel-\nling, met de pion op c6:\n    Kg8 Dg1 Lh3 / Kd8 Dc7 c6 +\n\nDreigt mat op f8.",
+      "after": "Na 4.Kh8? of 4.Kh7? is het remi-\n     se.\n\neen onnodige omweg van twee\n     zetten.\n\nzetten.\n\nEn ook hier met winst.\n\n    Dus een drieling.",
+      "beforeVariant": {}
+    }
+  }
+}

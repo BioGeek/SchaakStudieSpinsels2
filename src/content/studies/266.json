@@ -1,0 +1,156 @@
+{
+  "number": 266,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Tijdschrift KNSB, 1962",
+  "gbr": "0160.22 h5f8",
+  "fen": "5kbb/8/2R5/5P1K/7p/1P2p3/8/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rc8+",
+      "nl": "Tc8+",
+      "fenAfter": "2R2kbb/8/8/5P1K/7p/1P2p3/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "2R3bb/5k2/8/5P1K/7p/1P2p3/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rc7+",
+      "nl": "Tc7+",
+      "fenAfter": "6bb/2R2k2/8/5P1K/7p/1P2p3/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4k1bb/2R5/8/5P1K/7p/1P2p3/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rc8+",
+      "nl": "Tc8+",
+      "fenAfter": "2R1k1bb/8/8/5P1K/7p/1P2p3/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "2R3bb/5k2/8/5P1K/7p/1P2p3/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rc7+",
+      "nl": "Tc7+",
+      "fenAfter": "6bb/2R2k2/8/5P1K/7p/1P2p3/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "6bb/2R5/5k2/5P1K/7p/1P2p3/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rc3",
+      "nl": "Tc3",
+      "fenAfter": "6bb/8/5k2/5P1K/7p/1PR1p3/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "6bb/8/5k2/5P1K/7p/1PR5/4p3/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "6bb/8/5k2/5P1K/7p/1P2R3/4p3/8 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bxb3",
+      "nl": "Lxb3",
+      "fenAfter": "7b/8/5k2/5P1K/7p/1b2R3/4p3/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kxh4",
+      "nl": "Kxh4",
+      "fenAfter": "7b/8/5k2/5P2/7K/1b2R3/4p3/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bd1",
+      "nl": "Ld1",
+      "fenAfter": "7b/8/5k2/5P2/7K/4R3/4p3/3b4 w - - 1 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Re4",
+      "nl": "Te4",
+      "fenAfter": "7b/8/5k2/5P2/4R2K/8/4p3/3b4 b - - 2 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit tracht de diagonaal a1-h8 te\nsluiten. En zwart wil geen loper of-\nferen.",
+      "after": "Lc5 16.Te6 Lg1 17.Kg2 Lb6\n\nniet verder daar  zijn koning\n       geen hulp kan bieden.\n    Dan maar:\n\nMaar dan blokkeert wit de diago-\n     naal a1-h8 voor de loper met:\n\nEen noodzakelijk offer.\n\nNu wel gedwongen.\n\nVeld h4 is nu ontoegankelijk voor\n    de zwarte loper door  zelfinterfe-\n      rentie.\n\nEn het is pat.\n\n      Slaat de loper niet, dan is het re-\n    mise met 12.Txe2.",
+      "beforeVariant": {
+        "main.a": "Deze zet interfereert nu Lh8, zodat\nde aanval op de e-pion mogelijk\nwordt.\n\nNa 5.Tc1(2)? Kxf5 komt ook de\nandere loper in het spel.\n\nNiet 7.Txe2? Ld1 en 8...Lxe2.\n\nMet de dreiging 9.Kg2.\n    Een cruciaal moment voor zwart:\n       hij mag de pion niet slaan.\n    Want na:",
+        "main.b": "Lxe3, staat wit pat. En na:"
+      }
+    }
+  }
+}

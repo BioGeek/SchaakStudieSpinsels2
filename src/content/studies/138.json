@@ -1,0 +1,75 @@
+{
+  "number": 138,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "0rigineel, 2011",
+  "gbr": "4010.01 g4g1",
+  "fen": "5q2/8/8/8/6K1/2p5/8/2Q1B1k1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bg3+",
+      "nl": "Lg3+",
+      "fenAfter": "5q2/8/8/8/6K1/2p3B1/8/2Q3k1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "B.b.5",
+      "ply": 5,
+      "san": "Qb1+",
+      "nl": "Db1+?",
+      "fenAfter": "5q2/8/8/8/6K1/2p5/8/1Q2B1k1 b - - 1 1",
+      "variant": "B.b",
+      "parent": null
+    },
+    {
+      "id": "B.b.6",
+      "ply": 6,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "5q2/8/8/8/6K1/2p5/6k1/1Q2B3 w - - 2 2",
+      "variant": "B.b",
+      "parent": "B.b.5"
+    },
+    {
+      "id": "B.b.7",
+      "ply": 7,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "5q2/8/8/8/6K1/2p5/2Q3k1/4B3 b - - 3 2",
+      "variant": "B.b",
+      "parent": "B.b.6"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "5q2/8/8/8/6K1/2p3B1/6k1/2Q5 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.a.9",
+      "ply": 9,
+      "san": "Qd1+",
+      "nl": "Dd1+?",
+      "fenAfter": "5q2/8/8/8/6K1/2p5/8/3QB1k1 b - - 1 1",
+      "variant": "B.a",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…            Df1      2.De3+       Kg2      3.De4+       Kg1      4.Dd4+       Kg2      5.Dd5+       Kg1      6.Dc5+       Kg2      7.Dc6+       Kg1      8.Db6+       Kg2      9.Db7+       Kg1     10.Da7+       Kg2     11.Da2+        c2     12.Dxc2+      Kg1     13.Dh2+\n\n1…          Kg2      2.Dc2+        Kf1      3.Dd1+\n\nMet een onverwacht mooi mat.",
+      "beforeVariant": {
+        "B": "En mat.\n\nEen studie met een systematisch\nmanoeuvre.",
+        "B.a": "(Zie zet 3.)"
+      }
+    }
+  }
+}

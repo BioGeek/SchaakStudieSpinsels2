@@ -1,0 +1,49 @@
+{
+  "number": 184,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Jan Timman- 50 JT, 2002",
+  "gbr": "0311.02 f3d8",
+  "fen": "1B1k4/p7/8/8/3N2r1/5K2/3p4/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ke2",
+      "nl": "Ke2?",
+      "fenAfter": "1B1k4/p7/8/8/3N2r1/8/3pK3/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "d1=Q+",
+      "nl": "d1D+",
+      "fenAfter": "1B1k4/p7/8/8/3N2r1/8/4K3/3q4 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kxd1",
+      "nl": "Kxd1",
+      "fenAfter": "1B1k4/p7/8/8/3N2r1/8/8/3K4 b - - 0 2",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Er dreigt een zwarte damepromo-\ntie met schaak.",
+      "after": "1.Pc6+      Kd7 1...Kc8? 2.Ke2 Tg2+ 3.Kd1 Kb7 4.Lxa7 Kxc6 5.Le3 en 6.Lxd2. Of\n\nmet winst voor zwart.\n\nDe witte loper wacht geduldig af,\nwant andere loperzetten, zoals bij-\nvoorbeeld  6.Le3? d1D+ 7.Kxd1\nKd3 enzovoort, falen;\n\nOok hier falen andere loperzetten:\n\nd1D+ 8.Kxd1 Kd3, enzovoort.\n\nWeerom de énige goede loperzet.\n\nEn zwart komt niet verder.\n\nEen welverdiend gelijkspel.",
+      "beforeVariant": {
+        "main.a": "en deze pion loopt door, bijvoor-\nbeeld:  3.La7  Td5  4.Lb6+ Kd7\n\neerst:\n\nhier 3...a5 4.Pxa5 Kxb8 5.Pc4 en\n\nMaar  niet: 2.Pe5+? Kc8 3.Ke2\nTg2+ 4.Kd1 Kxb8  5.Pc4, maar\nzwart wint met een pion extra.\n\nDe zwarte koning dreigt hulp te\ngaan bieden en de énige goede zet\nluidt nu:\n\nNiet goed is bijvoorbeeld:",
+        "main.b": "d1D+ Kxd1 Kd3 en zwart wint.\n    Of:",
+        "main.c": "nog:"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "number": 293,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2007-08",
+  "gbr": "1010.07 c3a1",
+  "fen": "8/8/5p2/6B1/3p4/p1K5/p2pp2p/k5Q1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qxd4",
+      "nl": "Dxd4",
+      "fenAfter": "8/8/5p2/6B1/3Q4/p1K5/p2pp2p/k7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/5p2/6B1/3Q4/p1K5/p2pp2p/1k6 w - - 1 2",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qd3+",
+      "nl": "Dd3+",
+      "fenAfter": "8/8/5p2/6B1/8/p1KQ4/p2pp2p/1k6 b - - 2 2",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Alles bij wit staat aagevallen, zelfs\nde koning en de koningin. Boven-\ndien dreigen er  vier  (4!) zwarte\npionpromoties.\nMaar wit dreigtmat na:\n\nmat.\n\nEen prachtzet. Maar niet: 2.Kc4+?\nDxd4+ 3.Kxd4 fxg5.\n\nEen afwachtende zet, want fout is:\n\nDf1 5.Le5 Dc1+ 6.Kb3+ Db2\n\nDxe1+ 4.Kc2+ Dc3+ 5.Lxc3+\n   en mat.\n\nf4 7.Lxf4 Dd2+ 8.Lxd2+ Kd1",
+      "after": "voor zwart.\n\nNog een afwachtende zet. Er  is\nimmers niets beters, bijvoorbeeld:\n\nZwart pleegt nu bigamie, maar niet\nmet  4…e1D?  5.Dxe1  Dxe1+\n\nEen  prachtige  zet,  die  helaas\nslechts dient om de executie even\nuit te stellen: 6…Kc2? 7.Db3+ Kc1\n\nNa 8.Dxa3+? komt wit niet verder,\nbijvoorbeeld 8…Kd1 9.Dd6+ Ke1\n\nKg2 13.Dg5+ Kh3, enzo-voort.\n\nEn ook nu, na 9.Db3+?, 9.Ke1\n\nDxc3+ 13.Kxc3 e1D+,  is de winst\nweg.\n\nDaarom is de énig winnende zet,\nwaardoor de zwarte koning niet via\ne1 kan ontsnappen:\n\nEn “Hier houdt de studie (unieke\nwitte zetten) feitelijk op.” bevestig-\nde ook Martin van Essen.\n\nEr kan nu na 9…Kd2?,  bijvoor-\nbeeld nog  volgen:10.Dxh1 e1D\n\nWit heeft de vele zwarte piondrei-\n     gingen  tot promotie met succes\n    ondervangen.\n\n    Deze studie heb  ik  in 2000 op-\n    gezonden  naar  het  Memorial-\n    Tourney G. Kasparjan-95 in Arme-\n      nia, maar het bleef, tot heden toe,\n    zonder gevolg.\n\n      Ik vermoed dat zonder de zwarte\n     pion op veld d4, de studie ook ge-\n    wonnen  is  na  de  zet  1.Dxf6.\n    Daarom heb ik hier, mijns inziens,\n    een correct diagram geplaatst, dat\n     tevens  verscheen  in  Probleem-\n     blad nr 4. van Oktober-December\n\nHet commentaar van prijsrechter\n       Iuri Akobia luidde: “ This study de-\n     serves  its commendation by the\n      fact that all pieces remain on the\n    board during six moves”.",
+      "beforeVariant": {
+        "main.a": "En ook enkel deze belangrijke lo-\nzet wint:",
+        "main.c": "Kb1 6.Dh7+ Ka1 7.Dh4 Dd1\n\nverder. Ook niet na:"
+      }
+    }
+  }
+}

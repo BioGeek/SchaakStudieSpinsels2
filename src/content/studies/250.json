@@ -1,0 +1,171 @@
+{
+  "number": 250,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2008",
+  "gbr": "4013.02 d3a1",
+  "fen": "8/8/5q2/n1QB4/6p1/1p1K4/8/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qa3+",
+      "nl": "Da3+",
+      "fenAfter": "8/8/5q2/n2B4/6p1/Qp1K4/8/k7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/5q2/n2B4/6p1/Qp1K4/8/1k6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "8/8/5q2/n7/4B1p1/Qp1K4/8/1k6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qb2",
+      "nl": "Db2",
+      "fenAfter": "8/8/8/n7/4B1p1/Qp1K4/1q6/1k6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke3+",
+      "nl": "Ke3+",
+      "fenAfter": "8/8/8/n7/4B1p1/Qp2K3/1q6/1k6 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/8/n7/4B1p1/Qp2K3/1q6/2k5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/8/8/n1Q5/4B1p1/1p2K3/1q6/2k5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/8/n1Q5/4B1p1/1p2K3/1q6/3k4 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/8/8/n1Q5/6p1/1p2K3/1qB5/3k4 b - - 9 5",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/8/n1Q5/6p1/1p2K3/1qB5/2k5 w - - 10 6",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bf5+",
+      "nl": "Lf5+",
+      "fenAfter": "8/8/8/n1Q2B2/6p1/1p2K3/1q6/2k5 b - - 11 6",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Qc2",
+      "nl": "Dc2",
+      "fenAfter": "8/8/8/n1Q2B2/6p1/1p2K3/2q5/2k5 w - - 12 7",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxc2",
+      "nl": "Lxc2",
+      "fenAfter": "8/8/8/n1Q5/6p1/1p2K3/2B5/2k5 b - - 0 7",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "bxc2",
+      "nl": "bxc2",
+      "fenAfter": "8/8/8/n1Q5/6p1/4K3/2p5/2k5 w - - 0 8",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/n1Q5/6p1/3K4/2p5/2k5 b - - 1 8",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/8/n1Q5/6p1/3K4/2p5/1k6 w - - 2 9",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qxc2+",
+      "nl": "Dxc2+",
+      "fenAfter": "8/8/8/n7/6p1/3K4/2Q5/1k6 b - - 0 9",
+      "variant": "main",
+      "parent": "main.20"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Pogingen als 1.Dxa5+?, 1.Dc1+?\nof 1.Dg1+? halen niets uit.",
+      "after": "1.Da3+ Kb1 2.Le4 Db2 3.Ke3+\n\nDreigt 3.Ke2+ en mat\n\nbxc2+ 5.Db2+ en mat.\n\nHet zwart paard mag niet gesla-\ngen worden, alhoewel het verder\nde klim naar boven van de witte\ndame bemoeilijkt.Men zie:4.Dxa5?\nDa2  5.De1+ Kb2  6.Dd2+ Ka3\n\nKb2 10.De5+ Kc1 11.Dc7+ Kb2\n\nKb2  8.Dd2+  Ka3  9.Dd6  Kb2\n\nmet eveneens remise.\n\nmeer. Na 8.Dxg4? Dd2+  9.Kf3\n    Df2+ is het mat voor zwart.\n\nen mat.\n\n    Het is een correctie van mijn studie\n      in de krant De Morgen uit 1999:\n\n    Kd3 Dd6 Lc6 / Ka1 Dg7 b3 g4 +\n\nKc1 4.Dc5+ Kd1 5.Dd6+ Kc1 En\n     toen  speelde   ik:  6.Dc7+  Kd1\n\nKc1 10.Dg1+ en mat.\n\n    Maar ook 6.Dc6+ is winnend met\n\nDus was ze nevenoplosbaar..",
+      "beforeVariant": {}
+    }
+  }
+}

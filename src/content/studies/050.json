@@ -1,0 +1,90 @@
+{
+  "number": 50,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2008",
+  "gbr": "4010.00 h4g7",
+  "fen": "6q1/6k1/6B1/8/7K/8/8/6Q1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bf5+",
+      "nl": "Lf5+",
+      "fenAfter": "6q1/6k1/8/5B2/7K/8/8/6Q1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "6qk/8/8/5B2/7K/8/8/6Q1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "6qk/8/8/5B2/3Q3K/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qg7",
+      "nl": "Dg7",
+      "fenAfter": "7k/6q1/8/5B2/3Q3K/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd8+",
+      "nl": "Dd8+",
+      "fenAfter": "3Q3k/6q1/8/5B2/7K/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qg8",
+      "nl": "Dg8",
+      "fenAfter": "3Q2qk/8/8/5B2/7K/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qc7",
+      "nl": "Dc7",
+      "fenAfter": "6qk/2Q5/8/5B2/7K/8/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qc8+",
+      "nl": "Dc8+?",
+      "fenAfter": "2q4k/2Q5/8/5B2/7K/8/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit start met een niet zo eenvou-\ndig  te  vinden  ‘aftrekschaakzet’\nvoor de loper:",
+      "after": "Kf7+ 7.Lg6+ Kg7 8.Df6+ en mat.\n\nDeze   stille  zet  is  korter  dan\n\nOok  deze  zet   is  korter  dan\n\nEn ook korter dan 6.Db2+?\n\nHet gevecht tussen de dames is\n     voorlopig afgelopen.\n\nNogmaals de kortste weg.\n\nDe koning mag ook een duit in het\n     zakje doen, want ook hier is het de\n     kortste weg naar winst.\n\nMaar  hier  begint  het damege-\n     vecht opnieuw:\n\nEn de witte dame verslaat ten-\n      slotte haar rivale met mat.",
+      "beforeVariant": {}
+    }
+  }
+}

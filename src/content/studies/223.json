@@ -1,0 +1,48 @@
+{
+  "number": 223,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1967",
+  "gbr": "0410.03 f6a8",
+  "fen": "kr6/1p6/5K2/R7/2B4p/6p1/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kf7",
+      "nl": "Kf7?",
+      "fenAfter": "kr6/1p3K2/8/R7/2B4p/6p1/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "kr6/1p2K3/8/R7/2B4p/6p1/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.b.23",
+      "ply": 23,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "kr6/1p2K3/8/R7/2B4p/6p1/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Een matstudie van toren en loper\ntegen toren. Wit dreigt mat na:\n\nDaarom:\n\nTxb6",
+      "after": "1.Tc3 Th8 2.Kg7 Te8 3.Kf7 Th8        4.Ld4 Td8 5.Ta3+ Kb8 6.Le5+ Kc8       7.Tc3+ Sc4 8.Rxc4+ Kd7 9.Rc7+\n\nvoort.\nNu na de tekstzet 9...Tc8 volgt:\n\nen nu het gedwongen\n\nEn wit slaat uiteindelijk met de to-\nren de beide pionnen en wint.\n\nVoordien werd deze studie  ver-\ntoond met de oplossing, na 9.Kf7\nen dan de zet 9...Td8?¸ (in plaats\nvan 9…Tc8) enzovoort. Dus met\nde vermelde dual, en bijgevolg ne-\nvenoplosbaar.\n\nMaar de sterkste zet van zwart is\nhier 9...Tc8!, met de enige juiste\nvoortzetting: 10.Ta1+ enzovoort.\n\nBovenstaande studie is dus toch\ncorrect.\n       Mijn versie is een uitgebreide be-\n       werking van een nevenoplosbare\n       1ste prijs in het toernooi om het\n     Roemeens kampioenschap (1951)\n      van V. Nestorescu:\n\n      Kg6 Tc7 Lb6 / Ka8 Tb8 b7 h3 +\n\n       Wit wint door 1.Tc1 Th8 2.Kg7 Te8\n\nKb8  6.Le5+  Kc8  7.Tc1+  Kd7\n\nOf hier 9.Ta8+ Kb7 10.Tb8+ Kc6\n\ns\n t       Nestorescu verbeterde hierop, in\n     EG van oktober 1968, zijn stelling.\n         Hij verving de pion door een paard\n\n      Kg6 Tc7 Lb6 / Ka8 Tb8 Pe3 b7 +\n\n      met een nog mooiere oplossing:\n\nen mat.\n\n       Fraai in zijn eenvoud.",
+      "beforeVariant": {
+        "main.a": "Th7+ 6.Kc8 Th8+ 7.Ld8 Txd8+\n\ngeen winst.\n\nNiet goed is 3.Txh4? g2 4.Kf7 Tc8\n\nwmet remise.\n\nNu dat de toren op h8 staat volgt:\n\nWant 4.Ld4? faalt op 4…b5 en de\nzwarte koning komt vrij.\n\nHet beste:\n\nb5   7.Kxh7   g2   8.Lg1,\n     enzovoort.\n\nEn nu niet 6.Lxg1 wegens b5 met\nremise. De zwarte toren staat nog\nsteeds aangevallen en speelt het\nbest:\n\nEn hier  niet 7.Kg8? Th5  (dreigt\n\nKc8 10.Ta8+ en mat.\n\nDit is beter dan 9...Td8?, want dan\nkan na 10.Ta1+ Kb8 11.Le5+ Kc8,\nwit op twee manieren winnen:",
+        "main.b": "Kc8 10.Lxc7. Of nog :"
+      }
+    }
+  }
+}

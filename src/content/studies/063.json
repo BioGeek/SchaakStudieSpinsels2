@@ -1,0 +1,153 @@
+{
+  "number": 63,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "0rigineel, 2012",
+  "gbr": "4001.00 d2d8",
+  "fen": "3k4/3N4/8/8/3Q4/6q1/3K4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "3k4/8/8/4N3/3Q4/6q1/3K4/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4k3/8/4N3/3Q4/6q1/3K4/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd7+",
+      "nl": "Dd7+",
+      "fenAfter": "8/3Qk3/8/4N3/8/6q1/3K4/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/3Q4/5k2/4N3/8/6q1/3K4/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "8/5Q2/5k2/4N3/8/6q1/3K4/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/5Q2/8/4N1k1/8/6q1/3K4/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "8/8/6Q1/4N1k1/8/6q1/3K4/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/6Q1/4N3/5k2/6q1/3K4/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/8/6Q1/8/5k2/3N2q1/3K4/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/6Q1/8/8/3N1kq1/3K4/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qf5+",
+      "nl": "Df5+",
+      "fenAfter": "8/8/8/5Q2/8/3N1kq1/3K4/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/5Q2/8/3N2q1/3K2k1/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/5Q2/5N2/6q1/3K2k1/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/5Q2/5N2/6q1/3K1k2/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/8/8/5Q2/8/6q1/3KNk2/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En mat.\n\nIn de voetsporen van Julien Van-\ndiest.",
+      "beforeVariant": {}
+    }
+  }
+}

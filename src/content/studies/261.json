@@ -1,0 +1,93 @@
+{
+  "number": 261,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2012",
+  "gbr": "0043.12 c8a8",
+  "fen": "k1K3b1/2p4P/8/3n4/2B5/8/3p4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "h8=Q",
+      "nl": "h8D?",
+      "fenAfter": "k1K3bQ/2p5/8/3n4/2B5/8/3p4/8 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "d1=Q",
+      "nl": "d1D",
+      "fenAfter": "k1K3bQ/2p5/8/3n4/2B5/8/8/3q4 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bxd5+",
+      "nl": "Lxd5+",
+      "fenAfter": "k1K3bQ/2p5/8/3B4/8/8/8/3q4 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Qxd5",
+      "nl": "Dxd5",
+      "fenAfter": "k1K3bQ/2p5/8/3q4/8/8/8/8 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "hxg8=Q",
+      "nl": "hxg8D",
+      "fenAfter": "k1K3Q1/2p5/8/3n4/2B5/8/3p4/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "d1=Q",
+      "nl": "d1D",
+      "fenAfter": "k1K3Q1/2p5/8/3n4/2B5/8/8/3q4 w - - 0 2",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qf7",
+      "nl": "Df7",
+      "fenAfter": "k1K5/2p2Q2/8/3n4/2B5/8/8/3q4 b - - 1 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "k1K5/2p2Q2/8/3n4/2B3q1/8/8/8 w - - 2 3",
+      "variant": "main",
+      "parent": "main.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Zwart dreigt te promoveren en er\nvolgt tevens na\n                         wa)  1.hxg8D? een paardvork:",
+      "after": "1.Lxd5+     Ka7\n\nKa5 7.Db5+ en ook mat.\n\nEn wint.\n\nMaar niet het haastige14.Kxc6?\nwegens pat.",
+      "beforeVariant": {
+        "main.a": "met remise.\nDaarom eerst:\n\nNiet 1…Lxd5? 2.h8D d1D 3.Kxc7+\nLg8 4.Dxg8+ met winst.\n\nEn niet 2.h8D? d1D 3.Dxg8, maar\nremise.\n\nEen stille zet.\n\nHet beste, want:",
+        "main.b": "Ka5 7.Da7+ en mat. Of:"
+      }
+    }
+  }
+}

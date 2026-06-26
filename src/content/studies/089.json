@@ -1,0 +1,147 @@
+{
+  "number": 89,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Die Schwalbe, 1997",
+  "gbr": "0046.00 d4f6",
+  "fen": "n7/4b3/5k1n/8/3K4/8/8/B7 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kd5+",
+      "nl": "Kd5+",
+      "fenAfter": "n7/4b3/5k1n/3K4/8/8/8/B7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "n7/4b3/7n/3K1k2/8/8/8/B7 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "n7/4b3/2K4n/5k2/8/8/8/B7 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "n2b4/8/2K4n/5k2/8/8/8/B7 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "n2b4/8/2K4n/5k2/3B4/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "n2b4/8/2K1k2n/8/3B4/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Nf7",
+      "nl": "Pf7?",
+      "fenAfter": "n2b4/5n2/2K5/5k2/3B4/8/8/8 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "n2b4/1K3n2/8/5k2/3B4/8/8/8 b - - 7 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.a.8",
+      "ply": 8,
+      "san": "Nc7",
+      "nl": "Pc7",
+      "fenAfter": "3b4/1Kn2n2/8/5k2/3B4/8/8/8 w - - 8 5",
+      "variant": "main.a",
+      "parent": "main.a.7"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "3b4/1Kn2n2/1B6/5k2/8/8/8/8 b - - 9 5",
+      "variant": "main.a",
+      "parent": "main.a.8"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Nc7",
+      "nl": "Pc7?",
+      "fenAfter": "3b4/2n5/2K4n/5k2/3B4/8/8/8 w - - 6 4",
+      "variant": "main.b",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "3b4/2n5/1BK4n/5k2/8/8/8/8 b - - 7 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "n2b4/B7/2K1k2n/8/8/8/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "n7/B7/1bK1k2n/8/8/8/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Een eenzame loper moet het hier\nopnemen tegen een opponent ge-\nsteund  door  twee  volbloeden.\nSamen met Roger Missiaen, die de\ninleiding verlengde, wilden we ook\nhier de ontsnapping van het hoek-\npaard beletten.",
+      "after": "Te vroeg is 4.Kb7? Pf5 5.Lg1 Pc7\n\nwint zwart.\n\nWeerom niet 5.Kb7? daar dan het\npaard ontsnapt met 5…Pc7 6.Lb6\nKd7 7.La5 Pd6, enzovoort. En nu:\n\nMet remise.\n\nDe 2de Eervolle Vermelding kre-\ngen we  niet  voor deze boven-\nstaande oplossing: 4…Pf5!, enzo-\nvoort, maar voor de voortzetting:\n\nof 8.Kc6, met 8…Pdc4 9.Kb5 Kd5\nen 10.Ld8, remise.\n\nDe verbeterde oplossing vond  ik\nachteraf. Juryleden zijn niet altijd\nfeilloos.",
+      "beforeVariant": {
+        "main.a": "Na 1…Kf7? 2.Kc6 Ld8 3.Le5 Ke6\n\nremise.\n\nZodat het paard gedekt kan  uit-\nbreken.\n\nBeter dan:",
+        "main.b": "Pd6+ 6.Kc6 Pdb5 7.Kd7 L~\n\nna:"
+      }
+    }
+  }
+}

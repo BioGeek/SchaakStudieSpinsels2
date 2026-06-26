@@ -1,0 +1,57 @@
+{
+  "number": 220,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1962",
+  "gbr": "0453.00 h1h3",
+  "fen": "8/5R2/6r1/3n4/2b2BB1/7k/8/7K w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Be6",
+      "nl": "Le6",
+      "fenAfter": "8/5R2/4B1r1/3n4/2b2B2/7k/8/7K b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/5R2/4B1r1/3n4/2b2B1k/8/8/7K w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bg5+",
+      "nl": "Lg5+",
+      "fenAfter": "8/5R2/4B1r1/3n2B1/2b4k/8/8/7K b - - 3 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/5R2/4B1r1/3n2Bk/2b5/8/8/7K w - - 4 3",
+      "variant": "main",
+      "parent": "main.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Materieel staan beide partijen ge-\nlijk, maar  alle witte stukken  zijn\naangevallen en bovendien staat de\nwitte koning in de hoek gedrumd.\nWit faalt als hij tracht zijn toren te\nredden met:\n\nremise.\n\nuiteraard ook:\n\nMaar:",
+      "after": "Kf3 4.Txg6, met winst.\n\nKf3 5.Lxc4 Kxg4, remise.\n\nEr dreigt nu mat, en na 5...Tc3?\nwordt de zwarte toren bijvoorbeeld\naustempiert met 6.Ld2 Td3 7.Lc4\nTh3+  8.Kg1  Le4  9.Lf7+  Lg6\n\nEen andere poging is de aanval op\nde toren:\n\nEn niet 7.Lxe4? wegens 7...Txg2\n\nEn wit wint met de toren op een\nblank geveegd bord.",
+      "beforeVariant": {
+        "main.a": "En niet:",
+        "main.b": "noch:"
+      }
+    }
+  }
+}

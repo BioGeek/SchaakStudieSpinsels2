@@ -1,0 +1,189 @@
+{
+  "number": 129,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2010",
+  "gbr": "4010.01 d1h2",
+  "fen": "1Q6/8/8/2q1p3/8/8/1B5k/3K4 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bxe5+",
+      "nl": "Lxe5+",
+      "fenAfter": "1Q6/8/8/2q1B3/8/8/7k/3K4 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "1Q6/8/8/2q1B3/8/8/8/3K2k1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qg8+",
+      "nl": "Dg8+",
+      "fenAfter": "6Q1/8/8/2q1B3/8/8/8/3K2k1 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "6Q1/8/8/2q1B3/8/8/8/3K1k2 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "8/5Q2/8/2q1B3/8/8/8/3K1k2 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qf2",
+      "nl": "Df2",
+      "fenAfter": "8/5Q2/8/4B3/8/8/5q2/3K1k2 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qc4+",
+      "nl": "Dc4+",
+      "fenAfter": "8/8/8/4B3/2Q5/8/5q2/3K1k2 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/4B3/2Q5/8/5qk1/3K4 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "8/8/8/4B3/6Q1/8/5qk1/3K4 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/4B3/6Q1/8/5q2/3K1k2 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qe4",
+      "nl": "De4",
+      "fenAfter": "8/8/8/4B3/4Q3/8/5q2/3K1k2 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Qc5",
+      "nl": "Dc5",
+      "fenAfter": "8/8/8/2q1B3/4Q3/8/8/3K1k2 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/2q1B3/8/8/4Q3/3K1k2 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/2q1B3/8/8/4Q3/3K2k1 w - - 13 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "8/8/8/2q1B3/6Q1/8/8/3K2k1 b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/2q1B3/6Q1/8/8/3K1k2 w - - 15 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/8/2q5/3B2Q1/8/8/3K1k2 b - - 16 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Qxd4",
+      "nl": "Dxd4",
+      "fenAfter": "8/8/8/8/3q2Q1/8/8/3K1k2 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qxd4",
+      "nl": "Dxd4",
+      "fenAfter": "8/8/8/8/3Q4/8/8/3K1k2 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Da8+ Kg1 2.Dg8+ (2.De4 is kor-\n\nEen stille dwangstelling.\n\nEr is niets beter.\n\nMet winst.\n\nHet is een correctie van een foute\nstudie van Julien Vandiest die ver-\nscheen in EG (1979). Mijn oplos-\nsing is iets korter dan zijn versie:\n\nKd1 Da1 Le5 / Kg2 Dc5 +\n(Na H. Rinck)\n\nter) 2…Kf1 3.Df7+ Df2 4.Dc4+ Kg2",
+      "beforeVariant": {}
+    }
+  }
+}

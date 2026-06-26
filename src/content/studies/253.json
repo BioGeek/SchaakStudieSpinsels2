@@ -1,0 +1,103 @@
+{
+  "number": 253,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "EG, 2009",
+  "gbr": "0045.01 b6d8",
+  "fen": "1nNk4/8/1K6/4B1N1/2b2p2/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bxb8",
+      "nl": "Lxb8?",
+      "fenAfter": "1BNk4/8/1K6/6N1/2b2p2/8/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "1BN5/3k4/1K6/6N1/2b2p2/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ne4",
+      "nl": "Pe4!",
+      "fenAfter": "1BN5/3k4/1K6/8/2b1Np2/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "f3",
+      "nl": "f3",
+      "fenAfter": "1BN5/3k4/1K6/8/2b1N3/5p2/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "2N5/3k4/1K6/8/2b1N3/5pB1/8/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "2Nk4/8/1K6/8/2b1N3/5pB1/8/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bh4+",
+      "nl": "Lh4+",
+      "fenAfter": "2Nk4/8/1K6/8/2b1N2B/5p2/8/8 b - - 3 4",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "2N5/3k4/1K6/8/2b1N2B/5p2/8/8 w - - 4 5",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bf2",
+      "nl": "Lf2",
+      "fenAfter": "2N5/3k4/1K6/8/2b1N3/5p2/5B2/8 b - - 5 5",
+      "variant": "main",
+      "parent": "main.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het wit paard c8 staat aangeval-\nlen zodat het genomen wordt na",
+      "after": "1.Kb7        La6+\n\nen 4.Pxc4.\n\nNu is de zwarte loper ingesloten\nzodat na 4…La6? de vork 5.Pc5+\nen 6.Pxa6 volgt.\n\nBeter  dan  5…f2?  6.Lxf2  Kd8\n\nvolgt de vork 9.Pc5+ en 10.Pxa6\n\nMet winst\n\nEd van de Gevel schreef: “Ignace\nVandecasteele shows how to in-\ncarcerate a black bishop.”",
+      "beforeVariant": {
+        "main.a": "paardvork op veld d7. Daarom de\ngelijktijdige dekking en aanval met\n\nDit is de sterkste voortzetting van\nzwart, En niet een paardzet:",
+        "main.b": "en  4.Pxc4. Of  hier 2…Ke8",
+        "main.c": "en 4.Pxc4. Of hier 2… Ke8"
+      }
+    }
+  }
+}

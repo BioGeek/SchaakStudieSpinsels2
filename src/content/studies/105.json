@@ -1,0 +1,38 @@
+{
+  "number": 105,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "4001.01 g5e5",
+  "fen": "8/8/p4N2/4k1K1/8/8/q7/5Q2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qf4+",
+      "nl": "Df4+",
+      "fenAfter": "8/8/p4N2/4k1K1/5Q2/8/q7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/8/p3kN2/6K1/5Q2/8/q7/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "beide onnodige omwegen.\n    (Zie zet 9.)\n\nen wit veroverd de dame met:\n\nIk verkies deze economische ver-\nsie, dus zonder een extra zwarte\npion op veld g4, versie die ver-\nscheen in EBUR  2003. Het es-\nsentiele blijft immers behouden.",
+      "beforeVariant": {
+        "main.a": "Na 1.De1+?, Pd7+? of 1.Pg4+? is\nhet remise.\n\nOok na 3.De4+? Kd6, of 3.Df5+?\nKd6, is het remise.\n\nook niet goed."
+      }
+    }
+  }
+}

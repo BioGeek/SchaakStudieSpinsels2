@@ -1,0 +1,45 @@
+{
+  "number": 111,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "1330.01 f5g8",
+  "fen": "6k1/1p1r4/8/5K2/8/Q7/3b4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qb2",
+      "nl": "Db2",
+      "fenAfter": "6k1/1p1r4/8/5K2/8/8/1Q1b4/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "6k1/1p1r4/8/5K2/1b6/8/1Q6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qh8+",
+      "nl": "Dh8+",
+      "fenAfter": "6kQ/1p1r4/8/5K2/1b6/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…          Kf8\n\nEen moeilijk te vinden eerste zet.\n\nNa 1…Kf7?  volgt  2.Df6+ Ke8\n\nEr dreigt mat op veld h8.\n\nEn een niet zo gemakkelijk te vin-\nden winst van de dame tegen twee\nzware stukken en pion, daar noch\nschaakgeven, noch de toren aan-\nvallen als start, goed zijn.",
+      "beforeVariant": {}
+    }
+  }
+}

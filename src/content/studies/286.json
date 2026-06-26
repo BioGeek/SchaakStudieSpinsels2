@@ -1,0 +1,74 @@
+{
+  "number": 286,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Springaren, 2006",
+  "gbr": "0046.32 b5h5",
+  "fen": "n2b4/1PP5/2p5/1Kp4k/2B5/5n1P/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kxc5",
+      "nl": "Kxc5",
+      "fenAfter": "n2b4/1PP5/2p5/2K4k/2B5/5n1P/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bxc7",
+      "nl": "Lxc7?",
+      "fenAfter": "n7/1Pb5/2p5/2K4k/2B5/5n1P/8/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "bxa8=Q",
+      "nl": "bxa8D",
+      "fenAfter": "Q7/2b5/2p5/2K4k/2B5/5n1P/8/8 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Nxc7",
+      "nl": "Pxc7?",
+      "fenAfter": "3b4/1Pn5/2p5/2K4k/2B5/5n1P/8/8 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "b8=Q",
+      "nl": "b8D",
+      "fenAfter": "1Q1b4/2n5/2p5/2K4k/2B5/5n1P/8/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "n2b4/1PP5/2p4k/2K5/2B5/5n1P/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Hier zijn nu vier (4) mogelijkheden\nom een pion tot dame te laten pro-\nmoveren. Maar wit staat schaak.\nDus eerst::",
+      "after": "1...          Le7+\n\nPxa8 6.c8D.\n\nUiteraard niet 5.b8D? Ld6+ 6.Dxd6\nPxd6 , remise.\n\nZwart ruimt de doorgang voor de\nloper.\n\nDreigt 7.Lg3+\n\nNiet 8.b8D? Lc7+ 9.Dxc7 pat!\n\nWit wint hier door overmacht.\n\nMaar het onverwachte is dat, van\nde vier mogelijkheden, geen van\nbeide pionnen het  tot damepro-\nmotie kon brengen dankzij zwart’s\ntegenspel.",
+      "beforeVariant": {
+        "main.a": "Een  poging  als  1.Kxc6? Pe5+\n\nPe8+ 5.Kxe5 Lc7+ mislukt."
+      }
+    }
+  }
+}

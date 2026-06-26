@@ -1,0 +1,66 @@
+{
+  "number": 277,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "The Problemist, 2002",
+  "gbr": "3611.13 e5g2",
+  "fen": "8/6P1/7r/2p1K3/3p4/4B2p/6k1/5Nrq w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g8=Q+",
+      "nl": "g8D+",
+      "fenAfter": "6Q1/8/7r/2p1K3/3p4/4B2p/6k1/5Nrq b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kxf1",
+      "nl": "Kxf1",
+      "fenAfter": "6Q1/8/7r/2p1K3/3p4/4B2p/8/5krq w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qc4+",
+      "nl": "Dc4+",
+      "fenAfter": "8/8/7r/2p1K3/2Qp4/4B2p/8/5krq b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/7r/2p1K3/2Qp4/4B2p/8/4k1rq w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/7r/2p1K3/3p4/4B2p/4Q3/4k1rq b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Kan wit stand houden tegen zo’n\nzwaar bewapende tegenstander,\ndie de beide lichte stukken reeds\naanvalt? Gelukkig is er hulp van\nboven:",
+      "after": "Thans  zou  dit de  beginstelling\nkunnen zijn van een kleine studie\nop zich, met de volgende oplos-\nsing:\n\nweg.\n\nen mat.\n\nZie ook de volgende studie.",
+      "beforeVariant": {
+        "main.a": "Het beste, want na 1...Kf3? wint\nzowel 2.Da8+ als 2.Dd5+.\n\nNa  2...Kg2?  gaat  het  vlugger:\n\nvoort, zie de hoofdvariant. De wit-\nte dame jaagt nu de koning op:\n\nDf3 en wit komt niet verder. En na\n\nvia de linker vleugel\n\nNu slaat wit met de loper de twee-\nde toren\n\nHet beste om de dame te bevrij-\nden, want fout is:\n\nKg2 12.Df2+ en ook mat.",
+        "main.b": "en mat. Of:\n\nKg2 13.Df2+ en mat."
+      }
+    }
+  }
+}

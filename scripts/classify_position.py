@@ -320,6 +320,120 @@ def apply_gbr_king_correction(
     return fixed, True
 
 
+def gbr_material(gbr: str) -> dict[str, tuple[int, int]] | None:
+    """Decode the GBR material code into per-colour piece counts.
+
+    The four leading digits are the Queen, Rook, Bishop, Knight counts;
+    the two digits after the dot are the white/black pawn counts. Within
+    a digit a White piece counts 1 and a Black piece counts 3, so e.g.
+    "4001.00" -> Q one-white-one-black, N one-white, no pawns.
+
+    Returns {'Q': (w, b), 'R': ..., 'B': ..., 'N': ..., 'P': (w, b)} or
+    None if the code can't be parsed.
+    """
+    m = re.match(r"\s*(\d)(\d)(\d)(\d)\.(\d)(\d)", gbr)
+    if not m:
+        return None
+
+    def split(d: str) -> tuple[int, int] | None:
+        d = int(d)
+        for b in range(3):
+            for w in range(3):
+                if w + 3 * b == d:
+                    return (w, b)
+        return None  # digit too large to be a plain count
+
+    q, r, b, n = (split(m.group(i)) for i in (1, 2, 3, 4))
+    if None in (q, r, b, n):
+        return None
+    return {"Q": q, "R": r, "B": b, "N": n, "P": (int(m.group(5)), int(m.group(6)))}
+
+
+# Officer types whose silhouettes the shape-matcher most often confuses.
+# Locations are reliable; only the type label is suspect, so when GBR
+# disagrees we relabel the piece already sitting on that square.
+_OFFICERS = ("Q", "R", "B", "N")
+
+
+def apply_gbr_material_correction(
+    ranks: list[list[str]], gbr: str
+) -> tuple[list[list[str]], list[str]]:
+    """Relabel mis-typed officers using the GBR material counts.
+
+    For each colour, the classifier's piece *squares* are trusted but
+    their *types* are not. When the number of officers the classifier
+    found matches what GBR demands, we reassign the GBR-required types
+    onto those squares. The reassignment is only applied when it is
+    unambiguous (a single leftover slot, or all leftover slots want the
+    same type); genuinely ambiguous cases and piece-count mismatches are
+    reported as warnings and left untouched.
+
+    Returns (new_ranks, warnings).
+    """
+    mat = gbr_material(gbr)
+    if mat is None:
+        return ranks, []
+
+    fixed = [row[:] for row in ranks]
+    warnings: list[str] = []
+
+    for colour, is_upper in (("white", True), ("black", False)):
+        # Squares (r, c) holding an officer of this colour, with its type.
+        found = [
+            (r, c, cell.upper())
+            for r in range(8)
+            for c in range(8)
+            if (cell := fixed[r][c]) not in (".", "K", "k")
+            and cell.upper() in _OFFICERS
+            and cell.isupper() == is_upper
+        ]
+        idx = 0 if is_upper else 1
+        expected: list[str] = []
+        for t in _OFFICERS:
+            expected += [t] * mat[t][idx]
+
+        if len(found) != len(expected):
+            warnings.append(
+                f"{colour} officer count {len(found)} != GBR {len(expected)} "
+                f"({gbr.split()[0]}) — leaving piece types untouched"
+            )
+            continue
+
+        from collections import Counter
+
+        if Counter(t for *_, t in found) == Counter(expected):
+            continue  # types already agree
+
+        # Greedily keep squares whose type GBR still has budget for; the
+        # rest are "slots" that must take the leftover expected types.
+        budget = Counter(expected)
+        slots: list[tuple[int, int]] = []
+        for r, c, t in found:
+            if budget[t] > 0:
+                budget[t] -= 1
+            else:
+                slots.append((r, c))
+        leftover = list(budget.elements())  # types still to place
+
+        if len(set(leftover)) > 1:
+            warnings.append(
+                f"{colour} type confusion is ambiguous (need {sorted(leftover)} "
+                f"across {len(slots)} squares) — leaving piece types untouched"
+            )
+            continue
+
+        new_type = leftover[0]
+        for r, c in slots:
+            old = fixed[r][c]
+            fixed[r][c] = new_type if is_upper else new_type.lower()
+            warnings.append(
+                f"{colour} {old} at {square_name(c, r)} -> {fixed[r][c]} "
+                f"(GBR {gbr.split()[0]} material correction)"
+            )
+
+    return fixed, warnings
+
+
 def classify(diagram_path: Path, gbr: str | None = None) -> dict:
     img = cv2.imread(str(diagram_path))
     if img is None:
@@ -374,11 +488,21 @@ def classify(diagram_path: Path, gbr: str | None = None) -> dict:
             # Snap kings onto their GBR squares whenever GBR is provided.
             ranks, _ = apply_gbr_king_correction(ranks, gbr)
 
+    # Reconcile the remaining (non-king) material against the GBR counts.
+    material_ok = True
+    if gbr:
+        ranks, mat_warnings = apply_gbr_material_correction(ranks, gbr)
+        warnings += mat_warnings
+        # A leftover count mismatch can't be auto-fixed and means the FEN
+        # is probably wrong; a successful relabel is a fix, not a failure.
+        material_ok = not any("count" in w or "ambiguous" in w for w in mat_warnings)
+
     fen = ranks_to_fen(ranks)
 
     return {
         "fen": fen,
         "kings_ok": kings_ok,
+        "material_ok": material_ok,
         "warnings": warnings,
         "pieces": [
             {"letter": letter, "colour": c, "square": s} for letter, c, s in located

@@ -1,0 +1,45 @@
+{
+  "number": 59,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2011",
+  "gbr": "0013.10 d7d5",
+  "fen": "8/3K3n/3P4/1B1k4/8/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4K2n/3P4/1B1k4/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/4K2n/3P4/1Bk5/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "d7",
+      "nl": "d7",
+      "fenAfter": "8/3PK2n/8/1Bk5/8/8/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…           Pf8\n\nMaakt plaats voor de pionpromo-\ntie.\n\nHet paard lokt de de koning weg,\nmaar na:\n\nspeelt de opponent het best:\n\nNa 3…Kc6?  4.Lf3+ Kc5 5.Le4\nmoet de zwarte koning de pion\nloslaten of het paard offeren.\n\nNa 4…Kc5? 5.Le4 Kd4 volgt na-\ntuurlijk 6.Kxf8\n\nDit offeraanbod verplicht zwart nu\nhet paard te spelen:\n\nWhat else?\n\nHet is gelukt, wit wint.",
+      "beforeVariant": {}
+    }
+  }
+}

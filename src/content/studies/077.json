@@ -1,0 +1,38 @@
+{
+  "number": 77,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EG, 1976",
+  "gbr": "0340.10 c6h6",
+  "fen": "6r1/8/P1K4k/8/8/2B5/8/7b w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "6r1/3K4/P6k/8/8/2B5/8/7b b - - 1 1",
+      "variant": "A",
+      "parent": null
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "6r1/3K4/P6k/3b4/8/2B5/8/8 w - - 2 2",
+      "variant": "A",
+      "parent": "A.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "En nu:",
+      "after": "1…         Th5            2.Le5        Txe5             3.a8D(T)     Ld5+            4.Kd6        Lxa8            5.Kxe5\n\n1…         Lh7            2.Kd5       Td1+            3.Ld4        Te1            4.Le3        Txe3             5.a8D(T)     Le4+            6.Kd4        Lxa8            7.Kxe3\n\nDe herhaling van het loperoffer in\n    echovorm is een verfijning van een\n     studie van A. Grin in Diagrammes.\n     (1965)\n\n    Kb7 La3 a7 h5 /\n                Kg7 Th1 Lg8 a6 =\n\n    Met  als  oplossing  1.Lb2+ Kh6\n\nLxe8 8.Kxe3 enzovoort.\n\n     Vriend Roger Missiaen vond het:\n     “A miniature made to measure.”\n\n    En John Beasly schreef: “La ver-\n     sion de Vandecasteele ne con-\n      tient que les pièces thématiques,\n      c’est une étude superbe.”",
+      "beforeVariant": {
+        "A.c": "Ld5+"
+      }
+    }
+  }
+}

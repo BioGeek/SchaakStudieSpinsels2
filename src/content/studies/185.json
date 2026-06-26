@@ -1,0 +1,29 @@
+{
+  "number": 185,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2008",
+  "gbr": "0061.11 b3f7",
+  "fen": "8/5kp1/5Pb1/8/8/1K2bN2/8/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "8/5kp1/5Pb1/4N3/8/1K2b3/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Door  slechts een  extra  zwarte\nloper aan een studie van Jan Tim-\nman toe te voegen verlengde ik de\noplossing met vier (4) zetten, in bo-\nvenstaande versie.",
+      "after": "1...         Ke6        2.Pxg6       Kxf6\n\n1...          Kxf6            2.Pg4+       Kf5            3.Pxe3+     Ke4            4.Pc2       Kd3            5.Pe1+      Ke2\n\nEn nu de tweede zet van Timman:\n     (Zie studie onderaan)\n\nIk vond ook nog een tweede ver-\n     dere afwikkeling na zet: 13.Kc3,\n     namelijk  13…Ke4  14.Kd2  Le6\n\nIn het werkje van grootmeester Jan\n    Timman, (1994), opgedragen aan\n     Vlastimil Hort in Ausgewählte End-\n     spielstudien:\n\n    Kb3 Pe1 g5 / Ke2 Lh7 g7 =\n\n     ontstaat er na 1.g6 Lxg6 een mini-\n     studie met: 2.Pg2 Le4 3.Pf4+ Ke3",
+      "beforeVariant": {
+        "B": "En wit houdt remise. Men zie:\n\nWit komt niet verder, want ook na\nandere zwarte zetten blijft het een\ngelijkspel:"
+      }
+    }
+  }
+}

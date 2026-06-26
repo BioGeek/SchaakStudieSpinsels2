@@ -1,0 +1,337 @@
+{
+  "number": 5,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2000",
+  "gbr": "0003.10 d3g5",
+  "fen": "8/8/8/6k1/8/3K4/P7/7n w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "8/8/8/6k1/P7/3K4/8/7n b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nf2+",
+      "nl": "Pf2+",
+      "fenAfter": "8/8/8/6k1/P7/3K4/5n2/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/6k1/P2K4/8/5n2/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Ng4",
+      "nl": "Pg4",
+      "fenAfter": "8/8/8/6k1/P2K2n1/8/8/8 w - - 3 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "8/8/8/P5k1/3K2n1/8/8/8 b - - 0 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "8/8/5n2/P5k1/3K4/8/8/8 w - - 1 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/8/P4n2/6k1/3K4/8/8/8 b - - 0 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3n4/P7/6k1/3K4/8/8/8 w - - 1 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "8/P2n4/8/6k1/3K4/8/8/8 b - - 0 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/P7/1n6/6k1/3K4/8/8/8 w - - 1 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/P7/1n6/2K3k1/8/8/8/8 b - - 2 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Na8",
+      "nl": "Pa8",
+      "fenAfter": "n7/P7/8/2K3k1/8/8/8/8 w - - 3 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "n7/P7/2K5/6k1/8/8/8/8 b - - 4 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kh6",
+      "nl": "K~",
+      "fenAfter": "n7/P7/2K4k/8/8/8/8/8 w - - 5 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "n7/PK6/7k/8/8/8/8/8 b - - 6 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kh7",
+      "nl": "K~",
+      "fenAfter": "n7/PK5k/8/8/8/8/8/8 w - - 7 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Kxa8",
+      "nl": "Kxa8",
+      "fenAfter": "K7/P6k/8/8/8/8/8/8 b - - 0 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/8/5k2/P2K4/8/5n2/8 w - - 3 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "8/8/8/P4k2/3K4/8/5n2/8 b - - 0 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "8/8/8/P4k2/3Kn3/8/8/8 w - - 1 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/8/P2K1k2/4n3/8/8/8 b - - 2 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "8/8/8/P2K1k2/8/2n5/8/8 w - - 3 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/8/2K5/P4k2/8/2n5/8/8 b - - 4 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/2K5/P3k3/8/2n5/8/8 w - - 5 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/8/P1K5/4k3/8/2n5/8/8 b - - 0 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "8/8/P1K5/3nk3/8/8/8/8 w - - 1 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "8/P7/2K5/3nk3/8/8/8/8 b - - 0 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Ne7+",
+      "nl": "Pe7+",
+      "fenAfter": "8/P3n3/2K5/4k3/8/8/8/8 w - - 1 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/P3n3/8/2K1k3/8/8/8/8 b - - 2 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Nc8",
+      "nl": "Pc8",
+      "fenAfter": "2n5/P7/8/2K1k3/8/8/8/8 w - - 3 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "a8=Q",
+      "nl": "a8D",
+      "fenAfter": "Q1n5/8/8/2K1k3/8/8/8/8 b - - 0 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.b.5",
+      "ply": 5,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/8/8/2K2k2/P7/8/5n2/8 b - - 4 3",
+      "variant": "B.b",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.b.6",
+      "ply": 6,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/8/8/2K2k2/P7/3n4/8/8 w - - 5 4",
+      "variant": "B.b",
+      "parent": "B.b.5"
+    },
+    {
+      "id": "B.b.7",
+      "ply": 7,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1K3k2/P7/3n4/8/8 b - - 6 4",
+      "variant": "B.b",
+      "parent": "B.b.6"
+    },
+    {
+      "id": "B.b.8",
+      "ply": 8,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "8/8/8/1K3k2/P4n2/8/8/8 w - - 7 5",
+      "variant": "B.b",
+      "parent": "B.b.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En dus nevenoplosbaar.\n\n   Een leerzaam voorbeeld van cor-\n    recte eenvoud is mijn verbetering.",
+      "beforeVariant": {
+        "A": "En twee mogelijkheden:",
+        "B.a": "En ook hier is de pionpromotie niet\n     te stuiten.\n\n   Een werkje van Milenko Dukic in\n     Buletin Problemistic (1986) heeft\n    twee oplossingen:\n\n   Kd4 a2 / Kh7 Pf2 +\n\n   Na 1.a4 Pd1 2.a5 Pb2 wint zowel\n    de auteursoplossing:",
+        "B.b": "versie:"
+      }
+    }
+  }
+}

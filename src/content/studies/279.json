@@ -1,0 +1,81 @@
+{
+  "number": 279,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel 2014",
+  "gbr": "0311.22 b2c8",
+  "fen": "2k5/1p2p3/2P5/1N4B1/8/P5r1/1K6/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Na7+",
+      "nl": "Pa7+",
+      "fenAfter": "2k5/Np2p3/2P5/6B1/8/P5r1/1K6/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kxc7",
+      "nl": "Kxc7?",
+      "fenAfter": "8/Npk1p3/2P5/6B1/8/P5r1/1K6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bf4+",
+      "nl": "Lf4+",
+      "fenAfter": "8/Npk1p3/2P5/8/5B2/P5r1/1K6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/Np2p3/1kP5/8/5B2/P5r1/1K6/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc8+",
+      "nl": "Pc8+",
+      "fenAfter": "2N5/1p2p3/1kP5/8/5B2/P5r1/1K6/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kxc6",
+      "nl": "K~",
+      "fenAfter": "2N5/1p2p3/2k5/8/5B2/P5r1/1K6/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bxg3",
+      "nl": "Lxg3",
+      "fenAfter": "2N5/1p2p3/2k5/8/8/P5B1/1K6/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Na 1...Kc7? 2.Lf4+ Kb6 3.Pc8+\nKxc6 4.Lxg3 en wit wint\n\nNu faalt 2.Lf4+? Kxa7 3.c7 Tg8. Of\nhier 3.Lxg3 bxc6, met remise.\n\nWit  offert  het paard. Maar  niet\n\nNiet goed is 3.c8D? Txg5 met\nremise.\n\nMet de dreiging 8…Kb7.\n\nEn nu de witte koning veilig ge-\nborgen is, wint wit.",
+      "beforeVariant": {}
+    }
+  }
+}

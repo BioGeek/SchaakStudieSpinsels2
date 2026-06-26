@@ -1,0 +1,48 @@
+{
+  "number": 113,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2009",
+  "gbr": "0050.01 a7d7",
+  "fen": "2b3B1/KpBk4/8/8/8/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1Kb3B1/1pBk4/8/8/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "1Kb3B1/1pB5/2k5/8/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Bb6+",
+      "nl": "Lb6+",
+      "fenAfter": "1Kb3B1/1p6/1Bk5/8/8/8/8/8 b - - 3 2",
+      "variant": "B",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Hier speelt de loper op g8 een be-\nlangrijke rol.",
+      "after": "1…           b5 1…b6? is onvoldoende: 2.Lc4 b5 3.Lxb5+ en 4.Kxc8.      2.Lh7         La6      3.Ld3         Kc6       4.La5\n\nZwart opent de poort om de loper\nte laten ontsnappen.\n\nmaar dezelfde poort verhindert nu\nzijn vlucht.\n\nEn zodoende moet de zwarte lo-\nper ook hier het loodje leggen.\n\nDe twee vluchtpogingen van de\nreeds opgesloten zwarte loper mis-\nlukken.",
+      "beforeVariant": {
+        "A": "Na 1.Kb6? of een loperzet  ont-\nsnapt de zwarte loper: 1…Ke7.\n\nDe kortste weg.\n\nWeeron de korste weg\n\nVoor de derde keer de beste zet.",
+        "B": "Om de witte koning te verhinderen\nveld c7 te bezetten.\n\nEn nog eens dè zet.\n\nEn nog eens!\n\nEindelijk.\n\nEn wit wint, maar opgepast niet\nmet 11.Kxc8? wegens pat."
+      }
+    }
+  }
+}

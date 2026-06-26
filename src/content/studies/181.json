@@ -1,0 +1,122 @@
+{
+  "number": 181,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Flemish Miniatures, 1997",
+  "gbr": "0310.21 c8e8",
+  "fen": "2K1k3/8/p1P5/8/1P2B3/8/4r3/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bd3",
+      "nl": "Ld3",
+      "fenAfter": "2K1k3/8/p1P5/8/1P6/3B4/4r3/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rb2",
+      "nl": "Tb2",
+      "fenAfter": "2K1k3/8/p1P5/8/1P6/3B4/1r6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "2K1k3/8/p1P5/1P6/8/3B4/1r6/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Rb3",
+      "nl": "Tb3",
+      "fenAfter": "2K1k3/8/p1P5/1P6/8/1r1B4/8/8 w - - 1 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "4k3/1K6/p1P5/1P6/8/1r1B4/8/8 b - - 2 3",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Rc3",
+      "nl": "Tc3",
+      "fenAfter": "4k3/1K6/p1P5/1P6/8/2rB4/8/8 w - - 3 4",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Rg2",
+      "nl": "Tg2",
+      "fenAfter": "2K1k3/8/p1P5/1P6/8/3B4/6r1/8 w - - 1 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1K2k3/8/p1P5/1P6/8/3B4/6r1/8 b - - 2 3",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "C.6",
+      "ply": 6,
+      "san": "Rf2",
+      "nl": "Tf2",
+      "fenAfter": "2K1k3/8/p1P5/1P6/8/3B4/5r2/8 w - - 1 3",
+      "variant": "C",
+      "parent": "main.3"
+    },
+    {
+      "id": "C.7",
+      "ply": 7,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "4k3/1K6/p1P5/1P6/8/3B4/5r2/8 b - - 2 3",
+      "variant": "C",
+      "parent": "C.6"
+    },
+    {
+      "id": "C.8",
+      "ply": 8,
+      "san": "Rf7",
+      "nl": "Tf7",
+      "fenAfter": "4k3/1K3r2/p1P5/1P6/8/3B4/8/8 w - - 3 4",
+      "variant": "C",
+      "parent": "C.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De aangevallen loper dreigt niet\nalleen de toren, maar ook de pion,\nte slaan met:",
+      "after": "Kxf8.\n\nen de toren valt na:\n\nEn ook hier wint wit.\n                                   .",
+      "beforeVariant": {
+        "A": "En nu niet de pion 2.Lxa6? Txb4",
+        "B": "De toren is uitgespeeld, wit wint.",
+        "B.a": "Een subtiele zet.\n\nDe aangevallen dame kan niet weg\n    en een schaak op c4 is verijdeld\n     door de zwarte pion.\n\nWant na:",
+        "C": "Dit tweede offeraanbod is de poin-\n      te, waardoor de zwarte dreiging\n      teniet wordt gedaan, en wit wint."
+      }
+    }
+  }
+}

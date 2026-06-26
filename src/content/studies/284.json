@@ -1,0 +1,85 @@
+{
+  "number": 284,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Averbach-80 JT, 2004",
+  "gbr": "0143.12 h8d8",
+  "fen": "3k3K/8/4P3/8/8/5p2/4B1pR/5nb1 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Rh4",
+      "nl": "Th4?",
+      "fenAfter": "3k3K/8/4P3/8/7R/5p2/4B1p1/5nb1 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bd4+",
+      "nl": "Ld4+",
+      "fenAfter": "3k3K/8/4P3/8/3b3R/5p2/4B1p1/5n2 w - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bxf3",
+      "nl": "Lxf3?",
+      "fenAfter": "3k3K/8/4P3/8/8/5B2/6pR/5nb1 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Bd4+",
+      "nl": "Ld4+",
+      "fenAfter": "3k3K/8/4P3/8/3b4/5B2/6pR/5n2 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "3k4/7K/4P3/8/3b4/5B2/6pR/5n2 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "g1=Q",
+      "nl": "g1D",
+      "fenAfter": "3k4/7K/4P3/8/3b4/5B2/7R/5nq1 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rg2",
+      "nl": "Tg2",
+      "fenAfter": "3k3K/8/4P3/8/8/5p2/4B1R1/5nb1 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.e7+\n\n1...         Ke8\n\n1...Kxe7? 2.Lxf3 Ld4+ 3.Kg8 g1D+ 4.Tg2  en  bijvoorbeeld  4...De3 5.Te2 Dxe2 6.Lxe2, of hier 4...Dh1 5.Te2+ Kd6 6.Lxh1, met remise.        2.Lxf3       Ld4+        3.Kg8\n\nOok met remise.\n\nHet commentaar van de  jarige\ncomponist  luidde:  “Here  White\ncannot  prevent  queening,  but\nusing a pawn he succesfully traps\nthe new queen.”",
+      "beforeVariant": {
+        "main.b": "ten faalt door 1…fxe2 2.Te4\n   e1D 3.e7+ Ke8 4.Txe1 en er\n    volgt  toch  Ld4+  5.Kh7  en",
+        "A": "bijvoorbeeld 3…De3,  verliest\n    wit door de overmacht van\n    zwart.\nEn alhoewel de witte toren en lo-\nper beide aangevallen staan, biedt\nwit zijn pion aan:\n\nZwart verschuilt zich er achter om\nde promotie te verhinderen:\n\nWant slaat hij de pion, dan gaat het\nzo:\n\nEn niet 3.Kh7? g1D 4.Tg2 Dh1+\n\nkomt  in het spel met  winst, Er\ndreigt immers 6…Kxe7. Daarom\nbijvoorbeeld  6.Te2  Df6+  7.Kh5\nDxf3+ en 8…Dxe2.\n\nGehinderd door haar eigen stuk-\nken rest de zwarte dame nog twee\nvluchtwegen:",
+        "B": "Met remise."
+      }
+    }
+  }
+}

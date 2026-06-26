@@ -1,0 +1,106 @@
+{
+  "number": 295,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2007-08",
+  "gbr": "0431.12 a2c5",
+  "fen": "8/8/8/2k5/RrN5/p1P5/K1p5/3b4 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Rxb4",
+      "nl": "Txb4?",
+      "fenAfter": "8/8/8/2k5/1RN5/p1P5/K1p5/3b4 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "8/8/8/2k5/1RN5/p1P5/K7/2qb4 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nxa3",
+      "nl": "Pxa3",
+      "fenAfter": "8/8/8/2k5/1R6/N1P5/K7/2qb4 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Qd2+",
+      "nl": "Dd2+",
+      "fenAfter": "8/8/8/2k5/1R6/N1P5/K2q4/3b4 w - - 1 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "cxb4+",
+      "nl": "cxb4+?",
+      "fenAfter": "8/8/8/2k5/RPN5/p7/K1p5/3b4 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/8/RPNk4/p7/K1p5/3b4 w - - 1 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Nb2",
+      "nl": "Pb2",
+      "fenAfter": "8/8/8/8/RP1k4/p7/KNp5/3b4 b - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "8/8/8/8/RP1k4/p7/KN6/2qb4 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "cxb4",
+      "nl": "cxb4",
+      "fenAfter": "8/8/8/2k5/RPN5/p7/K1p5/3b4 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Er dreigt een zwarte pionpromo-\ntie, en het slaan van de zwarte to-\nren is fout:",
+      "after": "en ook hier remise wegens mate-\nriaalgebrek.\n     Pet af voor de bordspeler die in\n    een wedstrijd de remisezet 3.Tg5\n      vindt!\n\n    José A. Copié schreef: “Un traba-\n      jo atractivo de original idea, espe-\n     cialmente por el quinto movimien-\n     to de las piezas blancas que pro-\n    duce los temas de ahogo, junto al\n    de tablas posicionales.”\n\n     Iury Akobia vond het: “An attempt\n     to develop a well-known idea fur-\n      ther, but the play is very short.”\n\n    Ja precies, kort en krachtig!",
+      "beforeVariant": {
+        "main.b": "Dc1+ 6.Ka2 Lc4 7.Pxc4 Kxc4,\n   en zwart wint. Ook na:\n\nbeeld 2…c1D  volgt  3.Tc5+\n    Kb(d)7 4.Pd(e)6+ K~ 5.Txc1.",
+        "main.a": "(2…Kxb5 3.Pxa3+ en 4.Pxc2)\n\nzwart heeft de slechte loper.\n\nDreigt na:",
+        "A": "Hoe kan wit hier nu de dreigende\nzwarte promotie overleven? Speelt\nhij, om van een patstelling te profi-\nteren na 3.Txa3? c1D, nu 4.Ta4+?,\nhopend op “eeuwig schaak”, dan\nontsnapt de zwarte koning uitein-\ndelijk aan een zinvol schaak, met\nbijvoorbeeld 4…Kc5 5.Ta5+ Kd4\n\nDe enige zet die remise houdt,\ndaar nu 3…Le2? faalt op 4.Tg1\nLd1 5.Tg5 Le2 6.Tg1, met eeuwig\nschaak.\n\nOmdat nu na de tekstzet 3…Kc4?\n\npion sneuvelt, rest dus, zoals José\nCopié schreef:“En este momento\nclave se presantan las siguientes\nalternativas, todas ellas muy inte-\nresantes:”",
+        "B": "pat. Of eeuwig schaak. Of dame-\nvangst. Men zie: 4...Ka4? 5.Ta5+\nKb4  6.Tb5+  Kc3  7.Tc5+  K~",
+        "C": "En pat. Of remise na bijvoorbeeld",
+        "D": "met remise volgens de Endgame\nTablebase van Nalimov,  bijvoor-\nbeeld:\n\nenzovoort."
+      }
+    }
+  }
+}

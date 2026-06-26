@@ -1,0 +1,200 @@
+{
+  "number": 257,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2010",
+  "gbr": "4010.03 c6a5",
+  "fen": "2Q5/4q3/2K4p/k4p2/8/8/3p4/5B2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qa6+",
+      "nl": "Da6+",
+      "fenAfter": "8/4q3/Q1K4p/k4p2/8/8/3p4/5B2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/4q3/Q1K4p/5p2/1k6/8/3p4/5B2 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qc4+",
+      "nl": "Dc4+",
+      "fenAfter": "8/4q3/2K4p/5p2/1kQ5/8/3p4/5B2 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka3",
+      "nl": "Ka3",
+      "fenAfter": "8/4q3/2K4p/5p2/2Q5/k7/3p4/5B2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qc3+",
+      "nl": "Dc3+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/k1Q5/3p4/5B2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/4q3/2K4p/5p2/8/2Q5/k2p4/5B2 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bc4+",
+      "nl": "Lc4+",
+      "fenAfter": "8/4q3/2K4p/5p2/2B5/2Q5/k2p4/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/4q3/2K4p/5p2/2B5/2Q5/3p4/1k6 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bd3+",
+      "nl": "Ld3+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/2QB4/3p4/1k6 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/4q3/2K4p/5p2/8/2QB4/k2p4/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qxd2+",
+      "nl": "Dxd2+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/3B4/k2Q4/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka3",
+      "nl": "Ka3",
+      "fenAfter": "8/4q3/2K4p/5p2/8/k2B4/3Q4/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qc1+",
+      "nl": "Dc1+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/k2B4/8/2Q5 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/4q3/2K4p/5p2/8/1k1B4/8/2Q5 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/1k6/2B5/2Q5 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/4q3/2K4p/5p2/2k5/8/2B5/2Q5 w - - 5 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bb1+",
+      "nl": "Lb1+",
+      "fenAfter": "8/4q3/2K4p/5p2/2k5/8/8/1BQ5 b - - 6 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/4q3/2K4p/5p2/3k4/8/8/1BQ5 w - - 7 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qe3+",
+      "nl": "De3+",
+      "fenAfter": "8/4q3/2K4p/5p2/3k4/4Q3/8/1B6 b - - 8 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/4q3/2K4p/5p2/8/3B4/k1Qp4/8 b - - 11 6",
+      "variant": "B",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Ka6 Kb4 2.Dc4+ Ka3 3.Dc3+\n\n21Lxf5+      Kf7\n\nEn mat.\n\nHet is een correctie van een ver-\njaardagsgeschenk van Julien Van-\ndiest aan Internationaal Meester\nHans Bouwmeester, ter gelegen-\nheid van zijn 75e verjaardag.\n\nIk had in 2004 vriend Julien er al\nverscheidene malen op gewezen\ndat er duals en andere foutjes in\nzijn studie waren, die ik dan  ver-\nbeterde en hem mededeelde, om-\ndat Julien niet over een computer\nbeschikte, veronderstel ik.\nPlots verscheen dan in EG 2004,\nonder de titel: Vandiest 90 years!,\nde onderstaande studie met een\noplossing door vriend Hans be-\nschreven als: “As far as I can tell\nthe sometimes astounding victory\nstrategies are flawless.” :\n\nKc6 Dc8 Lf1 / Ka5 De7 f5 h6 +\n\nMet deze niet correcte oplossing:\n\nKa2  4.Lc4+  Kb1  5.Ld3+  Ka2\n\nrect.) 6…Ka3 7.Dc1+ Kb3 8.Lc2+\nKc4  8.Lc2+  Kc4  9.Lb1+  Kd4\n\nDb4 21.Lxf5+ Kf7 22.De6+ Kg7\n\nKf(e)6 26.Lh7+ Ke5 27.Dg5 (Ook\n\nKb3 30.Lg8 Ka4 31.Da1+ Da3\n\nnu 33.Dh5+, 33.Dd8+, 33.De1+ of\nook  33.Dd2  correct.) 33…Kb4\n\nwinnend) 34…Ka5 35.Db5+ en\nmat.\n       Sorry, maar de studie is dus niet\n        correct, maar  vele malen neven-\n       oplosbaar.\n\n      “Deze studie blijkt toch al eerder te\n         zijn  gepubliceerd,  namelijk   in\n      Sachova Skladba 1991…” schreef\n       Harold van der Heijden, die blijk-\n       baar overdonderd door deze lan-\n      ge studie, niet verder naar eventu-\n        ele fouten heeft gezocht, veron-\n        derstel ik. Hij schreef immers:\n       “Zeer ingenieus!”\n\n -     Nogmaals sorry, maar aangezien\n         ik reeds vele malen verbeteringen\n      heb aangebracht aan deze lange\n       studie van de negentigjarige (90!)\n        Julien, beschouw ik ze dan ook, op\n         zijn  minst,  als een  gezamenlijk\n       oeuvre van ons beide.\n\nk",
+      "beforeVariant": {
+        "B": "j      10.Dd2+      Ke5\n\nHet gaat iets sneller na: 13…f4?\n\nv16.De1+   Kf6   17.Dh4+   Ke6\n\nDe winnende zet. Men zie:\n\nVariant A:\n\nEn wit wint. Ook in :"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "number": 289,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2010",
+  "gbr": "0313.23 b4a1",
+  "fen": "5B2/8/2P5/3r1n2/pK3p2/5p2/5P2/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "c7",
+      "nl": "c7",
+      "fenAfter": "5B2/2P5/8/3r1n2/pK3p2/5p2/5P2/k7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rd4+",
+      "nl": "Td4+",
+      "fenAfter": "5B2/2P5/8/5n2/pK1r1p2/5p2/5P2/k7 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "5B2/2P5/8/1K3n2/p2r1p2/5p2/5P2/k7 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rd5+",
+      "nl": "Td5+",
+      "fenAfter": "5B2/2P5/8/1K1r1n2/p4p2/5p2/5P2/k7 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Bxd6",
+      "nl": "Lxd6?",
+      "fenAfter": "8/8/2PB4/3r1n2/pK3p2/5p2/5P2/k7 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Nxd6",
+      "nl": "Pxd6",
+      "fenAfter": "8/8/2Pn4/3r4/pK3p2/5p2/5P2/k7 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Kc6 Lf8 c7 f2 / Ka1 Td4 Pf5 a4 f3\n\nEen zwarte offeraanbieding. Want\n\nWant 8.c8D? 9.Tc4+ Dxc4 is pat.\n\nEn mat volgt.\n\n    Het is een correctie van mijn studie\n    een halve eeuw geleden (1959):\n\n    Kb4 Lf8 c6 / Ka1 Td5 Pf5 +\n\n    Na 1.c7 Td4+ 2.Kb3 Td3+ 3.Kc2\n    Td6 4.Lg7+ kan zwart hier 4…Ka2\n     spelen met  5.c8D Pe3+  6.Kc3\n    (6…Kc1 Td1+ en mat.) 6…Pd5+\n\nPxc6. Slechts remise.\n\n     Vriend Roger Missiaen wist echter\n     door het toevoegen van drie pion-\n    nen op de f-lijn, mijn versie correct\n     te houden. Waarvoor dank.\n\n    En tenslotte  is er ook nog deze\n     versie:\n\nf4 +\n\n    Met 1.Kb5 Td5 …enzovoort.",
+      "beforeVariant": {
+        "main.a": "Tc1+ 5.Kxc1 f2 6.c8D f1D+.\n\nTWant na  1...Pd6 2.Lxd6 Txd6\n\nNa 3.Kb6? volgt 3…Td6+ 4.Lxd6\nPxd6 5.Kc5 Pc8, en geen winst.\n      3een onnodige omweg.\nNa 4…Td2? volgt 5.c8D en wit wint\ndoor overmacht.\n\nEen zwarte offeraanbieding;\n\nEn een witte7.c8D. En:"
+      }
+    }
+  }
+}

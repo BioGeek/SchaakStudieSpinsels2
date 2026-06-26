@@ -1,0 +1,75 @@
+{
+  "number": 47,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2008",
+  "gbr": "4010.00 c3c6",
+  "fen": "2q5/8/2k5/8/8/1BK5/2Q5/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kb4+",
+      "nl": "Kb4+",
+      "fenAfter": "2q5/8/2k5/8/1K6/1B6/2Q5/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "2q5/1k6/8/8/1K6/1B6/2Q5/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "2q5/1k6/8/3B4/1K6/8/2Q5/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1kq5/8/8/3B4/1K6/8/2Q5/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qh2+",
+      "nl": "Dh2+",
+      "fenAfter": "1kq5/8/8/3B4/1K6/8/7Q/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qc7",
+      "nl": "Dc7",
+      "fenAfter": "1k6/2q5/8/3B4/1K6/8/7Q/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Het is mat.\n\nMaar niet 14.Lxb7? en pat.",
+      "beforeVariant": {
+        "main.a": "Na 7…Ka7? 8.Da5+ Da6 9.Dc7+\nDb7+ 10.Dxb7+ is het mat.",
+        "main.b": "en mat."
+      }
+    }
+  }
+}

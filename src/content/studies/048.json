@@ -1,0 +1,57 @@
+{
+  "number": 48,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2008",
+  "gbr": "0004.10 f5a1",
+  "fen": "4n3/8/8/4PK2/8/5N2/8/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "4n3/8/4K3/4P3/8/5N2/8/k7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Nc7+",
+      "nl": "Pc7+",
+      "fenAfter": "8/2n5/4K3/4P3/8/5N2/8/k7 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/2n2K2/8/4P3/8/5N2/8/k7 b - - 3 2",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/2n2K2/8/4P3/8/5N2/1k6/8 w - - 4 3",
+      "variant": "A",
+      "parent": "A.17"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het pionnetje moet nog drie stap-\npen doen om  te  promoveren.\nToch zal de witte koning nog drie-\nmaal het oprukken van de pion\ndienen te blokkeren wil  hij win-\nnen.",
+      "after": "1…         Kb2            2.Pd4       Kc3            3.Pb5+      Kb4             4.Kf7        Kc5             5.e6         Pd6+            6.Pxd6      Kxd6             7.e7\n\nEn wit wint.",
+      "beforeVariant": {
+        "A": "Eerste pionblokkade.",
+        "B": "Tweede blokkade.\n\nEen derde blokkade.\n\nEen eerste stap, maar nu komt de\n      vijandelijke koning naderbij.\n\nSterker dan: 7…Pe7 8.Kf6 Pd5+\n\nen 12.e7.\n\nTweede stap.\n\nDe hengst springt hopeloos terug\n    op het oorspronkelijke veld, en na\n\nvolgt de derde stap naar promo-\n       tie. Maar als de zwarte koning ge-\n     haast is gaat het vlugger:"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "number": 219,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1961",
+  "gbr": "0450.01 b1d2",
+  "fen": "r7/1bR5/8/8/8/6B1/1p1k4/1K3B2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rc2+",
+      "nl": "Tc2+",
+      "fenAfter": "r7/1b6/8/8/8/6B1/1pRk4/1K3B2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "r7/1b6/8/8/8/4k1B1/1pR5/1K3B2 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rc3+",
+      "nl": "Tc3+",
+      "fenAfter": "r7/1b6/8/8/8/2R1k1B1/1p6/1K3B2 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "r7/1b6/8/8/3k4/2R3B1/1p6/1K3B2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Be5+",
+      "nl": "Le5+",
+      "fenAfter": "r7/1b6/8/4B3/3k4/2R5/1p6/1K3B2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kxe5",
+      "nl": "K~",
+      "fenAfter": "r7/1b6/8/4k3/8/2R5/1p6/1K3B2 w - - 0 4",
+      "variant": "main",
+      "parent": "main.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De zwarte loper is opgesloten, en\nwit heeft één stuk meer. Daarvan\nprofiteert hij met:",
+      "after": "Weerom met winst.\n\nEn wint wit hier met beide lopers.",
+      "beforeVariant": {
+        "main.a": "leidt niet tot winst..\n\nAllebei met winst.\n\n(5.Lxg1  is  pat)  5...Tb1+  6.Ka2\n(6.Kxb1 is wederom pat) 6… Tb8.\nEn één van beide witte stukken\ngaat verloren met remise.\n\nOok de witte toren staat nu en\n      prise. Maar na:"
+      }
+    }
+  }
+}

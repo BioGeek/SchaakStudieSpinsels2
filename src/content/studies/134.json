@@ -1,0 +1,41 @@
+{
+  "number": 134,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "0014.01 e7a2",
+  "fen": "n7/4K3/8/N6p/8/7B/k7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "n7/8/3K4/N6p/8/7B/k7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Ka3",
+      "nl": "Ka3",
+      "fenAfter": "n7/8/3K4/N6p/8/k6B/8/8 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…          Pb6      2.Kc5         Pa4+\n\nniet 11.Lxd3 wegens 11...h1D\n  met winst voor zwart.\n\nMaar ook hier is het mat.\n\nWant na 12.Lxh1 is het remise.\n\nZe ook studie -208 -",
+      "beforeVariant": {
+        "A": "Wit tracht het paard in te sluiten.\n\nNa 2…Pa8? is het zover met bij-\nvoorbeeld 3.Kc6.",
+        "B": "En mat.\n\nMaar zwart heeft een beter ant-\nwoord:",
+        "B.a": "Een  laatste  ontsnappingspoging\nvan het paard.\nNa:",
+        "B.b": "wint wit na 60 zetten volgens\n   de database van Ken Thomp-\n    son. En na"
+      }
+    }
+  }
+}

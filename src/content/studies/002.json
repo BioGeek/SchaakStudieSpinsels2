@@ -1,0 +1,165 @@
+{
+  "number": 2,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 1999",
+  "gbr": "0033.10 a8g3",
+  "fen": "K7/8/5P2/8/1n6/6kb/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f7",
+      "nl": "f7",
+      "fenAfter": "K7/5P2/8/8/1n6/6kb/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bg2+",
+      "nl": "Lg2+",
+      "fenAfter": "K7/5P2/8/8/1n6/6k1/6b1/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1K6/5P2/8/8/1n6/6k1/6b1/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "1K6/5P2/2n5/8/8/6k1/6b1/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K2P2/2n5/8/8/6k1/6b1/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/2K2P2/8/8/3n4/6k1/6b1/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/5P2/3K4/8/3n4/6k1/6b1/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/5P2/3K4/5n2/8/6k1/6b1/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/3K1P2/8/5n2/8/6k1/6b1/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Ke5",
+      "nl": "Ke5?",
+      "fenAfter": "8/5P2/8/4Kn2/8/6k1/6b1/8 b - - 8 5",
+      "variant": "main.a",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "Ke6",
+      "nl": "Ke6?",
+      "fenAfter": "8/5P2/4K3/5n2/8/6k1/6b1/8 b - - 8 5",
+      "variant": "main.b",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "8/5P2/4K3/3b1n2/8/6k1/8/8 w - - 9 6",
+      "variant": "main.b",
+      "parent": "main.b.9"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Kxd5",
+      "nl": "Kxd5",
+      "fenAfter": "8/5P2/8/3K1n2/8/6k1/8/8 b - - 0 6",
+      "variant": "main.b",
+      "parent": "main.b.10"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bc6+",
+      "nl": "Lc6+",
+      "fenAfter": "8/3K1P2/2b5/5n2/8/6k1/8/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kxc6",
+      "nl": "Kxc6?",
+      "fenAfter": "8/5P2/2K5/5n2/8/6k1/8/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ne7+",
+      "nl": "Pe7+",
+      "fenAfter": "8/4nP2/2K5/8/8/6k1/8/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Pe7+ 7.Ke6 Pg6 8.Kf6  Pf8,\n    enzovoort. Maar geen winst.\n\nEn plots onverwacht:\n\nEen offeraanbod dat wit weigert:\n\nDe pointe van de vorige zet.\n\nDreigt 7…Pe6(+)\n\nmet winst.\n\nDeze maljutka  is ontstaan naar\naanleiding van een foute studie\nvan Andrei Selivanov in Shakmat-\nnaya Kompozitsia (1996):\n\nKb8 g6 / Ka6 Le1 Pb5 +\n\nNa 1.g7 Lg3+ 2.Kc8 Pd6+ 3.Kd7\nPe4 4.Ke6 Pg5 gaat de auteur ver-\nder met 5.Kf5 Pf7 6.Kg6 Pe5+\n\nontdekte dat 5.Ke7 Ld6+ 6.Ke8\nPe4 7.Kf7 Pg5+ het ook doet.\nNevenoplosbaar dus.\n\nHarold van der Heijden oordeelde\nechter: “Vandecasteele noemt dit\neen correctie. maar in feite is het\neen nieuwe  studie  after  Seliva-\nnov.”",
+      "beforeVariant": {
+        "main.a": "remise. Want na 5.f8D of 5.f8T of\n\nzelfs winst voor zwart.\n\nDreigt 4…Pe6(+)\n\nNa:",
+        "main.b": "voorbeeld  6.Kf6 Pd5  7.Kg6\n   Pf4+ Kh6 8.Pe6, met remise.\n   Ook na:"
+      }
+    }
+  }
+}

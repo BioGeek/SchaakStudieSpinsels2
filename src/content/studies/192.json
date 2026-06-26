@@ -1,0 +1,29 @@
+{
+  "number": 192,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2007",
+  "gbr": "0045.00 h2e4",
+  "fen": "8/6n1/4N1B1/4b3/4k3/6N1/7K/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "8/6n1/6B1/2N1b3/4k3/6N1/7K/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "In dit pionloos miniatuurtje kan wit\ngeen  van  beide  stukken  slaan\nzonder eigen stukverlies. Hij heeft\nde keuze tussen twee paardzet-\nten:",
+      "after": "1…          Kf5\n\n1.Pb6+ Ke6 2.Pd8+ Ke7 3.Pc6+\n\nDus nevenoplosbaar.\n\nHet zwarte paard had hier te wei-\nnig bewegingsruimte. Die heb ik nu\nvergroot door de beginstelling op\nte schuiven.",
+      "beforeVariant": {
+        "main.a": "Maar niet 1.Pg5+? Kf5, en een van\nde paarden wordt veroverd.\n\nOp zijn beurt antwoordt zwart niet\nmet 1…Kd5? wegens 2.Lxe5 Kxc5\n\nen wit wint zowel met 3.Pd3 als\nmet 3.Pd7. Dus nevenoplosbaar.\n\nEn niet 2.Ph4+? Kf6 3.Pd7+ Ke6\n\nmeer te redden. Of hier 4.Pxe5\nPh5, en wit verliest een stuk.\n\nOok hier is de keuze 3.Pg8+? fout:\n\nremise.\n\nEn  niet  5.Pd7+?  Ke6  6.Lxe6\n(6.Pxe5? Ph5.) 6…Pe8 en nu ont-\nsnapt dit paard met remise.\n\nEindelijk. Maar niet:\n\nmet remise.\n\nEn wit wint met loper en paard.\n\n“At times and fortunately for us all,\nfriend Ignace remembers that he is\nborn under the invisible sign of the\nCarousel” vermoedde Julien Van-\ndiest.\nBij het nachecken op correctheid\nvoor dit boek, vond ik een neven-\noplossing in mijn oorspronkelijke\nversie (1997):\n\nKg3 Lf4 Pd7 Pf7 / Kd5 Ld6 Pf8 +\n\nKe6 4.Pd4+ Ke7, en nu naast\n\nin bovenstaande correctie)  is er\neen tweede winstmogelijkheid, met\nname: 5.Pc8+ met 5…Kd7 6.Lxd6,\n(En niet 6.Pxd6? Pg6 met verlies\nvan de witte loper of een paard).\nWit wint in beide gevallen na:"
+      }
+    }
+  }
+}

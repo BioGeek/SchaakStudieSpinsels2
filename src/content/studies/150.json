@@ -1,0 +1,67 @@
+{
+  "number": 150,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2016",
+  "gbr": "0410.01 e7a8",
+  "fen": "k1r5/3RK3/8/5B2/8/5p2/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "k1r5/3RK3/8/8/4B3/5p2/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1kr5/3RK3/8/8/4B3/5p2/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "1kr5/1R2K3/8/8/4B3/5p2/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k1r5/1R2K3/8/8/4B3/5p2/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "k1r5/1R1K4/8/8/4B3/5p2/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En mat.",
+      "beforeVariant": {
+        "main.a": "3            Tg8\n\n5             Ta6\nNog het beste:",
+        "main.b": "Kb8 8.Kd6 (dreigt mat) 8.Txe4",
+        "main.c": "Kb8 8.Kd6 Td2+ 9.Ld5 Txd5"
+      }
+    }
+  }
+}

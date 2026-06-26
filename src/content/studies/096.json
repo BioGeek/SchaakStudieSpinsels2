@@ -1,0 +1,162 @@
+{
+  "number": 96,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "2000",
+  "gbr": "4010.01 b3b1",
+  "fen": "6Q1/8/8/7p/8/1K6/7q/1kB5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bd2",
+      "nl": "Ld2",
+      "fenAfter": "6Q1/8/8/7p/8/1K6/3B3q/1k6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Qh3+",
+      "nl": "Dh3+",
+      "fenAfter": "6Q1/8/8/7p/8/1K5q/3B4/1k6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "6Q1/8/8/7p/8/1KB4q/8/1k6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qh2",
+      "nl": "Dh2",
+      "fenAfter": "6Q1/8/8/7p/8/1KB5/7q/1k6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "8/8/6Q1/7p/8/1KB5/7q/1k6 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/6Q1/7p/8/1KB5/7q/2k5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Be5",
+      "nl": "Le5",
+      "fenAfter": "8/8/6Q1/4B2p/8/1K6/7q/2k5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Qh3+",
+      "nl": "Dh3+",
+      "fenAfter": "8/8/6Q1/4B2p/8/1K5q/8/2k5 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "8/8/6Q1/7p/8/1K4Bq/8/2k5 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/6Q1/7p/8/1K4Bq/3k4/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/8/8/7p/8/1K4Bq/2Qk4/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/8/8/7p/8/1K2k1Bq/2Q5/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qf2+",
+      "nl": "Df2+",
+      "fenAfter": "8/8/8/7p/8/1K2k1Bq/5Q2/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/8/7p/4k3/1K4Bq/5Q2/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qf4+",
+      "nl": "Df4+",
+      "fenAfter": "8/8/8/7p/4kQ2/1K4Bq/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/8/3k3p/5Q2/1K4Bq/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Beide vorige versies zijn gegroeid\n      uit de bovenstaande stelling, met\n    de gedurfde beginzet:",
+      "after": "Want na 1…Dxd2? 2.Dg1+ Dc1\n\nhet mat.\n\n(Zie zet 6.)",
+      "beforeVariant": {}
+    }
+  }
+}

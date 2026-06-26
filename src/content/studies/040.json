@@ -1,0 +1,57 @@
+{
+  "number": 40,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Probleemblad, 2002",
+  "gbr": "1330.00 c1h5",
+  "fen": "8/8/8/1r5k/8/7b/8/Q1K5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qh8+",
+      "nl": "Dh8+",
+      "fenAfter": "7Q/8/8/1r5k/8/7b/8/2K5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "7Q/8/8/1r6/6k1/7b/8/2K5 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "8/8/8/1r6/3Q2k1/7b/8/2K5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/8/8/1r5k/3Q4/7b/8/2K5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Dat een dame wint tegen een to-\nren én een loper is niet zo evi-\ndent.",
+      "after": "En ook hier wint wit.",
+      "beforeVariant": {
+        "A": "Wit valt zowel de toren als de lo-\nper aan.\n\nZwart valt op zijn beurt de dame\naan.",
+        "B": "De zwarte stukken klitten samen\n     zodat wit ze niet kan slaan, maar\n     na:\n\nmet de dreiging 9.Kf4, heeft de\n     zwarte koning geen bewegings-\n      vrijheid meer.\n\nen mat is het gevolg."
+      }
+    }
+  }
+}

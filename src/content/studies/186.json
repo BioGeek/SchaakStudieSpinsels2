@@ -1,0 +1,138 @@
+{
+  "number": 186,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2003",
+  "gbr": "0044.10 b5b8",
+  "fen": "1k3N2/8/2n5/1K1b4/B7/8/3P4/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "1k3N2/8/2n5/2Kb4/B7/8/3P4/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ne7",
+      "nl": "Pe7",
+      "fenAfter": "1k3N2/4n3/8/2Kb4/B7/8/3P4/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "1k3N2/4n3/3K4/3b4/B7/8/3P4/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nc8+",
+      "nl": "Pc8+",
+      "fenAfter": "1kn2N2/8/3K4/3b4/B7/8/3P4/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kxd5",
+      "nl": "Kxd5",
+      "fenAfter": "1kn2N2/8/8/3K4/B7/8/3P4/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "1k3N2/8/1n6/3K4/B7/8/3P4/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "1k3N2/8/1nK5/8/B7/8/3P4/8 b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nxa4",
+      "nl": "Pxa4",
+      "fenAfter": "1k3N2/8/2K5/8/n7/8/3P4/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd7+",
+      "nl": "Pd7+",
+      "fenAfter": "1k6/3N4/2K5/8/n7/8/3P4/8 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "8/k2N4/2K5/8/n7/8/3P4/8 w - - 2 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "8/k7/1NK5/8/n7/8/3P4/8 b - - 3 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Nxb6",
+      "nl": "Pxb6",
+      "fenAfter": "8/k7/1nK5/8/8/8/3P4/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/k7/1n6/1K6/8/8/3P4/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit heeft een extra pion op de\nstartbaan staan en wacht geduldig\naf.",
+      "after": "Ook hier met winst voor wit.",
+      "beforeVariant": {
+        "A": "Daar gaat de loper. Maar na:\n\nis ook wit de loper kwijt.\n\nen de pion brengt redding.\n\nDe zwarte hengst dreigt uit te bre-\nken.\n\nEn nu:",
+        "B": "Dreigt 12...Pc4. Maar te laat.\n\nEindelijk kan de pion promoveren\ntot een ‘Exelsior.’"
+      }
+    }
+  }
+}

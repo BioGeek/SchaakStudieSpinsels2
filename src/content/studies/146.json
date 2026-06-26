@@ -1,0 +1,99 @@
+{
+  "number": 146,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "4001.01 e4b7",
+  "fen": "3Q4/1k6/8/4p3/4K3/1N6/1q6/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Na5+",
+      "nl": "Pa5+",
+      "fenAfter": "3Q4/1k6/8/N3p3/4K3/8/1q6/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "3Q4/k7/8/N3p3/4K3/8/1q6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "3Q4/k7/2N5/4p3/4K3/8/1q6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "3Q4/8/k1N5/4p3/4K3/8/1q6/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qa8+",
+      "nl": "Da8+",
+      "fenAfter": "Q7/8/k1N5/4p3/4K3/8/1q6/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "Q7/8/1kN5/4p3/4K3/8/1q6/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qb8+",
+      "nl": "Db8+",
+      "fenAfter": "1Q6/8/1kN5/4p3/4K3/8/1q6/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "1Q6/8/k1N5/4p3/4K3/8/1q6/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qa7+",
+      "nl": "Da7+",
+      "fenAfter": "8/Q7/k1N5/4p3/4K3/8/1q6/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "koning ontsnapt.\n\nZo vangt men een zwarte dame\n    zonder in de ‘patval’ te trappen.",
+      "beforeVariant": {}
+    }
+  }
+}

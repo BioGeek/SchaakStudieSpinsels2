@@ -1,0 +1,261 @@
+{
+  "number": 125,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "0rigineel, 2010",
+  "gbr": "4010.01 c2h2",
+  "fen": "8/q3p3/2Q5/8/8/8/2KB3k/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bf4+",
+      "nl": "Lf4+",
+      "fenAfter": "8/q3p3/2Q5/8/5B2/8/2K4k/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/q3p3/2Q5/8/5B2/8/2K5/6k1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "8/q3p3/6Q1/8/5B2/8/2K5/6k1 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/q3p3/6Q1/8/5B2/8/2K5/5k2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd3+",
+      "nl": "Dd3+",
+      "fenAfter": "8/q3p3/8/8/5B2/3Q4/2K5/5k2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/q3p3/8/8/5B2/3Q4/2K2k2/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qg3+",
+      "nl": "Dg3+",
+      "fenAfter": "8/q3p3/8/8/5B2/6Q1/2K2k2/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/q3p3/8/8/5B2/6Q1/2K5/5k2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qh3+",
+      "nl": "Dh3+",
+      "fenAfter": "8/q3p3/8/8/5B2/7Q/2K5/5k2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/q3p3/8/8/5B2/7Q/2K1k3/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qg2+",
+      "nl": "Dg2+",
+      "fenAfter": "8/q3p3/8/8/5B2/8/2K1k1Q1/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Qf2",
+      "nl": "Df2",
+      "fenAfter": "8/4p3/8/8/5B2/8/2K1kqQ1/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qe4+",
+      "nl": "De4+",
+      "fenAfter": "8/4p3/8/8/4QB2/8/2K1kq2/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf1+",
+      "nl": "Kf1+",
+      "fenAfter": "8/4p3/8/8/4QB2/8/2K2q2/5k2 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/4p3/8/8/4QB2/8/5q2/3K1k2 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "e6",
+      "nl": "e6",
+      "fenAfter": "8/8/4p3/8/4QB2/8/5q2/3K1k2 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qh1+",
+      "nl": "Dh1+",
+      "fenAfter": "8/8/4p3/8/5B2/8/5q2/3K1k1Q b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Qg1",
+      "nl": "Dg1",
+      "fenAfter": "8/8/4p3/8/5B2/8/8/3K1kqQ w - - 2 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "8/8/4p3/8/5B2/5Q2/8/3K1kq1 b - - 3 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Qf2",
+      "nl": "Df2",
+      "fenAfter": "8/8/4p3/8/5B2/5Q2/5q2/3K1k2 w - - 4 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qe4",
+      "nl": "De4",
+      "fenAfter": "8/8/4p3/8/4QB2/8/5q2/3K1k2 b - - 5 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "e5",
+      "nl": "e5",
+      "fenAfter": "8/8/8/4p3/4QB2/8/5q2/3K1k2 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Bxe5",
+      "nl": "Lxe5",
+      "fenAfter": "8/8/8/4B3/4Q3/8/5q2/3K1k2 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/4B3/4Q3/8/5q2/3K2k1 w - - 1 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/8/8/3BQ3/8/5q2/3K2k1 b - - 2 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Qxd4",
+      "nl": "Dxd4",
+      "fenAfter": "8/8/8/8/3qQ3/8/8/3K2k1 w - - 0 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Qxd4+",
+      "nl": "Dxd4+",
+      "fenAfter": "8/8/8/8/3Q4/8/8/3K2k1 b - - 0 14",
+      "variant": "main",
+      "parent": "main.26"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "In 1979(!) publiceerde Julien Van-\ndiest deze ministudie, die ik nu op\nhet einde corrigeer.",
+      "after": "Een onverwachte zet.\n\nEn wint.\n\nKnap werk van Julien, die zijn stu-\ndie publiceerde  in EG.  (after H.\nRinck and V.N. Dolgov)\n\nMaar jammer genoeg struikelde hij\nop  het  einde  over  12...Da7?\n\nWant na 12…Da7? wint wit niet\nalleen met 13.De2+, maar ook met\n\nzoals ik ontdekte.\n\nJammer, maar nevenoplosbaar.\n\nToch verdienstelijk van Julien.",
+      "beforeVariant": {}
+    }
+  }
+}

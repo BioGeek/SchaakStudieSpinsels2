@@ -1,0 +1,27 @@
+{
+  "number": 228,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Flemish Miniatures 1997",
+  "gbr": "0011.12 h8a7",
+  "fen": "7K/k7/1N4p1/4B3/3P4/8/p7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/k5K1/1N4p1/4B3/3P4/8/p7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Op zoek  naar een  miniatuurtje\nheeft deze versie als oplossing:\n\nKd5  4.Sf6+  Ke6  5.Sg4  Kd5\n\nen wit wint bijvoorbeeld na:",
+      "after": "paard.\n\nDoch  ik verkies de stelling hier-\nnaast omdat de witte koning reeds\nop de eerste zet een functie heeft,\nen het paard over negen (9!) con-\nsecutieve zetten galoppeert.",
+      "beforeVariant": {}
+    }
+  }
+}

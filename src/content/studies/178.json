@@ -1,0 +1,66 @@
+{
+  "number": 178,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Euwe 100 MT, 2001",
+  "gbr": "0410.02 d3f7",
+  "fen": "7R/5k2/2r4B/8/8/3K2p1/5p2/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rf8+",
+      "nl": "Tf8+",
+      "fenAfter": "5R2/5k2/2r4B/8/8/3K2p1/5p2/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.17",
+      "ply": 17,
+      "san": "Bg5",
+      "nl": "Lg5?",
+      "fenAfter": "7R/5k2/2r5/6B1/8/3K2p1/5p2/8 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.b.17",
+      "ply": 17,
+      "san": "Bf8",
+      "nl": "Lf8?",
+      "fenAfter": "5B1R/5k2/2r5/8/8/3K2p1/5p2/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.18",
+      "ply": 18,
+      "san": "Rc2",
+      "nl": "Tc2",
+      "fenAfter": "5B1R/5k2/8/8/8/3K2p1/2r2p2/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.17"
+    },
+    {
+      "id": "main.b.19",
+      "ply": 19,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "7R/4Bk2/8/8/8/3K2p1/2r2p2/8 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Ke7\n\n1…Kg6? 2.Le3 Tf6 3.Txf6+ Kxf6 4.Ke2 is het reeds remise.        2.Txf2        gxf2        3.Lg5+      Ke6        4.Ke2\n\nKe3.\n\nHier moet zwart berusten, want\neen zet als 10…Ta2?, om 11.La7+\nte beletten, faalt wegens bijvoor-\nbeeld 11…Lc7 Tb2, en nu komt\n\nEn nu korte metten met:\n\nzodat er een theoretische remise-\nstelling bereikt wordt.\nGrootmeester Jan Timman him-\nself fungeerde als prijsrechter over\n132   (!)  ingezonden  studies  en\noordeelde over deze inzending:\n“The initial position is very natural.\nThe very subtle play of Rook and\npawn against Bishop gains some-\nthing extra because White has to\ncoordinate his forces very careful.\nThe tempo play that leads to the\ntechnical position after White’s 7th\nmove is very ingenious. Also du-\nring the technical phase White has\nto play very accurate.\n\nThis study is a small but important\ncontribution to endgame theory.”\n\nAchteraf in 2009, ontdekte ik dat in\nmijn studie  wit ook  correct kan\nwinnen als na 4.Ke2 zwart ant-\nwoordt met: 4… Tc2+ 5.Kf1 Kf5\n\nals  in de  oorspronkelijke oplos-\nsing.\n    Hans Bouwmeester vond mijn stu-\n     die “Minstens zo mooi als de stu-\n     die van Enserink, die de Eerste\n      Prijs kreeg”.\n\n    En besloot met: “Wat een rijke in-\n    houd met  zo  weinig  materiaal.\n    Deze studie heeft een befaamde\n     voorganger. Paul Benko was even-\n     als Timman, een grootmeester van\n     het praktische spel. Benko verwierf\n    met de hieronder staande studie in\n    1967 een Eerste Prijs in Magyar\n     Sakkélet\n\n     Kf1 Lb8 / Kh3 Ta2 f2 =\n\n    Met deze  oplossing: 1.Lc7 Tb2",
+      "beforeVariant": {
+        "main.a": "Niet 1.Ke2? Te6+ 2.Le3 Txe3+\n\nTxe3 4.Kxe3 f1D 5.Txg3+ Kh6.\n\nZwart valt de toren aan want na\n\nAls wit deze pion kan slaan zon-\nder loperverlies dan is het remise.\nVan nu af heeft hij steeds maar één\nzet die tot het doel leidt.\n\nHet  beste, want na 4…Tc2+ ?\n\nals 7.Kg2 voldoende voor remise.\n\nVerhindert 7…Kf3. Er  dreigt nu\n\nAlle andere zetten verliezen zoals:\n\ngens 8…Ke3 9.Lxf2 Txf2.",
+        "main.b": "Ke3, enzovoort. Of:"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "number": 128,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2012",
+  "gbr": "0014.01 e1a8",
+  "fen": "k7/8/2p5/8/N7/8/8/n3K1B1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "k7/8/2p5/8/N7/8/3K4/n5B1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…          Pb3      2.Kc3         Pa5\n\nDreigt het paard in te sluiten.\n\nNa 2…Pc1? verliest zwart na 40\nzetten. Bijvoorbeeld: 3.Lh2 Pe2+\n\nzovoort.\n\nen het liedje is uit.\n\nNa 10…Ka7  verliest zwartna 28\n     zetten door bijvoorbveeld 11.Kb5\n    Ka8 12.Kc4 Ka7 13.Pb5+ Ka6\n\nWinst door elf (11) opeenvolgende\n     zetten van wit zonder schaak te\n     geven!",
+      "beforeVariant": {}
+    }
+  }
+}

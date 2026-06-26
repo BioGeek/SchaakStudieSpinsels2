@@ -1,0 +1,112 @@
+{
+  "number": 37,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Jan Timman - 50 JT, 2001",
+  "gbr": "0014.00 g1h7",
+  "fen": "8/7k/8/8/1N6/n7/8/3B2K1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Be2",
+      "nl": "Le2",
+      "fenAfter": "8/7k/8/8/1N6/n7/4B3/6K1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/6k1/8/8/1N6/n7/4B3/6K1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bd3",
+      "nl": "Ld3",
+      "fenAfter": "8/6k1/8/8/1N6/n2B4/8/6K1 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/8/5k2/8/1N6/n2B4/8/6K1 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/5k2/8/1N6/n2B4/5K2/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/8/4k3/8/1N6/n2B4/5K2/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "8/8/4k3/3N4/8/n2B4/5K2/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/8/3Nk3/8/n2B4/5K2/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "Be2",
+      "nl": "Le2",
+      "fenAfter": "8/8/8/3Nk3/8/n7/4BK2/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.30"
+    },
+    {
+      "id": "main.34",
+      "ply": 34,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/8/3N1k2/8/n7/4BK2/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.31"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Een probleemzet.\n\nzet 13. in de hoofdvariant.\n\nOpnieuw een vluchtpoging, maar:\n\n(Zie zet 13.)\n\n(Zie zet 14.)\n\nPf117.Pe4+(Zie zet 15.)\n\nEn ‘black beauty’ zit in de val.\n\nWit wint, maar niet 21.Lxg4? pat.\n\nIn een gespiegelde versie die per\nabuis verscheen in Probleemblad\n(2004) schreef rubriekleider Ward\nStoffelen: “De verovering van het\nzwarte paard is een werk van lan-\nge adem. Natuurlijk Is dat met de\nThompson database gemakkelijk\nop te lossen”. Ward heeft het dus\nover ‘oplossen’ en niet over ‘com-\nponeren’\n\nTerecht ging hij dan verder met:\n“Maar de verdienste van de com-\nponist  is dat het oplossingsver-\nloop vanuit de beginstelling bij de\nbeste zwarte verdediging singu-\nlier is. Sinds John Nunn dergelij-\nke stellingen voor het eerst distil-\nleerde uit de 5-stukken database,\nzijn daarover twee diametraal te-\ngenover elkaar staande opinies\ngangbaar. Oplossers die de data-\nbase gebruiken vinden de oplos-\nsing vanzelfsprekend een ‘mak-\nkie’, maar dat is niet echt fair.”\n    En is, omdat de componist nu be-\n     schikt over meer  gesofisticeerd\n     materiaal, het scheppen van een\n     kleine maar  fijne  schaakstudie\n    daarom minderwaardig?\n\n      Ik wou eerst de onderstaande uit-\n     breiding opsturen naar het Jan\n    Timman-50 JT, maar vond ze niet\n    zo mooi: Nu wel.\n\n    Kg1 Le2 Lh6 Pd3 /\n               Kh7 La3 Pd1 +\n\n    Met de  oplossing:  1.Ld2 Pb2\n\nKg7 5.Ld3 Kf6 6.Kf2, enzovoort.\n     (Zie zet 3.)\n\n    Een verlenging met 3 zetten.\n\n   Op de nu twee dozijn zetten (24)\n     wordt er slechts éénmaal schaak\n    gegeven door wit!",
+      "beforeVariant": {
+        "main.a": "Nu de moor gevangen zit nade-\nren beide koningen:\n\nBeter dan 3…Ke5  4.Ke3 Ke6\n\nMaakt plaats voor zijn koning.\n\nEr dreigde immers 7.Pc2.\n\nOpgepast, niet:",
+        "main.b": "ontsnapt via 9…Pd2. En na:",
+        "main.c": "remise  daar  één  van  de\n    stukken verloren gaat."
+      }
+    }
+  }
+}

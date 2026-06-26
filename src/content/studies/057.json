@@ -1,0 +1,56 @@
+{
+  "number": 57,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EG, 2011",
+  "gbr": "0031.10 e8h8",
+  "fen": "4K2k/8/3N4/5P2/8/8/6b1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "5K1k/8/3N4/5P2/8/8/6b1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Bf1",
+      "nl": "Lf1",
+      "fenAfter": "5K1k/8/3N4/5P2/8/8/8/5b2 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "5K2/7k/3N4/5P2/8/8/6b1/8 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Kxf7",
+      "nl": "Kxf7",
+      "fenAfter": "8/5K1k/3N4/5P2/8/8/6b1/8 b - - 3 2",
+      "variant": "B",
+      "parent": "B.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De pion moet nog 3 zetten doen.\nDe koning bezet reeds een veld:",
+      "after": "1…         Kh7        2.Pf7\n\n1…         Ld5             2.Pf7+\n\nOok hier plaatst het paard zich\n     voor zijn pion.\n\nNa een zwarte koningszet volgt de\n     paardvork met verovering van de\n      loper.\n\nEr is niet beter;\n\nOok hier met winst.\n\n      Jarl Ulrichsen oordeelde over de-\n     ze studie “Fine  if you like to test\n     your capacity to play simple end-\n     games, but are not candidate for\n      the award.”\n\n      Hier wordt een pion, opweg naar\n      promotie,  tot tweemaal toe ver-\n      spert door twee obstakels, in bei-\n     de varianten.\n\n      Niet zo simpel, Jarl.\n     Ach, ieder zijn smaak!",
+      "beforeVariant": {
+        "B": "En ook het paard blokkeert de\nopmars van de pion.\n\nEn wit haalt toch het promotie-\nveld na:"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "number": 201,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Seven Chess Notes, 2009",
+  "gbr": "0113.02 e6h7",
+  "fen": "5R2/7k/4K3/8/8/1p1n1B2/p7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "8/5R1k/4K3/8/8/1p1n1B2/p7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1...         Kg8        2.Lg7        Pf4+ 2...a1D? 3.Lxa1 b2 4.Lxb2 Pxb2\n\n1...         Kg6        2.Tg7+\n\nEn niet 2.Lg7? Pf4+ 3.Ke7 Pd3\n\nEduard Kudelich dacht: “A plea-\nsant study with two main lines.”\n\nHet  is een correctie én een  uit-\nbreiding van een studie van John\nNunn uit 1979. (HHdbIII n°22922):\n\nKe8 Tf7 Lf8 Pc7 /\n         Kh8 Pb7 Pc3 a2 b3 +\n\nMet de oplossing: 1.Pd5 1...Pxd5\n\na1D 5.Lxa1 b2 6.Ta7 b1D 7.Tg7+\nKh8 8.Tg1+ Dxa1 9.Txa1.\n\nMaar werd  later  fout bevonden\ndoor: 1...Pe4! 2.Lg7+ Kh7 3.Pf6+\nPxf6+  4.Lxf6+ Kg6  5.Ke7 Pd6",
+      "beforeVariant": {
+        "B": "wint wit na 19 zetten (Nalimov)\n\n(7.Lxa1 is pat) Kh8 8.Tg2+ Dxb2"
+      }
+    }
+  }
+}

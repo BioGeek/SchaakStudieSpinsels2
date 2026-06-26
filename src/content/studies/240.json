@@ -1,0 +1,30 @@
+{
+  "number": 240,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Schakend Nederland, 1993",
+  "gbr": "0054.01 b7d7",
+  "fen": "8/1K1k1pn1/8/8/2bB4/8/2B5/7N w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ba4+",
+      "nl": "La4+",
+      "fenAfter": "8/1K1k1pn1/8/8/B1bB4/8/8/7N b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1...         Kd6\n\nDaarom:\n\nMaar nu volgt kort en krachtig:\n\nen mat.\n\nBemerk hoe de zwarte koning, zijn\nraadsheer en ruiter, als magneten\nnaar het centrum toe worden ge-\ntrokken, waar ze in mekaars ar-\nmen sterven.\n\nDeze studie kreeg, naar mijn be-\nscheiden mening, onterecht een\nDerde Prijs van de jury voor de\nverkeerde oplossing. Niet de zet\n\nzijn  dual,  is de  correcte  voort-\nzetting die moest gespeeld wor-\nden, maar wel de  sterkere  zet\n\nbovenstaande nieuwe variant.",
+      "beforeVariant": {
+        "main.a": "Want het gulzige 1.Lxg7? wordt\nonmiddellijk afgestraft door de zet-\nten 1...Ld5+ en 2...Lxh1.\n\nZwart behoudt de dreiging, maar\nniet goed is 1...Ke6? 2.Lxg7 Ld5+\n\nwint wit vrij makkelijk.\n\nNa deze en de voorgaande zet\nkan het aangevallen zwarte paard\nnog enkel naar één veilig veld:        v\n\ngeeft 4.Pf5+ en mat. Daarom:\n\nNu, na 3...Pe6? volgt niet alleen\n\nKc5 6.Le7+ en mat.) 5.Ld7+\n   Kd5 6.Pe3+ Kd4 7.Pxc4 Kxc4,\n   en twee lopers winnen tegen\n   een paard.\n\nNu zijn er na 4...Pf5? 5.Pxf5+ Ke6\nde duals:",
+        "main.b": "en mat. En ook na:\n\nMaar ook"
+      }
+    }
+  }
+}

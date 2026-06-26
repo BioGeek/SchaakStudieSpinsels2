@@ -1,0 +1,444 @@
+{
+  "number": 53,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Tim Crabbé-60 Compositie",
+  "gbr": "0014.00 d1g1",
+  "fen": "n7/8/8/4B3/8/8/7N/3K2k1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "n7/8/8/4B3/8/8/4K2N/6k1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/8/1n6/4B3/8/8/4K2N/6k1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ng4",
+      "nl": "Pg4",
+      "fenAfter": "8/8/1n6/4B3/6N1/8/4K3/6k1 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/1n6/4B3/6N1/8/4K1k1/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/8/1n6/4B3/8/4N3/4K1k1/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/8/1n6/4B3/8/4N2k/4K3/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/1n6/4B3/8/4NK1k/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/8/1n6/4B3/7k/4NK2/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/1n6/4B3/5K1k/4N3/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Nc8",
+      "nl": "Pc8",
+      "fenAfter": "2n5/8/8/4B3/5K1k/4N3/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bf6+",
+      "nl": "Lf6+",
+      "fenAfter": "2n5/8/5B2/8/5K1k/4N3/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "2n5/8/5B2/7k/5K2/4N3/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "2n5/8/5B2/4K2k/8/4N3/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "2n5/8/5Bk1/4K3/8/4N3/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "2n5/8/5Bk1/3NK3/8/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "2n5/5k2/5B2/3NK3/8/8/8/8 w - - 16 9",
+      "variant": "A",
+      "parent": "main.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Bh4",
+      "nl": "Lh4",
+      "fenAfter": "2n5/5k2/8/3NK3/7B/8/8/8 b - - 17 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Na7",
+      "nl": "Pa7",
+      "fenAfter": "8/n4k2/8/3NK3/7B/8/8/8 w - - 18 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/n4k2/3K4/3N4/7B/8/8/8 b - - 19 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Nb5+",
+      "nl": "Pb5+",
+      "fenAfter": "8/5k2/3K4/1n1N4/7B/8/8/8 w - - 20 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/5k2/8/1nKN4/7B/8/8/8 b - - 21 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/8/4k3/1nKN4/7B/8/8/8 w - - 22 12",
+      "variant": "A",
+      "parent": "A.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "8/8/4k3/1nKN4/8/6B1/8/8 b - - 23 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "A.24",
+      "ply": 24,
+      "san": "Na7",
+      "nl": "Pa7",
+      "fenAfter": "8/n7/4k3/2KN4/8/6B1/8/8 w - - 24 13",
+      "variant": "A",
+      "parent": "A.23"
+    },
+    {
+      "id": "A.25",
+      "ply": 25,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/n7/1N2k3/2K5/8/6B1/8/8 b - - 25 13",
+      "variant": "A",
+      "parent": "A.24"
+    },
+    {
+      "id": "A.26",
+      "ply": 26,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/n3k3/1N6/2K5/8/6B1/8/8 w - - 26 14",
+      "variant": "A",
+      "parent": "A.25"
+    },
+    {
+      "id": "A.27",
+      "ply": 27,
+      "san": "Bb8",
+      "nl": "Lb8",
+      "fenAfter": "1B6/n3k3/1N6/2K5/8/8/8/8 b - - 27 14",
+      "variant": "A",
+      "parent": "A.26"
+    },
+    {
+      "id": "A.28",
+      "ply": 28,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "1B1k4/n7/1N6/2K5/8/8/8/8 w - - 28 15",
+      "variant": "A",
+      "parent": "A.27"
+    },
+    {
+      "id": "A.29",
+      "ply": 29,
+      "san": "Bxa7",
+      "nl": "Lxa7",
+      "fenAfter": "3k4/B7/1N6/2K5/8/8/8/8 b - - 0 15",
+      "variant": "A",
+      "parent": "A.28"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Na7",
+      "nl": "Pa7",
+      "fenAfter": "8/n7/5Bk1/3NK3/8/8/8/8 w - - 16 9",
+      "variant": "B",
+      "parent": "main.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/n7/4KBk1/3N4/8/8/8/8 b - - 17 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Nc6",
+      "nl": "Pc6",
+      "fenAfter": "8/8/2n1KBk1/3N4/8/8/8/8 w - - 18 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/2n1KBk1/8/5N2/8/8/8 b - - 19 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "8/8/2n1KB1k/8/5N2/8/8/8 w - - 20 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/2n2B1k/3K4/5N2/8/8/8 b - - 21 11",
+      "variant": "B",
+      "parent": "B.20"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Nb4+",
+      "nl": "Pb4+",
+      "fenAfter": "8/8/5B1k/3K4/1n3N2/8/8/8 w - - 22 12",
+      "variant": "B",
+      "parent": "B.21"
+    },
+    {
+      "id": "B.23",
+      "ply": 23,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/8/5B1k/8/1nK2N2/8/8/8 b - - 23 12",
+      "variant": "B",
+      "parent": "B.22"
+    },
+    {
+      "id": "B.24",
+      "ply": 24,
+      "san": "Nc2",
+      "nl": "Pc2",
+      "fenAfter": "8/8/5B1k/8/2K2N2/8/2n5/8 w - - 24 13",
+      "variant": "B",
+      "parent": "B.23"
+    },
+    {
+      "id": "B.25",
+      "ply": 25,
+      "san": "Ng2",
+      "nl": "Pg2",
+      "fenAfter": "8/8/5B1k/8/2K5/8/2n3N1/8 b - - 25 13",
+      "variant": "B",
+      "parent": "B.24"
+    },
+    {
+      "id": "B.26",
+      "ply": 26,
+      "san": "Na3+",
+      "nl": "Pa3+",
+      "fenAfter": "8/8/5B1k/8/2K5/n7/6N1/8 w - - 26 14",
+      "variant": "B",
+      "parent": "B.25"
+    },
+    {
+      "id": "B.27",
+      "ply": 27,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/5B1k/8/1K6/n7/6N1/8 b - - 27 14",
+      "variant": "B",
+      "parent": "B.26"
+    },
+    {
+      "id": "B.28",
+      "ply": 28,
+      "san": "Nb1",
+      "nl": "Pb1",
+      "fenAfter": "8/8/5B1k/8/1K6/8/6N1/1n6 w - - 28 15",
+      "variant": "B",
+      "parent": "B.27"
+    },
+    {
+      "id": "B.29",
+      "ply": 29,
+      "san": "Bb2",
+      "nl": "Lb2",
+      "fenAfter": "8/8/7k/8/1K6/8/1B4N1/1n6 b - - 29 15",
+      "variant": "B",
+      "parent": "B.28"
+    },
+    {
+      "id": "B.30",
+      "ply": 30,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/8/7k/8/1K6/8/1B1n2N1/8 w - - 30 16",
+      "variant": "B",
+      "parent": "B.29"
+    },
+    {
+      "id": "B.31",
+      "ply": 31,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/7k/8/1K6/8/3n2N1/2B5 b - - 31 16",
+      "variant": "B",
+      "parent": "B.30"
+    },
+    {
+      "id": "B.32",
+      "ply": 32,
+      "san": "Kh7",
+      "nl": "K~",
+      "fenAfter": "8/7k/8/8/1K6/8/3n2N1/2B5 w - - 32 17",
+      "variant": "B",
+      "parent": "B.31"
+    },
+    {
+      "id": "B.33",
+      "ply": 33,
+      "san": "Bxd2",
+      "nl": "Lxd2",
+      "fenAfter": "8/7k/8/8/1K6/8/3B2N1/8 b - - 0 17",
+      "variant": "B",
+      "parent": "B.32"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "kan ook hier het paard vangen.\n\nWit wint ook hier.",
+      "beforeVariant": {
+        "A": "En twee zwarte verdedigingen:",
+        "B": "(Zie zet 14.)\n\nEn wit heeft het paard gevangen\nmet winst. Of:"
+      }
+    }
+  }
+}

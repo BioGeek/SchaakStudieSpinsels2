@@ -1,0 +1,90 @@
+{
+  "number": 56,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "EG, 2012",
+  "gbr": "0001.11 a2d6",
+  "fen": "7N/8/3k4/8/2P4p/8/K7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ng6",
+      "nl": "Pg6?",
+      "fenAfter": "8/8/3k2N1/8/2P4p/8/K7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "8/8/3k2N1/8/2P5/7p/K7/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nh4",
+      "nl": "Ph4",
+      "fenAfter": "8/8/3k4/8/2P4N/7p/K7/8 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "h2",
+      "nl": "h2",
+      "fenAfter": "8/8/3k4/8/2P4N/8/K6p/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/8/3k4/5N2/2P5/8/K6p/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/8/8/2k2N2/2P5/8/K6p/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ng3",
+      "nl": "Pg3",
+      "fenAfter": "8/8/8/2k5/2P5/6N1/K6p/8 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kxc4",
+      "nl": "Kxc4",
+      "fenAfter": "8/8/8/8/2k5/6N1/K6p/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Kc5        2.Kb3       h3        3.Pg5 3.Pe5? h2 4.Pd3+ Kd6 5.Pf2 Ke6 6.Kc3 (Het beste, want na 6.c5 of 6.kb4 is het remise met 6…Kf5 7.c5  Kf4  8.c6  Kf3  9.c7  Kxf2 10.c8D c1D)  6...Kf5 7.Kd3 Kf4 8.Ke2 h1D 9.Pxh1 Ke4.\n\nEerste fout!\n\nTweede fout!\n\nDerde fout!\n\nVierde fout!\n\nEn wit wint.\n\nDeze maljutka  is het eenvoudig\nbewijs dat een bordspeler  zich\nhier vier (4!) maal kan vergissen in\neen eenvoudige stelling met  vijf\nstukken en slechts zeven zetten\ndiep.",
+      "beforeVariant": {}
+    }
+  }
+}

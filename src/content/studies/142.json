@@ -4,7 +4,7 @@
   "chapterNumber": 3,
   "source": "Origineel, 2011",
   "gbr": "4010.01 b4a2",
-  "fen": "8/8/8/8/1K6/8/k3p3/2rB3Q w - - 0 1",
+  "fen": "8/8/8/8/1K6/8/k3p3/2qB3Q w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
@@ -12,7 +12,7 @@
       "ply": 1,
       "san": "Bb3+",
       "nl": "Lb3+",
-      "fenAfter": "8/8/8/8/1K6/1B6/k3p3/2r4Q b - - 1 1",
+      "fenAfter": "8/8/8/8/1K6/1B6/k3p3/2q4Q b - - 1 1",
       "variant": "main",
       "parent": null
     },
@@ -21,7 +21,7 @@
       "ply": 2,
       "san": "Kb2",
       "nl": "Kb2",
-      "fenAfter": "8/8/8/8/1K6/1B6/1k2p3/2r4Q w - - 2 2",
+      "fenAfter": "8/8/8/8/1K6/1B6/1k2p3/2q4Q w - - 2 2",
       "variant": "main",
       "parent": "main.1"
     },
@@ -30,7 +30,7 @@
       "ply": 3,
       "san": "Qh8+",
       "nl": "Dh8+",
-      "fenAfter": "7Q/8/8/8/1K6/1B6/1k2p3/2r5 b - - 3 2",
+      "fenAfter": "7Q/8/8/8/1K6/1B6/1k2p3/2q5 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
     },
@@ -39,7 +39,7 @@
       "ply": 4,
       "san": "Kb1",
       "nl": "Kb1",
-      "fenAfter": "7Q/8/8/8/1K6/1B6/4p3/1kr5 w - - 4 3",
+      "fenAfter": "7Q/8/8/8/1K6/1B6/4p3/1kq5 w - - 4 3",
       "variant": "main",
       "parent": "main.3"
     },
@@ -48,7 +48,7 @@
       "ply": 5,
       "san": "Qh7+",
       "nl": "Dh7+",
-      "fenAfter": "8/7Q/8/8/1K6/1B6/4p3/1kr5 b - - 5 3",
+      "fenAfter": "8/7Q/8/8/1K6/1B6/4p3/1kq5 b - - 5 3",
       "variant": "main",
       "parent": "main.4"
     },
@@ -57,7 +57,7 @@
       "ply": 6,
       "san": "Kb2",
       "nl": "Kb2",
-      "fenAfter": "8/7Q/8/8/1K6/1B6/1k2p3/2r5 w - - 6 4",
+      "fenAfter": "8/7Q/8/8/1K6/1B6/1k2p3/2q5 w - - 6 4",
       "variant": "main",
       "parent": "main.5"
     },
@@ -66,7 +66,7 @@
       "ply": 7,
       "san": "Qg7+",
       "nl": "Dg7+",
-      "fenAfter": "8/6Q1/8/8/1K6/1B6/1k2p3/2r5 b - - 7 4",
+      "fenAfter": "8/6Q1/8/8/1K6/1B6/1k2p3/2q5 b - - 7 4",
       "variant": "main",
       "parent": "main.6"
     },
@@ -75,7 +75,7 @@
       "ply": 8,
       "san": "Kb1",
       "nl": "Kb1",
-      "fenAfter": "8/6Q1/8/8/1K6/1B6/4p3/1kr5 w - - 8 5",
+      "fenAfter": "8/6Q1/8/8/1K6/1B6/4p3/1kq5 w - - 8 5",
       "variant": "main",
       "parent": "main.7"
     },
@@ -84,7 +84,7 @@
       "ply": 9,
       "san": "Qg6+",
       "nl": "Dg6+",
-      "fenAfter": "8/8/6Q1/8/1K6/1B6/4p3/1kr5 b - - 9 5",
+      "fenAfter": "8/8/6Q1/8/1K6/1B6/4p3/1kq5 b - - 9 5",
       "variant": "main",
       "parent": "main.8"
     },
@@ -93,7 +93,7 @@
       "ply": 10,
       "san": "Kb2",
       "nl": "Kb2",
-      "fenAfter": "8/8/6Q1/8/1K6/1B6/1k2p3/2r5 w - - 10 6",
+      "fenAfter": "8/8/6Q1/8/1K6/1B6/1k2p3/2q5 w - - 10 6",
       "variant": "main",
       "parent": "main.9"
     },
@@ -102,7 +102,7 @@
       "ply": 11,
       "san": "Qf6+",
       "nl": "Df6+",
-      "fenAfter": "8/8/5Q2/8/1K6/1B6/1k2p3/2r5 b - - 11 6",
+      "fenAfter": "8/8/5Q2/8/1K6/1B6/1k2p3/2q5 b - - 11 6",
       "variant": "main",
       "parent": "main.10"
     },
@@ -111,7 +111,7 @@
       "ply": 12,
       "san": "Kb1",
       "nl": "Kb1",
-      "fenAfter": "8/8/5Q2/8/1K6/1B6/4p3/1kr5 w - - 12 7",
+      "fenAfter": "8/8/5Q2/8/1K6/1B6/4p3/1kq5 w - - 12 7",
       "variant": "main",
       "parent": "main.11"
     },
@@ -120,7 +120,7 @@
       "ply": 13,
       "san": "Qf5+",
       "nl": "Df5+",
-      "fenAfter": "8/8/8/5Q2/1K6/1B6/4p3/1kr5 b - - 13 7",
+      "fenAfter": "8/8/8/5Q2/1K6/1B6/4p3/1kq5 b - - 13 7",
       "variant": "main",
       "parent": "main.12"
     },
@@ -129,7 +129,7 @@
       "ply": 14,
       "san": "Kb2",
       "nl": "Kb2",
-      "fenAfter": "8/8/8/5Q2/1K6/1B6/1k2p3/2r5 w - - 14 8",
+      "fenAfter": "8/8/8/5Q2/1K6/1B6/1k2p3/2q5 w - - 14 8",
       "variant": "main",
       "parent": "main.13"
     },
@@ -138,7 +138,7 @@
       "ply": 15,
       "san": "Qe5+",
       "nl": "De5+",
-      "fenAfter": "8/8/8/4Q3/1K6/1B6/1k2p3/2r5 b - - 15 8",
+      "fenAfter": "8/8/8/4Q3/1K6/1B6/1k2p3/2q5 b - - 15 8",
       "variant": "main",
       "parent": "main.14"
     },
@@ -147,7 +147,7 @@
       "ply": 16,
       "san": "Kb1",
       "nl": "Kb1",
-      "fenAfter": "8/8/8/4Q3/1K6/1B6/4p3/1kr5 w - - 16 9",
+      "fenAfter": "8/8/8/4Q3/1K6/1B6/4p3/1kq5 w - - 16 9",
       "variant": "main",
       "parent": "main.15"
     },
@@ -156,7 +156,7 @@
       "ply": 17,
       "san": "Qe4+",
       "nl": "De4+",
-      "fenAfter": "8/8/8/8/1K2Q3/1B6/4p3/1kr5 b - - 17 9",
+      "fenAfter": "8/8/8/8/1K2Q3/1B6/4p3/1kq5 b - - 17 9",
       "variant": "main",
       "parent": "main.16"
     },
@@ -165,7 +165,7 @@
       "ply": 18,
       "san": "Kb2",
       "nl": "Kb2",
-      "fenAfter": "8/8/8/8/1K2Q3/1B6/1k2p3/2r5 w - - 18 10",
+      "fenAfter": "8/8/8/8/1K2Q3/1B6/1k2p3/2q5 w - - 18 10",
       "variant": "main",
       "parent": "main.17"
     },
@@ -174,7 +174,7 @@
       "ply": 19,
       "san": "Qxe2+",
       "nl": "Dxe2+",
-      "fenAfter": "8/8/8/8/1K6/1B6/1k2Q3/2r5 b - - 0 10",
+      "fenAfter": "8/8/8/8/1K6/1B6/1k2Q3/2q5 b - - 0 10",
       "variant": "main",
       "parent": "main.18"
     },
@@ -183,7 +183,7 @@
       "ply": 20,
       "san": "Kb1",
       "nl": "Kb1",
-      "fenAfter": "8/8/8/8/1K6/1B6/4Q3/1kr5 w - - 1 11",
+      "fenAfter": "8/8/8/8/1K6/1B6/4Q3/1kq5 w - - 1 11",
       "variant": "main",
       "parent": "main.19"
     },
@@ -192,7 +192,7 @@
       "ply": 21,
       "san": "Qa2+",
       "nl": "Da2+",
-      "fenAfter": "8/8/8/8/1K6/1B6/Q7/1kr5 b - - 2 11",
+      "fenAfter": "8/8/8/8/1K6/1B6/Q7/1kq5 b - - 2 11",
       "variant": "main",
       "parent": "main.20"
     }

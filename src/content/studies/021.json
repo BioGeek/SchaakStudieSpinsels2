@@ -1,0 +1,180 @@
+{
+  "number": 21,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2000",
+  "gbr": "0031.01 h3h1",
+  "fen": "3N4/8/8/3b4/5p2/7K/8/7k w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "3N4/8/8/3b4/5pK1/8/8/7k b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "f3",
+      "nl": "f3",
+      "fenAfter": "3N4/8/8/3b4/6K1/5p2/8/7k w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "3N4/8/8/3b4/8/5pK1/8/7k b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "3N4/8/8/3b4/8/5pK1/8/6k1 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "8/8/4N3/3b4/8/5pK1/8/6k1 b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "f2",
+      "nl": "f2",
+      "fenAfter": "8/8/4N3/3b4/8/6K1/5p2/6k1 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "8/8/8/3b4/5N2/6K1/5p2/6k1 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "f1=Q",
+      "nl": "f1D",
+      "fenAfter": "8/8/8/3b4/5N2/6K1/8/5qk1 w - - 0 5",
+      "variant": "A",
+      "parent": "main.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "Nh3+",
+      "nl": "Ph3+",
+      "fenAfter": "8/8/8/3b4/8/6KN/8/5qk1 b - - 1 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/8/3b4/8/6KN/8/5q1k w - - 2 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Nf2+",
+      "nl": "Pf2+",
+      "fenAfter": "8/8/8/3b4/8/6K1/5N2/5q1k b - - 3 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Qxf2",
+      "nl": "Dxf2",
+      "fenAfter": "8/8/8/3b4/8/6K1/5q2/7k w - - 0 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Kxf2",
+      "nl": "Kxf2",
+      "fenAfter": "8/8/8/3b4/8/8/5K2/7k b - - 0 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Be6",
+      "nl": "Le6",
+      "fenAfter": "8/8/4b3/8/5N2/6K1/5p2/6k1 w - - 2 5",
+      "variant": "B",
+      "parent": "main.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Ne2+",
+      "nl": "Pe2+",
+      "fenAfter": "8/8/4b3/8/8/6K1/4Np2/6k1 b - - 3 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/4b3/8/8/6K1/4Np2/5k2 w - - 4 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "8/8/4b3/8/5N2/6K1/5p2/5k2 b - - 5 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/4b3/8/5N2/6K1/5p2/6k1 w - - 6 7",
+      "variant": "B",
+      "parent": "B.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Met remise door  herhaling van\n     zetten:\n\nEnzovoort.        .",
+      "beforeVariant": {}
+    }
+  }
+}

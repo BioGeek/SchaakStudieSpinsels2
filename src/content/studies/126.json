@@ -1,0 +1,36 @@
+{
+  "number": 126,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2017",
+  "gbr": "0401.10 e1h1",
+  "fen": "8/8/8/8/7r/8/7P/R2NK2k w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "8/8/8/8/7r/7P/8/R2NK2k b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/7r/7P/6k1/R2NK3 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En wint.\n\nWit wint hier verdienstelijk na elf\nunieke zetten.\n      Dit werkje heb  ik ontworpen op\n    zoek naar een correctie van de\n    volgende studie.\n\n     E. Pogosyants publiceerde in EG\n     n° 56 (1979) een origineel onder\n    de titel Castling in Studies:\n\n    Ke1 Ta1 Pd5 h2 / Kh1 Th6 +\n\n    Met de oplossing: 1.Pe3 Txh2 en\n\nDus met winst.\n\n    Maar hier, in de stelling met het wit\n    paard op d5 en de zwarte toren op\n    h6 wint ook de zet 1.h4 Kg2, na\n    32  zetten  (bijvoorbeeld  1..Txh4\n\nEn dit volgens de Nalimov Endga-\n   me Tablebases.\n    Dus nevenoplosbaar.\n\n    De Nalimov-EndgameTablebase\n       lijkt me niet betrouwbaar bij de\n    rokades.",
+      "beforeVariant": {}
+    }
+  }
+}

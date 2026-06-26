@@ -1,0 +1,93 @@
+{
+  "number": 254,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2009",
+  "gbr": "0045.01 c6f8",
+  "fen": "2nN1k1N/8/2K5/p4B2/3b4/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "2nN1k2/8/2K3N1/p4B2/3b4/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Bxc8",
+      "nl": "Lxc8?",
+      "fenAfter": "2BN1k1N/8/2K5/p7/3b4/8/8/8 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Bxh8",
+      "nl": "Lxh8",
+      "fenAfter": "2BN1k1b/8/2K5/p7/8/8/8/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Ne6+",
+      "nl": "Pe6+?",
+      "fenAfter": "2n2k1N/8/2K1N3/p4B2/3b4/8/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "2n3kN/8/2K1N3/p4B2/3b4/8/8/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Ng6",
+      "nl": "Pg6",
+      "fenAfter": "2n3k1/8/2K1N1N1/p4B2/3b4/8/8/8 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "2n3k1/8/2K1NbN1/p4B2/8/8/8/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "2n3k1/3K4/4NbN1/p4B2/8/8/8/8 b - - 5 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Opgedragen aan mijn vriend Luc\nPalmans.",
+      "after": "En dit is een andere wijze om te\n    winnen met loper en paard.",
+      "beforeVariant": {
+        "A": "Pb6+ 4.Ke8 a4, remise Of hier\n\nPxf5 is remise.",
+        "B": "Met 3.Ld7+ als matdreiging.\nSterker dan 2…Lb6+ 3.Kxc8 Lxd8\n\nhoofdvariant.\n\nDreigt opnieuw mat. Maar niet via\n\nKxd8 5.Kxa8 is het slechts remise.\n\nZwart heeft een vijandelijk paard\n     veroverd, maar ook wit doet zo:\n\nZwart geeft ruimte aan de loper om\n    de paardvork 9…Lb6, 10.Pd5+ en\n\nen zo wint wit, met loper en paard."
+      }
+    }
+  }
+}

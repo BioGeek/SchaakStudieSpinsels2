@@ -1,0 +1,63 @@
+{
+  "number": 197,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "EG, 2009",
+  "gbr": "0800.01 f7h3",
+  "fen": "8/5K2/8/8/8/7k/5pRr/6Rr w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rg3+",
+      "nl": "Tg3+",
+      "fenAfter": "8/5K2/8/8/8/6Rk/5p1r/6Rr b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/5K2/8/8/7k/6R1/5p1r/6Rr w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rg4+",
+      "nl": "Tg4+",
+      "fenAfter": "8/5K2/8/8/6Rk/8/5p1r/6Rr b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/5K2/8/7k/6R1/8/5p1r/6Rr w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Rg6+",
+      "nl": "Tg6+",
+      "fenAfter": "8/5K2/6R1/7k/8/8/5p1r/6Rr b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "mat) 6.T1g6+ Kh5 7.Th7+ mat.\n\nmat.\n\nmat. Ook na:\n\nEd van de Gevel schreef: “From\nBelgium, Ignace sends a study that\nhe describes as follows: This is an\nextension of the study:\n\nKf8 Re1 Rg2 /\n         Kh8 Rh1 Rh2 e2 e7 +\n\nby R. Missiaen, (Schaaknieuws 25\nxi i2004) in a miniatureform. The\nblack king is forced first upwards,\nthen downwards, again upwards\nand finally mate on his way down-\nwards.”\n\nEn Ed besloot met: “Yes, up and\ndown and up and down it goes.”\n\nDe  oplossing  van  Roger  Mis-\nsiaen  is: 1.Teg1 Kh7 2.Kf7 Kh6\n\nKh3  6.Tg3+ Kh4 7.T6g4+ Kh5\n\nKh8 11.Tg8+ Kh7 12.T3g7+ Kh6",
+      "beforeVariant": {}
+    }
+  }
+}

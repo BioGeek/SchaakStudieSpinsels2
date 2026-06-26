@@ -1,0 +1,54 @@
+{
+  "number": 131,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "0031.20 f7h8",
+  "fen": "7k/5K1P/2b5/5P2/2N5/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne5",
+      "nl": "Pe5",
+      "fenAfter": "7k/5K1P/2b5/4NP2/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "7k/5K1P/8/3bNP2/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "7k/4K2P/8/3bNP2/8/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kxh7",
+      "nl": "Kxh7",
+      "fenAfter": "8/4K2k/8/3bNP2/8/8/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…           Le4\n\n1.f6            Lf5\n\nNa 1.f6? Ld5+ 2.K~ Lxc4  is het\nreeds remise.\n\nEen  directe aanval op de pion,\nwant  na 1…Ld5+?  2.Kg6  Le6\n\nWeer niet 2.f6? wegens 2…Kxh7\n\nVoor de derde maal niet 3.f6? we-\ngens 3…Lxg6+, enzovoort..\n\nNu dan! Kan deze pion nog opruk-\nken naar veld f8?, met zwart aan\nzet?\n\nHet antwoord is ja, en wit wint na\nde pionpromotie.\n\nZie ook de volgende tweelingstu-\ndie, waain ik de zwarte loper ver-\nplaats naar veld d7:\n\nKf7 Pc4 f5 h7 / Kh8 Ld7 +\n\nNa 1...Lg4? volgt 2.Kg6 Le6 3.Pe5\nLf5+ 4.Kh6 Le5 5.Pg6+ en mat.\n\nReculer pour mieux sauter!\n\nWat anders?\n\nEveneens met winst, maar minder\nmooi.",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "number": 143,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "4010.01 g8d8",
+  "fen": "3k2K1/p1q5/8/8/8/7B/8/6Q1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qg5+",
+      "nl": "Dg5+",
+      "fenAfter": "3k2K1/p1q5/8/6Q1/8/7B/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Qe7",
+      "nl": "De7",
+      "fenAfter": "3k2K1/p3q3/8/6Q1/8/7B/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qa5+",
+      "nl": "Da5+",
+      "fenAfter": "3k2K1/p3q3/8/Q7/8/7B/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qc7",
+      "nl": "Dc7",
+      "fenAfter": "3k2K1/p1q5/8/Q7/8/7B/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd5+",
+      "nl": "Dd5+",
+      "fenAfter": "3k2K1/p1q5/8/3Q4/8/7B/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "6K1/p1q1k3/8/3Q4/8/7B/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qe6+",
+      "nl": "De6+",
+      "fenAfter": "6K1/p1q1k3/4Q3/8/8/7B/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3k2K1/p1q5/4Q3/8/8/7B/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qf6+",
+      "nl": "Df6+",
+      "fenAfter": "3k2K1/p1q5/5Q2/8/8/7B/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Qe7",
+      "nl": "De7",
+      "fenAfter": "3k2K1/p3q3/5Q2/8/8/7B/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "3k2K1/p3q3/8/8/3Q4/7B/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "6K1/p1k1q3/8/8/3Q4/7B/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qxa7+",
+      "nl": "Dxa7+",
+      "fenAfter": "6K1/Q1k1q3/8/8/8/7B/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "6K1/Q3q3/3k4/8/8/7B/8/8 w - - 1 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qa3+",
+      "nl": "Da3+",
+      "fenAfter": "6K1/4q3/3k4/8/8/Q6B/8/8 b - - 2 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "6K1/4q3/8/3k4/8/Q6B/8/8 w - - 3 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qxe7",
+      "nl": "Dxe7",
+      "fenAfter": "6K1/4Q3/8/3k4/8/7B/8/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Dg5+ Ke8 2.Dg6+ Kd8 3.Df6\n\nEn wint..\n\nHet is een correctie van een stu-\ndie van Julien Vandiest uit 1990,\nvermeld in o.a. De compositie van\nhet eindspel door Teun Balemans.\n\nDeze laatste vond de studie toen\n‘mooi’:\n\nDe7 4.Dd4+ Ke8 5.Da4+ (5.Df4 is\nkorter) 5… Kd8 6.Da5+ (6.Dd4+ is\nkorter) 6…Dc7  7.Dd5+ 7…Ke7\n\nter) 9...a6 10.Df6+ De7 11.Db6+\nDc7  12.De6  a5  13.Df6+  De7\n\nDe7  17.Db6+ Dc7  18.De6  a3\n\nMooi, maar niet zo zuiver dus. Dit\nis bijna onvermijdelijk met dame-\neindspelen, als men niet beschikt\nover Nalimov’s schaakprograma.\n\nMaar wat gebeurt er als men de\npion op a7 verplaatst naar f2, zo-\nals hiernaast:",
+      "beforeVariant": {}
+    }
+  }
+}

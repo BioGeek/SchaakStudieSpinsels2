@@ -1,0 +1,30 @@
+{
+  "number": 109,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2008",
+  "gbr": "4010.01 a7c7",
+  "fen": "8/K1k5/8/8/1B6/Q7/4p3/3q4 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qa5+",
+      "nl": "Da5+",
+      "fenAfter": "8/K1k5/8/Q7/1B6/8/4p3/3q4 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De loper dient een zwarte pro-\nmotie te verhinderen en de witte\ndame moet het alleen klaren.",
+      "after": "1…         Kd7        2.Df5+       Kc6        3.Dc5+ 3.De6+? Kb5 is ook remise.      3…         Kd7        4.De7+      Kc8       5.Db7+      Kd8        6.Kb8\n\nMet winst.\n\nDe dreigende pion werd goed be-\nwaakt door de loper.",
+      "beforeVariant": {
+        "A": "Ke5 geeft slechts remise.\n\nDe blanke echtgenoot helpt  zijn\ndame, met de dreiging 7.De7+ of\n\nzwarte koningin haar echtgenoot\nhulp bieden met:\n\nEn nu:",
+        "B": "En mat. Of:"
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "number": 234,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "K.S.A.H. Toernooi, 1997",
+  "gbr": "0045.01 f6c5",
+  "fen": "8/5b2/4pK2/2k5/3N4/2n3B1/8/5N2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Bf2",
+      "nl": "Lf2?",
+      "fenAfter": "8/5b2/4pK2/2k5/3N4/2n5/5B2/5N2 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Ne4+",
+      "nl": "Pe4+",
+      "fenAfter": "8/5b2/4pK2/2k5/3Nn3/8/5B2/5N2 w - - 2 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Kxf7",
+      "nl": "Kxf7",
+      "fenAfter": "8/5K2/4p3/2k5/3Nn3/8/5B2/5N2 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Nxf2",
+      "nl": "Pxf2",
+      "fenAfter": "8/5K2/4p3/2k5/3N4/8/5n2/5N2 w - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Be5",
+      "nl": "Le5?",
+      "fenAfter": "8/5b2/4pK2/2k1B3/3N4/2n5/8/5N2 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/5b2/4pK2/3kB3/3N4/2n5/8/5N2 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Nf3",
+      "nl": "Pf3",
+      "fenAfter": "8/5b2/4pK2/3kB3/8/2n2N2/8/5N2 b - - 3 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "8/8/4pK2/3kB2b/8/2n2N2/8/5N2 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/8/4pK2/3kB2b/8/2n1NN2/8/8 b - - 5 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Nfd2",
+      "nl": "Pfd2?",
+      "fenAfter": "8/5b2/4pK2/2k5/3N4/2n3B1/3N4/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/5b2/4pK2/2k5/8/2n3B1/4N3/5N2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/5b2/4pK2/8/2k5/2n3B1/4N3/5N2 w - - 2 2",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/5b2/4pK2/8/2k5/2n1N1B1/4N3/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/5b2/4pK2/8/8/2nkN1B1/4N3/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit kan de loper niet slaan zonder\nstukverlies. En na bijvoorbeeld:",
+      "after": "1.Pb3+      Kb4\n\nnog korter.\n\nNu  dreigt 4.Pc1  via een  aftrek-\nschaak op a2 of e2, het paard Pc3\nte veroveren. Daarom:\n\nen 6.Pxc3\n\nDe zwarte pion verhinderd 5.Pf5+.\n\nWit slaat nu de lastige pion.\nHierna keert het witte paard op zijn\nstappen terug.  terwijl zwart   zijn\nvolbloed voortdurend moet gedekt\nhouden, dus:\n\nHad  zwart  eerder  2...Lh5?  ge-\nspeeld, dan zou nu 10.Pf4+ K~\n\nDeze zet is nu mogelijk omdat wit\neerder al de zwarte pion geplukt\nheeft. (9.Pxe6+)\n\nEn drie lichte stukken winnen te-\ngen één.\n\nVeertien (14!) maal geven de witte\npaarden schaak  in deze carrou-\nselstudie, die de prijs kreeg als de\nbeste Belgische inzending in het\nInternationaal  Toernooi  van  de\nKoninklijke  Schaakfederatie  van\nAntwerpens Handel.\n    Een originele studie, met  maxi-\n   mum acht stukken op het bord,\n    was de opdracht.\n\n     Prijsrechter  Vandiest  oordeelde:\n    “One of these elegant carousels\n    one remains found of and for which\n     the composer  has become  fa-\n    mous.”",
+      "beforeVariant": {
+        "main.b": "geen winst meer. Ook niet na\n\nPxg3 Kc3 en het wit paard in\n   de hoek zit in de val. Ook:\n\nPxg3 4.Pxg3 kan  wit nu de\n    pion zelfs stoppen op veld e5,\n   met  winst  volgens  Troitzki,\n    (koning en twee  paarden te-\n   gen koning en pion op e4) bij-\n    voorbeeld:  4...e5 5.Pe4 Kc4",
+        "main.a": "Ke4 4.Pg5+ Kxe3 5.Lxc3.\nDaarom:                          4\n\nNa 1...Kc4 2.Pbd2+ K~ valt de lo-\nper met 3.Kxf7.\n\nDe enige goede zet, want fout is:\n\nmise.\n\nZeer verleidelijk is nu:",
+        "main.c": "de  zwarte  loper  zich  met   W\n\nzoals verder blijkt. Zie zet 10."
+      }
+    }
+  }
+}

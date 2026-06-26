@@ -1,0 +1,49 @@
+{
+  "number": 216,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2012",
+  "gbr": "7001.01 g2g4",
+  "fen": "8/8/8/1Q4q1/6k1/2q3N1/p5K1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/6q1/6k1/2q3N1/p3Q1K1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Qxf3+",
+      "nl": "Dxf3+",
+      "fenAfter": "8/8/8/6q1/6k1/5qN1/p3Q1K1/8 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.b.6",
+      "ply": 6,
+      "san": "Qg5",
+      "nl": "Dg5",
+      "fenAfter": "8/8/8/6Q1/6k1/2q3N1/p5K1/8 b - - 0 1",
+      "variant": "B.b",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Een bizarre stelling waarin twee\nzwarte dames  prijken, plus een\npion die dreigt te promoveren tot\nzwarte dame. Maar de witte dame\nis sterk en start met:",
+      "after": "1…          Df3+\n\n1…         Kh4 1…Kf4? 2.De4+ en mat.        2.De4+      Dg4\n\nNa 4…Kh6? 5.Dxh6+ Kg4 wint wiit\nmet  zowel  6.Dg6,  6.Dh5+  als\n\nDe witte dame is hier nu op het\nbestaande bouwwerk van het dia-\ngram geklommen,van b5 naar g6.\n\nOf hier 7…Df5? 8.Dxf5+ Kh4 en\n\nEn zegeviert.\n\nIn deze studie neemt één moe-\ndige blanke dame het succesvol op\ntegen drie zwarte soortgenoten.",
+      "beforeVariant": {
+        "B": "Eerste offeraanbod van de dame\n\nTweede aanbod;\n\nDerde aanbod;",
+        "B.a": "Vierde aanbod.",
+        "B.b": "Vijfde aanbod.\n\nZesde aanbod.\n\n(Zie zet 5.)\n\nZevende aanbod.\nEn nu de fijne afwachtende zet van\nde blanke koningin:\n\n(Zie zet 5.)\n\nEen nieuwe zwarte dame komt ter\nhulp.\n\nWant na 7.Dxa1? Dxg1+ zou de\nzwarte vorst wel ontsnappen.\n\nAchtste aanbod.\n\nDg5 10.Dh7+ (Zie zet 8.)\n\nNegende aanbod.\n\nTiende aanbod.\n\nEn mat.\nTien keer biedt de zwarte dame\nzich aan, maar wit zwicht niet."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 256,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2010",
+  "gbr": "0400.22 a8h1",
+  "fen": "KR6/PP6/8/8/8/8/6pp/6rk w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "K6R/PP6/8/8/8/8/6pp/6rk b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Met  gelijk materiaal staan beide\nkampen tegenover elkaar. En wat\nkan wit spelen om te winnen?",
+      "after": "1…         Tb1        2.Txh2+ 2.b8D? Txb8+ 3.axb8 g1D 4.Db7+\n\nremise.\n\nDg2, remise.\n\nEn de witte koning komt naderbij\n    met winst.\n\n    “Een juweel voor het oog” en “Erg\n     amusant.” vond Martin van Essen.\n\n      Ik kwam op het idee van deze stu-\n     die door een gelijkaardig werkje\n    van Enzo Minerva  in Best Pro-\n    blems (2006):\n\n    Ka8 Tb8 a7 b7 / Kh1 Lg1 g2 h2 =\n\n    Met de erg  korte oplossing:1.Tg8\n    Lxa7 2.Txg2 Kxg2 3.Kxa7 h1D",
+      "beforeVariant": {
+        "main.a": "Fout is 1.Tg8? Tb1 met:",
+        "main.b": "D(K)xa7, pat."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "number": 147,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2011",
+  "gbr": "0304.10 b5g8",
+  "fen": "6k1/8/P1N5/nK6/8/4r3/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "6k1/P7/2N5/nK6/8/4r3/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "4r1k1/P7/2N5/nK6/8/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Kb6",
+      "nl": "Kb6?",
+      "fenAfter": "6k1/8/PKN5/n7/8/4r3/8/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "6k1/8/PKN5/8/2n5/4r3/8/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.c.5",
+      "ply": 5,
+      "san": "Ka4",
+      "nl": "Ka4?",
+      "fenAfter": "6k1/8/P1N5/n7/K7/4r3/8/8 b - - 1 1",
+      "variant": "main.c",
+      "parent": null
+    },
+    {
+      "id": "main.c.6",
+      "ply": 6,
+      "san": "Nb7",
+      "nl": "Pb7",
+      "fenAfter": "6k1/1n6/P1N5/8/K7/4r3/8/8 w - - 2 2",
+      "variant": "main.c",
+      "parent": "main.c.5"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En wit wint.",
+      "beforeVariant": {
+        "main.b": "Tf8 5.Pb8 Tf7+, remise."
+      }
+    }
+  }
+}

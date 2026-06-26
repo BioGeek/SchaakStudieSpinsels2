@@ -1,0 +1,189 @@
+{
+  "number": 80,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Schaakschild, 1981",
+  "gbr": "0041.01 g8d7",
+  "fen": "5bK1/3k4/2N5/1p6/8/1B6/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "5bK1/3k4/8/1p2N3/8/1B6/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "5bK1/8/3k4/1p2N3/8/1B6/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "5bK1/5N2/3k4/1p6/8/1B6/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "5bK1/4kN2/8/1p6/8/1B6/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "5bK1/4kN2/8/1p1B4/8/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "b4",
+      "nl": "b4",
+      "fenAfter": "5bK1/4kN2/8/3B4/1p6/8/8/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "5bK1/4kN2/8/8/1pB5/8/8/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4kbK1/5N2/8/8/1pB5/8/8/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb5+",
+      "nl": "Lb5+",
+      "fenAfter": "4kbK1/5N2/8/1B6/1p6/8/8/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "5bK1/4kN2/8/1B6/1p6/8/8/8 w - - 4 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ba4",
+      "nl": "La4",
+      "fenAfter": "5bK1/4kN2/8/8/Bp6/8/8/8 b - - 5 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "5bK1/4kN2/8/8/B7/1p6/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bxb3",
+      "nl": "Lxb3",
+      "fenAfter": "5bK1/4kN2/8/8/8/1B6/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4kbK1/5N2/8/8/8/1B6/8/8 w - - 1 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ba4+",
+      "nl": "La4+",
+      "fenAfter": "4kbK1/5N2/8/8/B7/8/8/8 b - - 2 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "5bK1/4kN2/8/8/B7/8/8/8 w - - 3 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bb5",
+      "nl": "Lb5",
+      "fenAfter": "5bK1/4kN2/8/1B6/8/8/8/8 b - - 4 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kf6",
+      "nl": "K~",
+      "fenAfter": "5bK1/5N2/5k2/1B6/8/8/8/8 w - - 5 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kxf8",
+      "nl": "Kxf8",
+      "fenAfter": "5K2/5N2/5k2/1B6/8/8/8/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Pe5+      Kd6        2.Pc4+\n\nEnige goede zet, want na 3.La2?\nKe8 4.Ld5 Lc5 ontsnapt de zwarte\nloper.\n\nOok de énige correcte zet: 4.Lb3?\nKe8 5.La4+ Ke7 .Lb5 b3 7.La4 b2\n\nzwarte loper speelt mee.\n\nNa 4…b3? 5.Lxb3, zie verder.\n\nEen minordualletje, al wint 9.Lb5\nhet snelst.\n\nDe zwarte loper moet zich offeren.\n\nHet tweelingbroertje van de vorige\nstudie  verscheen  eveneens   in\nSchaakschild, 1981:\n\nKg8 Lb3 Pc6 / Kd7 Lf8 a3 +\n\nDe pion van veld b5 is hier nu ver-\nhuist naar veld a3:\n\nNiet 2.Pf7+? Ke7 3.Ld5 en wit komt\nniet verder na 3…a2  4.Lxa2 Ke8\nen de zwarte loper ontsnapt.\n\neigen Koning komt helpen.\n\nNa 3.Pxa3? bevrijdt zwart zich met\n\nEn niet 3…Lh6? wegens 4.Pf5+ en\n\nNu is 5.Lh6 verhinderd.\n\nNa 7…Kd7? wint wit in 34 zetten,\nen de zwarte koning is moe:\n\nWit wint.",
+      "beforeVariant": {}
+    }
+  }
+}

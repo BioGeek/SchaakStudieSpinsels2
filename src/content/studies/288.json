@@ -1,0 +1,101 @@
+{
+  "number": 288,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Probleemblad, 2007-08",
+  "gbr": "0045.02 c7a4",
+  "fen": "8/2KB4/2pNbp2/3N4/k1n5/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.a.1",
+      "ply": 1,
+      "san": "Bxc6+",
+      "nl": "Lxc6+?",
+      "fenAfter": "8/2K5/2BNbp2/3N4/k1n5/8/8/8 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/2K5/2BNbp2/3N4/2n5/1k6/8/8 w - - 1 2",
+      "variant": "main.a",
+      "parent": "main.a.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "Nxf6",
+      "nl": "Pxf6",
+      "fenAfter": "8/2K5/2BNbN2/8/2n5/1k6/8/8 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Nxd6",
+      "nl": "Pxd6",
+      "fenAfter": "8/2K5/2BnbN2/8/8/1k6/8/8 w - - 0 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Bxe6",
+      "nl": "Lxe6?",
+      "fenAfter": "8/2K5/2pNBp2/3N4/k1n5/8/8/8 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "cxd5",
+      "nl": "cxd5",
+      "fenAfter": "8/2K5/3NBp2/3p4/k1n5/8/8/8 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bxd5",
+      "nl": "Lxd5",
+      "fenAfter": "8/2K5/3N1p2/3B4/k1n5/8/8/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Nxd6",
+      "nl": "Pxd6",
+      "fenAfter": "8/2K5/3n1p2/3B4/k7/8/8/8 w - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nb4+",
+      "nl": "Pb4+",
+      "fenAfter": "8/2KB4/2pNbp2/8/kNn5/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Alle  witte stukken staan aange-\nvallen. En zowel na:",
+      "after": "Kxf3 11.Lxc4\n\nEn mat.\n\nHier worden in een variant elf (11)\nconsecutive paardaanvallen uitge-\nvoerd.\n\nIn Probleemblad schreef Iuri Ako-\nbia dit: “An interesting route of the\nwhite Knight leads to mate. How-\never, the mating position is crea-\nted artificially from the initial posi-\ntion.”\n\n“And then? Wat is daar mis mee?\n\n“Dat die schitterende matvoering\nkan plaatsgrijpen binnen het kader\nvan slechts negen stukken op het\nbord klinkt haast ongeloofwaardig”\nvond Julien Vandiest.",
+      "beforeVariant": {
+        "main.a": "wint.\n\nFout is 3.Pe4+? Kd5 4.Lxc6+ Ke5\nen wit komt niet verder.\nOok niet na 4.Pxf6+ Ke5 5.Pg4+\nLxg4 6.Lxg4.\n\nZwart moet zijn loper blijven dek-\nken.\n\nverliest."
+      }
+    }
+  }
+}

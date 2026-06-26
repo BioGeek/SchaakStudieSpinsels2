@@ -1,0 +1,171 @@
+{
+  "number": 9,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2001",
+  "gbr": "4010.00 f3d1",
+  "fen": "4Q3/2q5/8/8/4B3/5K2/8/3k4 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Qa4+",
+      "nl": "Da4+",
+      "fenAfter": "8/2q5/8/8/Q3B3/5K2/8/3k4 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/2q5/8/8/Q3B3/5K2/3k4/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "8/2q5/8/8/3QB3/5K2/3k4/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/2q5/8/8/3QB3/5K2/8/2k5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qa1+",
+      "nl": "Da1+",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/8/Q1k5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/3k4/Q7 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qb2+",
+      "nl": "Db2+",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/1Q1k4/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/1Q6/3k4 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/4Q3/3k4 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/4Q3/2k5 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/8/2k1Q3 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/2q5/8/8/4B3/5K2/1k6/4Q3 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qb4+",
+      "nl": "Db4+",
+      "fenAfter": "8/2q5/8/8/1Q2B3/5K2/1k6/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/2q5/8/8/1Q2B3/5K2/k7/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "8/2q5/8/3B4/1Q6/5K2/k7/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Qc4",
+      "nl": "Dc4",
+      "fenAfter": "8/8/8/3B4/1Qq5/5K2/k7/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "8/8/8/3B4/2q5/1Q3K2/k7/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En wit wint.\n\nWit wint met hetzelfde materiaal\nals de heren Bacqué en Vandiest,\nmaar zonder nevenoplossing.\n    G. Bacqué kreeg een speciale prijs\n     in Diagrammes (1992-93) voor de-\n    ze maljutka:\n\n   Kg3 Da3 Le4 / Kd1 Db8 +\n\n   Na 1.Kf3 Dc7 wint wit niet alleen\n    met  2.Db3+ maar  tevens  met\n\nEn ook J. Vandiest publiceerde in\n   EBUR (1993):\n\n    Kf3 De7 Le4 / Kd1 Db8 +\n\n    met dezelfde oplossing: 1.Da3 Dc7\n\nwinnend.\n\n   Ook nevenoplosbaar dus. Het ver-\n    plaatsen  in deze diagramstelling\n    van de witte dame op a3 naar veld\n    e7 bracht dus geen redding.\n\n   Daarom mijn correcte versie, die\n    de dual uitschakelt.",
+      "beforeVariant": {}
+    }
+  }
+}

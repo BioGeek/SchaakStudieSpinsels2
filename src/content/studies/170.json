@@ -1,0 +1,27 @@
+{
+  "number": 170,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1994",
+  "gbr": "0301.21 b8d8",
+  "fen": "1K1k4/1P5N/8/5P2/rp6/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "1K1k4/1P5N/5P2/8/rp6/8/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Als dank heb ik aan Hans Bouw-\nmeester bovenstaande studie op-\ngedragen.  In een  artikel “Leven\nmet eindspelstudies” in Schakend\nNederland is hier de Internationale\nMeester zelf aan het woord, aan-\ngevuld met mijn eindbeslissing.",
+      "after": "1...          b3         2.f7           Tf4        3.f8D+        Txf8\n\n“Niet moeilijk te vinden.”\n\n“Wit   lijkt  gewonnen,  maar  na\n\nDxb8+ 7.Kxb8 is het remise. Wit\nspeelt echter:”\n\n“Een mooie pointe. Na 4.Ka7? wint\nzwart met  4...Tf7 5.Pg5 Txb7+\n\n“De enige zet, zodat nu 5.b8D+?\nafgestraft wordt met: 5...Ke7 en\n\n“Eindelijk is de pion rijp voor pro-\nmotie, dankzij een finesse  bij de\nvolgende zet:”\n\n“De inleiding tot een prachtig ma-\nnoeuvre. Het paard komt gefor-\nceerd naar c8 en dan is de winst\nduidelijk”.\n\nNu, de steeds onder vuur staande\ndame vrij kan komen, wint wit.\n\nMijn schaakvriend  uit Argentinië,\nJosé Copié, schreef in Finales…y\nTemas: “Espectacular la maniobra\ndel caballlo que conjugada con la\nsutil  4ta. jugada del rey blanco\nconfieren al Estudio singular bel-\nlezza!!”",
+      "beforeVariant": {}
+    }
+  }
+}

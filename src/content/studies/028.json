@@ -1,0 +1,92 @@
+{
+  "number": 28,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "64 studies op 64 velden, 1994",
+  "gbr": "3001.10 g8e6",
+  "fen": "6K1/4PN2/4k3/5q2/8/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e8=Q+",
+      "nl": "e8D+",
+      "fenAfter": "4Q1K1/5N2/4k3/5q2/8/8/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4Q1K1/5N2/5k2/5q2/8/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd8+",
+      "nl": "Dd8+",
+      "fenAfter": "3Q2K1/5N2/5k2/5q2/8/8/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "3Q2K1/5N2/6k1/5q2/8/8/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd6+",
+      "nl": "Dd6+",
+      "fenAfter": "6K1/5N2/3Q2k1/5q2/8/8/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qf6",
+      "nl": "Df6",
+      "fenAfter": "6K1/5N2/3Q1qk1/8/8/8/8/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qb4+",
+      "nl": "Db4+",
+      "fenAfter": "6K1/5N2/5qk1/8/1Q6/8/8/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qg7+",
+      "nl": "Dg7+",
+      "fenAfter": "6K1/5Nq1/6k1/8/1Q6/8/8/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "te dame te verschalken door er\nzelf een te behalen:",
+      "after": "In het boek Flemish Miniatures\nwaardeerde de befaamde dame-\nspecialist Julien Vandiest dit klei-\nnood met: “I feel grateful that my\nfriend Ignace has imagined this\nstraightforward gem by making\nuse of ‘my’ favourite material.”",
+      "beforeVariant": {
+        "main.a": "Na 1...Kd5? 2.Db5+ Ke6 3.Dc6+\nKe7 4.Dd6+ Ke8 volgt 5.Dd8 mat.\n\nOpnieuw  niet  5...Kh5?  6.Dh2+\nenzovoort.\n\nKe7 9.Db4+ (Zie zet 7.)\n\nKc8  9.Dd8+ Kb7  10.Pd6+  en\n\nKf6 10.Dd4+ (Zie zet 8.)"
+      }
+    }
+  }
+}

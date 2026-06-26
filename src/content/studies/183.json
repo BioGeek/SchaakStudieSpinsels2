@@ -1,0 +1,93 @@
+{
+  "number": 183,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Probleemblad, 2001",
+  "gbr": "3023.10 b8c6",
+  "fen": "1K6/P3B3/2k5/n7/8/8/2B2q2/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ba4+",
+      "nl": "La4+",
+      "fenAfter": "1K6/P3B3/2k5/n7/B7/8/5q2/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.b.1",
+      "ply": 1,
+      "san": "Be4+",
+      "nl": "Le4+?",
+      "fenAfter": "1K6/P3B3/2k5/n7/4B3/8/5q2/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kd7+",
+      "nl": "Kd7+",
+      "fenAfter": "1K6/P2kB3/8/n7/4B3/8/5q2/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "a8=Q",
+      "nl": "a8D",
+      "fenAfter": "QK6/3kB3/8/n7/4B3/8/5q2/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Qb6+",
+      "nl": "Db6+",
+      "fenAfter": "QK6/3kB3/1q6/n7/4B3/8/8/8 w - - 1 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "a8=Q",
+      "nl": "a8D?",
+      "fenAfter": "QK6/4B3/2k5/n7/8/8/2B2q2/8 b - - 0 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "Bd8+",
+      "nl": "Ld8+?",
+      "fenAfter": "1K1B4/P7/2k5/n7/8/8/2B2q2/8 b - - 1 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "1K1B4/P7/8/n1k5/8/8/2B2q2/8 w - - 2 2",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1…         Kb6\n\nremise.\n\nEen onverwachte damevangst. En\n      wit wint na\n\nmet loper en paard.\n\n     “Spectaculair hoe het paard van a8\n    de dame op f2 veroverd.” Aldus\n    John Dubois.\n\n    En Fernand Joseph schreef :’’Tot\n    twee keer toe een  verlokkelijke\n    maar  vergiftigde  damepromotie,\n    met als gevolg een verrassende\n     paardpromotie.’’",
+      "beforeVariant": {
+        "main.a": "Na:\n\nwint zwart.\n\nHet beste, want na 1…Kd5 2.a8D+\nKe5 3.Dxa5+ Ke6 4.Db4 wint wit\nmet beide lopers extra. En hier na\n\nvolgt      het      aftrek-schaak,\nbijvoorbeeld: 5.Lh4+ en 6.Lxf2.\n    Nu komt de verrassende pointe:\n\nEen minorpromotie. Want",
+        "main.b": "reeds remise. En na:\n\nDc7+ en mat. Ook eerst"
+      }
+    }
+  }
+}

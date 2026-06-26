@@ -1,0 +1,56 @@
+{
+  "number": 262,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2004",
+  "gbr": "0018.01 e1b3",
+  "fen": "8/1N6/2N5/8/nn6/1k1pB3/8/4K3 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nba5+",
+      "nl": "Pba5+",
+      "fenAfter": "8/8/2N5/N7/nn6/1k1pB3/8/4K3 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka3",
+      "nl": "Ka3",
+      "fenAfter": "8/8/2N5/N7/nn6/k2pB3/8/4K3 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Bd2",
+      "nl": "Ld2?",
+      "fenAfter": "8/1N6/2N5/8/nn6/1k1p4/3B4/4K3 b - - 1 1",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "8/8/2N5/8/nn6/kN1pB3/8/4K3 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Van de vier mogelijkheden, die de\npaarden hebben, om schaak  te\ngeven, is er slechts éen correct:",
+      "after": "Maar het wit paard kiest nu voor de\n     vierde maal het winnende schaak:\n\nZwart slaat gretig de loper, want na\n\nijskoud mat met de vijfde paard-\n      zet:\n\nDeze studie, die ik opstuurde naar\n     het Jubileumturnier Jan Rusinek-\n    50 van Eugeniusz Iwanow in Po-\n      len, bleef tot op heden, zonder ge-\n     volg.\n\nSt\ntudies\n\n                     Finis coronat opus\n              Het einde kroont het werk",
+      "beforeVariant": {
+        "main.a": "Weerom moet wit kiezen tussen de\nvier mogelijke schaakzetten  van\nde witte hengsten:\n\nDe zwarte koning valt de loper aan,\ndie niet weg kan wegens remise,\nbijvoorbeeld:"
+      }
+    }
+  }
+}

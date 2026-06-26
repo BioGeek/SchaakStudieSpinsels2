@@ -1,0 +1,52 @@
+{
+  "number": 172,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Flemish Miniatures, 1998",
+  "gbr": "0340.20 g3a1",
+  "fen": "8/1r6/P6P/2B3b1/8/6K1/8/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "h7",
+      "nl": "h7?",
+      "fenAfter": "8/1r5P/P7/2B3b1/8/6K1/8/k7 b - - 0 1",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "h7",
+      "nl": "h7",
+      "fenAfter": "8/1r5P/P7/2B3b1/8/6K1/8/k7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.d.11",
+      "ply": 11,
+      "san": "Kh3",
+      "nl": "Kh3?",
+      "fenAfter": "8/1r6/P6P/2B3b1/8/7K/8/k7 b - - 1 1",
+      "variant": "main.d",
+      "parent": null
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Maar niet:",
+      "after": "Een  ultieme  poging van  zwart,\nwant 9.Ld3?  is nu niet meer af-\ndoende wegens 10.h8D Le4 en\nbijvoorbeeld 11.Dd4 met materieel\noverwicht.\n\nVoor de  laatste maal het  juiste\nveld.  Want  na  11.Kh2?  Lc6+\n\nzwart nog remise halen.\n\nEn dame wint tegen toren.\n    Deze studie, ontdaan van de eer-\n     ste zet, stuurde  ik op naar mijn\n     vriend Hans Bouwmeester ter ge-\n     legenheid van zijn 75e verjaardag.\n\n    Toen die verscheen  in Schaak-\n    nieuws 2004 gaf de Internationale\n    Meester dit commentaar: “Gewel-\n     dig wat een componist met zo\n     weinig materiaal aan inhoud weet\n     te scheppen.”\n\n    En Roger Missiaen schreef over de\n     oorspronkelijke versie: “Black has\n      different ways to draw in this eco-\n     nomical miniature which has a rich\n     content. But Vandecasteele’s  in-\n     venttiveness leads via un unexpec-\n     ted manoeuvre of the white Bishop\n     to a surprising win.”\n\n    En ook Julien Vandiest vond het:\n    “Een  echte  ‘studie’,  superieure\n     moeilijkheidsgraad.”",
+      "beforeVariant": {
+        "main.a": "beide met remise.\n\nIn de loop van het spel zal blijken\ndat deze zet meer weerstand biedt\ndan 2…Kb1.\n\nEn niet 4.Kh3? Lf1 5.h8D Tg8+ en\n\nWederom is 5.Kh3? onvoldoende:\n\nEn nu volgt de hoofdpointe van\ndeze studie. Wit dient de énig juis-\nte winnende zet te vinden. We on-\nderzoeken de verschillende moge-\nlijkheden:",
+        "main.b": "Tg1 7.Lh2 Tg2 zijn onnodige\n   omwegen.",
+        "main.c": "Txf4, en remise.",
+        "main.d": "remise.",
+        "A": "beeld 7…Td2+  8.Kh4  Td8\n\nmaar eveneens remise.\nMaar correct is:\n\nWant na 6…Td2? (Tg7?) 7.h8D\nTxd6 8.Dg8 Ka1 9.Dg1+ Ka(b)2\n\nNu wel.",
+        "B": "In Flemish Miniatures ging ik hier\nverder met bovenstaande variant.\nMaar  later vond  ik een sterkere\ntegenstand van zwart:"
+      }
+    }
+  }
+}

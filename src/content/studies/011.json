@@ -1,0 +1,45 @@
+{
+  "number": 11,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2001",
+  "gbr": "0003.10 e4h2",
+  "fen": "8/8/8/8/1P2K3/1n6/7k/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/8/1P6/1n1K4/7k/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/8/8/8/1P6/1n1K2k1/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "8/8/8/1P6/8/1n1K2k1/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Na 1...Pc1+? 2.Kc4 Pe2 is de pion\nniet meer te stoppen, bijvoorbeeld\n\nEn niet 3…Pa2+ 4.Kc4 Kf4 5.b6,\nen zwart komt te laat.\n\nEn er volgt een pionpromotie.\n\nNiets grandioos, maar in de mal-\njutka van F. J. Prokop in Casopis\nCeskoslovensky Sach (1925):\n\nKe4 b4 / Kg1 Pb3+\n\nmet de oplossing: 1.Kd3 1…Kf2?\n\nover: 1…Pc1+! 2.Kc4 Kf2 3.b5 Ke3\n\nOok  is er winst in onderstaande\nstelling:",
+      "beforeVariant": {}
+    }
+  }
+}

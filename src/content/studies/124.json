@@ -1,0 +1,54 @@
+{
+  "number": 124,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Origineel, 2010",
+  "gbr": "0133.10 a2h5",
+  "fen": "8/8/8/7k/bP6/2n5/K7/R7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/8/8/7k/bP6/2n5/1K6/R7 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nd1+",
+      "nl": "Pd1+",
+      "fenAfter": "8/8/8/7k/bP6/8/1K6/R2n4 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/8/7k/bP6/8/8/R1Kn4 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/8/6k1/8/bP6/8/8/R1Kn4 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En nu:\n\nHier faalt 3.Kd2? (als in de vorige\nstudie) op 3…Pe4 4.Ke3 Lc6 met\nremise.\n\nmet remise.\n\neen onnodige omweg. (Zie zet 7.)\n\nEen laatste zwarte aanval.\n\nEn eindelijk wint wit.\n\n    Samen met de voorgaande is het\n    een tweelingstudie.",
+      "beforeVariant": {}
+    }
+  }
+}

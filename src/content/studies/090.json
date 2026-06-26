@@ -1,0 +1,128 @@
+{
+  "number": 90,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "Rishon-le-Zion Chess Club 60JT,",
+  "gbr": "0041.01 g7d6",
+  "fen": "4b3/3p2K1/3k3B/8/6N1/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "4b3/3p2K1/3k1N1B/8/8/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "4b3/3pk1K1/5N1B/8/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "4b3/3pk1K1/7B/3N4/8/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3kb3/3p2K1/7B/3N4/8/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Kd6",
+      "nl": "Kd6?",
+      "fenAfter": "4b3/3p2K1/3k3B/3N4/8/8/8/8 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "4b3/3p2K1/3k3B/8/5N2/8/8/8 b - - 5 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "4b3/3pk1K1/7B/8/5N2/8/8/8 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "3kbK2/3p4/7B/3N4/8/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Ke6",
+      "nl": "Ke6?",
+      "fenAfter": "4b3/3p2K1/4k2B/3N4/8/8/8/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Nc7+",
+      "nl": "Pc7+",
+      "fenAfter": "4b3/2Np2K1/4k2B/8/8/8/8/8 b - - 5 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "4b3/2Npk1K1/7B/8/8/8/8/8 w - - 6 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Bg5",
+      "nl": "Lg5",
+      "fenAfter": "4b3/2Npk1K1/8/6B1/8/8/8/8 b - - 7 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Kd6 5.Pxe8+.\n\nDreigt weerom de loper te slaan.\n\nEn na een aftrekschaak:\n\nvolgt de paardvork\n\nWit wint met loper en paard.\n    Het is een correctie van een stu-\n     die van L.Topko uit Oekraïne, die\n    een eervolle vermelding kreeg in\n     het Soldarity Ty (1995):\n\n    Kg7 Lg3 Ph3 Ph5 /\n                Ke6 Le8 Pe7 d7 +\n\n    Met de foute oplossing: 1.P5f4+\n    Kd6 2.Pg6+? Ke6 3.Phf4+ Kd6\n\nKc8 7.Pf6 Kd8 8.Kf8 Lg6 9.Pd5+\n    Kc8 10.Pe7+ en 11.Pxg6.\n\n    Reeds na 1.P5f4 Kd6 en nu: 2.Kf8!\n     Pf5  3.Lh2  veroverd  wit op de\n    volgende zet de zwarte loper, met\n     winst.\n\n    Yehuda Hoch schreef hier: “White,\n     with two light pieces, captures the\n     black bishop after a precise and\n     long manoeuvre. The study is ba-\n    sed upon another work, which had\n    be found faulty.” (Topko)",
+      "beforeVariant": {
+        "main.b": "wint. Of"
+      }
+    }
+  }
+}

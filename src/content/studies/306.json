@@ -1,0 +1,126 @@
+{
+  "number": 306,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "EG, 2015",
+  "gbr": "0326.21 h4b3",
+  "fen": "1r6/1P3B2/4P3/np1n4/3B3K/1k6/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "1r6/1P2PB2/8/np1n4/3B3K/1k6/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "1r6/1P2PB2/8/np1n4/1k1B3K/8/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bxd5",
+      "nl": "Lxd5",
+      "fenAfter": "1r6/1P2P3/8/np1B4/1k1B3K/8/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nxb7",
+      "nl": "Pxb7",
+      "fenAfter": "1r6/1n2P3/8/1p1B4/1k1B3K/8/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bxb7",
+      "nl": "Lxb7",
+      "fenAfter": "1r6/1B2P3/8/1p6/1k1B3K/8/8/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "4r3/1B2P3/8/1p6/1k1B3K/8/8/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "4r3/1B2P1B1/8/1p6/1k5K/8/8/8 b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "4r3/1B2P1B1/8/1pk5/7K/8/8/8 w - - 3 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "4r3/1B2P1B1/8/1pk3K1/8/8/8/8 b - - 4 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "4r3/1B2P1B1/3k4/1p4K1/8/8/8/8 w - - 5 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bc8",
+      "nl": "Lc8",
+      "fenAfter": "2B1r3/4P1B1/3k4/1p4K1/8/8/8/8 b - - 6 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Rxe7",
+      "nl": "Txe7",
+      "fenAfter": "2B5/4r1B1/3k4/1p4K1/8/8/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Sterker dan 1…Kc4.\nOf 1…Pxb7 2.Lxd5+ Kb4 3.Lxb7\nTe8 4. Lg7 Zie dezelfde stand als\nzet 4. in de hoofdvariant.\n\nEn nu de fijne zet:\n\nmet de dreiging 4…Txe7? 5.Lf8.\nNiet goed  is hjer 4.Lf6? wegens\n\nremise.\n\nZodat 6...Txe7? verliest na 7.Lg4\nb4 8.Kg5 b3 9.Kf6 b2 10.Lxe7+.\n\nEn wit wint.\n\n“In this study our Belgian friend\nIgnace Vandecasteele shows how\nblack cannot stop the dangerous\nwhite pawns in such a way that he\ncan also save the draw.”  is het\ncommentaar van ‘editor’ Ed van de\nGevel.",
+      "beforeVariant": {}
+    }
+  }
+}
