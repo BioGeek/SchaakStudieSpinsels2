@@ -126,8 +126,11 @@ def split_sections(text: str) -> dict:
             break
 
     # Source: first non-empty, non-moves line after the header
-    # Stipulation + GBR: a line containing "+" or "=" followed by the GBR code
-    gbr_re = re.compile(r"\s*([+=])\s+(\d{4}\.\d{2})(?:\s+([a-h][1-8][a-h][1-8]))?")
+    # Stipulation + GBR: a line containing "+" or "=" followed by the GBR code.
+    # An optional marker word may sit between them (e.g. "ZAZ" for Zugzwang).
+    gbr_re = re.compile(
+        r"\s*([+=])\s+(?:[A-Za-z]+\s+)?(\d{4}\.\d{2})(?:\s+([a-h][1-8][a-h][1-8]))?"
+    )
     stip_idx = -1
     for i in range(body_start, min(body_start + 20, len(lines))):
         ln = lines[i].strip()

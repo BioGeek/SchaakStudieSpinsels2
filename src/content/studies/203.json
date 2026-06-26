@@ -3,9 +3,9 @@
   "chapter": "Miniaturen",
   "chapterNumber": 4,
   "source": "Probleemblad, 2009-10",
-  "gbr": "",
+  "gbr": "0140.11 h3c3",
   "fen": "8/8/7R/8/P7/p1k2b1K/8/6B1 w - - 0 1",
-  "stipulation": "",
+  "stipulation": "+",
   "moves": [
     {
       "id": "main.3",
@@ -118,7 +118,7 @@
   ],
   "prose": {
     "nl": {
-      "before": "Probleemblad, 2009-10\n   1ste Bijzondere Vermelding\n       EG N° 196\n\n+ ZAZ            0140.11 h3c3\n\nZwart dreigt te promoveren na\n\nwaarop wit repliceert met",
+      "before": "Zwart dreigt te promoveren na\n\nwaarop wit repliceert met",
       "after": "Kd5 5.Lxa1 Kxe6  is het ook\n    remise. Of  hier  faalt 3.Th4+\n   Kd5 4.Tf4 a1D 5.Txf3 Dxa4, en\n   geen winst. (Nalimov E.T.)\n\nWit wint na: 2…Kb3? 3.Ld4 Kxa4\nmet bijvoorbeeld 4.Kg3  in maxi-\nmum 27 zetten (Nalimov E.T.)\n\nEn niet het gulzige 3.Txe4? a1D\n\nKxe4, remise. Ook hier na 7.Te3+\nKxe3 8.Lxa1 Ke4, enzovoort.\n\nNu rukt de pion op tot het winnen-\nde promotieveld, daar de zwarte\nkoning buiten het kwadraat staat.\n\nDit is een correctie van de studie:\n\nKh3 Th6 Lg1 a3 a4 / Kc3 Lf3 a2+\n\ndie in de eerste uitgave van het\nboek SchaakStudieSpinselS  ver-\nscheen in 2008.\n Want na 1.Th4 Le4 slaat wit in\nplaats van 2.Lh2 enzovoort, nu\ntoch 2.Txe4! met 2...e1D 3.Ld4+\nKd3 4.Lxa1 Kxe4 5.a5 Kd5 6.a6\nKc6 en nu 7.Ld4! Kc7 8.La7! Kc6\n\nbieden voor de winst.\nNevenoplosbaar dus Er was, hoe\nraar dan ook, een witte pion te\nveel!\n\nFernand Joseph vond het: “Een\nfraaie en slinkse manoeuvre.”\n\nIn Finales…y Temas schreef José\nA. Copié: “Y promociona por que\ndejan fuera del cuadrado al Rey\nnegro. La presentación Y de  la\nobra es muy atractiva pues parece\ncomplicado detener la promoción\nque amenazan las negras y a la\nvez eludir la situación de ta-blas\nteóricas, pero Vandecasteele  lo\nlogra mediante las  finas manio-\nbras ideadas.”\n\nIn Probleemblad,  en later ook in\nEG, vond de prijsrechter Yocha-\nnan Afek  dat: “A  capture-delay\nprovides the essential tempo for\nwinning  the  eventual pawn  en-\nding. The attractive mini systema-\ntic manoevre is a correction of the\nauthor’s HhdbIV 74988.”",
       "beforeVariant": {
         "main.a": "en de dreiging 3.Ld4+.\nNiet goed is:",
