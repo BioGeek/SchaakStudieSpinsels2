@@ -17,37 +17,163 @@
       "parent": null
     },
     {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "5K2/7k/3N4/5P2/8/8/6b1/8 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Nf7",
+      "nl": "Pf7",
+      "fenAfter": "5K2/5N1k/8/5P2/8/8/6b1/8 b - - 3 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
       "id": "A.4",
       "ply": 4,
       "san": "Bf1",
       "nl": "Lf1",
-      "fenAfter": "5K1k/8/3N4/5P2/8/8/8/5b2 w - - 2 2",
+      "fenAfter": "5K2/5N1k/8/5P2/8/8/8/5b2 w - - 4 3",
       "variant": "A",
+      "parent": "A.3"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "5K1k/8/3N4/3b1P2/8/8/8/8 w - - 2 2",
+      "variant": "B",
       "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "5K1k/5N2/8/3b1P2/8/8/8/8 b - - 3 2",
+      "variant": "B",
+      "parent": "B.2"
     },
     {
       "id": "B.4",
       "ply": 4,
       "san": "Kh7",
       "nl": "Kh7",
-      "fenAfter": "5K2/7k/3N4/5P2/8/8/6b1/8 w - - 2 2",
+      "fenAfter": "5K2/5N1k/8/3b1P2/8/8/8/8 w - - 4 3",
       "variant": "B",
-      "parent": "main.1"
+      "parent": "B.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "5K2/7k/8/3b1PN1/8/8/8/8 b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "5K2/8/7k/3b1PN1/8/8/8/8 w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "5K2/8/4N2k/3b1P2/8/8/8/8 b - - 7 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "5K2/8/4N2k/5P2/4b3/8/8/8 w - - 8 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "5K2/8/4NP1k/8/4b3/8/8/8 b - - 0 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Bg6",
+      "nl": "Lg6",
+      "fenAfter": "5K2/8/4NPbk/8/8/8/8/8 w - - 1 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4K3/4NPbk/8/8/8/8/8 b - - 2 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "8/4K3/4NP1k/7b/8/8/8/8 w - - 3 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "8/4K3/5P1k/7b/5N2/8/8/8 b - - 4 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Bf7",
+      "nl": "Lf7",
+      "fenAfter": "8/4Kb2/5P1k/8/5N2/8/8/8 w - - 5 8",
+      "variant": "B",
+      "parent": "B.13"
     },
     {
       "id": "B.15",
       "ply": 15,
       "san": "Kxf7",
       "nl": "Kxf7",
-      "fenAfter": "8/5K1k/3N4/5P2/8/8/6b1/8 b - - 3 2",
+      "fenAfter": "8/5K2/5P1k/8/5N2/8/8/8 b - - 0 8",
       "variant": "B",
-      "parent": "B.4"
+      "parent": "B.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "De pion moet nog 3 zetten doen.\nDe koning bezet reeds een veld:",
-      "after": "1…         Kh7        2.Pf7\n\n1…         Ld5             2.Pf7+\n\nOok hier plaatst het paard zich\n     voor zijn pion.\n\nNa een zwarte koningszet volgt de\n     paardvork met verovering van de\n      loper.\n\nEr is niet beter;\n\nOok hier met winst.\n\n      Jarl Ulrichsen oordeelde over de-\n     ze studie “Fine  if you like to test\n     your capacity to play simple end-\n     games, but are not candidate for\n      the award.”\n\n      Hier wordt een pion, opweg naar\n      promotie,  tot tweemaal toe ver-\n      spert door twee obstakels, in bei-\n     de varianten.\n\n      Niet zo simpel, Jarl.\n     Ach, ieder zijn smaak!",
+      "after": "Ook hier plaatst het paard zich\n     voor zijn pion.\n\nNa een zwarte koningszet volgt de\n     paardvork met verovering van de\n      loper.\n\nEr is niet beter;\n\nOok hier met winst.\n\n      Jarl Ulrichsen oordeelde over de-\n     ze studie “Fine  if you like to test\n     your capacity to play simple end-\n     games, but are not candidate for\n      the award.”\n\n      Hier wordt een pion, opweg naar\n      promotie,  tot tweemaal toe ver-\n      spert door twee obstakels, in bei-\n     de varianten.\n\n      Niet zo simpel, Jarl.\n     Ach, ieder zijn smaak!",
       "beforeVariant": {
         "B": "En ook het paard blokkeert de\nopmars van de pion.\n\nEn wit haalt toch het promotie-\nveld na:"
       }

@@ -87,12 +87,21 @@
       "fenAfter": "1k6/8/RKr5/8/6B1/8/3pp3/8 w - - 9 6",
       "variant": "A",
       "parent": "A.9"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Rc6",
+      "nl": "Tc6",
+      "fenAfter": "k7/7R/2r5/1K6/6B1/8/3pp3/8 w - - 1 2",
+      "variant": "B",
+      "parent": null
     }
   ],
   "prose": {
     "nl": {
       "before": "Er dreigen twee zwartepromoties.\nNa 1.Lxe2? of 1.Lxc8? volgt on-\nmiddellijk 1…d8D, met remise.\nDus:\n       1Lf3+",
-      "after": "1…          Tc6        2.Lxc6      Kb8        3.Kb6        d(e)1D        4.Th8        Kd(e)8+        5.Txd(e)8+\n\nEveneens mat.\n\nWit was hier blijkbaar niet bang\nvan de twee  dreigende  zwarte\npionnen.\n\nBijna - M\nMiniaturen\n\n  Ook de meest orthodoxe communist\n   verdedigt in het eindspel zijn koning\n                                 (Brana Crnčvič)",
+      "after": "Eveneens mat.\n\nWit was hier blijkbaar niet bang\nvan de twee  dreigende  zwarte\npionnen.\n\nBijna - M\nMiniaturen\n\n  Ook de meest orthodoxe communist\n   verdedigt in het eindspel zijn koning\n                                 (Brana Crnčvič)",
       "beforeVariant": {
         "B": "doende volgens Nalimov.\n\nEn wint."
       }

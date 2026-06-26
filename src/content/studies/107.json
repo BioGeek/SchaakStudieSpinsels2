@@ -15,30 +15,12 @@
       "fenAfter": "8/8/4K3/2p5/6N1/8/8/3Q2qk b - - 1 1",
       "variant": "main",
       "parent": null
-    },
-    {
-      "id": "main.3",
-      "ply": 3,
-      "san": "Qd1+",
-      "nl": "Dd1+",
-      "fenAfter": "8/8/4K3/2p5/6N1/8/8/3q3k w - - 0 2",
-      "variant": "main",
-      "parent": "main.3"
-    },
-    {
-      "id": "main.3",
-      "ply": 3,
-      "san": "Qe1+",
-      "nl": "De1+",
-      "fenAfter": "8/8/4K3/2p5/6N1/8/8/3Qq2k w - - 2 2",
-      "variant": "main",
-      "parent": "main.3"
     }
   ],
   "prose": {
     "nl": {
       "before": "De zwarte koning  zit in de hoek\ngeklemd en het is  niet eenvoudig\neen juiste eerste zet te vinden.\n\nNa  bijvoorbeeld  1.Df3+?  Dg2",
-      "after": "1.Ke7       Dg2\n\nBij het zoeken naar een zuivere\nversie voor dit boek vond ik dan\nbovenstaande diagramversie. Dus\nzonder een nevenoplossing op het\neinde.",
+      "after": "1.Ke7       Dg2\n\n2.Dd1+      Dg1       3.Dd5+      Dg2        4.Dh5       Kg1        5.Dxc5+     Kh1\n\n2.De1+ Dg1 3.De4+ Dg2 4.Dh7+\n\nBij het zoeken naar een zuivere\nversie voor dit boek vond ik dan\nbovenstaande diagramversie. Dus\nzonder een nevenoplossing op het\neinde.",
       "beforeVariant": {
         "main.a": "Kg1 5.Dxc5+ Kh1 6.Dc1+ Dg1\n\nomdat zijn eigen koning in de weg\nstaat. Correct is daarom deze éni-\nge wijze koningszet:\n\nWant  na 1…c4?  2.De4+ Dg2\n\nKh1 6.Dh6+ Kg2 7.Pe3+ en 8.Pxf1\nis het doel bereikt.\n\nen mat. Of 11…Kg2 12.Pe3+ en\n\nVerscheidene gelijkaardige pogin-\ngen van Julien Vandiest misluk-\nten, tot we samen een laatste ver-\nsie publiceerden in Flemish Minia-\ntures (1997):\n\nKd5 De2 Pg4 / Kh1 Dg1 b6 +\n\nMet  de  oplossing:  1.Ke6 Dg2\n\nKg1 5.Db1+  Df1 6.Dxb6+ Kh1\n\nKh1 10.Da1+ Kg1 11.Da8+ Dg2\n\nMaar nu wint op het laatst zowel :"
       }

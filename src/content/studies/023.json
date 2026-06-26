@@ -128,7 +128,7 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Lc6,  1.Lc8,  1.Le8, 1.Pd2 en     1.La4)  1...Pg5  2.Kf4 Pf7 3.Pa5\n\nvoort.\n\nEn het paard wordt veroverd op\n    de volgende zet met winst voor\n     wit.\n\n     In de studie van Roger Missiaen\n    (1968):\n\n    Kf5 Ld7 Pb3 / Kf1 Ph7 e5 +\n\n     slaat de koning de pion: 1.Kxe5\n    (Maar ook winnend  zijn  1.Pc5,\n\n(korter is 3.Le6) 3...Pd6 4.Ke5 Pf7\n\nDus nevenoplosbaar.\n\n     In de eerste uitgave van dit boek\n    dacht ik dat dat mijn correctie kon\n    verlengd worden met twee zetten,\n    Namelijk: Kf5 Le6 Pa5 / Kf1 Pe8 +\n\n   Maar na 1.Ld7+ Pd6+ 2.Ke5 Pf7+\n\nKd2 8.Kc7 Kc3 9.Ld7 Kb4 10.Kb6\n    enzovoort, maar ook 7.Lb7 Kd2\n\nOok ik kan me vergissen.",
+      "after": "1.Lc6,  1.Lc8,  1.Le8, 1.Pd2 en     1.La4)  1...Pg5  2.Kf4 Pf7 3.Pa5\n\n3.Kf6 Pd6 4.Lc6 Ke2 5.Ke6 Pc8     6.Kd7 Pa7, wint niet enkel 7.La4\n\nvoort.\n\nEn het paard wordt veroverd op\n    de volgende zet met winst voor\n     wit.\n\n     In de studie van Roger Missiaen\n    (1968):\n\n    Kf5 Ld7 Pb3 / Kf1 Ph7 e5 +\n\n     slaat de koning de pion: 1.Kxe5\n    (Maar ook winnend  zijn  1.Pc5,\n\n(korter is 3.Le6) 3...Pd6 4.Ke5 Pf7\n\nDus nevenoplosbaar.\n\n     In de eerste uitgave van dit boek\n    dacht ik dat dat mijn correctie kon\n    verlengd worden met twee zetten,\n    Namelijk: Kf5 Le6 Pa5 / Kf1 Pe8 +\n\n   Maar na 1.Ld7+ Pd6+ 2.Ke5 Pf7+\n\nKd2 8.Kc7 Kc3 9.Ld7 Kb4 10.Kb6\n    enzovoort, maar ook 7.Lb7 Kd2\n\nOok ik kan me vergissen.",
       "beforeVariant": {
         "main.a": "zet 2.)",
         "main.b": "paard valt op de volgende zet.\n   Ook na   4...Pe7 5.Le6 K~"

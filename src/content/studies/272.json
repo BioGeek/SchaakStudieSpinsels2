@@ -125,77 +125,105 @@
       "parent": "main.c.4"
     },
     {
-      "id": "main.a.2",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/p4N1n/p1k5/p4K2/p7/8/1B6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a2.2",
       "ply": 2,
       "san": "Nf8",
       "nl": "Pf8?",
       "fenAfter": "5n2/p4N2/p7/p1k2K2/p7/8/1B6/8 w - - 2 2",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.1"
     },
     {
-      "id": "main.a.3",
+      "id": "main.a2.3",
       "ply": 3,
       "san": "Ba3+",
       "nl": "La3+",
       "fenAfter": "5n2/p4N2/p7/p1k2K2/p7/B7/8/8 b - - 3 2",
-      "variant": "main.a",
-      "parent": "main.a.2"
+      "variant": "main.a2",
+      "parent": "main.a2.2"
     },
     {
-      "id": "main.b.2",
+      "id": "main.b2.2",
       "ply": 2,
       "san": "Kc4",
       "nl": "Kc4?",
       "fenAfter": "8/p4N1n/p7/p4K2/p1k5/8/1B6/8 w - - 2 2",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.1"
     },
     {
-      "id": "main.b.3",
+      "id": "main.b2.3",
       "ply": 3,
       "san": "Bg7",
       "nl": "Lg7",
       "fenAfter": "8/p4NBn/p7/p4K2/p1k5/8/8/8 b - - 3 2",
-      "variant": "main.b",
-      "parent": "main.b.2"
-    },
-    {
-      "id": "main.4",
-      "ply": 4,
-      "san": "a3",
-      "nl": "a3",
-      "fenAfter": "8/p4N1n/p7/p1k2K2/8/p7/1B6/8 w - - 0 2",
-      "variant": "main",
-      "parent": "main.1"
+      "variant": "main.b2",
+      "parent": "main.b2.2"
     },
     {
       "id": "main.5",
       "ply": 5,
       "san": "Kg6",
       "nl": "Kg6",
-      "fenAfter": "8/p4N1n/p5K1/p1k5/8/p7/1B6/8 b - - 1 2",
+      "fenAfter": "8/p4N1n/p1k3K1/p7/p7/8/1B6/8 b - - 3 2",
       "variant": "main",
-      "parent": "main.4"
+      "parent": "main.2"
     },
     {
-      "id": "main.6",
-      "ply": 6,
-      "san": "Nf8+",
-      "nl": "Pf8+",
-      "fenAfter": "5n2/p4N2/p5K1/p1k5/8/p7/1B6/8 w - - 2 3",
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/p4N1n/p5K1/pk6/p7/8/1B6/8 w - - 4 3",
       "variant": "main",
       "parent": "main.5"
+    },
+    {
+      "id": "main.37",
+      "ply": 37,
+      "san": "Bxa3",
+      "nl": "Lxa3",
+      "fenAfter": "8/p4N1n/p5K1/pk6/p7/B7/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.52",
+      "ply": 52,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "8/p4N2/p4nK1/pk6/p7/B7/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.37"
+    },
+    {
+      "id": "main.53",
+      "ply": 53,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "8/p7/p4nK1/pk4N1/p7/B7/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.52"
     }
   ],
   "prose": {
     "nl": {
       "before": "Eerst tracht wit het zwart paard te\nisoleren met:",
-      "after": "1...         Kc6\n\nkoning komt naderbij. Ook hier\n   na bijvoorbeeld 3...a2 4.Kxh7\n   Kb3  5.Pd6 Kc2  6.Pc4 Kc1\n\nEn het zwarte paard kan niet weg.\nDit is beter dan 2.Lg7 Kd7 3.Kg6\nKe7 4.Pe5 Pf8+, enzovoort.\n\nen niet 2…Kd5? 3.Ld6 K~ 4.Kg6,\nenzovoort,\n\nNu kan wit het paard niet onge-\nstraft slaan, maar gaat hij op jacht\nnaar pionnenroof:\n\nDe eerste zwarte pion wordt ge-\nplukt.\n\nNiet 6...Kb6? 7.Pc4+ Kb5 8.Pb2 en\nhet zwarte paard wordt veroverd,\nmet vrij makkelijke winst voor wit.\n\nDe enige afwachtende zet want\n\nDaar verdwijnt de tweede pion.\n\nEn opnieuw:\n\nOf 18...a5? 19.La3 Pf6 20.Pg5+\nKe5 21.Lb2+ en 22.Kxf6.\n\nOok de derde pion sneuvelt.\n\nEn ook de laatste pion wordt op-\ngeslokt.\n\nHier  ziet men waarom 26.Lc5?\n     fout   is.  Er  volgt  dan 26…Pf6\n\nontsnapt of er is loperverlies.\n\nEn wit wint.\n\n    Voor deze drievoudige heen en\n    weer gaande manoeuvre gaf het\n      jurylid P.Joita mij, op een totaal\n    van 10 punten, een 7 voor de ori-\n      ginaliteit, een 8 voor de artistieke\n     impressie en een 6 voor de moei-\n     lijkheidsgraad.\n\n    Maar Julien Vandiest schreef  in\n     Flemish Miniatures: “Seems to me\n     that a reward of only 21 out of 30\n    does not sufficiently do justice to\n      this highly original composition.”\n\n    En Roger Missiaen concludeerde\n     leuk met: “A fine finding! An amu-\n     sing feature is the way an hungry\n     Knight galops back and front  all\n     over the board to enjoyment of the\n     spectaters”.",
+      "after": "koning komt naderbij. Ook hier\n   na bijvoorbeeld 3...a2 4.Kxh7\n   Kb3  5.Pd6 Kc2  6.Pc4 Kc1\n\nEn het zwarte paard kan niet weg.\nDit is beter dan 2.Lg7 Kd7 3.Kg6\nKe7 4.Pe5 Pf8+, enzovoort.\n\nen niet 2…Kd5? 3.Ld6 K~ 4.Kg6,\nenzovoort,\n\nNu kan wit het paard niet onge-\nstraft slaan, maar gaat hij op jacht\nnaar pionnenroof:\n\nDe eerste zwarte pion wordt ge-\nplukt.\n\nNiet 6...Kb6? 7.Pc4+ Kb5 8.Pb2 en\nhet zwarte paard wordt veroverd,\nmet vrij makkelijke winst voor wit.\n\nDe enige afwachtende zet want\n\nDaar verdwijnt de tweede pion.\n\nEn opnieuw:\n\nOf 18...a5? 19.La3 Pf6 20.Pg5+\nKe5 21.Lb2+ en 22.Kxf6.\n\nOok de derde pion sneuvelt.\n\nEn ook de laatste pion wordt op-\ngeslokt.\n\nHier  ziet men waarom 26.Lc5?\n     fout   is.  Er  volgt  dan 26…Pf6\n\nontsnapt of er is loperverlies.\n\nEn wit wint.\n\n    Voor deze drievoudige heen en\n    weer gaande manoeuvre gaf het\n      jurylid P.Joita mij, op een totaal\n    van 10 punten, een 7 voor de ori-\n      ginaliteit, een 8 voor de artistieke\n     impressie en een 6 voor de moei-\n     lijkheidsgraad.\n\n    Maar Julien Vandiest schreef  in\n     Flemish Miniatures: “Seems to me\n     that a reward of only 21 out of 30\n    does not sufficiently do justice to\n      this highly original composition.”\n\n    En Roger Missiaen concludeerde\n     leuk met: “A fine finding! An amu-\n     sing feature is the way an hungry\n     Knight galops back and front  all\n     over the board to enjoyment of the\n     spectaters”.",
       "beforeVariant": {
-        "main.a": "En niet:\n\na3 4.Kg6 a2 5.Le5 Pf8+ en-\n    zovoort.\n\nNatuurlijk niet::",
+        "main.a": "En niet:",
         "main.b": "Ke7 4.Lb2 Pf8+ 5.Kg7 Pe6+ en\n    het  zwarte  paard  ontsnapt.\n   Ook na:",
-        "main.c": "a1D 4.Lxa1 Pf8+ 5.Kg7 Pe6+.\n   En ook na:"
+        "main.c": "a1D 4.Lxa1 Pf8+ 5.Kg7 Pe6+.\n   En ook na:",
+        "main.a2": "a3 4.Kg6 a2 5.Le5 Pf8+ en-\n    zovoort.\n\nNatuurlijk niet::"
       }
     }
   }

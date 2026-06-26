@@ -128,10 +128,12 @@
   "prose": {
     "nl": {
       "before": "Na een ietwat grove inleiding:",
-      "after": "Cor de Feijter commentarieerde:\n“Aardige steen, maar enkele  fa-\ncetten  kunnen  nog  bijgeslepen\nworden.”",
+      "after": "5.a7          Lxe2.        6.Ke4         Lf1\n\n7.Kxe3 Lf3, de h5-pion door.        7.Kf3\n\nCor de Feijter commentarieerde:\n“Aardige steen, maar enkele  fa-\ncetten  kunnen  nog  bijgeslepen\nworden.”",
       "beforeVariant": {
-        "main.a": "dreigt zwart pion h4 te veroveren,\nMaar wit zal de a-pion tot promo-\ntie brengen:\n\nDeze zet is beter dan: 4...Lb3+?\n\nvoorbeeld 7...Kg4 8.Kxe3 en één\nvan de witte pionnen promoveert.\n\nNiet 6…Kg4? want dan loopt na\n\nNatuurlijk  niet 10.Kxe3? Lg2 en\nweg is de winst.\n\nZwart hoopt op een promotie.\n\nEn niet\n\nremise.\n\nDreigt nu 10...Lc6+.\n\nEn dankzij de onderpromotie wint\nwit na loperruil, door promotie van\nde h-pion, daar hij de goede loper\noverhoudt.\n\nNiet goed is hier",
-        "main.b": "remise. Noch\n\nzwart staat pat. Ook"
+        "main.a": "dreigt zwart pion h4 te veroveren,\nMaar wit zal de a-pion tot promo-\ntie brengen:\n\nDeze zet is beter dan: 4...Lb3+?\n\nvoorbeeld 7...Kg4 8.Kxe3 en één\nvan de witte pionnen promoveert.\n\nNiet 6…Kg4? want dan loopt na\n\nNatuurlijk  niet 10.Kxe3? Lg2 en\nweg is de winst.\n\nZwart hoopt op een promotie.\n\nEn niet",
+        "main.b": "remise. Noch",
+        "main.a2": "remise.\n\nDreigt nu 10...Lc6+.\n\nEn dankzij de onderpromotie wint\nwit na loperruil, door promotie van\nde h-pion, daar hij de goede loper\noverhoudt.\n\nNiet goed is hier",
+        "main.b2": "zwart staat pat. Ook"
       }
     }
   }

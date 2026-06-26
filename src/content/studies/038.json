@@ -242,15 +242,6 @@
       "parent": "A.23"
     },
     {
-      "id": "A.25",
-      "ply": 25,
-      "san": "Kxg3",
-      "nl": "Kxg3",
-      "fenAfter": "8/8/8/8/7B/6KN/5n2/5k2 b - - 25 13",
-      "variant": "A",
-      "parent": "A.25"
-    },
-    {
       "id": "B.10",
       "ply": 10,
       "san": "Kf1",
@@ -398,7 +389,7 @@
   "prose": {
     "nl": {
       "before": "Het zwart paard zit opgesloten, en\nbeide koningen reppen er  zich\nnaar toe.",
-      "after": "En niet 15.Lxf2? pat.\nDit miniatuurtje is geïnspireerd op\neen  niet zuivere studie van V.\nKaljagin en L. Mitrofanov in Pat a\nMat (1992):\n\nKf7 La1 Pb7 e4 / Kh6 c7 d6 h4 +\n\nNa 1.e5 h3 2.exd6 cxd6 3.Pxd6 h2\n\ngoed)  5...Kh5 6.Kf5 Kh4  7.Kf4\nKh3  8.Kf3  Kh2  9.Le5+  Kh3\n\nen 10.Ld6) 10...Kh4 11.Kg2 en\nhet zwart paard wordt veroverd\n\nReiner Staudtes’ oordeel omtrent\nmijn studie luidde: “The diagonal\nwalk of the king and then the duel\nof knight and black king make us\nforget that two pieces are only\nspectaters all the time.”",
+      "after": "13.Kxg3\n\n4.Pe4 h1P 5.Kf6 (5.Ke6  is ook\n\n10.Lb8 (Ook winnend zijn 10.Lc7\n\nEn niet 15.Lxf2? pat.\nDit miniatuurtje is geïnspireerd op\neen  niet zuivere studie van V.\nKaljagin en L. Mitrofanov in Pat a\nMat (1992):\n\nKf7 La1 Pb7 e4 / Kh6 c7 d6 h4 +\n\nNa 1.e5 h3 2.exd6 cxd6 3.Pxd6 h2\n\ngoed)  5...Kh5 6.Kf5 Kh4  7.Kf4\nKh3  8.Kf3  Kh2  9.Le5+  Kh3\n\nen 10.Ld6) 10...Kh4 11.Kg2 en\nhet zwart paard wordt veroverd\n\nReiner Staudtes’ oordeel omtrent\nmijn studie luidde: “The diagonal\nwalk of the king and then the duel\nof knight and black king make us\nforget that two pieces are only\nspectaters all the time.”",
       "beforeVariant": {
         "A": "En na de aanval van het paard op\nde koning:\n\nkan deze nu twee richtingen uit:",
         "A.a": "(Zie zet 12.)",

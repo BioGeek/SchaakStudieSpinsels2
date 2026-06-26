@@ -65,12 +65,18 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.P6c7 a1P 2.Kb2 Pb3 3.Kxb3 Le3 4.Lh2 Lg1 5.Lf4 Le3 6.Pb6 Lxb6 7.Ld2+ en mat.\n\n1.P6c7 a1P+ 2.Kb2 Pb3 3.Kxb3\n\n1.P6c7       Lb4+        2.Kb2       Pb3 2…Lc5 3.Lxc5 Pb3, en wint met\n\n1.P6c7       a3            2.Kxb3      a1P+            3.Kxa3       Lb4+      3...Pc2+ 4.Kb2 Pb4 5.Kb3 Pc6     6.Lb6+ en mat.            4.Kb2       Pb3            5.Kxb3       Lc5             6.Lh2,\n\nEn a), b) of c).\n    En ook hier wint wit.\n\n    Maar Nr - 206 - is de zuiverste.\n\n     ‘Driemaal is scheepsrecht’.",
+      "after": "En a), b) of c).\n    En ook hier wint wit.\n\n    Maar Nr - 206 - is de zuiverste.\n\n     ‘Driemaal is scheepsrecht’.",
       "beforeVariant": {
         "A": "Er dreigt mat op veld b6           A\n\nZwart heeft twee mogelijkheden:",
         "A.b": "En mat.",
-        "B.b": "En mat.\n\nEn a), b) of c).\n\nEn a), b) of c).",
-        "B.a": "En mat.\n\nDeze ‘bijna-miniatuur’ is niet enkel\neen correctie van de beroemde\nstudie  uit  1930,  verschenen  in\nVechernyaya, van de componist\nAbram Gurvich. Na 84 jaar wordt\nze nu ook nog eens verrijkt met\neen tweede variant. Ik heb er na-\nmelijk een extra zwart pionnetje\naan toegevoegd op veld a3.\nWant er is immers een nevenop-\nlossing voor het oorspronkelijk ju-\nweeltje van de begaafde Rus:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Ld2 a2+\n\nMaar hier wint ook de zet 3.Pb6:\n\nVriend Roger Missaen vond deze\nverbetering:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Le1 a2+\n\nLf2 4.Lh2 Lg3 5.Pb6, met:\n\nMaar ook hier  is er een tweede\noplossing::  3.Ka3 Lb4+  4.Kxb3\nLc5+ 5.Lh2 met:\nA. 5…Ld6 6.Pb6, en a), b) en c).\nB. 5…Lg1 6.Lf4 Le3 7.Pb6 en\n\nDus ook hier nevenoplosbaar.\n\nIn 2010 verbeterde  ik dan deze\nuitzonderlijk mooie studie voor het\neerst, aldus:\n\nKa3 Lg1 Pa6 Pa8 /\n              Ka5 Le1 Pa1 +\n\nbijvoorbeeld 4.Le3. Maar niet met\n\nmet a), b) of c).\n    Nu wel correct., maar hier zonder\n    de minorpromotie.\n\n      Bij een tweede poging  in 2014\n     slaagde ik er in de paardpromotie\n     te behouden, door toevoeging van\n    twee extra pionnen:\n\n    Kc4 Lg1 Pa6 Pa8 /\n              Ka5 Le1 a4 a2 b3 +"
+        "B.b": "En mat.",
+        "B.a2": "En mat.\n\nDeze ‘bijna-miniatuur’ is niet enkel\neen correctie van de beroemde\nstudie  uit  1930,  verschenen  in\nVechernyaya, van de componist\nAbram Gurvich. Na 84 jaar wordt\nze nu ook nog eens verrijkt met\neen tweede variant. Ik heb er na-\nmelijk een extra zwart pionnetje\naan toegevoegd op veld a3.\nWant er is immers een nevenop-\nlossing voor het oorspronkelijk ju-\nweeltje van de begaafde Rus:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Ld2 a2+\n\nMaar hier wint ook de zet 3.Pb6:",
+        "B.a3": "Vriend Roger Missaen vond deze\nverbetering:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Le1 a2+\n\nLf2 4.Lh2 Lg3 5.Pb6, met:",
+        "B.a4": "Maar ook hier  is er een tweede\noplossing::  3.Ka3 Lb4+  4.Kxb3\nLc5+ 5.Lh2 met:\nA. 5…Ld6 6.Pb6, en a), b) en c).\nB. 5…Lg1 6.Lf4 Le3 7.Pb6 en",
+        "B.a5": "Dus ook hier nevenoplosbaar.\n\nIn 2010 verbeterde  ik dan deze\nuitzonderlijk mooie studie voor het\neerst, aldus:\n\nKa3 Lg1 Pa6 Pa8 /\n              Ka5 Le1 Pa1 +\n\nbijvoorbeeld 4.Le3. Maar niet met",
+        "B.b3": "En a), b) of c).",
+        "B.a6": "met a), b) of c).\n    Nu wel correct., maar hier zonder\n    de minorpromotie.\n\n      Bij een tweede poging  in 2014\n     slaagde ik er in de paardpromotie\n     te behouden, door toevoeging van\n    twee extra pionnen:\n\n    Kc4 Lg1 Pa6 Pa8 /\n              Ka5 Le1 a4 a2 b3 +",
+        "B.b4": "En a), b) of c)."
       }
     }
   }

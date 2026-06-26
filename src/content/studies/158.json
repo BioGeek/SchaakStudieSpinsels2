@@ -49,8 +49,10 @@
       "before": "Niet 1.Tf2? Le2 2.Tf4+ Lg4 3.Td4\nd1D 4.Txd1 Lxd1 en zwart wint.",
       "after": "1.d7  Td2  2.Tc3+  Kd1  3.Tc1+\n\nKg4 10.Txd2.\n\nWit houdt remise.\n\n    Met verwisselde kleuren en een\n     leuk slot is het een parel in een\n    nieuwe setting.Dit miniatuurtje  is\n    een uitbreiding van een eerste prijs\n    van Boris Badai (Vecherny Lening-\n     rad 1967.)\n\n    Kh5 Tg3 Ld8 d6 /\n                 Kc2 Tf2 Lb7 g4 +\n\nKe4.Te1+ Kf3 5.Te3+ Kg2 6.Te2+\n    Txe2 7.Lg5, met pionpromotie.",
       "beforeVariant": {
-        "main.a": "Td6+ en 5.Txd2.\n\nLxd1, en zwart wint.\n\nNa 4…Tf8? redt wit zich met 5.Ke7\nTf2 6.Lf4 Txf4 7.Txd2 en remise.\n\nEn ook hier faalt:\n\nFout  is 5…Tg6+? 6.Kxg6  Lc2-\n     (Lh5)+ 7.Kf6 d1D 8.Txd1 Lxd1. Wit\n    moet dit vijfde offeraanbod  aan-\n     vaarden.\n\nDekt veld d7. Nu biedt wit op zijn\n     beurt beide stukken ten offer aan.",
-        "main.b": "Of:"
+        "main.a2": "Td6+ en 5.Txd2.",
+        "main.a3": "Lxd1, en zwart wint.\n\nNa 4…Tf8? redt wit zich met 5.Ke7\nTf2 6.Lf4 Txf4 7.Txd2 en remise.\n\nEn ook hier faalt:",
+        "main.a4": "Fout  is 5…Tg6+? 6.Kxg6  Lc2-\n     (Lh5)+ 7.Kf6 d1D 8.Txd1 Lxd1. Wit\n    moet dit vijfde offeraanbod  aan-\n     vaarden.\n\nDekt veld d7. Nu biedt wit op zijn\n     beurt beide stukken ten offer aan.",
+        "main.b4": "Of:"
       }
     }
   }

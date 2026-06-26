@@ -209,10 +209,11 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.De2+ Kd4 2.De3+ Kc4 3.Dc3+\n\nEn wint.\nHet  is een verbetering van een\nstudie van W. Prigoenov in Ces-\nkovensky Sach (1992):\n\nKg4 Da6 Pd5 / Ke4 Df7 +\n\nKb5 4.Db4+ Kc6 5.Db6+ Kd7\n\nKg7  9.Pe6 Kg6  10.Pg5+  Df6\n\n(Winnen ook:14.Dd5+,14.Dd8+,\n\nkorter.)   17…Dg8    18.Dh1?\n(18.Dc6 of 18.De4 winnen ook.)\n\nDa6+ 21.Pe6 Da2 22.Dg4 Df2\n\nDa5+ 28.Kg6, en wit wint.\n\nVele malen nevenoplosbaar dus.",
+      "after": "1.De2+ Kd4 2.De3+ Kc4 3.Dc3+\n\n6.Dc7+ Ke6 7.Pf4+ Kf6 8.Dd6+\n\n11.Dd3+  Kg7  12.Dd7+  Kg8 13.Kh5  Dg1   en   14.De8+?\n\nEn wint.\nHet  is een verbetering van een\nstudie van W. Prigoenov in Ces-\nkovensky Sach (1992):\n\nKg4 Da6 Pd5 / Ke4 Df7 +\n\nKb5 4.Db4+ Kc6 5.Db6+ Kd7\n\nKg7  9.Pe6 Kg6  10.Pg5+  Df6\n\n(Winnen ook:14.Dd5+,14.Dd8+,\n\nkorter.)   17…Dg8    18.Dh1?\n(18.Dc6 of 18.De4 winnen ook.)\n\nDa6+ 21.Pe6 Da2 22.Dg4 Df2\n\nDa5+ 28.Kg6, en wit wint.\n\nVele malen nevenoplosbaar dus.",
       "beforeVariant": {
-        "main.a": "(Ze zet 5.)\n\nEen verrassende stille zet.\n\nKg8 16.Kh5 (Zie zet 14.)\n\nWeerom een stille zet.",
-        "main.b": "zet 15.)"
+        "main.a": "(Ze zet 5.)\n\nEen verrassende stille zet.\n\nKg8 16.Kh5 (Zie zet 14.)",
+        "main.b": "zet 15.)",
+        "main.a2": "Weerom een stille zet."
       }
     }
   }

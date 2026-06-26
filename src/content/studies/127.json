@@ -17,6 +17,15 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Qg6+",
+      "nl": "Dg6+",
+      "fenAfter": "2k5/8/1K4q1/2NQ4/8/7p/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
       "id": "main.a.2",
       "ply": 2,
       "san": "Qc7+",
@@ -69,30 +78,12 @@
       "fenAfter": "1qk5/8/K7/2NQ4/8/7p/8/8 b - - 3 2",
       "variant": "main.b",
       "parent": "main.b.2"
-    },
-    {
-      "id": "main.8",
-      "ply": 8,
-      "san": "h2",
-      "nl": "h2",
-      "fenAfter": "2k5/8/1K6/2NQ4/8/6q1/7p/8 w - - 0 2",
-      "variant": "main",
-      "parent": "main.1"
-    },
-    {
-      "id": "main.9",
-      "ply": 9,
-      "san": "Nb7+",
-      "nl": "Pb7+",
-      "fenAfter": "2k5/1N6/1K6/3Q4/8/6q1/7p/8 b - - 1 2",
-      "variant": "main",
-      "parent": "main.8"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…          Dg6+\n\nDc7 3.Df5+ Kb8 4.Pd7+ Kc8\n\nDoor de pion h3 is de diagonaal c8-\nh3 nu niet toegankelijk voor zwart,\nbijvoorbeeld 4…Dc8 5.Df6+ Ke8\n\nEn als 4…Kc8? 5.Kb6 Db4+ 6.Kc6\nDxc5 7.Kxc5 ook niet goed is, dan\nmaar:\n\nZwart voelt nattigheid, en om niet\nin de hoek mat gedrukt te worden\nspeelt hij:\n\nEn toch mat.",
+      "after": "Dc7 3.Df5+ Kb8 4.Pd7+ Kc8\n\nDoor de pion h3 is de diagonaal c8-\nh3 nu niet toegankelijk voor zwart,\nbijvoorbeeld 4…Dc8 5.Df6+ Ke8\n\nEn als 4…Kc8? 5.Kb6 Db4+ 6.Kc6\nDxc5 7.Kxc5 ook niet goed is, dan\nmaar:\n\nZwart voelt nattigheid, en om niet\nin de hoek mat gedrukt te worden\nspeelt hij:\n\nEn toch mat.",
       "beforeVariant": {
         "main.a": "Dreigt mat in 2 zetten.",
         "main.b": "Kd8 4.Pb7+ Dxb7 5.Dxb7 wint."

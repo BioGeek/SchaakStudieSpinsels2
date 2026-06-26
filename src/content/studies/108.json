@@ -76,8 +76,9 @@
       "before": "",
       "after": "Winst van dame en paard tegen\n    dame en loper.",
       "beforeVariant": {
-        "main.a": "Indien zwart de loper wil behou-\nden dan offert wit het paard met\nwinst:\n\nEn niet 11.Pf3+? of 11.Pf1+? Kc1\n    en ook hier gelijkspel.",
-        "main.b": "Kxd2 en 11.Dxa1. Of:"
+        "main.a": "Indien zwart de loper wil behou-\nden dan offert wit het paard met\nwinst:",
+        "main.b": "Kxd2 en 11.Dxa1. Of:",
+        "main.a2": "En niet 11.Pf3+? of 11.Pf1+? Kc1\n    en ook hier gelijkspel."
       }
     }
   }

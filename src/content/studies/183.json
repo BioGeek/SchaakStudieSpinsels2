@@ -53,40 +53,195 @@
       "parent": "main.b.3"
     },
     {
-      "id": "main.a.3",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "1K6/P3B3/1k6/n7/B7/8/5q2/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "a8=N+",
+      "nl": "a8P+",
+      "fenAfter": "NK6/4B3/1k6/n7/B7/8/5q2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a2.3",
       "ply": 3,
       "san": "a8=Q",
       "nl": "a8D?",
-      "fenAfter": "QK6/4B3/2k5/n7/8/8/2B2q2/8 b - - 0 1",
-      "variant": "main.a",
-      "parent": null
+      "fenAfter": "QK6/4B3/1k6/n7/B7/8/5q2/8 b - - 0 2",
+      "variant": "main.a2",
+      "parent": "main.2"
     },
     {
-      "id": "main.b.3",
+      "id": "main.b2.3",
       "ply": 3,
       "san": "Bd8+",
       "nl": "Ld8+?",
-      "fenAfter": "1K1B4/P7/2k5/n7/8/8/2B2q2/8 b - - 1 1",
-      "variant": "main.b",
-      "parent": null
+      "fenAfter": "1K1B4/P7/1k6/n7/B7/8/5q2/8 b - - 3 2",
+      "variant": "main.b2",
+      "parent": "main.2"
     },
     {
-      "id": "main.b.4",
+      "id": "main.b2.4",
       "ply": 4,
       "san": "Kc5",
       "nl": "Kc5",
-      "fenAfter": "1K1B4/P7/8/n1k5/8/8/2B2q2/8 w - - 2 2",
-      "variant": "main.b",
-      "parent": "main.b.3"
+      "fenAfter": "1K1B4/P7/8/n1k5/B7/8/5q2/8 w - - 4 3",
+      "variant": "main.b2",
+      "parent": "main.b2.3"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "NK6/4B3/k7/n7/B7/8/5q2/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nc7+",
+      "nl": "Pc7+",
+      "fenAfter": "1K6/2N1B3/k7/n7/B7/8/5q2/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "1K6/2N1B3/1k6/n7/B7/8/5q2/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "1K6/4B3/1k6/n2N4/B7/8/5q2/8 b - - 4 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "1K6/4B3/k7/n2N4/B7/8/5q2/8 w - - 5 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nb4+",
+      "nl": "Pb4+",
+      "fenAfter": "1K6/4B3/k7/n7/BN6/8/5q2/8 b - - 6 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "1K6/4B3/1k6/n7/BN6/8/5q2/8 w - - 7 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bd8+",
+      "nl": "Ld8+",
+      "fenAfter": "1K1B4/8/1k6/n7/BN6/8/5q2/8 b - - 8 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "1K1B4/8/8/n1k5/BN6/8/5q2/8 w - - 9 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "1K1B4/8/8/n1k5/B7/3N4/5q2/8 b - - 10 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "1K1B4/8/8/n2k4/B7/3N4/5q2/8 w - - 11 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nxf2",
+      "nl": "Pxf2",
+      "fenAfter": "1K1B4/8/8/n2k4/B7/8/5N2/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "1K1B4/8/2n5/3k4/B7/8/5N2/8 w - - 1 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxc6+",
+      "nl": "Lxc6+",
+      "fenAfter": "1K1B4/8/2B5/3k4/8/8/5N2/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kxc6",
+      "nl": "Kxc6",
+      "fenAfter": "1K1B4/8/2k5/8/8/8/5N2/8 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…         Kb6\n\nremise.\n\nEen onverwachte damevangst. En\n      wit wint na\n\nmet loper en paard.\n\n     “Spectaculair hoe het paard van a8\n    de dame op f2 veroverd.” Aldus\n    John Dubois.\n\n    En Fernand Joseph schreef :’’Tot\n    twee keer toe een  verlokkelijke\n    maar  vergiftigde  damepromotie,\n    met als gevolg een verrassende\n     paardpromotie.’’",
+      "after": "remise.\n\nEen onverwachte damevangst. En\n      wit wint na\n\nmet loper en paard.\n\n     “Spectaculair hoe het paard van a8\n    de dame op f2 veroverd.” Aldus\n    John Dubois.\n\n    En Fernand Joseph schreef :’’Tot\n    twee keer toe een  verlokkelijke\n    maar  vergiftigde  damepromotie,\n    met als gevolg een verrassende\n     paardpromotie.’’",
       "beforeVariant": {
-        "main.a": "Na:\n\nwint zwart.\n\nHet beste, want na 1…Kd5 2.a8D+\nKe5 3.Dxa5+ Ke6 4.Db4 wint wit\nmet beide lopers extra. En hier na\n\nvolgt      het      aftrek-schaak,\nbijvoorbeeld: 5.Lh4+ en 6.Lxf2.\n    Nu komt de verrassende pointe:\n\nEen minorpromotie. Want",
-        "main.b": "reeds remise. En na:\n\nDc7+ en mat. Ook eerst"
+        "main.a": "Na:",
+        "main.b": "reeds remise. En na:",
+        "main.a2": "wint zwart.\n\nHet beste, want na 1…Kd5 2.a8D+\nKe5 3.Dxa5+ Ke6 4.Db4 wint wit\nmet beide lopers extra. En hier na\n\nvolgt      het      aftrek-schaak,\nbijvoorbeeld: 5.Lh4+ en 6.Lxf2.\n    Nu komt de verrassende pointe:\n\nEen minorpromotie. Want",
+        "main.b2": "Dc7+ en mat. Ook eerst"
       }
     }
   }

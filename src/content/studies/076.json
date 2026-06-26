@@ -71,19 +71,127 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bg7+",
+      "nl": "Lg7+",
+      "fenAfter": "b7/6b1/5k1K/8/8/4p2R/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "b7/6b1/5k2/7K/8/4p2R/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "b7/6b1/5k2/7K/8/7R/4p3/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "b7/6b1/5k2/7K/8/4R3/4p3/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "b7/6b1/8/5k1K/8/4R3/4p3/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "b7/6b1/8/5k2/7K/4R3/4p3/8 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
       "id": "main.8",
       "ply": 8,
       "san": "Bf3",
       "nl": "Lf3",
-      "fenAfter": "7b/8/5k1K/8/8/4pb1R/8/8 w - - 2 2",
+      "fenAfter": "8/6b1/8/5k2/7K/4Rb2/4p3/8 w - - 4 5",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/6b1/8/5k2/8/4RbK1/4p3/8 b - - 5 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "8/6b1/8/5k1b/8/4R1K1/4p3/8 w - - 6 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/6b1/8/5k1b/8/4R3/4pK2/8 b - - 7 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/8/5k1b/3b4/4R3/4pK2/8 w - - 8 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/5k1b/3b4/4R3/4p3/4K3 b - - 9 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bxe3",
+      "nl": "Lxe3",
+      "fenAfter": "8/8/8/5k1b/8/4b3/4p3/4K3 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…         Lg7+\n\nper met 1…Lg7+ en wint door\n    overmacht.\nMaar na de tekstzet houdt wit re-\nmise:\n\nNiet snel 1…e2? 2.Te3 Lg7+ 3.Kh7\nLf3 4Tf3+ Ke5 Te3+ en 6.Txe1.\n\nMaakt ruimte voor de g-loper.\n\nNa 4.Txe2? Lf3+ en: 5…Lxe2.\n\nDe toren kan de loper niet onge-\nstraft slaan: 5.Txf3+? Ke4  en de\npion promoveert.\n\nEn na de gedwongen, maar  te-\nvens dwingende zet:\n\nstaat wit pat.\n\nOm zich veilig te stellen heeft de\nwitte koning een voorzichtige lan-\nge wandeling ondernomen, van\nveld h6 naar veld e1.\n\nHet commentaar luidde:\n“A miniature in which the white king\nmakes a long journey to get stale-\nmated.”\n\nEn Zoilo Caputto vond het: “Una\nlinda miniatura.”",
+      "after": "per met 1…Lg7+ en wint door\n    overmacht.\nMaar na de tekstzet houdt wit re-\nmise:\n\nNiet snel 1…e2? 2.Te3 Lg7+ 3.Kh7\nLf3 4Tf3+ Ke5 Te3+ en 6.Txe1.\n\nMaakt ruimte voor de g-loper.\n\nNa 4.Txe2? Lf3+ en: 5…Lxe2.\n\nDe toren kan de loper niet onge-\nstraft slaan: 5.Txf3+? Ke4  en de\npion promoveert.\n\nEn na de gedwongen, maar  te-\nvens dwingende zet:\n\nstaat wit pat.\n\nOm zich veilig te stellen heeft de\nwitte koning een voorzichtige lan-\nge wandeling ondernomen, van\nveld h6 naar veld e1.\n\nHet commentaar luidde:\n“A miniature in which the white king\nmakes a long journey to get stale-\nmated.”\n\nEn Zoilo Caputto vond het: “Una\nlinda miniatura.”",
       "beforeVariant": {
         "main.a": "Fout is:",
         "main.b": "Lh6 4.Kg3 Ld5, en de zwarte\n    koning nadert. Na:"

@@ -177,57 +177,12 @@
       "fenAfter": "5Q2/8/8/8/2Bn4/8/k4K2/3r4 b - - 4 5",
       "variant": "main.b",
       "parent": "main.b.8"
-    },
-    {
-      "id": "main.8",
-      "ply": 8,
-      "san": "Rd2",
-      "nl": "Td2",
-      "fenAfter": "5Q2/8/8/1B6/8/4n3/k2r4/4K3 w - - 9 8",
-      "variant": "main",
-      "parent": "main.13"
-    },
-    {
-      "id": "main.9",
-      "ply": 9,
-      "san": "Bc4+",
-      "nl": "Lc4+",
-      "fenAfter": "5Q2/8/8/8/2B5/4n3/k2r4/4K3 b - - 10 8",
-      "variant": "main",
-      "parent": "main.8"
-    },
-    {
-      "id": "main.10",
-      "ply": 10,
-      "san": "Kb3",
-      "nl": "K~",
-      "fenAfter": "5Q2/8/8/1B6/8/1k2n3/6r1/4K3 w - - 5 6",
-      "variant": "main",
-      "parent": "main.9"
-    },
-    {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Kd1",
-      "nl": "Kd1",
-      "fenAfter": "5Q2/8/8/1B6/8/8/k1n3r1/3K4 b - - 6 6",
-      "variant": "main",
-      "parent": "main.10"
-    },
-    {
-      "id": "main.12",
-      "ply": 12,
-      "san": "Rf2",
-      "nl": "Tf2",
-      "fenAfter": "5Q2/8/8/1B6/8/8/k1n2r2/3K4 w - - 7 7",
-      "variant": "main",
-      "parent": "main.11"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Lc8 Pxf5 2.f7 Tg3+ 3.Kd2 Tg2+     4.Ke1 Pd4 5.Lf5 5…Pf3+ 6.Kf1\n\nKb2 en 6.f8D, (5.f8D? Txd3.)\n        enzovoort.\n\nen zwart wint.\n\nNa 5.f8D? Txd3 is het remise.\n\nEn wint.\n\n    Deze ministudie is gebaseerd op\n    een 3de prijs die V. Balanovsky uit\n     Kiev  kreeg  in  het  Rezvov  JT\n     (1992), ook bekend als Kotovsky\n      Visti, een toernooi in Oekraïne:\n\n    Kd3 La6 f5 f6 / Ka2 Tg5 Pg7 +\n\nTd2 7.Le6+ K~ 8.f8D.\n\n    Maar na 5…Te2+ is het remise met\n\nNalimov.",
+      "after": "3.Ld3\n\n3…          Pf3+\n\n4.Kf1     4.Kd1?  Kb2  (met  matdreiging)      5.Le2 Tg1+ 6.Lf1 Txf1+ 7.Ke2 Ph2\n\n4…         Td2            5.Lc4+\n\n5…         K~             6.f8D\n\n1.Lc8 Pxf5 2.f7 Tg3+ 3.Kd2 Tg2+     4.Ke1 Pd4 5.Lf5 5…Pf3+ 6.Kf1\n\n6.Kd1 Tf2 7.f8D Txf5 of 6.Kf1 Pxf5      7.f8D Pg3+ 8.Kg1 Tb2. Aldus\n\nKb2 en 6.f8D, (5.f8D? Txd3.)\n        enzovoort.\n\nen zwart wint.\n\nNa 5.f8D? Txd3 is het remise.\n\nEn wint.\n\n    Deze ministudie is gebaseerd op\n    een 3de prijs die V. Balanovsky uit\n     Kiev  kreeg  in  het  Rezvov  JT\n     (1992), ook bekend als Kotovsky\n      Visti, een toernooi in Oekraïne:\n\n    Kd3 La6 f5 f6 / Ka2 Tg5 Pg7 +\n\nTd2 7.Le6+ K~ 8.f8D.\n\n    Maar na 5…Te2+ is het remise met\n\nNalimov.",
       "beforeVariant": {
         "main.a": "Pe5+ 5.Ke4 Pxf7\n\nDreigt niet enkel de loper te slaan,\nmaar  ook  eeuwig  schaak  na\n\nenzovoort. Of hier 7.Kc1? Tc2+ en\nmat.\n\nNiet goed is 3.Lc4+? (3.Lc6? Pxc6\nis remise) 3...Kb2 4.Kf1 Tg3 5.Ld5\nPe6 6.Kf2 Tg6 7.Lxe6 Tf6+ en\n\neeuwig schaak.\n\nVerrassend, want na",
         "main.b": "wint wit. Zo ook na:"

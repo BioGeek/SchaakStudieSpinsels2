@@ -125,19 +125,154 @@
       "parent": "main.c.3"
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/4pK2/8/8/Bp6/k3P3/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/4pK2/8/8/1p6/k3P3/2B5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/4pK2/8/8/1p6/4P3/1kB5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Be3",
+      "nl": "Le3",
+      "fenAfter": "8/8/4pK2/8/8/1p2B3/4P3/1k6 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
       "id": "main.6",
       "ply": 6,
       "san": "Kc2",
       "nl": "Kc2",
-      "fenAfter": "8/8/4pK2/8/8/Bp6/2k1P3/8 w - - 2 2",
+      "fenAfter": "8/8/4pK2/8/8/1p2B3/2k1P3/8 w - - 6 4",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/4pK2/8/3B4/1p6/2k1P3/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/4pK2/8/3B4/1p6/3kP3/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/4pK2/8/3BP3/1p6/3k4/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/4pK2/8/3BP3/1p1k4/8/8 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/4p3/4K3/3BP3/1p1k4/8/8 b - - 2 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/8/4p3/4K3/2kBP3/1p6/8/8 w - - 3 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ba1",
+      "nl": "La1",
+      "fenAfter": "8/8/4p3/4K3/2k1P3/1p6/8/B7 b - - 4 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/4p3/4K3/4P3/1p1k4/8/B7 w - - 5 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/4p3/8/4PK2/1p1k4/8/B7 b - - 6 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "b2",
+      "nl": "b2",
+      "fenAfter": "8/8/4p3/8/4PK2/3k4/1p6/B7 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxb2",
+      "nl": "Lxb2",
+      "fenAfter": "8/8/4p3/8/4PK2/3k4/1B6/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "Alles draait hier om veld e5",
-      "after": "1…         Ka2                          j        2.Lc1       Kb1        3.Le3\n\nKd3 en wit moet de winst op-\n    geven.\n\nDit is een probleemzet.\n\nWit  snijdt  zijn enig overlevende\nsoldaat de pas af. Want niet cor-\nrect is 3.Lf4? Kc2 4.Le5 Kd2 5.e4\nKd3, met remise.\n\nEn wint gemakkelijk na::\n\nvolgens ‘het boekje’.\n\nDe raadsheer heeft hier zijn plaats\n(e5) afgestaan aan de koning. En\ndie beleefdheid word beloond.\n\nIn Finales…y temas vond José\nCopié het: “Un trabajo didactico,\ninstructivo, interesante. En fin, una\nminiatura, sin duda una obra de\narte muy bella. Por que no esta en\nel podio? Son muchas las obras de\narte que no han merecido un real\nreconocimiento de parte de quie-\nnes deben hacerio. Sin aficionados\nlas tienen en cuenta… pero seria\nmejor que también lo hicieran los\njueces en los concursos.”",
+      "after": "Kd3 en wit moet de winst op-\n    geven.\n\nDit is een probleemzet.\n\nWit  snijdt  zijn enig overlevende\nsoldaat de pas af. Want niet cor-\nrect is 3.Lf4? Kc2 4.Le5 Kd2 5.e4\nKd3, met remise.\n\nEn wint gemakkelijk na::\n\nvolgens ‘het boekje’.\n\nDe raadsheer heeft hier zijn plaats\n(e5) afgestaan aan de koning. En\ndie beleefdheid word beloond.\n\nIn Finales…y temas vond José\nCopié het: “Un trabajo didactico,\ninstructivo, interesante. En fin, una\nminiatura, sin duda una obra de\narte muy bella. Por que no esta en\nel podio? Son muchas las obras de\narte que no han merecido un real\nreconocimiento de parte de quie-\nnes deben hacerio. Sin aficionados\nlas tienen en cuenta… pero seria\nmejor que también lo hicieran los\njueces en los concursos.”",
       "beforeVariant": {
         "main.a": "Te vroeg is",
         "main.b": "e5 3.Kf5 Kb1 4.La3 Ka2 met\n    remise. Ook fout is",

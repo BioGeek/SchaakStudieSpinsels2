@@ -236,7 +236,7 @@
   "prose": {
     "nl": {
       "before": "Samen met Roger Missiaen poog-\nden we de vlucht van het zwarte\npaard te beletten.",
-      "after": "Dus gedwongen:\n\nEindelijk komt het paard vrij. Maar\nmeteen wordt het gevangen:\n\nEen ultieme tegenaanval, want na\n\nmoet het paard zich offeren. Maar\n\nontneemt alle hoop aan zwart.\n\nMijn oorspronkelijke versie werd\ndoor Roger prachtig verlengd.",
+      "after": "5…         Ka7        6.Kb5       Ka8        7.Kc6\n\n7…         Ka7        8.Lb6+      Kb8\n\n9.Kd7       Ka8       10.Pf2\n\n10…         Kb8       11.Pe4       Ka8       12.Pd2\n\n12…            f2       13.Lxf2       Pa5\n\nDus gedwongen:\n\nEindelijk komt het paard vrij. Maar\nmeteen wordt het gevangen:\n\nEen ultieme tegenaanval, want na\n\nmoet het paard zich offeren. Maar\n\nontneemt alle hoop aan zwart.\n\nMijn oorspronkelijke versie werd\ndoor Roger prachtig verlengd.",
       "beforeVariant": {
         "main.a": "Het paard kan niet ongestraft weg.\n\nDe juiste zet. Nu moet de zwarte\nkoning terug, want na bijvoorbeeld\n\nis het mat.\nMaar niet 13.Lxd6?, pat.\n\nNa 7.Kb6? Pd6 8.Lxd6 f2 9.Pxf2 is\nhet pat.\n\nEn niet 8…Ka6? 9.Pb4+ en mat,\ndankzij 5.Pd3, de juiste zet.\n\nEen afwachtende  zet, want  bij-\nvoorbeeld 10.Pe5? Pa5 11.Pxf3\nPc4, en remise.\n\nDreigt opnieuw de pion te slaan,\nwant fout is 12.Kc7? Pc5 en",
         "main.b": "pat. Ook na"

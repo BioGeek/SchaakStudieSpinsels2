@@ -17,8 +17,8 @@
       "parent": null
     },
     {
-      "id": "A.6",
-      "ply": 6,
+      "id": "A.2",
+      "ply": 2,
       "san": "Ka6",
       "nl": "Ka6",
       "fenAfter": "6b1/2p5/k7/N1K2B2/1p6/8/8/8 w - - 2 2",
@@ -26,19 +26,235 @@
       "parent": "main.1"
     },
     {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Nc6",
+      "nl": "Pc6",
+      "fenAfter": "6b1/2p5/k1N5/2K2B2/1p6/8/8/8 b - - 3 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "6b1/1kp5/2N5/2K2B2/1p6/8/8/8 w - - 4 3",
+      "variant": "A",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "6b1/1kp5/2N5/2K5/1p2B3/8/8/8 b - - 5 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "6b1/2p5/k1N5/2K5/1p2B3/8/8/8 w - - 6 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Nxb4+",
+      "nl": "Pxb4+",
+      "fenAfter": "6b1/2p5/k7/2K5/1N2B3/8/8/8 b - - 0 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "6b1/2p5/8/k1K5/1N2B3/8/8/8 w - - 1 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
       "id": "A.11",
       "ply": 11,
       "san": "Nc6+",
       "nl": "Pc6+",
-      "fenAfter": "6b1/2p5/k1N5/2K2B2/1p6/8/8/8 b - - 3 2",
+      "fenAfter": "6b1/2p5/2N5/k1K5/4B3/8/8/8 b - - 2 5",
       "variant": "A",
-      "parent": "A.6"
+      "parent": "A.8"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "6b1/2p5/k1N5/2K5/4B3/8/8/8 w - - 3 6",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Bd3+",
+      "nl": "Ld3+",
+      "fenAfter": "6b1/2p5/k1N5/2K5/8/3B4/8/8 b - - 4 6",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "6b1/1kp5/2N5/2K5/8/3B4/8/8 w - - 5 7",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Nd8+",
+      "nl": "Pd8+",
+      "fenAfter": "3N2b1/1kp5/8/2K5/8/3B4/8/8 b - - 6 7",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kc8",
+      "nl": "K~",
+      "fenAfter": "2kN2b1/2p5/8/2K5/8/3B4/8/8 w - - 7 8",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k5b1/2p5/8/N1K2B2/1p6/8/8/8 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Be4+",
+      "nl": "Le4+",
+      "fenAfter": "k5b1/2p5/8/N1K5/1p2B3/8/8/8 b - - 3 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "6b1/k1p5/8/N1K5/1p2B3/8/8/8 w - - 4 3",
+      "variant": "B",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.a.4",
+      "ply": 4,
+      "san": "Kb8",
+      "nl": "Kb8?",
+      "fenAfter": "1k4b1/2p5/8/N1K5/1p2B3/8/8/8 w - - 4 3",
+      "variant": "B.a",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.a.5",
+      "ply": 5,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "1k4b1/2p5/2N5/2K5/1p2B3/8/8/8 b - - 5 3",
+      "variant": "B.a",
+      "parent": "B.a.4"
+    },
+    {
+      "id": "B.b.4",
+      "ply": 4,
+      "san": "c6",
+      "nl": "c6?",
+      "fenAfter": "k5b1/8/2p5/N1K5/1p2B3/8/8/8 w - - 0 3",
+      "variant": "B.b",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.b.5",
+      "ply": 5,
+      "san": "Nxc6+",
+      "nl": "Pxc6+",
+      "fenAfter": "k5b1/8/2N5/2K5/1p2B3/8/8/8 b - - 0 3",
+      "variant": "B.b",
+      "parent": "B.b.4"
+    },
+    {
+      "id": "B.b.6",
+      "ply": 6,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "6b1/1k6/2N5/2K5/1p2B3/8/8/8 w - - 1 4",
+      "variant": "B.b",
+      "parent": "B.b.5"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "6b1/k1p5/2N5/2K5/1p2B3/8/8/8 b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "6b1/2p5/k1N5/2K5/1p2B3/8/8/8 w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Nxb4+",
+      "nl": "Pxb4+",
+      "fenAfter": "6b1/2p5/k7/2K5/1N2B3/8/8/8 b - - 0 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "6b1/2p5/8/k1K5/1N2B3/8/8/8 w - - 1 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Nc6",
+      "nl": "Pc6",
+      "fenAfter": "6b1/2p5/2N5/k1K5/4B3/8/8/8 b - - 2 5",
+      "variant": "B",
+      "parent": "B.8"
     }
   ],
   "prose": {
     "nl": {
       "before": "Dit miniatuurtje  is een voorbeeld\nvan optimale samenwerking van\nloper-en-paar. En tevens tussen\nRoger Missiaen en mezelf.",
-      "after": "1...       Ka6(Ka7,Kb8)        2.Pc6(+)     Kb7        3.Le4\n\n1…         Ka8        2.Le4+      Ka7\n\nWit wint in beide gevallen.\n\nVariant B vond ik later in 2016, in\nvervanging van deze gepubliceerd\nin 1997: 1.Pa5 Ka8 2.Le4+ Ka7\n\nder als in Variant A.\nHet is een correctie van een stu-\ndie van R. Missiaen in Schakend\nNederland  (1985). Roger  kreeg\ntoen de 1ste Eervolle Vermelding\nvoor:\n\nKc6 Lc2 Pd3 / Ka6 Lh7 c7 d4 g6 +\n\nmet deze oplossing:1.Pb4+ Ka5\n\nDoch  ik dacht ten onrechte een\nnevenoplossing gevonden te heb-\nben met zet 9.Pb4+? (in plaats van\n\nnoch Roger, noch ikzelf niet heb-\nben opgemerkt  dat  hier, na  9.\nPb4+?, de nu  voor de hand lig-\ngende zet: 9...Ka7? en 10.Pc6+\nKa6 11.Le4, een omweg is van 2\nzetten. Sorry Roger.\n\nDe mooie studie uit 1985 is dus\ncorrect. En Roger,  teleurgesteld\nmaar toch optimistisch, vertelde in\nhet boek Flemisch Miniatures: “At\npresent this makes me feel happy,\nfor now we have succeeded  in\nunion to gratify the study with a\nricher and sound content. All this in\nminiature form.”\n       Later kreeg een studie van Kuriat-\n       nikov  in het Sarychev Mem.Tny\n       (1988) onterecht de 2de prijs voor\n      de onderstaande stelling:\n\n     Kc3 Lh7 Pg4 a2 /\n                  Kb8 Lb7 Pa3 c7 +\n\n      Met de dubbele oplossing: 1.Kb4\n     Pc4 2.Kxc4 Lc8 3.Pe5 Le6+ 4.Kb5!\n      Lxa2 5.Pc6+ Kb7 6.Le4 Kc8 7.Lf5+\n     Kb7 8.Kc5 Lg8 9.Lb1 Ka6 10.Le4\n      Lb3(?) en 11.Ld3+ Kb7 12.Pa5+\n     K~ 13.Pxb3 en wit wint. Maar ook\n      goed is hier 11.Lf5 Kb7 12.Pa5+\n     Ka6 13.Pxb3. Dus nevenoplosbaar\n\n      Roger echter meende dat hier ook\n      de zet 9.Le4(?) wint na 9…Ka6\n\nwinstzetten)10…Ka7 11.Kb5 (ook\n\nNa 9…Ka6 10.Ld3+ Kb7 11.Lb1\n     Ka6  is 12.Le4 (Zie zet  9.) een\n      onnodige omweg.\n\n     De énige correcte winst na 9.Lb1\n     Ka6 10.Le4 is: 10…Le6! 11.Ld3+\nt     Kb7 12.Pd8+ Kc8 en  13.Pxa6,\n       enzovoort. Sorry Kuriatnikov.\n\n        Ik kwam op het idee om een nog\n      economischere studie te ontwer-\n      pen. Het resultaat is studie - 133 -",
+      "after": "6.Pxc6+     Ka6        7.Le4         Le6!\n\n8.Ld3+ valt de loper. En wat deze\n\n8.Ld3+      Kb7        9.Pd8+      Kc7       10.Pxe6\n\n2.Kc5 Lg8 3.Pc6+ Ka6 4.Lxg6 Kb7 5.Lb1 d3 6.Lxd3 La2 7.Lf5 Lg8 8.Lb1 Ka6 9.Le4! Le6 10.Ld3+ Kb7 11.Pd8+ en de loper valt.\n\nWit wint in beide gevallen.\n\nVariant B vond ik later in 2016, in\nvervanging van deze gepubliceerd\nin 1997: 1.Pa5 Ka8 2.Le4+ Ka7\n\nder als in Variant A.\nHet is een correctie van een stu-\ndie van R. Missiaen in Schakend\nNederland  (1985). Roger  kreeg\ntoen de 1ste Eervolle Vermelding\nvoor:\n\nKc6 Lc2 Pd3 / Ka6 Lh7 c7 d4 g6 +\n\nmet deze oplossing:1.Pb4+ Ka5\n\nDoch  ik dacht ten onrechte een\nnevenoplossing gevonden te heb-\nben met zet 9.Pb4+? (in plaats van\n\nnoch Roger, noch ikzelf niet heb-\nben opgemerkt  dat  hier, na  9.\nPb4+?, de nu  voor de hand lig-\ngende zet: 9...Ka7? en 10.Pc6+\nKa6 11.Le4, een omweg is van 2\nzetten. Sorry Roger.\n\nDe mooie studie uit 1985 is dus\ncorrect. En Roger,  teleurgesteld\nmaar toch optimistisch, vertelde in\nhet boek Flemisch Miniatures: “At\npresent this makes me feel happy,\nfor now we have succeeded  in\nunion to gratify the study with a\nricher and sound content. All this in\nminiature form.”\n       Later kreeg een studie van Kuriat-\n       nikov  in het Sarychev Mem.Tny\n       (1988) onterecht de 2de prijs voor\n      de onderstaande stelling:\n\n     Kc3 Lh7 Pg4 a2 /\n                  Kb8 Lb7 Pa3 c7 +\n\n      Met de dubbele oplossing: 1.Kb4\n     Pc4 2.Kxc4 Lc8 3.Pe5 Le6+ 4.Kb5!\n      Lxa2 5.Pc6+ Kb7 6.Le4 Kc8 7.Lf5+\n     Kb7 8.Kc5 Lg8 9.Lb1 Ka6 10.Le4\n      Lb3(?) en 11.Ld3+ Kb7 12.Pa5+\n     K~ 13.Pxb3 en wit wint. Maar ook\n      goed is hier 11.Lf5 Kb7 12.Pa5+\n     Ka6 13.Pxb3. Dus nevenoplosbaar\n\n      Roger echter meende dat hier ook\n      de zet 9.Le4(?) wint na 9…Ka6\n\nwinstzetten)10…Ka7 11.Kb5 (ook\n\nNa 9…Ka6 10.Ld3+ Kb7 11.Lb1\n     Ka6  is 12.Le4 (Zie zet  9.) een\n      onnodige omweg.\n\n     De énige correcte winst na 9.Lb1\n     Ka6 10.Le4 is: 10…Le6! 11.Ld3+\nt     Kb7 12.Pd8+ Kc8 en  13.Pxa6,\n       enzovoort. Sorry Kuriatnikov.\n\n        Ik kwam op het idee om een nog\n      economischere studie te ontwer-\n      pen. Het resultaat is studie - 133 -",
       "beforeVariant": {
         "B": "De zwarte koning of loper kunnen\nmoeilijk spelen wegens de paard-\nvork.\n\nNiet 3…b3?, 4.Pd7+ en 5.Pxg8.\n\nEr   is   niet  beter:  5…Le6(f7)?\n\nen 9. Pxe6(f7).\n\nNa 7...Kb7? 8.Pe7+  of 7…Lb3?\n\nlaatste nu ook  speelt,  hij wordt\nveroverd, bijvoorbeeld:"
       }

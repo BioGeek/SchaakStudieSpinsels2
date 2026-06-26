@@ -15,12 +15,165 @@
       "fenAfter": "3B4/3p1p2/4kN2/3P2K1/4p3/4P3/pP6/2n5 b - - 0 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "3B4/3p1p2/5N2/3Pk1K1/4p3/4P3/pP6/2n5 w - - 1 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Bc7+",
+      "nl": "Lc7+",
+      "fenAfter": "8/2Bp1p2/5N2/3Pk1K1/4p3/4P3/pP6/2n5 b - - 2 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "d6",
+      "nl": "d6",
+      "fenAfter": "8/2B2p2/3p1N2/3Pk1K1/4p3/4P3/pP6/2n5 w - - 0 3",
+      "variant": "A",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Ba5",
+      "nl": "La5",
+      "fenAfter": "8/5p2/3p1N2/B2Pk1K1/4p3/4P3/pP6/2n5 b - - 1 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/5p2/3p1N2/B2Pk1K1/4p3/4P3/pP2n3/8 w - - 2 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/4p3/2B1P3/pP2n3/8 b - - 3 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Nxc3",
+      "nl": "Pxc3",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/4p3/2n1P3/pP6/8 w - - 0 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "bxc3",
+      "nl": "bxc3",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/4p3/2P1P3/p7/8 b - - 0 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/4p3/2P1P3/8/q7 w - - 0 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "c4",
+      "nl": "c4",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/2P1p3/4P3/8/q7 b - - 0 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Qg1+",
+      "nl": "Dg1+",
+      "fenAfter": "8/5p2/3p1N2/3Pk1K1/2P1p3/4P3/8/6q1 w - - 1 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "8/5p2/3p4/3Pk1K1/2P1p1N1/4P3/8/6q1 b - - 2 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Qxg4+",
+      "nl": "Dxg4+",
+      "fenAfter": "8/5p2/3p4/3Pk1K1/2P1p1q1/4P3/8/8 w - - 0 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Kxg4",
+      "nl": "Kxg4",
+      "fenAfter": "8/5p2/3p4/3Pk3/2P1p1K1/4P3/8/8 b - - 0 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "3B4/3p1p2/3k1N2/3P2K1/4p3/4P3/pP6/2n5 w - - 1 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Nxe4+",
+      "nl": "Pxe4+",
+      "fenAfter": "3B4/3p1p2/3k4/3P2K1/4N3/4P3/pP6/2n5 b - - 0 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "3B4/3p1p2/8/3Pk1K1/4N3/4P3/pP6/2n5 w - - 1 3",
+      "variant": "B",
+      "parent": "B.3"
     }
   ],
   "prose": {
     "nl": {
       "before": "De dreigende zwarte promotie van\nde a-pion is niet tegen te houden.\nMaar wit tracht de zwarte koning in\neen matnet te drijven:",
-      "after": "1...         Ke5        2.Lc7+       d6        3.La5\n\n1...         Kd6            2.Pxe4+     Ke5\n\nNa 5…Kxd5  volgt  3.Pc3+ K~\n\nEveneens remise.",
+      "after": "Na 5…Kxd5  volgt  3.Pc3+ K~\n\nEveneens remise.",
       "beforeVariant": {
         "B": "Dreigt mat op c3.\n\nToch! Een verrassend offer.\n\nDe koning is nu wel geïmmobili-\nseerd. maar zwart kan toch dame\nhalen:\n\nDekt de pion d5 met een dubbele\n     matdreiging 7.Pd7+ of 7.Pg4+.\n\nmet remise."
       }

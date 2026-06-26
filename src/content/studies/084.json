@@ -107,22 +107,223 @@
       "parent": "main.b.4"
     },
     {
-      "id": "main.21",
-      "ply": 21,
-      "san": "Kxh6",
-      "nl": "K~",
-      "fenAfter": "6K1/8/1P5k/8/5r2/P7/8/8 w - - 0 2",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rf6",
+      "nl": "Tf6",
+      "fenAfter": "6K1/8/1P3r1N/6k1/8/P7/8/8 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "6K1/5N2/1P3r2/6k1/8/P7/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kg6",
+      "nl": "K~",
+      "fenAfter": "6K1/5N2/1P3rk1/8/8/P7/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Re4",
+      "nl": "Te4",
+      "fenAfter": "6K1/8/1P5N/6k1/4r3/P7/8/8 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "5K2/8/1P5N/6k1/4r3/P7/8/8 b - - 3 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Re6",
+      "nl": "Te6",
+      "fenAfter": "5K2/8/1P2r2N/6k1/8/P7/8/8 w - - 4 3",
+      "variant": "B",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "5K2/5N2/1P2r3/6k1/8/P7/8/8 b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "5K2/5N2/1P2rk2/8/8/P7/8/8 w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "5K2/1P3N2/4rk2/8/8/P7/8/8 b - - 0 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Rb6",
+      "nl": "Tb6",
+      "fenAfter": "5K2/1P3N2/1r3k2/8/8/P7/8/8 w - - 1 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Nd8",
+      "nl": "Pd8",
+      "fenAfter": "3N1K2/1P6/1r3k2/8/8/P7/8/8 b - - 2 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "3N1K2/1P6/1r6/4k3/8/P7/8/8 w - - 3 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "3N4/1P2K3/1r6/4k3/8/P7/8/8 b - - 4 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "3N4/1P2K3/1r6/3k4/8/P7/8/8 w - - 5 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "3N4/1P2K3/1r6/3k4/P7/8/8/8 b - - 0 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "3N4/1P2K3/1r6/2k5/P7/8/8/8 w - - 1 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "3N4/1P2K3/1r6/P1k5/8/8/8/8 b - - 0 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Rxb7+",
+      "nl": "Txb7+",
+      "fenAfter": "3N4/1r2K3/8/P1k5/8/8/8/8 w - - 0 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Nxb7+",
+      "nl": "Pxb7+",
+      "fenAfter": "8/1N2K3/8/P1k5/8/8/8/8 b - - 0 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/1N2K3/2k5/P7/8/8/8/8 w - - 1 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/1N2K3/P1k5/8/8/8/8/8 b - - 0 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/1N2K3/Pk6/8/8/8/8/8 w - - 1 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Nc5",
+      "nl": "Pc5",
+      "fenAfter": "8/4K3/Pk6/2N5/8/8/8/8 b - - 2 11",
+      "variant": "B",
+      "parent": "B.20"
     }
   ],
   "prose": {
     "nl": {
       "before": "Oorspronkelijk stond het paard op\nveld h8. Maar omdat ik het mooier\nvond, dat de koning  zijn paard\nreeds op de eerste zet in de steek\nmoet laten, verplaatste ik het naar\nveld h6",
-      "after": "1…           Tf6        2.Pf7+\n\n1…          Te4        2.Kf8        Te6        3.Pf7+        Kf6        4.b7         Tb6        5.Pd8       Ke5        6.Ke7       Kd5        7.a4        Kc5        8.a5         Txb7+        9.Pxb7+     Kc6       10.a6        Kb6       11.Pc5\n\nEn wit wint.\n     Vriend Roger Missiaen schreef in\n     Flemish Miniatures:\n\n     “Subtle and  elegant! The  poet\n    would be as pleased as Punch with\n     the unforgettable: ‘Lieve pion op\n     a3. Mooi klein ding, randpion ben\n      je, niet meer dan één veldje mag je\n     bestrijken. Je bent zo klein, bijna\n     niets en je hebt de hele partij daar\n    op je plaatsje gestaan, maar al die\n       tijd was mijn hoop op jou gebouwd\n    en al mijn angstig hunkeren was\n     voor jou.’”\n\n      (Uit een gedichtje van Jan Hein\n     Donner.)",
+      "after": "7.a6 Kxd8 8.a7 Txb7 9.a8D+.        5.a5         Txb7        6.Pd8+      Kd7        7.Pxb7      Kc6        8.a6        Kb6        9.Pc5\n\nEn wit wint.\n     Vriend Roger Missiaen schreef in\n     Flemish Miniatures:\n\n     “Subtle and  elegant! The  poet\n    would be as pleased as Punch with\n     the unforgettable: ‘Lieve pion op\n     a3. Mooi klein ding, randpion ben\n      je, niet meer dan één veldje mag je\n     bestrijken. Je bent zo klein, bijna\n     niets en je hebt de hele partij daar\n    op je plaatsje gestaan, maar al die\n       tijd was mijn hoop op jou gebouwd\n    en al mijn angstig hunkeren was\n     voor jou.’”\n\n      (Uit een gedichtje van Jan Hein\n     Donner.)",
       "beforeVariant": {
-        "main.b": "Tb6 4.Pd8 Ke5 5.a4 Kd6 6.a5\n   Kc7 7.axb6 Kb8 8.K~, pat\n\nKd5 6.b8D Txb8 7.Pxb8 Kc4\n   en de pion  is ten dode op-\n    geschreven) 5…Kd6 6.a5 Kc7\n   (Een onverwachte zet.) En nu:\n\nningszet is het pat.\n\nKd5 7.a5 Kc6 8.a6 Kb6 9.Pc5\n   en wint. Of:",
-        "main.a": "Kf4  4.Pd6 Ke5  5.Pc4 Kd4\n\nEen niet zo eenvoudig te vinden\neerste zet dus. Zwart heeft nu twee\nmogelijkheden:\n\nVatiant A\n\nDeze zet moet nú gespeeld wor-\nden, want eerst 2.b7? loopt slecht\naf door 2…Tb6 3.Pf7+ Kf6,  (Dit\nveld is nu niet bezet door de toren)\nEn nu:\n\nKb4  9.a5  Kb5  10.K~  Ka6",
+        "main.b": "Tb6 4.Pd8 Ke5 5.a4 Kd6 6.a5\n   Kc7 7.axb6 Kb8 8.K~, pat",
+        "main.a2": "Kf4  4.Pd6 Ke5  5.Pc4 Kd4\n\nEen niet zo eenvoudig te vinden\neerste zet dus. Zwart heeft nu twee\nmogelijkheden:\n\nVatiant A\n\nDeze zet moet nú gespeeld wor-\nden, want eerst 2.b7? loopt slecht\naf door 2…Tb6 3.Pf7+ Kf6,  (Dit\nveld is nu niet bezet door de toren)\nEn nu:",
+        "main.b2": "Kd5 6.b8D Txb8 7.Pxb8 Kc4\n   en de pion  is ten dode op-\n    geschreven) 5…Kd6 6.a5 Kc7\n   (Een onverwachte zet.) En nu:\n\nningszet is het pat.",
+        "main.a3": "Kb4  9.a5  Kb5  10.K~  Ka6",
+        "main.b3": "Kd5 7.a5 Kc6 8.a6 Kb6 9.Pc5\n   en wint. Of:",
         "B": "En wit wint net op tijd, daar de wit-\nte koning hulp komt bieden."
       }
     }

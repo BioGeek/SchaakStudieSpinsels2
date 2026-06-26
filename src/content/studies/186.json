@@ -114,21 +114,12 @@
       "fenAfter": "8/k7/1nK5/8/8/8/3P4/8 w - - 0 7",
       "variant": "main",
       "parent": "main.11"
-    },
-    {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Kb5",
-      "nl": "Kb5",
-      "fenAfter": "8/k7/1n6/1K6/8/8/3P4/8 b - - 1 7",
-      "variant": "main",
-      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit heeft een extra pion op de\nstartbaan staan en wacht geduldig\naf.",
-      "after": "Ook hier met winst voor wit.",
+      "after": "6.Kb5       Pb2\n\nOok hier met winst voor wit.",
       "beforeVariant": {
         "A": "Daar gaat de loper. Maar na:\n\nis ook wit de loper kwijt.\n\nen de pion brengt redding.\n\nDe zwarte hengst dreigt uit te bre-\nken.\n\nEn nu:",
         "B": "Dreigt 12...Pc4. Maar te laat.\n\nEindelijk kan de pion promoveren\ntot een ‘Exelsior.’"

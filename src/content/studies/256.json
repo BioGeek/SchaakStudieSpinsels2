@@ -15,12 +15,30 @@
       "fenAfter": "K6R/PP6/8/8/8/8/6pp/6rk b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rb1",
+      "nl": "Tb1",
+      "fenAfter": "K6R/PP6/8/8/8/8/6pp/1r5k w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rxh2+",
+      "nl": "Txh2+",
+      "fenAfter": "K7/PP6/8/8/8/8/6pR/1r5k b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
     }
   ],
   "prose": {
     "nl": {
       "before": "Met  gelijk materiaal staan beide\nkampen tegenover elkaar. En wat\nkan wit spelen om te winnen?",
-      "after": "1…         Tb1        2.Txh2+ 2.b8D? Txb8+ 3.axb8 g1D 4.Db7+\n\nremise.\n\nDg2, remise.\n\nEn de witte koning komt naderbij\n    met winst.\n\n    “Een juweel voor het oog” en “Erg\n     amusant.” vond Martin van Essen.\n\n      Ik kwam op het idee van deze stu-\n     die door een gelijkaardig werkje\n    van Enzo Minerva  in Best Pro-\n    blems (2006):\n\n    Ka8 Tb8 a7 b7 / Kh1 Lg1 g2 h2 =\n\n    Met de erg  korte oplossing:1.Tg8\n    Lxa7 2.Txg2 Kxg2 3.Kxa7 h1D",
+      "after": "2..          Kxh2       3.b8D+      Txb8+       4.axb8D+    Kh1       5.Dh8+      Kg1\n\nremise.\n\nDg2, remise.\n\nEn de witte koning komt naderbij\n    met winst.\n\n    “Een juweel voor het oog” en “Erg\n     amusant.” vond Martin van Essen.\n\n      Ik kwam op het idee van deze stu-\n     die door een gelijkaardig werkje\n    van Enzo Minerva  in Best Pro-\n    blems (2006):\n\n    Ka8 Tb8 a7 b7 / Kh1 Lg1 g2 h2 =\n\n    Met de erg  korte oplossing:1.Tg8\n    Lxa7 2.Txg2 Kxg2 3.Kxa7 h1D",
       "beforeVariant": {
         "main.a": "Fout is 1.Tg8? Tb1 met:",
         "main.b": "D(K)xa7, pat."

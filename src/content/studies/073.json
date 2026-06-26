@@ -96,12 +96,57 @@
       "fenAfter": "4K3/1k6/8/2B5/5N2/6pp/8/8 b - - 3 3",
       "variant": "main.b",
       "parent": "main.b.4"
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "2N1KB2/1k6/8/8/7p/6p1/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "4KB2/1k6/3N4/8/7p/6p1/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "4KB2/8/2kN4/8/7p/6p1/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf5",
+      "nl": "Pf5",
+      "fenAfter": "4KB2/8/2k5/5N2/7p/6p1/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "4KB2/8/8/3k1N2/7p/6p1/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
     }
   ],
   "prose": {
     "nl": {
       "before": "Het actieve paard rent schijnbaar\nweg van de oprukkende pionnen.",
-      "after": "1…         Kb7 1…Ka6? 2.Ld6 g2 3.Lh2 h3 en na\n\nh2, en zwart wint zelfs.\n\nbijvoorbeeld 4.Pd6 worden beide\npionnen veroverd, met winst.\n\nEn niet 3.Pe4? g2 4.Lc5 en na\n\nMaar niet 5.Pf3? wegens 5…h3 en\nwit kan de zwarte promotie niet\nverhinderen.\n\nEn wit wint.\n\n     In zijn eentje heeft het aangeval-\n     len paard het gerooid.",
+      "after": "h2, en zwart wint zelfs.\n\nbijvoorbeeld 4.Pd6 worden beide\npionnen veroverd, met winst.\n\nEn niet 3.Pe4? g2 4.Lc5 en na\n\nMaar niet 5.Pf3? wegens 5…h3 en\nwit kan de zwarte promotie niet\nverhinderen.\n\nEn wit wint.\n\n     In zijn eentje heeft het aangeval-\n     len paard het gerooid.",
       "beforeVariant": {}
     }
   }

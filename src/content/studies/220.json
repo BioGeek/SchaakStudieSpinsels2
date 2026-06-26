@@ -49,8 +49,8 @@
       "before": "Materieel staan beide partijen ge-\nlijk, maar  alle witte stukken  zijn\naangevallen en bovendien staat de\nwitte koning in de hoek gedrumd.\nWit faalt als hij tracht zijn toren te\nredden met:\n\nremise.\n\nuiteraard ook:\n\nMaar:",
       "after": "Kf3 4.Txg6, met winst.\n\nKf3 5.Lxc4 Kxg4, remise.\n\nEr dreigt nu mat, en na 5...Tc3?\nwordt de zwarte toren bijvoorbeeld\naustempiert met 6.Ld2 Td3 7.Lc4\nTh3+  8.Kg1  Le4  9.Lf7+  Lg6\n\nEen andere poging is de aanval op\nde toren:\n\nEn niet 7.Lxe4? wegens 7...Txg2\n\nEn wit wint met de toren op een\nblank geveegd bord.",
       "beforeVariant": {
-        "main.a": "En niet:",
-        "main.b": "noch:"
+        "main.a2": "En niet:",
+        "main.b2": "noch:"
       }
     }
   }

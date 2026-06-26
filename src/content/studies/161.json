@@ -98,76 +98,76 @@
       "parent": "main.2"
     },
     {
-      "id": "main.a.3",
+      "id": "main.a2.3",
       "ply": 3,
       "san": "e8=Q",
       "nl": "e8D?",
       "fenAfter": "4Q3/8/B4k1K/6p1/1r5B/8/8/8 b - - 0 2",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.2"
     },
     {
-      "id": "main.a.4",
+      "id": "main.a2.4",
       "ply": 4,
       "san": "Rxh4+",
       "nl": "Txh4+",
       "fenAfter": "4Q3/8/B4k1K/6p1/7r/8/8/8 w - - 0 3",
-      "variant": "main.a",
-      "parent": "main.a.3"
+      "variant": "main.a2",
+      "parent": "main.a2.3"
     },
     {
-      "id": "main.a.5",
+      "id": "main.a2.5",
       "ply": 5,
       "san": "Qh5",
       "nl": "Dh5",
       "fenAfter": "8/8/B4k1K/6pQ/7r/8/8/8 b - - 1 3",
-      "variant": "main.a",
-      "parent": "main.a.4"
+      "variant": "main.a2",
+      "parent": "main.a2.4"
     },
     {
-      "id": "main.a.6",
+      "id": "main.a2.6",
       "ply": 6,
       "san": "Rxh5+",
       "nl": "Txh5+",
       "fenAfter": "8/8/B4k1K/6pr/8/8/8/8 w - - 0 4",
-      "variant": "main.a",
-      "parent": "main.a.5"
+      "variant": "main.a2",
+      "parent": "main.a2.5"
     },
     {
-      "id": "main.b.3",
+      "id": "main.b2.3",
       "ply": 3,
       "san": "e8=N+",
       "nl": "e8P+?",
       "fenAfter": "4N3/8/B4k1K/6p1/1r5B/8/8/8 b - - 0 2",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.2"
     },
     {
-      "id": "main.b.4",
+      "id": "main.b2.4",
       "ply": 4,
       "san": "Ke7",
       "nl": "Ke7",
       "fenAfter": "4N3/4k3/B6K/6p1/1r5B/8/8/8 w - - 1 3",
-      "variant": "main.b",
-      "parent": "main.b.3"
+      "variant": "main.b2",
+      "parent": "main.b2.3"
     },
     {
-      "id": "main.b.5",
+      "id": "main.b2.5",
       "ply": 5,
       "san": "Bxg5+",
       "nl": "Lxg5+",
       "fenAfter": "4N3/4k3/B6K/6B1/1r6/8/8/8 b - - 0 3",
-      "variant": "main.b",
-      "parent": "main.b.4"
+      "variant": "main.b2",
+      "parent": "main.b2.4"
     },
     {
-      "id": "main.b.6",
+      "id": "main.b2.6",
       "ply": 6,
       "san": "Kxe8",
       "nl": "Kxe8",
       "fenAfter": "4k3/8/B6K/6B1/1r6/8/8/8 w - - 0 4",
-      "variant": "main.b",
-      "parent": "main.b.5"
+      "variant": "main.b2",
+      "parent": "main.b2.5"
     },
     {
       "id": "main.4",
@@ -197,76 +197,76 @@
       "parent": "main.5"
     },
     {
-      "id": "main.a.6",
+      "id": "main.a3.6",
       "ply": 6,
       "san": "Re4",
       "nl": "Te4?",
       "fenAfter": "8/4Pk2/7K/6B1/4r3/8/4B3/8 w - - 3 4",
-      "variant": "main.a",
+      "variant": "main.a3",
       "parent": "main.5"
     },
     {
-      "id": "main.a.7",
+      "id": "main.a3.7",
       "ply": 7,
       "san": "Bh5+",
       "nl": "Lh5+",
       "fenAfter": "8/4Pk2/7K/6BB/4r3/8/8/8 b - - 4 4",
-      "variant": "main.a",
-      "parent": "main.a.6"
+      "variant": "main.a3",
+      "parent": "main.a3.6"
     },
     {
-      "id": "main.a.8",
+      "id": "main.a3.8",
       "ply": 8,
       "san": "Kg8",
       "nl": "Kg8",
       "fenAfter": "6k1/4P3/7K/6BB/4r3/8/8/8 w - - 5 5",
-      "variant": "main.a",
-      "parent": "main.a.7"
+      "variant": "main.a3",
+      "parent": "main.a3.7"
     },
     {
-      "id": "main.a.9",
+      "id": "main.a3.9",
       "ply": 9,
       "san": "e8=Q+",
       "nl": "e8D+",
       "fenAfter": "4Q1k1/8/7K/6BB/4r3/8/8/8 b - - 0 5",
-      "variant": "main.a",
-      "parent": "main.a.8"
+      "variant": "main.a3",
+      "parent": "main.a3.8"
     },
     {
-      "id": "main.b.6",
+      "id": "main.b3.6",
       "ply": 6,
       "san": "Rb8",
       "nl": "Tb8?",
       "fenAfter": "1r6/4Pk2/7K/6B1/8/8/4B3/8 w - - 3 4",
-      "variant": "main.b",
+      "variant": "main.b3",
       "parent": "main.5"
     },
     {
-      "id": "main.b.7",
+      "id": "main.b3.7",
       "ply": 7,
       "san": "Bh5+",
       "nl": "Lh5+",
       "fenAfter": "1r6/4Pk2/7K/6BB/8/8/8/8 b - - 4 4",
-      "variant": "main.b",
-      "parent": "main.b.6"
+      "variant": "main.b3",
+      "parent": "main.b3.6"
     },
     {
-      "id": "main.b.8",
+      "id": "main.b3.8",
       "ply": 8,
       "san": "Kg8",
       "nl": "K~",
       "fenAfter": "1r4k1/4P3/7K/6BB/8/8/8/8 w - - 5 5",
-      "variant": "main.b",
-      "parent": "main.b.7"
+      "variant": "main.b3",
+      "parent": "main.b3.7"
     },
     {
-      "id": "main.b.9",
+      "id": "main.b3.9",
       "ply": 9,
       "san": "e8=Q+",
       "nl": "e8D+",
       "fenAfter": "1r2Q1k1/8/7K/6BB/8/8/8/8 b - - 0 5",
-      "variant": "main.b",
-      "parent": "main.b.8"
+      "variant": "main.b3",
+      "parent": "main.b3.8"
     },
     {
       "id": "main.7",
@@ -373,9 +373,10 @@
       "before": "In dit miniatuurtje moet wit op zijn\nhoede zijn voor een matval.",
       "after": "Txf8 6.Lxe8;.\n\nopnieuw pat.\n\nenzovoort.\n\nMaar niet 5.Lh5+? Ke6 en de e-\n     pion is gepend en gaat verloren.\n\nHebben  is hebben denkt  zwart,\n    want na 6…Tb8? wint wit met bii-\n     voorbeeld 7.Lf6 Kd7+ 8.Kf7 Kd6\n\nDoch na het slaan van de pion\n      volgt:\n\nofwel: 7…Kd8? 8.La4 K~ 9.Lxd7\n    En nu de énige winnende zet:\n\nEn wit wint met beide lopers.\n\n    Roger Missiaen vond  het: “The\n     kind of endings you rush to show\n     your friends.”",
       "beforeVariant": {
-        "main.a": "Dreigt mat, en fout is:\n\nzijn onvoldoende.\n\nKe8 6.Lxe6 en pat.\n\nNiet:",
+        "main.a": "Dreigt mat, en fout is:",
         "main.c": "Kd6 4.Kf7 Kd7 5.Lc8+ Kxc8\n    Kxc6. Natuurlijk niet:",
-        "main.b": "Txe8 6.Lxe8 en net geen pat.\n       En ook niet:"
+        "main.a3": "zijn onvoldoende.\n\nKe8 6.Lxe6 en pat.\n\nNiet:",
+        "main.b3": "Txe8 6.Lxe8 en net geen pat.\n       En ook niet:"
       }
     }
   }

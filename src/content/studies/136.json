@@ -17,19 +17,154 @@
       "parent": null
     },
     {
-      "id": "main.8",
-      "ply": 8,
+      "id": "main.2",
+      "ply": 2,
       "san": "Qa6+",
       "nl": "Da6+",
       "fenAfter": "6k1/4B3/q5K1/p7/8/8/8/1Q6 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "6k1/8/q4BK1/p7/8/8/8/1Q6 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qa7",
+      "nl": "Da7",
+      "fenAfter": "6k1/q7/5BK1/p7/8/8/8/1Q6 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "6k1/q7/5BK1/p7/8/1Q6/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "5k2/q7/5BK1/p7/8/1Q6/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "5k2/q7/6K1/p7/3B4/1Q6/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Qa6+",
+      "nl": "Da6+",
+      "fenAfter": "5k2/8/q5K1/p7/3B4/1Q6/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "5k2/8/qB4K1/p7/8/1Q6/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4k3/qB4K1/p7/8/1Q6/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "8/4kQ2/qB4K1/p7/8/8/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/5Q2/qB1k2K1/p7/8/8/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qc7+",
+      "nl": "Dc7+",
+      "fenAfter": "8/2Q5/qB1k2K1/p7/8/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/2Q5/qB4K1/p2k4/8/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/8/qB4K1/p1Qk4/8/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/qB4K1/p1Q5/4k3/8/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qf5+",
+      "nl": "Df5+",
+      "fenAfter": "8/8/qB4K1/p4Q2/4k3/8/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…          Da6+\n\n1.Lf6+ Kg8 2.Db3+ Kf8 3.Kg6 Da7 4.Db4+ Ke8 5.Db5+ Kf8 6.Db3\n\nEen verbluffend offeraanbod.\n\nwant 1..Dxe7? 2.Db8+ Df8 3.Db3+\nKh8 4.Dh3+ Kg8 5.Dd7+ en mat.\n\nMaar  niet  bijvoorbeeld 3.Da2+?\nKf8  4.Da3+ Ke8  5.Da4+  Dd7,\nremise.\n\nEen tweede offeraanbod.\n\nEn een derde offeraanbod.\n\nEn mat.\n\nDit is een correctie van een studie\nvan Julien Vandiest:\n\nKf5 Df3 Lh4 / Kh8 Dc7 +\n\nDg1+  7.Lg5  Da7  8.Df3+  Ke8\n\nMaarook  8.Db4+  wint: 8…Ke8\n\nen mat.\n\nDus nevenoplosbaar.",
+      "after": "1.Lf6+ Kg8 2.Db3+ Kf8 3.Kg6 Da7 4.Db4+ Ke8 5.Db5+ Kf8 6.Db3\n\n9.Dc6+ Kf8 10.Dc8+\n\n9.Db5+ Kf8 10.Df5+ Ke8 11.Dc8+\n\nEen verbluffend offeraanbod.\n\nwant 1..Dxe7? 2.Db8+ Df8 3.Db3+\nKh8 4.Dh3+ Kg8 5.Dd7+ en mat.\n\nMaar  niet  bijvoorbeeld 3.Da2+?\nKf8  4.Da3+ Ke8  5.Da4+  Dd7,\nremise.\n\nEen tweede offeraanbod.\n\nEn een derde offeraanbod.\n\nEn mat.\n\nDit is een correctie van een studie\nvan Julien Vandiest:\n\nKf5 Df3 Lh4 / Kh8 Dc7 +\n\nDg1+  7.Lg5  Da7  8.Df3+  Ke8\n\nMaarook  8.Db4+  wint: 8…Ke8\n\nen mat.\n\nDus nevenoplosbaar.",
       "beforeVariant": {}
     }
   }

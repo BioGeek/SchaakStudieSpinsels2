@@ -242,67 +242,67 @@
       "parent": "main.16"
     },
     {
-      "id": "main.a.17",
+      "id": "main.a2.17",
       "ply": 17,
       "san": "Qc5+",
       "nl": "Dc5+?",
       "fenAfter": "8/4K3/8/2Q5/7r/8/5k2/r7 b - - 16 9",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.16"
     },
     {
-      "id": "main.a.18",
+      "id": "main.a2.18",
       "ply": 18,
       "san": "Kg2",
       "nl": "Kg2",
       "fenAfter": "8/4K3/8/2Q5/7r/8/6k1/r7 w - - 17 10",
-      "variant": "main.a",
-      "parent": "main.a.17"
+      "variant": "main.a2",
+      "parent": "main.a2.17"
     },
     {
-      "id": "main.a.19",
+      "id": "main.a2.19",
       "ply": 19,
       "san": "Qd5+",
       "nl": "Dd5+",
       "fenAfter": "8/4K3/8/3Q4/7r/8/6k1/r7 b - - 18 10",
-      "variant": "main.a",
-      "parent": "main.a.18"
+      "variant": "main.a2",
+      "parent": "main.a2.18"
     },
     {
-      "id": "main.b.17",
+      "id": "main.b2.17",
       "ply": 17,
       "san": "Qd2+",
       "nl": "Dd2+?",
       "fenAfter": "8/4K3/8/8/7r/8/3Q1k2/r7 b - - 16 9",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.16"
     },
     {
-      "id": "main.b.18",
+      "id": "main.b2.18",
       "ply": 18,
       "san": "Kf1",
       "nl": "Kf1",
       "fenAfter": "8/4K3/8/8/7r/8/3Q4/r4k2 w - - 17 10",
-      "variant": "main.b",
-      "parent": "main.b.17"
+      "variant": "main.b2",
+      "parent": "main.b2.17"
     },
     {
-      "id": "main.b.19",
+      "id": "main.b2.19",
       "ply": 19,
       "san": "Qd3+",
       "nl": "Dd3+",
       "fenAfter": "8/4K3/8/8/7r/3Q4/8/r4k2 b - - 18 10",
-      "variant": "main.b",
-      "parent": "main.b.18"
+      "variant": "main.b2",
+      "parent": "main.b2.18"
     },
     {
-      "id": "main.b.20",
+      "id": "main.b2.20",
       "ply": 20,
       "san": "Kg2",
       "nl": "Kg2",
       "fenAfter": "8/4K3/8/8/7r/3Q4/6k1/r7 w - - 19 11",
-      "variant": "main.b",
-      "parent": "main.b.19"
+      "variant": "main.b2",
+      "parent": "main.b2.19"
     }
   ],
   "prose": {
@@ -310,8 +310,9 @@
       "before": "Winst van een armzalig pionnetje\ntegen twee oninneembare burch-\nten. Het lijkt wel een utopie.\nMaar:",
       "after": "En dame tegen toren wint.\n\n    Een misschien saaie maar toch\n     correcte studie. Iets dergelijks had\n       ik in indertijd opgezonden naar het\n     1° Concorso  Internationale  per\n      studi “Studistica”  in Italie (2000).\n    Maar het bleek nevenoplosbaar\n    op het einde.\n\n    Daarom deze nieuwe versie.",
       "beforeVariant": {
-        "main.a": "Kh2 8.Dd6 (Zie zet 6.)\n\nzet 8.)",
-        "main.b": "zet 8.)"
+        "main.a": "Kh2 8.Dd6 (Zie zet 6.)",
+        "main.a2": "zet 8.)",
+        "main.b2": "zet 8.)"
       }
     }
   }

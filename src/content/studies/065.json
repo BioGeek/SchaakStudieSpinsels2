@@ -17,19 +17,235 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Na3",
+      "nl": "Pa3",
+      "fenAfter": "3B4/8/8/8/4NK2/n7/7k/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "3B4/8/8/8/4N3/n4K2/7k/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nc4",
+      "nl": "Pc4",
+      "fenAfter": "3B4/8/8/8/2n1N3/5K2/7k/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "8/8/5B2/8/2n1N3/5K2/7k/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/5B2/8/2n1N3/5K2/8/6k1 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bd4+",
+      "nl": "Ld4+",
+      "fenAfter": "8/8/8/8/2nBN3/5K2/8/6k1 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/2nBN3/5K2/8/5k2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/8/8/8/2n1N3/2B2K2/8/5k2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/8/2n1N3/2B2K2/8/6k1 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ng3",
+      "nl": "Pg3",
+      "fenAfter": "8/8/8/8/2n5/2B2KN1/8/6k1 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Bd4+",
+      "nl": "Ld4+?",
+      "fenAfter": "8/8/8/8/2nBN3/5K2/8/6k1 b - - 11 6",
+      "variant": "main.a",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/2nBN3/5K2/8/5k2 w - - 12 7",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.a.13",
+      "ply": 13,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/8/8/8/2n1N3/2B2K2/8/5k2 b - - 13 7",
+      "variant": "main.a",
+      "parent": "main.a.12"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Kg3",
+      "nl": "Kg3?",
+      "fenAfter": "8/8/8/8/2n1N3/2B3K1/8/6k1 b - - 11 6",
+      "variant": "main.b",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/8/8/8/2n1N3/2B3K1/8/5k2 w - - 12 7",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.b.13",
+      "ply": 13,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/8/8/2n1N3/2B2K2/8/5k2 b - - 13 7",
+      "variant": "main.b",
+      "parent": "main.b.12"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/8/8/2n1N3/2B2K2/8/6k1 w - - 14 8",
+      "variant": "main.b",
+      "parent": "main.b.13"
+    },
+    {
+      "id": "main.b.15",
+      "ply": 15,
+      "san": "Ng3",
+      "nl": "Pg3",
+      "fenAfter": "8/8/8/8/2n5/2B2KN1/8/6k1 b - - 15 8",
+      "variant": "main.b",
+      "parent": "main.b.14"
+    },
+    {
+      "id": "main.c.11",
+      "ply": 11,
+      "san": "Ba1",
+      "nl": "La1?",
+      "fenAfter": "8/8/8/8/2n1N3/5K2/8/B5k1 b - - 11 6",
+      "variant": "main.c",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "8/8/8/8/2n5/2B2KN1/7k/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/8/8/8/2n5/2B2K2/4N2k/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
       "id": "main.14",
       "ply": 14,
       "san": "Kh3",
       "nl": "Kh3",
-      "fenAfter": "3B4/8/8/8/4NK2/7k/8/1n6 w - - 2 2",
+      "fenAfter": "8/8/8/8/2n5/2B2K1k/4N3/8 w - - 14 8",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/8/2n2N2/2B2K1k/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/8/8/8/2n2N1k/2B2K2/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bf6+",
+      "nl": "Lf6+",
+      "fenAfter": "8/8/5B2/8/2n2N1k/5K2/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…         Pa3        2.Kf3        Pc4         3.Lf6        Kg1        4.Ld4+\n\nvolgt 6…Kh2 7.Lf6 (Zie zet 3.)\n\nzet 6.)\n\nEn mat.\n\nOnfortuinlijke bordspeler die, na-\ndat zwart hier 8…Kh2 speelt, de\nwinst moet zoeken, want die  is\ntachtig (80) zetten diep, volgens\n‘Nalimov.’",
+      "after": "volgt 6…Kh2 7.Lf6 (Zie zet 3.)\n\nzet 6.)\n\nEn mat.\n\nOnfortuinlijke bordspeler die, na-\ndat zwart hier 8…Kh2 speelt, de\nwinst moet zoeken, want die  is\ntachtig (80) zetten diep, volgens\n‘Nalimov.’",
       "beforeVariant": {
         "main.a": "Een verrassende zet.\n\nNa 4.La1? of 4.Lg7? of  4.Lh8?\nvolgt 4...Kh2 5.Lf6 (zie zet 3.)\n\nTerug van weggeweest. Na::",
         "main.b": "(Zie zet 3.) En na:",

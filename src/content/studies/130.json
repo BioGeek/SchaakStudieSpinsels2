@@ -224,103 +224,103 @@
       "parent": "main.14"
     },
     {
-      "id": "main.a.15",
+      "id": "main.a2.15",
       "ply": 15,
       "san": "Bc4+",
       "nl": "Lc4+?",
       "fenAfter": "6k1/2K5/5Q2/8/2B5/8/8/7q b - - 6 8",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.14"
     },
     {
-      "id": "main.a.16",
+      "id": "main.a2.16",
       "ply": 16,
       "san": "Kh7",
       "nl": "Kh7",
       "fenAfter": "8/2K4k/5Q2/8/2B5/8/8/7q w - - 7 9",
-      "variant": "main.a",
-      "parent": "main.a.15"
+      "variant": "main.a2",
+      "parent": "main.a2.15"
     },
     {
-      "id": "main.a.17",
+      "id": "main.a2.17",
       "ply": 17,
       "san": "Bd3+",
       "nl": "Ld3+",
       "fenAfter": "8/2K4k/5Q2/8/8/3B4/8/7q b - - 8 9",
-      "variant": "main.a",
-      "parent": "main.a.16"
+      "variant": "main.a2",
+      "parent": "main.a2.16"
     },
     {
-      "id": "main.a.18",
+      "id": "main.a2.18",
       "ply": 18,
       "san": "Kg8",
       "nl": "Kg8",
       "fenAfter": "6k1/2K5/5Q2/8/8/3B4/8/7q w - - 9 10",
-      "variant": "main.a",
-      "parent": "main.a.17"
+      "variant": "main.a2",
+      "parent": "main.a2.17"
     },
     {
-      "id": "main.b.15",
+      "id": "main.b2.15",
       "ply": 15,
       "san": "Qe6+",
       "nl": "De6+?",
       "fenAfter": "6k1/2K5/4Q3/8/8/3B4/8/7q b - - 6 8",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.14"
     },
     {
-      "id": "main.b.16",
+      "id": "main.b2.16",
       "ply": 16,
       "san": "Kf8",
       "nl": "Kf8",
       "fenAfter": "5k2/2K5/4Q3/8/8/3B4/8/7q w - - 7 9",
-      "variant": "main.b",
-      "parent": "main.b.15"
+      "variant": "main.b2",
+      "parent": "main.b2.15"
     },
     {
-      "id": "main.b.17",
+      "id": "main.b2.17",
       "ply": 17,
       "san": "Qf6+",
       "nl": "Df6+",
       "fenAfter": "5k2/2K5/5Q2/8/8/3B4/8/7q b - - 8 9",
-      "variant": "main.b",
-      "parent": "main.b.16"
+      "variant": "main.b2",
+      "parent": "main.b2.16"
     },
     {
-      "id": "main.c.15",
+      "id": "main.c2.15",
       "ply": 15,
       "san": "Qd8+",
       "nl": "Dd8+?",
       "fenAfter": "3Q2k1/2K5/8/8/8/3B4/8/7q b - - 6 8",
-      "variant": "main.c",
+      "variant": "main.c2",
       "parent": "main.14"
     },
     {
-      "id": "main.c.16",
+      "id": "main.c2.16",
       "ply": 16,
       "san": "Kf7",
       "nl": "Kf7",
       "fenAfter": "3Q4/2K2k2/8/8/8/3B4/8/7q w - - 7 9",
-      "variant": "main.c",
-      "parent": "main.c.15"
+      "variant": "main.c2",
+      "parent": "main.c2.15"
     },
     {
-      "id": "main.c.17",
+      "id": "main.c2.17",
       "ply": 17,
       "san": "Qd7+",
       "nl": "Dd7+",
       "fenAfter": "8/2KQ1k2/8/8/8/3B4/8/7q b - - 8 9",
-      "variant": "main.c",
-      "parent": "main.c.16"
+      "variant": "main.c2",
+      "parent": "main.c2.16"
     },
     {
-      "id": "main.c.18",
+      "id": "main.c2.18",
       "ply": 18,
       "san": "Kf6",
       "nl": "Kf6",
       "fenAfter": "8/2KQ4/5k2/8/8/3B4/8/7q w - - 9 10",
-      "variant": "main.c",
-      "parent": "main.c.17"
+      "variant": "main.c2",
+      "parent": "main.c2.17"
     },
     {
       "id": "main.16",
@@ -454,8 +454,9 @@
       "before": "Er zwarte damepromotie dreigt.",
       "after": "Er dreigt nu mat op veld f7. En de\n     beste verdediging is de aanval:\n\nEn nu een onverwachte  toekom-\n     stige aftrekzet:\n\nEn wit wint.",
       "beforeVariant": {
-        "main.a": "Zwart verkiest dit antwoord, want\nna 1...h1D of bijvoorbeeld 1…Kg7\nwint wit na 19 zetten (Nalimov).\n\neen onnodige omweg.(Zie zet 5.)\n\nomweg.\n\ndrie zie zet 6.)",
-        "main.c": "Kg8 10.Dg6+ (Zie zet 8.)"
+        "main.a": "Zwart verkiest dit antwoord, want\nna 1...h1D of bijvoorbeeld 1…Kg7\nwint wit na 19 zetten (Nalimov).\n\neen onnodige omweg.(Zie zet 5.)\n\nomweg.",
+        "main.a2": "drie zie zet 6.)",
+        "main.c2": "Kg8 10.Dg6+ (Zie zet 8.)"
       }
     }
   }

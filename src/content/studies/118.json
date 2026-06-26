@@ -17,28 +17,28 @@
       "parent": null
     },
     {
-      "id": "A.6",
-      "ply": 6,
-      "san": "Bf7",
-      "nl": "Lf7",
-      "fenAfter": "8/R4b2/8/8/5k2/7P/8/1K6 w - - 1 2",
-      "variant": "A",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/R7/8/7b/8/6kP/8/1K6 w - - 1 2",
+      "variant": "main",
       "parent": "main.1"
     },
     {
-      "id": "B.6",
-      "ply": 6,
-      "san": "Be2",
-      "nl": "Le2",
-      "fenAfter": "8/R7/8/8/5k2/7P/4b3/1K6 w - - 1 2",
-      "variant": "B",
-      "parent": "main.1"
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ra3+",
+      "nl": "Ta3+",
+      "fenAfter": "8/8/8/7b/8/R5kP/8/1K6 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…          Kg3      2.Ta3+ 2.Th7? Lg6+ en 3…Lxh7.     2…          Kh4      3.Kc1\n\nKorter zonder zwarte pion is:",
+      "after": "Korter zonder zwarte pion is:",
       "beforeVariant": {
         "A": "Na1.Ta3? Lf7 2.Kc1 Le6 3.Kd2\nKg5 4.Ke2 Kh4 5.Kf2 Lxh3 komt de\nkoning te laat en is het remise.",
         "B": "Nu dreigt de pion op te rukken,\nwant de koning komt ter hulp."

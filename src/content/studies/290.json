@@ -89,42 +89,6 @@
       "parent": "main.10"
     },
     {
-      "id": "main.8",
-      "ply": 8,
-      "san": "Kb8",
-      "nl": "Kb8",
-      "fenAfter": "1k6/1p2K3/2r5/8/3B2p1/4pp2/8/7R w - - 1 6",
-      "variant": "main",
-      "parent": "main.11"
-    },
-    {
-      "id": "main.9",
-      "ply": 9,
-      "san": "Kd7",
-      "nl": "Kd7",
-      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/4pp2/8/7R b - - 2 6",
-      "variant": "main",
-      "parent": "main.8"
-    },
-    {
-      "id": "main.10",
-      "ply": 10,
-      "san": "e2",
-      "nl": "e2",
-      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/5p2/4p3/7R w - - 0 7",
-      "variant": "main",
-      "parent": "main.9"
-    },
-    {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Ra1",
-      "nl": "Ta1",
-      "fenAfter": "1k6/1p1K4/2r5/8/3B2p1/5p2/4p3/R7 b - - 1 7",
-      "variant": "main",
-      "parent": "main.10"
-    },
-    {
       "id": "main.21",
       "ply": 21,
       "san": "Rc7+",
@@ -137,7 +101,7 @@
   "prose": {
     "nl": {
       "before": "Een boeiende maar ingewikkelde\nstrijd  van  toren-en-loper  tegen\ntoren, start met het blokkeren van\npion b7, en matdreiging op h8:",
-      "after": "en eveneens mat.",
+      "after": "4.Ke7\n\n4…         Kb8\n\n5.Kd7        e2        6.Ta1        Tc6\n\n9…         b6       10.Kc6\n\n10…         Ka7       11.Th7+      Kb8\n\nen eveneens mat.",
       "beforeVariant": {
         "A": "Na 1…Te8? volgt korter: 2.Tf7\nKc8, enzovoort.\n\nEn niet 2.Kf8? wegens 2…Te6 en\n\nwinst.\n\nDe vorst zit de toren op de hielen.\n\nNiet 3…Tb8? 4.Ta1+ en mat.\nNu  is 4.Ta1+  te vroeg: 4…Kb8\n\nkoning komt vrij. Daarom:\n\nEn niet 4.Lxd4? Tc7+ 5.Ke6 b5 met\nremise.\n\nNa de aanval op de loper: 4..Tc6?\nvolgt 5.Th8+ Tc8 6.Txc8+ en mat\n\nNu wel. Daar 6...e1D? 7.Txe1 f2\n\nen pionverlies is.\n\nDoor de pionnenversperring is dit\nslechts het enige veld met mat-\ndreiging, want 9.Tc1?  is  onvol-\ndoende :  9…b6  10.Tc8+  Kb7\n\nhaling van zetten.\n\nWat nu? 10…f1D? Txf1 is stuk- en\ntijdverlies. En 10…b5+ loopt falie-\nkant  uit: 11.Lb6 Txb6  12.Kxb6,\nmet winst. Dus:\n\nEn  hier  niet 11…Ka8? 12.Lxb6\nTxb6+ 13.Kxb6+ e1D 14.Th8+ De8\n\nEn nu komt de finishing touch:\n\nDe beslissende stille genadeslag.\nMen zie:",
         "B": "en eindelijk mat."

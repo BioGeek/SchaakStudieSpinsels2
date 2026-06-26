@@ -56,10 +56,12 @@
   "prose": {
     "nl": {
       "before": "Kan wit stand houden tegen zo’n\nzwaar bewapende tegenstander,\ndie de beide lichte stukken reeds\naanvalt? Gelukkig is er hulp van\nboven:",
-      "after": "Thans  zou  dit de  beginstelling\nkunnen zijn van een kleine studie\nop zich, met de volgende oplos-\nsing:\n\nweg.\n\nen mat.\n\nZie ook de volgende studie.",
+      "after": "3.Dc1+      Ke2       4.Dd2+       Kf3 4...Kf1? 5.Df2+ en mat.        5.Df2+      Kg4        6.Df4+      Kh5       7.Dxh6+     Kg4       8.Dg6+\n\nThans  zou  dit de  beginstelling\nkunnen zijn van een kleine studie\nop zich, met de volgende oplos-\nsing:\n\nweg.\n\nen mat.\n\nZie ook de volgende studie.",
       "beforeVariant": {
-        "main.a": "Het beste, want na 1...Kf3? wint\nzowel 2.Da8+ als 2.Dd5+.\n\nNa  2...Kg2?  gaat  het  vlugger:\n\nvoort, zie de hoofdvariant. De wit-\nte dame jaagt nu de koning op:\n\nDf3 en wit komt niet verder. En na\n\nvia de linker vleugel\n\nNu slaat wit met de loper de twee-\nde toren\n\nHet beste om de dame te bevrij-\nden, want fout is:\n\nKg2 12.Df2+ en ook mat.",
-        "main.b": "en mat. Of:\n\nKg2 13.Df2+ en mat."
+        "main.a": "Het beste, want na 1...Kf3? wint\nzowel 2.Da8+ als 2.Dd5+.\n\nNa  2...Kg2?  gaat  het  vlugger:\n\nvoort, zie de hoofdvariant. De wit-\nte dame jaagt nu de koning op:\n\nDf3 en wit komt niet verder. En na\n\nvia de linker vleugel\n\nNu slaat wit met de loper de twee-\nde toren\n\nHet beste om de dame te bevrij-\nden, want fout is:",
+        "main.b": "en mat. Of:",
+        "main.a2": "Kg2 12.Df2+ en ook mat.",
+        "main.b2": "Kg2 13.Df2+ en mat."
       }
     }
   }

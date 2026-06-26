@@ -92,7 +92,7 @@
   "prose": {
     "nl": {
       "before": "Wit kan hier niet ongestraft de to-\nren of de pion slaan:",
-      "after": "1.g6+       Kh5\n\nWit mag dit offeraanbod niet aan-\n     vaarden: 7.Pxc5? 8.Txg7 met re-\n     mise. Maar hier is\n\nook mat.",
+      "after": "1.g6+       Kh5\n\n2.Kxf6 en  bijvoorbeeld 2…Pg4+ 3.Kf5 h5 4.g7 Ph6+ 5.Kg6 Pg8 6.Kh7 Pf6+ 7.Kh8 Kg5 8.Pc7 Kg6 9.Pe8 Pxe8 10.g8D.        2.g7         Te8        3.Pc7        Tg8        4.Pe6\n\nWit mag dit offeraanbod niet aan-\n     vaarden: 7.Pxc5? 8.Txg7 met re-\n     mise. Maar hier is\n\nook mat.",
       "beforeVariant": {
         "A": "Kg3 3.K(P)xe6 haalt niets uit.\n   Daarom:\n\nHet beste, want 1...Txf6+? faalt op\n\nDekt tweemaal de pion, en dreigt\nmat op f4.\n\nmat.\n\nHier faalt nu de afwachtende zet\n\nTxg7 8.Lxg7 Pf3 9.Lxh6, maar er is\n    geen winst meer.",
         "B": "Zwart is nu in zetdwang. Speelt het\n    paard dan  is het mat op f4. En\n     speelt  hij  bijvoorbeeld: 7…Tc8?\n\nPxf7 14.Kxf7, dan  wint  wit met\n     loper en paard.\n\nen mat."

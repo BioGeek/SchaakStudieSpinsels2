@@ -159,21 +159,12 @@
       "fenAfter": "8/8/2P5/1K6/8/4k1N1/7p/8 w - - 1 9",
       "variant": "B",
       "parent": "B.15"
-    },
-    {
-      "id": "B.15",
-      "ply": 15,
-      "san": "Kb4",
-      "nl": "Kb4",
-      "fenAfter": "8/8/2P5/8/1K6/4k1N1/7p/8 b - - 2 9",
-      "variant": "B",
-      "parent": "B.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "En eerste verleiding  is 1.Pe6+?\nKc6 2.Ka7 h5 3.Ka6 h4 4.Ka5 h3\n\nen wit komt te laat. Daarom:",
-      "after": "En wint eveneens.\n\n    Deze maljutka is een antwoord op\n     de 2de eervolle vermelding van S.\n     Badalov in het Ali Tebrizi Shat-\n       ranji MT 2009:\n\n    Kd6 Ph3 c5 e3 / Kd3 Pb8 a6 +\n\n     Met de oplossing: 1.Pf4+ Kxe3\n\nKc6 5.Ka7 a5 6.Ka6 a4 7.Ka5 a3\n\ntwee mogelijkheden: 10.Pb3  of\n\nDe prijsrechter Bakhtiyar Rusta-\n    mov uit Baku, Azerbaijan schreef:\n     “An interesting trajectory of white\n     moves. The king revives around\n      the Pc5, while the knight moves in\n     a symmetric wave-like pattern”.\n\n     Mooi, maar al is mijn inleiding iets\n      korter: ‘Less is more’, of ‘Meer met\n      minder’.",
+      "after": "2.Kc7 Kd4 3.Pe6+ Kd5 4.Kxb8\n\n8.Kb4 a2 9.Pd4+ Kd5 maar nu\n\nEn wint eveneens.\n\n    Deze maljutka is een antwoord op\n     de 2de eervolle vermelding van S.\n     Badalov in het Ali Tebrizi Shat-\n       ranji MT 2009:\n\n    Kd6 Ph3 c5 e3 / Kd3 Pb8 a6 +\n\n     Met de oplossing: 1.Pf4+ Kxe3\n\nKc6 5.Ka7 a5 6.Ka6 a4 7.Ka5 a3\n\ntwee mogelijkheden: 10.Pb3  of\n\nDe prijsrechter Bakhtiyar Rusta-\n    mov uit Baku, Azerbaijan schreef:\n     “An interesting trajectory of white\n     moves. The king revives around\n      the Pc5, while the knight moves in\n     a symmetric wave-like pattern”.\n\n     Mooi, maar al is mijn inleiding iets\n      korter: ‘Less is more’, of ‘Meer met\n      minder’.",
       "beforeVariant": {
         "A": "En nu niet de tweede vergissing:\n\nKe5 8.c6 Kf4 9.Ph1 Kf3 10.c7 Kg2",
         "B": "En wit wint."

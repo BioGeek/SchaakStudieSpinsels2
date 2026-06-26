@@ -15,12 +15,138 @@
       "fenAfter": "3B4/k7/6p1/p7/2K5/2N5/8/2n5 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "3B4/k7/6p1/8/p1K5/2N5/8/2n5 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bg5",
+      "nl": "Lg5",
+      "fenAfter": "8/k7/6p1/6B1/p1K5/2N5/8/2n5 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "8/k7/6p1/6B1/p1K5/1nN5/8/8 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nxa4",
+      "nl": "Pxa4",
+      "fenAfter": "8/k7/6p1/6B1/N1K5/1n6/8/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Na5+",
+      "nl": "Pa5+",
+      "fenAfter": "8/k7/6p1/n5B1/N1K5/8/8/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/k7/6p1/nK4B1/N7/8/8/8 b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nb7",
+      "nl": "Pb7",
+      "fenAfter": "8/kn6/6p1/1K4B1/N7/8/8/8 w - - 3 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Be3+",
+      "nl": "Le3+",
+      "fenAfter": "8/kn6/6p1/1K6/N7/4B3/8/8 b - - 4 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k6/1n6/6p1/1K6/N7/4B3/8/8 w - - 5 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bf4+",
+      "nl": "Lf4+",
+      "fenAfter": "1k6/1n6/6p1/1K6/N4B2/8/8/8 b - - 6 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k5/1n6/6p1/1K6/N4B2/8/8/8 w - - 7 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "2k5/1n6/K5p1/8/N4B2/8/8/8 b - - 8 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Nd8",
+      "nl": "Pd8",
+      "fenAfter": "2kn4/8/K5p1/8/N4B2/8/8/8 w - - 9 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "2kn4/8/KN4p1/8/5B2/8/8/8 b - - 10 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…          a4        2.Lg5       Pb3        3.Pxa4       Pa5+        4.Kb5       Pb7\n\n1.Pd5 Pe2+ 2.Ke3 Pc1 3.Kd4 bxa6     4.Kc4 a5 5.Pc3 (Maar ook winnend\n\nDreigt nu met 2.Lg5 het paard te\nslaan. Want 1.Kxa5? of 1.Lxa5?\ngeven slechts remise.\n\nHet zwarte paard  is naar boven\ngeklommen bij zijn meester, die nu\nwordt aangevallen met:\n\nHet paard dreigt te vluchten, maar\nplots komt het onverwachte mooie\nmat:\n\nDit is een correctie van een Eerste\n      Prijs van de getalenteerde Noorse\n    componist Jarl Henning Ulrichsen,\n     gepubliceerd in ‘Dagbladet’ 1967:\n\n     Kf4 Lh4 Pe3 a6 / Kb8 Pg1 b7 +\n\nis: 5.Lg3+ en bijvoor-beeld 5…Kb7\n\nKc7 12.Pe6+ Kd6 13.Pd4 Kd5\n\npaard.) 5…a4 6.Lg5 (Ook hier wint\n\nenzovoort.  Zie  hoger.) 6…Pb3\n\nKc8 10.Ka6 Pd8 11.Pb6+, met een\n     prachtig mat.\n\n     In mijn correctie is de studie, zon-\n     der de pion op g6, nevenoplobaar\n     door 5.Lf4+ in 54 zetten.(Nalimov)\n\n      Jarl Ulrichsen zelf beaamde: “Two\n    main lines are reduced to one line,\n     but this version seems to be cor-\n      rect. It is a pity that Black is left with\n    a pawn on g6 in the final po-sition,\n     but   it  is neccessary  to make   it\n     sound.”\n\n     Zie ook de volgende studie.",
+      "after": "1.Pd5 Pe2+ 2.Ke3 Pc1 3.Kd4 bxa6     4.Kc4 a5 5.Pc3 (Maar ook winnend\n\n6.Pc3 a4 7.Lf4 Pb3 8.Pxa4 Pa5     9.Kb5 Pb3 10.Le3 Pa1 11.Pc5+\n\n6.Lg3+ Kb7  7.Lf4 Pb3  8.Pxa4\n\n7.Pxa4 Pa5+ 8.Kb5 Pb7 9.Lf4+\n\nDreigt nu met 2.Lg5 het paard te\nslaan. Want 1.Kxa5? of 1.Lxa5?\ngeven slechts remise.\n\nHet zwarte paard  is naar boven\ngeklommen bij zijn meester, die nu\nwordt aangevallen met:\n\nHet paard dreigt te vluchten, maar\nplots komt het onverwachte mooie\nmat:\n\nDit is een correctie van een Eerste\n      Prijs van de getalenteerde Noorse\n    componist Jarl Henning Ulrichsen,\n     gepubliceerd in ‘Dagbladet’ 1967:\n\n     Kf4 Lh4 Pe3 a6 / Kb8 Pg1 b7 +\n\nis: 5.Lg3+ en bijvoor-beeld 5…Kb7\n\nKc7 12.Pe6+ Kd6 13.Pd4 Kd5\n\npaard.) 5…a4 6.Lg5 (Ook hier wint\n\nenzovoort.  Zie  hoger.) 6…Pb3\n\nKc8 10.Ka6 Pd8 11.Pb6+, met een\n     prachtig mat.\n\n     In mijn correctie is de studie, zon-\n     der de pion op g6, nevenoplobaar\n     door 5.Lf4+ in 54 zetten.(Nalimov)\n\n      Jarl Ulrichsen zelf beaamde: “Two\n    main lines are reduced to one line,\n     but this version seems to be cor-\n      rect. It is a pity that Black is left with\n    a pawn on g6 in the final po-sition,\n     but   it  is neccessary  to make   it\n     sound.”\n\n     Zie ook de volgende studie.",
       "beforeVariant": {}
     }
   }

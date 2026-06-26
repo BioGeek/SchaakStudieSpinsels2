@@ -17,11 +17,11 @@
       "parent": null
     },
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "f4+",
-      "nl": "f4+",
-      "fenAfter": "8/8/8/4k3/5p1p/3K4/5P2/2N5 w - - 0 2",
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/8/5p2/5k1p/3K4/5P2/2N5 w - - 1 2",
       "variant": "main",
       "parent": "main.1"
     },
@@ -30,9 +30,9 @@
       "ply": 3,
       "san": "Ke2",
       "nl": "Ke2",
-      "fenAfter": "8/8/8/4k3/5p1p/8/4KP2/2N5 b - - 1 2",
+      "fenAfter": "8/8/8/5p2/5k1p/8/4KP2/2N5 b - - 2 2",
       "variant": "main",
-      "parent": "main.5"
+      "parent": "main.2"
     },
     {
       "id": "main.c.7",
@@ -47,7 +47,7 @@
   "prose": {
     "nl": {
       "before": "Wit moet de eigen pion behouden\nen de zwarte pionpromotie verhin-\nderen.",
-      "after": "1…          Kf4\n\ngoed.\nMaar een onverwachte zijsprong\nvan het paard brengt redding:\n\nEen moeilijk te vinden zet, die de\nredding brengt.\n\nEn nu wel:\n\nEn wint.\nNog een laatste struikelsteen  is:\n\nheden: 8.Kh1 of 8.Kg1.",
+      "after": "goed.\nMaar een onverwachte zijsprong\nvan het paard brengt redding:\n\nEen moeilijk te vinden zet, die de\nredding brengt.\n\nEn nu wel:\n\nEn wint.\nNog een laatste struikelsteen  is:\n\nheden: 8.Kh1 of 8.Kg1.",
       "beforeVariant": {
         "main.a": "niet verder, dus remise.\n\nVerleidelijk  is 1…h3? 2.Pe2 h2\n\nen dan wint wit zowel met 6…Ke3\nals met 6…Ke2. Dus nevenoplos-\nbaar.\n\nNu komt de moeilijkste zet:"
       }

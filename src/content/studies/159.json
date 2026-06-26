@@ -44,12 +44,12 @@
       "parent": "main.2"
     },
     {
-      "id": "main.a.10",
+      "id": "main.a3.10",
       "ply": 10,
       "san": "Nh3",
       "nl": "Ph3?",
       "fenAfter": "8/4BN2/8/b7/8/1N2k2n/6K1/8 w - - 3 3",
-      "variant": "main.a",
+      "variant": "main.a3",
       "parent": "main.9"
     },
     {
@@ -65,10 +65,14 @@
   "prose": {
     "nl": {
       "before": "Opgedragen aan Roger Missiaen.\n\nIn de regel winnen drie lichte stuk-\nken niet tegen twee lichte stukken.\nIn deze aristocratische miniatuur\nechter staan twee lichte stukken\n‘en prise’. Zwart mag beginnen met",
-      "after": "mat\nDe énige hoopvolle voortzetting is:\n\nEen mooie maar foute verleiding is\nhier 6.Pc6? Pf3 (dreigt 7…Ph4+ en\n\nloper ontsnapt met 8…Ld2,  re-\nmise.\n\nUitstel van executie.\n\nDreigt mat met 11.Pdf5+.\n\nen toch eindelijk mat.\n\nDe toenmalige rubriekleider Spin-\nhoven  schreef  indertijd  “Subtiel\nspel.”Het is een rechtstreekse mat-\nstudie waarin  alle stukken mee\nspelen en geen enkele wordt geno-\nmen.\n\nRoger vond het “Ongelooflijk fas-\ncinerend! Dat is de mooiste domi-\nnantiestudie, met dit materiaal, die\nik ooit zag.”\n\nEn nadat ik de zogezegde fout die\nRoger mij toeschreef (6.Pc6?) had\nweerlegd, voegde Julien Vandiest\ner aan toe in Flemish Miniatures:\n “So all’s well that moves well. It is\nalways  gratifying  to see  that a\nsplendid study contains even more\nwealth than its composer bargain-\nned for. The wizzard from Wilrijk\ntreading on ‘Missiaenic’ territory.”\n     In Finales…y temas stond: “Estu-\n     dio en donde la ausencia de peo-\n    nes la evoluciones hacen de esta\n     obra una creación muy agradable”\n\n    De aanleiding tot bovenstaand mi-\n      niatuurtje was de 1ste prijs in The\n     Problemist van C.M. Bent (1972):\n\n     Kf1 Le6 Pb3 Pe7 / Ke3 La5 Pg5 +\n\n    Met de fijne oplossing: 1.Lf5 Ld8\n\nzwarte.loper.",
+      "after": "2.Pd5+ Kf3 3.Pd4+ Kg3 4.Pc6 Pf7      5.Le6 Pg5 6.Lg8 en verlies van de\n\nmat\nDe énige hoopvolle voortzetting is:\n\nEen mooie maar foute verleiding is\nhier 6.Pc6? Pf3 (dreigt 7…Ph4+ en\n\nloper ontsnapt met 8…Ld2,  re-\nmise.\n\nUitstel van executie.\n\nDreigt mat met 11.Pdf5+.\n\nen toch eindelijk mat.\n\nDe toenmalige rubriekleider Spin-\nhoven  schreef  indertijd  “Subtiel\nspel.”Het is een rechtstreekse mat-\nstudie waarin  alle stukken mee\nspelen en geen enkele wordt geno-\nmen.\n\nRoger vond het “Ongelooflijk fas-\ncinerend! Dat is de mooiste domi-\nnantiestudie, met dit materiaal, die\nik ooit zag.”\n\nEn nadat ik de zogezegde fout die\nRoger mij toeschreef (6.Pc6?) had\nweerlegd, voegde Julien Vandiest\ner aan toe in Flemish Miniatures:\n “So all’s well that moves well. It is\nalways  gratifying  to see  that a\nsplendid study contains even more\nwealth than its composer bargain-\nned for. The wizzard from Wilrijk\ntreading on ‘Missiaenic’ territory.”\n     In Finales…y temas stond: “Estu-\n     dio en donde la ausencia de peo-\n    nes la evoluciones hacen de esta\n     obra una creación muy agradable”\n\n    De aanleiding tot bovenstaand mi-\n      niatuurtje was de 1ste prijs in The\n     Problemist van C.M. Bent (1972):\n\n     Kf1 Le6 Pb3 Pe7 / Ke3 La5 Pg5 +\n\n    Met de fijne oplossing: 1.Lf5 Ld8\n\nzwarte.loper.",
       "beforeVariant": {
-        "main.a": "Het beste:\n\nZwart valt opnieuw aan. 2…Ld2 is\nfout wegens 3.Pd5+ Kf3 4.Pxd2+.\n\nDe beurt is nu aan wit:\n\nNa 4…Kg3? 5.Pc6 Pe6 6.Lf7 Pg5\n\npaard op de volgende zet.\n\nDe énige juiste voortzetting.\nNa:\n\nKg6  8.Pf4+ Kg7, en wit komt\n     niet verder.\nNu, na de tekstzet, heeft noch de\nzwarte koning noch zijn paard een\ngoede zet, bijvoorbeeld:",
-        "main.b": "loperzet volgt een paardvork,\n    of bijvoorbeeld 2...Ld2 3.Pd5+\n   Ke4  4.Pxd2+)  3.La6  Ld8\n\nKf6  8.Lg8 Lc7  9.Pd5+  Kf5\n\nOok na:\n\nnoch"
+        "main.a": "Het beste:",
+        "main.b": "loperzet volgt een paardvork,\n    of bijvoorbeeld 2...Ld2 3.Pd5+\n   Ke4  4.Pxd2+)  3.La6  Ld8",
+        "main.a2": "Zwart valt opnieuw aan. 2…Ld2 is\nfout wegens 3.Pd5+ Kf3 4.Pxd2+.\n\nDe beurt is nu aan wit:\n\nNa 4…Kg3? 5.Pc6 Pe6 6.Lf7 Pg5\n\npaard op de volgende zet.\n\nDe énige juiste voortzetting.\nNa:",
+        "main.b2": "Kf6  8.Lg8 Lc7  9.Pd5+  Kf5\n\nOok na:",
+        "main.a3": "Kg6  8.Pf4+ Kg7, en wit komt\n     niet verder.\nNu, na de tekstzet, heeft noch de\nzwarte koning noch zijn paard een\ngoede zet, bijvoorbeeld:",
+        "main.b3": "noch"
       }
     }
   }

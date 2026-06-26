@@ -74,7 +74,7 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "Na 1...Kc7? 2.Lf4+ Kb6 3.Pc8+\nKxc6 4.Lxg3 en wit wint\n\nNu faalt 2.Lf4+? Kxa7 3.c7 Tg8. Of\nhier 3.Lxg3 bxc6, met remise.\n\nWit  offert  het paard. Maar  niet\n\nNiet goed is 3.c8D? Txg5 met\nremise.\n\nMet de dreiging 8…Kb7.\n\nEn nu de witte koning veilig ge-\nborgen is, wint wit.",
+      "after": "3…         Tg2+        4.Kb3      4…         Tg3+\n\n5.Kb4 5.Kc4? b5+ 6.Kxb5 Kb7, remise.      5…         Tg4+        6.Kb5       Tg8        7.Ld8        b6\n\nNa 1...Kc7? 2.Lf4+ Kb6 3.Pc8+\nKxc6 4.Lxg3 en wit wint\n\nNu faalt 2.Lf4+? Kxa7 3.c7 Tg8. Of\nhier 3.Lxg3 bxc6, met remise.\n\nWit  offert  het paard. Maar  niet\n\nNiet goed is 3.c8D? Txg5 met\nremise.\n\nMet de dreiging 8…Kb7.\n\nEn nu de witte koning veilig ge-\nborgen is, wint wit.",
       "beforeVariant": {}
     }
   }

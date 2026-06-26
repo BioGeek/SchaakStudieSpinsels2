@@ -15,12 +15,48 @@
       "fenAfter": "8/K1k5/8/Q7/1B6/8/4p3/3q4 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/K2k4/8/Q7/1B6/8/4p3/3q4 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qf5+",
+      "nl": "Df5+",
+      "fenAfter": "8/K2k4/8/5Q2/1B6/8/4p3/3q4 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/K7/2k5/5Q2/1B6/8/4p3/3q4 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/K7/2k5/2Q5/1B6/8/4p3/3q4 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
     }
   ],
   "prose": {
     "nl": {
       "before": "De loper dient een zwarte pro-\nmotie te verhinderen en de witte\ndame moet het alleen klaren.",
-      "after": "1…         Kd7        2.Df5+       Kc6        3.Dc5+ 3.De6+? Kb5 is ook remise.      3…         Kd7        4.De7+      Kc8       5.Db7+      Kd8        6.Kb8\n\nMet winst.\n\nDe dreigende pion werd goed be-\nwaakt door de loper.",
+      "after": "Met winst.\n\nDe dreigende pion werd goed be-\nwaakt door de loper.",
       "beforeVariant": {
         "A": "Ke5 geeft slechts remise.\n\nDe blanke echtgenoot helpt  zijn\ndame, met de dreiging 7.De7+ of\n\nzwarte koningin haar echtgenoot\nhulp bieden met:\n\nEn nu:",
         "B": "En mat. Of:"

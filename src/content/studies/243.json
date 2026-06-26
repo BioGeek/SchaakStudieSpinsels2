@@ -137,10 +137,11 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "wint.\n\nf     En wit wint dan ‘a la Troitzky’, met\n      twee paarden tegen een pion, ge-\n       stopt op  veld  c5.  Bijvoorbeeld:\n\nWit heeft zich hier niet verslikt in\n       gulzigheid door de pion te slaan.\n\n       “The long expedtion of the Knights\n         is impressive, and is  all done to\n       arrive  at  the  Troitzky  position.”\n      vond de jarige Yehuda Hoch.",
+      "after": "4.Pf3+        Kf5             5.Ph4+      Ke5             6.Pg4+      Ke4              7.Pf6+       Ke5             8.Pd7+      Kd6        8...Ke4? 9.Pc5+ K~ en 10.Pxa6              9.Pb8        Le2+            10.Ke1       Ke5            11.Pd7+\n\nwint.\n\nf     En wit wint dan ‘a la Troitzky’, met\n      twee paarden tegen een pion, ge-\n       stopt op  veld  c5.  Bijvoorbeeld:\n\nWit heeft zich hier niet verslikt in\n       gulzigheid door de pion te slaan.\n\n       “The long expedtion of the Knights\n         is impressive, and is  all done to\n       arrive  at  the  Troitzky  position.”\n      vond de jarige Yehuda Hoch.",
       "beforeVariant": {
-        "main.a": "met:\n\nKd5(6) 6.Lxf4 Kxc6 7.Kxe2, of\n\nPxe2 8.Kxe2, met winst.\n\nKg4 5.Pf6+ Kg5, remise;\n\nKe5  8.Pg4+  Ke4  9.Pf6+  Ke5\n\nKe5 13.Pd7+ Ke4 14.Pf6+ Ke5, en\nwit komt niet verder. Remise.\n      Wit mag de pion dus niet slaan.\n\nWeerom is 11.Pxc6+? niet goed,\n       zoals verder blijkt.",
-        "main.b": "Kd5 15.Le7"
+        "main.a": "met:",
+        "main.a2": "Kd5(6) 6.Lxf4 Kxc6 7.Kxe2, of\n\nPxe2 8.Kxe2, met winst.\n\nKg4 5.Pf6+ Kg5, remise;\n\nKe5  8.Pg4+  Ke4  9.Pf6+  Ke5\n\nKe5 13.Pd7+ Ke4 14.Pf6+ Ke5, en\nwit komt niet verder. Remise.\n      Wit mag de pion dus niet slaan.\n\nWeerom is 11.Pxc6+? niet goed,\n       zoals verder blijkt.",
+        "main.b2": "Kd5 15.Le7"
       }
     }
   }

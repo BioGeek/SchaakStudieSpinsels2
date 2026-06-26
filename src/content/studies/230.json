@@ -168,12 +168,138 @@
       "fenAfter": "8/2Pk4/8/1N6/8/7p/4K2P/8 b - - 0 10",
       "variant": "A",
       "parent": "A.18"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Rc2",
+      "nl": "Tc2",
+      "fenAfter": "8/2P5/7N/5p2/1P5k/5K1p/2r4P/8 w - - 1 2",
+      "variant": "B",
+      "parent": null
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/2P5/8/5N2/1P5k/5K1p/2r4P/8 b - - 0 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/2P5/8/5Nk1/1P6/5K1p/2r4P/8 w - - 1 3",
+      "variant": "B",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/2P5/8/6k1/1P1N4/5K1p/2r4P/8 b - - 2 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Rc3+",
+      "nl": "Tc3+",
+      "fenAfter": "8/2P5/8/6k1/1P1N4/2r2K1p/7P/8 w - - 3 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/2P5/8/6k1/1P1NK3/2r4p/7P/8 b - - 4 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2P5/5k2/8/1P1NK3/2r4p/7P/8 w - - 5 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Nb5",
+      "nl": "Pb5",
+      "fenAfter": "8/2P5/5k2/1N6/1P2K3/2r4p/7P/8 b - - 6 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Rc2",
+      "nl": "Tc2",
+      "fenAfter": "8/2P5/5k2/1N6/1P2K3/7p/2r4P/8 w - - 7 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Nd6",
+      "nl": "Pd6",
+      "fenAfter": "8/2P5/3N1k2/8/1P2K3/7p/2r4P/8 b - - 8 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/2P5/3Nk3/8/1P2K3/7p/2r4P/8 w - - 9 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "c8=Q",
+      "nl": "c8D",
+      "fenAfter": "2Q5/8/3Nk3/8/1P2K3/7p/2r4P/8 b - - 0 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Rxc8",
+      "nl": "Txc8",
+      "fenAfter": "2r5/8/3Nk3/8/1P2K3/7p/7P/8 w - - 0 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Nxc8",
+      "nl": "Pxc8",
+      "fenAfter": "2N5/8/4k3/8/1P2K3/7p/7P/8 b - - 0 8",
+      "variant": "B",
+      "parent": "B.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "Deze studie heb ik gecomponeerd\nnadat de correcte versie, op de\nvorige  bladzijde  onterecht werd\nafgekeurd door de prijsrechter. En\nal  viel  ik nu met bovenstaande\nstudie in de prijzen, toch verkies ik\nde versie op de vorige bladzijde.\n\n                   W",
-      "after": "1…         Tc2        2.Pf5+      Kg5        3.Pd4 3.Pg7? Kf6 4.b5 Ke7 5.b6 Kd7 6.Pe8 Kc8 7.Pd6+ Kd7 8.Pb5 Kc8 9.Pa7+ Kb7 10.c8D Txc8 11.Pxc8\n\nKxc8 en pion h2 promoveert.\n\nWit wint in beide varianten.",
+      "after": "Kxc8 en pion h2 promoveert.\n\nWit wint in beide varianten.",
       "beforeVariant": {
         "B": "voorbeeld 9.Pd4 Txc7  of 9.Kd4\nTc2 10.K~ Txh2. Geen winst dus."
       }

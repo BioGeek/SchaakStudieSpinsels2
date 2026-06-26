@@ -404,21 +404,21 @@
       "parent": "main.28"
     },
     {
-      "id": "main.a.29",
+      "id": "main.a2.29",
       "ply": 29,
       "san": "Ne7",
       "nl": "Pe7?",
       "fenAfter": "k7/2K1Nn2/8/8/8/3pB3/8/8 b - - 7 15",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.28"
     },
     {
-      "id": "main.b.29",
+      "id": "main.b2.29",
       "ply": 29,
       "san": "Bd2",
       "nl": "Ld2?",
       "fenAfter": "k7/2K2n2/8/3N4/8/3p4/3B4/8 b - - 7 15",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.28"
     },
     {
@@ -695,12 +695,12 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "Ka7 16.Pb4 Pe5 17.Le3+ (Zie\n    zet 13.)\n\n(Zie zet 26).\n\nEn wit wint, na 26 zetten, volgens\nde Nalimov Endgame Tablebase.\n\nDat wit, op alle zetten van zwart,\ntelkens  slechts  één  goed  ant-\nwoord heeft is dé vereiste in een\nschaakstudie, maar dat wit dit der-\ntig (30!) keer op rij volhoudt is wel\nongewoon vind ik\n\nVan de Gevel schreef:”On we go to\nBelgium where Ignace shows us a\nthirty move long manoeuvre in a\nendgame with bishop and knight\nagainst knight and pawn.”\n      Jarl Ulrichsen oordeelde: “Seems\n     impressif at first sight, but  it turns\n     out to be a typical database of the\n     incomprehensible kind.  I have no\n     idea how the compser found it, but\n     unique moves are no merit per se”\n\n     In EG N°198 studie 19835 even-\n     wel, wordt een gelijkaardige, on-\n     verstaanbare en toch correcte stu-\n      die, van 27 zetten diep,  van V.\n    Aberman wél bekroond door Yo-\n    chanan Afek, met een 2de en 3de\n      prijs, namelijk deze:\n\n    Kh3 a2 b2 d4 / Kh8 Pf5 +\n\n    Met de oplossing: 1.Kg4 Pe7 2.Kf4\n    Kg7 3.Ke5  Kf7 4.a3 Ke8 5.Ke6\n    Kd8 6.d5 Pg6 7.Kd6 Pf4 8.b3 Kc8\n\nPa6+  12Kd6  Kb7  13.a5  Kc8\n\nPb4 17.d7+ Kc7 18.a6 Pc6 19.b4\n    Kd8  20.Kd6 Pa7  21.Kc5 Kxd7\n\nPb5  25.a7 Pxa7  26.Kxa7 Kc6\n\nImmers niet hoe?, maar dat! ik de\n    hoger staande winnende  stelling\n    componeerde is mijn verdienste.\n     Hier merkt men het grote beoor-\n     delingsverschil over gelijkaardige\n     studie bij juryleden:\n     ’Tastes differ’",
+      "after": "15.Pc3? of nog 15.Pf4?, Pe5    16.Pd5 Pf7 17.Lc5  (Zie  zet\n\n9.a4 Sd3 10.Kc6 Pb4+ 11.Kc5\n\n14.Ke7 Pc7 15.d6 Pd5+ 16.Ke6\n\n22.Kb6 Pc8+ 23.Kb7 Pd6+ 24.Kb8\n\n27.Ka6., en wint.\n\nKa7 16.Pb4 Pe5 17.Le3+ (Zie\n    zet 13.)\n\n(Zie zet 26).\n\nEn wit wint, na 26 zetten, volgens\nde Nalimov Endgame Tablebase.\n\nDat wit, op alle zetten van zwart,\ntelkens  slechts  één  goed  ant-\nwoord heeft is dé vereiste in een\nschaakstudie, maar dat wit dit der-\ntig (30!) keer op rij volhoudt is wel\nongewoon vind ik\n\nVan de Gevel schreef:”On we go to\nBelgium where Ignace shows us a\nthirty move long manoeuvre in a\nendgame with bishop and knight\nagainst knight and pawn.”\n      Jarl Ulrichsen oordeelde: “Seems\n     impressif at first sight, but  it turns\n     out to be a typical database of the\n     incomprehensible kind.  I have no\n     idea how the compser found it, but\n     unique moves are no merit per se”\n\n     In EG N°198 studie 19835 even-\n     wel, wordt een gelijkaardige, on-\n     verstaanbare en toch correcte stu-\n      die, van 27 zetten diep,  van V.\n    Aberman wél bekroond door Yo-\n    chanan Afek, met een 2de en 3de\n      prijs, namelijk deze:\n\n    Kh3 a2 b2 d4 / Kh8 Pf5 +\n\n    Met de oplossing: 1.Kg4 Pe7 2.Kf4\n    Kg7 3.Ke5  Kf7 4.a3 Ke8 5.Ke6\n    Kd8 6.d5 Pg6 7.Kd6 Pf4 8.b3 Kc8\n\nPa6+  12Kd6  Kb7  13.a5  Kc8\n\nPb4 17.d7+ Kc7 18.a6 Pc6 19.b4\n    Kd8  20.Kd6 Pa7  21.Kc5 Kxd7\n\nPb5  25.a7 Pxa7  26.Kxa7 Kc6\n\nImmers niet hoe?, maar dat! ik de\n    hoger staande winnende  stelling\n    componeerde is mijn verdienste.\n     Hier merkt men het grote beoor-\n     delingsverschil over gelijkaardige\n     studie bij juryleden:\n     ’Tastes differ’",
       "beforeVariant": {
         "main.c": "Pe4 10.Lf4 Pc5 11.Kc6 Pe6",
         "main.d": "Pf3 12.Lh6 Pe1 13.Lg7 Pf3\n\n(Zie zet 10.)",
-        "main.a": "Pf3 12.Kc7 Pe1 13.Le5 Pf3\n\n(Zie zet 10.)\n\n(Zie zet 11..)",
-        "main.b": "15)."
+        "main.a2": "Pf3 12.Kc7 Pe1 13.Le5 Pf3\n\n(Zie zet 10.)\n\n(Zie zet 11..)",
+        "main.b2": "15)."
       }
     }
   }

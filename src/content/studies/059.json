@@ -17,28 +17,118 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nf8",
+      "nl": "Pf8",
+      "fenAfter": "5n2/4K3/3P4/1B1k4/8/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Be8",
+      "nl": "Le8",
+      "fenAfter": "4Bn2/4K3/3P4/3k4/8/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
       "id": "main.4",
       "ply": 4,
       "san": "Kc5",
       "nl": "Kc5",
-      "fenAfter": "8/4K2n/3P4/1Bk5/8/8/8/8 w - - 2 2",
+      "fenAfter": "4Bn2/4K3/3P4/2k5/8/8/8/8 w - - 4 3",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "5n2/4K3/3P4/2k4B/8/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "5n2/4K3/3P4/3k3B/8/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bf3+",
+      "nl": "Lf3+",
+      "fenAfter": "5n2/4K3/3P4/3k4/8/5B2/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "5n2/4K3/3P4/4k3/8/5B2/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "5n2/4K3/3P4/4k3/4B3/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "8/4K3/3Pn3/4k3/4B3/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
       "san": "d7",
       "nl": "d7",
-      "fenAfter": "8/3PK2n/8/1Bk5/8/8/8/8 b - - 0 2",
+      "fenAfter": "8/3PK3/4n3/4k3/4B3/8/8/8 b - - 0 6",
       "variant": "main",
-      "parent": "main.4"
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kxe4",
+      "nl": "Kxe4",
+      "fenAfter": "8/3PK3/4n3/8/4k3/8/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kxe6",
+      "nl": "Kxe6",
+      "fenAfter": "8/3P4/4K3/8/4k3/8/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…           Pf8\n\nMaakt plaats voor de pionpromo-\ntie.\n\nHet paard lokt de de koning weg,\nmaar na:\n\nspeelt de opponent het best:\n\nNa 3…Kc6?  4.Lf3+ Kc5 5.Le4\nmoet de zwarte koning de pion\nloslaten of het paard offeren.\n\nNa 4…Kc5? 5.Le4 Kd4 volgt na-\ntuurlijk 6.Kxf8\n\nDit offeraanbod verplicht zwart nu\nhet paard te spelen:\n\nWhat else?\n\nHet is gelukt, wit wint.",
+      "after": "Maakt plaats voor de pionpromo-\ntie.\n\nHet paard lokt de de koning weg,\nmaar na:\n\nspeelt de opponent het best:\n\nNa 3…Kc6?  4.Lf3+ Kc5 5.Le4\nmoet de zwarte koning de pion\nloslaten of het paard offeren.\n\nNa 4…Kc5? 5.Le4 Kd4 volgt na-\ntuurlijk 6.Kxf8\n\nDit offeraanbod verplicht zwart nu\nhet paard te spelen:\n\nWhat else?\n\nHet is gelukt, wit wint.",
       "beforeVariant": {}
     }
   }

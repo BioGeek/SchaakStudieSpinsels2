@@ -15,12 +15,66 @@
       "fenAfter": "8/5K1p/R6k/8/b7/8/6p1/5N2 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/5K1p/R7/7k/b7/8/6p1/5N2 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Ra5+",
+      "nl": "Ta5+",
+      "fenAfter": "8/5K1p/8/R6k/b7/8/6p1/5N2 b - - 3 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/5K1p/R7/6k1/b7/8/6p1/5N2 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Ra5",
+      "nl": "Ta5",
+      "fenAfter": "8/5K1p/8/R5k1/b7/8/6p1/5N2 b - - 3 2",
+      "variant": "B",
+      "parent": "B.2"
+    },
+    {
+      "id": "B.a.4",
+      "ply": 4,
+      "san": "Bb5",
+      "nl": "Lb5",
+      "fenAfter": "8/5K1p/8/Rb4k1/8/8/6p1/5N2 w - - 4 3",
+      "variant": "B.a",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.b.4",
+      "ply": 4,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/5K1p/8/R7/b4k2/8/6p1/5N2 w - - 4 3",
+      "variant": "B.b",
+      "parent": "B.3"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit tracht de dubbele zwarte pro-\nmotiedreiging uit te stellen met een\naftrekschaak.",
-      "after": "1...         Kh5        2.Ta5+\n\n1...         Kg5        2.Ta5 2.Pd2? met de dreiging 2…g1D 3.Pf3+ en 4.Pxg1, faalt op 2…Ld1 3.Ta1 g1D 4.Pf3+ Lxf3 5.Txg1, is\n\nEnzovoort, als in b).\nEn ook hier zegeviert wit.",
+      "after": "2.Pg3+? is fout: 2...Kg4 3.Pe2 Lb5 4.Ta1 Lxe2 en weg is de winst.           2...         Kh6\n\nEnzovoort, als in b).\nEn ook hier zegeviert wit.",
       "beforeVariant": {
         "A.a": "Want  een  verleidelijke  zet  als\n\nVergeefs is 2...Lb5? 3.Txb5+ en:",
         "B": "Beide met winst voor wit.\n\nDreigt mat op veld h5\n\nIets beter dan 3...Ld1 met bijvoor-\nbeeld   4.Pf5+ Kg5 5.Pe3+ en\n\nNa 4.Kxe8? g1D is de winst weg.\n\nOf 4…Lb5? 5.Txb5 g1D 6.Th5+ en\nmat\n\nen ook mat.",

@@ -22,11 +22,14 @@
       "before": "Niet:  1.c6?  Txh5  2.Pg6+  Ke4\n\nTxb7. Maar eerst:\n\nwit wint.",
       "after": "Kxc6, of hier 11.Pa5 Kb8  is er\n   geen winst.\n\nFout is hier 6.Pf7? met dezelfde\nbedoeling,  namelijk na  6...Txb7\nzwart af te straffen met een paard-\nvork. Zwart trapt niet in die val en\nspeelt hier 6…Ke6 7.a5 Kd7 8.a6\nKc7 9.Pd8 Kb8 10.Pc6+ Kc7, en\nwit komt niet verder: 11.Pa5 Kb8...\n\nWit blokkeert de eigen pion, maar\nbeschermt de andere.\n\nNa 8…Tb4+? 9.Kc5 Ta1 10.Pc6\nTxb7 volgt de paardvork 11.Pd8+\nen 12.Pxb7..\n\nOpnieuw  is 9….Txb7?  fout we-\ngens 10.Pd8+ en 11.Pxb7.\n\nDe overblijvende pion is gedekt en\nwit wint na promotie. Dankzij de 5de\nzet is de witte koning op tijd.",
       "beforeVariant": {
-        "main.a": "Na:\n\nvoort..\nEn nu de gedurfde mooie zet:\n\nMen zie:\n\na6, enzovoort.\n\nOok een belangrijke zet:\nNa 5.Kf3? volgt 5...Tb2 en bijvoor-\nbeeld:",
-        "main.b": "Th8 6.a5 Tf8 7.a6 Txf3+ 8.Ke2\n   Tb3 9.a7 enzovoort.\n\nTb2+ 9.Kd3 Kd7 10.Kc3 Tb6\n\nremise. Of hier na:",
+        "main.a": "Na:",
+        "main.a2": "voort..\nEn nu de gedurfde mooie zet:\n\nMen zie:",
+        "main.b2": "Th8 6.a5 Tf8 7.a6 Txf3+ 8.Ke2\n   Tb3 9.a7 enzovoort.",
         "main.c": "Tb2 6.Pd3+ en 7.Pxb2.",
         "main.d": "K~ 6.b8D.",
-        "main.e": "voor de hand liggende:"
+        "main.e": "voor de hand liggende:",
+        "main.a3": "a6, enzovoort.\n\nOok een belangrijke zet:\nNa 5.Kf3? volgt 5...Tb2 en bijvoor-\nbeeld:",
+        "main.b3": "Tb2+ 9.Kd3 Kd7 10.Kc3 Tb6\n\nremise. Of hier na:"
       }
     }
   }

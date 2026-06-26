@@ -254,11 +254,13 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "Txh8  9.Kxh8  7.Kb7  10.Pe5\n   Ka6 11.Pc4.\n\nDus nevenoplosbaar.\n-\n\n-",
+      "after": "4...Td8  5.Kg7  Kb7   (5...Kxa7 6.Sc6+)  6.a8D+  (6.a6+?  Ka8) 6...Kxa8 7.a6 en nu: 7...Ka7(Kb8) 8.Pc6, of 7...Tb8(Te8) 8.Pg8.\n\nTxh8  9.Kxh8  7.Kb7  10.Pe5\n   Ka6 11.Pc4.\n\nDus nevenoplosbaar.\n-\n\n-",
       "beforeVariant": {
-        "A.a": "De juiste zet. Men zie:\n\nVerrassend, want 11.Pxc8? is pat.\nNu na 10…Kxa7?, volgt 11.Pc6+\nDaarom een beslissende zet:",
-        "A.b": "Txh6? 6.Kg7 Txh7. Of:\n\nNet op tijd. Of:",
+        "A.a": "De juiste zet. Men zie:",
+        "A.b": "Txh6? 6.Kg7 Txh7. Of:",
         "A.c": "Pe6+ 6.K~ Th8 7.Kf6 Txh7 Of:",
+        "A.a2": "Verrassend, want 11.Pxc8? is pat.\nNu na 10…Kxa7?, volgt 11.Pc6+\nDaarom een beslissende zet:",
+        "A.b2": "Net op tijd. Of:",
         "B": "Dreigt 13.Pg8\n\nmet winst. Ook na:",
         "B.a": "Niet 3.h8D? Txg8+ 4.Dxg8+ Pxg8\nen remise.\n\nMaar opnieuw  niet 4.h8D? Th7\n\nNa 6.Pxc8? is het eveneens pat.\n\nDeze studie is een correctie van\neen  1ste  Eervolle Vermelding  in\nChervony  girnic XXVII,  uit 1997\nvan  V. Kondratev (Gravilov Po-\nsad, Ukraine.):\n\nKg5 Pf6 a5 a7 h6 / Ka8 Td3 Ph5 +\n\nMet de oplossing: 1.h7 Td8 2.Pg8\nPf6 3.Kxf6 Td7 4.Pe7 (4.h8D Th7)\n\nEn met dit commentaar: “Interes-\nting black counterplay for stalema-\nte. At the finish it is Black, who has\nbeen setting up a zugzwang for\nWhite, who falls victim to  it him-\nself.”\n\nMaar helaas is er een dual: 6.Sg6\n(in plaats van 6.a8D+), met:",
         "B.b": "Kxa8 9.Kxh7 Kb7 10.Pe5 Ka6"

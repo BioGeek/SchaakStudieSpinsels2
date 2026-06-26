@@ -20,8 +20,13 @@ Scope for this first cut:
     `prose.nl.before` / `prose.nl.after`.
   * Back-references (`zie zet N.`) are preserved verbatim in prose.
 
-Out of scope for now (parsed as prose, not clickable): inline side-lines
-embedded between mainline moves (e.g. "4.Pd2? Dc8+ ... (zie zei 4.)").
+Inline side-lines woven into the move list — a reference game or refutation
+that steps *backward* in move number (e.g. study 9's trailing "2.Db3+ …
+enzovoort als boven") — are routed to prose rather than merged into the
+tree, so they no longer corrupt parent links. Sub-variant labels that reset
+at each branch point (a/b after move 2, a fresh a/b after move 5) are made
+unique (a, a2, …) so their plies don't collide into duplicate ids. Inline
+side-lines are captured as prose, not yet rendered as clickable branches.
 """
 from __future__ import annotations
 
@@ -498,6 +503,9 @@ def parse_study(
     main_end_id: str | None = None
     last_move_id_in_variant: dict[str, str | None] = {"main": None}
     any_move_seen = False
+    # How many times each sub-variant base id ("main.a", "B.c", …) has been
+    # opened, so recurring labels at different branch points get unique ids.
+    subvar_count: dict[str, int] = {}
 
     for tok in tokens:
         kind = tok["kind"]
@@ -523,9 +531,20 @@ def parse_study(
             continue
 
         if kind == "subvariant_header":
-            # Same pending-prose flush as variant_header, keyed by the
-            # sub-variant's composite id.
-            sub_id = f"{current_variant}.{tok['label']}"
+            # Sub-variant labels (a, b, c, …) RESET at every branch point, so
+            # the same letter recurs within one study — e.g. study 167 has an
+            # a)/b)/c)/d) block after move 2 and a fresh a)/b) after move 5.
+            # Both would map to the id "main.a" and their plies would collide,
+            # producing duplicate move ids and a broken tree. Suffix repeats
+            # ("a", "a2", "a3", …) so each branch point gets a unique id; the
+            # first occurrence keeps the bare letter, so non-repeating studies
+            # are unaffected. The branch parent is found by ply below, so the
+            # disambiguated label only needs to be unique, not meaningful.
+            base = f"{current_variant}.{tok['label']}"
+            n_seen = subvar_count.get(base, 0)
+            subvar_count[base] = n_seen + 1
+            sub_label = base if n_seen == 0 else f"{base}{n_seen + 1}"
+            sub_id = sub_label
             if pending_prose:
                 prose_before_variant.setdefault(sub_id, []).extend(pending_prose)
                 pending_prose.clear()
@@ -535,7 +554,6 @@ def parse_study(
             # ply just before the enclosing variant's white-move-2 — i.e. its
             # parent is the move at (first_sub_ply - 1) inside the enclosing
             # variant (or the start of the study if it would be ply 0).
-            sub_label = f"{current_variant}.{tok['label']}"
             moves = extract_moves_from_lines([tok["tail"]])
             if not moves:
                 last_move_id_in_variant[sub_label] = last_move_id_in_variant.get(current_variant)
@@ -555,22 +573,36 @@ def parse_study(
             moves = extract_moves_from_lines(tok["lines"])
             if not moves:
                 continue
-            # A moves block that starts with move-number 1 after we've
-            # already parsed moves is almost always a historical-game
-            # quotation buried in the trailing prose — e.g. "Carel Mann
-            # speelde in Caissa (1935): 1.Pa5+ Ka2 2.Pc4 …" at the end
-            # of study #1, or the Kolpakov reference solution at the
-            # tail of study #7. Treat as prose instead of continuing.
-            if moves[0][0] == 1 and any_move_seen:
-                prose_after.append(" ".join(tok["lines"]).strip())
-                continue
             parent = last_move_id_in_variant.get(current_variant)
+            # First block inside a non-main variant legitimately branches
+            # *backward* off the main line (e.g. Variant A opens at "2…Dd8+",
+            # continuing black's reply to main's 2.Pc4). Detect that case so
+            # the backward-jump guard below doesn't mistake it for noise.
+            is_variant_first_block = (
+                current_variant != "main" and parent == main_end_id
+            )
+            # A fresh continuation block whose first move steps *backward*
+            # (its ply ≤ the variant's current tail) is not a real
+            # continuation: it's a historical-game quotation or an inline
+            # side-line embedded in the trailing prose — e.g. "Carel Mann
+            # speelde in Caissa (1935): 1.Pa5+ Ka2 2.Pc4 …" at the end of
+            # study #1, or study #9's "2.Db3+ … enzovoort als boven". These
+            # collide ids with the real line and link to a bogus parent, so
+            # route them to prose instead of merging them into the tree.
+            if any_move_seen and not is_variant_first_block:
+                tail_ply = next(
+                    (m.ply for m in all_moves if m.id == parent), 0
+                )
+                first_ply = ply_for(moves[0][0], moves[0][1])
+                if first_ply <= tail_ply:
+                    prose_after.append(" ".join(tok["lines"]).strip())
+                    continue
             # First block inside a non-main variant: the variant's first move
             # may not be at parent_ply + 1 (e.g. Variant A opens at "2…Dd8+"
             # which continues black's reply to main's 2.Pc4). Reuse the same
             # "branch before this ply" logic as sub-variants: position the
             # parent at (first_ply - 1) in the main line.
-            if current_variant != "main" and parent == main_end_id:
+            if is_variant_first_block:
                 first_num, first_is_white, _ = moves[0]
                 target_ply = ply_for(first_num, first_is_white) - 1
                 parent = _find_parent_at_ply(all_moves, "main", target_ply) or main_end_id

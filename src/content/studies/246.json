@@ -24,12 +24,138 @@
       "fenAfter": "8/B7/p7/3NP3/b7/4p3/3k4/1K6 b - - 0 1",
       "variant": "main.a",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/p7/3N4/b3P3/3kB3/8/1K6 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "8/8/pB6/3N4/b3P3/3k4/8/1K6 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/8/pB6/3N4/4P3/3k4/2b5/1K6 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/8/pB6/3N4/4P3/3k4/1Kb5/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kxe4",
+      "nl": "Kxe4",
+      "fenAfter": "8/8/pB6/3N4/4k3/8/1Kb5/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "8/8/pB6/8/4k3/2N5/1Kb5/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/pB6/8/8/2Nk4/1Kb5/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ba5",
+      "nl": "La5",
+      "fenAfter": "8/8/p7/B7/8/2Nk4/1Kb5/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/p7/B7/8/2N5/1Kbk4/8 w - - 4 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "8/8/p7/B2N4/8/8/1Kbk4/8 b - - 5 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/p7/B2N4/8/3k4/1Kb5/8 w - - 6 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nb4",
+      "nl": "Pb4",
+      "fenAfter": "8/8/p7/B7/1N6/3k4/1Kb5/8 b - - 7 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke4",
+      "nl": "K~",
+      "fenAfter": "8/8/p7/B7/1N2k3/8/1Kb5/8 w - - 8 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nxc2",
+      "nl": "Pxc2",
+      "fenAfter": "8/8/p7/B7/4k3/8/1KN5/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Pxe3? is fout: 1...Kd3, en nu:\n\n1…         Kd3        2.Lb6\n\nen 4.Pxa4) 3.Kb2 Kxe4 4.Pc3+\n   Kd3 5.Lb6 Kd2 6.La5, en de\n    zwarte loper ontsnapt.\n\nOok een probleemzet. Het waar-\nom wordt eerst op de vijfde zet\nduidelijk.\n\nHet beste. Omdat anders de witte\nkoning, langzaam maar zeker, de\npion op a6 gaat plukken met winst\n\nEn niet 3.Kc1? Kxe4 4.Pc3+ Kd3\n\nzwarte loper vrij, met remise.\n\nDaar gaat de pion, want na 3…a5\nloopt de witte pion door.\n\nEn nu de zwarte loper gevangen zit\nblokkeert  wit, dankzij de tweede\nzet, tevens de pion met:\n\nEn een aftrekschaak:\n\nbrengt wit de overwinning.\n\n“De prima verleiding 1.Pxe3? faalt\nomdat de loper op a7 verkeerd\nstaat,”  concludeerde  Dolf Wiss-\nmann.",
+      "after": "1.Pxe3? is fout: 1...Kd3, en nu:\n\nen 4.Pxa4) 3.Kb2 Kxe4 4.Pc3+\n   Kd3 5.Lb6 Kd2 6.La5, en de\n    zwarte loper ontsnapt.\n\nOok een probleemzet. Het waar-\nom wordt eerst op de vijfde zet\nduidelijk.\n\nHet beste. Omdat anders de witte\nkoning, langzaam maar zeker, de\npion op a6 gaat plukken met winst\n\nEn niet 3.Kc1? Kxe4 4.Pc3+ Kd3\n\nzwarte loper vrij, met remise.\n\nDaar gaat de pion, want na 3…a5\nloopt de witte pion door.\n\nEn nu de zwarte loper gevangen zit\nblokkeert  wit, dankzij de tweede\nzet, tevens de pion met:\n\nEn een aftrekschaak:\n\nbrengt wit de overwinning.\n\n“De prima verleiding 1.Pxe3? faalt\nomdat de loper op a7 verkeerd\nstaat,”  concludeerde  Dolf Wiss-\nmann.",
       "beforeVariant": {
         "main.a": "Een probleemzet.\nDe gevaarlijke zwarte pion dient\neerst geëlimineerd te worden, en\nhet toch door de loper gedekte"
       }

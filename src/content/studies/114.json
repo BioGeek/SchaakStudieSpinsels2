@@ -242,28 +242,19 @@
       "parent": "main.15"
     },
     {
-      "id": "A.6",
-      "ply": 6,
-      "san": "Rb4",
-      "nl": "Tb4",
-      "fenAfter": "2r5/8/k1B5/p1K5/1R6/8/8/8 b - - 9 5",
-      "variant": "A",
-      "parent": "main.8"
-    },
-    {
-      "id": "B.8",
-      "ply": 8,
-      "san": "Rb3",
-      "nl": "Tb3",
-      "fenAfter": "2r5/k7/2B5/p1K5/8/1R6/8/8 b - - 7 4",
+      "id": "B.16",
+      "ply": 16,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1kr5/8/2B5/p1K5/8/8/2R5/8 w - - 2 2",
       "variant": "B",
-      "parent": "main.6"
+      "parent": "main.1"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit dreigt één van zijn stuken te\nmoeten prijsgeven, maar:",
-      "after": "1.Pf7+\n\n1…          Kf6        2.b7         Td4+        3.Kg3\n\n1…         Ke6        2.b7         Td4+        3.Kf3\n\n1.Pf7+ Ke6 2.b7 Td3+ wint zowel 3.Kg4 als 3.Kh4.\n\nDe witte koning moet via de 3de en\n4de  rij naar de toren om van het\n‘schaakgeven’ verlost te zijn, want\nna 3.Kg5? of 3.Kh5? volgt 3…Tb4\n\nEn dus niet 4.Ke2? Tb3 5.a5 Kd7\n\nTb6 12.a7+ Kxa7 met remise.\n\nVerhinderd 5…Txb7 6.Pd8+ en\n\nKd7 6.Kd5 Kxd8.\n\nMaar nu niet 8.Pd6? Kb8 9.Kc3\nTa4 10.Kb3 Txa6, remise.\n\nEn ook hier wint wit.\n\nIn Schakend Nederland stond de-\nze versie:\n\nKh3 Pg5 a4 b6 / Ke5 Td5 +\n\nMet dezelfde oplossing, maar na\n\nEn ook ontbrak de Variant A.",
+      "after": "5.Tb1?,   5.Tb2?,   5.Tb3?,  en 5.Tb6?, volgt 5…Ka7 6.Tb5 Ka6 7.Tb7, en dit zijn onnodige omwe-\n\n1.Pf7+\n\n1.Pf7+ Ke6 2.b7 Td3+ wint zowel 3.Kg4 als 3.Kh4.\n\nDe witte koning moet via de 3de en\n4de  rij naar de toren om van het\n‘schaakgeven’ verlost te zijn, want\nna 3.Kg5? of 3.Kh5? volgt 3…Tb4\n\nEn dus niet 4.Ke2? Tb3 5.a5 Kd7\n\nTb6 12.a7+ Kxa7 met remise.\n\nVerhinderd 5…Txb7 6.Pd8+ en\n\nKd7 6.Kd5 Kxd8.\n\nMaar nu niet 8.Pd6? Kb8 9.Kc3\nTa4 10.Kb3 Txa6, remise.\n\nEn ook hier wint wit.\n\nIn Schakend Nederland stond de-\nze versie:\n\nKh3 Pg5 a4 b6 / Ke5 Td5 +\n\nMet dezelfde oplossing, maar na\n\nEn ook ontbrak de Variant A.",
       "beforeVariant": {
         "main.a": "Het beste: 2…Kb8? 3.Kb6 Tc7 en\nbijvoorbeeld 4.Th2 Tc8 5.Th7 a4\n\nmat.\n\nDreigt opnieuw 5.Txa5+\n\nEen onverwachte  zet, want na\n\ngen.",
         "main.b": "of ook:",

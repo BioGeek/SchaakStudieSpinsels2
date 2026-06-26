@@ -15,12 +15,57 @@
       "fenAfter": "3Q4/8/3k4/4N3/8/6q1/3K4/8 b - - 0 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "3Q4/8/8/2k1N3/8/6q1/3K4/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qd7+",
+      "nl": "Dd7+",
+      "fenAfter": "8/3Q4/8/2k1N3/8/6q1/3K4/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.28",
+      "ply": 28,
+      "san": "Qh2",
+      "nl": "Dh2",
+      "fenAfter": "8/3Q4/8/2k1N3/8/8/3K3q/8 w - - 3 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.24",
+      "ply": 24,
+      "san": "Qf3",
+      "nl": "Df3",
+      "fenAfter": "8/3Q4/8/2k1N3/8/5q2/3K4/8 w - - 3 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.39",
+      "ply": 39,
+      "san": "Qh3+",
+      "nl": "Dh3+",
+      "fenAfter": "8/8/8/2k1N3/8/5q1Q/3K4/8 b - - 4 3",
+      "variant": "B",
+      "parent": "B.24"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1...         Kc5\n\nEen tweede stille zet.\nWant 15.Dh4+? of 15.Dh6? Kg2\n\nnodige omweg.\n\nge omwegen.\n\nEn een derde stille zet!\n\nEen valstrik.\n\nen mat.\n\nDe versie in EBUR 2000 eindigde\nzoals  in Variant A. Maar zwart\nverdedigt zich hier beter met de\nzet 11...Kf2, zoals in Variant B.\n\nRecent wist ik de studie dus te\nverlengen met vijf zetten.\n\nEen studie ‘à la Vandiest.’",
+      "after": "2.Da5+      Kd4\n\nEen tweede stille zet.\nWant 15.Dh4+? of 15.Dh6? Kg2\n\nnodige omweg.\n\nge omwegen.\n\nEn een derde stille zet!\n\nEen valstrik.\n\nen mat.\n\nDe versie in EBUR 2000 eindigde\nzoals  in Variant A. Maar zwart\nverdedigt zich hier beter met de\nzet 11...Kf2, zoals in Variant B.\n\nRecent wist ik de studie dus te\nverlengen met vijf zetten.\n\nEen studie ‘à la Vandiest.’",
       "beforeVariant": {
         "A": "Wit  heeft nu een paard  extra,\nmaar  is  dit voldoende voor de\nwinst?\n\nSneller  gaat  het  na  1...Ke6?\n\nzie zet 8. in de hoofdvariant.\n\nNa 2…Kd6 3.Db6+ Ke7 4.Dc7+\nKe6 5.Dd7 Kf6 6.Df7+ (Zie zet 7.\nin de hoofdvariant.)\n\nKe7 8.Dd7+ Ke6 9.Dd7+ (Zie zet\n\nNu wordt de zwarte koning naar\nonder gedwongen: 6.Dc7+? Ke6\n\nEn komt het paard in aktie.",
         "B": "Een stille zet, zodat zwart niet kan\nschaak geven.\n\nEen verleidelijk aanbod:15.Dxh2?\npat.\n\nen mat.\n\nEen, nog niet eerder vertoonde,\ntweede mogelijkheid is:"

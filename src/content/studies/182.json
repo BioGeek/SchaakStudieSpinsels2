@@ -146,7 +146,7 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "Ook met remise.\n\nHet is een correctie van een mini-\natuurtje van E. Paoli  in Schach\nEcho (1966):\n\nKa2 Lg2 e6 / Kc2 Lh5 Pf8 Ph7 =\n\nMet  de  auteursoplossing:  1.e7\nLf7+ 2.Ka1 Pg6 3.Lc6 Pf6 4.e8D\nPxe8 5.Ld5 Lxd5, pat.\n\nMaar mijn gevonden versie: 1.e7\nLf7+, en nu: 2.Ka3 Pg6 3.Ld5 Le8\n\nDus nevenoplosbaar.",
+      "after": "4.Lb3+ K~ 5.La4 Lf7 6.e8D Lxe8 7.Lxe8, is het remise.\n\nOok met remise.\n\nHet is een correctie van een mini-\natuurtje van E. Paoli  in Schach\nEcho (1966):\n\nKa2 Lg2 e6 / Kc2 Lh5 Pf8 Ph7 =\n\nMet  de  auteursoplossing:  1.e7\nLf7+ 2.Ka1 Pg6 3.Lc6 Pf6 4.e8D\nPxe8 5.Ld5 Lxd5, pat.\n\nMaar mijn gevonden versie: 1.e7\nLf7+, en nu: 2.Ka3 Pg6 3.Ld5 Le8\n\nDus nevenoplosbaar.",
       "beforeVariant": {
         "A": "Na 1…Pd6 is zwart overtuigd dat\nwit hier nu met 2.d8Dame niet kan\nwinnen. En zie waarom 2…Pc4+\n(2…Lxd8  3.Ld4  Kb1   4.Lxg7,\nremise.) 3.Kb3 (3.Ka4 Lxd8 4.Ld4+\nKb1 5.Lxg7, ook remise.) 3...Pd2+\n(3…Lxd8 4.Kxc4, nogmaals remi-\nse.) 4.Dxd2 Lxd2, en er is geen\nwinst.\n\nZwart verhindert wel de promotie-\ndreiging, maar wit lokt nu de loper\nweg met:",
         "B": "De zwarte loper zit plots geprangd\ntussen beide paarden.\n\nEn het is remise."

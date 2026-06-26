@@ -341,21 +341,21 @@
       "parent": "main.34"
     },
     {
-      "id": "main.a.36",
+      "id": "main.a2.36",
       "ply": 36,
       "san": "Kb3",
       "nl": "Kb3",
       "fenAfter": "8/8/8/8/8/qk1B2p1/3Q2K1/8 w - - 4 19",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": "main.35"
     },
     {
-      "id": "main.b.36",
+      "id": "main.b2.36",
       "ply": 36,
       "san": "Ka1",
       "nl": "Ka1",
       "fenAfter": "8/8/8/8/8/q2B2p1/3Q2K1/k7 w - - 4 19",
-      "variant": "main.b",
+      "variant": "main.b2",
       "parent": "main.35"
     }
   ],
@@ -364,8 +364,9 @@
       "before": "",
       "after": "Dit is een versie, met één zet meer,\n    van een studie gezamenlijk gepu-\n     bliceerd in EBUR (2001) door de\n      ‘Drie Vlaamse Musketiers’, Julien\n     Vandiest,  Roger  Missiaen,  en\n     mezelf. Tenslotte heb ik de onder-\n    staande versie dan ook nog twee-\n    maal verbeterd:\n\n    Kg3 Dh8 Lc2 / Ka2 Dc1 g5 +",
       "beforeVariant": {
-        "main.a": "Wit daalt nu rustig het trapje af met:\n\nEn nu noodgedwongen de zet:\n\ndie wit niet mag slaan: 16.Kxg4?\nDg8+, remise.\n\nEn niet:\n\nEn ook deze pion is taboe om de-\n     zelfde reden.\n\nPlots is er nu een fijne dominatie-\n      situatie ontstaan. Een zwarte ko-\n     ningszet verliest zeer snel. En een\n    damezet op een wit veld wordt af-\n     gestraft met een aftrekschaak. Het\n     beste is nog:",
-        "main.b": "maar mat. Ook na:"
+        "main.a": "Wit daalt nu rustig het trapje af met:\n\nEn nu noodgedwongen de zet:\n\ndie wit niet mag slaan: 16.Kxg4?\nDg8+, remise.\n\nEn niet:",
+        "main.a2": "En ook deze pion is taboe om de-\n     zelfde reden.\n\nPlots is er nu een fijne dominatie-\n      situatie ontstaan. Een zwarte ko-\n     ningszet verliest zeer snel. En een\n    damezet op een wit veld wordt af-\n     gestraft met een aftrekschaak. Het\n     beste is nog:",
+        "main.b2": "maar mat. Ook na:"
       }
     }
   }

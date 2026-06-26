@@ -17,20 +17,74 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bg6+",
+      "nl": "Lg6+",
+      "fenAfter": "8/1p6/6b1/3N1k1K/4N3/8/1B6/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "8/1p6/6bK/3N1k2/4N3/8/1B6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kxe4",
+      "nl": "Kxe4",
+      "fenAfter": "8/1p6/6bK/3N4/4k3/8/1B6/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf6+",
+      "nl": "Pf6+",
+      "fenAfter": "8/1p6/5NbK/8/4k3/8/1B6/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/1p6/5NbK/5k2/8/8/1B6/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "8/1p4K1/5Nb1/5k2/8/8/1B6/8 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
       "id": "main.8",
       "ply": 8,
       "san": "b5",
       "nl": "b5",
-      "fenAfter": "8/7b/8/1p1N1k1K/4N3/8/1B6/8 w - - 0 2",
+      "fenAfter": "8/6K1/5Nb1/1p3k2/8/8/1B6/8 w - - 0 5",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.7"
     },
     {
       "id": "main.9",
       "ply": 9,
       "san": "Ba3",
       "nl": "La3",
-      "fenAfter": "8/7b/8/1p1N1k1K/4N3/B7/8/8 b - - 1 2",
+      "fenAfter": "8/6K1/5Nb1/1p3k2/8/B7/8/8 b - - 1 5",
       "variant": "main",
       "parent": "main.8"
     },
@@ -39,7 +93,7 @@
       "ply": 14,
       "san": "b4",
       "nl": "b4",
-      "fenAfter": "8/7b/8/3N1k1K/1p2N3/B7/8/8 w - - 0 3",
+      "fenAfter": "8/6K1/5Nb1/5k2/1p6/B7/8/8 w - - 0 6",
       "variant": "main",
       "parent": "main.9"
     },
@@ -48,15 +102,51 @@
       "ply": 15,
       "san": "Bxb4",
       "nl": "Lxb4",
-      "fenAfter": "8/7b/8/3N1k1K/1B2N3/8/8/8 b - - 0 3",
+      "fenAfter": "8/6K1/5Nb1/5k2/1B6/8/8/8 b - - 0 6",
       "variant": "main",
       "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/6K1/5Nb1/6k1/1B6/8/8/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bd2+",
+      "nl": "Ld2+",
+      "fenAfter": "8/6K1/5Nb1/6k1/8/8/3B4/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/6K1/5Nb1/5k2/8/8/3B4/8 w - - 3 8",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/6K1/5Nb1/5k2/8/8/8/2B5 b - - 4 8",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Twee  witte stukken staan aan-\ngevallen. En de witte loper plaatst\nzich op het énige goede veld uit\ndertien!",
-      "after": "1…         Lg6+\n\nNiet goed is bijvoorbeeld: 1.Lg7?\nLg6+  2.Kh6  Kxe4  3.Pc3+  Kf5\n\nEn na bijvoorbeeld 6…Kd5 is het\nook remise, daar de zwarte loper\ndan meespeelt.\n\nWant 1...Kxe4 2.Pf6+ en 3.Pxh7\nwint.\n\nEn de zwarte loper zit in de val.\n\nEen poging om de pion te stoppen\nvia 5.Lc3? mislukt: 5…Kg5 6.Ld2+\nKf5 7.Lc1 b4 8.Ld2 b3 9.Lc1 Lh5\n\nKc2   13.Lf4  b2  14.Pd2  b1D\n\nEn zwart  heeft nu geen goede\nzetten meer.\n\nen bijvoorbeeld:\n\nDe zwarte loper moet er aan ge-\nloven op de volgende zet.\n\n“Een studie waarin wit op kunst-\nzinnige wijze voordeel trekt uit de\nslechte stand van de zwarte ko-\nning en  loper.” beoordeelde de\ntoenmalige schaakredacteur Cor\nde Feijter.",
+      "after": "Niet goed is bijvoorbeeld: 1.Lg7?\nLg6+  2.Kh6  Kxe4  3.Pc3+  Kf5\n\nEn na bijvoorbeeld 6…Kd5 is het\nook remise, daar de zwarte loper\ndan meespeelt.\n\nWant 1...Kxe4 2.Pf6+ en 3.Pxh7\nwint.\n\nEn de zwarte loper zit in de val.\n\nEen poging om de pion te stoppen\nvia 5.Lc3? mislukt: 5…Kg5 6.Ld2+\nKf5 7.Lc1 b4 8.Ld2 b3 9.Lc1 Lh5\n\nKc2   13.Lf4  b2  14.Pd2  b1D\n\nEn zwart  heeft nu geen goede\nzetten meer.\n\nen bijvoorbeeld:\n\nDe zwarte loper moet er aan ge-\nloven op de volgende zet.\n\n“Een studie waarin wit op kunst-\nzinnige wijze voordeel trekt uit de\nslechte stand van de zwarte ko-\nning en  loper.” beoordeelde de\ntoenmalige schaakredacteur Cor\nde Feijter.",
       "beforeVariant": {}
     }
   }

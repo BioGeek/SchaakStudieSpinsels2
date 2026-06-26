@@ -67,7 +67,8 @@
       "before": "De zwarte loper is opgesloten, en\nwit heeft één stuk meer. Daarvan\nprofiteert hij met:",
       "after": "Weerom met winst.\n\nEn wint wit hier met beide lopers.",
       "beforeVariant": {
-        "main.a": "leidt niet tot winst..\n\nAllebei met winst.\n\n(5.Lxg1  is  pat)  5...Tb1+  6.Ka2\n(6.Kxb1 is wederom pat) 6… Tb8.\nEn één van beide witte stukken\ngaat verloren met remise.\n\nOok de witte toren staat nu en\n      prise. Maar na:"
+        "main.a": "leidt niet tot winst..",
+        "main.a2": "Allebei met winst.\n\n(5.Lxg1  is  pat)  5...Tb1+  6.Ka2\n(6.Kxb1 is wederom pat) 6… Tb8.\nEn één van beide witte stukken\ngaat verloren met remise.\n\nOok de witte toren staat nu en\n      prise. Maar na:"
       }
     }
   }

@@ -110,10 +110,11 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "voorbeeld 5.Kb5 Kxd4 6.Kc6\n   La5  7.Lf2+ K~  8.Lb6 Lxb6\n\nNa 4…La5? wint  wit zowel met\n\nHet  bekende  driehoekje,  want\n\nis een onnodige omweg.\n\nNu  dreigt de  witte  koning  via\n\nmen, wat zwart wil beletten met:\n\nMaar dan volgt:\n\nEn wint.\nDe witte soeverein heeft geduldig\neen ‘ommetje’ gemaakt.\n\nIn een later ontdekte gelijkaardige\nstudie van Toon Balemans:\n\nKd1 Le5 d4 d7 / Kd3 Lb6 +\n\nmet de oplossing 1.Lf6 La5 2.Kc1\nKc3 3.Kb1 Lb6 4.Ka2 La5 5.Ka1\nKc4 6.Kb1 Lb6 7.Kb2 Lc7 8.Kc1,\nenzovoort, is de zet 4.Ka1 reeds\nde hond in het kegelspel.\n\nBij mij, slechts op de alerlaatste\nzet: 12.d8D(T).",
+      "after": "4.Lf6        Kc3\n\nvoorbeeld 5.Kb5 Kxd4 6.Kc6\n   La5  7.Lf2+ K~  8.Lb6 Lxb6\n\nNa 4…La5? wint  wit zowel met\n\nHet  bekende  driehoekje,  want\n\nis een onnodige omweg.\n\nNu  dreigt de  witte  koning  via\n\nmen, wat zwart wil beletten met:\n\nMaar dan volgt:\n\nEn wint.\nDe witte soeverein heeft geduldig\neen ‘ommetje’ gemaakt.\n\nIn een later ontdekte gelijkaardige\nstudie van Toon Balemans:\n\nKd1 Le5 d4 d7 / Kd3 Lb6 +\n\nmet de oplossing 1.Lf6 La5 2.Kc1\nKc3 3.Kb1 Lb6 4.Ka2 La5 5.Ka1\nKc4 6.Kb1 Lb6 7.Kb2 Lc7 8.Kc1,\nenzovoort, is de zet 4.Ka1 reeds\nde hond in het kegelspel.\n\nBij mij, slechts op de alerlaatste\nzet: 12.d8D(T).",
       "beforeVariant": {
-        "main.b": "Ld8 4.Kc6, enzovoort. En na:\n\nNa:",
-        "main.a": "Kd5 7.Kc8 Le7 8.d8D Lxd8",
+        "main.b": "Ld8 4.Kc6, enzovoort. En na:",
+        "main.a2": "Kd5 7.Kc8 Le7 8.d8D Lxd8",
+        "main.b2": "Na:",
         "main.c": "verrassend 5.Le1 Ld8 6.La5\n   Le7 7.Lb6 Lf6 8.Ka5 en de\n    koning gaat de pion steunen."
       }
     }

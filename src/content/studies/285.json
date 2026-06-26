@@ -119,11 +119,13 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Kd5 (Zie mijn zet 5.) 1…e2 2.Kc6\n\nEn eveneens mat.\n     In 1978 kregen M. Klinkhov & A.\n    Kuznetsov een Speciale  Prijs  in\n      Bull. CCCM voor de onderstaande\n     versie, die ik niet kende toen ik mijn\n     huidige studie componeerde\n\n    Kd4 Tg7 b7 g3 /\n             Kb8 Ld6 e3 f4 f5 f6 +\n\n    met een inleiding die vier (4) zet-\n     ten korter is dan die mijne:\n\nKa7 3.Tg8 Lb8 4.Te8 f3 5.Te3 Ld6\n\nwit wint dank zij pion g3.\n\n    Maar hier wint ook 5.g4 en  bij-\n     voorbeeld 5…f2 6.Te3 Ld6 7.Txe2\n    f1D 8.Ta2+ Da6+ 9.Txa6+ 10.Kxa6\n    Kxd6  11.Kxb7   gxf5.  Of   hier\n\nIn de hoofvariant winnen ook de\n     zetten 6.g4 en  zelfs 9.Tc1 e1D\n\nf1D 13.b8D+ Ka6 14.Db6+ en mat\n    Dus driemaal nevenoplosbaar.\n\n    Dat de  prijsrechter Pauli Perko-\n     noja de zet 9.Tc1 niet heeft opge-\n     merkt vind ik zeer raar; vermits hij\n     mijn correcte oplossing wel ken-\n     de. (Zie het Juryrapport  in Pro-\n    bleemblad N°5 Dec 2009)",
+      "after": "En eveneens mat.\n     In 1978 kregen M. Klinkhov & A.\n    Kuznetsov een Speciale  Prijs  in\n      Bull. CCCM voor de onderstaande\n     versie, die ik niet kende toen ik mijn\n     huidige studie componeerde\n\n    Kd4 Tg7 b7 g3 /\n             Kb8 Ld6 e3 f4 f5 f6 +\n\n    met een inleiding die vier (4) zet-\n     ten korter is dan die mijne:\n\nKa7 3.Tg8 Lb8 4.Te8 f3 5.Te3 Ld6\n\nwit wint dank zij pion g3.\n\n    Maar hier wint ook 5.g4 en  bij-\n     voorbeeld 5…f2 6.Te3 Ld6 7.Txe2\n    f1D 8.Ta2+ Da6+ 9.Txa6+ 10.Kxa6\n    Kxd6  11.Kxb7   gxf5.  Of   hier\n\nIn de hoofvariant winnen ook de\n     zetten 6.g4 en  zelfs 9.Tc1 e1D\n\nf1D 13.b8D+ Ka6 14.Db6+ en mat\n    Dus driemaal nevenoplosbaar.\n\n    Dat de  prijsrechter Pauli Perko-\n     noja de zet 9.Tc1 niet heeft opge-\n     merkt vind ik zeer raar; vermits hij\n     mijn correcte oplossing wel ken-\n     de. (Zie het Juryrapport  in Pro-\n    bleemblad N°5 Dec 2009)",
       "beforeVariant": {
-        "main.a": "Want  1.Kd6?  faalt  op 1…Lb4\n\nFout is\n\nen mat, of hier 2…Lb4+ 3.Kc6\n   Ld6 4.Kxd6 e1D 5.b8D+ en\n    mat.\n\nKe6 5.Th8 e2, en geen winst.\n\nWeer niet goed is:",
-        "main.b": "(3…Lb8 4.Th8+ Ke7 5.Txb8 e2\n\nKg6  9.Dg2+  Kh6  10.Dxe2,\n    enzovoort.  :\n\nLb4+ 5.Ke6 Lxe7 6.b8D+ Kg7\n\nKh5 10.Kxf6 e1D 11.Dg6+ en\n    mat.",
+        "main.a": "Want  1.Kd6?  faalt  op 1…Lb4\n\nFout is",
+        "main.b": "(3…Lb8 4.Th8+ Ke7 5.Txb8 e2\n\nKg6  9.Dg2+  Kh6  10.Dxe2,\n    enzovoort.  :",
         "main.c": "Kb8 5.Td8+ Ka7 6.Ta8+ mat)",
+        "main.a2": "en mat, of hier 2…Lb4+ 3.Kc6\n   Ld6 4.Kxd6 e1D 5.b8D+ en\n    mat.\n\nKe6 5.Th8 e2, en geen winst.\n\nWeer niet goed is:",
+        "main.b2": "Lb4+ 5.Ke6 Lxe7 6.b8D+ Kg7\n\nKh5 10.Kxf6 e1D 11.Dg6+ en\n    mat.",
         "A": "La5  5.b7+ Kb8  6.Kc6  Ld8\n\nen eveneens mat.\n\nOok  10.Kxd6?  Kxb7  is  onvol-\ndoende voor de winst.\n\nDa5 13.Txa5+ en mat.\n\nOm veld a1 te dekken, want na:\n\nKxa7  14.Kc7 Ka6 15.b8D Ka5\n\nDit verplicht zwart tot:\n\nNa bijvoorbeeld 12…Lg3? 13.Ta1\nis mat op a8 onvermijdelijk.\n\nJulien Vandiest vond:”Dat 13.Tc1\nis een juweeltje.”",
         "B": "Kxa6 18.b8D, enzovoort.\n\nen mat."
       }

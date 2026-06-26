@@ -15,12 +15,165 @@
       "fenAfter": "k7/8/2p5/8/N7/8/3K4/n5B1 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "k7/8/2p5/8/N7/1n6/3K4/6B1 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "k7/8/2p5/8/N7/1nK5/8/6B1 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Na5",
+      "nl": "Pa5",
+      "fenAfter": "k7/8/2p5/n7/N7/2K5/8/6B1 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "k7/8/1Bp5/n7/N7/2K5/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nb7",
+      "nl": "Pb7",
+      "fenAfter": "k7/1n6/1Bp5/8/N7/2K5/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "k7/1nB5/2p5/8/N7/2K5/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "8/knB5/2p5/8/N7/2K5/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/knB5/2p5/8/NK6/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/1nB5/k1p5/8/NK6/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "8/1nB5/k1p5/8/1K6/2N5/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "8/knB5/2p5/8/1K6/2N5/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "8/knB5/2p5/8/1K2N3/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/1nB5/k1p5/8/1K2N3/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/1nB5/k1p5/8/K3N3/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "c5",
+      "nl": "c5",
+      "fenAfter": "8/1nB5/k7/2p5/K3N3/8/8/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "8/1nB5/k7/2p5/K7/2N5/8/8 b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "8/knB5/8/2p5/K7/2N5/8/8 w - - 2 10",
+      "variant": "main",
+      "parent": "main.17"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…          Pb3      2.Kc3         Pa5\n\nDreigt het paard in te sluiten.\n\nNa 2…Pc1? verliest zwart na 40\nzetten. Bijvoorbeeld: 3.Lh2 Pe2+\n\nzovoort.\n\nen het liedje is uit.\n\nNa 10…Ka7  verliest zwartna 28\n     zetten door bijvoorbveeld 11.Kb5\n    Ka8 12.Kc4 Ka7 13.Pb5+ Ka6\n\nWinst door elf (11) opeenvolgende\n     zetten van wit zonder schaak te\n     geven!",
+      "after": "Dreigt het paard in te sluiten.\n\nNa 2…Pc1? verliest zwart na 40\nzetten. Bijvoorbeeld: 3.Lh2 Pe2+\n\nzovoort.\n\nen het liedje is uit.\n\nNa 10…Ka7  verliest zwartna 28\n     zetten door bijvoorbveeld 11.Kb5\n    Ka8 12.Kc4 Ka7 13.Pb5+ Ka6\n\nWinst door elf (11) opeenvolgende\n     zetten van wit zonder schaak te\n     geven!",
       "beforeVariant": {}
     }
   }

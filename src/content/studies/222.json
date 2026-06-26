@@ -188,9 +188,10 @@
         "main.b": "Ld4  5.Kd3 La1  6.Pa5 Kc7",
         "main.c": "Ld4 5.Pf4 f5, en de diagonaal\n    gaat open. Ook na:                                    v",
         "A": "Zwart heeft twee mogelijkheden:",
-        "A.a": "Dreigt 5.Pd7+.\n\nWant niet goed zijn:\n\nWeerom de enige goede zet.",
+        "A.a": "Dreigt 5.Pd7+.\n\nWant niet goed zijn:",
         "A.b": "Kc6 7.Pf5, noch",
         "A.c": "(6...Kd6  7.Pf5+  Ke6  8.h7)",
+        "A.a2": "Weerom de enige goede zet.",
         "B": "ook na 8…Kc7 9.Pd4,\n\nEr is niets beter 8...Lb2 9.Pd4 f5+\n\nOmdat nu de diagonaal a1-h8 ge-\nsloten blijft, kan de h-pion promo-\nveren  tot dame met  winst.  Dit\ndankzij het  fijne samenspel van\nkoning en paard.",
         "B.a": "Of:"
       }

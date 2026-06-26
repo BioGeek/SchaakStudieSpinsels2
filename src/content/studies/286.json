@@ -17,6 +17,15 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Be7+",
+      "nl": "Le7+",
+      "fenAfter": "n7/1PP1b3/2p5/2K4k/2B5/5n1P/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
       "id": "main.a.2",
       "ply": 2,
       "san": "Bxc7",
@@ -53,19 +62,127 @@
       "parent": "main.b.2"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kxc6",
+      "nl": "Kxc6",
+      "fenAfter": "n7/1PP1b3/2K5/7k/2B5/5n1P/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "n7/1PP1b3/2K5/4n2k/2B5/7P/8/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "n7/1PP1b3/8/3Kn2k/2B5/7P/8/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nxc7+",
+      "nl": "Pxc7+",
+      "fenAfter": "8/1Pn1b3/8/3Kn2k/2B5/7P/8/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kxe5",
+      "nl": "Kxe5",
+      "fenAfter": "8/1Pn1b3/8/4K2k/2B5/7P/8/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ne8",
+      "nl": "Pe8",
+      "fenAfter": "4n3/1P2b3/8/4K2k/2B5/7P/8/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bf7+",
+      "nl": "Lf7+",
+      "fenAfter": "4n3/1P2bB2/8/4K2k/8/7P/8/8 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
       "id": "main.10",
       "ply": 10,
       "san": "Kh6",
       "nl": "Kh6",
-      "fenAfter": "n2b4/1PP5/2p4k/2K5/2B5/5n1P/8/8 w - - 1 2",
+      "fenAfter": "4n3/1P2bB2/7k/4K3/8/7P/8/8 w - - 3 6",
       "variant": "main",
-      "parent": "main.1"
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bxe8",
+      "nl": "Lxe8",
+      "fenAfter": "4B3/1P2b3/7k/4K3/8/7P/8/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bh4",
+      "nl": "Lh4",
+      "fenAfter": "4B3/1P6/7k/4K3/7b/7P/8/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "4B3/1P6/7k/8/5K1b/7P/8/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "3bB3/1P6/7k/8/5K2/7P/8/8 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "b8=B",
+      "nl": "b8L",
+      "fenAfter": "1B1bB3/8/7k/8/5K2/7P/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "Hier zijn nu vier (4) mogelijkheden\nom een pion tot dame te laten pro-\nmoveren. Maar wit staat schaak.\nDus eerst::",
-      "after": "1...          Le7+\n\nPxa8 6.c8D.\n\nUiteraard niet 5.b8D? Ld6+ 6.Dxd6\nPxd6 , remise.\n\nZwart ruimt de doorgang voor de\nloper.\n\nDreigt 7.Lg3+\n\nNiet 8.b8D? Lc7+ 9.Dxc7 pat!\n\nWit wint hier door overmacht.\n\nMaar het onverwachte is dat, van\nde vier mogelijkheden, geen van\nbeide pionnen het  tot damepro-\nmotie kon brengen dankzij zwart’s\ntegenspel.",
+      "after": "Pxa8 6.c8D.\n\nUiteraard niet 5.b8D? Ld6+ 6.Dxd6\nPxd6 , remise.\n\nZwart ruimt de doorgang voor de\nloper.\n\nDreigt 7.Lg3+\n\nNiet 8.b8D? Lc7+ 9.Dxc7 pat!\n\nWit wint hier door overmacht.\n\nMaar het onverwachte is dat, van\nde vier mogelijkheden, geen van\nbeide pionnen het  tot damepro-\nmotie kon brengen dankzij zwart’s\ntegenspel.",
       "beforeVariant": {
         "main.a": "Een  poging  als  1.Kxc6? Pe5+\n\nPe8+ 5.Kxe5 Lc7+ mislukt."
       }

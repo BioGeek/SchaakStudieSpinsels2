@@ -50,8 +50,9 @@
       "after": "1…          Pd1+      2.Kc1         Pc3      3.Kd2         Pe4+      4.Ke3         Lc6       5.Ta6\n\nMaar niet 6.Ta7? Pd6, remise.\n\nOok de witte koning doet een duit\nin het zakje, want niet 7.Tb5? Pf6\nen geen winst meer.\n\nEveneens met winst.\n\nEen strijd van toren tegen loper en\npaard.\n\nZie ook de volgende studie.",
       "beforeVariant": {
         "main.a": "er geen winst meer.\n\nNiet goed is:",
-        "A.a": "En niet\n\nEn wit komt niet verder.\n\nNa",
-        "A.b": "per door bijvoorbeeld 7…Pd6.\n   En natuurlijk niet:",
+        "A.a": "En niet",
+        "A.a2": "En wit komt niet verder.\n\nNa",
+        "A.b2": "per door bijvoorbeeld 7…Pd6.\n   En natuurlijk niet:",
         "B": "met winst dankzij de pion. Of:"
       }
     }

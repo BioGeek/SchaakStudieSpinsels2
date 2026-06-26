@@ -107,21 +107,21 @@
       "parent": "main.b.4"
     },
     {
-      "id": "main.6",
-      "ply": 6,
-      "san": "Bd8",
-      "nl": "Ld8",
-      "fenAfter": "3b4/8/6k1/6N1/7P/3p4/1B4K1/8 w - - 4 3",
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bd2",
+      "nl": "Ld2",
+      "fenAfter": "8/8/6k1/6N1/7P/3p4/1B1b2K1/8 w - - 4 3",
       "variant": "main",
       "parent": "main.7"
     },
     {
-      "id": "main.a.9",
+      "id": "main.a2.9",
       "ply": 9,
       "san": "Ne6",
       "nl": "Pe6?",
       "fenAfter": "8/8/4N1k1/8/7P/3p4/1B1b2K1/8 b - - 1 1",
-      "variant": "main.a",
+      "variant": "main.a2",
       "parent": null
     },
     {
@@ -129,72 +129,29 @@
       "ply": 11,
       "san": "Ne6",
       "nl": "Pe6",
-      "fenAfter": "3b4/8/4N1k1/8/7P/3p4/1B4K1/8 b - - 5 3",
+      "fenAfter": "8/8/4N1k1/8/7P/3p4/1B1b2K1/8 b - - 5 3",
       "variant": "main",
-      "parent": "main.6"
-    },
-    {
-      "id": "main.12",
-      "ply": 12,
-      "san": "Bxh4",
-      "nl": "Lxh4",
-      "fenAfter": "8/8/4N1k1/8/7b/3p4/1B4K1/8 w - - 0 4",
-      "variant": "main",
-      "parent": "main.11"
-    },
-    {
-      "id": "main.13",
-      "ply": 13,
-      "san": "Nf4+",
-      "nl": "Pf4+",
-      "fenAfter": "8/8/6k1/8/5N1b/3p4/1B4K1/8 b - - 1 4",
-      "variant": "main",
-      "parent": "main.12"
-    },
-    {
-      "id": "main.14",
-      "ply": 14,
-      "san": "Kg5",
-      "nl": "Kg5",
-      "fenAfter": "8/8/8/6k1/5N1b/3p4/1B4K1/8 w - - 2 5",
-      "variant": "main",
-      "parent": "main.13"
+      "parent": "main.9"
     },
     {
       "id": "main.15",
       "ply": 15,
-      "san": "Nxd3+",
-      "nl": "Pxd3+",
-      "fenAfter": "8/8/8/6k1/7b/3N4/1B4K1/8 b - - 0 5",
+      "san": "Bc1",
+      "nl": "Lc1?",
+      "fenAfter": "8/8/4N1k1/8/7P/3p4/1B4K1/2b5 w - - 6 4",
       "variant": "main",
-      "parent": "main.14"
-    },
-    {
-      "id": "main.16",
-      "ply": 16,
-      "san": "Kf5",
-      "nl": "Kf5",
-      "fenAfter": "8/8/8/5k2/7b/3N4/1B4K1/8 w - - 1 6",
-      "variant": "main",
-      "parent": "main.15"
-    },
-    {
-      "id": "main.10",
-      "ply": 10,
-      "san": "Bf6",
-      "nl": "Lf6",
-      "fenAfter": "8/8/5B2/5k2/7b/3N4/6K1/8 b - - 2 6",
-      "variant": "main",
-      "parent": "main.16"
+      "parent": "main.11"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Pe4?. Om elke  twijfel weg  te\n\nRemise,  daar  wit een  stuk\n   moet afgeven.\n\nIndien wit deze pion niet slaat en\n\nLe1, met remise.\n\nEveneens met winst.\nDe toenmalige eindspelredacteur\nFreek Spinhoven gaf aan de stel-\nling met de witte loper op b6, de\nEerste Prijs in Schakend Neder-\nland (1966), voorzien van dit com-\nmentaar: “Een leerzame  studie.\nEen klassiek voorbeeld van domi-\nnantie, zowel in de hoofdvariant als\nin de bijvarianten. Met een mini--\nmum aan materiaal wordt dit the-\nma tot uiting gebracht.”\n\nIk kreeg dan ook een onverwacht\ngroot diploma toegezonden met\nhet gewonnen   diagram en de\ntekst: Speciale Vermelding Stu-\ndie toernooi ‘Schakend Nederland’\n1966: I. Vandecasteele.\n      Enkele  maanden  later  schreef\n      Freek “Na de bezwaren beoor-\n      deeld  te hebben  die tegen de\n       studie zijn geuit heeft de jury de\n        definitieve uitslag als volgt vast-\n       gesteld: Eerste Eervolle Vermel-\n       ding: I.Vandecasteele.”\n\n      Welke bezwaren werden me niet\n      medegedeeld.\n\n      Jaren later twijfelde Jarl Ulrichsen\n      aan de correctheid van het minia-\nt       tuurtje wegens een mogelijke ne-\n      venoplossing  bij de  eerste  zet:\n\nnemen verplaatste ik dan de witte\n       loper van b6 naar b2.\n\n        Ik heb het geheel dan ook opge-\n      dragen aan de opmerkzama Noor.",
+      "after": "3…          Ld8(Kh5)        4.Pg5         Le7(f6)\n\n5…           Lf6        6.Pe6        Lxh4        7.Pf4+      Kg5        8.Pxd3+\n\n1.Pe4?. Om elke  twijfel weg  te\n\nRemise,  daar  wit een  stuk\n   moet afgeven.\n\nIndien wit deze pion niet slaat en\n\nLe1, met remise.\n\nEveneens met winst.\nDe toenmalige eindspelredacteur\nFreek Spinhoven gaf aan de stel-\nling met de witte loper op b6, de\nEerste Prijs in Schakend Neder-\nland (1966), voorzien van dit com-\nmentaar: “Een leerzame  studie.\nEen klassiek voorbeeld van domi-\nnantie, zowel in de hoofdvariant als\nin de bijvarianten. Met een mini--\nmum aan materiaal wordt dit the-\nma tot uiting gebracht.”\n\nIk kreeg dan ook een onverwacht\ngroot diploma toegezonden met\nhet gewonnen   diagram en de\ntekst: Speciale Vermelding Stu-\ndie toernooi ‘Schakend Nederland’\n1966: I. Vandecasteele.\n      Enkele  maanden  later  schreef\n      Freek “Na de bezwaren beoor-\n      deeld  te hebben  die tegen de\n       studie zijn geuit heeft de jury de\n        definitieve uitslag als volgt vast-\n       gesteld: Eerste Eervolle Vermel-\n       ding: I.Vandecasteele.”\n\n      Welke bezwaren werden me niet\n      medegedeeld.\n\n      Jaren later twijfelde Jarl Ulrichsen\n      aan de correctheid van het minia-\nt       tuurtje wegens een mogelijke ne-\n      venoplossing  bij de  eerste  zet:\n\nnemen verplaatste ik dan de witte\n       loper van b6 naar b2.\n\n        Ik heb het geheel dan ook opge-\n      dragen aan de opmerkzama Noor.",
       "beforeVariant": {
-        "main.a": "Sterker dan:\n\nLe7 4.Kh3 Lxh4 5.Pf4+ Kg5\n\nFout is 3.Kg3? Ld8 4.Pg5 (4.Ld2\nLxh4+ 5.Pxh4 en  pat.) 4…La5\n\nEn ook hier faalt 4…La5? 5.Pe4\nLe1 6.Pg3+ Lxg3 7.Kxg3 d2 8.Lxd2\nen wit wint.\nEn nu opgelet!\n\nDe énig winnende zet.",
-        "main.b": "(3.Kh3?  Lf2  4.Pe1  Lxh4,\n     remise.) 3…Lc5 en  bijvoor-\n    beeld 4.Ld2 (4.Ook 4.Le1 of\n\nvoort, zie de hoofdvariant.\n\npat.  Of  hier  7.Pxd3+  Kh5\n\nremise. En:"
+        "main.a": "Sterker dan:",
+        "main.b": "(3.Kh3?  Lf2  4.Pe1  Lxh4,\n     remise.) 3…Lc5 en  bijvoor-\n    beeld 4.Ld2 (4.Ook 4.Le1 of\n\nvoort, zie de hoofdvariant.",
+        "main.a2": "Le7 4.Kh3 Lxh4 5.Pf4+ Kg5\n\nFout is 3.Kg3? Ld8 4.Pg5 (4.Ld2\nLxh4+ 5.Pxh4 en  pat.) 4…La5\n\nEn ook hier faalt 4…La5? 5.Pe4\nLe1 6.Pg3+ Lxg3 7.Kxg3 d2 8.Lxd2\nen wit wint.\nEn nu opgelet!\n\nDe énig winnende zet.",
+        "main.b2": "pat.  Of  hier  7.Pxd3+  Kh5\n\nremise. En:"
       }
     }
   }

@@ -17,8 +17,8 @@
       "parent": null
     },
     {
-      "id": "main.14",
-      "ply": 14,
+      "id": "main.2",
+      "ply": 2,
       "san": "Kf5",
       "nl": "Kf5",
       "fenAfter": "4B2K/4p3/6b1/5k2/4n3/7N/8/5N2 w - - 2 2",
@@ -26,19 +26,91 @@
       "parent": "main.1"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "4B2K/4p3/6b1/5k2/4n3/4N2N/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4B2K/4p3/5kb1/8/4n3/4N2N/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "4B2K/4p3/5kb1/8/4n1N1/7N/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "4B2K/4p3/6b1/5k2/4n1N1/7N/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nh6+",
+      "nl": "Ph6+",
+      "fenAfter": "4B2K/4p3/6bN/5k2/4n3/7N/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4B2K/4p3/5kbN/8/4n3/7N/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "4B2K/4p3/5kb1/8/4n1N1/7N/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "4B2K/4p3/6b1/5k2/4n1N1/7N/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
       "id": "main.19",
       "ply": 19,
       "san": "Bd7+",
       "nl": "Ld7+",
-      "fenAfter": "7K/3Bp3/6b1/5k2/4n3/7N/8/5N2 b - - 3 2",
+      "fenAfter": "7K/3Bp3/6b1/5k2/4n1N1/7N/8/8 b - - 11 6",
       "variant": "main",
-      "parent": "main.14"
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit heeft wel een stuk meer, maar\ner staan er twee aangevallen.",
-      "after": "1…          Kf5\n\nverder zonder stukverlies.\n\nNa 1…Kg4?  2.Lxg6 Kxh3  valt\neveneens 3.Lxe4 met winst.\n\ndient dus eerst verwijderd te wor-\nden.\n\nNa dat dit pionnetje veroverd  is,\n       keert het paard op zijn stappen te-\n       rug:\n\nEn niet 7.Pd5+? Ke5\n\nDe weg is nu vrij:\n\nen mat.\n\n     Want de zwarte koning  is zijde-\n        lings gehinderd door  zijn eigen\n       stukken.\n\n     Deze studie componeerde ik al in\nf      1995, maar werd door mij slechts\n      opgestuurd naar Oscar Carlsson in\n       Argentinië in 2005.\n\n      José Copié  schreef:  “Excelente\n       Estudio de mi amigo Vandecas-\n       teele en donde el caballo blanco de\n          ‘f1' debe realizar un periplo muy\n       interesante para eliminar la única\n      defensa que impide la conclusion\n      de mate cual es el peón en ‘e7’,\n      para luego retornar y generar la\n       apropriada red de mate.”\n\n      En:“Ook al is men zelf componist,\n      op jouw matvoeringen raakt men\n        niet uitgekeken.” vond Vandiest.",
+      "after": "verder zonder stukverlies.\n\nNa 1…Kg4?  2.Lxg6 Kxh3  valt\neveneens 3.Lxe4 met winst.\n\ndient dus eerst verwijderd te wor-\nden.\n\nNa dat dit pionnetje veroverd  is,\n       keert het paard op zijn stappen te-\n       rug:\n\nEn niet 7.Pd5+? Ke5\n\nDe weg is nu vrij:\n\nen mat.\n\n     Want de zwarte koning  is zijde-\n        lings gehinderd door  zijn eigen\n       stukken.\n\n     Deze studie componeerde ik al in\nf      1995, maar werd door mij slechts\n      opgestuurd naar Oscar Carlsson in\n       Argentinië in 2005.\n\n      José Copié  schreef:  “Excelente\n       Estudio de mi amigo Vandecas-\n       teele en donde el caballo blanco de\n          ‘f1' debe realizar un periplo muy\n       interesante para eliminar la única\n      defensa que impide la conclusion\n      de mate cual es el peón en ‘e7’,\n      para luego retornar y generar la\n       apropriada red de mate.”\n\n      En:“Ook al is men zelf componist,\n      op jouw matvoeringen raakt men\n        niet uitgekeken.” vond Vandiest.",
       "beforeVariant": {
         "main.b": "hier:"
       }

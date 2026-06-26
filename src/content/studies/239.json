@@ -44,29 +44,191 @@
       "parent": "main.b.1"
     },
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Bh5",
-      "nl": "Lh5",
-      "fenAfter": "3K4/3PP2k/8/2n4B/8/3r4/8/2r5 b - - 1 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bg6+",
+      "nl": "Lg6+",
+      "fenAfter": "3K4/3PP2k/6B1/2n5/8/3r4/8/2r5 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "3K4/3PP1k1/6B1/2n5/8/3r4/8/2r5 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a2.2",
+      "ply": 2,
+      "san": "Kxg6",
+      "nl": "Kxg6?",
+      "fenAfter": "3K4/3PP3/6k1/2n5/8/3r4/8/2r5 w - - 0 2",
+      "variant": "main.a2",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a2.3",
+      "ply": 3,
+      "san": "e8=Q+",
+      "nl": "e8D+",
+      "fenAfter": "3KQ3/3P4/6k1/2n5/8/3r4/8/2r5 b - - 0 2",
+      "variant": "main.a2",
+      "parent": "main.a2.2"
+    },
+    {
+      "id": "main.b2.2",
+      "ply": 2,
+      "san": "Kh6",
+      "nl": "Kh6?",
+      "fenAfter": "3K4/3PP3/6Bk/2n5/8/3r4/8/2r5 w - - 2 2",
+      "variant": "main.b2",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b2.3",
+      "ply": 3,
+      "san": "Bxd3",
+      "nl": "Lxd3",
+      "fenAfter": "3K4/3PP3/7k/2n5/8/3B4/8/2r5 b - - 0 2",
+      "variant": "main.b2",
+      "parent": "main.b2.2"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bxd3",
+      "nl": "Lxd3",
+      "fenAfter": "3K4/3PP1k1/8/2n5/8/3B4/8/2r5 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a3.3",
+      "ply": 3,
+      "san": "e8=Q",
+      "nl": "e8D?",
+      "fenAfter": "3KQ3/3P2k1/6B1/2n5/8/3r4/8/2r5 b - - 0 2",
+      "variant": "main.a3",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a3.4",
+      "ply": 4,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "3KQ3/1n1P2k1/6B1/8/8/3r4/8/2r5 w - - 1 3",
+      "variant": "main.a3",
+      "parent": "main.a3.3"
+    },
+    {
+      "id": "main.a3.5",
+      "ply": 5,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "4Q3/1n1PK1k1/6B1/8/8/3r4/8/2r5 b - - 2 3",
+      "variant": "main.a3",
+      "parent": "main.a3.4"
+    },
+    {
+      "id": "main.a3.6",
+      "ply": 6,
+      "san": "Re3+",
+      "nl": "Te3+",
+      "fenAfter": "4Q3/1n1PK1k1/6B1/8/8/4r3/8/2r5 w - - 3 4",
+      "variant": "main.a3",
+      "parent": "main.a3.5"
+    },
+    {
+      "id": "main.b3.3",
+      "ply": 3,
+      "san": "Ke8",
+      "nl": "Ke8?",
+      "fenAfter": "4K3/3PP1k1/6B1/2n5/8/3r4/8/2r5 b - - 3 2",
+      "variant": "main.b3",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.b3.4",
+      "ply": 4,
+      "san": "Rh3",
+      "nl": "Th3",
+      "fenAfter": "4K3/3PP1k1/6B1/2n5/8/7r/8/2r5 w - - 4 3",
+      "variant": "main.b3",
+      "parent": "main.b3.3"
     },
     {
       "id": "main.4",
       "ply": 4,
       "san": "Nb7+",
       "nl": "Pb7+",
-      "fenAfter": "3K4/1n1PP2k/8/7B/8/3r4/8/2r5 w - - 2 2",
+      "fenAfter": "3K4/1n1PP1k1/8/8/8/3B4/8/2r5 w - - 1 3",
       "variant": "main",
-      "parent": "main.5"
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a4.4",
+      "ply": 4,
+      "san": "Ne6+",
+      "nl": "Pe6+?",
+      "fenAfter": "3K4/3PP1k1/4n3/8/8/3B4/8/2r5 w - - 1 3",
+      "variant": "main.a4",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a4.5",
+      "ply": 5,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4K3/3PP1k1/4n3/8/8/3B4/8/2r5 b - - 2 3",
+      "variant": "main.a4",
+      "parent": "main.a4.4"
+    },
+    {
+      "id": "main.a4.6",
+      "ply": 6,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "4K3/3PP1k1/4n3/8/8/3B4/8/7r w - - 3 4",
+      "variant": "main.a4",
+      "parent": "main.a4.5"
+    },
+    {
+      "id": "main.a4.7",
+      "ply": 7,
+      "san": "d8=Q",
+      "nl": "d8D",
+      "fenAfter": "3QK3/4P1k1/4n3/8/8/3B4/8/7r b - - 0 4",
+      "variant": "main.a4",
+      "parent": "main.a4.6"
+    },
+    {
+      "id": "main.b4.4",
+      "ply": 4,
+      "san": "Nxd3",
+      "nl": "Pxd3?",
+      "fenAfter": "3K4/3PP1k1/8/8/8/3n4/8/2r5 w - - 0 3",
+      "variant": "main.b4",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b4.5",
+      "ply": 5,
+      "san": "e8=Q",
+      "nl": "e8D",
+      "fenAfter": "3KQ3/3P2k1/8/8/8/3n4/8/2r5 b - - 0 3",
+      "variant": "main.b4",
+      "parent": "main.b4.4"
     },
     {
       "id": "main.5",
       "ply": 5,
       "san": "Ke8",
       "nl": "Ke8",
-      "fenAfter": "4K3/1n1PP2k/8/7B/8/3r4/8/2r5 b - - 3 2",
+      "fenAfter": "4K3/1n1PP1k1/8/8/8/3B4/8/2r5 b - - 2 3",
       "variant": "main",
       "parent": "main.4"
     },
@@ -75,7 +237,7 @@
       "ply": 6,
       "san": "Nd6+",
       "nl": "Pd6+",
-      "fenAfter": "4K3/3PP2k/3n4/7B/8/3r4/8/2r5 w - - 4 3",
+      "fenAfter": "4K3/3PP1k1/3n4/8/8/3B4/8/2r5 w - - 3 4",
       "variant": "main",
       "parent": "main.5"
     },
@@ -84,7 +246,7 @@
       "ply": 7,
       "san": "Kd8",
       "nl": "Kd8",
-      "fenAfter": "3K4/3PP2k/3n4/7B/8/3r4/8/2r5 b - - 5 3",
+      "fenAfter": "3K4/3PP1k1/3n4/8/8/3B4/8/2r5 b - - 4 4",
       "variant": "main",
       "parent": "main.6"
     },
@@ -93,7 +255,7 @@
       "ply": 8,
       "san": "Nf7+",
       "nl": "Pf7+",
-      "fenAfter": "3K4/3PPn1k/8/7B/8/3r4/8/2r5 w - - 6 4",
+      "fenAfter": "3K4/3PPnk1/8/8/8/3B4/8/2r5 w - - 5 5",
       "variant": "main",
       "parent": "main.7"
     },
@@ -102,7 +264,7 @@
       "ply": 9,
       "san": "Ke8",
       "nl": "Ke8",
-      "fenAfter": "4K3/3PPn1k/8/7B/8/3r4/8/2r5 b - - 7 4",
+      "fenAfter": "4K3/3PPnk1/8/8/8/3B4/8/2r5 b - - 6 5",
       "variant": "main",
       "parent": "main.8"
     },
@@ -111,7 +273,7 @@
       "ply": 10,
       "san": "Rh1",
       "nl": "Th1",
-      "fenAfter": "4K3/3PPn1k/8/7B/8/3r4/8/7r w - - 8 5",
+      "fenAfter": "4K3/3PPnk1/8/8/8/3B4/8/7r w - - 7 6",
       "variant": "main",
       "parent": "main.9"
     },
@@ -120,18 +282,49 @@
       "ply": 11,
       "san": "d8=N",
       "nl": "d8P",
-      "fenAfter": "3NK3/4Pn1k/8/7B/8/3r4/8/7r b - - 0 5",
+      "fenAfter": "3NK3/4Pnk1/8/8/8/3B4/8/7r b - - 0 6",
       "variant": "main",
       "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Rh8+",
+      "nl": "Th8+",
+      "fenAfter": "3NK2r/4Pnk1/8/8/8/3B4/8/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "3N3r/3KPnk1/8/8/8/3B4/8/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Rxe8",
+      "nl": "Txe8",
+      "fenAfter": "3Nr3/3KPnk1/8/8/8/3B4/8/8 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
     }
   ],
   "prose": {
     "nl": {
       "before": "Twee witte pionnen staant te po-\npelen om te promoveren.",
-      "after": "1.Lg6+      Kg7\n\nmet  matdreiging. Want  6.d8D?\nfaalt inderdaad op 6…Pe5 7.Lh7\nTxh7 8.Dd5 Th8+ 9.Dg8+ Txg8+\nen mat. Daarom:\n\nEen eerste minorpromotie.\n\nBeter dan bijvoorbeeld: 6…Pd6+?\n\nwinst voor wit.\n\nHier niet: 8.Kd6? Pxd3, en zwart\nwint volgens Nalimov EGTB.\n\nDe énige remisezet.\nEn niet goed is 9.Kd7? Pc5+ met\nbijvoorbeeld: 10.Kd6 Pe4+ 11.Ke6\nPf6 12.Pf7 Ta8 13.Pd6 Kg6 14.Pc4\nTa6+  15.Ke5 Ta2  16.Pe3 Ta4\n\nmaar:\n\nWant op  zijn beurt  faalt hier de\nafwachtende zet 9…Tg8, op  bij-\nvoorbeeld: 10.Pd6 Pc5+ 11.Kd5\nPd7 en nu 12.e8P, met remise.\nNog een minorpromotie.\n\nDe pion kan nu  niet  ongestraft\npromoveren tot dame, toren of lo-\nper. Men  zie: 11.e8D? Pf6+ en\n\nwint zwart.\nGelukkig is er nog een remisezet,\nnamelijk een tweede paardpromo-\ntie:\n\nEn remise is een feit.\n      Het commentaar van prijsrechter\n      Yochanan Afek luidde: “The two\n      advanced pawns are underpromo-\n       ted to knights; yet the real hero of\n       the battle  is the acrobatic black\n        knight.”\n\nt      Persoonlijk vind ik dat een 2de Eer-\n        volle Vermelding eerder een wat\n     magere beloning is voor deze dub-\n       bele paardpromotie.\n\n        Maar...... “Goesting  is goesting.”\n       zei mijn wijze moeder zaliger…",
+      "after": "7.Kd7       Pe5+        8.Ke6\n\n11.e8P+\n\nmet  matdreiging. Want  6.d8D?\nfaalt inderdaad op 6…Pe5 7.Lh7\nTxh7 8.Dd5 Th8+ 9.Dg8+ Txg8+\nen mat. Daarom:\n\nEen eerste minorpromotie.\n\nBeter dan bijvoorbeeld: 6…Pd6+?\n\nwinst voor wit.\n\nHier niet: 8.Kd6? Pxd3, en zwart\nwint volgens Nalimov EGTB.\n\nDe énige remisezet.\nEn niet goed is 9.Kd7? Pc5+ met\nbijvoorbeeld: 10.Kd6 Pe4+ 11.Ke6\nPf6 12.Pf7 Ta8 13.Pd6 Kg6 14.Pc4\nTa6+  15.Ke5 Ta2  16.Pe3 Ta4\n\nmaar:\n\nWant op  zijn beurt  faalt hier de\nafwachtende zet 9…Tg8, op  bij-\nvoorbeeld: 10.Pd6 Pc5+ 11.Kd5\nPd7 en nu 12.e8P, met remise.\nNog een minorpromotie.\n\nDe pion kan nu  niet  ongestraft\npromoveren tot dame, toren of lo-\nper. Men  zie: 11.e8D? Pf6+ en\n\nwint zwart.\nGelukkig is er nog een remisezet,\nnamelijk een tweede paardpromo-\ntie:\n\nEn remise is een feit.\n      Het commentaar van prijsrechter\n      Yochanan Afek luidde: “The two\n      advanced pawns are underpromo-\n       ted to knights; yet the real hero of\n       the battle  is the acrobatic black\n        knight.”\n\nt      Persoonlijk vind ik dat een 2de Eer-\n        volle Vermelding eerder een wat\n     magere beloning is voor deze dub-\n       bele paardpromotie.\n\n        Maar...... “Goesting  is goesting.”\n       zei mijn wijze moeder zaliger…",
       "beforeVariant": {
-        "main.a": "Maar wit biedt eerst zijn loper aan:\n\nachteloos: 2…Kg7 met: 3.Kc7!\n   (maar niet 3.e8D? Pb7+ 4.Ke7\n   Te1+ 5.Le4 Txe4+ en mat.)\n\nTxe8 6.Kxe8, remise.\n\n(Pb7+) 5.Ke8 Th8+ en mat. Of\n    hier 4.d8D Th8+ en ook mat.",
-        "main.b": "dame  houdt  remise  door\n                                                                  f   eeuwig schaak  te geven  of\n    door een toren te veroveren.\n    Bijvoorbeeld: 2…Kg7 3.De5+\n   Kg6 4.De8+ Kg5 5.Ke5+ Kg4\n\nw    14.Ke7, en het is zover.\n\nreeds zagen.\n\nTh8+ 5.Kd7 Txd8+ 6.exd8D\n    Pxd8, met remise."
+        "main.a2": "Maar wit biedt eerst zijn loper aan:",
+        "main.b2": "dame  houdt  remise  door\n                                                                  f   eeuwig schaak  te geven  of\n    door een toren te veroveren.\n    Bijvoorbeeld: 2…Kg7 3.De5+\n   Kg6 4.De8+ Kg5 5.Ke5+ Kg4\n\nw    14.Ke7, en het is zover.",
+        "main.a3": "achteloos: 2…Kg7 met: 3.Kc7!\n   (maar niet 3.e8D? Pb7+ 4.Ke7\n   Te1+ 5.Le4 Txe4+ en mat.)\n\nTxe8 6.Kxe8, remise.",
+        "main.b3": "reeds zagen.",
+        "main.a4": "(Pb7+) 5.Ke8 Th8+ en mat. Of\n    hier 4.d8D Th8+ en ook mat.",
+        "main.b4": "Th8+ 5.Kd7 Txd8+ 6.exd8D\n    Pxd8, met remise."
       }
     }
   }

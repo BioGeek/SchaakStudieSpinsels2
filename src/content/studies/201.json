@@ -15,12 +15,48 @@
       "fenAfter": "8/5R1k/4K3/8/8/1p1n1B2/p7/8 b - - 1 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/5R2/4K3/8/8/1p1n1B2/p7/8 w - - 2 2",
+      "variant": "A",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "6k1/4KR2/8/8/8/1p1n1B2/p7/8 b - - 3 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "B.2",
+      "ply": 2,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/5R2/4K1k1/8/8/1p1n1B2/p7/8 w - - 2 2",
+      "variant": "B",
+      "parent": "main.1"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Rg7+",
+      "nl": "Tg7+",
+      "fenAfter": "8/6R1/4K1k1/8/8/1p1n1B2/p7/8 b - - 3 2",
+      "variant": "B",
+      "parent": "B.2"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1...         Kg8        2.Lg7        Pf4+ 2...a1D? 3.Lxa1 b2 4.Lxb2 Pxb2\n\n1...         Kg6        2.Tg7+\n\nEn niet 2.Lg7? Pf4+ 3.Ke7 Pd3\n\nEduard Kudelich dacht: “A plea-\nsant study with two main lines.”\n\nHet  is een correctie én een  uit-\nbreiding van een studie van John\nNunn uit 1979. (HHdbIII n°22922):\n\nKe8 Tf7 Lf8 Pc7 /\n         Kh8 Pb7 Pc3 a2 b3 +\n\nMet de oplossing: 1.Pd5 1...Pxd5\n\na1D 5.Lxa1 b2 6.Ta7 b1D 7.Tg7+\nKh8 8.Tg1+ Dxa1 9.Txa1.\n\nMaar werd  later  fout bevonden\ndoor: 1...Pe4! 2.Lg7+ Kh7 3.Pf6+\nPxf6+  4.Lxf6+ Kg6  5.Ke7 Pd6",
+      "after": "2.Lg7+ Kg8 3.Txb7 Pc7+ 4.Txc7\n\nEn niet 2.Lg7? Pf4+ 3.Ke7 Pd3\n\nEduard Kudelich dacht: “A plea-\nsant study with two main lines.”\n\nHet  is een correctie én een  uit-\nbreiding van een studie van John\nNunn uit 1979. (HHdbIII n°22922):\n\nKe8 Tf7 Lf8 Pc7 /\n         Kh8 Pb7 Pc3 a2 b3 +\n\nMet de oplossing: 1.Pd5 1...Pxd5\n\na1D 5.Lxa1 b2 6.Ta7 b1D 7.Tg7+\nKh8 8.Tg1+ Dxa1 9.Txa1.\n\nMaar werd  later  fout bevonden\ndoor: 1...Pe4! 2.Lg7+ Kh7 3.Pf6+\nPxf6+  4.Lxf6+ Kg6  5.Ke7 Pd6",
       "beforeVariant": {
         "B": "wint wit na 19 zetten (Nalimov)\n\n(7.Lxa1 is pat) Kh8 8.Tg2+ Dxb2"
       }
