@@ -1,0 +1,162 @@
+{
+  "number": 66,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2013",
+  "gbr": "0130.10 b1h6",
+  "fen": "8/6b1/7k/8/3R3P/8/8/1K6 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/6b1/7k/8/3R3P/8/2K5/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/6b1/8/7k/3R3P/8/2K5/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rf4",
+      "nl": "Tf4",
+      "fenAfter": "8/6b1/8/7k/5R1P/8/2K5/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bh6",
+      "nl": "Lh6",
+      "fenAfter": "8/8/7b/7k/5R1P/8/2K5/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rf6",
+      "nl": "Tf6",
+      "fenAfter": "8/8/5R1b/7k/7P/8/2K5/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Be3",
+      "nl": "Le3",
+      "fenAfter": "8/8/5R2/7k/7P/4b3/2K5/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/5R2/7k/7P/3Kb3/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/5R2/7k/7P/3K4/8/2b5 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rf1",
+      "nl": "Tf1",
+      "fenAfter": "8/8/8/7k/7P/3K4/8/2b2R2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bb2",
+      "nl": "Lb2",
+      "fenAfter": "8/8/8/7k/7P/3K4/1b6/5R2 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "8/8/8/7k/7P/3K4/1b6/7R b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "8/8/5b2/7k/7P/3K4/8/7R w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/5b2/7k/4K2P/8/8/7R b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "8/4b3/8/7k/4K2P/8/8/7R w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/4b3/8/5K1k/7P/8/8/7R b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Bxh4",
+      "nl": "Lxh4",
+      "fenAfter": "8/8/8/5K1k/7b/8/8/7R w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Belet 2…Lf6\n\nDe witte koning komt weer een\nstapje dichterbij.\n\nEn weer een stapje;\n\nNa 7…Lxh4 wint 8.Kf5\n\nEn nog een, zodat zwart ontmoe-\ndigd de pion slaat.\n\nMaar wit wint.",
+      "beforeVariant": {}
+    }
+  }
+}
