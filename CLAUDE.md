@@ -4,58 +4,67 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Source for the Dutch-language website [schaakstudiespinsels2.be](http://schaakstudiespinsels2.be/), a companion to Ignace Vandecasteele's chess-endgame-study book *Schaakstudiespinsels 2*. Two largely independent workstreams live here:
+Source for [schaakstudiespinsels2.be](http://schaakstudiespinsels2.be/), an interactive companion to *Schaakstudiespinsels 2* — a book of original chess endgame studies composed by Ignace Vandecasteele ("Bompa", the maintainer's grandfather). The goal is to turn the printed book into a website where each study is a playable, clickable board with its full variation tree.
 
-1. **Pelican static site** — Markdown content under `content/pages/` is rendered to HTML and published to GitHub Pages (`gh-pages` branch, CNAME `schaakstudiespinsels2.be`).
-2. **Book-ingestion pipeline** — Python scripts + a Jupyter notebook that parse the printed PDF (`data/schaakstudiespinsels2.pdf`) into per-study assets (chess diagram PNG, text column PDF, FEN string) under `data/endgames/`. The eventual goal is to feed those per-study assets into the Pelican site as interactive chess boards — that migration is not yet done; most site pages today are the hand-written introductory chapters only.
+Two workstreams live here:
 
-The primary content language is Dutch. Keep prose, commit messages to existing code, and Markdown page content in Dutch. Code, identifiers, and docstrings are English.
+1. **Astro site** (`src/`) — the live frontend. Static-rendered, bilingual (Dutch default + English), with an interactive chessboard per study.
+2. **Python ingestion pipeline** (`scripts/`) — parses the printed PDF (`data/schaakstudiespinsels2.pdf`) into per-study JSON files that the Astro site consumes.
+
+The contract between the two is `src/content/config.ts` (the Zod `studies` schema) — the Python parser emits exactly that shape, and the Astro components read it.
+
+The primary content language is **Dutch**. Keep prose, Markdown page content, and commit messages in Dutch. Code, identifiers, and docstrings are English.
 
 ## Commands
 
-Python is pinned to 3.12 and managed with **uv** (see `pyproject.toml`, `uv.lock`, `.python-version`). The README's `pip install -r requirements.txt` / Python 3.6 instructions are legacy — prefer uv.
-
+**Site (Astro / npm):**
 ```bash
-uv sync                         # install dependencies into .venv
-uv run pelican content          # build site -> ./output
-make html                       # same, via Makefile
-make devserver                  # live-reload server on :8000
-make publish                    # ghp-import output + push gh-pages (deploys the site)
-uv run python scripts/pdf_processing.py   # regenerate data/endgames/ from the PDF
+npm install            # install JS deps
+npm run dev            # live-reload dev server
+npm run build          # static build -> dist/
+npm run preview        # serve the built dist/
 ```
 
-The PDF pipeline requires `data/schaakstudiespinsels2.pdf` (untracked, provided locally) and `data/template.png` (committed — a sheet of the six piece glyphs used for OpenCV template matching).
-
-Derived artifacts under `data/` are gitignored (`data/debug/`, `data/endgames/`, `data/md/`). Regenerate the markitdown text export with:
-
+**Ingestion pipeline (Python 3.12, managed with uv):**
 ```bash
-uvx --from "markitdown[pdf]" markitdown data/schaakstudiespinsels2.pdf -o data/md/schaakstudiespinsels2.md
+uv sync                                          # install Python deps into .venv
+uv run python scripts/build_study.py --study 152 # build one study -> src/content/studies/152.json
+uv run python scripts/build_study.py --all       # rebuild every detected study (slow)
+uv run python scripts/study_extractor.py --list  # list all studies + their PDF locations
 ```
 
-## Submodules — non-obvious
+The pipeline needs `data/schaakstudiespinsels2.pdf` (untracked, provided locally) and `data/template.png` (committed — a strip of Ignace's six piece silhouettes used for classification and sprite generation).
 
-`git clone --recursive` (or `git submodule update --init --recursive`) is **required**; the theme lives in a submodule and the site won't build without it.
+Everything under `data/` except the source documents and `template.png` is gitignored and regenerable (`data/debug/`, `data/endgames/`, `data/exemplar/`, `data/md/`, `data/build_summary.json`).
 
-- `themes/brutalist` → fork at `BioGeek/brutalist`, branch **`schaakstudiespinsels`** (not `master`). When pushing theme changes: `git push origin HEAD:schaakstudiespinsels`.
-- `plugins/pelican_javascript` → upstream `mortada/pelican_javascript`.
+## Ingestion pipeline architecture (`scripts/`)
 
-## Content conventions (Pelican)
+`build_study.py` is the orchestrator (`build_one` is the core). For each study it chains three scripts, all of which supersede the older monolithic `pdf_processing.py` (kept only for reference):
 
-- Pages are ordered via a custom `Pageorder` front-matter field driving `PAGE_ORDER_BY = 'pageorder'` in `pelicanconf.py`. Numbering follows the book's printed sequence (see the full map at the bottom of `README.md`: 001 Voorwoord … 325 Colofon; the 317 endgame studies occupy the bulk of the range). When adding a new page, pick a `Pageorder` that slots it into that sequence.
-- The theme expects `SITEIMAGE = 'cover.jpg'` and looks for it in `content/images/`.
-- Feed generation is intentionally disabled in `pelicanconf.py` and enabled only in `publishconf.py`.
+1. **`study_extractor.py`** — finds study boundaries by collecting every `- N -` header span across all pages and sorting them in reading order (left column top-to-bottom, then right column). This correctly handles two studies sharing one page, which `pdf_processing.py` silently dropped. Emits `text.txt`, `region.json`, and a diagram PNG into `data/exemplar/<N>/`.
+2. **`classify_position.py`** — derives the starting FEN from the diagram image. Two passes: Hu-moment **shape** matching for piece *type* (colour/scale-invariant), then mean-brightness inside the piece mask for *colour*. Validates the two king squares against the book's GBR index line and warns on mismatch. **Known long-tail failure: queen vs. rook** — when it can't tell them apart, override per study.
+3. **`parse_study.py`** — parses the Dutch move notation in `text.txt` into the structured move tree, validating every move through `python-chess` and recording `fenAfter` for each ply. Handles the main line, top-level variants (`Variant A`/`B`), and nested sub-variants (`a)`, `b)`). Prose paragraphs between move blocks become `prose.nl.before`/`after`. Inline side-lines embedded mid-mainline are *not* yet clickable — they fall through to prose.
 
-## PDF pipeline architecture (`scripts/pdf_processing.py`)
+**FEN override precedence** (in `build_study.py`): `--fen` CLI flag > `data/exemplar/<N>/fen_override.txt` sidecar > classifier output. Use the sidecar to permanently fix a study the classifier gets wrong; `--all` skips re-classifying those.
 
-Single script orchestrating the whole flow; `main()` is the entry point. Flow to keep in mind when editing:
+The chapter→page-number table of contents is **hardcoded** as `CHAPTERS` in `study_extractor.py` (six chapters, mirrored in `pdf_processing.py`). If the source PDF is replaced, update those page numbers.
 
-1. **TOC is hardcoded** (`create_directory_structure`). The six chapters and their starting page numbers are baked in — the script does not parse the book's table of contents. If the source PDF is ever replaced, these page numbers must be updated.
-2. **Study boundaries** are found by regex-searching each page's top half for a `- N -` header; each study runs until the next header. Output is keyed by `{chapter_num}_{sanitized_chapter}/endgame{NNN}/`.
-3. **Diagram extraction** uses OpenCV template matching against `data/template.png` to read piece positions from each board image, then emits a FEN string to `fen.txt`. The diagram PNG and the study's text columns (extracted as column-clipped PDFs and concatenated) are saved alongside.
-4. Page numbers are located and masked out via `find_page_number_region` before text extraction so footers don't pollute the study text.
+Coverage is partial: ~76 of the book's 317 studies are built so far. `data/build_summary.json` records the last `--all` run's per-study status and FEN source.
 
-`parse_endgames.py` / `parse_endgames_from_docx.py` are older, lighter-weight scripts that only enumerate/verify `- N -` headers in the txt/docx exports; they're kept as sanity-check tools, not part of the main pipeline.
+## Astro site architecture (`src/`)
 
-## Working with the notebook
+- **Content collections** (`src/content/config.ts`):
+  - `pages` (type `content`) — MDX/Markdown prose chapters under `src/content/pages/<locale>/`, ordered by an `order` frontmatter field. English pages link back via `translationOf`.
+  - `studies` (type `data`) — one JSON per study under `src/content/studies/NNN.json`, matching the schema the Python parser emits.
+- **Routing** is file-based with i18n (`astro.config.mjs`: locales `nl`/`en`, default `nl`, `prefixDefaultLocale`):
+  - `src/pages/[locale]/[...slug].astro` — renders a prose `pages` entry.
+  - `src/pages/[locale]/studies/[num].astro` — renders one study (prose + board). `getStaticPaths` fans out every study × every locale.
+  - `src/pages/[locale]/studies/index.astro` — study browser.
+  - `src/pages/index.astro` + `src/pages/{nl,en}/index.astro` — root redirect (honoring a stored locale preference) and per-locale home.
+- **The board** is split: `StudyBoard.astro` renders the move table server-side (grouping plies into book-style numbered rows and nesting the variant tree); `study-board.client.ts` hydrates it client-side with **cm-chessboard** + **chess.js**, wiring the prev/next/start/end controls and click-to-jump on each move.
+- **Move notation**: canonical storage is **English SAN** (what chess.js needs); Dutch display letters (`K D T L P`) are produced by `src/i18n/moves.ts` (`sanToDutch`/`dutchToSan`). UI strings live in `src/i18n/ui.ts`.
+- **Piece sprite**: the board uses a custom SVG sprite of Ignace's own piece silhouettes, generated from `data/template.png` by `scripts/generate_piece_sprite.py` into `public/pieces/ignace.svg`.
 
-`analysis.ipynb` is the live exploration surface for the ingestion pipeline — prefer iterating there before promoting logic into `scripts/pdf_processing.py`. `analysis copy.ipynb` is a scratch duplicate; don't edit it unless asked.
+## Deployment
+
+There is currently **no CI/deploy workflow** and no publish command. `npm run build` produces the static site in `dist/`; wiring up deployment is open work.

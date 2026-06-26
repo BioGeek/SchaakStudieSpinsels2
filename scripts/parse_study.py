@@ -80,7 +80,7 @@ class Move:
 
 
 def scrub_controls(s: str) -> str:
-    """Drop C0 control chars except tab/LF/CR (same defensive scrub as port_pelican_pages)."""
+    """Drop C0 control chars except tab/LF/CR."""
     return "".join(c for c in s if ord(c) >= 0x20 or c in "\t\n\r")
 
 
