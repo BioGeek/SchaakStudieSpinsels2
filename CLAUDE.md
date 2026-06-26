@@ -51,7 +51,7 @@ Everything under `data/` except the source documents and `template.png` is gitig
 
 The chapter→page-number table of contents is **hardcoded** as `CHAPTERS` in `study_extractor.py` (six chapters, mirrored in `pdf_processing.py`). If the source PDF is replaced, update those page numbers.
 
-Coverage: **238 of the book's 308 studies are shipped** (`src/content/studies/`), 237 of which pass `verify_studies.py`; the 1 known-bad (305) needs checking against the printed book. All 308 are buildable, but the unshipped ones fail verification (0 moves parsed, unparseable GBR, or material the classifier couldn't reconcile) and need manual attention before shipping. `data/build_summary.json` records the last `--all` run's per-study status, FEN source, and `kings_ok`/`material_ok` flags.
+Coverage: **238 of the book's 308 studies are shipped** (`src/content/studies/`) and all 238 pass `verify_studies.py`. The remaining ~70 are buildable but fail verification (0 moves parsed, unparseable GBR, or material the classifier couldn't reconcile) and need manual attention before shipping. `data/build_summary.json` records the last `--all` run's per-study status, FEN source, and `kings_ok`/`material_ok` flags.
 
 ## Astro site architecture (`src/`)
 

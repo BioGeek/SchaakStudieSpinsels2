@@ -3,8 +3,8 @@
   "chapter": "Studies",
   "chapterNumber": 6,
   "source": "Origineel, 2016",
-  "gbr": "0441.01 e6a1",
-  "fen": "R7/8/n3K3/r3b2b/8/7Q/8/k1N5 w - - 0 1",
+  "gbr": "0444.01 e6a1",
+  "fen": "R7/8/n3K3/r3b2p/8/7B/8/k1N5 w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
@@ -12,7 +12,7 @@
       "ply": 1,
       "san": "Nb3+",
       "nl": "Pb3+",
-      "fenAfter": "R7/8/n3K3/r3b2b/8/1N5Q/8/k7 b - - 1 1",
+      "fenAfter": "R7/8/n3K3/r3b2p/8/1N5B/8/k7 b - - 1 1",
       "variant": "main",
       "parent": null
     },
@@ -21,7 +21,7 @@
       "ply": 2,
       "san": "Ka2",
       "nl": "Ka2",
-      "fenAfter": "R7/8/n3K3/r3b2b/8/1N5Q/k7/8 w - - 2 2",
+      "fenAfter": "R7/8/n3K3/r3b2p/8/1N5B/k7/8 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
     },
@@ -30,7 +30,7 @@
       "ply": 3,
       "san": "Nxa5",
       "nl": "Pxa5",
-      "fenAfter": "R7/8/n3K3/N3b2b/8/7Q/k7/8 b - - 0 2",
+      "fenAfter": "R7/8/n3K3/N3b2p/8/7B/k7/8 b - - 0 2",
       "variant": "main",
       "parent": "main.2"
     },
@@ -39,7 +39,7 @@
       "ply": 4,
       "san": "Nc7+",
       "nl": "Pc7+",
-      "fenAfter": "R7/2n5/4K3/N3b2b/8/7Q/k7/8 w - - 1 3",
+      "fenAfter": "R7/2n5/4K3/N3b2p/8/7B/k7/8 w - - 1 3",
       "variant": "main",
       "parent": "main.3"
     },
@@ -48,7 +48,7 @@
       "ply": 5,
       "san": "Kxe5",
       "nl": "Kxe5",
-      "fenAfter": "R7/2n5/8/N3K2b/8/7Q/k7/8 b - - 0 3",
+      "fenAfter": "R7/2n5/8/N3K2p/8/7B/k7/8 b - - 0 3",
       "variant": "main",
       "parent": "main.4"
     },
@@ -57,7 +57,7 @@
       "ply": 6,
       "san": "Nxa8",
       "nl": "Pxa8",
-      "fenAfter": "n7/8/8/N3K2b/8/7Q/k7/8 w - - 0 4",
+      "fenAfter": "n7/8/8/N3K2p/8/7B/k7/8 w - - 0 4",
       "variant": "main",
       "parent": "main.5"
     },
@@ -66,7 +66,7 @@
       "ply": 7,
       "san": "Kd6",
       "nl": "Kd6",
-      "fenAfter": "n7/8/3K4/N6b/8/7Q/k7/8 b - - 1 4",
+      "fenAfter": "n7/8/3K4/N6p/8/7B/k7/8 b - - 1 4",
       "variant": "main",
       "parent": "main.6"
     },
@@ -75,7 +75,7 @@
       "ply": 8,
       "san": "Nb6",
       "nl": "Pb6",
-      "fenAfter": "8/8/1n1K4/N6b/8/7Q/k7/8 w - - 2 5",
+      "fenAfter": "8/8/1n1K4/N6p/8/7B/k7/8 w - - 2 5",
       "variant": "main",
       "parent": "main.7"
     },
@@ -84,7 +84,7 @@
       "ply": 9,
       "san": "Kc5",
       "nl": "Kc5",
-      "fenAfter": "8/8/1n6/N1K4b/8/7Q/k7/8 b - - 3 5",
+      "fenAfter": "8/8/1n6/N1K4p/8/7B/k7/8 b - - 3 5",
       "variant": "main",
       "parent": "main.8"
     },
@@ -93,7 +93,7 @@
       "ply": 10,
       "san": "Na4+",
       "nl": "Pa4+",
-      "fenAfter": "8/8/8/N1K4b/n7/7Q/k7/8 w - - 4 6",
+      "fenAfter": "8/8/8/N1K4p/n7/7B/k7/8 w - - 4 6",
       "variant": "main",
       "parent": "main.9"
     },
@@ -102,9 +102,27 @@
       "ply": 11,
       "san": "Kb4",
       "nl": "Kb4",
-      "fenAfter": "8/8/8/N6b/nK6/7Q/k7/8 b - - 5 6",
+      "fenAfter": "8/8/8/N6p/nK6/7B/k7/8 b - - 5 6",
       "variant": "main",
       "parent": "main.10"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "h4",
+      "nl": "h4",
+      "fenAfter": "8/8/8/N7/nK5p/7B/k7/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "8/8/8/8/nK5p/1N5B/k7/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
