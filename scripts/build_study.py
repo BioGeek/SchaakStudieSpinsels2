@@ -57,7 +57,16 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
 
     region = json.loads((out / "region.json").read_text())
 
-    # 2. Decide FEN: CLI override > sidecar file > classifier.
+    # 2a. A gbr_override.txt sidecar corrects a GBR code the book itself
+    # mis-prints (e.g. study 211's "0044.01" for a two-white-bishop ending,
+    # which should read "0024.01"). It feeds both the classifier's material
+    # correction and the value stored in the study JSON.
+    gbr_override_file = out / "gbr_override.txt"
+    gbr_override = (
+        gbr_override_file.read_text().strip() if gbr_override_file.exists() else None
+    )
+
+    # 2b. Decide FEN: CLI override > sidecar file > classifier.
     # Overrides are trusted ground truth, so their FEN is assumed sound.
     classifier_kings_ok = True
     classifier_material_ok = True
@@ -71,11 +80,14 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
     else:
         # Classifier needs the GBR string from the study's text so it
         # can apply the king-square correction. Pull the first GBR-
-        # shaped line out of text.txt.
-        text = (out / "text.txt").read_text()
-        import re
-        m = re.search(r"(\d{4}\.\d{2}(?:\s+[a-h][1-8][a-h][1-8])?)", text)
-        gbr = m.group(1) if m else ""
+        # shaped line out of text.txt (unless overridden above).
+        if gbr_override:
+            gbr = gbr_override
+        else:
+            text = (out / "text.txt").read_text()
+            import re
+            m = re.search(r"(\d{4}\.\d{2}(?:\s+[a-h][1-8][a-h][1-8])?)", text)
+            gbr = m.group(1) if m else ""
         cres = run([
             "uv", "run", "python", "scripts/classify_position.py",
             "--diagram", str(out / "diagram_region.png"),
@@ -101,7 +113,15 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
         "--out", str(json_path),
     ], cwd=ROOT)
 
+    # parse_study re-derives the GBR from the text, so re-apply the override
+    # to the stored study after the fact.
     parsed = json.loads(json_path.read_text())
+    if gbr_override and parsed.get("gbr") != gbr_override:
+        parsed["gbr"] = gbr_override
+        json_path.write_text(
+            json.dumps(parsed, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
+
     return {
         "study": study_number,
         "chapter": region["chapter_num"],

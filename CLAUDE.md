@@ -47,11 +47,11 @@ Everything under `data/` except the source documents and `template.png` is gitig
 
 **Verification gate — `verify_studies.py`.** Decodes each study's GBR material code and checks that the FEN material + king squares match it and that at least one move parsed. This is the bar for shipping: only studies that pass should be committed to `src/content/studies/`. Run it after any `--all` rebuild (`uv run python scripts/verify_studies.py --fail-only`).
 
-**FEN override precedence** (in `build_study.py`): `--fen` CLI flag > `data/exemplar/<N>/fen_override.txt` sidecar > classifier output. Use the sidecar to permanently fix a study the GBR correction can't resolve on its own (missing/extra pieces, colour misreads). Note `data/exemplar/` is gitignored — the override is a local regeneration aid; the corrected FEN lands in the committed study JSON.
+**FEN override precedence** (in `build_study.py`): `--fen` CLI flag > `data/exemplar/<N>/fen_override.txt` sidecar > classifier output. Use the sidecar to permanently fix a study the GBR correction can't resolve on its own (missing/extra pieces, colour misreads). A separate `data/exemplar/<N>/gbr_override.txt` sidecar corrects a GBR code the **book itself mis-prints** (e.g. study 211 printed `0044.01` for a two-white-bishop ending that should read `0024.01`); it feeds both the classifier's material correction and the value stored in the JSON. Note `data/exemplar/` is gitignored — overrides are local regeneration aids; their effect lands in the committed study JSON.
 
 The chapter→page-number table of contents is **hardcoded** as `CHAPTERS` in `study_extractor.py` (six chapters, mirrored in `pdf_processing.py`). If the source PDF is replaced, update those page numbers.
 
-Coverage: **238 of the book's 308 studies are shipped** (`src/content/studies/`), 236 of which pass `verify_studies.py`; the 2 known-bad (211, 305) need checking against the printed book. All 308 are buildable, but the unshipped ones fail verification (0 moves parsed, unparseable GBR, or material the classifier couldn't reconcile) and need manual attention before shipping. `data/build_summary.json` records the last `--all` run's per-study status, FEN source, and `kings_ok`/`material_ok` flags.
+Coverage: **238 of the book's 308 studies are shipped** (`src/content/studies/`), 237 of which pass `verify_studies.py`; the 1 known-bad (305) needs checking against the printed book. All 308 are buildable, but the unshipped ones fail verification (0 moves parsed, unparseable GBR, or material the classifier couldn't reconcile) and need manual attention before shipping. `data/build_summary.json` records the last `--all` run's per-study status, FEN source, and `kings_ok`/`material_ok` flags.
 
 ## Astro site architecture (`src/`)
 
