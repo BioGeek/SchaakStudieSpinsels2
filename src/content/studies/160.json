@@ -1,0 +1,219 @@
+{
+  "number": 160,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1975",
+  "gbr": "0103.12 b1e8",
+  "fen": "4k3/8/R7/6n1/1p6/1P4p1/8/1K6 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Re6+",
+      "nl": "Te6+",
+      "fenAfter": "4k3/8/4R3/6n1/1p6/1P4p1/8/1K6 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/5k2/4R3/6n1/1p6/1P4p1/8/1K6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Re1",
+      "nl": "Te1",
+      "fenAfter": "8/5k2/8/6n1/1p6/1P4p1/8/1K2R3 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nf3",
+      "nl": "Pf3",
+      "fenAfter": "8/5k2/8/8/1p6/1P3np1/8/1K2R3 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rc1",
+      "nl": "Tc1",
+      "fenAfter": "8/5k2/8/8/1p6/1P3np1/8/1KR5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "8/5k2/8/8/1p6/1P4p1/3n4/1KR5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/5k2/8/8/1p6/1P4p1/3n4/K1R5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/5k2/8/8/1p6/1P4p1/8/K1R2n2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rc7+",
+      "nl": "Tc7+",
+      "fenAfter": "8/2R2k2/8/8/1p6/1P4p1/8/K4n2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2R5/5k2/8/1p6/1P4p1/8/K4n2 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rc6+",
+      "nl": "Tc6+",
+      "fenAfter": "8/8/2R2k2/8/1p6/1P4p1/8/K4n2 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/8/2R5/5k2/1p6/1P4p1/8/K4n2 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rc5+",
+      "nl": "Tc5+",
+      "fenAfter": "8/8/8/2R2k2/1p6/1P4p1/8/K4n2 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/8/2R5/1p3k2/1P4p1/8/K4n2 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rc4+",
+      "nl": "Tc4+",
+      "fenAfter": "8/8/8/8/1pR2k2/1P4p1/8/K4n2 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/8/8/8/1pR5/1P3kp1/8/K4n2 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rc3+",
+      "nl": "Tc3+",
+      "fenAfter": "8/8/8/8/1p6/1PR2kp1/8/K4n2 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/1p6/1PR3p1/4k3/K4n2 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.a.18",
+      "ply": 18,
+      "san": "Ne3",
+      "nl": "Pe3?",
+      "fenAfter": "8/8/8/8/1p6/1PR1nkp1/8/K7 w - - 18 10",
+      "variant": "main.a",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/8/8/1p6/1PR3p1/4k3/1K3n2 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.b.18",
+      "ply": 18,
+      "san": "Kg4",
+      "nl": "Kg4?",
+      "fenAfter": "8/8/8/8/1p4k1/1PR3p1/8/K4n2 w - - 18 10",
+      "variant": "main.b",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.b.19",
+      "ply": 19,
+      "san": "Rc8",
+      "nl": "Tc8",
+      "fenAfter": "2R5/8/8/8/1p4k1/1P4p1/8/K4n2 b - - 19 10",
+      "variant": "main.b",
+      "parent": "main.b.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Wit tracht de zwarte promotie te\nverhinderen met",
+      "after": "10.Tc2+      Pd2       11.Tc1        Kf2       12.Td1         Pf1\n\nPe2 12.Tb1 en zwart komt niet\n    verder.\n\nSchijnbaar heeft wit geen goede\nzet meer, maar:\n\nen pat is een feit.\n\nHet is een uitbreiding van een eer-\ndere versie die toen door Roger\nMissiaen  beschouwd  werd  als\n“Beautiful and original.”",
+      "beforeVariant": {
+        "main.a": "want  1.Ta8+?  Kf7  2.Ta7+  Kf6\n\npromoveert.\n\nFout is 3.Td1? Pd2+ 4.Kc2(Ka1)\nPf1 5.Td7+ Kf6 6.Td6+ Kf5 7.Td5+\nKf4 8.Td4+ Kf3 9.Td3+ Ke2 en\nzwart wint.\n\nDe witte vorst kruipt veilig in het\nhoekje. En niet 4.Kc2? Pf1.\n\nVeld g3 is gedekt. En indien zwart",
+        "main.b": "witte koning  vrij: 10.Tc1 Kf2"
+      }
+    }
+  }
+}

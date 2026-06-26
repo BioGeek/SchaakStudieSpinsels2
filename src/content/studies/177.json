@@ -1,0 +1,182 @@
+{
+  "number": 177,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "EBUR, 2001",
+  "gbr": "3111.01 c3c8",
+  "fen": "2k5/7q/1p6/3R1N2/6B1/2K5/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "2k5/7q/1p6/3R4/3N2B1/2K5/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k6/7q/1p6/3R4/3N2B1/2K5/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Ne6+",
+      "nl": "Pe6+",
+      "fenAfter": "1k6/7q/1p2N3/3R4/6B1/2K5/8/8 b - - 3 2",
+      "variant": "A",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k5q/1p2N3/3R4/6B1/2K5/8/8 w - - 4 3",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Bf3+",
+      "nl": "Lf3+",
+      "fenAfter": "8/1k5q/1p2N3/3R4/8/2K2B2/8/8 b - - 5 3",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/7q/kp2N3/3R4/8/2K2B2/8/8 w - - 6 4",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "B.3",
+      "ply": 3,
+      "san": "Rd8+",
+      "nl": "Td8+",
+      "fenAfter": "1k1R4/7q/1p6/8/3N2B1/2K5/8/8 b - - 3 2",
+      "variant": "B",
+      "parent": "main.2"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "3R4/2k4q/1p6/8/3N2B1/2K5/8/8 w - - 4 3",
+      "variant": "B",
+      "parent": "B.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Ne6+",
+      "nl": "Pe6+",
+      "fenAfter": "3R4/2k4q/1p2N3/8/6B1/2K5/8/8 b - - 5 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "3R4/7q/1pk1N3/8/6B1/2K5/8/8 w - - 6 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Bf3+",
+      "nl": "Lf3+",
+      "fenAfter": "3R4/7q/1pk1N3/8/8/2K2B2/8/8 b - - 7 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "3R4/7q/1p2N3/1k6/8/2K2B2/8/8 w - - 8 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "3R4/7q/1p6/1k6/3N4/2K2B2/8/8 b - - 9 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "3R4/7q/kp6/8/3N4/2K2B2/8/8 w - - 10 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ra8+",
+      "nl": "Ta8+",
+      "fenAfter": "R7/7q/kp6/8/3N4/2K2B2/8/8 b - - 11 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Qa7",
+      "nl": "Da7",
+      "fenAfter": "R7/q7/kp6/8/3N4/2K2B2/8/8 w - - 12 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Rxa7+",
+      "nl": "Txa7+",
+      "fenAfter": "8/R7/kp6/8/3N4/2K2B2/8/8 b - - 0 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kxa7",
+      "nl": "Kxa7",
+      "fenAfter": "8/k7/1p6/8/3N4/2K2B2/8/8 w - - 0 8",
+      "variant": "B",
+      "parent": "B.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "1.Pd4+, moeilijk te vinden.\n\n2.Lf3 Dh8+ 3.Kd3 Db2 4.Ke3 Dc1+ 5.Kf2 Kb7 6.Td1+ Kb8 7.Td8 Dc8+\n\n(7…Ka6  8.Ta8  Dxa8  9.Lxa8.)\n\nvolgende zet wordt de dame ge-\nnomen.\n\nEn ook hier  zijn loper en paard\nvoldoende voor de winst.\n\nIn deze studie  is de eerste zet:\n\nRoger Missiaen veroverde de Eer-\nste Prijs in het Rinck MT (1953)\nmet de studie:\n\nKc3 Td7 Lg4 Pb5 / Kc5 De8 b6 +\n\ndie als oplossing had: 1.Td5+ Kc6\n\nen 8.Txc8+\n\nJammer voor Roger, maar ik vond\neen nevenoplossing: Ook 4.Pd4+\nKc7 5.Pe6+ Kc6 6.Ke3 Db4 7.Td4+\nKb5 8.Txb4+ Kxb4, maar wit wint\nook hier.\n    De studie verscheen als represen-\n      tatief voor zijn oeuvre in het Tor-\n    nooiboek voor de Toekomst van\n    René Olthof.\n\n    Roger vroeg mij toen of ik zijn mi-\n      niatuurtje kon verbeteren. Ik  wij-\n     zigde de beginstand zodat de cor-\n     recte oplossing nu één zet langer\n    werd en er een tweede variant bij-\n    kwam.",
+      "beforeVariant": {
+        "B": "2Td8+       Kc7\n\nDg7+ is een onnodige omweg van\néén zet. Men zie:\n\nWit wint."
+      }
+    }
+  }
+}

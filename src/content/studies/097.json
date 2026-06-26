@@ -1,0 +1,45 @@
+{
+  "number": 97,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 2000",
+  "gbr": "4001.01 g2c1",
+  "fen": "7Q/8/8/8/8/8/qN3pK1/2k5 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "7Q/8/8/8/8/3N4/q4pK1/2k5 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "7Q/8/8/8/8/3N4/q4pK1/1k6 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qh1+",
+      "nl": "Dh1+",
+      "fenAfter": "8/8/8/8/8/3N4/q4pK1/1k5Q b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Nu de dame terug is van wegge-\nweest daalt ze de trap af.\n\nKb2 9.Df6+ is een onnodige om-\nweg. (Zie zet 8.)\n\nOok hier is 8.Pd3+? Kb3 9.De6+\nKc2 10.Pb4+ Kb2 11.De5+ weer-\nom tijdverlies. Zie zet 10.)\n\nEn nu:\n\nKa2 17.Da4 en nogmaals een on-\nnodige omweg. (Zie zet 15.)\n\nen eindelijk mat.\n\nIn het Birnov MT Molodoj Leninets\n(1985) kreeg I. Galushko een eer-\nvolle vermelding voor de maljutka:\n\nKg2 Dh8 Pb2 / Kc1 Da1 +\n\nNa de acht bovenstaande zetten\nging hij verder met: 9.Df5+? zoals\nin  mijn  correctie, maar  hier  is\n\nKa2 11.Df7+ Ka3 12.Da7+ Kb3\n\nIk verbeterde en verfraaide dus de\nstudie door er een dreigende zwar-\nte pion aan toe te voegen.",
+      "beforeVariant": {}
+    }
+  }
+}
