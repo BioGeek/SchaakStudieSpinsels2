@@ -101,7 +101,36 @@ def check(study: dict) -> dict:
         if (wk, bk) != ks:
             reasons.append(f"kings {(wk, bk)} != GBR {ks}")
 
+    bad = first_inconsistent_move(study)
+    if bad:
+        reasons.append(f"move {bad} not reachable from its parent (broken move-tree)")
+
     return {"study": study["number"], "ok": not reasons, "reasons": reasons}
+
+
+def first_inconsistent_move(study: dict) -> str | None:
+    """Return the id of the first move whose SAN doesn't yield its recorded
+    fenAfter from its parent's position, or None if the whole tree is sound.
+
+    Each move must be legal from its parent (the study FEN for root moves) and
+    land on exactly the position it claims. This catches inline side-lines that
+    were merged into a variant with a wrong parent link — the kind of breakage
+    a plain move-count check sails straight past.
+    """
+    by_id = {m["id"]: m for m in study["moves"]}
+    for m in study["moves"]:
+        parent_fen = study["fen"] if not m["parent"] else by_id.get(m["parent"], {}).get("fenAfter")
+        if parent_fen is None:
+            return m["id"]
+        board = chess.Board(parent_fen)
+        try:
+            board.push_san(m["san"])
+        except (chess.IllegalMoveError, chess.InvalidMoveError, chess.AmbiguousMoveError, ValueError):
+            return m["id"]
+        # Compare placement + side-to-move; ignore clock/ep fields.
+        if board.fen().split()[:2] != m["fenAfter"].split()[:2]:
+            return m["id"]
+    return None
 
 
 def main() -> None:

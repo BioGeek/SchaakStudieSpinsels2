@@ -67,7 +67,7 @@ De pijplijn heeft `data/schaakstudiespinsels2.pdf` en `data/template.png` nodig.
 
 De FEN kan handmatig overschreven worden: `--fen` op de commandolijn > `data/exemplar/<N>/fen_override.txt` > de classifier.
 
-Op dit moment zijn 238 van de 308 studies ingelezen en gepubliceerd; alle 238 slagen voor `verify_studies.py` (de GBR-materiaalcontrole).
+Op dit moment zijn 250 van de 308 studies ingelezen en gepubliceerd; 231 daarvan slagen voor `verify_studies.py` (GBR-materiaal, koningsvelden en consistentie van de zettenboom). De 19 overige hebben een gekende fout in de verwerking van ingebedde zijvarianten.
 
 ## Publiceren naar GitHub Pages
 
