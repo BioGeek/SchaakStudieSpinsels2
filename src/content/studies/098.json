@@ -1,0 +1,72 @@
+{
+  "number": 98,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EBUR, 2005",
+  "gbr": "0131.01 h2d1",
+  "fen": "8/8/1R6/8/7b/4p3/6NK/3k4 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "8/8/1R6/8/7b/8/4p1NK/3k4 w - - 0 2",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rb1+",
+      "nl": "Tb1+",
+      "fenAfter": "8/8/8/8/7b/8/4p1NK/1R1k4 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/8/8/7b/8/2k1p1NK/1R6 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "8/8/8/8/7b/8/2k1p1NK/7R b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bf2",
+      "nl": "Lf2",
+      "fenAfter": "8/8/8/8/8/8/2k1pbNK/7R w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/8/8/8/8/7K/2k1pbN1/7R b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De pion dreigt te promoveren na",
+      "after": "Niet goed is 2.Te6? e1D 3.Pxe1\nLxe1.\n\nEen  niet zo vlug te vinden  zet.\nWant na bijvoorbeeld  3.Ta1? Lf2\n\nK(L)xe1 is het gelijkspel.\n\nEindelijk remise hoopt zwart, want\nna 6…Kd3? zou wit winnen met\n\nDoch niets is minder waar:\n\nEn dan:\n\nEn  plots  is de loper gevangen.\n    Verrassend mooi. Wit wint na bij-\n     voorbeeld 8…Kd1? het snelst met\n\nHet driemanschap Salov-Kricheli-\n     Kralin veroverde ten onrechte de\n     eerste prijs in het Arsjakov-50 JT\n     (1989) met deze ministudie:\n\n    Kh1 Tb7 Pc4 / Kf5 Lf6 e2 +\n\n    en  als  oplossing:  1.Pe3+ Ke4\n\nde loper valt.\n\n    Maar het is remise na 3.Kh2? Lh4\n\nIk trachte nog de studie te redden\n     door 3.Pe1+? te spelen (in plaats\n    van 3.Kh2 dus) 3…Kd2 4.Tb1 Lh4\n\nmet zowel 6.Ta1+ als met 6.Tg1+.\n    Dus nevenoplosbaar.\n\n    Opdat echter het verrassend mooi\n     einde, gevonden door het knappe\n       trio, niet verloren zou gaan ver-\n     werkte ik hun idee in de boven-\n    staande  verkorte   verrsie,  met\n     zwart aan zet.",
+      "beforeVariant": {}
+    }
+  }
+}

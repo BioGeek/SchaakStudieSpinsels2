@@ -1,0 +1,81 @@
+{
+  "number": 298,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel, 2008",
+  "gbr": "1061.12 f1d6",
+  "fen": "8/8/3kb2N/p7/3P4/6p1/3b2Q1/5K2 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bc4+",
+      "nl": "Lc4+",
+      "fenAfter": "8/8/3k3N/p7/2bP4/6p1/3b2Q1/5K2 w - - 1 2",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/8/3k3N/p7/2bP4/6p1/3b2Q1/6K1 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Be3+",
+      "nl": "Le3+",
+      "fenAfter": "8/8/3k3N/p7/2bP4/4b1p1/6Q1/6K1 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/3k3N/p7/2bP4/4b1p1/6Q1/7K b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "8/8/3k3N/p2b4/3P4/4b1p1/6Q1/7K w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf7+",
+      "nl": "Pf7+",
+      "fenAfter": "8/5N2/3k4/p2b4/3P4/4b1p1/6Q1/7K b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/5N2/4k3/p2b4/3P4/4b1p1/6Q1/7K w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na 1…Lxh6 komt de dame in aktie\nmet winst, maar zwart heeft een\nverrassing in petto:",
+      "after": "Nu  is de dame ten dode opge-\nschreven.\n\nFout  is het  verleidelijke 4.Pf5+?\nKe6  5.Pxe3  Lxg2+  6.Kxg2  a4\n\na1D, met remise.\n\nNa 4…Lxf7? zou de dame met\n\nOok hier is het paard slaan met de\n     loper uit den boze, de koning moet\n    deze  laatste  blijven dekken. Na\n\nen de dame komt in het spel, met\n     winst.\n\nVoor de vierde maal is het paard\n     onaantastbaar.\n\nDaar gaat de dame, maar wit wint\n     na:\n\nIk  verkies deze vereenvoudigde\n      stelling boven een eerdere gelijk-\n     aardige studie in dit boek, name-\n        lijk nummer - 295 - Maar ik vind\n    geen goede eerste zet voor wit.\n\n    Zodus…\n\n    Een vorige nevenoplosbare versie\n      uit 2002 verscheen in De Morgen.\n    De rubriekleider Wouter Janssens\n    reageerde toen aldus:”De witte d-\n     pion brengt de beslissing, maar de\n     glansrol is voor het witte paard, in\n    een  lichtvoetig maar  perfect en\n     typisch mechaniekje. Met dit soort\n     constructies vergaarde Vandecas-\n     teele  volkomen  terecht  wereld-\n     faam.”",
+      "beforeVariant": {}
+    }
+  }
+}

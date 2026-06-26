@@ -92,6 +92,11 @@ def dutch_to_san(move: str) -> str:
     annotation marks ("?"/"!"/"~") that python-chess rejects. Returns the
     cleaned SAN; callers keep the original Dutch for display.
     """
+    # Castling — the book writes it with zeros ("0-0", "0-0-0"); python-chess
+    # wants capital O's. Keep a trailing check/mate marker, drop annotations.
+    cm = re.fullmatch(r"[0O]-[0O](-[0O])?([+#])?[?!~]*", move)
+    if cm:
+        return ("O-O-O" if cm.group(1) else "O-O") + (cm.group(2) or "")
     # Leading piece letter
     if move and move[0] in NL_TO_EN:
         move = NL_TO_EN[move[0]] + move[1:]
@@ -269,6 +274,9 @@ def extract_moves_from_lines(lines: list[str]) -> list[tuple[int, bool, str]]:
             return None
         if "/" in tok:
             tok = tok.split("/", 1)[0]  # keep first alternative
+        # Castling, written with zeros in the book ("0-0", "0-0-0").
+        if re.fullmatch(r"[0O]-[0O](?:-[0O])?[+#!?]*", tok):
+            return tok
         if MOVE_RE.fullmatch(tok):
             return tok
         # Wildcard shorthand like "K~" (any king move, destination not
@@ -397,6 +405,26 @@ def apply_moves(
     return out, last_id
 
 
+def _is_clean_move_row(line: str) -> bool:
+    """True for a genuine move-table row, False for prose.
+
+    A real row (``"1…  Ka1"``, ``"2.0-0-0+   Kg2"``) reduces to nothing once
+    move numbers, markers, sub-variant labels, parentheticals and move tokens
+    are removed. A prose sentence that happens to start with a move number —
+    a refutation like ``"1…Pe7+ en 2…Pxg8. Of:"`` — leaves real words behind,
+    so it must not be trusted to decide side-to-move or castling rights.
+    """
+    s = re.sub(r"\([^)]*\)", " ", line)                    # parenthetical asides
+    s = re.sub(r"\b[a-z]\)", " ", s)                        # sub-variant labels a) b)
+    s = re.sub(r"\d+\s*(?:\.+|…)+|\.\.\.|…", " ", s)        # move numbers + markers
+    s = re.sub(r"[0O]-[0O](?:-[0O])?[+#!?~]*", " ", s)      # castling
+    s = re.sub(r"[KDTLP]~[+#!?~]*", " ", s)                 # wildcard ("K~")
+    s = re.sub(
+        r"[KDTLP]?[a-h]?[1-8]?[x:]?[a-h][1-8](?:=?[DTLP])?[+#!?~]*", " ", s
+    )  # ordinary moves
+    return not s.strip(" .,:;")
+
+
 def parse_study(
     text: str,
     start_fen: str,
@@ -407,6 +435,49 @@ def parse_study(
     text = scrub_controls(text)
     sections = split_sections(text)
     tokens = tokenize_body(sections["body"])
+
+    # The diagram fixes the pieces but not whose turn it is, nor castling
+    # availability — both are implied by the solution, not the picture. The
+    # classifier always emits a white-to-move FEN with no castling rights, so
+    # derive these from the moves before play begins. Only *clean* move-table
+    # rows are trusted: a prose line that merely starts with a move number
+    # (e.g. a refutation "1…Pe7+ en 2…Pxg8") must not drive the decision.
+    clean_lines = [
+        ln
+        for tok in tokens
+        if tok["kind"] == "moves"
+        for ln in tok["lines"]
+        if _is_clean_move_row(ln)
+    ]
+    flow_tuples = extract_moves_from_lines(clean_lines) if clean_lines else []
+    if flow_tuples:
+        parts = start_fen.split()
+        if len(parts) >= 2:
+            # Side to move: flip if the first move of the study is Black's
+            # (the book writes "1… …").
+            parts[1] = "w" if flow_tuples[0][1] else "b"
+            start_fen = " ".join(parts)
+        # Castling rights: grant the right implied by each castling move whose
+        # rook actually still stands on its home square.
+        wanted = {
+            ("K" if is_white else "k")
+            if san.rstrip("+#!?~") in ("0-0", "O-O")
+            else ("Q" if is_white else "q")
+            for _, is_white, san in flow_tuples
+            if re.match(r"[0O]-[0O]", san)
+        }
+        if wanted:
+            board = chess.Board(start_fen)
+            home = {
+                "K": (chess.H1, chess.WHITE), "Q": (chess.A1, chess.WHITE),
+                "k": (chess.H8, chess.BLACK), "q": (chess.A8, chess.BLACK),
+            }
+            for c in wanted:
+                sq, colour = home[c]
+                pc = board.piece_at(sq)
+                if pc and pc.piece_type == chess.ROOK and pc.color == colour:
+                    board.castling_rights |= chess.BB_SQUARES[sq]
+            start_fen = board.fen()
 
     all_moves: list[Move] = []
     prose_before: list[str] = []

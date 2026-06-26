@@ -4,33 +4,42 @@
   "chapterNumber": 4,
   "source": "Probleemblad, 2009-10",
   "gbr": "0140.11 h3c3",
-  "fen": "8/8/7R/8/P7/p1k2b1K/8/6B1 w - - 0 1",
+  "fen": "8/8/7R/8/P7/p1k2b1K/8/6B1 b - - 0 1",
   "stipulation": "+",
   "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "a2",
+      "nl": "a2",
+      "fenAfter": "8/8/7R/8/P7/2k2b1K/p7/6B1 w - - 0 2",
+      "variant": "main",
+      "parent": null
+    },
     {
       "id": "main.3",
       "ply": 3,
       "san": "Rh4",
       "nl": "Th4",
-      "fenAfter": "8/8/8/8/P6R/p1k2b1K/8/6B1 b - - 1 1",
+      "fenAfter": "8/8/8/8/P6R/2k2b1K/p7/6B1 b - - 1 2",
       "variant": "main",
-      "parent": null
+      "parent": "main.2"
     },
     {
       "id": "main.a.3",
       "ply": 3,
       "san": "Rd6",
       "nl": "Td6?",
-      "fenAfter": "8/8/3R4/8/P7/p1k2b1K/8/6B1 b - - 1 1",
+      "fenAfter": "8/8/3R4/8/P7/2k2b1K/p7/6B1 b - - 1 2",
       "variant": "main.a",
-      "parent": null
+      "parent": "main.2"
     },
     {
       "id": "main.a.4",
       "ply": 4,
       "san": "Bd5",
       "nl": "Ld5",
-      "fenAfter": "8/8/3R4/3b4/P7/p1k4K/8/6B1 w - - 2 2",
+      "fenAfter": "8/8/3R4/3b4/P7/2k4K/p7/6B1 w - - 2 3",
       "variant": "main.a",
       "parent": "main.a.3"
     },
@@ -39,25 +48,34 @@
       "ply": 5,
       "san": "Rxd5",
       "nl": "Txd5",
-      "fenAfter": "8/8/8/3R4/P7/p1k4K/8/6B1 b - - 0 2",
+      "fenAfter": "8/8/8/3R4/P7/2k4K/p7/6B1 b - - 0 3",
       "variant": "main.a",
       "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "8/8/8/3R4/P7/2k4K/8/q5B1 w - - 0 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
     },
     {
       "id": "main.b.3",
       "ply": 3,
       "san": "Bh2",
       "nl": "Lh2?",
-      "fenAfter": "8/8/7R/8/P7/p1k2b1K/7B/8 b - - 1 1",
+      "fenAfter": "8/8/7R/8/P7/2k2b1K/p6B/8 b - - 1 2",
       "variant": "main.b",
-      "parent": null
+      "parent": "main.2"
     },
     {
       "id": "main.b.4",
       "ply": 4,
       "san": "Kd4",
       "nl": "Kd4",
-      "fenAfter": "8/8/7R/8/P2k4/p4b1K/7B/8 w - - 2 2",
+      "fenAfter": "8/8/7R/8/P2k4/5b1K/p6B/8 w - - 2 3",
       "variant": "main.b",
       "parent": "main.b.3"
     },
@@ -66,16 +84,34 @@
       "ply": 5,
       "san": "Re6",
       "nl": "Te6",
-      "fenAfter": "8/8/4R3/8/P2k4/p4b1K/7B/8 b - - 3 2",
+      "fenAfter": "8/8/4R3/8/P2k4/5b1K/p6B/8 b - - 3 3",
       "variant": "main.b",
       "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "8/8/4R3/8/P2k4/5b1K/7B/q7 w - - 0 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Be5+",
+      "nl": "Le5+",
+      "fenAfter": "8/8/4R3/4B3/P2k4/5b1K/8/q7 b - - 1 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
     },
     {
       "id": "main.4",
       "ply": 4,
       "san": "Be4",
       "nl": "Le4",
-      "fenAfter": "8/8/8/8/P3b2R/p1k4K/8/6B1 w - - 2 2",
+      "fenAfter": "8/8/8/8/P3b2R/2k4K/p7/6B1 w - - 2 3",
       "variant": "main",
       "parent": "main.3"
     },
@@ -84,7 +120,7 @@
       "ply": 5,
       "san": "Bh2",
       "nl": "Lh2",
-      "fenAfter": "8/8/8/8/P3b2R/p1k4K/7B/8 b - - 3 2",
+      "fenAfter": "8/8/8/8/P3b2R/2k4K/p6B/8 b - - 3 3",
       "variant": "main",
       "parent": "main.4"
     },
@@ -93,7 +129,7 @@
       "ply": 10,
       "san": "Kd4",
       "nl": "Kd4",
-      "fenAfter": "8/8/8/8/P2kb2R/p6K/7B/8 w - - 4 3",
+      "fenAfter": "8/8/8/8/P2kb2R/7K/p6B/8 w - - 4 4",
       "variant": "main",
       "parent": "main.5"
     },
@@ -102,7 +138,7 @@
       "ply": 11,
       "san": "Rh5",
       "nl": "Th5",
-      "fenAfter": "8/8/8/7R/P2kb3/p6K/7B/8 b - - 5 3",
+      "fenAfter": "8/8/8/7R/P2kb3/7K/p6B/8 b - - 5 4",
       "variant": "main",
       "parent": "main.10"
     },
@@ -111,17 +147,17 @@
       "ply": 12,
       "san": "Bf5",
       "nl": "Lf5",
-      "fenAfter": "8/8/8/5b1R/P2k4/p6K/7B/8 w - - 6 4",
+      "fenAfter": "8/8/8/5b1R/P2k4/7K/p6B/8 w - - 6 5",
       "variant": "main",
       "parent": "main.11"
     }
   ],
   "prose": {
     "nl": {
-      "before": "Zwart dreigt te promoveren na\n\nwaarop wit repliceert met",
+      "before": "Zwart dreigt te promoveren na",
       "after": "Kd5 5.Lxa1 Kxe6  is het ook\n    remise. Of  hier  faalt 3.Th4+\n   Kd5 4.Tf4 a1D 5.Txf3 Dxa4, en\n   geen winst. (Nalimov E.T.)\n\nWit wint na: 2…Kb3? 3.Ld4 Kxa4\nmet bijvoorbeeld 4.Kg3  in maxi-\nmum 27 zetten (Nalimov E.T.)\n\nEn niet het gulzige 3.Txe4? a1D\n\nKxe4, remise. Ook hier na 7.Te3+\nKxe3 8.Lxa1 Ke4, enzovoort.\n\nNu rukt de pion op tot het winnen-\nde promotieveld, daar de zwarte\nkoning buiten het kwadraat staat.\n\nDit is een correctie van de studie:\n\nKh3 Th6 Lg1 a3 a4 / Kc3 Lf3 a2+\n\ndie in de eerste uitgave van het\nboek SchaakStudieSpinselS  ver-\nscheen in 2008.\n Want na 1.Th4 Le4 slaat wit in\nplaats van 2.Lh2 enzovoort, nu\ntoch 2.Txe4! met 2...e1D 3.Ld4+\nKd3 4.Lxa1 Kxe4 5.a5 Kd5 6.a6\nKc6 en nu 7.Ld4! Kc7 8.La7! Kc6\n\nbieden voor de winst.\nNevenoplosbaar dus Er was, hoe\nraar dan ook, een witte pion te\nveel!\n\nFernand Joseph vond het: “Een\nfraaie en slinkse manoeuvre.”\n\nIn Finales…y Temas schreef José\nA. Copié: “Y promociona por que\ndejan fuera del cuadrado al Rey\nnegro. La presentación Y de  la\nobra es muy atractiva pues parece\ncomplicado detener la promoción\nque amenazan las negras y a la\nvez eludir la situación de ta-blas\nteóricas, pero Vandecasteele  lo\nlogra mediante las  finas manio-\nbras ideadas.”\n\nIn Probleemblad,  en later ook in\nEG, vond de prijsrechter Yocha-\nnan Afek  dat: “A  capture-delay\nprovides the essential tempo for\nwinning  the  eventual pawn  en-\nding. The attractive mini systema-\ntic manoevre is a correction of the\nauthor’s HhdbIV 74988.”",
       "beforeVariant": {
-        "main.a": "en de dreiging 3.Ld4+.\nNiet goed is:",
+        "main.a": "waarop wit repliceert met\n\nen de dreiging 3.Ld4+.\nNiet goed is:",
         "main.b": "zwart houdt remise daar zijn\n    koning veld a8 bereikt. En na"
       }
     }

@@ -1,0 +1,101 @@
+{
+  "number": 217,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2016",
+  "gbr": "0410.02 b5a8",
+  "fen": "k1r5/7R/8/1K6/6B1/8/3pp3/8 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1kr5/7R/8/1K6/6B1/8/3pp3/8 w - - 1 2",
+      "variant": "A",
+      "parent": null
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "1kr5/1R6/8/1K6/6B1/8/3pp3/8 b - - 2 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k1r5/1R6/8/1K6/6B1/8/3pp3/8 w - - 3 3",
+      "variant": "A",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Rb6+",
+      "nl": "Tb6+",
+      "fenAfter": "k1r5/8/1R6/1K6/6B1/8/3pp3/8 b - - 4 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "2r5/k7/1R6/1K6/6B1/8/3pp3/8 w - - 5 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Ra6+",
+      "nl": "Ta6+",
+      "fenAfter": "2r5/k7/R7/1K6/6B1/8/3pp3/8 b - - 6 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1kr5/8/R7/1K6/6B1/8/3pp3/8 w - - 7 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "1kr5/8/RK6/8/6B1/8/3pp3/8 b - - 8 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Rc6+",
+      "nl": "Tc6+",
+      "fenAfter": "1k6/8/RKr5/8/6B1/8/3pp3/8 w - - 9 6",
+      "variant": "A",
+      "parent": "A.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Er dreigen twee zwartepromoties.\nNa 1.Lxe2? of 1.Lxc8? volgt on-\nmiddellijk 1…d8D, met remise.\nDus:\n       1Lf3+",
+      "after": "1…          Tc6        2.Lxc6      Kb8        3.Kb6        d(e)1D        4.Th8        Kd(e)8+        5.Txd(e)8+\n\nEveneens mat.\n\nWit was hier blijkbaar niet bang\nvan de twee  dreigende  zwarte\npionnen.\n\nBijna - M\nMiniaturen\n\n  Ook de meest orthodoxe communist\n   verdedigt in het eindspel zijn koning\n                                 (Brana Crnčvič)",
+      "beforeVariant": {
+        "B": "doende volgens Nalimov.\n\nEn wint."
+      }
+    }
+  }
+}

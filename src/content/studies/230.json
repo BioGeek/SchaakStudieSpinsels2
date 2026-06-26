@@ -1,0 +1,182 @@
+{
+  "number": 230,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Tijdschrift van de KNSB,1991",
+  "gbr": "0301.32 f3h4",
+  "fen": "8/2P5/7N/5p2/1P5k/5K1p/1r5P/8 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "A.2",
+      "ply": 2,
+      "san": "Rb3+",
+      "nl": "Tb3+",
+      "fenAfter": "8/2P5/7N/5p2/1P5k/1r3K1p/7P/8 w - - 1 2",
+      "variant": "A",
+      "parent": null
+    },
+    {
+      "id": "A.3",
+      "ply": 3,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/2P5/7N/5p2/1P5k/1r5p/4K2P/8 b - - 2 2",
+      "variant": "A",
+      "parent": "A.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Rc3",
+      "nl": "Tc3",
+      "fenAfter": "8/2P5/7N/5p2/1P5k/2r4p/4K2P/8 w - - 3 3",
+      "variant": "A",
+      "parent": "A.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "Nxf5+",
+      "nl": "Pxf5+",
+      "fenAfter": "8/2P5/8/5N2/1P5k/2r4p/4K2P/8 b - - 0 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/2P5/8/5Nk1/1P6/2r4p/4K2P/8 w - - 1 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Ng7",
+      "nl": "Pg7",
+      "fenAfter": "8/2P3N1/8/6k1/1P6/2r4p/4K2P/8 b - - 2 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2P3N1/5k2/8/1P6/2r4p/4K2P/8 w - - 3 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "8/2P3N1/5k2/1P6/8/2r4p/4K2P/8 b - - 0 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/2P1k1N1/8/1P6/8/2r4p/4K2P/8 w - - 1 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "b6",
+      "nl": "b6",
+      "fenAfter": "8/2P1k1N1/1P6/8/8/2r4p/4K2P/8 b - - 0 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/2Pk2N1/1P6/8/8/2r4p/4K2P/8 w - - 1 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Ne8",
+      "nl": "Pe8",
+      "fenAfter": "4N3/2Pk4/1P6/8/8/2r4p/4K2P/8 b - - 2 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k1N3/2P5/1P6/8/8/2r4p/4K2P/8 w - - 3 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "2k5/2P5/1P1N4/8/8/2r4p/4K2P/8 b - - 4 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/2Pk4/1P1N4/8/8/2r4p/4K2P/8 w - - 5 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Nb5",
+      "nl": "Pb5",
+      "fenAfter": "8/2Pk4/1P6/1N6/8/2r4p/4K2P/8 b - - 6 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Rxc7",
+      "nl": "Txc7",
+      "fenAfter": "8/2rk4/1P6/1N6/8/7p/4K2P/8 w - - 0 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "bxc7",
+      "nl": "bxc7",
+      "fenAfter": "8/2Pk4/8/1N6/8/7p/4K2P/8 b - - 0 10",
+      "variant": "A",
+      "parent": "A.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Deze studie heb ik gecomponeerd\nnadat de correcte versie, op de\nvorige  bladzijde  onterecht werd\nafgekeurd door de prijsrechter. En\nal  viel  ik nu met bovenstaande\nstudie in de prijzen, toch verkies ik\nde versie op de vorige bladzijde.\n\n                   W",
+      "after": "1…         Tc2        2.Pf5+      Kg5        3.Pd4 3.Pg7? Kf6 4.b5 Ke7 5.b6 Kd7 6.Pe8 Kc8 7.Pd6+ Kd7 8.Pb5 Kc8 9.Pa7+ Kb7 10.c8D Txc8 11.Pxc8\n\nKxc8 en pion h2 promoveert.\n\nWit wint in beide varianten.",
+      "beforeVariant": {
+        "B": "voorbeeld 9.Pd4 Txc7  of 9.Kd4\nTc2 10.K~ Txh2. Geen winst dus."
+      }
+    }
+  }
+}

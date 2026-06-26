@@ -1,0 +1,72 @@
+{
+  "number": 209,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "EG, 2011",
+  "gbr": "0014.00 e4b8",
+  "fen": "1k6/8/7B/8/N3K3/8/8/5n2 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ng3+",
+      "nl": "Pg3+",
+      "fenAfter": "1k6/8/7B/8/N3K3/6n1/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "1k6/8/7B/8/N4K2/6n1/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ne2+",
+      "nl": "Pe2+",
+      "fenAfter": "1k6/8/7B/8/N4K2/8/4n3/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "1k6/8/7B/8/N7/4K3/4n3/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nc1",
+      "nl": "Pc1",
+      "fenAfter": "1k6/8/7B/8/N7/4K3/8/2n5 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "1k6/8/7B/8/N2K4/8/8/2n5 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het mooie mat uit de vorige studie\nkan ook bereikt worden in deze\nfijne maljutja, met zwart aan zet.\n\nEr dreigt 2.Lf4 om het paard ge-\nvangen te zetten, dus:",
+      "after": "1...Pd2+ 2.Kd3 Pf1 3.Ke4 Pg3+ 4.Kf4 Ph5+ 5.Kg5 Pg7 6.Lc4+ Kf8 7.Kh6 Pe8 8.Pg6+ en mat.\n\n1.Kxe4 Pg3+ enzovoort. Wit wint.\n\nEn niet 4.Kd2? Pb3+ 5.Kc3 Pa5\n\nEn mat.\n\nHier geen pion nodig of teveel.\nDeze studie hoort eigenlijk thuis in\nde rubriek Maljutkas, maar ik vind\nze hier beter op haar plaats, in\nverband met de vorige studie.\n\nLater ontdekte ik dat Julien Van-\ndiest reeds  in The Independent\n(2002) een gespiegelde maljutka\nhad vertoond:\n\nKc4 La6 Ph4 / Kg8 Pb1+ ZAZ\n\nMijn versie is wel één zet langer.\n\nJarl schreef:  “I do not like positi-\nons with Black to move although\nwe meet them regularly in EG.  It\nsignals that the composer has not\nbeen able to realize the idea in a\nperfect form. I challenge Ignace to\nfind a  position  in which White\nwins”.\n\nIk aanvaard hier deze uitdaging :\n\nKe5 Lh6 Pa4 / Kb8 Pf1 e4 +\n\nOf dit nu mooier is?\n\nEn zie ook de volgende studie.",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "number": 14,
+  "chapter": "Manke Maljutka's",
+  "chapterNumber": 1,
+  "source": "EBUR, 2002",
+  "gbr": "3200.00 e1h1",
+  "fen": "8/7q/8/8/8/R7/8/R3K2k w Q - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "O-O-O+",
+      "nl": "0-0-0+",
+      "fenAfter": "8/7q/8/8/8/R7/8/2KR3k b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/7q/8/8/8/R7/6k1/2KR4 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rd2+",
+      "nl": "Td2+",
+      "fenAfter": "8/7q/8/8/8/R7/3R2k1/2K5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/7q/8/8/8/R7/3R4/2K2k2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ra1",
+      "nl": "Ta1",
+      "fenAfter": "8/7q/8/8/8/8/3R4/R1K2k2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/7q/8/8/8/8/3R4/R1K1k3 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rg2",
+      "nl": "Tg2",
+      "fenAfter": "8/7q/8/8/8/8/6R1/R1K1k3 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/7q/8/8/8/8/6R1/R1K2k2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rc2",
+      "nl": "Tc2",
+      "fenAfter": "8/7q/8/8/8/8/2R5/R1K2k2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Qg7",
+      "nl": "Dg7",
+      "fenAfter": "8/6q1/8/8/8/8/2R5/R1K2k2 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/6q1/8/8/8/8/2R5/RK3k2 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/6q1/8/8/8/8/2R5/RK4k1 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ka2+",
+      "nl": "Ka2+",
+      "fenAfter": "8/6q1/8/8/8/8/K1R5/R5k1 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.a.13",
+      "ply": 13,
+      "san": "Rd2",
+      "nl": "Td2?",
+      "fenAfter": "8/6q1/8/8/8/8/3R4/RK4k1 b - - 13 7",
+      "variant": "main.a",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.a.14",
+      "ply": 14,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/6q1/8/8/8/8/3R4/RK3k2 w - - 14 8",
+      "variant": "main.a",
+      "parent": "main.a.13"
+    },
+    {
+      "id": "main.a.15",
+      "ply": 15,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/6q1/8/8/8/8/K2R4/R4k2 b - - 15 8",
+      "variant": "main.a",
+      "parent": "main.a.14"
+    },
+    {
+      "id": "main.b.13",
+      "ply": 13,
+      "san": "Re2",
+      "nl": "Te2?",
+      "fenAfter": "8/6q1/8/8/8/8/4R3/RK4k1 b - - 13 7",
+      "variant": "main.b",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/6q1/8/8/8/8/4R3/RK3k2 w - - 14 8",
+      "variant": "main.b",
+      "parent": "main.b.13"
+    },
+    {
+      "id": "main.b.15",
+      "ply": 15,
+      "san": "Rc2",
+      "nl": "Tc2",
+      "fenAfter": "8/6q1/8/8/8/8/2R5/RK3k2 b - - 15 8",
+      "variant": "main.b",
+      "parent": "main.b.14"
+    },
+    {
+      "id": "main.b.16",
+      "ply": 16,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/6q1/8/8/8/8/2R5/RK2k3 w - - 16 9",
+      "variant": "main.b",
+      "parent": "main.b.15"
+    },
+    {
+      "id": "main.b.17",
+      "ply": 17,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/6q1/8/8/8/8/K1R5/R3k3 b - - 17 9",
+      "variant": "main.b",
+      "parent": "main.b.16"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Qxa1+",
+      "nl": "Dxa1+",
+      "fenAfter": "8/8/8/8/8/8/K1R5/q5k1 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kxa1",
+      "nl": "Kxa1",
+      "fenAfter": "8/8/8/8/8/8/2R5/K5k1 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "(Zie zet 7.) ...\nBeide zijn onnodige omwegen.\n\nWit wint.\n\nVoor de oplossing van de neven--\nstaande stelling kreeg A. Kurjatni-\nkov de 3de prijs in Shakhmaty v\nSSSR (1979).\n\nHij  speelde  na  5.Tc2  de  zet\n\nKf2  8.Kd3+  Kf3  9.Tf1+  Kg3\n\ndame.\n\nMaar er is een tweede oplossing\nmet 6.Th2 Kg1 7.Te2 Dg7 8.Kb1\nKf1 9.Tc2 en bijvoorbeeld 9…Ke1\n\nDaarom mijn correctie.",
+      "beforeVariant": {
+        "main.a": "zet 5.)"
+      }
+    }
+  }
+}

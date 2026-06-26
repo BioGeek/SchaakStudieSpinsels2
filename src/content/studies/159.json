@@ -1,0 +1,75 @@
+{
+  "number": 159,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1977",
+  "gbr": "0045.00 f1e3",
+  "fen": "8/4BN2/4n3/b7/8/1N2k3/8/5K2 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ng5",
+      "nl": "Pg5",
+      "fenAfter": "8/4BN2/8/b5n1/8/1N2k3/8/5K2 w - - 1 2",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Nd8",
+      "nl": "Pd8?",
+      "fenAfter": "3n4/4BN2/8/b7/8/1N2k3/8/5K2 w - - 1 2",
+      "variant": "main.a",
+      "parent": null
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Bd8",
+      "nl": "Ld8?",
+      "fenAfter": "3b4/4BN2/4n3/8/8/1N2k3/8/5K2 w - - 1 2",
+      "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/4BN2/8/b5n1/8/1N2k3/6K1/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "Nh3",
+      "nl": "Ph3?",
+      "fenAfter": "8/4BN2/8/b7/8/1N2k2n/6K1/8 w - - 3 3",
+      "variant": "main.a",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/4BN2/8/b5n1/5k2/1N6/6K1/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Opgedragen aan Roger Missiaen.\n\nIn de regel winnen drie lichte stuk-\nken niet tegen twee lichte stukken.\nIn deze aristocratische miniatuur\nechter staan twee lichte stukken\n‘en prise’. Zwart mag beginnen met",
+      "after": "mat\nDe énige hoopvolle voortzetting is:\n\nEen mooie maar foute verleiding is\nhier 6.Pc6? Pf3 (dreigt 7…Ph4+ en\n\nloper ontsnapt met 8…Ld2,  re-\nmise.\n\nUitstel van executie.\n\nDreigt mat met 11.Pdf5+.\n\nen toch eindelijk mat.\n\nDe toenmalige rubriekleider Spin-\nhoven  schreef  indertijd  “Subtiel\nspel.”Het is een rechtstreekse mat-\nstudie waarin  alle stukken mee\nspelen en geen enkele wordt geno-\nmen.\n\nRoger vond het “Ongelooflijk fas-\ncinerend! Dat is de mooiste domi-\nnantiestudie, met dit materiaal, die\nik ooit zag.”\n\nEn nadat ik de zogezegde fout die\nRoger mij toeschreef (6.Pc6?) had\nweerlegd, voegde Julien Vandiest\ner aan toe in Flemish Miniatures:\n “So all’s well that moves well. It is\nalways  gratifying  to see  that a\nsplendid study contains even more\nwealth than its composer bargain-\nned for. The wizzard from Wilrijk\ntreading on ‘Missiaenic’ territory.”\n     In Finales…y temas stond: “Estu-\n     dio en donde la ausencia de peo-\n    nes la evoluciones hacen de esta\n     obra una creación muy agradable”\n\n    De aanleiding tot bovenstaand mi-\n      niatuurtje was de 1ste prijs in The\n     Problemist van C.M. Bent (1972):\n\n     Kf1 Le6 Pb3 Pe7 / Ke3 La5 Pg5 +\n\n    Met de fijne oplossing: 1.Lf5 Ld8\n\nzwarte.loper.",
+      "beforeVariant": {
+        "main.a": "Het beste:\n\nZwart valt opnieuw aan. 2…Ld2 is\nfout wegens 3.Pd5+ Kf3 4.Pxd2+.\n\nDe beurt is nu aan wit:\n\nNa 4…Kg3? 5.Pc6 Pe6 6.Lf7 Pg5\n\npaard op de volgende zet.\n\nDe énige juiste voortzetting.\nNa:\n\nKg6  8.Pf4+ Kg7, en wit komt\n     niet verder.\nNu, na de tekstzet, heeft noch de\nzwarte koning noch zijn paard een\ngoede zet, bijvoorbeeld:",
+        "main.b": "loperzet volgt een paardvork,\n    of bijvoorbeeld 2...Ld2 3.Pd5+\n   Ke4  4.Pxd2+)  3.La6  Ld8\n\nKf6  8.Lg8 Lc7  9.Pd5+  Kf5\n\nOok na:\n\nnoch"
+      }
+    }
+  }
+}
