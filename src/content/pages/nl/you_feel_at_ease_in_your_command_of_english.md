@@ -42,8 +42,6 @@ leads to elegance in bringing forth solutions partaking to what may be called
 boyish buoyancy. A Vandecasteele, in short, is always a model of enlightening lightness. Hence Ignace’s sudden kinship with Keats, for also his
 things of beauty may be called a joy for ever.
 
-26
-
 Up till now Ignace has published two books containing his chosen children.
 The first one 64 Studies op 64 Velden (no translation needed, I guess), was
 published in 1994 and shows us his major output from the start on. Flemish
