@@ -243,7 +243,9 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
     }
     .board-frame {
       position: sticky;
-      top: 1rem;
+      /* Clear the sticky site header (~60px) so the board's top rank isn't
+         hidden underneath it when the page is scrolled. */
+      top: 5rem;
     }
   }
 
