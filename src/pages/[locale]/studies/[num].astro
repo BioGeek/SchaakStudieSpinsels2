@@ -1,29 +1,37 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import StudyBoard from '../../../components/StudyBoard.astro';
+import StudyNav from '../../../components/StudyNav.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { t, type Locale } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
-  const studies = await getCollection('studies');
+  // Sort so prev/next hop to the adjacent *shipped* study (numbering has gaps).
+  const studies = (await getCollection('studies')).sort(
+    (a, b) => a.data.number - b.data.number
+  );
   const paths = [];
-  for (const s of studies) {
+  studies.forEach((s, i) => {
+    const prevNum = studies[i - 1]?.data.number ?? null;
+    const nextNum = studies[i + 1]?.data.number ?? null;
     for (const locale of ['nl', 'en'] as const) {
       paths.push({
         params: { locale, num: String(s.data.number).padStart(3, '0') },
-        props: { study: s, locale },
+        props: { study: s, locale, prevNum, nextNum },
       });
     }
-  }
+  });
   return paths;
 }
 
 interface Props {
   study: CollectionEntry<'studies'>;
   locale: Locale;
+  prevNum: number | null;
+  nextNum: number | null;
 }
 
-const { study, locale } = Astro.props;
+const { study, locale, prevNum, nextNum } = Astro.props;
 const data = study.data;
 const title = `${data.chapter} — ${data.stipulation} ${data.gbr}`;
 const num = String(data.number).padStart(3, '0');
@@ -38,8 +46,15 @@ const num = String(data.number).padStart(3, '0');
       <h1 class="title text-4xl my-2">— {data.number} —</h1>
     </header>
 
+    <StudyNav
+      locale={locale}
+      prevNum={prevNum}
+      nextNum={nextNum}
+      chapterNumber={data.chapterNumber}
+    />
+
     {data.prose.nl.before && (
-      <div class="prose prose-lg mx-auto mb-4 whitespace-pre-line">
+      <div class="prose prose-lg mx-auto mb-4 mt-6 whitespace-pre-line">
         {locale === 'nl' ? data.prose.nl.before : data.prose.en?.before}
       </div>
     )}
@@ -51,5 +66,14 @@ const num = String(data.number).padStart(3, '0');
         {locale === 'nl' ? data.prose.nl.after : data.prose.en?.after}
       </div>
     )}
+
+    <div class="mt-12 border-t border-ink-muted/20 pt-6">
+      <StudyNav
+        locale={locale}
+        prevNum={prevNum}
+        nextNum={nextNum}
+        chapterNumber={data.chapterNumber}
+      />
+    </div>
   </article>
 </BaseLayout>

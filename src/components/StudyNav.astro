@@ -1,0 +1,42 @@
+---
+import { t, type Locale } from '../i18n/ui';
+import { chapterAnchor } from '../lib/chapters';
+
+interface Props {
+  locale: Locale;
+  prevNum: number | null;
+  nextNum: number | null;
+  chapterNumber: number;
+}
+const { locale, prevNum, nextNum, chapterNumber } = Astro.props;
+const pad = (n: number) => String(n).padStart(3, '0');
+const btn =
+  'inline-flex items-center gap-1.5 rounded-full border border-ink-muted/25 px-4 py-1.5 text-sm no-underline transition hover:border-gold hover:text-accent';
+---
+
+<nav class="flex items-center justify-between gap-3" aria-label={t(locale, 'study.allStudies')}>
+  {prevNum != null ? (
+    <a href={`/${locale}/studies/${pad(prevNum)}/`} class={btn} rel="prev">
+      <span aria-hidden="true">&larr;</span>
+      <span>{t(locale, 'study.prev')} <span class="font-mono">{prevNum}</span></span>
+    </a>
+  ) : (
+    <span class="w-px"></span>
+  )}
+
+  <a
+    href={`/${locale}/studies/#${chapterAnchor(chapterNumber)}`}
+    class="text-sm text-ink-muted no-underline hover:text-accent"
+  >
+    {t(locale, 'study.allStudies')}
+  </a>
+
+  {nextNum != null ? (
+    <a href={`/${locale}/studies/${pad(nextNum)}/`} class={btn} rel="next">
+      <span>{t(locale, 'study.next')} <span class="font-mono">{nextNum}</span></span>
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+  ) : (
+    <span class="w-px"></span>
+  )}
+</nav>
