@@ -1,0 +1,135 @@
+{
+  "number": 166,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1993",
+  "gbr": "0011.12 a6e6",
+  "fen": "N7/8/K3k3/8/1B1P4/5p2/6p1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "N7/8/K3k3/2B5/3P4/5p2/6p1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "N7/8/K7/2Bk4/3P4/5p2/6p1/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "8/8/KN6/2Bk4/3P4/5p2/6p1/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/8/KNk5/2B5/3P4/5p2/6p1/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Na4",
+      "nl": "Pa4",
+      "fenAfter": "8/8/K1k5/2B5/N2P4/5p2/6p1/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/K7/2Bk4/N2P4/5p2/6p1/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1KBk4/N2P4/5p2/6p1/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "g1=Q",
+      "nl": "g1D",
+      "fenAfter": "8/8/8/1KBk4/N2P4/5p2/8/6q1 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "8/8/8/1KBk4/3P4/2N2p2/8/6q1 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/8/4k3/1KB5/3P4/2N2p2/8/6q1 w - - 2 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "d5+",
+      "nl": "d5+",
+      "fenAfter": "8/8/4k3/1KBP4/8/2N2p2/8/6q1 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf7",
+      "nl": "K~",
+      "fenAfter": "8/5k2/8/1KBP4/8/2N2p2/8/6q1 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bxg1",
+      "nl": "Lxg1",
+      "fenAfter": "8/5k2/8/1K1P4/8/2N2p2/8/6B1 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Er dreigen twee oprukkende zwar-\nte pionnen als spelbrekers. En de\ndiagonaal a7-g1 is gesloten voor\nde loper.",
+      "after": "en 3.Lxg1 (of 3.Lxf2), en het paard\nkomt hulp bieden.\n\nNiet 2.Pc7+? Kc4 3.Lb6 g1D, en na\nbijvoorbeeld 3.d5 f2 4.d5 f2 5.Lxf2\nDxf2 is de winst weg.\n\n3.Pd7? Kxd7 4.d5 g1D 5.Lxg1 Kd6\nmet remise.\n\nEn niet 4.Pc3+? Kc4 5.Pe4+ g1D\n6.Pd2+ Kd5 7.Pxf3 maar 7…Df1+\nwint.\n\nNa  4...Ke4?   of  4.Ke6?   volgt\n     bijvoorbeeld  eerst  5.Pc3(+) met\n     makkelijke winst.\n\nHet enige vluchtveld, zodat na\n\nwinnend is.",
+      "beforeVariant": {}
+    }
+  }
+}
