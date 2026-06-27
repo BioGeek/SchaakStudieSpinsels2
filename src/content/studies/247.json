@@ -1,0 +1,261 @@
+{
+  "number": 247,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Origineel, 2008",
+  "gbr": "0331.21 c2a1",
+  "fen": "8/8/5P2/8/6rp/2PN3b/2K5/k7 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f7",
+      "nl": "f7",
+      "fenAfter": "8/5P2/8/8/6rp/2PN3b/2K5/k7 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rg2+",
+      "nl": "Tg2+",
+      "fenAfter": "8/5P2/8/8/7p/2PN3b/2K3r1/k7 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/5P2/8/8/7p/2PN3b/6r1/k2K4 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bg4+",
+      "nl": "Lg4+",
+      "fenAfter": "8/5P2/8/8/6bp/2PN4/6r1/k2K4 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/5P2/8/8/6bp/2PN4/6r1/k3K3 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Re2+",
+      "nl": "Te2+",
+      "fenAfter": "8/5P2/8/8/6bp/2PN4/4r3/k3K3 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/5P2/8/8/6bp/2PN4/4r3/k4K2 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "8/5P2/8/8/6bp/2PNr3/8/k4K2 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ne1",
+      "nl": "Pe1",
+      "fenAfter": "8/5P2/8/8/6bp/2P1r3/8/k3NK2 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Re5",
+      "nl": "Te5",
+      "fenAfter": "8/5P2/8/4r3/6bp/2P5/8/k3NK2 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nc2",
+      "nl": "Pc2",
+      "fenAfter": "8/5P2/8/4r3/6bp/2P5/2N5/k4K2 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/5P2/8/4r3/6bp/2P5/1kN5/5K2 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/5P2/8/4r3/3N2bp/2P5/1k6/5K2 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bh3+",
+      "nl": "Lh3+",
+      "fenAfter": "8/5P2/8/4r3/3N3p/2P4b/1k6/5K2 w - - 13 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/5P2/8/4r3/3N3p/2P4b/1k3K2/8 b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kxc3",
+      "nl": "Kxc3",
+      "fenAfter": "8/5P2/8/4r3/3N3p/2k4b/5K2/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "f8=Q",
+      "nl": "f8D",
+      "fenAfter": "5Q2/8/8/4r3/3N3p/2k4b/5K2/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kxd4",
+      "nl": "Kxd4",
+      "fenAfter": "5Q2/8/8/4r3/3k3p/7b/5K2/8 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qb4+",
+      "nl": "Db4+",
+      "fenAfter": "8/8/8/4r3/1Q1k3p/7b/5K2/8 b - - 1 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/8/3kr3/1Q5p/7b/5K2/8 w - - 2 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "8/8/8/3kr3/7p/1Q5b/5K2/8 b - - 3 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/4r3/3k3p/1Q5b/5K2/8 w - - 4 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Qxh3",
+      "nl": "Dxh3",
+      "fenAfter": "8/8/8/4r3/3k3p/7Q/5K2/8 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Rh5",
+      "nl": "Th5",
+      "fenAfter": "8/8/8/7r/3k3p/7Q/5K2/8 w - - 1 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "8/8/8/7r/3k2Qp/8/5K2/8 b - - 2 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Ke5",
+      "nl": "K~",
+      "fenAfter": "8/8/8/4k2r/6Qp/8/5K2/8 w - - 3 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Qxh5",
+      "nl": "Dxh5",
+      "fenAfter": "8/8/8/4k2Q/7p/8/5K2/8 b - - 0 14",
+      "variant": "main",
+      "parent": "main.26"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En niet 2...Kc1? Tg1+ 3.Kd2 Tf1\n4.Pe5 Le6 en de pion sneuvelt.\n\n2...Tg1+? 3.Ke2 Lf1+ 4.Kf2 Tg6\n5.f8D Lxd3 6.Dd8 Lc2 7.Dxh4 en\nwit wint na 34 zetten (Nalimov EG-\nTB). Of hier 3...Lg4+ 4.Kf2 Td1\n5.f8D Txd3 6.Da3 Kb1 7.Db4+ Kc2\n8.Dxg4 Kxc3 9.Dxh4 en winst na\n32 zetten.\n\nMaar niet 8.Kg1? Te1+ 9.Kf2 Tf1+\n      en 10.Txf7.\n     Na de tekstzet  is de pion f7 nu\n        eindelijk  niet meer  te  stoppen.\n      Zwart gaat dan maar de andere\n       pion plus het paard plukken:\n\nMaar:\n\nSpeelt zwart echter 10...Kd3? dan\n       volgt  11.Da(b)3+  Kd2,  en  nu:\n\n12.Db2+ en 13.Dxe5, maar  niet\n\nTxh3, met remise.\n\nEn wint.\n\n-     Het is een correctie van een stu--\n       die zonder de extra pion op h4, die\n         ik publiceerde in Schakend Neder-\n       land in1960.",
+      "beforeVariant": {}
+    }
+  }
+}

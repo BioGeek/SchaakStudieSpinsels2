@@ -1,0 +1,174 @@
+{
+  "number": 200,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2002",
+  "gbr": "0140.11 a8h7",
+  "fen": "K7/4p1bk/3R3P/8/7B/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Re6",
+      "nl": "Te6",
+      "fenAfter": "K7/4p1bk/4R2P/8/7B/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bxh6",
+      "nl": "Lxh6",
+      "fenAfter": "K7/4p2k/4R2b/8/7B/8/8/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rxe7+",
+      "nl": "Txe7+",
+      "fenAfter": "K7/4R2k/7b/8/7B/8/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "K7/4R3/6kb/8/7B/8/8/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Re4",
+      "nl": "Te4?",
+      "fenAfter": "K7/8/6kb/8/4R2B/8/8/8 b - - 2 3",
+      "variant": "main.a",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "K7/8/7b/7k/4R2B/8/8/8 w - - 3 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1K6/7b/7k/4R2B/8/8/8 b - - 4 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.a.8",
+      "ply": 8,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "8/1K4b1/8/7k/4R2B/8/8/8 w - - 5 5",
+      "variant": "main.a",
+      "parent": "main.a.7"
+    },
+    {
+      "id": "main.a.9",
+      "ply": 9,
+      "san": "Rf4",
+      "nl": "Tf4",
+      "fenAfter": "8/1K4b1/8/7k/5R1B/8/8/8 b - - 6 5",
+      "variant": "main.a",
+      "parent": "main.a.8"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Re5",
+      "nl": "Te5?",
+      "fenAfter": "K7/8/6kb/4R3/7B/8/8/8 b - - 2 3",
+      "variant": "main.b",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Bf4",
+      "nl": "Lf4",
+      "fenAfter": "K7/8/6k1/4R3/5b1B/8/8/8 w - - 3 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1K2R3/6kb/8/7B/8/8/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/1K2R3/7b/7k/7B/8/8/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rh7",
+      "nl": "Th7",
+      "fenAfter": "8/1K5R/7b/7k/7B/8/8/8 b - - 4 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/1K5R/6kb/8/7B/8/8/8 w - - 5 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "7R/1K6/6kb/8/7B/8/8/8 b - - 6 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bg7",
+      "nl": "Lg7",
+      "fenAfter": "7R/1K4b1/6k1/8/7B/8/8/8 w - - 7 6",
+      "variant": "main",
+      "parent": "main.9"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De toren dekt de loper,  zodat de\nkoning dit stuk niet kan slaan.",
+      "after": "Lg3 6.Tg5 Lf2 blijken niet te\n    voldoen..\nDaarom een eerste stap van de\nwitte koning naar de pion.\n\n4.Te4? Lg7 5.Tf4 Lc3 en de loper\ngaat op zoek naar een zwart veld\nom de pion te veroveren.\n\nDe pion komt eindelijk op een wit\n     veld. En niet 6.Tg8? om de zwarte\n     koning weg  te  lokken wegens\n\nLf2 10.h5 Lh4 11.Kc6 Lg5, ‘over\n    and out’.\n\nDe koning nadert nog een stapje:\n\n9.Tb8? Lf6 10.Tf8 Lg5,enzovoort.\n\nBelet 10.Th2.\n\nWeer en stapje  dichterbij. Maar\n    weerom niet 10.Te2? Lb8 11.Tb2\n     Lf4 12.Tb4 Lg5, remise.\n\nWit dreigt nu, na het wegspelen\n    van de loper, met 13.Th3 zijn pion\n     te dekken met winst, want 12.Tg2\n    Lc7 13.Tc2 is een omweg.\n\nDe zwarte loper is moe gestreden,\n     bijvoorbeeld 12…Le1 13.Th3 en\n    de witte koning komt hulp bieden.\n\nWit wint met moeite, maar ver-\n     diend.",
+      "beforeVariant": {
+        "main.a": "Maar dan doet de loper het:\n\nEn nu nog de witte pion dekken,\ndenkt wit, maar:",
+        "main.b": "Lc3 6.Kc6 Le1, noch"
+      }
+    }
+  }
+}
