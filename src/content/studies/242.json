@@ -1,0 +1,144 @@
+{
+  "number": 242,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Evreinov Mem.Ty, 1995",
+  "gbr": "0045.01 c7c5",
+  "fen": "1N4B1/2K3p1/8/2kb4/8/5nN1/8/8 b - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "1N4B1/2K3p1/8/3b4/3k4/5nN1/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "1N4B1/2K3p1/8/3b1N2/3k4/5n2/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "1N4B1/2K3p1/8/3b1N2/4k3/5n2/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "1N4B1/2K3p1/3N4/3b4/4k3/5n2/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "1N4B1/2K3p1/3N4/3b4/3k4/5n2/8/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nb5+",
+      "nl": "Pb5+",
+      "fenAfter": "1N4B1/2K3p1/8/1N1b4/3k4/5n2/8/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "1N4B1/2K3p1/8/1N1b4/2k5/5n2/8/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Na3+",
+      "nl": "Pa3+",
+      "fenAfter": "1N4B1/2K3p1/8/3b4/2k5/N4n2/8/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "1N4B1/2K3p1/8/3b4/3k4/N4n2/8/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nc2+",
+      "nl": "Pc2+",
+      "fenAfter": "1N4B1/2K3p1/8/3b4/3k4/5n2/2N5/8 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "1N4B1/2K3p1/8/3b4/4k3/5n2/2N5/8 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bh7+",
+      "nl": "Lh7+",
+      "fenAfter": "1N6/2K3pB/8/3b4/4k3/5n2/2N5/8 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "g6",
+      "nl": "g6",
+      "fenAfter": "1N6/2K4B/6p1/3b4/4k3/5n2/2N5/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bxg6+",
+      "nl": "Lxg6+",
+      "fenAfter": "1N6/2K5/6B1/3b4/4k3/5n2/2N5/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Beide raadsheren bedreigen  el-\nkaar, en wie haalt het?\n\n1.Pd7+                w\n\nWit geraakt hier niet verder met het\nweglokken van de koning door\n\n1.Pa6+? Kd4 2.Pe2+ Ke5 of 2.Pf5\n\nKe5, enzovoort.",
+      "after": "1...Kc4? om de loper te blijven dek-\n\nken faalt op 2.Pb6+ en 3.Pxd5.\n\nEn niet 2.Pe2+? Ke3 3.Lxd5 Kxe2\nmet remise.\n\nNa  2...Kc4?  volgt weerom een\npaardvork op veld b6 of e3, met\nverovering van de loper..\n\nEen poging om  te winnen met\n\n4.Pf5+ Ke4 en dan een batterij te\n\nvormen met 5.Lh7? lukt niet we-\ngens  bijvoorbeeld  5...Pg5 6.Lg6\nKf4, met remise.\n\n4.Ke4? En nog maar eens een\n\npaardvork op c3.\n\nNa 5...Kb3(b4)? valt na 6.Lxd4(+)\nKxa3 ook 7.Lxf3.\n\nOok  hier dus  niet  6....Kc4?  of\n\n6...Kd3? om de reeds vertoonde\n\nredenen.\nNu is 7.Pf6+? niet mogelijk, maar\nwel;\n\nNa 8...Kf6? valt de loper: 9.Lxd5.\nEn nu, na deze carrousel, staat al-\nles klaar voor de finale:\n\nen mat.\n\nDe vijandelijke koning wordt, door\nde witte cavalerie en door zijn ei-\ngen krijgsmacht gehinderd, in een\nmatnet gelokt.",
+      "beforeVariant": {}
+    }
+  }
+}

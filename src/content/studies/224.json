@@ -1,0 +1,279 @@
+{
+  "number": 224,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "64 studies op 64 velden, 1970",
+  "gbr": "0064.11 f3e8",
+  "fen": "4k2n/8/P7/b7/7p/5K2/2b5/7N w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "4k2n/P7/8/b7/7p/5K2/2b5/7N b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bd1+",
+      "nl": "Ld1+",
+      "fenAfter": "4k2n/P7/8/b7/7p/5K2/8/3b3N w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "4k2n/P7/8/b7/4K2p/8/8/3b3N b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "4k2n/P7/8/b7/4K2p/8/2b5/7N w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "4k2n/P7/8/b2K4/7p/8/2b5/7N b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "4k2n/P7/8/b2K4/7p/1b6/8/7N w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "4k2n/P7/2K5/b7/7p/1b6/8/7N b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ba4+",
+      "nl": "La4+",
+      "fenAfter": "4k2n/P7/2K5/b7/b6p/8/8/7N w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "4k2n/P7/8/b1K5/b6p/8/8/7N b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bb4+",
+      "nl": "Lb4+",
+      "fenAfter": "4k2n/P7/8/2K5/bb5p/8/8/7N w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "4k2n/P7/8/3K4/bb5p/8/8/7N b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "4k2n/P7/8/3K4/1b5p/1b6/8/7N w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4k2n/P7/8/8/1b1K3p/1b6/8/7N b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "4k2n/P7/8/8/3K3p/1bb5/8/7N w - - 13 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "4k2n/P7/8/8/4K2p/1bb5/8/7N b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "4k2n/P7/8/8/4K2p/2b5/2b5/7N w - - 15 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "4k2n/P7/8/8/7p/2b1K3/2b5/7N b - - 16 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bd2+",
+      "nl": "Ld2+",
+      "fenAfter": "4k2n/P7/8/8/7p/4K3/2bb4/7N w - - 17 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "4k2n/P7/8/8/7p/5K2/2bb4/7N b - - 18 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Bd1+",
+      "nl": "Ld1+",
+      "fenAfter": "4k2n/P7/8/8/7p/5K2/3b4/3b3N w - - 19 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "4k2n/P7/8/8/7p/8/3b2K1/3b3N b - - 20 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "h3+",
+      "nl": "h3+",
+      "fenAfter": "4k2n/P7/8/8/8/7p/3b2K1/3b3N w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "4k2n/P7/8/8/8/6Kp/3b4/3b3N b - - 1 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Be1+",
+      "nl": "Le1+",
+      "fenAfter": "4k2n/P7/8/8/8/6Kp/8/3bb2N w - - 2 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Nf2",
+      "nl": "Pf2",
+      "fenAfter": "4k2n/P7/8/8/8/6Kp/5N2/3bb3 b - - 3 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Bxf2+",
+      "nl": "Lxf2+",
+      "fenAfter": "4k2n/P7/8/8/8/6Kp/5b2/3b4 w - - 0 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Kxf2",
+      "nl": "Kxf2",
+      "fenAfter": "4k2n/P7/8/8/8/7p/5K2/3b4 b - - 0 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Bf3",
+      "nl": "Lf3",
+      "fenAfter": "4k2n/P7/8/8/8/5b1p/5K2/8 w - - 1 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Kxf3",
+      "nl": "Kxf3",
+      "fenAfter": "4k2n/P7/8/8/8/5K1p/8/8 b - - 0 15",
+      "variant": "main",
+      "parent": "main.28"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De winst moet van de pionpro-\nmotie komen, maar er is veel te-\ngenstand van beide lopers.",
+      "after": "2.Ke4 Lc2+ 3.Kd5 Lb3+  4.Kc6\n\n7.Kd4 Lc3+ 8.Ke4 Lc2+ 9.Ke3\n\n12.Kg3.\n\n1.d8D Kxd8 2.a7 g1P! 3.Lxg1 Ld1+ 4.Ke4 Lc2+ 5.Kd5 Lb3+  6.Kc6\n\n9.Kd4 Lc3+ 10.Ke4 Lc2+ 11.Ke3\n\n2.Kd6 Le7+ 3.Kd5 Lb3+ 4.Ke5\n\n11.Kxf3\n\nDe koning klimt eerst naar boven,\nwant  fout  is 2.Kg2? h3+ 3.Kg3\nLc7+ 4.Kxh3 Lf3.\n\nLxa8 8.Kxa5 Lxh1 en zwart wint.\n\nIndien wit 7.Ke5? speelt, komt het\nzwarte paard in aktie: 7...Pg6+ en\nwit kan niet meer winnen.\n\n9.Kf4? Pg6+ en weg is de winst\n\n11.Kf2? is fout: 11...Le1+ 12.Kg2\n\nh3+ en wit moet veld f3 vrijgeven\nvoor de loper.\n\nen wit zegeviert na pionpromotie;\n\nHet is een correctie van een 2de\nprijs van V.Kalandadze (1970):\n\nKf3 a6 c7 f2 / Kc8 La5 Lc2 h4 +\n\nDe oplossing  luidde: 1.a7 Ld1+\n\nLa4+  5.Kc5  Lb4+  6.Kd5  Lb3+\n\nLd2+  10.Kf3 Ld1+ 11.Kg2 h3+\n\nR.Brieger ontdekte een dual: Na\n\n8.Ke4 Lc2+, en nu: 9.Kf3 Ld1+\n10.Kg2 h3+ 11.Kg3 Le5+, plaatst\n\nde witte pion zich er tussen met\n\n12.f4, en wit wint eveneens.\n\nIn EG nr 25 gaf  ik de correctie,\nwaarin ik pion f2 elimineerde en\nverving door een wit paard op h1:\n\nKf3 Ph1 a6 c7/ Kc8 La5 Lc2 h4 +\n\nEn nog niet tevreden met de duals\n\n7.Kd4 of 7.Ke5 en 9.Ke3 of 9.Kf4,\n\nplaatste ik later een zwart paard op\nveld h8 en de zwarte koning op e8,\ndie de c-pion overbodig maakte.\n(Ze huidig diagram.)\n\nIn 1996 kreeg ik van mijn stadsge-\nnoot Marcel Van Herck een afdruk\nuit een Georgisch boekje met een\ncorrectie van Kalandadze’s studie\n(1970):\n\nKf3 Le3 a6 d7 h2 /\n       Kc7 La5 Lc2 Ph8 g2 h4 +\n\nLa4+  7.Kc5  Lb4+  8.Kd5  Lb3+\n\nLd2+  12.Kf3 Ld1+ 13.Kg2 h3+\n\n14.Kg3 Le1+ 15.Lf2 en wint.\n\nMarcel schreef mij toen: “Zoals u\n      ziet, was Kalandadze ook  al, on\n     afhankelijk van U, op het idee Ph8\n    gekomen. In plaats van een wit\n     paard, gebruikt hij een witte loper.\n      Ik vraag me af, wat die pion op h2\n     er staat te doen. Volgens mij kan\n       hij gewoon weggelaten worden.\n    Die eerste zet (d8D+) vind ik maar\n     niks. Zwarts minorpromotie (g1P+)\n    daarentegen vind ik wel een ver-\n      rijking.”\n\n    Nog een mooi voorbeeld waarbij\n    de witte koning het trapje afdaalt,\n    en waarbij hij telkens slechts één\n     vluchtveld heeft dankzij de goede\n     plaatsing van de zwarte koning, is\n    een  miniatuurtje van  V. Dolgov\n    (Chervony Gimik 1972):\n\n    Kc7 Pf1 a6 / Kc3 La4 Lh4 h3 +\n\n    De fraaie oplossing is: 1.a7 Ld8+\n\nLf6+ 5.Ke4 Lc2+ 6.Kf4 (6.Ke3?\n    Ld4+) 6...Lg5+ 7.Kf3 Ld1+ 8.Kf2\n    Lh4+ 9.Pg3 Lxg3+ 10.Kxg3 Lf3",
+      "beforeVariant": {}
+    }
+  }
+}

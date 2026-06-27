@@ -1,0 +1,201 @@
+{
+  "number": 62,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2011",
+  "gbr": "4010.00 c5a5",
+  "fen": "8/6BQ/8/k1K5/8/8/6q1/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/7Q/8/k1K5/8/2B5/6q1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/7Q/k7/2K5/8/2B5/6q1/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qh6+",
+      "nl": "Dh6+",
+      "fenAfter": "8/8/k6Q/2K5/8/2B5/6q1/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k6/7Q/2K5/8/2B5/6q1/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qb6+",
+      "nl": "Db6+",
+      "fenAfter": "8/1k6/1Q6/2K5/8/2B5/6q1/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k5/8/1Q6/2K5/8/2B5/6q1/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qe6+",
+      "nl": "De6+",
+      "fenAfter": "2k5/8/4Q3/2K5/8/2B5/6q1/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k6/4Q3/2K5/8/2B5/6q1/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qd7+",
+      "nl": "Dd7+",
+      "fenAfter": "8/1k1Q4/8/2K5/8/2B5/6q1/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k7/3Q4/8/2K5/8/2B5/6q1/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qc8+",
+      "nl": "Dc8+",
+      "fenAfter": "k1Q5/8/8/2K5/8/2B5/6q1/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Qd8+",
+      "nl": "Dd8+?",
+      "fenAfter": "k2Q4/8/8/2K5/8/2B5/6q1/8 b - - 11 6",
+      "variant": "main.a",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Qe8+",
+      "nl": "De8+?",
+      "fenAfter": "k3Q3/8/8/2K5/8/2B5/6q1/8 b - - 11 6",
+      "variant": "main.b",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "4Q3/k7/8/2K5/8/2B5/6q1/8 w - - 12 7",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.b.13",
+      "ply": 13,
+      "san": "Qa4+",
+      "nl": "Da4+",
+      "fenAfter": "8/k7/8/2K5/Q7/2B5/6q1/8 b - - 13 7",
+      "variant": "main.b",
+      "parent": "main.b.12"
+    },
+    {
+      "id": "main.b.14",
+      "ply": 14,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "8/1k6/8/2K5/Q7/2B5/6q1/8 w - - 14 8",
+      "variant": "main.b",
+      "parent": "main.b.13"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "2Q5/k7/8/2K5/8/2B5/6q1/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "2Q5/k7/8/2K5/3B4/8/6q1/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Qb7",
+      "nl": "Db7",
+      "fenAfter": "2Q5/kq6/8/2K5/3B4/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kc4+",
+      "nl": "Kc4+",
+      "fenAfter": "2Q5/kq6/8/8/2KB4/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Klaar voor een aftrelschaak.\n\nEn mat.",
+      "beforeVariant": {
+        "main.a": "Na 5.Db6+?, 5.De7+?, 5.Db3+? of\nnog 5.Df7+?, volgt 5...Kc8 6.De6+\nKb7  7.Dd7+.  Het  is  dus een\nonnodige omweg, (Zie zet 5.)",
+        "main.b": "7.Dd7+ Ka8 8.Dc8+ (Zie zet\n\n6.)"
+      }
+    }
+  }
+}

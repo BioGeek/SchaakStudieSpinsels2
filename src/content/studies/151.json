@@ -1,0 +1,207 @@
+{
+  "number": 151,
+  "chapter": "Mini - Studies",
+  "chapterNumber": 3,
+  "source": "EG n° 207, 2017",
+  "gbr": "0014.01 c4d7",
+  "fen": "7N/3k2B1/8/7p/2K5/8/n7/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Bh6",
+      "nl": "Lh6",
+      "fenAfter": "7N/3k4/7B/7p/2K5/8/n7/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "7N/8/4k2B/7p/2K5/8/n7/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "7N/8/4k2B/7p/8/1K6/n7/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "7N/8/7B/5k1p/8/1K6/n7/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kxa2",
+      "nl": "Kxa2",
+      "fenAfter": "7N/8/7B/5k1p/8/8/K7/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "h4",
+      "nl": "h4",
+      "fenAfter": "7N/8/7B/5k2/7p/8/K7/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bf8",
+      "nl": "Lf8",
+      "fenAfter": "5B1N/8/8/5k2/7p/8/K7/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "5B1N/8/4k3/8/7p/8/K7/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "7N/8/4k3/2B5/7p/8/K7/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "7N/8/4k3/2B5/8/7p/K7/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bg1",
+      "nl": "Lg1",
+      "fenAfter": "7N/8/4k3/8/8/7p/K7/6B1 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "7N/8/5k2/8/8/7p/K7/6B1 w - - 2 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bh2",
+      "nl": "Lh2",
+      "fenAfter": "7N/8/5k2/8/8/7p/K6B/8 b - - 3 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "7N/6k1/8/8/8/7p/K6B/8 w - - 4 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Be5+",
+      "nl": "Le5+",
+      "fenAfter": "7N/6k1/8/4B3/8/7p/K7/8 b - - 5 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6kN/8/8/4B3/8/7p/K7/8 w - - 6 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ng6",
+      "nl": "Pg6",
+      "fenAfter": "6k1/8/6N1/4B3/8/7p/K7/8 b - - 7 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/5k2/6N1/4B3/8/7p/K7/8 w - - 8 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nh4",
+      "nl": "Ph4",
+      "fenAfter": "8/5k2/8/4B3/7N/7p/K7/8 b - - 9 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "h2",
+      "nl": "h2",
+      "fenAfter": "8/5k2/8/4B3/7N/8/K6p/8 w - - 0 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Bxh2",
+      "nl": "Lxh2",
+      "fenAfter": "8/5k2/8/8/7N/8/K6B/8 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Ed van de Gevel:\n“I am happy to publish another\nstudy by our Belgian friend Ignace\nVandecasteele. White must catch\nthe bs, stop the bp and improve the\nposition of his own knight. He man-\nges to do so”:",
+      "after": "1.Bb2? h4 2.Pg6 h3 3.Pe5+ Ke6\n\n(6...Kg3?  7.Le5+  Kg2  8.Kxa2)\n\n7.Lxc1+ Kg3, remise.\n\nEn wint met loper en paard.\n\nMini\n\n     E\n    Bij al\naturen\n\nEn toute chose il faut considérer la fin\n lle dingen moet men op den afloop letten\n                                  (La Fontaine)",
+      "beforeVariant": {}
+    }
+  }
+}

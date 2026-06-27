@@ -1,0 +1,165 @@
+{
+  "number": 157,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Schakend Nederland, 1969",
+  "gbr": "0014.02 a6d6",
+  "fen": "2n3N1/8/Kp1kp3/8/7B/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "2n3N1/1K6/1p1kp3/8/7B/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "2n3N1/1K1k4/1p2p3/8/7B/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf6+",
+      "nl": "Pf6+",
+      "fenAfter": "2n5/1K1k4/1p2pN2/8/7B/8/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "2nk4/1K6/1p2pN2/8/7B/8/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "2nk4/1K6/1p2pN2/8/8/6B1/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "2n5/1K2k3/1p2pN2/8/8/6B1/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Ne7",
+      "nl": "Pe7?",
+      "fenAfter": "3k4/1K2n3/1p2pN2/8/8/6B1/8/8 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "3k4/1KB1n3/1p2pN2/8/8/8/8/8 b - - 7 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "b5",
+      "nl": "b5?",
+      "fenAfter": "2nk4/1K6/4pN2/1p6/8/6B1/8/8 w - - 0 4",
+      "variant": "main.b",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Bc7+",
+      "nl": "Lc7+",
+      "fenAfter": "2nk4/1KB5/4pN2/1p6/8/8/8/8 b - - 1 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.b.8",
+      "ply": 8,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "2n5/1KB1k3/4pN2/1p6/8/8/8/8 w - - 2 5",
+      "variant": "main.b",
+      "parent": "main.b.7"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "2n5/1KB1k3/4p3/1p6/4N3/8/8/8 b - - 3 5",
+      "variant": "main.b",
+      "parent": "main.b.8"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "2n5/1KBk4/4p3/1p6/4N3/8/8/8 w - - 4 6",
+      "variant": "main.b",
+      "parent": "main.b.9"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bc7+",
+      "nl": "Lc7+",
+      "fenAfter": "2n5/1KB1k3/1p2pN2/8/8/8/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "2n5/1KB1k3/4pN2/1p6/8/8/8/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kxc8",
+      "nl": "K~",
+      "fenAfter": "2K5/2B1k3/4pN2/1p6/8/8/8/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het zwarte paard heeft geen goe-\nde vluchtvelden, vandaar de aan-\nval van wit met:",
+      "after": "Na 4...Kd7? 5.Le5, is de winst één\nzet korter, zie verder.\n\nEn   niet  6...Pe7?  7.Pf6+  Kd8\n\n8.Lc7+ en mat.\n\nHoudt  koning en paard  in  be-\ndwang: 7…Pe7 8.Lc7+ en mat.\nDus gedwongen:\n\nNu mogelijk dankzij 7…b5\n\nEn het opgesloten dier wordt op\nstal veroverd:\n\nWit wint.\n\n“Perfect co-operation by the white\nKnight and Bishop brings about a\nzugzwang position. A witty mini-\nature.” aldus Roger Missiaen.",
+      "beforeVariant": {
+        "main.a": "Want een  aftrekschaak  mislukt:\nbijvoorbeeld:3.Pg4+? Kd7 4.Pe5+\nKd6 5.Pg6 Kd7 6.Pf8+ Ke8 7.Pxe6\nen  wit  veroverd  weliswaar een\npion, maar het zwarte paard ont-\nsnapt via 7...Pe7.",
+        "main.b": "fout is bijvoorbeeld:"
+      }
+    }
+  }
+}
