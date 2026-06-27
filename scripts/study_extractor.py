@@ -50,7 +50,13 @@ CHAPTERS: list[tuple[int, str, int]] = [
 # index and the reviews. Update if the source PDF is replaced.
 STUDIES_END_PAGE = 420
 
-HEADER_RE = re.compile(r"^\s*-\s*(\d+)\s*-\s*$")
+# A study header is the number flanked by dashes on its own line ("- 115 -").
+# OCR sometimes glues stray punctuation onto the line (e.g. ".- 115 -"), which a
+# strict "starts with a dash" pattern would reject — leaving that study undetected
+# and silently merged into its neighbour (this happened to study 115). Tolerate a
+# run of leading/trailing non-word, non-dash noise (whitespace + punctuation) while
+# keeping the "-<digits>-" core strict, so prose lines can't match.
+HEADER_RE = re.compile(r"^[^\w\n-]*-\s*(\d+)\s*-[^\w\n-]*$")
 
 
 @dataclass
