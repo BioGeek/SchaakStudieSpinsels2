@@ -13,11 +13,13 @@ const href = `/${other}${pathSansLocale}`;
 
 <a
   href={href}
-  class="text-sm hover:text-accent"
+  class="rounded-full border border-ink-muted/30 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide no-underline hover:border-accent hover:text-accent"
+  aria-label={t(locale, 'lang.switch')}
+  title={t(locale, 'lang.switch')}
   data-lang-switch
   data-target-locale={other}
 >
-  {t(locale, 'lang.switch')}
+  {other}
 </a>
 
 <script>

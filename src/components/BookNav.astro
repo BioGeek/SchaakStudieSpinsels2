@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import { t, type Locale } from '../i18n/ui';
+import { STUDY_CHAPTER_SLUGS, FRONT_MATTER_MAX_ORDER } from '../lib/chapters';
+
+interface Props {
+  locale: Locale;
+  variant?: 'menu' | 'sidebar';
+  current?: string; // bare slug of the active page, for highlighting
+}
+const { locale, variant = 'menu', current } = Astro.props;
+
+// The "book" pages are everything except the six study-chapter intros (those
+// are folded into the studies page). Split into front- and back-matter.
+const pages = (await getCollection('pages', (p) => p.id.startsWith(`${locale}/`)))
+  .map((p) => ({ ...p, bare: p.slug.replace(/^(nl|en)\//, '') }))
+  .filter((p) => !STUDY_CHAPTER_SLUGS.has(p.bare))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const front = pages.filter((p) => p.data.order <= FRONT_MATTER_MAX_ORDER);
+const back = pages.filter((p) => p.data.order > FRONT_MATTER_MAX_ORDER);
+
+const groups = [
+  { label: t(locale, 'home.frontmatter'), items: front },
+  { label: t(locale, 'home.appendix'), items: back },
+];
+
+const linkBase =
+  variant === 'sidebar'
+    ? 'block rounded px-2 py-1 text-sm no-underline hover:bg-gold/10 hover:text-accent'
+    : 'block rounded px-3 py-1.5 text-sm no-underline hover:bg-gold/10 hover:text-accent';
+---
+
+<nav class={variant === 'sidebar' ? 'space-y-5' : 'space-y-3'} aria-label={t(locale, 'nav.book')}>
+  {groups.map((g) => (
+    <div>
+      <p class="px-2 text-xs font-semibold uppercase tracking-wider text-ink-muted">{g.label}</p>
+      <ul class="mt-1 list-none p-0">
+        {g.items.map((p) => (
+          <li>
+            <a
+              href={`/${locale}/${p.bare}/`}
+              class={`${linkBase} ${current === p.bare ? 'bg-gold/15 font-medium text-accent' : ''}`}
+            >
+              {p.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</nav>

@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { t, type Locale } from '../../../i18n/ui';
+import { studyChapterSlug, chapterAnchor } from '../../../lib/chapters';
 
 export function getStaticPaths() {
   return [{ params: { locale: 'nl' } }, { params: { locale: 'en' } }];
@@ -10,39 +11,81 @@ export function getStaticPaths() {
 const locale = Astro.params.locale as Locale;
 const studies = (await getCollection('studies')).sort((a, b) => a.data.number - b.data.number);
 
-// Group by chapter so the list reads like the book's TOC.
+// Group by chapter so the list reads like the book's table of contents.
 const byChapter = new Map<number, { name: string; studies: typeof studies }>();
 for (const s of studies) {
   const entry = byChapter.get(s.data.chapterNumber) ?? { name: s.data.chapter, studies: [] };
   entry.studies.push(s);
   byChapter.set(s.data.chapterNumber, entry);
 }
+
+// Each chapter's intro prose is "mostly a quote"; render it inline as the
+// group's epigraph instead of as a separate menu page.
+const pages = await getCollection('pages', (p) => p.id.startsWith(`${locale}/`));
+const pageBySlug = new Map(pages.map((p) => [p.slug.replace(/^(nl|en)\//, ''), p]));
+
+const chapters = await Promise.all(
+  [...byChapter.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(async ([number, { name, studies }]) => {
+      const slug = studyChapterSlug(number);
+      const page = slug ? pageBySlug.get(slug) : undefined;
+      const Content = page ? (await page.render()).Content : null;
+      return { number, name, studies, Content };
+    })
+);
 ---
 
 <BaseLayout title={t(locale, 'nav.studies')} locale={locale} pathSansLocale="/studies/">
-  <section class="prose prose-lg mx-auto">
-    <h1 class="title text-center text-4xl">{t(locale, 'nav.studies')}</h1>
+  <header class="mx-auto max-w-2xl text-center">
+    <h1 class="title text-4xl">{t(locale, 'nav.studies')}</h1>
+    <p class="mt-2 text-ink-muted">{t(locale, 'studies.intro')}</p>
+  </header>
 
-    {[...byChapter.entries()].sort((a, b) => a[0] - b[0]).map(([num, { name, studies }]) => (
-      <section class="mt-8">
-        <h2>{num}. {name}</h2>
-        <ul class="list-none p-0 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-          {studies.map((s) => (
+  <!-- Quick jump bar to the endgame groups. -->
+  <nav class="mt-6 flex flex-wrap justify-center gap-2" aria-label={t(locale, 'home.groups')}>
+    {chapters.map((c) => (
+      <a
+        href={`#${chapterAnchor(c.number)}`}
+        class="rounded-full border border-ink-muted/25 px-3 py-1 text-sm no-underline transition hover:border-gold hover:text-accent"
+      >
+        {c.name}
+      </a>
+    ))}
+  </nav>
+
+  {chapters.map((c) => {
+    const Body = c.Content;
+    return (
+      <section id={chapterAnchor(c.number)} class="mt-14 scroll-mt-20">
+        <div class="flex items-baseline justify-between gap-4 border-b border-ink-muted/20 pb-2">
+          <h2 class="font-display text-2xl" style="font-variant-caps: small-caps; letter-spacing: 0.04em;">
+            <span class="mr-2 text-gold-dark">{c.number}</span>{c.name}
+          </h2>
+          <span class="shrink-0 text-sm text-ink-muted">{c.studies.length} {t(locale, 'study.count')}</span>
+        </div>
+
+        {Body && (
+          <div class="mt-5 rounded-r-lg border-l-4 border-gold/60 bg-gold/5 py-3 pl-5 pr-4">
+            <div class="prose prose-sm max-w-none italic text-ink-soft prose-headings:not-italic prose-headings:font-display prose-headings:text-base prose-headings:font-semibold">
+              <Body />
+            </div>
+          </div>
+        )}
+
+        <ul class="mt-6 grid list-none gap-2 p-0 sm:grid-cols-2 lg:grid-cols-3">
+          {c.studies.map((s) => (
             <li>
               <a
                 href={`/${locale}/studies/${String(s.data.number).padStart(3, '0')}/`}
-                class="block rounded border border-ink-muted/30 bg-paper px-3 py-2 no-underline hover:border-accent hover:text-accent"
+                class="block rounded-lg border border-ink-muted/20 bg-paper px-3 py-2 no-underline transition hover:border-gold hover:shadow-sm"
               >
                 <div class="flex items-baseline justify-between gap-2">
-                  <span class="font-mono font-semibold">{s.data.number}</span>
-                  <span class="font-mono text-xs text-ink-muted">
-                    {s.data.stipulation} {s.data.gbr}
-                  </span>
+                  <span class="font-mono font-semibold text-ink">{s.data.number}</span>
+                  <span class="font-mono text-xs text-ink-muted">{s.data.stipulation} {s.data.gbr}</span>
                 </div>
                 {s.data.source && (
-                  <p class="mt-1 text-xs italic text-ink-muted line-clamp-1">
-                    {s.data.source}
-                  </p>
+                  <p class="mt-1 truncate text-xs italic text-ink-muted">{s.data.source}</p>
                 )}
                 <p class="mt-1 text-xs text-ink-muted">
                   {s.data.moves.length} {t(locale, 'study.moves').toLowerCase()}
@@ -52,6 +95,6 @@ for (const s of studies) {
           ))}
         </ul>
       </section>
-    ))}
-  </section>
+    );
+  })}
 </BaseLayout>

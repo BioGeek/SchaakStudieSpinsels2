@@ -29,6 +29,17 @@ export default {
         accent: {
           DEFAULT: '#7a1f0e',
         },
+        // Sampled straight from the book cover so the cropped cover emblem
+        // blends into the hero (the site opens on the cover's gold field).
+        gold: {
+          DEFAULT: '#d1ab66',
+          light: '#ddbd82',
+          dark: '#b58f47',
+        },
+        cover: {
+          brown: '#3a2a22',
+          cream: '#efe6cf',
+        },
       },
       typography: ({ theme }) => ({
         DEFAULT: {

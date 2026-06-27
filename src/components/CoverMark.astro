@@ -1,0 +1,19 @@
+---
+// The book-cover emblem, cropped straight from data/schaakstudiespinsels2_cover.pdf
+// (rooks, bishops, knight, pawns and the dual checker fused into one mark) and
+// saved to public/cover-mark.png. Its gold field matches the `gold` palette, so
+// it blends into the hero and reads as a self-contained badge in the header.
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<img
+  src="/cover-mark.png"
+  width="512"
+  height="512"
+  alt="Schaakstudiespinsels 2"
+  class={className}
+  decoding="async"
+/>

@@ -1,15 +1,19 @@
 ---
 import '../styles/global.css';
 import LanguageToggle from '../components/LanguageToggle.astro';
+import CoverMark from '../components/CoverMark.astro';
+import BookNav from '../components/BookNav.astro';
 import { t, type Locale } from '../i18n/ui';
 
 interface Props {
   title: string;
   locale: Locale;
   pathSansLocale: string; // e.g. "/studies/001"
+  sidebar?: boolean; // show the book-nav sidebar (prose pages)
+  current?: string; // bare slug of the active page, for sidebar highlight
 }
 
-const { title, locale, pathSansLocale } = Astro.props;
+const { title, locale, pathSansLocale, sidebar = false, current } = Astro.props;
 const siteTitle = t(locale, 'site.title');
 const pageTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
 ---
@@ -20,6 +24,7 @@ const pageTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
+    <meta name="description" content={t(locale, 'home.intro')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,32 +32,62 @@ const pageTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
     />
   </head>
-  <body class="min-h-screen antialiased">
-    <header class="border-b border-ink-muted/30">
-      <div class="mx-auto flex max-w-5xl items-baseline justify-between px-6 py-5">
-        <a href={`/${locale}/`} class="font-display text-xl tracking-wide">
-          <span style="font-variant-caps: small-caps; letter-spacing: 0.08em;">
-            {t(locale, 'site.title')}
+  <body class="min-h-screen overflow-x-clip antialiased">
+    <header class="sticky top-0 z-30 border-b border-ink-muted/20 bg-paper-light/90 backdrop-blur supports-[backdrop-filter]:bg-paper-light/75">
+      <div class="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:gap-4 sm:px-6">
+        <a href={`/${locale}/`} class="flex items-center gap-3 no-underline">
+          <CoverMark class="h-9 w-9 shrink-0 rounded" />
+          <span class="hidden font-display text-lg leading-none sm:inline" style="font-variant-caps: small-caps; letter-spacing: 0.06em;">
+            {siteTitle}
           </span>
         </a>
-        <nav class="flex items-baseline gap-6 text-sm">
-          <a href={`/${locale}/chapters/`} class="hover:text-accent">
-            {t(locale, 'nav.chapters')}
-          </a>
-          <a href={`/${locale}/studies/`} class="hover:text-accent">
+
+        <nav class="flex items-center gap-2 text-sm sm:gap-4">
+          <a
+            href={`/${locale}/studies/`}
+            class="rounded-full bg-accent px-3 py-1.5 font-medium text-paper-light no-underline transition hover:bg-accent/90"
+          >
             {t(locale, 'nav.studies')}
           </a>
+
+          <details class="book-menu relative">
+            <summary class="cursor-pointer list-none rounded px-2 py-1.5 hover:text-accent">
+              {t(locale, 'nav.book')} <span aria-hidden="true" class="text-xs">▾</span>
+            </summary>
+            <div class="absolute right-0 z-40 mt-2 w-64 max-w-[80vw] rounded-lg border border-ink-muted/25 bg-paper-light p-3 shadow-lg">
+              <BookNav locale={locale} variant="menu" current={current} />
+            </div>
+          </details>
+
           <LanguageToggle locale={locale} pathSansLocale={pathSansLocale} />
         </nav>
       </div>
     </header>
 
-    <main class="mx-auto max-w-5xl px-6 py-10">
-      <slot />
-    </main>
+    {sidebar ? (
+      <main class="mx-auto max-w-6xl px-6 py-10">
+        <div class="grid gap-10 lg:grid-cols-[12rem_minmax(0,1fr)]">
+          <aside class="hidden lg:block">
+            <div class="sticky top-20">
+              <BookNav locale={locale} variant="sidebar" current={current} />
+            </div>
+          </aside>
+          <div><slot /></div>
+        </div>
+      </main>
+    ) : (
+      <main class="mx-auto max-w-5xl px-6 py-10"><slot /></main>
+    )}
 
-    <footer class="mt-16 border-t border-ink-muted/30 py-6 text-center text-sm text-ink-muted">
+    <footer class="mt-16 border-t border-ink-muted/20 py-6 text-center text-sm text-ink-muted">
       <p>&copy; Ignace Vandecasteele</p>
     </footer>
+
+    <style>
+      /* Disclosure menu: hide the default marker; <details> handles toggle.
+         The panel is absolutely positioned so it floats over the content. */
+      .book-menu > summary::-webkit-details-marker { display: none; }
+      .book-menu > summary { user-select: none; }
+    </style>
   </body>
 </html>

@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { locales, type Locale } from '../../i18n/ui';
+import { type Locale, t } from '../../i18n/ui';
+import { STUDY_CHAPTERS, chapterAnchor } from '../../lib/chapters';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -21,12 +22,34 @@ interface Props {
 const { entry } = Astro.props;
 const locale = Astro.params.locale as Locale;
 const { Content } = await entry.render();
-const pathSansLocale = '/' + entry.slug.replace(/^(nl|en)\//, '') + '/';
+const bare = entry.slug.replace(/^(nl|en)\//, '');
+const pathSansLocale = '/' + bare + '/';
+
+// If this prose page is actually a study-chapter intro, point readers to that
+// group on the studies page (where the same quote now lives in context).
+const chapterNumber = STUDY_CHAPTERS.find((c) => c.slug === bare)?.number;
 ---
 
-<BaseLayout title={entry.data.title} locale={locale} pathSansLocale={pathSansLocale}>
+<BaseLayout
+  title={entry.data.title}
+  locale={locale}
+  pathSansLocale={pathSansLocale}
+  sidebar={true}
+  current={bare}
+>
   <article class="prose prose-lg mx-auto">
-    <h1 class="title text-center text-4xl">{entry.data.title}</h1>
+    <h1 class="title text-4xl">{entry.data.title}</h1>
     <Content />
+
+    {chapterNumber && (
+      <p class="not-prose mt-8">
+        <a
+          href={`/${locale}/studies/#${chapterAnchor(chapterNumber)}`}
+          class="inline-block rounded-full bg-accent px-5 py-2 text-sm font-medium text-paper-light no-underline transition hover:bg-accent/90"
+        >
+          {t(locale, 'chapter.toStudies')} &rarr;
+        </a>
+      </p>
+    )}
   </article>
 </BaseLayout>
