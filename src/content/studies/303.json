@@ -1,0 +1,324 @@
+{
+  "number": 303,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel, 2011",
+  "gbr": "0045.02 a5d4",
+  "fen": "5b2/8/5pp1/K7/3k3N/3n4/8/3N1B2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "5b2/8/5pp1/K7/3k4/3n1N2/8/3N1B2 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/5pp1/K7/4k3/3n1N2/8/3N1B2 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "5b2/8/5pp1/K7/4k3/3n4/3N4/3N1B2 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "5b2/8/5pp1/K7/3k4/3n4/3N4/3N1B2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "5b2/8/5pp1/K7/3k4/1N1n4/8/3N1B2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/5pp1/K7/4k3/1N1n4/8/3N1B2 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "5b2/8/5pp1/K7/4k3/1NNn4/8/5B2 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "5b2/8/5pp1/K7/8/1NNnk3/8/5B2 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "5b2/8/5pp1/K2N4/8/1N1nk3/8/5B2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/5pp1/K2N4/4k3/1N1n4/8/5B2 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nxf6+",
+      "nl": "Pxf6+",
+      "fenAfter": "5b2/8/5Np1/K7/4k3/1N1n4/8/5B2 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "5b2/8/5Np1/K7/8/1N1nk3/8/5B2 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "5b2/8/6p1/K2N4/8/1N1nk3/8/5B2 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/6p1/K2N4/4k3/1N1n4/8/5B2 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "5b2/8/6p1/K7/4k3/1NNn4/8/5B2 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "5b2/8/6p1/K7/8/1NNnk3/8/5B2 w - - 5 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nd1+",
+      "nl": "Pd1+",
+      "fenAfter": "5b2/8/6p1/K7/8/1N1nk3/8/3N1B2 b - - 6 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/6p1/K7/4k3/1N1n4/8/3N1B2 w - - 7 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "5b2/8/6p1/K7/4k3/3n4/3N4/3N1B2 b - - 8 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "5b2/8/6p1/K7/3k4/3n4/3N4/3N1B2 w - - 9 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "5b2/8/6p1/K7/3k4/3n1N2/8/3N1B2 b - - 10 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5b2/8/6p1/K7/4k3/3n1N2/8/3N1B2 w - - 11 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "5b2/8/6p1/K5N1/4k3/3n4/8/3N1B2 b - - 12 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "5b2/8/6p1/K4kN1/8/3n4/8/3N1B2 w - - 13 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Nh7",
+      "nl": "Ph7",
+      "fenAfter": "5b2/7N/6p1/K4k2/8/3n4/8/3N1B2 b - - 14 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Bb4+",
+      "nl": "Lb4+",
+      "fenAfter": "8/7N/6p1/K4k2/1b6/3n4/8/3N1B2 w - - 15 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/7N/6p1/1K3k2/1b6/3n4/8/3N1B2 b - - 16 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/7N/6p1/1K6/1b2k3/3n4/8/3N1B2 w - - 17 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/7N/6p1/8/1bK1k3/3n4/8/3N1B2 b - - 18 15",
+      "variant": "main",
+      "parent": "main.28"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Nf2",
+      "nl": "Pf2",
+      "fenAfter": "8/7N/6p1/8/1bK1k3/8/5n2/3N1B2 w - - 19 16",
+      "variant": "main",
+      "parent": "main.29"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "Nxf2+",
+      "nl": "Pxf2+",
+      "fenAfter": "8/7N/6p1/8/1bK1k3/8/5N2/5B2 b - - 0 16",
+      "variant": "main",
+      "parent": "main.30"
+    },
+    {
+      "id": "main.32",
+      "ply": 32,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/7N/6p1/8/1bK5/5k2/5N2/5B2 w - - 1 17",
+      "variant": "main",
+      "parent": "main.31"
+    },
+    {
+      "id": "main.33",
+      "ply": 33,
+      "san": "Kxb4",
+      "nl": "Kxb4",
+      "fenAfter": "8/7N/6p1/8/1K6/5k2/5N2/5B2 b - - 0 17",
+      "variant": "main",
+      "parent": "main.32"
+    },
+    {
+      "id": "main.34",
+      "ply": 34,
+      "san": "Kxf2",
+      "nl": "Kxf2",
+      "fenAfter": "8/7N/6p1/8/1K6/8/5k2/5B2 w - - 0 18",
+      "variant": "main",
+      "parent": "main.33"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na het slaan van pion g6 komt wit\nniet verder. Correct is:",
+      "after": "1…Kc4? 2.Pb2+ Kc3 3.Pxd3 met\nwinst.\n\n3…Kc4? 4.Pc1 K~ 5.Pxd3.\n\nNa 6…Kf5?  volgt  7.Pd7  Lb4+\n8.Kb5, en een van de zwarte stuk-\nken verdwijnt.\nNu, na het slaan van de  pion,\ngaloppeert het paard de hele weg\nterug:\n\nZwart dient het paard te  blijven\n     dekken.\n\nNu mogelijk dankzij de 6de zet van\n      wit.\n\nNa 12…Kd4? of 12…Kf4?, volgt\n\n13.Pe6+ en 14.Pxf8.\n\nTwee stukken staan nu aangeval-\n      len, en het beste is:\n\n17.Kc4 is een onnodige omweg.\n\nEen laatste stuiptrekking.\n\nMaar wit wint uiteindelijk met loper\n    en paard.",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "number": 215,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2014",
+  "gbr": "0010.13 a3a8",
+  "fen": "kB6/1p6/2P5/8/4p3/K4p2/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "c7",
+      "nl": "c7",
+      "fenAfter": "kB6/1pP5/8/8/4p3/K4p2/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "f2",
+      "nl": "f2",
+      "fenAfter": "kB6/1pP5/8/8/4p3/K7/5p2/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "c8=Q",
+      "nl": "c8D",
+      "fenAfter": "kBQ5/1p6/8/8/4p3/K7/5p2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "f1=Q",
+      "nl": "f1D",
+      "fenAfter": "kBQ5/1p6/8/8/4p3/K7/8/5q2 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bc7+",
+      "nl": "Lc7+",
+      "fenAfter": "k1Q5/1pB5/8/8/4p3/K7/8/5q2 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "2Q5/kpB5/8/8/4p3/K7/8/5q2 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qb8+",
+      "nl": "Db8+",
+      "fenAfter": "1Q6/kpB5/8/8/4p3/K7/8/5q2 b - - 3 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "1Q6/1pB5/k7/8/4p3/K7/8/5q2 w - - 4 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qa8+",
+      "nl": "Da8+",
+      "fenAfter": "Q7/1pB5/k7/8/4p3/K7/8/5q2 b - - 5 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "Q7/1pB5/8/1k6/4p3/K7/8/5q2 w - - 6 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qxb7+",
+      "nl": "Dxb7+",
+      "fenAfter": "8/1QB5/8/1k6/4p3/K7/8/5q2 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/1QB5/8/2k5/4p3/K7/8/5q2 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qb6+",
+      "nl": "Db6+",
+      "fenAfter": "8/2B5/1Q6/2k5/4p3/K7/8/5q2 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/2B5/1Q6/3k4/4p3/K7/8/5q2 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qd6+",
+      "nl": "Dd6+",
+      "fenAfter": "8/2B5/3Q4/3k4/4p3/K7/8/5q2 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/2B5/3Q4/8/2k1p3/K7/8/5q2 w - - 5 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qa6+",
+      "nl": "Da6+",
+      "fenAfter": "8/2B5/Q7/8/2k1p3/K7/8/5q2 b - - 6 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd5",
+      "nl": "K~",
+      "fenAfter": "8/2B5/Q7/3k4/4p3/K7/8/5q2 w - - 7 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qxf1",
+      "nl": "Dxf1",
+      "fenAfter": "8/2B5/8/3k4/4p3/K7/8/5Q2 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "En wit wint. Op 6...Kc4? volgt 7.Dc4+ en 8.Dxf1. Niet 9.Db4+? Kd5 10.Dd6+ (zie zet 8), en evenmin 9.Dc6+? Kd4 10.Db6+ Kd5, en weerom 11.Dd6+ (zie zet 8)."
+    }
+  }
+}
