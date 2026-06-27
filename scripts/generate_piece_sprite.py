@@ -98,9 +98,8 @@ def contour_to_svg_path(contours: list[np.ndarray], bbox: tuple[int, int, int, i
 def build_sprite(paths: dict[str, str]) -> str:
     """Assemble the twelve piece groups into one cm-chessboard sprite.
 
-    White pieces: white fill with a 0.8-unit black stroke, so Ignace's
-    silhouette stays recognisable against a light board square.
-    Black pieces: solid black fill, as drawn.
+    White pieces: flat cream fill, no outline (matches the book cover's
+    outline-less silhouettes). Black pieces: solid dark fill, as drawn.
     """
     chunks: list[str] = [
         '<?xml version="1.0" encoding="UTF-8" standalone="no"?>',
@@ -114,11 +113,9 @@ def build_sprite(paths: dict[str, str]) -> str:
         chunks.append(
             f'<g id="b{piece}"><path d="{d}" fill="#1a1a1a" /></g>'
         )
-        # White pieces: same silhouette, white fill + ink outline so it
-        # reads against both light and dark board squares.
+        # White pieces: same silhouette, flat cream fill, no outline.
         chunks.append(
-            f'<g id="w{piece}"><path d="{d}" fill="#fbf4e6" '
-            'stroke="#1a1a1a" stroke-width="0.8" stroke-linejoin="round" /></g>'
+            f'<g id="w{piece}"><path d="{d}" fill="#fbf4e6" /></g>'
         )
     chunks.append("</defs>")
     chunks.append("</svg>")
