@@ -38,3 +38,11 @@
   line-height: 1.5;
   color: theme('colors.ink.soft');
 }
+
+/* Don't let Tailwind Typography inject its own open/close curly quotes around
+   blockquotes — the recensies quote their own punctuation explicitly so the
+   attribution line stays outside the closing quote. */
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: none;
+}
