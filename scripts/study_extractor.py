@@ -44,6 +44,12 @@ CHAPTERS: list[tuple[int, str, int]] = [
     (6, "Studies", 354),
 ]
 
+# First page (0-based) of the back-matter that follows the last study — the
+# "Het Wilde Westen" appendix. The final study has no following `- N -` header
+# to bound it, so without this it would swallow all the appendices, the GBR
+# index and the reviews. Update if the source PDF is replaced.
+STUDIES_END_PAGE = 420
+
 HEADER_RE = re.compile(r"^\s*-\s*(\d+)\s*-\s*$")
 
 
@@ -129,12 +135,14 @@ def chapter_for(page: int) -> tuple[int, str]:
 def build_regions(headers: list[StudyHeader], doc: pymupdf.Document) -> list[StudyRegion]:
     """Pair each header with the next header's position to define the study's region."""
     regions: list[StudyRegion] = []
-    end_of_doc = (len(doc) - 1, 1, 1e9)  # sentinel past the last page
+    # The last study has no following header; stop it at the back-matter so it
+    # doesn't swallow the appendices (Het Wilde Westen, GBR index, reviews …).
+    end_of_studies = (STUDIES_END_PAGE, 0, 0.0)
 
     for i, h in enumerate(headers):
         end = headers[i + 1] if i + 1 < len(headers) else None
         if end is None:
-            end_page, end_col, end_y = end_of_doc
+            end_page, end_col, end_y = end_of_studies
         else:
             end_page, end_col, end_y = end.page, end.column, end.y
         chap_num, chap_name = chapter_for(h.page)
