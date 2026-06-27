@@ -26,5 +26,3 @@ heeft hij een zwak voor studies die, zonder materiaalvermeerdering, met
 enkele zetten kunnen worden verlengd. Dit komt er dan op neer zich een
 langere inleiding voor de geest te halen.
 Een ‘zwak’ dat ik geheel met hem deel.”
-
- * [- 1 - Origineel, 2008]({filename}manke_maljutkas/001.md)
