@@ -167,5 +167,6 @@
       "after": "En er volgt een pionpromotie, met winst voor wit.\n\nNa 1...Pc1+? is de pion niet meer te stoppen: 2.Kc4 Pe2 3.b5 Pg3 4.b6 Pe4 5.Kd5 Pf6+ 6.Kc6 Pg8 7.b7 Pe7+ 8.Kd7. En niet 3...Pa2+ 4.Kc4 Kf4 5.b6, en zwart komt te laat.\n\nNiets grandioos, maar in de maljutka van F. J. Prokop in Casopis Ceskoslovensky Sach (1925): Ke4 b4 / Kg1 Pb3+, met de oplossing 1.Kd3 1...Kf2? 2.Kc3 Pc1 3.b5 Pe2+ 4.Kc4 Pf4 5.b6 Pg6 6.Kd5 Pe7+ 7.Kc5 Pg6 8.Kd6 en wint, struikelt de auteur over 1...Pc1+! 2.Kc4 Kf2 3.b5 Ke3 4.b6 Pd3 5.b7 Pe5+ 6.Kd5 Pd7 7.Kc6 Pb8, met remise. Vandaar dat de zwarte koning hier een veld verder, op h2, staat."
     }
   },
-  "curated": true
+  "curated": true,
+  "tablebaseVerified": true
 }

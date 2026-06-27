@@ -149,5 +149,6 @@
       "after": "1.e6          Th6       2.e7          Te6       3.Pf5         Kb6      4.Pd6        Kc5      5.e8D         Txe8      6.Pxe8       Kd4       7.Kf2         Kd3      8.Ke1\n\nWit wint met de extra pion op f2.\n\nIndien men het pionnetje op  f1\nverplaats naar veld d1, dan is er\neen andere oplossing:\n\nKg3 Pe3 d2 e5 / Ka7 Th1 +\n\nOok hier met winst.",
       "beforeVariant": {}
     }
-  }
+  },
+  "tablebaseVerified": true
 }

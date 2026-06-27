@@ -268,5 +268,6 @@
         "main.a": "Na 1...Kd5? 2.Db5+ Ke6 3.Dc6+\nKe7 4.Dd6+ Ke8 volgt 5.Dd8 mat.\n\n3...Kh5?  4.Dh2+  Kg4  (4...Kg6\n5.Dh6+ en mat) 5.Ph6+ en 6.Pxf5\n\n4...Kh5?  5.Dh3+ Dh4  (5...Kg6\n6.Dh7+ en  mat)  6.Df5+ Dg5+\n7.Dxg5+ mat.\n\nOpnieuw  niet  5...Kh5?  6.Dh2+\nenzovoort.\n\n7.Da3.?  of 7.Dc7+ Kf6 8.Dc3+\nKe7 9.Db4+ (Zie zet 7.)\n\n7...Kd7? verliest sneller: 8.Dd6+\nKc8  9.Dd8+ Kb7  10.Pd6+  en\n11.Pxf5.\n\n8.Db2+? of 8.Dc3+? Ke7 9.Db4+\nKf6 10.Dd4+ (Zie zet 8.)"
       }
     }
-  }
+  },
+  "tablebaseVerified": true
 }

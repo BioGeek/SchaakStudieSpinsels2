@@ -27,6 +27,12 @@ const studies = defineCollection({
     // Such studies cannot be reproduced by a clean `build_study --all`, so the
     // builder refuses to overwrite them unless `--force` is passed.
     curated: z.boolean().optional(),
+    // The starting position has been checked against the Lichess tablebase
+    // (7-piece complete + partial 8-piece) and its theoretical value matches the
+    // stipulation (a '+' study is a tablebase win for the stronger side, a '='
+    // study is a draw). Persisted so the audit isn't re-run and so the UI can
+    // show a "tablebase-verified" badge. Absent = not yet verified or >8 pieces.
+    tablebaseVerified: z.boolean().optional(),
     moves: z.array(
       z.object({
         id: z.string(),
