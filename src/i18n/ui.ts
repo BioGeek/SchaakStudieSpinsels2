@@ -12,6 +12,7 @@ export const ui = {
     'nav.chapters': 'Hoofdstukken',
     'nav.studies': 'Studies',
     'nav.book': 'Het boek',
+    'book.buy': 'Koop het boek',
     'home.intro':
       'Een interactieve uitgave van Ignace Vandecasteeles eindspelstudies — elke studie als een speelbaar, aanklikbaar bord met de volledige variantenboom.',
     'home.cta': 'Bekijk de studies',
@@ -42,6 +43,7 @@ export const ui = {
     'nav.chapters': 'Chapters',
     'nav.studies': 'Studies',
     'nav.book': 'The book',
+    'book.buy': 'Buy the book',
     'home.intro':
       "An interactive edition of Ignace Vandecasteele's endgame studies — each one a playable, clickable board with its full tree of variations.",
     'home.cta': 'Browse the studies',

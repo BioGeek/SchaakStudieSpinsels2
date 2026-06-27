@@ -3,6 +3,6 @@ title: 'Miniaturen'
 order: 160
 ---
 
-En toute chose il faut considérer la fin
-Bij alle dingen moet men op den afloop letten
-(La Fontaine)
+<div style="text-align: right"><b>En toute chose il faut considérer la fin</b></div>
+<div style="text-align: right"><b>Bij alle dingen moet men op den afloop letten</b></div>
+<div style="text-align: right">(La Fontaine)</div>

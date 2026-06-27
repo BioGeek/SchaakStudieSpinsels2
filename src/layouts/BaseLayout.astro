@@ -86,8 +86,16 @@ const SHOW_LANGUAGE_TOGGLE = false;
       <main class="mx-auto max-w-5xl px-6 py-10"><slot /></main>
     )}
 
-    <footer class="mt-16 border-t border-ink-muted/20 py-6 text-center text-sm text-ink-muted">
-      <p>&copy; Ignace Vandecasteele</p>
+    <footer class="mt-16 border-t border-ink-muted/20 py-8 text-center text-sm text-ink-muted">
+      <a
+        href="https://www.lulu.com/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block rounded-full border border-ink-muted/30 px-4 py-1.5 no-underline transition hover:border-gold hover:text-accent"
+      >
+        {t(locale, 'book.buy')}
+      </a>
+      <p class="mt-4">&copy; Ignace Vandecasteele</p>
     </footer>
 
     <style>
