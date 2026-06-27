@@ -244,7 +244,7 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
      over it.) */
   .board-frame {
     position: sticky;
-    top: 5rem; /* clear the ~60px sticky site header */
+    top: 3.75rem; /* sit flush under the ~60px sticky site header */
     z-index: 10;
     background: theme('colors.paper.light');
   }
@@ -263,14 +263,31 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
     margin: 0 auto;
   }
 
+  /* Mobile portrait: single column — board pinned on top, text scrolls behind. */
   @media (max-width: 899px) {
-    /* Keep the board from filling the screen so text stays visible below it. */
     .board {
       max-width: min(78vw, 42vh);
     }
     .board-frame {
       padding-bottom: 0.5rem;
       box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 0.22);
+    }
+  }
+
+  /* Mobile landscape: two columns like desktop — board left, text right.
+     Height is the constraint here, so size the board to the viewport height
+     and drop the overlap shadow (the columns sit side by side, no overlap). */
+  @media (max-width: 899px) and (orientation: landscape) {
+    .study-board {
+      grid-template-columns: auto 1fr;
+      align-items: start;
+    }
+    .board {
+      max-width: min(46vw, 62vh);
+    }
+    .board-frame {
+      box-shadow: none;
+      padding-bottom: 0;
     }
   }
 
