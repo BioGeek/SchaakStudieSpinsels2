@@ -1,0 +1,144 @@
+{
+  "number": 218,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Tijdschrift KNSB, 1959",
+  "gbr": "0103.13 b1d1",
+  "fen": "8/8/8/8/2n5/p1p4R/P5p1/1K1k4 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rxc3",
+      "nl": "Txc3",
+      "fenAfter": "8/8/8/8/2n5/p1R5/P5p1/1K1k4 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "8/8/8/8/8/p1R5/P2n2p1/1K1k4 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/8/8/8/8/p1R5/P2n2p1/K2k4 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/8/8/8/8/p1R5/P5p1/K2k1n2 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rc1+",
+      "nl": "Tc1+",
+      "fenAfter": "8/8/8/8/8/p7/P5p1/K1Rk1n2 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/8/p7/P3k1p1/K1R2n2 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rc2+",
+      "nl": "Tc2+",
+      "fenAfter": "8/8/8/8/8/p7/P1R1k1p1/K4n2 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/8/8/8/8/p7/P1Rnk1p1/K7 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rc1",
+      "nl": "Tc1",
+      "fenAfter": "8/8/8/8/8/p7/P2nk1p1/K1R5 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/8/8/p7/P2n1kp1/K1R5 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rd1",
+      "nl": "Td1",
+      "fenAfter": "8/8/8/8/8/p7/P2n1kp1/K2R4 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/8/8/8/8/p7/P4kp1/K2R1n2 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rd2+",
+      "nl": "Td2+",
+      "fenAfter": "8/8/8/8/8/p7/P2R1kp1/K4n2 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Nxd2",
+      "nl": "Pxd2",
+      "fenAfter": "8/8/8/8/8/p7/P2n1kp1/K7 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Om de dreigende promotie van de g-pion te verhinderen is 1.Tg3? onvoldoende wegens eenvoudig; 1...c2+ 2.Ka1 c1D en mat. Dus:",
+      "after": "3...Kxc1? vermijdt weerom het pat.\n\nZo dat 1...g1D? faalt op 2.Tc1+ en 3.Txg1.\n\nWant nu is het na 2…f1D 3.Tc1+ Kxc1, pat.\n\nEn wit staat toch pat.\n\nDit is een van mijn eerste werkjes (1959) die ik publiceerde in de eindspelrubriek van het Tijdschrift van de Koninklijke Nederlandse Schaakbond.\n\nEen meer gesofistikeerde versie vind je in dit boek op N°- 160 -.",
+      "beforeVariant": {}
+    }
+  }
+}

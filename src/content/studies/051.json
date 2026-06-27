@@ -1,0 +1,264 @@
+{
+  "number": 51,
+  "chapter": "Maljutka's",
+  "chapterNumber": 2,
+  "source": "Origineel, 2008",
+  "gbr": "0010.11 e8e4",
+  "fen": "4K3/6P1/8/8/4k3/8/p7/3B4 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g8=Q",
+      "nl": "g8D",
+      "fenAfter": "4K1Q1/8/8/8/4k3/8/p7/3B4 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "4K1Q1/8/8/8/4k3/8/8/q2B4 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qg2+",
+      "nl": "Dg2+",
+      "fenAfter": "4K3/8/8/8/4k3/8/6Q1/q2B4 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "4K3/8/8/5k2/8/8/6Q1/q2B4 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Kf4",
+      "nl": "Kf4?",
+      "fenAfter": "4K3/8/8/8/5k2/8/6Q1/q2B4 w - - 2 3",
+      "variant": "main.a",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "4K3/8/8/8/5kQ1/8/8/q2B4 b - - 3 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "4K3/8/8/8/6Q1/4k3/8/q2B4 w - - 4 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "4K3/8/8/8/8/4kQ2/8/q2B4 b - - 5 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Kd3",
+      "nl": "Kd3?",
+      "fenAfter": "4K3/8/8/8/8/3k4/6Q1/q2B4 w - - 2 3",
+      "variant": "main.b",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Qf1+",
+      "nl": "Df1+",
+      "fenAfter": "4K3/8/8/8/8/3k4/8/q2B1Q2 b - - 3 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "4K3/8/8/8/8/4k3/8/q2B1Q2 w - - 4 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "4K3/8/8/8/8/4kQ2/8/q2B4 b - - 5 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "4K3/8/8/5k2/6Q1/8/8/q2B4 b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4K3/8/5k2/8/6Q1/8/8/q2B4 w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qf4+",
+      "nl": "Df4+",
+      "fenAfter": "4K3/8/5k2/8/5Q2/8/8/q2B4 b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "4K3/8/6k1/8/5Q2/8/8/q2B4 w - - 6 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "4K3/5Q2/6k1/8/8/8/8/q2B4 b - - 7 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "4K3/5Q2/8/6k1/8/8/8/q2B4 w - - 8 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "4K3/8/8/6kQ/8/8/8/q2B4 b - - 9 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "4K3/8/8/7Q/5k2/8/8/q2B4 w - - 10 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qg4+",
+      "nl": "Dg4+",
+      "fenAfter": "4K3/8/8/8/5kQ1/8/8/q2B4 b - - 11 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "4K3/8/8/8/6Q1/4k3/8/q2B4 w - - 12 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "4K3/8/8/8/8/4kQ2/8/q2B4 b - - 13 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "4K3/8/8/8/8/5Q2/3k4/q2B4 w - - 14 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "4K3/8/8/8/8/8/3kQ3/q2B4 b - - 15 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "4K3/8/8/8/8/8/4Q3/q1kB4 w - - 16 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "4K3/8/8/8/8/8/2Q5/q1kB4 b - - 17 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "(Zie zet 8.)\n\n3.Dh3+? of 3.Df2+ Ke4 4.Dg2+\nKf5 5.Dg4+ (Zie zet 3.)\n\n4.Dh4+? Df5+ 5.Dg4+ (Zie zet 3.)\n\nNa 4…Kg7? 5.Dg5+ Kh7 6.Lc2+\nKh8 7.Dh6+ Kg8 volgt mat.\n\n5.De4+? Kg5 6.Dg4+ Kf6 7.Df4+\n(Zie zet 4.)\n\nNu wordt de koning naar onderen\ngedwongen langs de kortste weg:\n\n8...Kd4? 9.Df6+ en 10.Dxa1\n\nen mat. Of 9…Kc3 10.De5+ en\n11.Dxa1.\n\nEn de zwarte dame keek er naar.",
+      "beforeVariant": {
+        "main.a": "Het beste:",
+        "main.b": "(Zie zet 8.  in de hoofdvari-\n     ant.)"
+      }
+    }
+  }
+}

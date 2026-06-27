@@ -1,0 +1,228 @@
+{
+  "number": 263,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Tijdschrift KNSB, 1959",
+  "gbr": "0602.21 e8e5",
+  "fen": "4K3/pr6/PNr5/4kP2/5N2/8/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "4K3/pr6/P1r5/4kP2/2N2N2/8/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kxf5",
+      "nl": "Kxf5",
+      "fenAfter": "4K3/pr6/P1r5/5k2/2N2N2/8/8/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.2",
+      "ply": 2,
+      "san": "Rxc4",
+      "nl": "Txc4?",
+      "fenAfter": "4K3/pr6/P7/4kP2/2r2N2/8/8/8 w - - 0 2",
+      "variant": "main.a",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.a.3",
+      "ply": 3,
+      "san": "axb7",
+      "nl": "axb7",
+      "fenAfter": "4K3/pP6/8/4kP2/2r2N2/8/8/8 b - - 0 2",
+      "variant": "main.a",
+      "parent": "main.a.2"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Rb4",
+      "nl": "Tb4",
+      "fenAfter": "4K3/pP6/8/4kP2/1r3N2/8/8/8 w - - 1 3",
+      "variant": "main.a",
+      "parent": "main.a.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "4K3/pP6/8/4kP2/1r6/3N4/8/8 b - - 2 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.b.2",
+      "ply": 2,
+      "san": "Kxf4",
+      "nl": "Kxf4?",
+      "fenAfter": "4K3/pr6/P1r5/5P2/2N2k2/8/8/8 w - - 0 2",
+      "variant": "main.b",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.b.3",
+      "ply": 3,
+      "san": "axb7",
+      "nl": "axb7",
+      "fenAfter": "4K3/pP6/2r5/5P2/2N2k2/8/8/8 b - - 0 2",
+      "variant": "main.b",
+      "parent": "main.b.2"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Rh6",
+      "nl": "Th6",
+      "fenAfter": "4K3/pP6/7r/5P2/2N2k2/8/8/8 w - - 1 3",
+      "variant": "main.b",
+      "parent": "main.b.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "b8=Q+",
+      "nl": "b8D+",
+      "fenAfter": "1Q2K3/p7/7r/5P2/2N2k2/8/8/8 b - - 0 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "axb7",
+      "nl": "axb7",
+      "fenAfter": "4K3/pP6/2r5/5k2/2N2N2/8/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rh6",
+      "nl": "Th6",
+      "fenAfter": "4K3/pP6/7r/5k2/2N2N2/8/8/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "4K3/pP6/3N3r/5k2/5N2/8/8/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kxf4",
+      "nl": "Kxf4",
+      "fenAfter": "4K3/pP6/3N3r/8/5k2/8/8/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc8",
+      "nl": "Pc8",
+      "fenAfter": "2N1K3/pP6/7r/8/5k2/8/8/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rh8+",
+      "nl": "Th8+",
+      "fenAfter": "2N1K2r/pP6/8/8/5k2/8/8/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "2N4r/pP1K4/8/8/5k2/8/8/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rh7+",
+      "nl": "Th7+",
+      "fenAfter": "2N5/pP1K3r/8/8/5k2/8/8/8 w - - 4 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ne7",
+      "nl": "Pe7",
+      "fenAfter": "8/pP1KN2r/8/8/5k2/8/8/8 b - - 5 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "7r/pP1KN3/8/8/5k2/8/8/8 w - - 6 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "7r/pP1K4/6N1/8/5k2/8/8/8 b - - 7 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg5",
+      "nl": "K~",
+      "fenAfter": "7r/pP1K4/6N1/6k1/8/8/8/8 w - - 8 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nxh8",
+      "nl": "Pxh8",
+      "fenAfter": "7N/pP1K4/8/6k1/8/8/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "1.axb7? faalt op 1...Txb6. Daarom\ndit offeraanbod:",
+      "after": "met winst.\n\nNa  2...Txc4?  3.b8D  Txf4  wint\n4.Dxa7.\n\nFout is 3.Pg6? Kxg6 4.Pe5+ Kg7\n5.Pd7 (5.Pf7? Tb6) 5…Th5 6.Pb6\nTh8+ 7.Kd7 Tb8, met remise.\n\nZwart moet  dit paard wel slaan,\nwant na bijvoorbeeld 3...Kf6? 4.Pf7\nof  3...Kg4  4.Pe6  (dreigt  5.Pf8)\nTxe6+ 5.Kd7 is de promotie niet\nmeer te verhinderen.\n\nDekt veld b6, wat 4.Pf7? niet doet.\n\nEn eerst nu kan de promotie ge-\nschieden.\n\nPas later zag ik, dat in de boven-\nstaande stelling  pion a7 er voor\n‘spek-en-bonen’  bijstaat. Of was\nhet slaan van het paard op b6 door\ndeze pion als een extra dreiging\nvan zwart bedoeld? Het was im-\nmers een vroeg werkje.\n\nHet profetisch commentaar luidde\ntoen: ”Een prachtwerk, dat een\ncomponist van zeer groot  talent\naankondgt.”",
+      "beforeVariant": {
+        "main.a": "Want zwart mag het niet aanne-\nmen:",
+        "main.b": "en 4.Pxb4. Of:"
+      }
+    }
+  }
+}

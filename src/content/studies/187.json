@@ -1,0 +1,174 @@
+{
+  "number": 187,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Finales... y Temas, 2003",
+  "gbr": "0116.10 d1g1",
+  "fen": "8/8/8/5n2/8/7P/2R4n/3K1Bk1 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rg2+",
+      "nl": "Tg2+",
+      "fenAfter": "8/8/8/5n2/8/7P/6Rn/3K1Bk1 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/8/5n2/8/7P/6Rn/3K1B1k w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rf2",
+      "nl": "Tf2",
+      "fenAfter": "8/8/8/5n2/8/7P/5R1n/3K1B1k b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/8/8/8/8/4n2P/5R1n/3K1B1k w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/8/8/8/4n2P/4KR1n/5B1k b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nexf1",
+      "nl": "Pexf1",
+      "fenAfter": "8/8/8/8/8/7P/4KR1n/5n1k w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rxf1+",
+      "nl": "Txf1+",
+      "fenAfter": "8/8/8/8/8/7P/4K2n/5R1k b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/8/8/7P/4K1kn/5R2 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rh1",
+      "nl": "Th1",
+      "fenAfter": "8/8/8/8/8/7P/4K1kn/7R b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kxh1",
+      "nl": "Kxh1",
+      "fenAfter": "8/8/8/8/8/7P/4K2n/7k w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "Kxh3",
+      "nl": "Kxh3?",
+      "fenAfter": "8/8/8/8/8/7k/4K2n/7R w - - 0 6",
+      "variant": "main.a",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/8/8/7k/5K1n/7R b - - 1 6",
+      "variant": "main.a",
+      "parent": "main.a.10"
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "Kh4",
+      "nl": "K~",
+      "fenAfter": "8/8/8/8/7k/8/5K1n/7R w - - 2 7",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.a.13",
+      "ply": 13,
+      "san": "Rxh2",
+      "nl": "Txh2",
+      "fenAfter": "8/8/8/8/7k/8/5K1R/8 b - - 0 7",
+      "variant": "main.a",
+      "parent": "main.a.12"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "Nf3",
+      "nl": "Pf3?",
+      "fenAfter": "8/8/8/8/8/5n1P/4K1k1/7R w - - 3 6",
+      "variant": "main.b",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "h4",
+      "nl": "h4",
+      "fenAfter": "8/8/8/8/7P/5n2/4K1k1/7R b - - 0 6",
+      "variant": "main.b",
+      "parent": "main.b.10"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/8/8/7P/5K1n/7k b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "De loper staat en prise en na bij-\nvoorbeeld:  1.Ld3? Pe3+  2.Ke2\nPxc2 3.Lxc2 Kg2 4.h4 Pf1 5.Lg6\nPg3+ 6.Ke3 Kh3 7.h5 Pxh5, is de\nwinst gevlogen. Eveneens hier na\n4.Lf5?  Pf3 5.Ke3 Kg3 6.Lg4 Pg5\n7.h4 Kxh4.\nBovendien   dreigt   zwart  met\n1…Pe3+ en 2…Pxc2 de toren te\nslaan.",
+      "after": "Pd4+ 7.Ke3 Pc2 8.Ke4 Kxh1\n\nPd6+ 12.Ke5 Pf7+ 13.Kf6 Ph8\n\n14.Kg7, enzovoort, wint wit.\n\nEn nu, na de tekszet, slaat wit de\n     staldeur dicht met:\n\nHet paard kan de pion niet meer\n    van de winst houden en moet zich\n     zelfs offeren.\n\n     Mijn Argentijnse schaakvriend Jo-\n    sé A. Copié schreef: “Extensión\n     sobre un trabajo de Ernest Pogo-\n     sjants. Una obra de belleza singu-\n      lar y de  clásico  estilo que de-\n    muestra que el ajedrez continúa\n     siendo una posibilidad infinita.”",
+      "beforeVariant": {
+        "main.a": "1…Kxf1? 2.Txh2 met winst.\n\nEen gedurfde zet, want na bijvoor-\nbeeld 4.h4? houdt zwart remise\nmet 4…Pg3 of 4…Kg1.\n\nGedwongen,  daar  na  4…Pxf1\n5.Kxf1, de witte pion doorloopt.\n    En dan is er het onwaarschijnlijke\n     offeraanbod:\n\n5.h4? Pxf1 6.h5 Pg3+ en 7.Pxh5.\n\nWel  verplicht,  anders  gaat  het\n    paard verloren na:",
+        "main.b": "Ook na:"
+      }
+    }
+  }
+}
