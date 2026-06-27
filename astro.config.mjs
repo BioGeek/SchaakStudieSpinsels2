@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +14,15 @@ export default defineConfig({
       redirectToDefaultLocale: true,
     },
   },
-  integrations: [mdx(), tailwind({ applyBaseStyles: false })],
+  integrations: [
+    mdx(),
+    tailwind({ applyBaseStyles: false }),
+    // Emits /sitemap-index.xml with <xhtml:link> hreflang alternates for the
+    // nl/en page pairs (default locale nl).
+    sitemap({
+      i18n: { defaultLocale: 'nl', locales: { nl: 'nl', en: 'en' } },
+    }),
+  ],
   vite: {
     ssr: {
       // chessground ships as ESM; Astro bundles it cleanly, no extras needed

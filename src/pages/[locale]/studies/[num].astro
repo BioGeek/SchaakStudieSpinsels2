@@ -35,9 +35,15 @@ const { study, locale, prevNum, nextNum } = Astro.props;
 const data = study.data;
 const title = `${data.chapter} — ${data.stipulation} ${data.gbr}`;
 const num = String(data.number).padStart(3, '0');
+
+const goal = data.stipulation === '=' ? (locale === 'en' ? 'draw' : 'remise')
+                                      : (locale === 'en' ? 'White wins' : 'wit wint');
+const description = locale === 'en'
+  ? `Study ${data.number} (${data.chapter}) — ${goal}. An original chess endgame study by Ignace Vandecasteele, with a playable board and full variation tree.`
+  : `Studie ${data.number} (${data.chapter}) — ${goal}. Een originele schaakeindspelstudie van Ignace Vandecasteele, met speelbaar bord en volledige variantenboom.`;
 ---
 
-<BaseLayout title={title} locale={locale} pathSansLocale={`/studies/${num}`}>
+<BaseLayout title={title} locale={locale} pathSansLocale={`/studies/${num}`} description={description}>
   <article class="study">
     <header class="mb-6 text-center">
       <p class="text-sm uppercase tracking-widest text-ink-muted">

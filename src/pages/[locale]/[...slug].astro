@@ -34,6 +34,7 @@ const chapterNumber = STUDY_CHAPTERS.find((c) => c.slug === bare)?.number;
   title={entry.data.title}
   locale={locale}
   pathSansLocale={pathSansLocale}
+  description={`${entry.data.title} — ${t(locale, 'site.title')}, ${locale === 'en' ? 'original chess endgame studies by Ignace Vandecasteele.' : 'originele schaakeindspelstudies van Ignace Vandecasteele.'}`}
   sidebar={true}
   current={bare}
 >

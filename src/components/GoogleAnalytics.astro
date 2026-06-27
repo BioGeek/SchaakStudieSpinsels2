@@ -1,0 +1,19 @@
+---
+// Google Analytics 4. Inert unless PUBLIC_GA_ID (a G-XXXXXXXXXX measurement id)
+// is set at build time — so dev builds and forks stay analytics-free, and the
+// tag only ships when the id is configured (e.g. via a repo variable wired into
+// the deploy workflow). The measurement id is not secret (it's visible in the
+// page source either way).
+const gaId = import.meta.env.PUBLIC_GA_ID;
+---
+{gaId && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+    <script is:inline define:vars={{ gaId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', gaId);
+    </script>
+  </>
+)}

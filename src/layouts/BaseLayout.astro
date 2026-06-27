@@ -3,19 +3,32 @@ import '../styles/global.css';
 import LanguageToggle from '../components/LanguageToggle.astro';
 import CoverMark from '../components/CoverMark.astro';
 import BookNav from '../components/BookNav.astro';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import { t, type Locale } from '../i18n/ui';
 
 interface Props {
   title: string;
   locale: Locale;
   pathSansLocale: string; // e.g. "/studies/001"
+  description?: string; // per-page meta/OG description
+  ogImage?: string; // per-page social image (absolute path), defaults to the cover card
   sidebar?: boolean; // show the book-nav sidebar (prose pages)
   current?: string; // bare slug of the active page, for sidebar highlight
 }
 
-const { title, locale, pathSansLocale, sidebar = false, current } = Astro.props;
+const { title, locale, pathSansLocale, description, ogImage, sidebar = false, current } = Astro.props;
 const siteTitle = t(locale, 'site.title');
 const pageTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
+const metaDescription = description ?? t(locale, 'home.intro');
+
+// Absolute URLs (Astro.site is set in astro.config). Self-canonical + nl/en
+// hreflang alternates for this same page, so search engines treat the two
+// language versions as alternates rather than duplicate content.
+const path = (l: string) => `/${l}${pathSansLocale}`.replace(/\/{2,}/g, '/');
+const canonical = new URL(path(locale), Astro.site).href;
+const altNl = new URL(path('nl'), Astro.site).href;
+const altEn = new URL(path('en'), Astro.site).href;
+const ogImageUrl = new URL(ogImage ?? '/og-default.png', Astro.site).href;
 
 // The EN translation is planned but not ready; hide the language toggle for
 // now while keeping all the i18n machinery (EN pages, routing, strings) intact.
@@ -29,7 +42,30 @@ const SHOW_LANGUAGE_TOGGLE = false;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
-    <meta name="description" content={t(locale, 'home.intro')} />
+    <meta name="description" content={metaDescription} />
+
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="nl" href={altNl} />
+    <link rel="alternate" hreflang="en" href={altEn} />
+    <link rel="alternate" hreflang="x-default" href={altNl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteTitle} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={locale === 'nl' ? 'nl_BE' : 'en_US'} />
+    <meta property="og:locale:alternate" content={locale === 'nl' ? 'en_US' : 'nl_BE'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <GoogleAnalytics />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

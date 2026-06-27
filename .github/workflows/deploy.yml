@@ -49,6 +49,10 @@ jobs:
         run: npm ci
       - name: Build site
         run: npm run build
+        env:
+          # GA4 measurement id (G-XXXXXXXXXX). Set the repo variable to enable
+          # analytics; left unset, GoogleAnalytics.astro emits nothing.
+          PUBLIC_GA_ID: ${{ vars.PUBLIC_GA_ID }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
