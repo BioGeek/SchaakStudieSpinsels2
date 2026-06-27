@@ -80,11 +80,11 @@
       "parent": "main.7"
     },
     {
-      "id": "main.21",
-      "ply": 21,
-      "san": "Ne4+",
-      "nl": "Pe4+",
-      "fenAfter": "1b6/8/8/8/4N3/8/Nk4K1/1B6 b - - 4 5",
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "1b6/8/8/8/8/5K2/Nk1N4/1B6 b - - 4 5",
       "variant": "main",
       "parent": "main.8"
     },
@@ -110,12 +110,12 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "9.Pc1 Pc4, eveneens remise.\n\n6.Le4        Pe7\n\n7.Pb4? wegens 7…Kc3 en een\n\n7.Pc1!\n\n7…         Kxc1        8.Pc4       Pg8        9.Pb6       Pe7       10.Ke3       Kb2       11.Kd4       Kb3       12.Kc5       Kc3       13.Lh7       Kb3       14.Kd6\n\n2.Ke6 Pd4+ 3.Kd6 Pb5+ 4.Kc6\n\n10.Kb7 Kf6 11.Pc3 Le5 12.Pe2 12…Lb8? 13.Pc3 Ke5 14.Pa4 Kd6 15.Pc3 Pc6 16.Pe4+ Kd5 17.Pc3+\n\nPb6 9.Pc4+ Kxa2 10.Pxb6.\nWat dan?\n\nEen onwaarschijnlijk offeraanbod:\n\nEn het paard word veroverd.\n\nDeze aristocratische miniatuur  is\neen verbetering van de 1ste prijs\nvan  Juri Bazlov  in Sjachmaty v\nSSSR (1969):\n\nKd5 Pd1 b6 / Kg7 Lg1 Pa8 Pf5 =\n\nmet deze oplossing: 1.b7 Pb6+\n\nPa7+ 5.Kc7 Pd5+ 6.Kd6 Pf6 7.b8P\nLh2+  8.Kc5  Lxb8  9.Kb6 Pd7+\n\nKc5   18.Pe4+  Kb5   19.Pc3+,\nremise.\nMaar ik kraakte de studie met de\nzet  12…Pc8!  Met  verwisselde\nkleuren heb  ik dan de  boven-\nstaande pionloze versie bedacht.",
+      "after": "Pb6 9.Pc4+ Kxa2 10.Pxb6.\nWat dan?\n\nEen onwaarschijnlijk offeraanbod:\n\nEn het paard word veroverd.\n\nDeze aristocratische miniatuur  is\neen verbetering van de 1ste prijs\nvan  Juri Bazlov  in Sjachmaty v\nSSSR (1969):\n\nKd5 Pd1 b6 / Kg7 Lg1 Pa8 Pf5 =\n\nmet deze oplossing: 1.b7 Pb6+\n2.Ke6 Pd4+ 3.Kd6 Pb5+ 4.Kc6\nPa7+ 5.Kc7 Pd5+ 6.Kd6 Pf6 7.b8P\nLh2+  8.Kc5  Lxb8  9.Kb6 Pd7+\n10.Kb7 Kf6 11.Pc3 Le5 12.Pe2\n12…Lb8? 13.Pc3 Ke5 14.Pa4 Kd6\n15.Pc3 Pc6 16.Pe4+ Kd5 17.Pc3+\nKc5   18.Pe4+  Kb5   19.Pc3+,\nremise.\nMaar ik kraakte de studie met de\nzet  12…Pc8!  Met  verwisselde\nkleuren heb  ik dan de  boven-\nstaande pionloze versie bedacht.",
       "beforeVariant": {
-        "main.a": "Het ter hulp snellen van de witte\nkoning faalt nu. Bijvoorbeeld:",
-        "main.b": "Pb3+) 7…Pc6, en nu 8.Pc3\n   Pe5+ 9.Kd4 Pc6+ 10.Kc5 Kxc3\n\nremise. Of:",
-        "main.a2": "Pf3)   7.Pb3   8.Lg6   Pxd2.\n   (8…Ka2  9.Lf7 K~  10.Lxb3)\n\nMaar wel goed is de aanval:\n\nWant nu faalt:",
-        "main.b2": "Kxa2 9.Lxc2. En de tekstzet\n    verhindert nu op  zijn  beurt\n\nder paarden valt."
+        "main.a": "4…Pd4? wint niet.\n\nHet ter hulp snellen van de witte\nkoning faalt nu. Bijvoorbeeld:",
+        "main.b": "Pb3+) 7…Pc6, en nu 8.Pc3\n   Pe5+ 9.Kd4 Pc6+ 10.Kc5 Kxc3\n\n11.Pe4+ Kb2 12.Ld3 Pe5 met\n\nremise. Of:",
+        "main.a2": "Pf3)   7.Pb3   8.Lg6   Pxd2.\n   (8…Ka2  9.Lf7 K~  10.Lxb3)\n\n9.Pc1 Pc4, eveneens remise.\n\nMaar wel goed is de aanval:\n\nWant nu faalt:",
+        "main.b2": "Kxa2 9.Lxc2. En de tekstzet\n    verhindert nu op  zijn  beurt\n\n7.Pb4? wegens 7…Kc3 en een\n\nder paarden valt."
       }
     }
   }

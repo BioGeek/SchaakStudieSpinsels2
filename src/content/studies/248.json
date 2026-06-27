@@ -35,8 +35,8 @@
       "parent": "main.2"
     },
     {
-      "id": "main.9",
-      "ply": 9,
+      "id": "main.4",
+      "ply": 4,
       "san": "Bc3",
       "nl": "Lc3",
       "fenAfter": "8/2B5/p3p2P/4p3/K7/2b5/6k1/8 w - - 3 3",
@@ -44,28 +44,46 @@
       "parent": "main.3"
     },
     {
-      "id": "main.21",
-      "ply": 21,
-      "san": "Bxe5",
-      "nl": "Lxe5",
-      "fenAfter": "8/8/p3p2P/4B3/K7/2b5/6k1/8 b - - 0 3",
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bb6",
+      "nl": "Lb6",
+      "fenAfter": "8/8/pB2p2P/4p3/K7/2b5/6k1/8 b - - 4 3",
       "variant": "main",
-      "parent": "main.9"
+      "parent": "main.4"
     },
     {
-      "id": "main.22",
-      "ply": 22,
-      "san": "Bxe5",
-      "nl": "Lxe5",
-      "fenAfter": "8/8/p3p2P/4b3/K7/8/6k1/8 w - - 0 4",
+      "id": "main.16",
+      "ply": 16,
+      "san": "e4",
+      "nl": "e4",
+      "fenAfter": "8/8/pB2p2P/8/K3p3/2b5/6k1/8 w - - 0 4",
       "variant": "main",
-      "parent": "main.21"
+      "parent": "main.11"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/p3p2P/8/K2Bp3/2b5/6k1/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bxd4",
+      "nl": "Lxd4",
+      "fenAfter": "8/8/p3p2P/8/K2bp3/8/6k1/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.17"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "4...          Lc3        5.La5\n\n1.La7 La1 2.Kb1 Lc3 3.Kc2 La1 4.Ld4 exd4 5.Kd3 en wint.\n\n9.Kc4 Kf3 10.Ld4 e3 11.Lxh8 e2 12.Lc3, enzovoort.\n\nOp weg naar promotie.\n\nNiet 2.Kxa6? Lc3, en nu mislukt het\nweglokken van de loper met 3.La5\nop 3...Lb2 4.h7 e4. Of 3.Kb5 e4\n\nDreigt 3...e4.\n                                 4       3.Kb3        La1\n\nEen vroege poging met 4.La5? e4\n\nremise.\n\nLokt de zwarte loper weg.\n\nAlles staat nu klaar voor de win-\nnende zet:\n\nMaar niet onmiddellijk 8.h7? we-\ngens 8...e4 9.Kc4 Lh8 10.Ld4 e5\n\nEn wint, want zwart komt te laat\nmet zijn pionpromotie.\n\nHet is een uitbreiding van een mi-\nniatuurtje van P. Heuäcker (1930):\n\nKc1 Lb8 h6 / Kh4 Ld4 e5 +\n\n“Dat briljante ideeën met een mi-\nnimum aan materiaal uit te drukken\nzijn  leert ons Heuäcker” besloot\nHans Bouwmeester in zijn boek:\n‘Schaakstukken spelen U voor’.\nVriend Ward Stoffelen schreef in\nzijn rubriek ‘Eindspel en -studie’ in\nSchaakschild  (1984)  dat  men\nAnatole  Mouterde  onrecht  zou\naandoen, mocht men hem  niet\nvernoemen als de voorganger van\nde ‘Letztform’ van Heuäcker.\n\nIn Sydsvenska Dagbladet  Snäll-\nposten  (1913)  verscheen  van\nMouterde onderstaande studie:\n\nKc1 Lb4 a3 f2 h5 /\n          Kb7 Lb6 a5 e5 h4 +\n\nmet de oplossing: 1.h6 Ld4 2.Lc5\nLa1 3.Kb1 Lc3 4.Kc2 La1 5.Ld4\nLxd4 5.Kd3 Lb2 6.Ke4 en wint.\n\nIn  mijn  oorspronkelijke  versie,\nzonder een extra pion op veld e6\n(Schakend Nederland 1962), is er\neen dual aanwezig, want dan wint\nwit ook met: 7.h7 e4 8.Kb3 Lh8\n\nr",
+      "after": "Op weg naar promotie.\n\nNiet 2.Kxa6? Lc3, en nu mislukt het\nweglokken van de loper met 3.La5\nop 3...Lb2 4.h7 e4. Of 3.Kb5 e4\n4.Kc4 Lh8 enzovoort.\n\nDreigt 3...e4.\n                                 4       3.Kb3        La1\n\nEen vroege poging met 4.La5? e4\n5.Lc3 Lxc3 6.Kxc3 e3 7.Kd3 Kf3\n8.h7 e2 9.h8D e1D geeft slechts\nremise.\n\nLokt de zwarte loper weg.\n\n4...Lxa5? 5.h7.\n\nAlles staat nu klaar voor de win-\nnende zet:\n\nMaar niet onmiddellijk 8.h7? we-\ngens 8...e4 9.Kc4 Lh8 10.Ld4 e5\n11.Lxe5 Lxe5.\n\n9...e3? 10.Lxa1 e2 11.Lc3.\n\nEn wint, want zwart komt te laat\nmet zijn pionpromotie.\n\nHet is een uitbreiding van een mi-\nniatuurtje van P. Heuäcker (1930):\n\nKc1 Lb8 h6 / Kh4 Ld4 e5 +\n\n1.La7 La1 2.Kb1 Lc3 3.Kc2 La1\n4.Ld4 exd4 5.Kd3 en wint.\n\n“Dat briljante ideeën met een mi-\nnimum aan materiaal uit te drukken\nzijn  leert ons Heuäcker” besloot\nHans Bouwmeester in zijn boek:\n‘Schaakstukken spelen U voor’.\nVriend Ward Stoffelen schreef in\nzijn rubriek ‘Eindspel en -studie’ in\nSchaakschild  (1984)  dat  men\nAnatole  Mouterde  onrecht  zou\naandoen, mocht men hem  niet\nvernoemen als de voorganger van\nde ‘Letztform’ van Heuäcker.\n\nIn Sydsvenska Dagbladet  Snäll-\nposten  (1913)  verscheen  van\nMouterde onderstaande studie:\n\nKc1 Lb4 a3 f2 h5 /\n          Kb7 Lb6 a5 e5 h4 +\n\nmet de oplossing: 1.h6 Ld4 2.Lc5\nLa1 3.Kb1 Lc3 4.Kc2 La1 5.Ld4\nLxd4 5.Kd3 Lb2 6.Ke4 en wint.\n\nIn  mijn  oorspronkelijke  versie,\nzonder een extra pion op veld e6\n(Schakend Nederland 1962), is er\neen dual aanwezig, want dan wint\nwit ook met: 7.h7 e4 8.Kb3 Lh8\n9.Kc4 Kf3 10.Ld4 e3 11.Lxh8 e2\n12.Lc3, enzovoort.\nr",
       "beforeVariant": {}
     }
   }

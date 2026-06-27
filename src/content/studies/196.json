@@ -35,6 +35,24 @@
       "parent": "main.2"
     },
     {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nxd2",
+      "nl": "Pxd2",
+      "fenAfter": "6N1/8/6k1/4K3/8/8/B2n4/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "6N1/8/6k1/8/5K2/8/B2n4/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
       "id": "main.a.10",
       "ply": 10,
       "san": "Nh2",
@@ -57,18 +75,198 @@
       "ply": 6,
       "san": "Kg7",
       "nl": "Kg7",
-      "fenAfter": "6N1/6k1/8/4K3/8/8/B2B4/5n2 w - - 1 3",
+      "fenAfter": "6N1/6k1/8/8/5K2/8/B2n4/8 w - - 2 4",
       "variant": "main",
-      "parent": "main.3"
+      "parent": "main.5"
     },
     {
       "id": "main.7",
       "ply": 7,
       "san": "Ne7",
       "nl": "Pe7",
-      "fenAfter": "8/4N1k1/8/4K3/8/8/B2B4/5n2 b - - 2 3",
+      "fenAfter": "8/4N1k1/8/8/5K2/8/B2n4/8 b - - 3 4",
       "variant": "main",
       "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/4N3/5k2/8/5K2/8/B2n4/8 w - - 4 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nc6",
+      "nl": "Pc6",
+      "fenAfter": "8/8/2N2k2/8/5K2/8/B2n4/8 b - - 5 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/8/2N2k2/8/5K2/8/B7/5n2 w - - 6 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/8/5k2/8/3N1K2/8/B7/5n2 b - - 7 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/8/5k2/8/3N1K2/8/B2n4/8 w - - 8 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "8/8/5k2/8/5K2/8/B2nN3/8 b - - 9 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/8/5k2/8/5K2/8/B3N3/5n2 w - - 10 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "8/8/5k2/8/5K2/2N5/B7/5n2 b - - 11 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/8/5k2/8/5K2/2N5/B2n4/8 w - - 12 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nd1",
+      "nl": "Pd1",
+      "fenAfter": "8/8/5k2/8/5K2/8/B2n4/3N4 b - - 13 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4k3/8/8/5K2/8/B2n4/3N4 w - - 14 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/4k3/8/8/8/4K3/B2n4/3N4 b - - 15 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Nf1+",
+      "nl": "Pf1+",
+      "fenAfter": "8/4k3/8/8/8/4K3/B7/3N1n2 w - - 16 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/4k3/8/8/8/8/B4K2/3N1n2 b - - 17 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/4k3/8/8/8/8/B2n1K2/3N4 w - - 18 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "8/4k3/8/8/8/2N5/B2n1K2/8 b - - 19 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/8/3k4/8/8/2N5/B2n1K2/8 w - - 20 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Ke2",
+      "nl": "Ke2",
+      "fenAfter": "8/8/3k4/8/8/2N5/B2nK3/8 b - - 21 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/8/8/2k5/8/2N5/B2nK3/8 w - - 22 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Kxd2",
+      "nl": "Kxd2",
+      "fenAfter": "8/8/8/2k5/8/2N5/B2K4/8 b - - 0 14",
+      "variant": "main",
+      "parent": "main.26"
     }
   ],
   "prose": {
@@ -76,7 +274,7 @@
       "before": "",
       "after": "gaat het paard verloren.\n\nEen felle strijd breekt nu los tussen\n    de beide paarden:\n\nMaar niet 7.Ke3? Ke5 8.Pc6 Kd6\n\nEen afwachtende zet.\n\n(Zie zet 12.)\n\nEn wit wint.",
       "beforeVariant": {
-        "main.a": "send  is het hier, dat 2…Pe4 de\nénige correcte zet is om remise te\nhouden, bijvoorbeeld 3.Lf7+ Kh4.\n(Nalimov)\n\nmise..\n\nHet lijkt gelijkspel, maar na\n\nis het zwarte paard reeds  vijf (5)\nvluchtvelden kwijt.\nEn na 3…Pf1? 4.Pe7+ Kf6 5.Pf5"
+        "main.a": "1.Lxg8? Pxd2+ 2.Kf4 en verras-\nsend  is het hier, dat 2…Pe4 de\nénige correcte zet is om remise te\nhouden, bijvoorbeeld 3.Lf7+ Kh4.\n(Nalimov)\n\n1.Kh4? 2.Le1+ K~ 3.Lxg8 met re-\nmise..\n\n2.Lxg8? Pxd2 is ook remise.\n\nHet lijkt gelijkspel, maar na\n\nis het zwarte paard reeds  vijf (5)\nvluchtvelden kwijt.\nEn na 3…Pf1? 4.Pe7+ Kf6 5.Pf5"
       }
     }
   }

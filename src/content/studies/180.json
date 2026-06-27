@@ -123,16 +123,250 @@
       "fenAfter": "7K/8/b7/4k3/5n2/5N2/5N2/2B5 b - - 7 4",
       "variant": "main",
       "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "7K/8/b7/5k2/5n2/5N2/5N2/2B5 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nh4+",
+      "nl": "Ph4+",
+      "fenAfter": "7K/8/b7/5k2/5n1N/8/5N2/2B5 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "7K/8/b7/4k3/5n1N/8/5N2/2B5 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "7K/8/b7/4k3/5nNN/8/8/2B5 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "7K/8/b7/8/4knNN/8/8/2B5 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nf6+",
+      "nl": "Pf6+",
+      "fenAfter": "7K/8/b4N2/8/4kn1N/8/8/2B5 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "7K/8/b4N2/4k3/5n1N/8/8/2B5 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nd7+",
+      "nl": "Pd7+",
+      "fenAfter": "7K/3N4/b7/4k3/5n1N/8/8/2B5 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "7K/3N4/b2k4/8/5n1N/8/8/2B5 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nb8",
+      "nl": "Pb8",
+      "fenAfter": "1N5K/8/b2k4/8/5n1N/8/8/2B5 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "1N5K/8/b2k4/8/7N/3n4/8/2B5 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.a2.18",
+      "ply": 18,
+      "san": "Ng2",
+      "nl": "Pg2?",
+      "fenAfter": "1N5K/8/b2k4/8/7N/8/6n1/2B5 w - - 18 10",
+      "variant": "main.a2",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.a2.19",
+      "ply": 19,
+      "san": "Nxg2",
+      "nl": "Pxg2",
+      "fenAfter": "1N5K/8/b2k4/8/8/8/6N1/2B5 b - - 0 10",
+      "variant": "main.a2",
+      "parent": "main.a2.18"
+    },
+    {
+      "id": "main.a2.20",
+      "ply": 20,
+      "san": "Bb7",
+      "nl": "Lb7",
+      "fenAfter": "1N5K/1b6/3k4/8/8/8/6N1/2B5 w - - 1 11",
+      "variant": "main.a2",
+      "parent": "main.a2.19"
+    },
+    {
+      "id": "main.a2.21",
+      "ply": 21,
+      "san": "Bf4",
+      "nl": "Lf4",
+      "fenAfter": "1N5K/1b6/3k4/8/5B2/8/6N1/8 b - - 2 11",
+      "variant": "main.a2",
+      "parent": "main.a2.20"
+    },
+    {
+      "id": "main.b2.18",
+      "ply": 18,
+      "san": "Ne2",
+      "nl": "Pe2?",
+      "fenAfter": "1N5K/8/b2k4/8/7N/8/4n3/2B5 w - - 18 10",
+      "variant": "main.b2",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.b2.19",
+      "ply": 19,
+      "san": "Ba3+",
+      "nl": "La3+",
+      "fenAfter": "1N5K/8/b2k4/8/7N/B7/4n3/8 b - - 19 10",
+      "variant": "main.b2",
+      "parent": "main.b2.18"
+    },
+    {
+      "id": "main.b2.20",
+      "ply": 20,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "1N5K/2k5/b7/8/7N/B7/4n3/8 w - - 20 11",
+      "variant": "main.b2",
+      "parent": "main.b2.19"
+    },
+    {
+      "id": "main.b2.21",
+      "ply": 21,
+      "san": "Nxa6",
+      "nl": "Pxa6",
+      "fenAfter": "7K/2k5/N7/8/7N/B7/4n3/8 b - - 0 11",
+      "variant": "main.b2",
+      "parent": "main.b2.20"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Ba3+",
+      "nl": "La3+",
+      "fenAfter": "1N5K/8/b2k4/8/7N/B2n4/8/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "1N5K/2k5/b7/8/7N/B2n4/8/8 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nxa6+",
+      "nl": "Pxa6+",
+      "fenAfter": "7K/2k5/N7/8/7N/B2n4/8/8 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "7K/8/Nk6/8/7N/B2n4/8/8 w - - 1 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nb4",
+      "nl": "Pb4",
+      "fenAfter": "7K/8/1k6/8/1N5N/B2n4/8/8 b - - 2 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Nxb4",
+      "nl": "Pxb4",
+      "fenAfter": "7K/8/1k6/8/1n5N/B7/8/8 w - - 0 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Bxb4",
+      "nl": "Lxb4",
+      "fenAfter": "7K/8/1k6/8/1B5N/8/8/8 b - - 0 13",
+      "variant": "main",
+      "parent": "main.24"
     }
   ],
   "prose": {
     "nl": {
       "before": "De witte koning is verloren gesuk-\nkeld achter de vijandelijke linies.\nToch zullen Roger Missiaen en ik\nhier  zegevieren  in deze  aristo-\ncraat, dankzij onze ruiterij.",
-      "after": "1.Lg4 Kd7 2.Pg6 Kd6 3.Pe4+ Kd5 4.Pf6+ Kd6 5.Pe8+ Kd5 6.Pe7+\n\nen wit wint.\n\n“One would hardly expect that the\nhumble Knight at h1 will become\nan important actor in this combat.”\nmeende Roger, die mijn originele\nversie verlengde met vier zetten:\n\nKa1 Le2 Pc3 Ph8 /\n              Kc8 Lc1 Pe6 +\n\nKe5  7.Pc6+  Kd5  8.Pb4+  Kc4",
+      "after": "en wit wint.\n\n“One would hardly expect that the\nhumble Knight at h1 will become\nan important actor in this combat.”\nmeende Roger, die mijn originele\nversie verlengde met vier zetten:\n\nKa1 Le2 Pc3 Ph8 /\n              Kc8 Lc1 Pe6 +\n\n1.Lg4 Kd7 2.Pg6 Kd6 3.Pe4+ Kd5\n4.Pf6+ Kd6 5.Pe8+ Kd5 6.Pe7+\nKe5  7.Pc6+  Kd5  8.Pb4+  Kc4\n9.Pa2, en wit slaat een stuk.",
       "beforeVariant": {
         "main.a": "Mijn vondst. Want na:",
         "main.b": "verliest een stuk met remise.",
-        "main.a2": "paarden valt. Ook remise..\n\nDe juiste zet.\nWant na 2.Pd4? Kg4 3.Pf2+ Kg3\n\nrondedans.\n\nEr dreigde 3.Ph3+ en 4.Pxf4.\nNa 2…Lc4 3.Pd4 K~ wint 3.Lxf4."
+        "main.a2": "paarden valt. Ook remise..\n\nDe juiste zet.\nWant na 2.Pd4? Kg4 3.Pf2+ Kg3\n4.Pe4+ Kg4 5.Pf6+ Kg3 6.Pf5+ Kf3\n7.Ph4+  Kg3,   stopt   hier  de\nrondedans.\n\nEr dreigde 3.Ph3+ en 4.Pxf4.\nNa 2…Lc4 3.Pd4 K~ wint 3.Lxf4.\n\n4.Pc6+ leidt tot niets."
       }
     }
   }

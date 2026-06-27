@@ -116,40 +116,67 @@
       "parent": "main.b.6"
     },
     {
-      "id": "main.9",
-      "ply": 9,
-      "san": "d8=Q",
-      "nl": "d8D",
-      "fenAfter": "3Q4/8/8/7r/8/2B5/2n3P1/3K2k1 b - - 0 3",
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/3P4/8/7r/3B4/8/2n3P1/3K2k1 b - - 4 3",
       "variant": "main",
       "parent": "main.4"
     },
     {
-      "id": "main.10",
-      "ply": 10,
-      "san": "Rd5+",
-      "nl": "Td5+",
-      "fenAfter": "3Q4/8/8/3r4/8/2B5/2n3P1/3K2k1 w - - 1 4",
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/3P4/8/7r/3B4/4n3/6P1/3K2k1 w - - 5 4",
       "variant": "main",
-      "parent": "main.9"
+      "parent": "main.5"
     },
     {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Qxd5",
-      "nl": "Dxd5",
-      "fenAfter": "8/8/8/3Q4/8/2B5/2n3P1/3K2k1 b - - 0 4",
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bxe3+",
+      "nl": "Lxe3+",
+      "fenAfter": "8/3P4/8/7r/8/4B3/6P1/3K2k1 b - - 0 4",
       "variant": "main",
-      "parent": "main.10"
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "8/3P4/8/7r/8/4B3/6P1/3K1k2 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bg5",
+      "nl": "Lg5",
+      "fenAfter": "8/3P4/8/6Br/8/8/6P1/3K1k2 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "7r/3P4/8/6B1/8/8/6P1/3K1k2 w - - 3 6",
+      "variant": "main",
+      "parent": "main.9"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "5.Lg5        Th8     5…Txg5? 6.d8D.             6.g4\n\nTc2+ 5.Kb1 Txc3 wint ook\n\nNa 3.d8D? Td5+ 4.Dxf5 Pe3+ en\n\nZwart weigert uiteraard het offer\nwant 3…Pxd4 4.d8D en wit wint,\nmaar biedt er zelf een aan:\n\nEn niet 4..Kxg2?, met een hoopvol\n\ndan  houdt  zwart  remise  na\n\nDaarom een tweede offeraanbod:\n\nWie kon vermoeden dat dit pion-\n     netje nog zou winnen.\n\nEnzovoort.\n\n     Pion g2 wint met een Exelsior.",
+      "after": "Tc2+ 5.Kb1 Txc3 wint ook\n\n6.Dd4, zoals in a).\n\nNa 3.d8D? Td5+ 4.Dxf5 Pe3+ en\n5…Pxd5, slaat zwart de dame.\n\nZwart weigert uiteraard het offer\nwant 3…Pxd4 4.d8D en wit wint,\nmaar biedt er zelf een aan:\n\nEn niet 4..Kxg2?, met een hoopvol\n\n5.d8D. Want speelt wit nu 5.d8D?\n\ndan  houdt  zwart  remise  na\n\n5…Td5+ 6.Dxd5, en het is pat.\n\nDaarom een tweede offeraanbod:\n\nWie kon vermoeden dat dit pion-\n     netje nog zou winnen.\n\nEnzovoort.\n\n     Pion g2 wint met een Exelsior.",
       "beforeVariant": {
         "main.a": "Want na:",
-        "main.b": "Tc2+ 5.Kb1 Txc3 6.Dd4 Ta3"
+        "main.b": "Tc2+ 5.Kb1 Txc3 6.Dd4 Ta3\n\n9.Kxa3 en wint. En na:"
       }
     }
   }

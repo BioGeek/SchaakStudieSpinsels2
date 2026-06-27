@@ -62,29 +62,101 @@
       "parent": "main.5"
     },
     {
-      "id": "main.15",
-      "ply": 15,
-      "san": "Nf4+",
-      "nl": "Pf4+",
-      "fenAfter": "8/8/2B1q3/p7/5N2/P1K5/7N/n3k3 b - - 7 4",
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "8/8/2B1q3/p7/8/P1K2N1N/8/n3k3 b - - 7 4",
       "variant": "main",
       "parent": "main.6"
     },
     {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd1",
+      "nl": "Kd1",
+      "fenAfter": "8/8/2B1q3/p7/8/P1K2N1N/8/n2k4 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nf2+",
+      "nl": "Pf2+",
+      "fenAfter": "8/8/2B1q3/p7/8/P1K2N2/5N2/n2k4 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "8/8/2B1q3/p7/8/P1K2N2/5N2/n1k5 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/8/2B1q3/p7/8/P1KN1N2/8/n1k5 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/8/2B1q3/p7/8/P1KN1N2/8/nk6 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "8/8/2B1q3/p7/8/P1KN4/3N4/nk6 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/2B1q3/p7/8/P1KN4/k2N4/n7 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc1+",
+      "nl": "Pc1+",
+      "fenAfter": "8/8/2B1q3/p7/8/P1K5/k2N4/n1N5 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
       "id": "main.16",
       "ply": 16,
-      "san": "Kf2",
-      "nl": "Kf2",
-      "fenAfter": "8/8/2B1q3/p7/5N2/P1K5/5k1N/n7 w - - 8 5",
+      "san": "Kxa3",
+      "nl": "Kxa3",
+      "fenAfter": "8/8/2B1q3/p7/8/k1K5/3N4/n1N5 w - - 0 9",
       "variant": "main",
       "parent": "main.15"
     },
     {
       "id": "main.17",
       "ply": 17,
-      "san": "Nxe2",
-      "nl": "Pxe2",
-      "fenAfter": "8/8/2B1q3/p7/8/P1K5/4Nk1N/n7 b - - 9 5",
+      "san": "Nb1+",
+      "nl": "Pb1+",
+      "fenAfter": "8/8/2B1q3/p7/8/k1K5/8/nNN5 b - - 1 9",
       "variant": "main",
       "parent": "main.16"
     }
@@ -92,7 +164,7 @@
   "prose": {
     "nl": {
       "before": "De machtige  zwarte dame  valt\ntwee stukken aan. Maar het twee-\nspan  witte  paarden  jaagt  haar\nechtgenoot van de ene hoek naar\nde andere, met een noodlottig ge-\nvolg.",
-      "after": "7.Pd2+      Ka2        8.Pc1+       Kxa3        9.Pb1+\n\nNiet goed is: 4…Kf1? 5.Lb5+ De2\n(5…Kg2 6.Pf4+ Kxf3 7.Pxe6.) en\nbijvoorbeeld 6.a4 Pc2 7.Pd2+ Ke1\n\ngemakkelijk.  Of   hier  7…Kg2\n\nOok fout is: 6…Kd1? 7.La4+ en nu\nbijvoorbeeld  7…Db3+  8.Lxb3+\nPxb3+ 9.Kxb3 Ke2 10.Pde5, en-\nzovoort.\n\nen mat.\n\nNa negen (9!) achtereenvolgende\nschaakzetten van beide paarden,\nmoet de zwarte koning uiteindelijk\nhet loodje leggen terwijl zijn echt-\ngenote machteloos toekijkt.\n\nJulien Vandiest vond het: “Origi-\nneel en geestig.”",
+      "after": "3…Ke2? 4.Pf4+ en Pxe6.\n\nNiet goed is: 4…Kf1? 5.Lb5+ De2\n(5…Kg2 6.Pf4+ Kxf3 7.Pxe6.) en\nbijvoorbeeld 6.a4 Pc2 7.Pd2+ Ke1\n8.Lxe2 Kxe2 9.Kxc2, en wit wint\ngemakkelijk.  Of   hier  7…Kg2\n8.Pf4+ Kf2 9.Pxe2 enzovoort.\n\n5…Ke2 6.Pd4+ Kxf2 7.Pxe6.\n\nOok fout is: 6…Kd1? 7.La4+ en nu\nbijvoorbeeld  7…Db3+  8.Lxb3+\nPxb3+ 9.Kxb3 Ke2 10.Pde5, en-\nzovoort.\n\nen mat.\n\nNa negen (9!) achtereenvolgende\nschaakzetten van beide paarden,\nmoet de zwarte koning uiteindelijk\nhet loodje leggen terwijl zijn echt-\ngenote machteloos toekijkt.\n\nJulien Vandiest vond het: “Origi-\nneel en geestig.”",
       "beforeVariant": {}
     }
   }

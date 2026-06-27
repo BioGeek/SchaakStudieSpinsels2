@@ -37,38 +37,164 @@
     {
       "id": "main.4",
       "ply": 4,
-      "san": "Rc1",
-      "nl": "Tc1",
-      "fenAfter": "8/kpP5/P7/8/1p5B/8/1K6/2r5 w - - 3 3",
+      "san": "Rf8",
+      "nl": "Tf8",
+      "fenAfter": "5r2/kpP5/P7/8/1p5B/8/1K6/8 w - - 3 3",
       "variant": "main",
       "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "3B1r2/kpP5/P7/8/1p6/8/1K6/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rf2+",
+      "nl": "Tf2+",
+      "fenAfter": "3B4/kpP5/P7/8/1p6/8/1K3r2/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "3B4/kpP5/P7/8/1p6/1K6/5r2/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Rf3+",
+      "nl": "Tf3+",
+      "fenAfter": "3B4/kpP5/P7/8/1p6/1K3r2/8/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kxb4",
+      "nl": "Kxb4",
+      "fenAfter": "3B4/kpP5/P7/8/1K6/5r2/8/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Rf4+",
+      "nl": "Tf4+",
+      "fenAfter": "3B4/kpP5/P7/8/1K3r2/8/8/8 w - - 1 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "3B4/kpP5/P7/8/5r2/1K6/8/8 b - - 2 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "3B4/k1P5/P7/1p6/5r2/1K6/8/8 w - - 0 7",
+      "variant": "A",
+      "parent": "A.11"
     },
     {
       "id": "A.13",
       "ply": 13,
       "san": "c8=R",
       "nl": "c8T",
-      "fenAfter": "2R5/kp6/P7/8/1p5B/8/1K6/2r5 b - - 0 3",
+      "fenAfter": "2RB4/k7/P7/1p6/5r2/1K6/8/8 b - - 0 7",
       "variant": "A",
-      "parent": "main.4"
+      "parent": "A.12"
+    },
+    {
+      "id": "A.a.13",
+      "ply": 13,
+      "san": "c8=Q",
+      "nl": "c8D?",
+      "fenAfter": "2QB4/k7/P7/1p6/5r2/1K6/8/8 b - - 0 7",
+      "variant": "A.a",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.a.14",
+      "ply": 14,
+      "san": "Rb4+",
+      "nl": "Tb4+",
+      "fenAfter": "2QB4/k7/P7/1p6/1r6/1K6/8/8 w - - 1 8",
+      "variant": "A.a",
+      "parent": "A.a.13"
     },
     {
       "id": "A.14",
       "ply": 14,
       "san": "Rc4",
       "nl": "Tc4",
-      "fenAfter": "2R5/kp6/P7/8/1pr4B/8/1K6/8 w - - 1 4",
+      "fenAfter": "2RB4/k7/P7/1p6/2r5/1K6/8/8 w - - 1 8",
       "variant": "A",
       "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Bb6+",
+      "nl": "Lb6+",
+      "fenAfter": "2R5/k7/PB6/1p6/2r5/1K6/8/8 b - - 2 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "b5",
+      "nl": "b5",
+      "fenAfter": "3B4/k1P5/P7/1p6/1K6/5r2/8/8 w - - 0 6",
+      "variant": "B",
+      "parent": "main.9"
     },
     {
       "id": "B.11",
       "ply": 11,
       "san": "c8=R",
       "nl": "c8T",
-      "fenAfter": "2R5/kp6/P7/8/1p5B/8/1K6/2r5 b - - 0 3",
+      "fenAfter": "2RB4/k7/P7/1p6/1K6/5r2/8/8 b - - 0 6",
       "variant": "B",
-      "parent": "main.4"
+      "parent": "B.10"
+    },
+    {
+      "id": "B.a.11",
+      "ply": 11,
+      "san": "c8=Q",
+      "nl": "c8D?",
+      "fenAfter": "2QB4/k7/P7/1p6/1K6/5r2/8/8 b - - 0 6",
+      "variant": "B.a",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.a.12",
+      "ply": 12,
+      "san": "Rf4+",
+      "nl": "Tf4+",
+      "fenAfter": "2QB4/k7/P7/1p6/1K3r2/8/8/8 w - - 1 7",
+      "variant": "B.a",
+      "parent": "B.a.11"
     }
   ],
   "prose": {
@@ -76,13 +202,13 @@
       "before": "In samenwerking met mijn goede\nschaakvriend Roger Missiaen ont-\nstond deze vrij inhoudrijke studie,\nmet vele verleidingen:",
       "after": "riant A b): 6...Kb7, met remi-\n    se.\n\n“Drie ineengeweven schaakmotie-\nven waarvoor wit moet opletten:\npat, dolle toren of slechte loper,\nknap verwerkt.” aldus besloot Fer-\nnand Joseph.\n\nJulien Vandiest vond het zelfs: “Als\nminiatuurtje  een  compositorisch\nhuzarenstukje.”\n -\n\ns",
       "beforeVariant": {
-        "A": "En niet 1...Txa5+? 2.Kb2 Tc5 3.Lf2\nb6 4.Lxc5 Kb7 en 5.Lxb6\n\nUiteraard  niet  2.Ka2?  wegens\n\nMaar niet 4.Kc1? b3 5.c8D Tc2+\n\nw",
-        "A.a": "ge omweg. En nu 7.Kc4, faalt op\n\nWant  na  6...Tf3+?  7.Tc2  Tf2+\n\nTf5+ 11.Kd6 Txa5, wint 12.c8D.\nEn nu na de tekstzet 6...b5, wint\nenkel\n\nEn niet:",
-        "A.b": "meer voor wit, die de slechte\n    loper heeft. Ook:",
+        "A": "En niet 1...Txa5+? 2.Kb2 Tc5 3.Lf2\nb6 4.Lxc5 Kb7 en 5.Lxb6\n\nUiteraard  niet  2.Ka2?  wegens\n2...Tc1, en wit komt niet verder.\n\nMaar niet 4.Kc1? b3 5.c8D Tc2+\n6.Dxc2 bxc2, remise.\n\nw",
+        "A.a": "6.Kb5? Tf5+ 7.Kb4 is een onnodi-\nge omweg. En nu 7.Kc4, faalt op\n7…Tf1  8.Lg5  Tf8  9.Le3+ Ka8\n10.Kd5  Tc8  11.Kd6(Lf4)  Txc7\n12.Kxc7(Lxc7) met remise.\n\nWant  na  6...Tf3+?  7.Tc2  Tf2+\n8.Kd3 Tf3+ 9.Kd4 Tf4+ 10.Kd5\nTf5+ 11.Kd6 Txa5, wint 12.c8D.\nEn nu na de tekstzet 6...b5, wint\nenkel\n\nEn niet:",
+        "A.b": "10.Kxb4 is het pat. Ofwel hier\n\n12.Kxc4, en er is geen winst\n\nmeer voor wit, die de slechte\n    loper heeft. Ook:",
         "B": "en  bijvoorbeeld  8.Le7  Tf7\n\nTxc7, enzovoort.\n\nDaar er nu geen pat meer ontstaat\nna 7…Tb4+ valt zwart de witte to-\nren aan. Deze kan geen kant uit\nzonder verlies. Maar na: .\n\nwint wit door overmacht.",
         "B.a": "En ook hier is alleen de promotie\ntot toren winnend.",
         "B.b": "Tc4+ 10.Dxc4 bxc4. Wit ver-\n     liest ook hier. En na:",
-        "B.c": "dat 6.c8D? remise  is,  is de\n    énige  goede  tegenzet  van\n    zwart: 6...Tf1 met 7.c8T Tb1+\n\nzwart de pion met remise. Na:"
+        "B.c": "dat 6.c8D? remise  is,  is de\n    énige  goede  tegenzet  van\n    zwart: 6...Tf1 met 7.c8T Tb1+\n\n8.Ka5 Ta1+ 9.Kxb5 Ta5+ en\n    10.K(L)xa5, pat. Zo niet slaat\n\nzwart de pion met remise. Na:"
       }
     }
   }

@@ -87,12 +87,156 @@
       "fenAfter": "8/Q7/k1N5/4p3/4K3/8/1q6/8 b - - 9 5",
       "variant": "main",
       "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/Q7/2N5/1k2p3/4K3/8/1q6/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qb7+",
+      "nl": "Db7+",
+      "fenAfter": "8/1Q6/2N5/1k2p3/4K3/8/1q6/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/1Q6/2N5/4p3/k3K3/8/1q6/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qa6+",
+      "nl": "Da6+",
+      "fenAfter": "8/8/Q1N5/4p3/k3K3/8/1q6/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/8/Q1N5/4p3/4K3/1k6/1q6/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Na5+",
+      "nl": "Pa5+",
+      "fenAfter": "8/8/Q7/N3p3/4K3/1k6/1q6/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/8/Q7/N3p3/4K3/2k5/1q6/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qc6+",
+      "nl": "Dc6+",
+      "fenAfter": "8/8/2Q5/N3p3/4K3/2k5/1q6/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/2Q5/N3p3/1k2K3/8/1q6/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qb6",
+      "nl": "Db6",
+      "fenAfter": "8/8/1Q6/N3p3/1k2K3/8/1q6/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/8/1Q6/N3p3/4K3/2k5/1q6/8 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/8/8/N1Q1p3/4K3/2k5/1q6/8 b - - 21 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/8/N1Q1p3/4K3/8/1q1k4/8 w - - 22 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "8/8/8/2Q1p3/2N1K3/8/1q1k4/8 b - - 23 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/8/8/2Q1p3/2N1K3/2k5/1q6/8 w - - 24 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Nxb2",
+      "nl": "Pxb2",
+      "fenAfter": "8/8/8/2Q1p3/4K3/2k5/1N6/8 b - - 0 13",
+      "variant": "main",
+      "parent": "main.24"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "koning ontsnapt.\n\nZo vangt men een zwarte dame\n    zonder in de ‘patval’ te trappen.",
+      "after": "5.Dxb2, pat.\n\n6.Db8+? Ka4 7.Da7+ Kb3 en de\nkoning ontsnapt.\n\n7.Dxb2, ook pat.\n\nZo vangt men een zwarte dame\n    zonder in de ‘patval’ te trappen.",
       "beforeVariant": {}
     }
   }

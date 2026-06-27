@@ -71,15 +71,6 @@
       "parent": "main.a.5"
     },
     {
-      "id": "main.7",
-      "ply": 7,
-      "san": "Kf8",
-      "nl": "Kf8",
-      "fenAfter": "3kbK2/3p4/7B/3N4/8/8/8/8 b - - 5 3",
-      "variant": "main",
-      "parent": "main.4"
-    },
-    {
       "id": "main.b.4",
       "ply": 4,
       "san": "Ke6",
@@ -114,14 +105,113 @@
       "fenAfter": "4b3/2Npk1K1/8/6B1/8/8/8/8 b - - 7 4",
       "variant": "main.b",
       "parent": "main.b.6"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bg5+",
+      "nl": "Lg5+",
+      "fenAfter": "3kb3/3p2K1/8/3N2B1/8/8/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k1b3/3p2K1/8/3N2B1/8/8/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "2k1b3/3p2K1/5N2/6B1/8/8/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3kb3/3p2K1/5N2/6B1/8/8/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf8",
+      "nl": "Kf8",
+      "fenAfter": "3kbK2/3p4/5N2/6B1/8/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bg6",
+      "nl": "Lg6",
+      "fenAfter": "3k1K2/3p4/5Nb1/6B1/8/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "3k1K2/3p4/6b1/3N2B1/8/8/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k2K2/3p4/6b1/3N2B1/8/8/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ne7+",
+      "nl": "Pe7+",
+      "fenAfter": "2k2K2/3pN3/6b1/6B1/8/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd8",
+      "nl": "K~",
+      "fenAfter": "3k1K2/3pN3/6b1/6B1/8/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nxg6",
+      "nl": "Pxg6",
+      "fenAfter": "3k1K2/3p4/6N1/6B1/8/8/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "3.Lg5+      Kc8        4.Pf6\n\n4.Pxe7 Kxe7 5.Pd5+ Kd8 6.Lh4+\n\nKd6 5.Pxe8+.\n\nDreigt weerom de loper te slaan.\n\nEn na een aftrekschaak:\n\nvolgt de paardvork\n\nWit wint met loper en paard.\n    Het is een correctie van een stu-\n     die van L.Topko uit Oekraïne, die\n    een eervolle vermelding kreeg in\n     het Soldarity Ty (1995):\n\n    Kg7 Lg3 Ph3 Ph5 /\n                Ke6 Le8 Pe7 d7 +\n\n    Met de foute oplossing: 1.P5f4+\n    Kd6 2.Pg6+? Ke6 3.Phf4+ Kd6\n\nKc8 7.Pf6 Kd8 8.Kf8 Lg6 9.Pd5+\n    Kc8 10.Pe7+ en 11.Pxg6.\n\n    Reeds na 1.P5f4 Kd6 en nu: 2.Kf8!\n     Pf5  3.Lh2  veroverd  wit op de\n    volgende zet de zwarte loper, met\n     winst.\n\n    Yehuda Hoch schreef hier: “White,\n     with two light pieces, captures the\n     black bishop after a precise and\n     long manoeuvre. The study is ba-\n    sed upon another work, which had\n    be found faulty.” (Topko)",
+      "after": "4.Pxe7 Kxe7 5.Pd5+ Kd8 6.Lh4+\n\nKd6 5.Pxe8+.\n\nDreigt weerom de loper te slaan.\n\nEn na een aftrekschaak:\n\nvolgt de paardvork\n\nWit wint met loper en paard.\n    Het is een correctie van een stu-\n     die van L.Topko uit Oekraïne, die\n    een eervolle vermelding kreeg in\n     het Soldarity Ty (1995):\n\n    Kg7 Lg3 Ph3 Ph5 /\n                Ke6 Le8 Pe7 d7 +\n\n    Met de foute oplossing: 1.P5f4+\n    Kd6 2.Pg6+? Ke6 3.Phf4+ Kd6\n\nKc8 7.Pf6 Kd8 8.Kf8 Lg6 9.Pd5+\n    Kc8 10.Pe7+ en 11.Pxg6.\n\n    Reeds na 1.P5f4 Kd6 en nu: 2.Kf8!\n     Pf5  3.Lh2  veroverd  wit op de\n    volgende zet de zwarte loper, met\n     winst.\n\n    Yehuda Hoch schreef hier: “White,\n     with two light pieces, captures the\n     black bishop after a precise and\n     long manoeuvre. The study is ba-\n    sed upon another work, which had\n    be found faulty.” (Topko)",
       "beforeVariant": {
-        "main.b": "wint. Of"
+        "main.b": "4.Kf8 d5 Kxe8)  4.Lg5+ Kd6\n    5.Kf8 Ke5 6.Kxe8 Kf5 7.Lh6 en\n\nwint. Of"
       }
     }
   }

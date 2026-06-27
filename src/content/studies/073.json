@@ -134,19 +134,82 @@
       "parent": "main.4"
     },
     {
+      "id": "main.6",
+      "ply": 6,
+      "san": "g2",
+      "nl": "g2",
+      "fenAfter": "4KB2/8/2k5/5N2/7p/8/6p1/8 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nd4+",
+      "nl": "Pd4+",
+      "fenAfter": "4KB2/8/2k5/8/3N3p/8/6p1/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
       "id": "main.8",
       "ply": 8,
       "san": "Kd5",
       "nl": "Kd5",
-      "fenAfter": "4KB2/8/8/3k1N2/7p/6p1/8/8 w - - 6 4",
+      "fenAfter": "4KB2/8/8/3k4/3N3p/8/6p1/8 w - - 2 5",
       "variant": "main",
-      "parent": "main.5"
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ne2",
+      "nl": "Pe2",
+      "fenAfter": "4KB2/8/8/3k4/7p/8/4N1p1/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "h3",
+      "nl": "h3",
+      "fenAfter": "4KB2/8/8/3k4/8/7p/4N1p1/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "4KB2/8/8/3k4/5N2/7p/6p1/8 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "4KB2/8/8/8/4kN2/7p/6p1/8 w - - 2 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nxh3",
+      "nl": "Pxh3",
+      "fenAfter": "4KB2/8/8/8/4k3/7N/6p1/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "Het actieve paard rent schijnbaar\nweg van de oprukkende pionnen.",
-      "after": "h2, en zwart wint zelfs.\n\nbijvoorbeeld 4.Pd6 worden beide\npionnen veroverd, met winst.\n\nEn niet 3.Pe4? g2 4.Lc5 en na\n\nMaar niet 5.Pf3? wegens 5…h3 en\nwit kan de zwarte promotie niet\nverhinderen.\n\nEn wit wint.\n\n     In zijn eentje heeft het aangeval-\n     len paard het gerooid.",
+      "after": "h2, en zwart wint zelfs.\n\n1…Ka6? 2.Ld6 g2 3.Lh2 h3 en na\nbijvoorbeeld 4.Pd6 worden beide\npionnen veroverd, met winst.\n\nEn niet 3.Pe4? g2 4.Lc5 en na\n4…Kd5 verliest wit een stuk.\n\nMaar niet 5.Pf3? wegens 5…h3 en\nwit kan de zwarte promotie niet\nverhinderen.\n\nEn wit wint.\n\n     In zijn eentje heeft het aangeval-\n     len paard het gerooid.",
       "beforeVariant": {}
     }
   }

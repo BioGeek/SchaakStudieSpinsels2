@@ -26,13 +26,247 @@
       "parent": "main.1"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bh7",
+      "nl": "Lh7",
+      "fenAfter": "1Kb5/2Bk3B/8/1p6/8/8/8/8 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ba6",
+      "nl": "La6",
+      "fenAfter": "1K6/2Bk3B/b7/1p6/8/8/8/8 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bd3",
+      "nl": "Ld3",
+      "fenAfter": "1K6/2Bk4/b7/1p6/8/3B4/8/8 b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "1K6/2B5/b1k5/1p6/8/3B4/8/8 w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ba5",
+      "nl": "La5",
+      "fenAfter": "1K6/8/b1k5/Bp6/8/3B4/8/8 b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "1K6/8/b2k4/Bp6/8/3B4/8/8 w - - 6 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bf1",
+      "nl": "Lf1",
+      "fenAfter": "1K6/8/b2k4/Bp6/8/8/8/5B2 b - - 7 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "1K6/8/b1k5/Bp6/8/8/8/5B2 w - - 8 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bg2+",
+      "nl": "Lg2+",
+      "fenAfter": "1K6/8/b1k5/Bp6/8/8/6B1/8 b - - 9 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "1K6/8/b2k4/Bp6/8/8/6B1/8 w - - 10 7",
+      "variant": "A",
+      "parent": "main.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Bb4+",
+      "nl": "Lb4+",
+      "fenAfter": "1K6/8/b2k4/1p6/1B6/8/6B1/8 b - - 11 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "1K6/3k4/b7/1p6/1B6/8/6B1/8 w - - 12 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Bh3+",
+      "nl": "Lh3+",
+      "fenAfter": "1K6/3k4/b7/1p6/1B6/7B/8/8 b - - 13 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "1K1k4/8/b7/1p6/1B6/7B/8/8 w - - 14 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Be6",
+      "nl": "Le6",
+      "fenAfter": "1K1k4/8/b3B3/1p6/1B6/8/8/8 b - - 15 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "1K2k3/8/b3B3/1p6/1B6/8/8/8 w - - 16 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "4k3/2K5/b3B3/1p6/1B6/8/8/8 b - - 17 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "A.20",
+      "ply": 20,
+      "san": "Bc8",
+      "nl": "Lc8",
+      "fenAfter": "2b1k3/2K5/4B3/1p6/1B6/8/8/8 w - - 18 11",
+      "variant": "A",
+      "parent": "A.19"
+    },
+    {
+      "id": "A.21",
+      "ply": 21,
+      "san": "Bxc8",
+      "nl": "Lxc8",
+      "fenAfter": "2B1k3/2K5/8/1p6/1B6/8/8/8 b - - 0 11",
+      "variant": "A",
+      "parent": "A.20"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "1K6/8/b7/Bpk5/8/8/6B1/8 w - - 10 7",
+      "variant": "B",
+      "parent": "main.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K5/b7/Bpk5/8/8/6B1/8 b - - 11 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "b4",
+      "nl": "b4",
+      "fenAfter": "8/2K5/b7/B1k5/1p6/8/6B1/8 w - - 0 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
       "id": "B.15",
       "ply": 15,
       "san": "Bb6+",
       "nl": "Lb6+",
-      "fenAfter": "1Kb3B1/3k4/1B6/1p6/8/8/8/8 b - - 1 2",
+      "fenAfter": "8/2K5/bB6/2k5/1p6/8/6B1/8 b - - 1 8",
       "variant": "B",
-      "parent": "main.2"
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/2K5/bB6/8/1pk5/8/6B1/8 w - - 2 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Bf1+",
+      "nl": "Lf1+",
+      "fenAfter": "8/2K5/bB6/8/1pk5/8/8/5B2 b - - 3 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Kd5",
+      "nl": "K~",
+      "fenAfter": "8/2K5/bB6/3k4/1p6/8/8/5B2 w - - 4 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Bxa6",
+      "nl": "Lxa6",
+      "fenAfter": "8/2K5/BB6/3k4/1p6/8/8/8 b - - 0 10",
+      "variant": "B",
+      "parent": "B.18"
     }
   ],
   "prose": {
@@ -40,7 +274,7 @@
       "before": "Hier speelt de loper op g8 een be-\nlangrijke rol.",
       "after": "Zwart opent de poort om de loper\nte laten ontsnappen.\n\nmaar dezelfde poort verhindert nu\nzijn vlucht.\n\nEn zodoende moet de zwarte lo-\nper ook hier het loodje leggen.\n\nDe twee vluchtpogingen van de\nreeds opgesloten zwarte loper mis-\nlukken.",
       "beforeVariant": {
-        "A": "Na 1.Kb6? of een loperzet  ont-\nsnapt de zwarte loper: 1…Ke7.\n\nDe kortste weg.\n\nWeeron de korste weg\n\nVoor de derde keer de beste zet.",
+        "A": "Na 1.Kb6? of een loperzet  ont-\nsnapt de zwarte loper: 1…Ke7.\n\n1…b6? is onvoldoende: 2.Lc4 b5\n3.Lxb5+ en 4.Kxc8.\n\nDe kortste weg.\n\nWeeron de korste weg\n\nVoor de derde keer de beste zet.",
         "B": "Om de witte koning te verhinderen\nveld c7 te bezetten.\n\nEn nog eens dè zet.\n\nEn nog eens!\n\nEindelijk.\n\nEn wit wint, maar opgepast niet\nmet 11.Kxc8? wegens pat."
       }
     }

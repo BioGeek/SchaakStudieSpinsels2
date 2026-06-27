@@ -125,22 +125,85 @@
       "parent": "main.6"
     },
     {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Bb6",
-      "nl": "Lb6",
-      "fenAfter": "n7/B7/1bK1k2n/8/8/8/8/8 w - - 8 5",
+      "id": "main.8",
+      "ply": 8,
+      "san": "Nf5",
+      "nl": "Pf5",
+      "fenAfter": "n2b4/B7/2K1k3/5n2/8/8/8/8 w - - 8 5",
       "variant": "main",
       "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb8",
+      "nl": "Lb8",
+      "fenAfter": "nB1b4/8/2K1k3/5n2/8/8/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ne7+",
+      "nl": "Pe7+",
+      "fenAfter": "nB1b4/4n3/2K1k3/8/8/8/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "nB1b4/1K2n3/4k3/8/8/8/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "1B1b4/1K2n3/1n2k3/8/8/8/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "3b4/1KB1n3/1n2k3/8/8/8/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bxc7",
+      "nl": "Lxc7",
+      "fenAfter": "8/1Kb1n3/1n2k3/8/8/8/8/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kxc7",
+      "nl": "Kxc7",
+      "fenAfter": "8/2K1n3/1n2k3/8/8/8/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "Een eenzame loper moet het hier\nopnemen tegen een opponent ge-\nsteund  door  twee  volbloeden.\nSamen met Roger Missiaen, die de\ninleiding verlengde, wilden we ook\nhier de ontsnapping van het hoek-\npaard beletten.",
-      "after": "4…           Pf5        5.Lb8\n\n5…         Pe7+ 5…Pb6? 6.Lc7 Pd5 7.Lxd8.        6.Kb7       Pb6        7.Lc7        Lxc7        8.Kxc7\n\n4…Pf7?  5.Lb8 La5 6.Kb7 Pb6 7.Lc7 Pd6+, en de minidual 8.Ka6\n\nTe vroeg is 4.Kb7? Pf5 5.Lg1 Pc7\n\nwint zwart.\n\nWeerom niet 5.Kb7? daar dan het\npaard ontsnapt met 5…Pc7 6.Lb6\nKd7 7.La5 Pd6, enzovoort. En nu:\n\nMet remise.\n\nDe 2de Eervolle Vermelding kre-\ngen we  niet  voor deze boven-\nstaande oplossing: 4…Pf5!, enzo-\nvoort, maar voor de voortzetting:\n\nof 8.Kc6, met 8…Pdc4 9.Kb5 Kd5\nen 10.Ld8, remise.\n\nDe verbeterde oplossing vond  ik\nachteraf. Juryleden zijn niet altijd\nfeilloos.",
+      "after": "Te vroeg is 4.Kb7? Pf5 5.Lg1 Pc7\n6.Lb6 Kd7 7.La5 Pd6+ want dan\nwint zwart.\n\nWeerom niet 5.Kb7? daar dan het\npaard ontsnapt met 5…Pc7 6.Lb6\nKd7 7.La5 Pd6, enzovoort. En nu:\n\n5…Pb6? 6.Lc7 Pd5 7.Lxd8.\n\nMet remise.\n\nDe 2de Eervolle Vermelding kre-\ngen we  niet  voor deze boven-\nstaande oplossing: 4…Pf5!, enzo-\nvoort, maar voor de voortzetting:\n4…Pf7?  5.Lb8 La5 6.Kb7 Pb6\n7.Lc7 Pd6+, en de minidual 8.Ka6\nof 8.Kc6, met 8…Pdc4 9.Kb5 Kd5\nen 10.Ld8, remise.\n\nDe verbeterde oplossing vond  ik\nachteraf. Juryleden zijn niet altijd\nfeilloos.",
       "beforeVariant": {
-        "main.a": "Na 1…Kf7? 2.Kc6 Ld8 3.Le5 Ke6\n\nremise.\n\nZodat het paard gedekt kan  uit-\nbreken.\n\nBeter dan:",
-        "main.b": "Pd6+ 6.Kc6 Pdb5 7.Kd7 L~\n\nna:"
+        "main.a": "Na 1…Kf7? 2.Kc6 Ld8 3.Le5 Ke6\n4.Lb8 Pf5 5.Kb7 Pb6 6.Lc7 houdt\nremise.\n\nZodat het paard gedekt kan  uit-\nbreken.\n\nBeter dan:",
+        "main.b": "Pd6+ 6.Kc6 Pdb5 7.Kd7 L~\n\n8.Lxc7 met remise. Eveneens\n\nna:"
       }
     }
   }

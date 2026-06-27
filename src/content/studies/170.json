@@ -64,36 +64,36 @@
     {
       "id": "main.7",
       "ply": 7,
-      "san": "Nxf8",
-      "nl": "Pxf8?",
-      "fenAfter": "1K1k1N2/1P6/8/8/8/1p6/8/8 b - - 0 4",
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "K2k1r2/1P5N/8/8/8/1p6/8/8 b - - 1 4",
       "variant": "main",
       "parent": "main.6"
     },
     {
       "id": "main.8",
       "ply": 8,
-      "san": "b2",
-      "nl": "b2",
-      "fenAfter": "1K1k1N2/1P6/8/8/8/8/1p6/8 w - - 0 5",
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "K2kr3/1P5N/8/8/8/1p6/8/8 w - - 2 5",
       "variant": "main",
       "parent": "main.7"
     },
     {
       "id": "main.9",
       "ply": 9,
-      "san": "Ka7",
-      "nl": "Ka7",
-      "fenAfter": "3k1N2/KP6/8/8/8/8/1p6/8 b - - 1 5",
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "K2kr3/1P6/5N2/8/8/1p6/8/8 b - - 3 5",
       "variant": "main",
       "parent": "main.8"
     },
     {
       "id": "main.10",
       "ply": 10,
-      "san": "b1=Q",
-      "nl": "b1D",
-      "fenAfter": "3k1N2/KP6/8/8/8/8/8/1q6 w - - 0 6",
+      "san": "Rf8",
+      "nl": "Tf8",
+      "fenAfter": "K2k1r2/1P6/5N2/8/8/1p6/8/8 w - - 4 6",
       "variant": "main",
       "parent": "main.9"
     },
@@ -102,7 +102,7 @@
       "ply": 11,
       "san": "b8=Q+",
       "nl": "b8D+",
-      "fenAfter": "1Q1k1N2/K7/8/8/8/8/8/1q6 b - - 0 6",
+      "fenAfter": "KQ1k1r2/8/5N2/8/8/1p6/8/8 b - - 0 6",
       "variant": "main",
       "parent": "main.10"
     },
@@ -111,15 +111,96 @@
       "ply": 12,
       "san": "Ke7",
       "nl": "Ke7",
-      "fenAfter": "1Q3N2/K3k3/8/8/8/8/8/1q6 w - - 1 7",
+      "fenAfter": "KQ3r2/4k3/5N2/8/8/1p6/8/8 w - - 1 7",
       "variant": "main",
       "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ng8+",
+      "nl": "Pg8+",
+      "fenAfter": "KQ3rN1/4k3/8/8/8/1p6/8/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "KQ3rN1/5k2/8/8/8/1p6/8/8 w - - 3 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nh6+",
+      "nl": "Ph6+",
+      "fenAfter": "KQ3r2/5k2/7N/8/8/1p6/8/8 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "KQ3r2/4k3/7N/8/8/1p6/8/8 w - - 5 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "KQ3r2/4k3/8/5N2/8/1p6/8/8 b - - 6 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "KQ3r2/5k2/8/5N2/8/1p6/8/8 w - - 7 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "KQ3r2/5k2/3N4/8/8/1p6/8/8 b - - 8 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "KQ3r2/4k3/3N4/8/8/1p6/8/8 w - - 9 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nc8+",
+      "nl": "Pc8+",
+      "fenAfter": "KQN2r2/4k3/8/8/8/1p6/8/8 b - - 10 11",
+      "variant": "main",
+      "parent": "main.20"
     }
   ],
   "prose": {
     "nl": {
       "before": "Als dank heb ik aan Hans Bouw-\nmeester bovenstaande studie op-\ngedragen.  In een  artikel “Leven\nmet eindspelstudies” in Schakend\nNederland is hier de Internationale\nMeester zelf aan het woord, aan-\ngevuld met mijn eindbeslissing.",
-      "after": "4.Ka8\n\n6.Kxb7 b2 enzovoort.”\n\n4...          Te8         5.Pf6\n\n6.Dxe8+ Kxe8.”      5…           Tf8        6.b8D+\n\n“Niet moeilijk te vinden.”\n\n“Wit   lijkt  gewonnen,  maar  na\n\nDxb8+ 7.Kxb8 is het remise. Wit\nspeelt echter:”\n\n“Een mooie pointe. Na 4.Ka7? wint\nzwart met  4...Tf7 5.Pg5 Txb7+\n\n“De enige zet, zodat nu 5.b8D+?\nafgestraft wordt met: 5...Ke7 en\n\n“Eindelijk is de pion rijp voor pro-\nmotie, dankzij een finesse  bij de\nvolgende zet:”\n\n“De inleiding tot een prachtig ma-\nnoeuvre. Het paard komt gefor-\nceerd naar c8 en dan is de winst\nduidelijk”.\n\nNu, de steeds onder vuur staande\ndame vrij kan komen, wint wit.\n\nMijn schaakvriend  uit Argentinië,\nJosé Copié, schreef in Finales…y\nTemas: “Espectacular la maniobra\ndel caballlo que conjugada con la\nsutil  4ta. jugada del rey blanco\nconfieren al Estudio singular bel-\nlezza!!”",
+      "after": "“Niet moeilijk te vinden.”\n\n“Wit   lijkt  gewonnen,  maar  na\n4.Pxf8? b2 5.Ka7 b1D 6.b8D+\nDxb8+ 7.Kxb8 is het remise. Wit\nspeelt echter:”\n\n“Een mooie pointe. Na 4.Ka7? wint\nzwart met  4...Tf7 5.Pg5 Txb7+\n6.Kxb7 b2 enzovoort.”\n\n“De enige zet, zodat nu 5.b8D+?\nafgestraft wordt met: 5...Ke7 en\n6.Dxe8+ Kxe8.”\n\n“Eindelijk is de pion rijp voor pro-\nmotie, dankzij een finesse  bij de\nvolgende zet:”\n\n“De inleiding tot een prachtig ma-\nnoeuvre. Het paard komt gefor-\nceerd naar c8 en dan is de winst\nduidelijk”.\n\n7...Txg8? 8.Dxg8.\n\n8...Kg7? 9.Pf5+ Kg8 (Na 9...Kf7\n10.Pd6+ K~ 11.Pc8) 10.Pe7+ K~\n11.Pc8. En natuurlijk niet: 9…Txf5\n10.Dxb3, met winst.\n\nNu, de steeds onder vuur staande\ndame vrij kan komen, wint wit.\n\nMijn schaakvriend  uit Argentinië,\nJosé Copié, schreef in Finales…y\nTemas: “Espectacular la maniobra\ndel caballlo que conjugada con la\nsutil  4ta. jugada del rey blanco\nconfieren al Estudio singular bel-\nlezza!!”",
       "beforeVariant": {}
     }
   }

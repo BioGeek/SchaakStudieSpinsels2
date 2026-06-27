@@ -35,58 +35,391 @@
       "parent": "main.2"
     },
     {
-      "id": "main.8",
-      "ply": 8,
-      "san": "Bc2+",
-      "nl": "Lc2+",
-      "fenAfter": "8/2P5/8/1p6/7K/7P/2bb2k1/8 w - - 3 3",
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "8/2P5/8/1p6/1b5K/7P/6k1/3b4 w - - 3 3",
       "variant": "main",
       "parent": "main.3"
     },
     {
-      "id": "B.17",
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/2P5/8/1p4K1/1b6/7P/6k1/3b4 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "Be7+",
+      "nl": "Le7+",
+      "fenAfter": "8/2P1b3/8/1p4K1/8/7P/6k1/3b4 w - - 5 4",
+      "variant": "A",
+      "parent": "main.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "8/2P1b3/7K/1p6/8/7P/6k1/3b4 b - - 6 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Bf8+",
+      "nl": "Lf8+",
+      "fenAfter": "5b2/2P5/7K/1p6/8/7P/6k1/3b4 w - - 7 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "5b2/2P5/6K1/1p6/8/7P/6k1/3b4 b - - 8 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "5b2/2P5/6K1/1p6/8/7P/2b3k1/8 w - - 9 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "5b2/2P5/5K2/1p6/8/7P/2b3k1/8 b - - 10 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Bg7+",
+      "nl": "Lg7+",
+      "fenAfter": "8/2P3b1/5K2/1p6/8/7P/2b3k1/8 w - - 11 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/2P3b1/4K3/1p6/8/7P/2b3k1/8 b - - 12 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "8/2P3b1/4K3/1p6/8/1b5P/6k1/8 w - - 13 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/2P3b1/8/1p3K2/8/1b5P/6k1/8 b - - 14 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/2P3b1/8/1p3K2/8/7P/2b3k1/8 w - - 15 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
       "ply": 17,
       "san": "Kg4",
       "nl": "Kg4",
-      "fenAfter": "8/2P5/8/1p6/6K1/7P/2bb2k1/8 b - - 4 3",
+      "fenAfter": "8/2P3b1/8/1p6/6K1/7P/2b3k1/8 b - - 16 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "A.18",
+      "ply": 18,
+      "san": "Bd1+",
+      "nl": "Ld1+",
+      "fenAfter": "8/2P3b1/8/1p6/6K1/7P/6k1/3b4 w - - 17 10",
+      "variant": "A",
+      "parent": "A.17"
+    },
+    {
+      "id": "A.19",
+      "ply": 19,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/2P3b1/8/1p4K1/8/7P/6k1/3b4 b - - 18 10",
+      "variant": "A",
+      "parent": "A.18"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Bd2+",
+      "nl": "Ld2+",
+      "fenAfter": "8/2P5/8/1p4K1/8/7P/3b2k1/3b4 w - - 5 4",
       "variant": "B",
-      "parent": "main.8"
+      "parent": "main.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/2P5/6K1/1p6/8/7P/3b2k1/3b4 b - - 6 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/2P5/6K1/1p6/8/7P/2bb2k1/8 w - - 7 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/2P5/5K2/1p6/8/7P/2bb2k1/8 b - - 8 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/2P5/5K2/1p6/8/2b4P/2b3k1/8 w - - 9 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/2P5/4K3/1p6/8/2b4P/2b3k1/8 b - - 10 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "8/2P5/4K3/1p6/8/1bb4P/6k1/8 w - - 11 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/2P5/8/1p3K2/8/1bb4P/6k1/8 b - - 12 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/2P5/8/1p3K2/8/2b4P/2b3k1/8 w - - 13 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/2P5/8/1p6/6K1/2b4P/2b3k1/8 b - - 14 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Bd1+",
+      "nl": "Ld1+",
+      "fenAfter": "8/2P5/8/1p6/6K1/2b4P/6k1/3b4 w - - 15 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/2P5/8/1p6/5K2/2b4P/6k1/3b4 b - - 16 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Bd2+",
+      "nl": "Ld2+",
+      "fenAfter": "8/2P5/8/1p6/5K2/7P/3b2k1/3b4 w - - 17 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/2P5/8/1p2K3/8/7P/3b2k1/3b4 b - - 18 10",
+      "variant": "B",
+      "parent": "B.18"
     },
     {
       "id": "B.20",
       "ply": 20,
       "san": "Bc3+",
       "nl": "Lc3+",
-      "fenAfter": "8/2P5/8/1p6/6K1/2b4P/2b3k1/8 w - - 5 4",
+      "fenAfter": "8/2P5/8/1p2K3/8/2b4P/6k1/3b4 w - - 19 11",
       "variant": "B",
-      "parent": "B.17"
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/2P5/3K4/1p6/8/2b4P/6k1/3b4 b - - 20 11",
+      "variant": "B",
+      "parent": "B.20"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Bb4+",
+      "nl": "Lb4+",
+      "fenAfter": "8/2P5/3K4/1p6/1b6/7P/6k1/3b4 w - - 21 12",
+      "variant": "B",
+      "parent": "B.21"
+    },
+    {
+      "id": "B.23",
+      "ply": 23,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/2P5/2K5/1p6/1b6/7P/6k1/3b4 b - - 22 12",
+      "variant": "B",
+      "parent": "B.22"
+    },
+    {
+      "id": "B.24",
+      "ply": 24,
+      "san": "Bf3+",
+      "nl": "Lf3+",
+      "fenAfter": "8/2P5/2K5/1p6/1b6/5b1P/6k1/8 w - - 23 13",
+      "variant": "B",
+      "parent": "B.23"
+    },
+    {
+      "id": "B.25",
+      "ply": 25,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/2P5/1K6/1p6/1b6/5b1P/6k1/8 b - - 24 13",
+      "variant": "B",
+      "parent": "B.24"
+    },
+    {
+      "id": "B.26",
+      "ply": 26,
+      "san": "Ba5+",
+      "nl": "La5+",
+      "fenAfter": "8/2P5/1K6/bp6/8/5b1P/6k1/8 w - - 25 14",
+      "variant": "B",
+      "parent": "B.25"
+    },
+    {
+      "id": "B.27",
+      "ply": 27,
+      "san": "Kxa5",
+      "nl": "Kxa5",
+      "fenAfter": "8/2P5/8/Kp6/8/5b1P/6k1/8 b - - 0 14",
+      "variant": "B",
+      "parent": "B.26"
+    },
+    {
+      "id": "B.28",
+      "ply": 28,
+      "san": "Bb7",
+      "nl": "Lb7",
+      "fenAfter": "8/1bP5/8/Kp6/8/7P/6k1/8 w - - 1 15",
+      "variant": "B",
+      "parent": "B.27"
     },
     {
       "id": "B.29",
       "ply": 29,
       "san": "h4",
       "nl": "h4",
-      "fenAfter": "8/2P5/8/1p6/6KP/2b5/2b3k1/8 b - - 0 4",
+      "fenAfter": "8/1bP5/8/Kp6/7P/8/6k1/8 b - - 0 15",
       "variant": "B",
-      "parent": "B.20"
+      "parent": "B.28"
     },
     {
       "id": "B.30",
       "ply": 30,
       "san": "b4",
       "nl": "b4",
-      "fenAfter": "8/2P5/8/8/1p4KP/2b5/2b3k1/8 w - - 0 5",
+      "fenAfter": "8/1bP5/8/K7/1p5P/8/6k1/8 w - - 0 16",
       "variant": "B",
       "parent": "B.29"
+    },
+    {
+      "id": "B.31",
+      "ply": 31,
+      "san": "Kxb4",
+      "nl": "Kxb4",
+      "fenAfter": "8/1bP5/8/8/1K5P/8/6k1/8 b - - 0 16",
+      "variant": "B",
+      "parent": "B.30"
     }
   ],
   "prose": {
     "nl": {
       "before": "Kunnen beide raadsheren de wit-te\npionpromotie nog verhinderen?",
-      "after": "4...          Lc2+        5.Kf6        Lc3+        6.Ke6        Lb3+        7.Kf5        Lc2+        8.Kg4       Ld1+        9.Kf4        Ld2+       10.Ke5\n\n13…Kxh3 14.c8D, enzovoort, en\n\nEen onnodige omweg  is 4.Kf6?\nLc3+ 5.Kf7 Lb3+ 6.Ke7 Lb4+ 7.Kf6\n(7.Kd8?  La5!) Lc3+ 8.Kf5 Lc2+\n\nbeginstand.)\n\nMaar  niet 10.Ke4? Lf3+ 11.Kd3\nLb7 12.Kxd2 Kxh3, remise.\n\nNu, na al dat schaak geven, slaat\nde witte koning uiteindelijk de lo-\nper\n\nEn kan de h-pion rustig naar het\npromotieveld lopen:\n\nDe c-pion heeft immers geen toe-\nkomst meer:\n\nOok  wint   wit  na  bijvoorbeeld\n\neen der beide lopers moet er ten-\n      slotte aan geloven.\n\n     “A glourious  construction,  in  for\n      globetrotting.”  voorspelde  Julien\n     Vandiest.\n\n    En Roger Missiaen vond het zelfs\n     “A brilliant idea.”",
+      "after": "Een onnodige omweg  is 4.Kf6?\nLc3+ 5.Kf7 Lb3+ 6.Ke7 Lb4+ 7.Kf6\n(7.Kd8?  La5!) Lc3+ 8.Kf5 Lc2+\n9.Kg4  Ld2  10.Kg4   (Zie  de\nbeginstand.)\n\nMaar  niet 10.Ke4? Lf3+ 11.Kd3\nLb7 12.Kxd2 Kxh3, remise.\n\nNu, na al dat schaak geven, slaat\nde witte koning uiteindelijk de lo-\nper\n\n13…Lc5+? 14.Ka6 b4 15.c8D.\nEn kan de h-pion rustig naar het\npromotieveld lopen:\n\nDe c-pion heeft immers geen toe-\nkomst meer:\n\nOok  wint   wit  na  bijvoorbeeld\n\n13…Kxh3 14.c8D, enzovoort, en\n\neen der beide lopers moet er ten-\n      slotte aan geloven.\n\n     “A glourious  construction,  in  for\n      globetrotting.”  voorspelde  Julien\n     Vandiest.\n\n    En Roger Missiaen vond het zelfs\n     “A brilliant idea.”",
       "beforeVariant": {
-        "A": "Niet 2.Kf5? Kxh3 3.c8D Lg4+ en\n\nDreigt schaakmat op 3...Le7+, en\n\nwinst.\nNa 2…Lc3? 3.Kg5 Ld2+ 4.Kg6\ngaat het verder als in variant B. met\n\nNu  heeft  zwart twee  mogelijke\nvoortzettingen: 3;Le7+ of 3.Ld2+.",
-        "B": "Niet goed is 4.Kg6? Lc2+ 5.Kf7 Lf5\n\nEn nu de hoopvolle zet:\n\nom de koning weg te lokken van\nveld f5. Want na 6...Le7+? 7.Ke6\nLb3+ 8.Kxe7, haalt wit een dame.\n\nEn hier dus niet 7.Kxg7? Lf5 8.h4\nb4 9.h5 b3 10.h6 b2 11.h7 b1D\n\nNu  is de promotie niet meer te\nverhinderen. Men zie: 10...Lf6+ of\n\nDan maar de tweede mogelijkheid\nproberen:"
+        "A": "Niet 2.Kf5? Kxh3 3.c8D Lg4+ en\n4...Lxc8.\n\nDreigt schaakmat op 3...Le7+, en\n3.c8P? is niet voldoende voor de\nwinst.\nNa 2…Lc3? 3.Kg5 Ld2+ 4.Kg6\ngaat het verder als in variant B. met\n4…Lc2+, enzovoort.\n\nNu  heeft  zwart twee  mogelijke\nvoortzettingen: 3;Le7+ of 3.Ld2+.",
+        "B": "Niet goed is 4.Kg6? Lc2+ 5.Kf7 Lf5\n6.Kxe7 Lxh3, met remise.\n\nEn nu de hoopvolle zet:\n\nom de koning weg te lokken van\nveld f5. Want na 6...Le7+? 7.Ke6\nLb3+ 8.Kxe7, haalt wit een dame.\n\nEn hier dus niet 7.Kxg7? Lf5 8.h4\nb4 9.h5 b3 10.h6 b2 11.h7 b1D\n12.h8D Db2+  13.K~  Dxh8  en\n14.Kxh8, maar geen winst.\n\nNu  is de promotie niet meer te\nverhinderen. Men zie: 10...Lf6+ of\n10...Lh6+ 11.KxL.\n\nDan maar de tweede mogelijkheid\nproberen:"
       }
     }
   }

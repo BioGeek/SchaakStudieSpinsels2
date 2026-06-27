@@ -98,15 +98,6 @@
       "parent": "main.a.8"
     },
     {
-      "id": "main.15",
-      "ply": 15,
-      "san": "Rb7+",
-      "nl": "Tb7+",
-      "fenAfter": "5k2/1R6/6K1/2r5/B7/7p/2p4P/8 b - - 1 4",
-      "variant": "main",
-      "parent": "main.6"
-    },
-    {
       "id": "main.b.6",
       "ply": 6,
       "san": "Ra5",
@@ -186,17 +177,188 @@
       "fenAfter": "1r4k1/5R2/6K1/8/8/1Bp4p/7P/8 w - - 10 6",
       "variant": "main.c",
       "parent": "main.c.9"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rf7+",
+      "nl": "Tf7+",
+      "fenAfter": "5k2/5R2/6K1/2r5/B7/7p/2p4P/8 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/5R2/6K1/2r5/B7/7p/2p4P/8 w - - 2 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb3",
+      "nl": "Lb3",
+      "fenAfter": "6k1/5R2/6K1/2r5/8/1B5p/2p4P/8 b - - 3 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rg5+",
+      "nl": "Tg5+",
+      "fenAfter": "6k1/5R2/6K1/6r1/8/1B5p/2p4P/8 w - - 4 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.a2.10",
+      "ply": 10,
+      "san": "c1=Q",
+      "nl": "c1D?",
+      "fenAfter": "6k1/5R2/6K1/2r5/8/1B5p/7P/2q5 w - - 0 6",
+      "variant": "main.a2",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.a2.11",
+      "ply": 11,
+      "san": "Rf4+",
+      "nl": "Tf4+",
+      "fenAfter": "6k1/8/6K1/2r5/5R2/1B5p/7P/2q5 b - - 1 6",
+      "variant": "main.a2",
+      "parent": "main.a2.10"
+    },
+    {
+      "id": "main.a2.12",
+      "ply": 12,
+      "san": "Rc4",
+      "nl": "Tc4",
+      "fenAfter": "6k1/8/6K1/8/2r2R2/1B5p/7P/2q5 w - - 2 7",
+      "variant": "main.a2",
+      "parent": "main.a2.11"
+    },
+    {
+      "id": "main.a2.13",
+      "ply": 13,
+      "san": "Bxc4+",
+      "nl": "Lxc4+",
+      "fenAfter": "6k1/8/6K1/8/2B2R2/7p/7P/2q5 b - - 0 7",
+      "variant": "main.a2",
+      "parent": "main.a2.12"
+    },
+    {
+      "id": "main.b2.10",
+      "ply": 10,
+      "san": "c1=N",
+      "nl": "c1P?",
+      "fenAfter": "6k1/5R2/6K1/2r5/8/1B5p/7P/2n5 w - - 0 6",
+      "variant": "main.b2",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.b2.11",
+      "ply": 11,
+      "san": "Be6",
+      "nl": "Le6",
+      "fenAfter": "6k1/5R2/4B1K1/2r5/8/7p/7P/2n5 b - - 1 6",
+      "variant": "main.b2",
+      "parent": "main.b2.10"
+    },
+    {
+      "id": "main.b2.12",
+      "ply": 12,
+      "san": "Rc6",
+      "nl": "Tc6",
+      "fenAfter": "6k1/5R2/2r1B1K1/8/8/7p/7P/2n5 w - - 2 7",
+      "variant": "main.b2",
+      "parent": "main.b2.11"
+    },
+    {
+      "id": "main.b2.13",
+      "ply": 13,
+      "san": "Rf6+",
+      "nl": "Tf6+",
+      "fenAfter": "6k1/8/2r1BRK1/8/8/7p/7P/2n5 b - - 3 7",
+      "variant": "main.b2",
+      "parent": "main.b2.12"
+    },
+    {
+      "id": "main.c2.10",
+      "ply": 10,
+      "san": "Rc6+",
+      "nl": "Tc6+?",
+      "fenAfter": "6k1/5R2/2r3K1/8/8/1B5p/2p4P/8 w - - 4 6",
+      "variant": "main.c2",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.c2.11",
+      "ply": 11,
+      "san": "Rf6+",
+      "nl": "Tf6+",
+      "fenAfter": "6k1/8/2r2RK1/8/8/1B5p/2p4P/8 b - - 5 6",
+      "variant": "main.c2",
+      "parent": "main.c2.10"
+    },
+    {
+      "id": "main.c2.12",
+      "ply": 12,
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "7k/8/2r2RK1/8/8/1B5p/2p4P/8 w - - 6 7",
+      "variant": "main.c2",
+      "parent": "main.c2.11"
+    },
+    {
+      "id": "main.c2.13",
+      "ply": 13,
+      "san": "Be6",
+      "nl": "Le6",
+      "fenAfter": "7k/8/2r1BRK1/8/8/7p/2p4P/8 b - - 7 7",
+      "variant": "main.c2",
+      "parent": "main.c2.12"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "6k1/5R2/5K2/6r1/8/1B5p/2p4P/8 b - - 5 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "6k1/5R2/5K2/6r1/8/1B5p/7P/2q5 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rf8+",
+      "nl": "Tf8+",
+      "fenAfter": "5Rk1/8/5K2/6r1/8/1B5p/7P/2q5 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "Beide torens staan en prise, daar-\nom dekt wit zijn toren:",
-      "after": "6.Tb7+ Kf8 7.Txb8+ enzovoort\n\n4.Tf7+       Kg8              5.Lb3\n\n5...          Tg5+\n\n8.Lxc8 Kg8 (8…e1D 9.Tf8+ en\n\n6.Kf6        c1D\n\n7.Tf8+ Tg8 8.Lxg8 c1D 9.Lf7+ Kh7       10.Lg6+ Kh6 11.Th8+ en mat.              7.Tc7+      Kh8              8.Txc1\n\n(en niet het gulzige 7.Txc6?\n        c1D 8.Txc1, en pat) 7…Tc8\n\nmat) 9.Le6+ Kh8 10.Tf8+ en\n          mat.\n\nNa 6…Kh8  volgt  bijvoorbeeld:\n\nEn wit wint nu door overmacht.\n\n     Maar nu opgepast voor de valstrik\n      van zwart, na 8…Kxg6+ is 9.Kxg6\n       pat.\n\nt      Eindspelredacteur Freek Spinho-\n      ven vond het een “Goede studie.”",
+      "after": "7.Tc7+      Kh8              8.Txc1\n\n(en niet het gulzige 7.Txc6?\n        c1D 8.Txc1, en pat) 7…Tc8\n\n8.Lxc8 Kg8 (8…e1D 9.Tf8+ en\n\nmat) 9.Le6+ Kh8 10.Tf8+ en\n          mat.\n\nNa 6…Kh8  volgt  bijvoorbeeld:\n\n10.Lg6+ Kh6 11.Th8+ en mat.\n\nEn wit wint nu door overmacht.\n\n     Maar nu opgepast voor de valstrik\n      van zwart, na 8…Kxg6+ is 9.Kxg6\n       pat.\n\nt      Eindspelredacteur Freek Spinho-\n      ven vond het een “Goede studie.”",
       "beforeVariant": {
-        "main.a": "slaat later ook de andere zwarte pi-\non, waarna de h-pion de beslis-\nsing brengt.\n\nEr dreigt nu een wit aftrekschaak\nom de toren te vangen. Bijvoor-\nbeeld: 2…Tc8 3.Kg7 c2 4.Tc7+\nKd8 5.Txc8+ Kxc8 6.Lxc2, en wint.\n\nNog het beste:",
-        "main.b": "Tg4+ 6.Kh6 Th4+ 7.Kg5 Tb4\n\nwinst.",
+        "main.a": "1...c2? 2.Td2+ Ke7 3.Txc2 en wit\nslaat later ook de andere zwarte pi-\non, waarna de h-pion de beslis-\nsing brengt.\n\nEr dreigt nu een wit aftrekschaak\nom de toren te vangen. Bijvoor-\nbeeld: 2…Tc8 3.Kg7 c2 4.Tc7+\nKd8 5.Txc8+ Kxc8 6.Lxc2, en wint.\n\nNog het beste:",
+        "main.b": "Tg4+ 6.Kh6 Th4+ 7.Kg5 Tb4\n\n8.Tb7+  Txb3  9.Txb3,  met\n\nwinst.",
         "main.c": "Tb5  6.Tb7+  Txb3  7.Txb3,\n          enzovoort.",
-        "main.a2": "Wit wint.\n\nEen tweede batterij.\n\nWant andere zetten falen:",
+        "main.a2": "6.Tb7+ Kf8 7.Txb8+ enzovoort\n\nWit wint.\n\nEen tweede batterij.\n\nWant andere zetten falen:",
         "main.b2": "Dxc4 8.Txc4.",
         "main.c2": "Txe6 8.Txe6."
       }

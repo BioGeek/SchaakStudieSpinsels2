@@ -51,14 +51,230 @@
       "fenAfter": "7r/2P5/8/8/3N4/PN6/1kB1K3/1rb5 b - - 0 2",
       "variant": "main.b",
       "parent": "main.b.2"
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Rxb3+",
+      "nl": "Txb3+",
+      "fenAfter": "7r/2P5/8/8/8/Pr1K4/2BNp3/k1b5 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nxb3+",
+      "nl": "Pxb3+",
+      "fenAfter": "7r/2P5/8/8/8/PN1K4/2B1p3/k1b5 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "7r/2P5/8/8/8/PN1K4/1kB1p3/2b5 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "c8=Q",
+      "nl": "c8D",
+      "fenAfter": "2Q4r/8/8/8/8/PN1K4/1kB1p3/2b5 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "e1=Q",
+      "nl": "e1D",
+      "fenAfter": "2Q4r/8/8/8/8/PN1K4/1kB5/2b1q3 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qxh8+",
+      "nl": "Dxh8+",
+      "fenAfter": "7Q/8/8/8/8/PN1K4/1kB5/2b1q3 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "7Q/8/8/8/8/PN1K4/k1B5/2b1q3 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nxc1+",
+      "nl": "Pxc1+",
+      "fenAfter": "7Q/8/8/8/8/P2K4/k1B5/2N1q3 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Qxc1",
+      "nl": "Dxc1",
+      "fenAfter": "7Q/8/8/8/8/P2K4/k1B5/2q5 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qg8+",
+      "nl": "Dg8+",
+      "fenAfter": "6Q1/8/8/8/8/P2K4/k1B5/2q5 b - - 1 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "6Q1/8/8/8/8/P2K4/2B5/k1q5 w - - 2 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qg7+",
+      "nl": "Dg7+",
+      "fenAfter": "8/6Q1/8/8/8/P2K4/2B5/k1q5 b - - 3 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/6Q1/8/8/8/P2K4/k1B5/2q5 w - - 4 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qf7+",
+      "nl": "Df7+",
+      "fenAfter": "8/5Q2/8/8/8/P2K4/k1B5/2q5 b - - 5 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/5Q2/8/8/8/P2K4/2B5/k1q5 w - - 6 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qf6+",
+      "nl": "Df6+",
+      "fenAfter": "8/8/5Q2/8/8/P2K4/2B5/k1q5 b - - 7 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/5Q2/8/8/P2K4/k1B5/2q5 w - - 8 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qe6+",
+      "nl": "De6+",
+      "fenAfter": "8/8/4Q3/8/8/P2K4/k1B5/2q5 b - - 9 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/8/4Q3/8/8/P2K4/2B5/k1q5 w - - 10 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qe5+",
+      "nl": "De5+",
+      "fenAfter": "8/8/8/4Q3/8/P2K4/2B5/k1q5 b - - 11 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/8/8/4Q3/8/P2K4/k1B5/2q5 w - - 12 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Qd5+",
+      "nl": "Dd5+",
+      "fenAfter": "8/8/8/3Q4/8/P2K4/k1B5/2q5 b - - 13 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/8/8/3Q4/8/P2K4/2B5/k1q5 w - - 14 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "8/8/8/8/3Q4/P2K4/2B5/k1q5 b - - 15 13",
+      "variant": "main",
+      "parent": "main.24"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Dg8+ Kb2 2.Dxh8+ Ka2 3.Dg8+\n\nKxb3 6.Db8+ Kxa3 7.Dg3+ Ka4\n\nEn eindelijk wint wit.\n\nHet  is een correctie én een  uit-\nbreiding van een miniatuurtje, die\nik componeerde in 2010:\n\nKa8 Dc8 Lc2 a3 / Ka2 Dc1 Lh8 +\n\nKa1  4.Dg7+  Ka2  5.Df7+  Ka1\n\nKa2 9.Dd5+ Ka1 en dan: 10.Dd1\nKa2 11.Lb3+ K~ 2.Dxc1+\n\n Maar wit wint ook met 10.Dd4+\n Ka2 11.Dc4+ Ka1 12.Dc3+ Ka2\n\nDus nevenoplosbaar.",
+      "after": "3.Pxd4 Te1+ 4.Kd2 Te8 en\n    5.Lxb1 Kxb1, remise.\n\n3.e1P+?  4.Ke4  Txc2  5.Dxh8+\nKxb3 6.Db8+ Kxa3 7.Dg3+ Ka4\n\n4…Kxa3 5.Df8+ Ka4 6.Da8+ Kb5\n7.Db7+ Ka4 8.Da6+ Ka5 9.Dxa5+\n\nEn eindelijk wint wit.\n\nHet  is een correctie én een  uit-\nbreiding van een miniatuurtje, die\nik componeerde in 2010:\n\nKa8 Dc8 Lc2 a3 / Ka2 Dc1 Lh8 +\n\n1.Dg8+ Kb2 2.Dxh8+ Ka2 3.Dg8+\nKa1  4.Dg7+  Ka2  5.Df7+  Ka1\n6.Df6+ Ka2 7.De6+ Ka1 8.De5+\nKa2 9.Dd5+ Ka1 en dan: 10.Dd1\nKa2 11.Lb3+ K~ 2.Dxc1+\n\n Maar wit wint ook met 10.Dd4+\n Ka2 11.Dc4+ Ka1 12.Dc3+ Ka2\n13.Lb3+ en bijvoorbeeld 13…Kb1\n\nDus nevenoplosbaar.",
       "beforeVariant": {
-        "main.b": "(2...Lc3 3.Lxb1 e1D 4.Pxb3+\n   Kxb1 5.Kc4 Tc2 6.Kb5 De5+\n\nKa4 10.Dg6 Df1+ 11.Kd4 b1D,\n   en zwart wint."
+        "main.b": "(2...Lc3 3.Lxb1 e1D 4.Pxb3+\n   Kxb1 5.Kc4 Tc2 6.Kb5 De5+\n\n9.Dd7+  Dxd7+  en   mat.)\n\nKa4 10.Dg6 Df1+ 11.Kd4 b1D,\n   en zwart wint."
       }
     }
   }

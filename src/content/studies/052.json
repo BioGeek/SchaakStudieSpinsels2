@@ -303,15 +303,69 @@
       "fenAfter": "8/4K3/8/8/7r/3Q4/6k1/r7 w - - 19 11",
       "variant": "main.b2",
       "parent": "main.b2.19"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/4KQ2/8/8/7r/4k3/8/r7 w - - 17 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "8/4K3/8/8/7r/1Q2k3/8/r7 b - - 18 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/4K3/8/8/7r/1Q6/3k4/r7 w - - 19 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qb2+",
+      "nl": "Db2+",
+      "fenAfter": "8/4K3/8/8/7r/8/1Q1k4/r7 b - - 20 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Ke3",
+      "nl": "K~",
+      "fenAfter": "8/4K3/8/8/7r/4k3/1Q6/r7 w - - 21 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Qxa1",
+      "nl": "Dxa1",
+      "fenAfter": "8/4K3/8/8/7r/4k3/8/Q7 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
       "before": "Winst van een armzalig pionnetje\ntegen twee oninneembare burch-\nten. Het lijkt wel een utopie.\nMaar:",
-      "after": "En dame tegen toren wint.\n\n    Een misschien saaie maar toch\n     correcte studie. Iets dergelijks had\n       ik in indertijd opgezonden naar het\n     1° Concorso  Internationale  per\n      studi “Studistica”  in Italie (2000).\n    Maar het bleek nevenoplosbaar\n    op het einde.\n\n    Daarom deze nieuwe versie.",
+      "after": "11.Dd5 Zie zet 8.)\n\nEn dame tegen toren wint.\n\n    Een misschien saaie maar toch\n     correcte studie. Iets dergelijks had\n       ik in indertijd opgezonden naar het\n     1° Concorso  Internationale  per\n      studi “Studistica”  in Italie (2000).\n    Maar het bleek nevenoplosbaar\n    op het einde.\n\n    Daarom deze nieuwe versie.",
       "beforeVariant": {
-        "main.a": "Kh2 8.Dd6 (Zie zet 6.)",
-        "main.a2": "zet 8.)",
+        "main.a": "6.Dc2+? of 6.Dc7? Kh1 7.Dc6+\nKh2 8.Dd6 (Zie zet 6.)",
+        "main.a2": "14.Dd3+ Kg2 15.Dd5+  (Zie\n\nzet 8.)",
         "main.b2": "zet 8.)"
       }
     }

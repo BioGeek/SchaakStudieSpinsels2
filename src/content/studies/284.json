@@ -62,22 +62,184 @@
       "parent": "main.b.3"
     },
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Rg2",
-      "nl": "Tg2",
-      "fenAfter": "3k3K/8/4P3/8/8/5p2/4B1R1/5nb1 b - - 0 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "e7+",
+      "nl": "e7+",
+      "fenAfter": "3k3K/4P3/8/8/8/5p2/4B1pR/5nb1 b - - 0 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4k2K/4P3/8/8/8/5p2/4B1pR/5nb1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bxf3",
+      "nl": "Lxf3",
+      "fenAfter": "4k2K/4P3/8/8/8/5B2/6pR/5nb1 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bd4+",
+      "nl": "Ld4+",
+      "fenAfter": "4k2K/4P3/8/8/3b4/5B2/6pR/5n2 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "4k1K1/4P3/8/8/3b4/5B2/6pR/5n2 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "g1=Q+",
+      "nl": "g1D+",
+      "fenAfter": "4k1K1/4P3/8/8/3b4/5B2/7R/5nq1 w - - 0 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rg2",
+      "nl": "Tg2",
+      "fenAfter": "4k1K1/4P3/8/8/3b4/5B2/6R1/5nq1 b - - 1 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Qe3",
+      "nl": "De3",
+      "fenAfter": "4k1K1/4P3/8/8/3b4/4qB2/6R1/5n2 w - - 2 5",
+      "variant": "A",
+      "parent": "main.7"
+    },
+    {
+      "id": "A.9",
+      "ply": 9,
+      "san": "Bh5+",
+      "nl": "Lh5+",
+      "fenAfter": "4k1K1/4P3/8/7B/3b4/4q3/6R1/5n2 b - - 3 5",
+      "variant": "A",
+      "parent": "A.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Kxe7",
+      "nl": "Kxe7",
+      "fenAfter": "6K1/4k3/8/7B/3b4/4q3/6R1/5n2 w - - 0 6",
+      "variant": "A",
+      "parent": "A.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Re2",
+      "nl": "Te2",
+      "fenAfter": "6K1/4k3/8/7B/3b4/4q3/4R3/5n2 b - - 1 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Qxe2",
+      "nl": "Dxe2",
+      "fenAfter": "6K1/4k3/8/7B/3b4/8/4q3/5n2 w - - 0 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Bxe2",
+      "nl": "Lxe2",
+      "fenAfter": "6K1/4k3/8/8/3b4/8/4B3/5n2 b - - 0 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Qh1",
+      "nl": "Dh1",
+      "fenAfter": "4k1K1/4P3/8/8/3b4/5B2/6R1/5n1q w - - 2 5",
+      "variant": "B",
+      "parent": "main.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Bc6+",
+      "nl": "Lc6+",
+      "fenAfter": "4k1K1/4P3/2B5/8/3b4/8/6R1/5n1q b - - 3 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kxe7",
+      "nl": "Kxe7",
+      "fenAfter": "6K1/4k3/2B5/8/3b4/8/6R1/5n1q w - - 0 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Re2+",
+      "nl": "Te2+",
+      "fenAfter": "6K1/4k3/2B5/8/3b4/8/4R3/5n1q b - - 1 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kd8",
+      "nl": "K~",
+      "fenAfter": "3k2K1/8/2B5/8/3b4/8/4R3/5n1q w - - 2 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Bxh1",
+      "nl": "Lxh1",
+      "fenAfter": "3k2K1/8/8/8/3b4/8/4R3/5n1B b - - 0 7",
+      "variant": "B",
+      "parent": "B.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.e7+\n\n1...         Ke8\n\n1...Kxe7? 2.Lxf3 Ld4+ 3.Kg8 g1D+ 4.Tg2  en  bijvoorbeeld  4...De3 5.Te2 Dxe2 6.Lxe2, of hier 4...Dh1 5.Te2+ Kd6 6.Lxh1, met remise.        2.Lxf3       Ld4+        3.Kg8\n\nOok met remise.\n\nHet commentaar van de  jarige\ncomponist  luidde:  “Here  White\ncannot  prevent  queening,  but\nusing a pawn he succesfully traps\nthe new queen.”",
+      "after": "Ook met remise.\n\nHet commentaar van de  jarige\ncomponist  luidde:  “Here  White\ncannot  prevent  queening,  but\nusing a pawn he succesfully traps\nthe new queen.”",
       "beforeVariant": {
-        "main.b": "ten faalt door 1…fxe2 2.Te4\n   e1D 3.e7+ Ke8 4.Txe1 en er\n    volgt  toch  Ld4+  5.Kh7  en",
-        "A": "bijvoorbeeld 3…De3,  verliest\n    wit door de overmacht van\n    zwart.\nEn alhoewel de witte toren en lo-\nper beide aangevallen staan, biedt\nwit zijn pion aan:\n\nZwart verschuilt zich er achter om\nde promotie te verhinderen:\n\nWant slaat hij de pion, dan gaat het\nzo:\n\nEn niet 3.Kh7? g1D 4.Tg2 Dh1+\n\nkomt  in het spel met  winst, Er\ndreigt immers 6…Kxe7. Daarom\nbijvoorbeeld  6.Te2  Df6+  7.Kh5\nDxf3+ en 8…Dxe2.\n\nGehinderd door haar eigen stuk-\nken rest de zwarte dame nog twee\nvluchtwegen:",
+        "main.b": "ten faalt door 1…fxe2 2.Te4\n   e1D 3.e7+ Ke8 4.Txe1 en er\n    volgt  toch  Ld4+  5.Kh7  en\n\n5…g1D. Na:",
+        "A": "3.Tg2 Dh1+ 4.Kg6 Dh8, of hier\n   2.Kg8   g1D+   3.Tg2   en\n\nbijvoorbeeld 3…De3,  verliest\n    wit door de overmacht van\n    zwart.\nEn alhoewel de witte toren en lo-\nper beide aangevallen staan, biedt\nwit zijn pion aan:\n\nZwart verschuilt zich er achter om\nde promotie te verhinderen:\n\nWant slaat hij de pion, dan gaat het\nzo:\n1...Kxe7? 2.Lxf3 Ld4+ 3.Kg8 g1D+\n4.Tg2  en  bijvoorbeeld  4...De3\n5.Te2 Dxe2 6.Lxe2, of hier 4...Dh1\n5.Te2+ Kd6 6.Lxh1, met remise.\n\nEn niet 3.Kh7? g1D 4.Tg2 Dh1+\n5.Kg6 Dh8, en de zwarte dame\nkomt  in het spel met  winst, Er\ndreigt immers 6…Kxe7. Daarom\nbijvoorbeeld  6.Te2  Df6+  7.Kh5\nDxf3+ en 8…Dxe2.\n\nGehinderd door haar eigen stuk-\nken rest de zwarte dame nog twee\nvluchtwegen:",
         "B": "Met remise."
       }
     }

@@ -26,19 +26,145 @@
       "parent": "main.1"
     },
     {
-      "id": "main.17",
-      "ply": 17,
-      "san": "Nxg3",
-      "nl": "Pxg3",
-      "fenAfter": "8/B3K1n1/8/5p2/5k2/6N1/8/8 b - - 3 2",
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/B4Kn1/8/5p2/5k2/8/8/5N2 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nh5",
+      "nl": "Ph5",
+      "fenAfter": "8/B4K2/8/5p1n/5k2/8/8/5N2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/B7/6K1/5p1n/5k2/8/8/5N2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/B7/6K1/5p1n/6k1/8/8/5N2 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/B7/6K1/5p1n/6k1/4N3/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/B7/6K1/5p1n/7k/4N3/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nxf5+",
+      "nl": "Pxf5+",
+      "fenAfter": "8/B7/6K1/5N1n/7k/8/8/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/B7/6K1/5N1n/6k1/8/8/8 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nh6+",
+      "nl": "Ph6+",
+      "fenAfter": "8/B7/6KN/7n/6k1/8/8/8 b - - 2 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "8/B7/6KN/7n/7k/8/8/8 w - - 3 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bf2+",
+      "nl": "Lf2+",
+      "fenAfter": "8/8/6KN/7n/7k/8/5B2/8 b - - 4 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ng3",
+      "nl": "Pg3",
+      "fenAfter": "8/8/6KN/8/7k/6n1/5B2/8 w - - 5 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/8/6K1/5N2/7k/6n1/5B2/8 b - - 6 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "8/8/6K1/5N2/6k1/6n1/5B2/8 w - - 7 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxg3",
+      "nl": "Lxg3",
+      "fenAfter": "8/8/6K1/5N2/6k1/6B1/8/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "Een witte loper extra is hier vol-\ndoende voor de winst!",
-      "after": "En wint.\n\néén zet langer: 9…Kf3 10.Le1.",
+      "after": "1…Pc7? 2.Lb8 en 3.Lxc7\n\n3…Pg3? 4.Lb8 en 5.Pxg3\n\nEn wint.\n\n9.Pxg3  is ook goed, maar duurt\néén zet langer: 9…Kf3 10.Le1.",
       "beforeVariant": {}
     }
   }

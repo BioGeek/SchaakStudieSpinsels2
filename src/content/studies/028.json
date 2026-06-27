@@ -62,30 +62,210 @@
       "parent": "main.5"
     },
     {
-      "id": "main.13",
-      "ply": 13,
-      "san": "Qb4+",
-      "nl": "Db4+",
-      "fenAfter": "6K1/5N2/5qk1/8/1Q6/8/8/8 b - - 6 4",
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qd3+",
+      "nl": "Dd3+",
+      "fenAfter": "6K1/5N2/5qk1/8/8/3Q4/8/8 b - - 6 4",
       "variant": "main",
       "parent": "main.6"
     },
     {
-      "id": "main.21",
-      "ply": 21,
-      "san": "Qg7+",
-      "nl": "Dg7+",
-      "fenAfter": "6K1/5Nq1/6k1/8/1Q6/8/8/8 w - - 7 5",
+      "id": "main.8",
+      "ply": 8,
+      "san": "Qf5",
+      "nl": "Df5",
+      "fenAfter": "6K1/5N2/6k1/5q2/8/3Q4/8/8 w - - 7 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qg3+",
+      "nl": "Dg3+",
+      "fenAfter": "6K1/5N2/6k1/5q2/8/6Q1/8/8 b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "6K1/5N2/5k2/5q2/8/6Q1/8/8 w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qc3+",
+      "nl": "Dc3+",
+      "fenAfter": "6K1/5N2/5k2/5q2/8/2Q5/8/8 b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "6K1/4kN2/8/5q2/8/2Q5/8/8 w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qb4+",
+      "nl": "Db4+",
+      "fenAfter": "6K1/4kN2/8/5q2/1Q6/8/8/8 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "6K1/5N2/5k2/5q2/1Q6/8/8/8 w - - 13 8",
       "variant": "main",
       "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "6K1/5N2/5k2/5q2/3Q4/8/8/8 b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "6K1/5N2/6k1/5q2/3Q4/8/8/8 w - - 15 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qg7+",
+      "nl": "Dg7+",
+      "fenAfter": "6K1/5NQ1/6k1/5q2/8/8/8/8 b - - 16 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.a.17",
+      "ply": 17,
+      "san": "Qg1+",
+      "nl": "Dg1+?",
+      "fenAfter": "6K1/5N2/6k1/5q2/8/8/8/6Q1 b - - 16 9",
+      "variant": "main.a",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.a.18",
+      "ply": 18,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "6K1/5N2/5k2/5q2/8/8/8/6Q1 w - - 17 10",
+      "variant": "main.a",
+      "parent": "main.a.17"
+    },
+    {
+      "id": "main.a.19",
+      "ply": 19,
+      "san": "Qd4+",
+      "nl": "Dd4+",
+      "fenAfter": "6K1/5N2/5k2/5q2/3Q4/8/8/8 b - - 18 10",
+      "variant": "main.a",
+      "parent": "main.a.18"
+    },
+    {
+      "id": "main.a.20",
+      "ply": 20,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "6K1/5N2/6k1/5q2/3Q4/8/8/8 w - - 19 11",
+      "variant": "main.a",
+      "parent": "main.a.19"
+    },
+    {
+      "id": "main.b.17",
+      "ply": 17,
+      "san": "Qd6+",
+      "nl": "Dd6+?",
+      "fenAfter": "6K1/5N2/3Q2k1/5q2/8/8/8/8 b - - 16 9",
+      "variant": "main.b",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "6K1/5NQ1/8/5q1k/8/8/8/8 w - - 17 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qh8+",
+      "nl": "Dh8+",
+      "fenAfter": "6KQ/5N2/8/5q1k/8/8/8/8 b - - 18 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kg4",
+      "nl": "Kg4",
+      "fenAfter": "6KQ/5N2/8/5q2/6k1/8/8/8 w - - 19 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nh6+",
+      "nl": "Ph6+",
+      "fenAfter": "6KQ/8/7N/5q2/6k1/8/8/8 b - - 20 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kh5",
+      "nl": "K~",
+      "fenAfter": "6KQ/8/7N/5q1k/8/8/8/8 w - - 21 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nxf5",
+      "nl": "Pxf5",
+      "fenAfter": "6KQ/8/8/5N1k/8/8/8/8 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
       "before": "te dame te verschalken door er\nzelf een te behalen:",
-      "after": "11.Dg3+ (Zie zet 5.)\n\n9…         Kh5       10.Dh8+      Kg4 10...Kg6? 11.Dh6 + en mat.       11.Ph6+      K~       12.Pxf5\n\nIn het boek Flemish Miniatures\nwaardeerde de befaamde dame-\nspecialist Julien Vandiest dit klei-\nnood met: “I feel grateful that my\nfriend Ignace has imagined this\nstraightforward gem by making\nuse of ‘my’ favourite material.”",
+      "after": "10...Kg6? 11.Dh6 + en mat.\n\nIn het boek Flemish Miniatures\nwaardeerde de befaamde dame-\nspecialist Julien Vandiest dit klei-\nnood met: “I feel grateful that my\nfriend Ignace has imagined this\nstraightforward gem by making\nuse of ‘my’ favourite material.”",
       "beforeVariant": {
-        "main.a": "Na 1...Kd5? 2.Db5+ Ke6 3.Dc6+\nKe7 4.Dd6+ Ke8 volgt 5.Dd8 mat.\n\nOpnieuw  niet  5...Kh5?  6.Dh2+\nenzovoort.\n\nKe7 9.Db4+ (Zie zet 7.)\n\nKc8  9.Dd8+ Kb7  10.Pd6+  en\n\nKf6 10.Dd4+ (Zie zet 8.)"
+        "main.a": "Na 1...Kd5? 2.Db5+ Ke6 3.Dc6+\nKe7 4.Dd6+ Ke8 volgt 5.Dd8 mat.\n\n3...Kh5?  4.Dh2+  Kg4  (4...Kg6\n5.Dh6+ en mat) 5.Ph6+ en 6.Pxf5\n\n4...Kh5?  5.Dh3+ Dh4  (5...Kg6\n6.Dh7+ en  mat)  6.Df5+ Dg5+\n7.Dxg5+ mat.\n\nOpnieuw  niet  5...Kh5?  6.Dh2+\nenzovoort.\n\n7.Da3.?  of 7.Dc7+ Kf6 8.Dc3+\nKe7 9.Db4+ (Zie zet 7.)\n\n7...Kd7? verliest sneller: 8.Dd6+\nKc8  9.Dd8+ Kb7  10.Pd6+  en\n11.Pxf5.\n\n8.Db2+? of 8.Dc3+? Ke7 9.Db4+\nKf6 10.Dd4+ (Zie zet 8.)"
       }
     }
   }

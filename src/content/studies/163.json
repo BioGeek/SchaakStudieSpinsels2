@@ -26,19 +26,109 @@
       "parent": "main.1"
     },
     {
-      "id": "main.7",
-      "ply": 7,
-      "san": "Bxe5",
-      "nl": "Lxe5",
-      "fenAfter": "8/7N/8/3pBp2/4k3/8/2K5/8 b - - 0 2",
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "8/2B5/8/3pnpN1/4k3/8/2K5/8 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/2B5/8/3pnpN1/3k4/8/2K5/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ne6+",
+      "nl": "Pe6+",
+      "fenAfter": "8/2B5/4N3/3pnp2/3k4/8/2K5/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/2B5/4N3/3pnp2/4k3/8/2K5/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "8/2B5/8/2Npnp2/4k3/8/2K5/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/2B5/8/2Npnp2/3k4/8/2K5/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "8/2B5/8/3pnp2/3k4/1N6/2K5/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/2B5/8/3pnp2/4k3/1N6/2K5/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd2+",
+      "nl": "Pd2+",
+      "fenAfter": "8/2B5/8/3pnp2/4k3/8/2KN4/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/2B5/8/3pnp2/3k4/8/2KN4/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bb6+",
+      "nl": "Lb6+",
+      "fenAfter": "8/8/1B6/3pnp2/3k4/8/2KN4/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "Hier winnen Loper en paard tegen\npaard omdat de  zwarte hengst\ngehinderd wordt door  zijn  pion-\nnen:",
-      "after": "4.Pxe5.        3.Pe6+      Ke4        4.Pc5+      Kd4\n\nNa 1...d4? verliest zwart snel zijn\npaard:  2.Pf6  d3+  3.Kd2  Kg5\n\nEn niet 2...Kf4? wegens 3.Pf7 en\n\nHier niet 4...Kf4? wegens 5.Pd3+\nen 6.Pxe5\n\nEn daar zwart zijn hengst niet wil\nloslaten is daar plots:\n\nEn mat.\n\nWant na 6...Kf4? wint wit b.v. door\n\nvoort.\n\nIn het boek Flemish  Miniatures\nschreef  Julien Vandiest: “One of\nthose carousels which have made\nVandecasteele famous.”\n\nEn Roger Missiaen: “A dainty and\ngraceful  pirouette by the Knight\nculminating in a sparkling check-\nmate in the center of the board.”",
+      "after": "Na 1...d4? verliest zwart snel zijn\npaard:  2.Pf6  d3+  3.Kd2  Kg5\n4.Lxe5, en het spel.\n\nEn niet 2...Kf4? wegens 3.Pf7 en\n4.Pxe5.\n\nHier niet 4...Kf4? wegens 5.Pd3+\nen 6.Pxe5\n\nEn daar zwart zijn hengst niet wil\nloslaten is daar plots:\n\nEn mat.\n\nWant na 6...Kf4? wint wit b.v. door\n7.Kd1 d3 8.Pc4 en 9.Pxe5, enzo-\nvoort.\n\nIn het boek Flemish  Miniatures\nschreef  Julien Vandiest: “One of\nthose carousels which have made\nVandecasteele famous.”\n\nEn Roger Missiaen: “A dainty and\ngraceful  pirouette by the Knight\nculminating in a sparkling check-\nmate in the center of the board.”",
       "beforeVariant": {}
     }
   }

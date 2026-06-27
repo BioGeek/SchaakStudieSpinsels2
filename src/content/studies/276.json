@@ -177,12 +177,75 @@
       "fenAfter": "8/8/8/5kp1/8/6P1/1p3b2/3B1NK1 w - - 8 7",
       "variant": "main",
       "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/8/8/5kp1/8/6P1/1p3b2/3B1N1K b - - 9 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "b1=Q",
+      "nl": "b1D",
+      "fenAfter": "8/8/8/5kp1/8/6P1/5b2/1q1B1N1K w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bc2+",
+      "nl": "Lc2+",
+      "fenAfter": "8/8/8/5kp1/8/6P1/2B2b2/1q3N1K b - - 1 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Qxc2",
+      "nl": "Dxc2",
+      "fenAfter": "8/8/8/5kp1/8/6P1/2q2b2/5N1K w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "8/8/8/5kp1/8/4N1P1/2q2b2/7K b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bxe3",
+      "nl": "Lxe3",
+      "fenAfter": "8/8/8/5kp1/8/4b1P1/2q5/7K w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "g4+",
+      "nl": "g4+",
+      "fenAfter": "8/8/8/5kp1/6P1/4b3/2q5/7K b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Zwart dreigt met promotie op b1,\nmaar wit verhindert  dit voorlopig\nmet:",
-      "after": "1.g5 Lxg5 2.Lh5 Lf4+ 3.Kh1 Kf5 4.Ld1 b1D 5.Lc2+ Dxc2 6.Pe3+\n\n1.Ph4 Lxh4 2.Lxd7 Kd5 3.Lc8 Kc6 4.Lg4 h1D 5.Lf3+ Dxf3 pat.\n\n1.Pb5 Lxb5 2.Lh6 Kf6 3.Ld2 a1D 4.Lc3+ Dxc3 pat.\n\n1.Pe1 Lxe1 2.Lh5 Kf5 3.Ld1 b1D 4.Lc2+ Dxc2 pat.\n\nDreigt 5.Lg6+.\n\nWit kiest het juiste veld, waar zijn\nkoning  later  geen  schaak  kan\nkrijgen, want na 5.Ke2? of 5.Kg2?,\nKf5 6.Pe3+ Kf6 7.Pd5+ Kg7  is\n\nwint.\n\nWant na 6...b1D? 7.Lc2+ Dxc2\n\nZijne  Koninklijke Hoogheid  trekt\nzich bescheiden terug in het hoek-\nje. En eindelijk:\n\nEn nu komt het hoogtepunt:\n\nOf zwart deze pion nu slaat of niet,\nwit staat pat! Een rein pat nog wel.\n\nSchaakredacteur Cor de  Feijter\nschreef  indertijd:  “Correctie van\neen bewerking van een Kubbelj”.\n\nDe waarheid echter is dat ik, in de\nbeginperiode toen ik met compo-\nneren begon, deze studie niet eens\nkende.\nL. Kubbelj in Shakhmaty (1922):\n\nKh2 Le2 Pf1 g4 / Ke4 Lh6 b2 =\n\nLxe3 pat.\n\nAchteraf blijkt nu dat de studie van\nKubbelj ook geanticipeerd is door\nde gebroeders Platov in de Deut-\nsche Schachzeitung (1905):\n\nKe8 Lg4 Pf5 c5 / Ke4 Lf2 d7 h2 =\n\nOok een voorloper  is Graafland\n(1916):\n\nKd8 Le3 Pa3 / Ke5 Ld3 a2 =\n\nTenslotte  nog  een  studie  van\nEysinga (1969):\n\nKh3 Le2 Pf3 / Ke4 Lc3 b2 =\n\nIn EBUR vond Harm Benak mijn\nversie “veruit de mooiste”.",
+      "after": "Dreigt 5.Lg6+.\n\nWit kiest het juiste veld, waar zijn\nkoning  later  geen  schaak  kan\nkrijgen, want na 5.Ke2? of 5.Kg2?,\nKf5 6.Pe3+ Kf6 7.Pd5+ Kg7  is\n8.Pc3 nu niet mogelijk, en zwart\nwint.\n\nWant na 6...b1D? 7.Lc2+ Dxc2\n8.Pe3+ en 9.Pxc2 is het remise.\n\nZijne  Koninklijke Hoogheid  trekt\nzich bescheiden terug in het hoek-\nje. En eindelijk:\n\nEn nu komt het hoogtepunt:\n\nOf zwart deze pion nu slaat of niet,\nwit staat pat! Een rein pat nog wel.\n\nSchaakredacteur Cor de  Feijter\nschreef  indertijd:  “Correctie van\neen bewerking van een Kubbelj”.\n\nDe waarheid echter is dat ik, in de\nbeginperiode toen ik met compo-\nneren begon, deze studie niet eens\nkende.\nL. Kubbelj in Shakhmaty (1922):\n\nKh2 Le2 Pf1 g4 / Ke4 Lh6 b2 =\n\n1.g5 Lxg5 2.Lh5 Lf4+ 3.Kh1 Kf5\n4.Ld1 b1D 5.Lc2+ Dxc2 6.Pe3+\nLxe3 pat.\n\nAchteraf blijkt nu dat de studie van\nKubbelj ook geanticipeerd is door\nde gebroeders Platov in de Deut-\nsche Schachzeitung (1905):\n\nKe8 Lg4 Pf5 c5 / Ke4 Lf2 d7 h2 =\n\n1.Ph4 Lxh4 2.Lxd7 Kd5 3.Lc8 Kc6\n4.Lg4 h1D 5.Lf3+ Dxf3 pat.\n\nOok een voorloper  is Graafland\n(1916):\n\nKd8 Le3 Pa3 / Ke5 Ld3 a2 =\n\n1.Pb5 Lxb5 2.Lh6 Kf6 3.Ld2 a1D\n4.Lc3+ Dxc3 pat.\n\nTenslotte  nog  een  studie  van\nEysinga (1969):\n\nKh3 Le2 Pf3 / Ke4 Lc3 b2 =\n\n1.Pe1 Lxe1 2.Lh5 Kf5 3.Ld1 b1D\n4.Lc2+ Dxc2 pat.\n\nIn EBUR vond Harm Benak mijn\nversie “veruit de mooiste”.",
       "beforeVariant": {
         "main.b": "Ke3, 5.Pxd4 Kxd4, evenals:"
       }

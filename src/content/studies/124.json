@@ -35,19 +35,154 @@
       "parent": "main.2"
     },
     {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "8/8/8/7k/bP6/2n5/8/R1K5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ra3",
+      "nl": "Ta3",
+      "fenAfter": "8/8/8/7k/bP6/R1n5/8/2K5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ne2+",
+      "nl": "Pe2+",
+      "fenAfter": "8/8/8/7k/bP6/R7/4n3/2K5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/8/7k/bP6/R7/3Kn3/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bb5",
+      "nl": "Lb5",
+      "fenAfter": "8/8/8/1b5k/1P6/R7/3Kn3/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Re3",
+      "nl": "Te3",
+      "fenAfter": "8/8/8/1b5k/1P6/4R3/3Kn3/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "8/8/8/1b5k/1P1n4/4R3/3K4/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Re5+",
+      "nl": "Te5+",
+      "fenAfter": "8/8/8/1b2R2k/1P1n4/8/3K4/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
       "id": "main.12",
       "ply": 12,
       "san": "Kg6",
       "nl": "Kg6",
-      "fenAfter": "8/8/6k1/8/bP6/8/8/R1Kn4 w - - 4 3",
+      "fenAfter": "8/8/6k1/1b2R3/1P1n4/8/3K4/8 w - - 12 7",
       "variant": "main",
-      "parent": "main.3"
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rd5",
+      "nl": "Td5",
+      "fenAfter": "8/8/6k1/1b1R4/1P1n4/8/3K4/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "8/8/6k1/1b1R4/1P6/5n2/3K4/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/8/6k1/1b1R4/1P6/4Kn2/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Bc6",
+      "nl": "Lc6",
+      "fenAfter": "8/8/2b3k1/3R4/1P6/4Kn2/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rd6+",
+      "nl": "Td6+",
+      "fenAfter": "8/8/2bR2k1/8/1P6/4Kn2/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kh7",
+      "nl": "K~",
+      "fenAfter": "8/7k/2bR4/8/1P6/4Kn2/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Rxc6",
+      "nl": "Txc6",
+      "fenAfter": "8/7k/2R5/8/1P6/4Kn2/8/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "En nu:\n\nHier faalt 3.Kd2? (als in de vorige\nstudie) op 3…Pe4 4.Ke3 Lc6 met\nremise.\n\nmet remise.\n\neen onnodige omweg. (Zie zet 7.)\n\nEen laatste zwarte aanval.\n\nEn eindelijk wint wit.\n\n    Samen met de voorgaande is het\n    een tweelingstudie.",
+      "after": "2.Ka3? Lc2 3.Tc1 Pe3, remise.\n\nEn nu:\n\nHier faalt 3.Kd2? (als in de vorige\nstudie) op 3…Pe4 4.Ke3 Lc6 met\nremise.\n\n5.Ta5? Pd4 6.Ke3 Pf5+ 7.Kf4 Pd6\n8.Ke5 Pc4+ 9.K~ Pxa5 10.bxa5\n\n6.Te4? en  bijvoorbeeld 6…Pc6\nmet remise.\n\n7.Kc3? Pe2+ 8.Kd2 Pd4 9.Pd5 is\n\neen onnodige omweg. (Zie zet 7.)\n\nEen laatste zwarte aanval.\n\nEn eindelijk wint wit.\n\n    Samen met de voorgaande is het\n    een tweelingstudie.",
       "beforeVariant": {}
     }
   }

@@ -17,6 +17,15 @@
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "3k4/7R/1P3p2/2K2p2/5p1p/2b1p3/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
       "id": "main.a.2",
       "ply": 2,
       "san": "Ba5",
@@ -60,6 +69,24 @@
       "fenAfter": "3k4/1P5R/2K2p2/4bp2/5p1p/4p3/8/8 w - - 3 4",
       "variant": "main.a",
       "parent": "main.a.5"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kxd6",
+      "nl": "Kxd6",
+      "fenAfter": "3k4/7R/1P1K1p2/5p2/5p1p/2b1p3/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "3k4/7R/1P1K1p2/5p2/5p1p/2b5/4p3/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.11"
     },
     {
       "id": "main.b.2",
@@ -114,20 +141,29 @@
       "fenAfter": "3k4/1P5R/5p2/2K2p2/5p1p/4b3/4p3/8 w - - 1 3",
       "variant": "main.c",
       "parent": "main.c.3"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "3k3R/8/1P1K1p2/5p2/5p1p/2b5/4p3/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "En eveneens mat.\n     In 1978 kregen M. Klinkhov & A.\n    Kuznetsov een Speciale  Prijs  in\n      Bull. CCCM voor de onderstaande\n     versie, die ik niet kende toen ik mijn\n     huidige studie componeerde\n\n    Kd4 Tg7 b7 g3 /\n             Kb8 Ld6 e3 f4 f5 f6 +\n\n    met een inleiding die vier (4) zet-\n     ten korter is dan die mijne:\n\nKa7 3.Tg8 Lb8 4.Te8 f3 5.Te3 Ld6\n\nwit wint dank zij pion g3.\n\n    Maar hier wint ook 5.g4 en  bij-\n     voorbeeld 5…f2 6.Te3 Ld6 7.Txe2\n    f1D 8.Ta2+ Da6+ 9.Txa6+ 10.Kxa6\n    Kxd6  11.Kxb7   gxf5.  Of   hier\n\nIn de hoofvariant winnen ook de\n     zetten 6.g4 en  zelfs 9.Tc1 e1D\n\nf1D 13.b8D+ Ka6 14.Db6+ en mat\n    Dus driemaal nevenoplosbaar.\n\n    Dat de  prijsrechter Pauli Perko-\n     noja de zet 9.Tc1 niet heeft opge-\n     merkt vind ik zeer raar; vermits hij\n     mijn correcte oplossing wel ken-\n     de. (Zie het Juryrapport  in Pro-\n    bleemblad N°5 Dec 2009)",
+      "after": "3.Kd6 (met matdreiging op h8)    3…Lc5+ 4.Kxc5 e1D 5.b8D+\n\n2.Kd6\n\n2…          Le5+\n\n3.Ke6\n\n3…         Kc8          4. b7       Kb8        5.Kd5        e2(Ka7)        6.Kc6        Ka7(e2)        7.Th8       Lb8        8.Te8          f3        9.Te3        Ld6       10.Tb3\n\nEn eveneens mat.\n     In 1978 kregen M. Klinkhov & A.\n    Kuznetsov een Speciale  Prijs  in\n      Bull. CCCM voor de onderstaande\n     versie, die ik niet kende toen ik mijn\n     huidige studie componeerde\n\n    Kd4 Tg7 b7 g3 /\n             Kb8 Ld6 e3 f4 f5 f6 +\n\n    met een inleiding die vier (4) zet-\n     ten korter is dan die mijne:\n\nKa7 3.Tg8 Lb8 4.Te8 f3 5.Te3 Ld6\n\n14.Txa6 Kxa6 15.Kxd6 Kxb7, en\n\nwit wint dank zij pion g3.\n\n    Maar hier wint ook 5.g4 en  bij-\n     voorbeeld 5…f2 6.Te3 Ld6 7.Txe2\n    f1D 8.Ta2+ Da6+ 9.Txa6+ 10.Kxa6\n    Kxd6  11.Kxb7   gxf5.  Of   hier\n\n8.Txa5+ Kb8 9.Ta8+ en mat.\n\nIn de hoofvariant winnen ook de\n     zetten 6.g4 en  zelfs 9.Tc1 e1D\n\nf1D 13.b8D+ Ka6 14.Db6+ en mat\n    Dus driemaal nevenoplosbaar.\n\n    Dat de  prijsrechter Pauli Perko-\n     noja de zet 9.Tc1 niet heeft opge-\n     merkt vind ik zeer raar; vermits hij\n     mijn correcte oplossing wel ken-\n     de. (Zie het Juryrapport  in Pro-\n    bleemblad N°5 Dec 2009)",
       "beforeVariant": {
-        "main.a": "Want  1.Kd6?  faalt  op 1…Lb4\n\nFout is",
-        "main.b": "(3…Lb8 4.Th8+ Ke7 5.Txb8 e2\n\nKg6  9.Dg2+  Kh6  10.Dxe2,\n    enzovoort.  :",
-        "main.c": "Kb8 5.Td8+ Ka7 6.Ta8+ mat)",
-        "main.a2": "en mat, of hier 2…Lb4+ 3.Kc6\n   Ld6 4.Kxd6 e1D 5.b8D+ en\n    mat.\n\nKe6 5.Th8 e2, en geen winst.\n\nWeer niet goed is:",
+        "main.a": "Want  1.Kd6?  faalt  op 1…Lb4\n2.Kc6 e2 3.Th8+ Ke7 4.b6 e1D\n5.b7 Ld6 en winst is uitgesloten.\n\nFout is",
+        "main.b": "(3…Lb8 4.Th8+ Ke7 5.Txb8 e2\n\n8.Da7+ K~ 9.Df2, en wit wint.)\n   4.Td7+ Ke8 5.Td6 Lxd6 (5…e2\n\n8.Dg8+ Kh5 9.Th7+ en mat.)\n\nKg6  9.Dg2+  Kh6  10.Dxe2,\n    enzovoort.  :",
+        "main.c": "3.Td7+ Ke8 (3…Kc8  4.b7+\n\nKb8 5.Td8+ Ka7 6.Ta8+ mat)\n\n4.b7 Le5 5.Td6, enzovoort.",
+        "main.a2": "en mat, of hier 2…Lb4+ 3.Kc6\n   Ld6 4.Kxd6 e1D 5.b8D+ en\n    mat.\n\n2.b7? Le5.3.Th8+ Ke7 4.b8D Lxb8\n5.Txb8 f3 6.Tb3 e2 7.Txe3+ Kf8\n8.Kd4 f2 9.Txe2 f1D of hier 4.Th7+\nKe6 5.Th8 e2, en geen winst.\n\nWeer niet goed is:",
         "main.b2": "Lb4+ 5.Ke6 Lxe7 6.b8D+ Kg7\n\nKh5 10.Kxf6 e1D 11.Dg6+ en\n    mat.",
-        "A": "La5  5.b7+ Kb8  6.Kc6  Ld8\n\nen eveneens mat.\n\nOok  10.Kxd6?  Kxb7  is  onvol-\ndoende voor de winst.\n\nDa5 13.Txa5+ en mat.\n\nOm veld a1 te dekken, want na:\n\nKxa7  14.Kc7 Ka6 15.b8D Ka5\n\nDit verplicht zwart tot:\n\nNa bijvoorbeeld 12…Lg3? 13.Ta1\nis mat op a8 onvermijdelijk.\n\nJulien Vandiest vond:”Dat 13.Tc1\nis een juweeltje.”",
-        "B": "Kxa6 18.b8D, enzovoort.\n\nen mat."
+        "A": "La5  5.b7+ Kb8  6.Kc6  Ld8\n\nen eveneens mat.\n\n3.Kc6?  is onvoldoende wegens\n3…e2 4.Th8+ Ke7 5.b7 e1D\n\nOok  10.Kxd6?  Kxb7  is  onvol-\ndoende voor de winst.\n\n10…e1D? 11.b8D Lxb8 12.Ta3+\nDa5 13.Txa5+ en mat.\n\nOm veld a1 te dekken, want na:\n11…Lc5?  12.Ta1  La7  13.Txa7\nKxa7  14.Kc7 Ka6 15.b8D Ka5\n16.Kc6  Ka4  17.Df4+ (17…Ka5\n18.Dc4 e1D 19.Db5+) 17…Kb3\n18.Dxf3 K~ 19.Dxe2, wint wit.\n\nDit verplicht zwart tot:\n\nNa bijvoorbeeld 12…Lg3? 13.Ta1\nis mat op a8 onvermijdelijk.\n\nJulien Vandiest vond:”Dat 13.Tc1\nis een juweeltje.”",
+        "B": "15...f1D? 16.Ta5+ Da6+ 17.Txa6+\nKxa6 18.b8D, enzovoort.\n\nen mat."
       }
     }
   }

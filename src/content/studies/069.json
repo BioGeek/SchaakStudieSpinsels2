@@ -125,28 +125,82 @@
       "parent": "main.12"
     },
     {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ng3",
+      "nl": "Pg3",
+      "fenAfter": "8/8/8/6B1/2NK4/6n1/2k5/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
       "id": "main.15",
       "ply": 15,
       "san": "Ne3+",
       "nl": "Pe3+",
-      "fenAfter": "8/8/8/6B1/2NK4/4n3/2k5/8 w - - 14 8",
+      "fenAfter": "8/8/8/6B1/3K4/4N1n1/2k5/8 b - - 15 8",
       "variant": "main",
-      "parent": "main.13"
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/8/8/6B1/3K4/1k2N1n1/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/6B1/8/1k1KN1n1/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nh5",
+      "nl": "Ph5",
+      "fenAfter": "8/8/8/6Bn/8/1k1KN3/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nf5",
+      "nl": "Pf5",
+      "fenAfter": "8/8/8/5NBn/8/1k1K4/8/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/5NB1/5n2/1k1K4/8/8 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
     },
     {
       "id": "main.21",
       "ply": 21,
       "san": "Bxf4",
       "nl": "Lxf4",
-      "fenAfter": "8/8/8/8/2NK1B2/4n3/2k5/8 b - - 15 8",
+      "fenAfter": "8/8/8/5N2/5B2/1k1K4/8/8 b - - 0 11",
       "variant": "main",
-      "parent": "main.15"
+      "parent": "main.20"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "7…         Pg3        8.Pe3+      Kb3        9.Kd3       Ph5       10.Pf5\n\nHet paard is gevangen.\n\nEen probleemzet! Want bijvoor-\nbeeld 7.Lh6?  faalt, na 7…Pg3+\n\nzwart paard ontsnapt, met remi-\nse.\n\nNu komt het paard vrij.\n\nEn het paard zit opnieuw vast, en\nwordt na een hopeloze ontsnap-\nping zoals:\n\nveroverd met winst:",
+      "after": "Het paard is gevangen.\n\nEen probleemzet! Want bijvoor-\nbeeld 7.Lh6?  faalt, na 7…Pg3+\n8.Pe3+ Kb3 9.Kd3 Ph5 en het\nzwart paard ontsnapt, met remi-\nse.\n\nNu komt het paard vrij.\n\nEn het paard zit opnieuw vast, en\nwordt na een hopeloze ontsnap-\nping zoals:\n\nveroverd met winst:",
       "beforeVariant": {}
     }
   }

@@ -24,12 +24,183 @@
       "fenAfter": "8/8/8/8/7r/7P/6k1/R2NK3 w - - 1 2",
       "variant": "main",
       "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nf2",
+      "nl": "Pf2",
+      "fenAfter": "8/8/8/8/7r/7P/5Nk1/R3K3 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "7r/8/8/8/8/7P/5Nk1/R3K3 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ra2",
+      "nl": "Ta2",
+      "fenAfter": "7r/8/8/8/8/7P/R4Nk1/4K3 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rc8",
+      "nl": "Tc8",
+      "fenAfter": "2r5/8/8/8/8/7P/R4Nk1/4K3 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "h4",
+      "nl": "h4",
+      "fenAfter": "2r5/8/8/8/7P/8/R4Nk1/4K3 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Re8+",
+      "nl": "Te8+",
+      "fenAfter": "4r3/8/8/8/7P/8/R4Nk1/4K3 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Re2",
+      "nl": "Te2",
+      "fenAfter": "4r3/8/8/8/7P/8/4RNk1/4K3 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Rh8",
+      "nl": "Th8",
+      "fenAfter": "7r/8/8/8/7P/8/4RNk1/4K3 w - - 3 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Re4",
+      "nl": "Te4",
+      "fenAfter": "7r/8/8/8/4R2P/8/5Nk1/4K3 b - - 4 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "7r/8/8/8/4R2P/6k1/5N2/4K3 w - - 5 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rg4+",
+      "nl": "Tg4+",
+      "fenAfter": "7r/8/8/8/6RP/6k1/5N2/4K3 b - - 6 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "7r/8/8/8/6RP/5k2/5N2/4K3 w - - 7 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kf1",
+      "nl": "Kf1",
+      "fenAfter": "7r/8/8/8/6RP/5k2/5N2/5K2 b - - 8 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ra8",
+      "nl": "Ta8",
+      "fenAfter": "r7/8/8/8/6RP/5k2/5N2/5K2 w - - 9 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rd4",
+      "nl": "Td4",
+      "fenAfter": "r7/8/8/8/3R3P/5k2/5N2/5K2 b - - 10 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ra1+",
+      "nl": "Ta1+",
+      "fenAfter": "8/8/8/8/3R3P/5k2/5N2/r4K2 w - - 11 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nd1",
+      "nl": "Pd1",
+      "fenAfter": "8/8/8/8/3R3P/5k2/8/r2N1K2 b - - 12 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Rxd1+",
+      "nl": "Txd1+",
+      "fenAfter": "8/8/8/8/3R3P/5k2/8/3r1K2 w - - 0 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Rxd1",
+      "nl": "Txd1",
+      "fenAfter": "8/8/8/8/7P/5k2/8/3R1K2 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "En wint.\n\nWit wint hier verdienstelijk na elf\nunieke zetten.\n      Dit werkje heb  ik ontworpen op\n    zoek naar een correctie van de\n    volgende studie.\n\n     E. Pogosyants publiceerde in EG\n     n° 56 (1979) een origineel onder\n    de titel Castling in Studies:\n\n    Ke1 Ta1 Pd5 h2 / Kh1 Th6 +\n\n    Met de oplossing: 1.Pe3 Txh2 en\n\nDus met winst.\n\n    Maar hier, in de stelling met het wit\n    paard op d5 en de zwarte toren op\n    h6 wint ook de zet 1.h4 Kg2, na\n    32  zetten  (bijvoorbeeld  1..Txh4\n\nEn dit volgens de Nalimov Endga-\n   me Tablebases.\n    Dus nevenoplosbaar.\n\n    De Nalimov-EndgameTablebase\n       lijkt me niet betrouwbaar bij de\n    rokades.",
+      "after": "1..Txh3? 2.Pf2+ en 3.Pxh3.\n\nEn wint.\n\nWit wint hier verdienstelijk na elf\nunieke zetten.\n      Dit werkje heb  ik ontworpen op\n    zoek naar een correctie van de\n    volgende studie.\n\n     E. Pogosyants publiceerde in EG\n     n° 56 (1979) een origineel onder\n    de titel Castling in Studies:\n\n    Ke1 Ta1 Pd5 h2 / Kh1 Th6 +\n\n    Met de oplossing: 1.Pe3 Txh2 en\n\n2.0-0-0+, en mat.\n\nDus met winst.\n\n    Maar hier, in de stelling met het wit\n    paard op d5 en de zwarte toren op\n    h6 wint ook de zet 1.h4 Kg2, na\n    32  zetten  (bijvoorbeeld  1..Txh4\n\n2.Kf2+ enzovoort.)\n\nEn dit volgens de Nalimov Endga-\n   me Tablebases.\n    Dus nevenoplosbaar.\n\n    De Nalimov-EndgameTablebase\n       lijkt me niet betrouwbaar bij de\n    rokades.",
       "beforeVariant": {}
     }
   }

@@ -8,21 +8,220 @@
   "stipulation": "+",
   "moves": [
     {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4K3/8/2p5/6N1/8/4Q3/6qk b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Qg2",
+      "nl": "Dg2",
+      "fenAfter": "8/4K3/8/2p5/6N1/8/4Q1q1/7k w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
       "id": "main.3",
       "ply": 3,
       "san": "Qd1+",
       "nl": "Dd1+",
-      "fenAfter": "8/8/4K3/2p5/6N1/8/8/3Q2qk b - - 1 1",
+      "fenAfter": "8/4K3/8/2p5/6N1/8/6q1/3Q3k b - - 3 2",
       "variant": "main",
-      "parent": null
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qg1",
+      "nl": "Dg1",
+      "fenAfter": "8/4K3/8/2p5/6N1/8/8/3Q2qk w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd5+",
+      "nl": "Dd5+",
+      "fenAfter": "8/4K3/8/2pQ4/6N1/8/8/6qk b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Qg2",
+      "nl": "Dg2",
+      "fenAfter": "8/4K3/8/2pQ4/6N1/8/6q1/7k w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qh5",
+      "nl": "Dh5",
+      "fenAfter": "8/4K3/8/2p4Q/6N1/8/6q1/7k b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/4K3/8/2p4Q/6N1/8/6q1/6k1 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qxc5+",
+      "nl": "Dxc5+",
+      "fenAfter": "8/4K3/8/2Q5/6N1/8/6q1/6k1 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/4K3/8/2Q5/6N1/8/6q1/7k w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qc1+",
+      "nl": "Dc1+",
+      "fenAfter": "8/4K3/8/8/6N1/8/6q1/2Q4k b - - 2 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Qg1",
+      "nl": "Dg1",
+      "fenAfter": "8/4K3/8/8/6N1/8/8/2Q3qk w - - 3 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qc6+",
+      "nl": "Dc6+",
+      "fenAfter": "8/4K3/2Q5/8/6N1/8/8/6qk b - - 4 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Qg2",
+      "nl": "Dg2",
+      "fenAfter": "8/4K3/2Q5/8/6N1/8/6q1/7k w - - 5 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qh6+",
+      "nl": "Dh6+",
+      "fenAfter": "8/4K3/7Q/8/6N1/8/6q1/7k b - - 6 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/4K3/7Q/8/6N1/8/6q1/6k1 w - - 7 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qc1+",
+      "nl": "Dc1+",
+      "fenAfter": "8/4K3/8/8/6N1/8/6q1/2Q3k1 b - - 8 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Qf1",
+      "nl": "Df1",
+      "fenAfter": "8/4K3/8/8/6N1/8/8/2Q2qk1 w - - 9 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/4K3/8/2Q5/6N1/8/8/5qk1 b - - 10 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "8/4K3/8/2Q5/6N1/8/8/5q1k w - - 11 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qh5+",
+      "nl": "Dh5+",
+      "fenAfter": "8/4K3/8/7Q/6N1/8/8/5q1k b - - 12 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "8/4K3/8/7Q/6N1/8/8/5qk1 w - - 13 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Qh2+",
+      "nl": "Dh2+",
+      "fenAfter": "8/4K3/8/8/6N1/8/7Q/5qk1 b - - 14 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
-      "before": "De zwarte koning  zit in de hoek\ngeklemd en het is  niet eenvoudig\neen juiste eerste zet te vinden.\n\nNa  bijvoorbeeld  1.Df3+?  Dg2",
-      "after": "1.Ke7       Dg2\n\n2.Dd1+      Dg1       3.Dd5+      Dg2        4.Dh5       Kg1        5.Dxc5+     Kh1\n\n2.De1+ Dg1 3.De4+ Dg2 4.Dh7+\n\nBij het zoeken naar een zuivere\nversie voor dit boek vond ik dan\nbovenstaande diagramversie. Dus\nzonder een nevenoplossing op het\neinde.",
+      "before": "De zwarte koning  zit in de hoek\ngeklemd en het is  niet eenvoudig\neen juiste eerste zet te vinden.\n\nNa  bijvoorbeeld  1.Df3+?  Dg2\n2.Dd1+ Dg1 3.Dd5+ Dg2 4.Dh5+\nKg1 5.Dxc5+ Kh1 6.Dc1+ Dg1\n7.Dc6+ Dg2, komt wit niet verder\nomdat zijn eigen koning in de weg\nstaat. Correct is daarom deze éni-\nge wijze koningszet:",
+      "after": "16.Dh2+ en mat.\n\nBij het zoeken naar een zuivere\nversie voor dit boek vond ik dan\nbovenstaande diagramversie. Dus\nzonder een nevenoplossing op het\neinde.",
       "beforeVariant": {
-        "main.a": "Kg1 5.Dxc5+ Kh1 6.Dc1+ Dg1\n\nomdat zijn eigen koning in de weg\nstaat. Correct is daarom deze éni-\nge wijze koningszet:\n\nWant  na 1…c4?  2.De4+ Dg2\n\nKh1 6.Dh6+ Kg2 7.Pe3+ en 8.Pxf1\nis het doel bereikt.\n\nen mat. Of 11…Kg2 12.Pe3+ en\n\nVerscheidene gelijkaardige pogin-\ngen van Julien Vandiest misluk-\nten, tot we samen een laatste ver-\nsie publiceerden in Flemish Minia-\ntures (1997):\n\nKd5 De2 Pg4 / Kh1 Dg1 b6 +\n\nMet  de  oplossing:  1.Ke6 Dg2\n\nKg1 5.Db1+  Df1 6.Dxb6+ Kh1\n\nKh1 10.Da1+ Kg1 11.Da8+ Dg2\n\nMaar nu wint op het laatst zowel :"
+        "main.a": "Want  na 1…c4?  2.De4+ Dg2\n3.Dh7+ Kg1 4.Db1+ Df1 5.Db6+\nKh1 6.Dh6+ Kg2 7.Pe3+ en 8.Pxf1\nis het doel bereikt.\n\nen mat. Of 11…Kg2 12.Pe3+ en\n13.Pxf1 met winst.\n\nVerscheidene gelijkaardige pogin-\ngen van Julien Vandiest misluk-\nten, tot we samen een laatste ver-\nsie publiceerden in Flemish Minia-\ntures (1997):\n\nKd5 De2 Pg4 / Kh1 Dg1 b6 +\n\nMet  de  oplossing:  1.Ke6 Dg2\n2.De1+ Dg1 3.De4+ Dg2 4.Dh7+\nKg1 5.Db1+  Df1 6.Dxb6+ Kh1\n7.Db7+ Dg2 8.Dh7+ Kg1 9.Da7+\nKh1 10.Da1+ Kg1 11.Da8+ Dg2\n12.Dh8+ Kg1 13.Da1+ Df1,\n\nMaar nu wint op het laatst zowel :",
+        "main.b": "16.Dh2+ en mat, als"
       }
     }
   }

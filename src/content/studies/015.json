@@ -33,12 +33,48 @@
       "fenAfter": "4n3/1K6/1P6/8/8/3k4/8/8 b - - 2 2",
       "variant": "main",
       "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "8/1K6/1P1n4/8/8/3k4/8/8 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/2K5/1P1n4/8/8/3k4/8/8 b - - 4 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "8/2K5/1P6/8/4n3/3k4/8/8 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/8/1PK5/8/4n3/3k4/8/8 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "2.Kb7  (Ook  2.Kc8   is  goed)    2…Pd6+ 3.Kc7 Pb5+ 4.Kd7 (En\n\nBlokkeert nog steeds de opmars\nvan de pion. 2.Kc8? Kc4 3.Kd7\n(Het beste) 3…Pf6+ 4.Kc6 Pd5\n\nMaar niet 3.Kc6? Pc4 4.b7 Pa5+\nen 6.Pxb7.\n\nEn niet 4.b7? Pc5 5.b8D Pa6+ en\n\nEn wint. Klein, fijn en rein.\n    Harrie  Grondijs  pibliceerde   in\n    Springerzauber  (1998), met  vier\n    stukjes op het bord, dit supermi-\n     niatuurtje:\n\n   Kb8 b5 / Kg1 Pe8 +\n\n     Hij  gaf  als  oplossing: 1.b6 Kf2\n\nook 4.Kc6, 4.Kc8, 4.Kd8, 4.Kb7\n   en 4.Kb8 zijn allen correct.) En dus\n    nevenoplosbaar.\n\n    “Grondijs geeft de stelling als de\n    énige  uitzondering op de  door\n    H.Rey gedefinieerde, en dus  fou-\n     tieve regel dat als de witte pion en\n    de koning op dezelfde lijn staan, de\n    pion minimaal op de  6derij moet\n    staan  wil  wit  kunnen  winnen.\n    Daarbij moet de zwarte koning ver\n   weg staan.” Aldus Harold van der\n    Heijden.\n\n   En  hij concludeerde met: “Het  is\n    dus  niet  zozeer  als  studie  be-\n    doeld, maar wordt dat wel door\n    Vandecasteele’s verbetering.”",
+      "after": "2.Kb7  (Ook  2.Kc8   is  goed)\n\nBlokkeert nog steeds de opmars\nvan de pion. 2.Kc8? Kc4 3.Kd7\n(Het beste) 3…Pf6+ 4.Kc6 Pd5\n5.b7 Pb4+ 6.Kb6 Pd5+ 7.Ka5 Pb4\n8.b8D Pc6+ en 9.Pxb8.\n\nMaar niet 3.Kc6? Pc4 4.b7 Pa5+\nen 6.Pxb7.\n\nEn niet 4.b7? Pc5 5.b8D Pa6+ en\n\nEn wint. Klein, fijn en rein.\n    Harrie  Grondijs  pibliceerde   in\n    Springerzauber  (1998), met  vier\n    stukjes op het bord, dit supermi-\n     niatuurtje:\n\n   Kb8 b5 / Kg1 Pe8 +\n\n     Hij  gaf  als  oplossing: 1.b6 Kf2\n\n2…Pd6+ 3.Kc7 Pb5+ 4.Kd7 (En\n\nook 4.Kc6, 4.Kc8, 4.Kd8, 4.Kb7\n   en 4.Kb8 zijn allen correct.) En dus\n    nevenoplosbaar.\n\n    “Grondijs geeft de stelling als de\n    énige  uitzondering op de  door\n    H.Rey gedefinieerde, en dus  fou-\n     tieve regel dat als de witte pion en\n    de koning op dezelfde lijn staan, de\n    pion minimaal op de  6derij moet\n    staan  wil  wit  kunnen  winnen.\n    Daarbij moet de zwarte koning ver\n   weg staan.” Aldus Harold van der\n    Heijden.\n\n   En  hij concludeerde met: “Het  is\n    dus  niet  zozeer  als  studie  be-\n    doeld, maar wordt dat wel door\n    Vandecasteele’s verbetering.”",
       "beforeVariant": {}
     }
   }

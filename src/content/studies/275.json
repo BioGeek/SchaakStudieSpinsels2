@@ -98,37 +98,127 @@
       "parent": "main.9"
     },
     {
-      "id": "main.15",
-      "ply": 15,
-      "san": "Rc8",
-      "nl": "Tc8",
-      "fenAfter": "K1R5/8/p7/5b2/Pk3N2/8/2p1P3/8 b - - 6 6",
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rd4+",
+      "nl": "Td4+",
+      "fenAfter": "K7/8/p7/5b2/Pk1R1N2/8/2p1P3/8 b - - 6 6",
       "variant": "main",
       "parent": "main.10"
     },
     {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "K7/8/p7/5b2/P2R1N2/1k6/2p1P3/8 w - - 7 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "K7/8/p7/5b2/P2R4/1k1N4/2p1P3/8 b - - 8 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Bxd3",
+      "nl": "Lxd3",
+      "fenAfter": "K7/8/p7/8/P2R4/1k1b4/2p1P3/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rxd3+",
+      "nl": "Txd3+",
+      "fenAfter": "K7/8/p7/8/P7/1k1R4/2p1P3/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
       "id": "main.16",
       "ply": 16,
-      "san": "Be4+",
-      "nl": "Le4+",
-      "fenAfter": "K1R5/8/p7/8/Pk2bN2/8/2p1P3/8 w - - 7 7",
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "K7/8/p7/8/Pk6/3R4/2p1P3/8 w - - 1 9",
       "variant": "main",
       "parent": "main.15"
     },
     {
       "id": "main.17",
       "ply": 17,
-      "san": "Ka7",
-      "nl": "Ka7",
-      "fenAfter": "2R5/K7/p7/8/Pk2bN2/8/2p1P3/8 b - - 8 7",
+      "san": "Rd4+",
+      "nl": "Td4+",
+      "fenAfter": "K7/8/p7/8/Pk1R4/8/2p1P3/8 b - - 2 9",
       "variant": "main",
       "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "K7/8/p7/8/P2R4/1k6/2p1P3/8 w - - 3 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Rd3+",
+      "nl": "Td3+",
+      "fenAfter": "K7/8/p7/8/P7/1k1R4/2p1P3/8 b - - 4 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "K7/8/p7/8/Pk6/3R4/2p1P3/8 w - - 5 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Rd4+",
+      "nl": "Td4+",
+      "fenAfter": "K7/8/p7/8/Pk1R4/8/2p1P3/8 b - - 6 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "K7/8/p7/8/P2R4/1k6/2p1P3/8 w - - 7 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Rd3+",
+      "nl": "Td3+",
+      "fenAfter": "K7/8/p7/8/P7/1k1R4/2p1P3/8 b - - 8 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
       "before": "Hoe kan wit de dreigende promo-\ntie van de zwarte c-pion verhin-\nderen?",
-      "after": "6...         Kb3            7.Pd3\n\n8.Td7 Lxd7 9.Pd3 Lxa4 10.Kb7\n\n7…          Lxd3            8.Txd3+     Kb4     8…Kc4? 9.Td8, enzovoort.            9.Td4+      Kb3          10.Td3+       Kb4          11.Td4+       Kb3          12.Td3+\n\nen zwart haalt na enkele zetten\ndame en wint..\n\nDreigt 3.Tc6+ en 4.Txc2.\nNiet goed is aanstonds 2.Td8? Lh3\n\nmet winst voor zwart.\n\nDreigt hier 5.Txc8+\n\nEn niet : 6.Tb8+? Kxa4 7.Pd3 Lxd3\n\npion zorgt voor winst.\n\nHier  faalt  7.Td3+?  op 7…Kc4\n\nLb5  11.Pc1  Kc3  12.Kb6  Kb2\n\nzegeviert.\n\nMet herhaling van zetten.\n\n    Dat wit hier eindigt met dezelfde\n     zet als waar hij mee begon, name-\n        lijk Tc3+, is een merkwaardig toe-\n      val.",
+      "after": "1.Ta4? Kc5 2.Pf4 Kb5 3.Pd3 Kxa4,\nen zwart haalt na enkele zetten\ndame en wint..\n\nDreigt 3.Tc6+ en 4.Txc2.\nNiet goed is aanstonds 2.Td8? Lh3\n4.Pf4 c1D 5.Pxh3 Dh1+ en 6.Dxh3\nmet winst voor zwart.\n\nDreigt hier 5.Txc8+\n\n5…c1D? 6.Pd3+ Lxd3 7.Tc8+ Kb4\n8.Txc1.\n\nEn niet : 6.Tb8+? Kxa4 7.Pd3 Lxd3\n\n8.Tc8 Le4+ 9.Ka7 Kb6 en de a-\n\npion zorgt voor winst.\n\nHier  faalt  7.Td3+?  op 7…Kc4\n\nLb5  11.Pc1  Kc3  12.Kb6  Kb2\n\n13.Pd3 Lxd3 13.exd3 c1D en zwart\n\nzegeviert.\n\n8…Kc4? 9.Td8, enzovoort.\n\nMet herhaling van zetten.\n\n    Dat wit hier eindigt met dezelfde\n     zet als waar hij mee begon, name-\n        lijk Tc3+, is een merkwaardig toe-\n      val.",
       "beforeVariant": {}
     }
   }

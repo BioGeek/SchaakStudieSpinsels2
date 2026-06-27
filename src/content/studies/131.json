@@ -26,28 +26,109 @@
       "parent": "main.1"
     },
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Ke7",
-      "nl": "Ke7",
-      "fenAfter": "7k/4K2P/8/4NP2/4b3/8/8/8 b - - 3 2",
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "7k/5K1P/6N1/5P2/4b3/8/8/8 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
     },
     {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kxh7",
+      "nl": "Kxh7",
+      "fenAfter": "8/5K1k/6N1/5P2/4b3/8/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf8+",
+      "nl": "Pf8+",
+      "fenAfter": "5N2/5K1k/8/5P2/4b3/8/8/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
       "id": "main.6",
       "ply": 6,
-      "san": "Bd5",
-      "nl": "Ld5",
-      "fenAfter": "7k/4K2P/8/3bNP2/8/8/8/8 w - - 4 3",
+      "san": "Kh8",
+      "nl": "Kh8",
+      "fenAfter": "5N1k/5K2/8/5P2/4b3/8/8/8 w - - 2 4",
       "variant": "main",
       "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "5N1k/5K2/5P2/8/4b3/8/8/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bd5+",
+      "nl": "Ld5+",
+      "fenAfter": "5N1k/5K2/5P2/3b4/8/8/8/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "7k/5K2/4NP2/3b4/8/8/8/8 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bxe6",
+      "nl": "Lxe6",
+      "fenAfter": "7k/5K2/4bP2/8/8/8/8/8 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kxe6",
+      "nl": "Kxe6",
+      "fenAfter": "7k/8/4KP2/8/8/8/8/8 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "6k1/8/4KP2/8/8/8/8/8 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "6k1/4K3/5P2/8/8/8/8/8 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "3…          Kh8        4.f6\n\n1.f6            Lf5\n\n2.Ke7         Lg6      3.Pe5         Lh8      4.Pd3\n\nNa 1.f6? Ld5+ 2.K~ Lxc4  is het\nreeds remise.\n\nEen  directe aanval op de pion,\nwant  na 1…Ld5+?  2.Kg6  Le6\n\nWeer niet 2.f6? wegens 2…Kxh7\n\nVoor de derde maal niet 3.f6? we-\ngens 3…Lxg6+, enzovoort..\n\nNu dan! Kan deze pion nog opruk-\nken naar veld f8?, met zwart aan\nzet?\n\nHet antwoord is ja, en wit wint na\nde pionpromotie.\n\nZie ook de volgende tweelingstu-\ndie, waain ik de zwarte loper ver-\nplaats naar veld d7:\n\nKf7 Pc4 f5 h7 / Kh8 Ld7 +\n\nNa 1...Lg4? volgt 2.Kg6 Le6 3.Pe5\nLf5+ 4.Kh6 Le5 5.Pg6+ en mat.\n\nReculer pour mieux sauter!\n\nWat anders?\n\nEveneens met winst, maar minder\nmooi.",
+      "after": "1.f6            Lf5\n\n2.Ke7         Lg6      3.Pe5         Lh8      4.Pd3\n\n4…          Kxh7       5.Pf4           Lf7\n\n6.Kxf7\n\nNa 1.f6? Ld5+ 2.K~ Lxc4  is het\nreeds remise.\n\nEen  directe aanval op de pion,\nwant  na 1…Ld5+?  2.Kg6  Le6\n3.Kh6  (3.fxe6?  is  pat.)  3...Lxf5\n4.Pf7+ is het mat.\n\nWeer niet 2.f6? wegens 2…Kxh7\n3.Ke7 Ld5 met remise.\n\nVoor de derde maal niet 3.f6? we-\ngens 3…Lxg6+, enzovoort..\n\nNu dan! Kan deze pion nog opruk-\nken naar veld f8?, met zwart aan\nzet?\n\nHet antwoord is ja, en wit wint na\nde pionpromotie.\n\nZie ook de volgende tweelingstu-\ndie, waain ik de zwarte loper ver-\nplaats naar veld d7:\n\nKf7 Pc4 f5 h7 / Kh8 Ld7 +\n\nNa 1...Lg4? volgt 2.Kg6 Le6 3.Pe5\nLf5+ 4.Kh6 Le5 5.Pg6+ en mat.\n\nReculer pour mieux sauter!\n\nWat anders?\n\nEveneens met winst, maar minder\nmooi.",
       "beforeVariant": {}
     }
   }

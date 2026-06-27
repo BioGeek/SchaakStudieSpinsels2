@@ -82,55 +82,217 @@
     {
       "id": "main.9",
       "ply": 9,
-      "san": "Kd4",
-      "nl": "Kd4",
-      "fenAfter": "5B2/2p5/P7/1b5k/3K3P/4p3/4P3/8 b - - 2 5",
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "5B2/P1p5/8/1b1K3k/7P/4p3/4P3/8 b - - 0 5",
       "variant": "main",
       "parent": "main.8"
     },
     {
       "id": "main.10",
       "ply": 10,
-      "san": "Ba4",
-      "nl": "La4",
-      "fenAfter": "5B2/2p5/P7/7k/b2K3P/4p3/4P3/8 w - - 3 6",
+      "san": "Bxe2",
+      "nl": "Lxe2",
+      "fenAfter": "5B2/P1p5/8/3K3k/7P/4p3/4b3/8 w - - 0 6",
       "variant": "main",
       "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
-      "san": "a7",
-      "nl": "a7",
-      "fenAfter": "5B2/P1p5/8/7k/b2K3P/4p3/4P3/8 b - - 0 6",
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "5B2/P1p5/8/7k/4K2P/4p3/4b3/8 b - - 1 6",
       "variant": "main",
       "parent": "main.10"
     },
     {
       "id": "main.12",
       "ply": 12,
-      "san": "Bc6",
-      "nl": "Lc6",
-      "fenAfter": "5B2/P1p5/2b5/7k/3K3P/4p3/4P3/8 w - - 1 7",
+      "san": "Bf1",
+      "nl": "Lf1",
+      "fenAfter": "5B2/P1p5/8/7k/4K2P/4p3/8/5b2 w - - 2 7",
       "variant": "main",
       "parent": "main.11"
     },
     {
       "id": "main.13",
       "ply": 13,
-      "san": "Be7",
-      "nl": "Le7",
-      "fenAfter": "8/P1p1B3/2b5/7k/3K3P/4p3/4P3/8 b - - 2 7",
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "5B2/P1p5/8/7k/7P/4pK2/8/5b2 b - - 3 7",
       "variant": "main",
       "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "5B2/P1p5/8/7k/7P/5K2/4p3/5b2 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "8/P1p5/8/7k/1B5P/5K2/4p3/5b2 b - - 1 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.a.15",
+      "ply": 15,
+      "san": "Kf2",
+      "nl": "Kf2?",
+      "fenAfter": "5B2/P1p5/8/7k/7P/8/4pK2/5b2 b - - 1 8",
+      "variant": "main.a",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.a.16",
+      "ply": 16,
+      "san": "Bg2",
+      "nl": "Lg2",
+      "fenAfter": "5B2/P1p5/8/7k/7P/8/4pKb1/8 w - - 2 9",
+      "variant": "main.a",
+      "parent": "main.a.15"
+    },
+    {
+      "id": "main.a.17",
+      "ply": 17,
+      "san": "Kxe2",
+      "nl": "Kxe2",
+      "fenAfter": "5B2/P1p5/8/7k/7P/8/4K1b1/8 b - - 0 9",
+      "variant": "main.a",
+      "parent": "main.a.16"
+    },
+    {
+      "id": "main.a.18",
+      "ply": 18,
+      "san": "Kxh4",
+      "nl": "Kxh4",
+      "fenAfter": "5B2/P1p5/8/8/7k/8/4K1b1/8 w - - 0 10",
+      "variant": "main.a",
+      "parent": "main.a.17"
+    },
+    {
+      "id": "main.b.15",
+      "ply": 15,
+      "san": "a8=Q",
+      "nl": "a8D?",
+      "fenAfter": "Q4B2/2p5/8/7k/7P/5K2/4p3/5b2 b - - 0 8",
+      "variant": "main.b",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.b.16",
+      "ply": 16,
+      "san": "e1=Q",
+      "nl": "e1D",
+      "fenAfter": "Q4B2/2p5/8/7k/7P/5K2/8/4qb2 w - - 0 9",
+      "variant": "main.b",
+      "parent": "main.b.15"
+    },
+    {
+      "id": "main.b.17",
+      "ply": 17,
+      "san": "Qd5+",
+      "nl": "Dd5+",
+      "fenAfter": "5B2/2p5/8/3Q3k/7P/5K2/8/4qb2 b - - 1 9",
+      "variant": "main.b",
+      "parent": "main.b.16"
+    },
+    {
+      "id": "main.b.18",
+      "ply": 18,
+      "san": "Kxh4",
+      "nl": "Kxh4",
+      "fenAfter": "5B2/2p5/8/3Q4/7k/5K2/8/4qb2 w - - 0 10",
+      "variant": "main.b",
+      "parent": "main.b.17"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "e1=Q",
+      "nl": "e1D",
+      "fenAfter": "8/P1p5/8/7k/1B5P/5K2/8/4qb2 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxe1",
+      "nl": "Lxe1",
+      "fenAfter": "8/P1p5/8/7k/7P/5K2/8/4Bb2 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bb5",
+      "nl": "Lb5",
+      "fenAfter": "8/P1p5/8/1b5k/7P/5K2/8/4B3 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "a8=B",
+      "nl": "a8L",
+      "fenAfter": "B7/2p5/8/1b5k/7P/5K2/8/4B3 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.a2.19",
+      "ply": 19,
+      "san": "a8=Q",
+      "nl": "a8D?",
+      "fenAfter": "Q7/2p5/8/1b5k/7P/5K2/8/4B3 b - - 0 10",
+      "variant": "main.a2",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.a2.20",
+      "ply": 20,
+      "san": "Bc6+",
+      "nl": "Lc6+",
+      "fenAfter": "Q7/2p5/2b5/7k/7P/5K2/8/4B3 w - - 1 11",
+      "variant": "main.a2",
+      "parent": "main.a2.19"
+    },
+    {
+      "id": "main.a2.21",
+      "ply": 21,
+      "san": "Qxc6",
+      "nl": "Dxc6",
+      "fenAfter": "8/2p5/2Q5/7k/7P/5K2/8/4B3 b - - 0 11",
+      "variant": "main.a2",
+      "parent": "main.a2.20"
+    },
+    {
+      "id": "main.b2.19",
+      "ply": 19,
+      "san": "a8=R",
+      "nl": "a8T?",
+      "fenAfter": "R7/2p5/8/1b5k/7P/5K2/8/4B3 b - - 0 10",
+      "variant": "main.b2",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Na een ietwat grove inleiding:",
-      "after": "5.a7          Lxe2.        6.Ke4         Lf1\n\n7.Kxe3 Lf3, de h5-pion door.        7.Kf3\n\nCor de Feijter commentarieerde:\n“Aardige steen, maar enkele  fa-\ncetten  kunnen  nog  bijgeslepen\nworden.”",
+      "after": "10...Lc6+ en 11.Lxa8.\n\nCor de Feijter commentarieerde:\n“Aardige steen, maar enkele  fa-\ncetten  kunnen  nog  bijgeslepen\nworden.”",
       "beforeVariant": {
-        "main.a": "dreigt zwart pion h4 te veroveren,\nMaar wit zal de a-pion tot promo-\ntie brengen:\n\nDeze zet is beter dan: 4...Lb3+?\n\nvoorbeeld 7...Kg4 8.Kxe3 en één\nvan de witte pionnen promoveert.\n\nNiet 6…Kg4? want dan loopt na\n\nNatuurlijk  niet 10.Kxe3? Lg2 en\nweg is de winst.\n\nZwart hoopt op een promotie.\n\nEn niet",
+        "main.a": "dreigt zwart pion h4 te veroveren,\nMaar wit zal de a-pion tot promo-\ntie brengen:\n\nDeze zet is beter dan: 4...Lb3+?\n5.Kd4 La4 6.a7 Lc6 7.Le7 en bij-\nvoorbeeld 7...Kg4 8.Kxe3 en één\nvan de witte pionnen promoveert.\n\nNiet 6…Kg4? want dan loopt na\n7.Kxe3 Lf3, de h5-pion door.\n\nNatuurlijk  niet 10.Kxe3? Lg2 en\nweg is de winst.\n\nZwart hoopt op een promotie.\n\nEn niet",
         "main.b": "remise. Noch",
         "main.a2": "remise.\n\nDreigt nu 10...Lc6+.\n\nEn dankzij de onderpromotie wint\nwit na loperruil, door promotie van\nde h-pion, daar hij de goede loper\noverhoudt.\n\nNiet goed is hier",
         "main.b2": "zwart staat pat. Ook"

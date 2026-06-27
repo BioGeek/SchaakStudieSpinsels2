@@ -42,12 +42,21 @@
       "fenAfter": "7k/8/8/6NK/8/8/q7/7Q w - - 4 3",
       "variant": "main",
       "parent": "main.3"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "7k/8/4N3/7K/8/8/q7/7Q b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "Een stille zet.\n\nEn wit wint.\n    Een knap en moeilijk op te lossen\n      miniatuurtje van Julien Vandiest in\n    EBUR (September 2000) luidde:\n\n    Kh5 Dh1 Pe4 / Kh8 Dg8 +\n\n     en startte met 1.Pg5 Da2 2.Kg6+,\n    Kg8 3.De4 enzovoort zoals in mijn\n      uitbreiding (Zie zet 4.)\n     (December 2000).\n\n      Mijn minuscule bijdrage is één zet\n     meer: 1.Pe4 Dg8. Dus een ietsie-\n      pietsie langere inleiding, die Julien\n     zeker zou gewaardeerd he",
+      "after": "Een stille zet.\n\n9…Kf6? 10.Pd5+ en 11.Pxb6.\n\nEn wit wint.\n    Een knap en moeilijk op te lossen\n      miniatuurtje van Julien Vandiest in\n    EBUR (September 2000) luidde:\n\n    Kh5 Dh1 Pe4 / Kh8 Dg8 +\n\n     en startte met 1.Pg5 Da2 2.Kg6+,\n    Kg8 3.De4 enzovoort zoals in mijn\n      uitbreiding (Zie zet 4.)\n     (December 2000).\n\n      Mijn minuscule bijdrage is één zet\n     meer: 1.Pe4 Dg8. Dus een ietsie-\n      pietsie langere inleiding, die Julien\n     zeker zou gewaardeerd he",
       "beforeVariant": {}
     }
   }

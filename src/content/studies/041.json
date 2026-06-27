@@ -26,38 +26,218 @@
       "parent": "main.1"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Qc5+",
+      "nl": "Dc5+",
+      "fenAfter": "8/8/8/2Q5/B6q/2k2K2/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/8/8/2Q5/B6q/3k1K2/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.4",
+      "ply": 4,
+      "san": "Kb2",
+      "nl": "Kb2?",
+      "fenAfter": "8/8/8/2Q5/B6q/5K2/1k6/8 w - - 4 3",
+      "variant": "main.a",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a.5",
+      "ply": 5,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/8/8/8/B6q/5K2/1kQ5/8 b - - 5 3",
+      "variant": "main.a",
+      "parent": "main.a.4"
+    },
+    {
+      "id": "main.a.6",
+      "ply": 6,
+      "san": "Ka1",
+      "nl": "Ka1",
+      "fenAfter": "8/8/8/8/B6q/5K2/2Q5/k7 w - - 6 4",
+      "variant": "main.a",
+      "parent": "main.a.5"
+    },
+    {
+      "id": "main.a.7",
+      "ply": 7,
+      "san": "Qc3+",
+      "nl": "Dc3+",
+      "fenAfter": "8/8/8/8/B6q/2Q2K2/8/k7 b - - 7 4",
+      "variant": "main.a",
+      "parent": "main.a.6"
+    },
+    {
+      "id": "main.b.4",
+      "ply": 4,
+      "san": "Qc4",
+      "nl": "Dc4?",
+      "fenAfter": "8/8/8/2Q5/B1q5/2k2K2/8/8 w - - 4 3",
+      "variant": "main.b",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b.5",
+      "ply": 5,
+      "san": "Qa3+",
+      "nl": "Da3+",
+      "fenAfter": "8/8/8/8/B1q5/Q1k2K2/8/8 b - - 5 3",
+      "variant": "main.b",
+      "parent": "main.b.4"
+    },
+    {
+      "id": "main.b.6",
+      "ply": 6,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/8/8/8/B1qk4/Q4K2/8/8 w - - 6 4",
+      "variant": "main.b",
+      "parent": "main.b.5"
+    },
+    {
+      "id": "main.b.7",
+      "ply": 7,
+      "san": "Qe3+",
+      "nl": "De3+",
+      "fenAfter": "8/8/8/8/B1qk4/4QK2/8/8 b - - 7 4",
+      "variant": "main.b",
+      "parent": "main.b.6"
+    },
+    {
       "id": "main.5",
       "ply": 5,
       "san": "Qd5",
       "nl": "Dd5",
-      "fenAfter": "8/8/8/3Q4/B6q/2k2K2/8/8 b - - 3 2",
+      "fenAfter": "8/8/8/3Q4/B6q/3k1K2/8/8 b - - 5 3",
       "variant": "main",
-      "parent": "main.2"
+      "parent": "main.4"
     },
     {
       "id": "main.6",
       "ply": 6,
       "san": "Qd4",
       "nl": "Dd4",
-      "fenAfter": "8/8/8/3Q4/B2q4/2k2K2/8/8 w - - 4 3",
+      "fenAfter": "8/8/8/3Q4/B2q4/3k1K2/8/8 w - - 6 4",
       "variant": "main",
       "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qf5+",
+      "nl": "Df5+",
+      "fenAfter": "8/8/8/5Q2/B2q4/3k1K2/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/8/8/5Q2/B2q4/2k2K2/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qc2+",
+      "nl": "Dc2+",
+      "fenAfter": "8/8/8/8/B2q4/2k2K2/2Q5/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/8/8/Bk1q4/5K2/2Q5/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qb3+",
+      "nl": "Db3+",
+      "fenAfter": "8/8/8/8/Bk1q4/1Q3K2/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/8/8/2k5/B2q4/1Q3K2/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qb5+",
+      "nl": "Db5+",
+      "fenAfter": "8/8/8/1Qk5/B2q4/5K2/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/8/3k4/1Q6/B2q4/5K2/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qd7+",
+      "nl": "Dd7+",
+      "fenAfter": "8/3Q4/3k4/8/B2q4/5K2/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/3Q4/8/2k5/B2q4/5K2/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
     },
     {
       "id": "main.17",
       "ply": 17,
       "san": "Qc6+",
       "nl": "Dc6+",
-      "fenAfter": "8/8/2Q5/8/B2q4/2k2K2/8/8 b - - 5 3",
+      "fenAfter": "8/8/2Q5/2k5/B2q4/5K2/8/8 b - - 17 9",
       "variant": "main",
-      "parent": "main.6"
+      "parent": "main.16"
     },
     {
       "id": "main.18",
       "ply": 18,
       "san": "Kb4",
       "nl": "Kb4",
-      "fenAfter": "8/8/2Q5/8/Bk1q4/5K2/8/8 w - - 6 4",
+      "fenAfter": "8/8/2Q5/8/Bk1q4/5K2/8/8 w - - 18 10",
       "variant": "main",
       "parent": "main.17"
     },
@@ -66,7 +246,7 @@
       "ply": 19,
       "san": "Qb5+",
       "nl": "Db5+",
-      "fenAfter": "8/8/8/1Q6/Bk1q4/5K2/8/8 b - - 7 4",
+      "fenAfter": "8/8/8/1Q6/Bk1q4/5K2/8/8 b - - 19 10",
       "variant": "main",
       "parent": "main.18"
     },
@@ -75,7 +255,7 @@
       "ply": 20,
       "san": "Kc3",
       "nl": "Kc3",
-      "fenAfter": "8/8/8/1Q6/B2q4/2k2K2/8/8 w - - 8 5",
+      "fenAfter": "8/8/8/1Q6/B2q4/2k2K2/8/8 w - - 20 11",
       "variant": "main",
       "parent": "main.19"
     },
@@ -84,7 +264,7 @@
       "ply": 21,
       "san": "Qb3+",
       "nl": "Db3+",
-      "fenAfter": "8/8/8/8/B2q4/1Qk2K2/8/8 b - - 9 5",
+      "fenAfter": "8/8/8/8/B2q4/1Qk2K2/8/8 b - - 21 11",
       "variant": "main",
       "parent": "main.20"
     },
@@ -93,7 +273,7 @@
       "ply": 22,
       "san": "Kd2",
       "nl": "Kd2",
-      "fenAfter": "8/8/8/8/B2q4/1Q3K2/3k4/8 w - - 10 6",
+      "fenAfter": "8/8/8/8/B2q4/1Q3K2/3k4/8 w - - 22 12",
       "variant": "main",
       "parent": "main.21"
     },
@@ -102,7 +282,7 @@
       "ply": 23,
       "san": "Qc2+",
       "nl": "Dc2+",
-      "fenAfter": "8/8/8/8/B2q4/5K2/2Qk4/8 b - - 11 6",
+      "fenAfter": "8/8/8/8/B2q4/5K2/2Qk4/8 b - - 23 12",
       "variant": "main",
       "parent": "main.22"
     },
@@ -111,7 +291,7 @@
       "ply": 24,
       "san": "Ke1",
       "nl": "Ke1",
-      "fenAfter": "8/8/8/8/B2q4/5K2/2Q5/4k3 w - - 12 7",
+      "fenAfter": "8/8/8/8/B2q4/5K2/2Q5/4k3 w - - 24 13",
       "variant": "main",
       "parent": "main.23"
     },
@@ -120,7 +300,7 @@
       "ply": 25,
       "san": "Qe2+",
       "nl": "De2+",
-      "fenAfter": "8/8/8/8/B2q4/5K2/4Q3/4k3 b - - 13 7",
+      "fenAfter": "8/8/8/8/B2q4/5K2/4Q3/4k3 b - - 25 13",
       "variant": "main",
       "parent": "main.24"
     }
@@ -128,10 +308,10 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "2.Dd5+ Dd4 3.Df5+ Kc3 4.Dc2+\n\n1.Lc4+ Kb2 2.Da2+ Kc3 3.Db3+\n\n6.Df7+ Ke5 7.De6+ Kd4 8.Dd5+\n\n11.Da2+ en mat.\"\n\nKd5 5.Lb3 Dxb3 6.Dxb3.\n\nNa 3…Kc3? verliest zwart de da-\nme door 4.Db3+ Kd4 (4…Kd2\n\n(Zie zet 8.)\n\nZwart   verliest  de  dame  na\n\nKc5 11.Da7+ en 12.Dxd4.\n\nen mat.\n\nIn Probleemblad (1999) publiceer-\nde ik dit miniatuurtje:\n\nKf3 Dg8 La4 / Kd3 Dd4 +\n\nmet de oplossing: 1.Db3+ Kc3\n\nenzovoort, als boven: 5.Dc2.\n\nWard Stoffelen schreef toen: “Met\nminder materiaal kan het niet. Zo-\nals hij al enkele malen met paar-\nden toonde, speelt ook hier het\nterugkeermotief een hoofdrol.”\nMaar Fernand Joseph reageerde\naldus: “With all my respects to my\nesteemed and talented  country-\nman,  I must say: this belongs to\nthe past, certainly in the era of the\nKen Thomson database, which\nenables the composition of nume-\nrous of such endgames.”\n\nSorry Fernand, maar ik heb nog\ngeen enkele compositie gezien,\nvervaardigd door een database.\nWel kan deze laatste de correct-\nheid van een studie snel beves-\ntigen en is dan ook een handige\nhulp bij het componeren.\n\nMaar componeren zelf kan alleen\nde componist!!\n\nEn Alex Ettinger beweerde om-\ntrent  deze  studie:  “Mechanical\nand unpleasant.  I have seen so-\nmething slightly better and quite\nsimilar from P.Heuacker in Deut-\nsche Schachblätter 1939:\n\nKh4 Da8 La6 / Ka2 Dc1 Lc5 +\n\nKd4  4.Dd3+ Ke5  5.Dd5+  Kf6\n\nKc3 9.Dd3+ Kb2 10.Db3+ Ka1\n\nIs mijn economischere versie, met\néén stuk minder en één oplos-\ningszet meer, dan nog onaange-\nnamer, Alex?\n\nIn de onderstaande recente ver-\nsie zijn er zelfs 3 zetten meer, en\ndie heb ‘ik’ gevonden, en niet de\ndatabase.",
+      "after": "Kd5 5.Lb3 Dxb3 6.Dxb3.\n\nNa 3…Kc3? verliest zwart de da-\nme door 4.Db3+ Kd4 (4…Kd2\n5.De3+ mat.) 5.Db4+ en 6.Dxh4.\n\n4.Db3+? Dc3 5.Dd5+ (Zie zet 3.)\n\n7.Dc2+ Ke1 8.De2+ en mat.\n\n8.Dc6+ Ke5 9.De8+Kd5 10.Dd7+\n(Zie zet 8.)\n\nZwart   verliest  de  dame  na\n8…Ke5? 9.Dg7+ Kd5  10.Lb3+\nKc5 11.Da7+ en 12.Dxd4.\n\n9.Db5+?  Kd6  10.Dd7+  Kc5\n\nen mat.\n\nIn Probleemblad (1999) publiceer-\nde ik dit miniatuurtje:\n\nKf3 Dg8 La4 / Kd3 Dd4 +\n\nmet de oplossing: 1.Db3+ Kc3\n2.Dd5+ Dd4 3.Df5+ Kc3 4.Dc2+\nenzovoort, als boven: 5.Dc2.\n\nWard Stoffelen schreef toen: “Met\nminder materiaal kan het niet. Zo-\nals hij al enkele malen met paar-\nden toonde, speelt ook hier het\nterugkeermotief een hoofdrol.”\nMaar Fernand Joseph reageerde\naldus: “With all my respects to my\nesteemed and talented  country-\nman,  I must say: this belongs to\nthe past, certainly in the era of the\nKen Thomson database, which\nenables the composition of nume-\nrous of such endgames.”\n\nSorry Fernand, maar ik heb nog\ngeen enkele compositie gezien,\nvervaardigd door een database.\nWel kan deze laatste de correct-\nheid van een studie snel beves-\ntigen en is dan ook een handige\nhulp bij het componeren.\n\nMaar componeren zelf kan alleen\nde componist!!\n\nEn Alex Ettinger beweerde om-\ntrent  deze  studie:  “Mechanical\nand unpleasant.  I have seen so-\nmething slightly better and quite\nsimilar from P.Heuacker in Deut-\nsche Schachblätter 1939:\n\nKh4 Da8 La6 / Ka2 Dc1 Lc5 +\n\n1.Lc4+ Kb2 2.Da2+ Kc3 3.Db3+\nKd4  4.Dd3+ Ke5  5.Dd5+  Kf6\n6.Df7+ Ke5 7.De6+ Kd4 8.Dd5+\nKc3 9.Dd3+ Kb2 10.Db3+ Ka1\n11.Da2+ en mat.\"\nIs mijn economischere versie, met\néén stuk minder en één oplos-\ningszet meer, dan nog onaange-\nnamer, Alex?\n\nIn de onderstaande recente ver-\nsie zijn er zelfs 3 zetten meer, en\ndie heb ‘ik’ gevonden, en niet de\ndatabase.",
       "beforeVariant": {
-        "main.a": "Na 1…Kc1 wint wit in 6 zetten, bij-\nvoorbeeld 2.Dd1+ Kb2 3.Dc2+\nKa1  4.Dc3+ Kb1  5.Lc2+ Ka2",
-        "main.b": "Kb1 5.Lc2+ Ka2 6.Db3+ Ka1"
+        "main.a": "Na 1…Kc1 wint wit in 6 zetten, bij-\nvoorbeeld 2.Dd1+ Kb2 3.Dc2+\nKa1  4.Dc3+ Kb1  5.Lc2+ Ka2\n6.Db3+ Ka1 7.Da3+ en mat.",
+        "main.b": "Kb1 5.Lc2+ Ka2 6.Db3+ Ka1\n\n7.Db1+ en mat."
       }
     }
   }

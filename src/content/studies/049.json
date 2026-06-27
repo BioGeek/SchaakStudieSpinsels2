@@ -96,12 +96,129 @@
       "fenAfter": "k7/1q1N4/8/8/8/4Q3/8/4K3 w - - 10 6",
       "variant": "main",
       "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Qa3+",
+      "nl": "Da3+",
+      "fenAfter": "k7/1q1N4/8/8/8/Q7/8/4K3 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Qa7",
+      "nl": "Da7",
+      "fenAfter": "k7/q2N4/8/8/8/Q7/8/4K3 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qf3+",
+      "nl": "Df3+",
+      "fenAfter": "k7/q2N4/8/8/8/5Q2/8/4K3 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Qb7",
+      "nl": "Db7",
+      "fenAfter": "k7/1q1N4/8/8/8/5Q2/8/4K3 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qf8+",
+      "nl": "Df8+",
+      "fenAfter": "k4Q2/1q1N4/8/8/8/8/8/4K3 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "5Q2/kq1N4/8/8/8/8/8/4K3 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qa3+",
+      "nl": "Da3+",
+      "fenAfter": "8/kq1N4/8/8/8/Q7/8/4K3 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Qa6",
+      "nl": "Da6",
+      "fenAfter": "8/k2N4/q7/8/8/Q7/8/4K3 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qe3+",
+      "nl": "De3+",
+      "fenAfter": "8/k2N4/q7/8/8/4Q3/8/4K3 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ka8",
+      "nl": "Ka8",
+      "fenAfter": "k7/3N4/q7/8/8/4Q3/8/4K3 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Qe8+",
+      "nl": "De8+",
+      "fenAfter": "k3Q3/3N4/q7/8/8/8/8/4K3 b - - 21 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Ka7",
+      "nl": "Ka7",
+      "fenAfter": "4Q3/k2N4/q7/8/8/8/8/4K3 w - - 22 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Qb8+",
+      "nl": "Db8+",
+      "fenAfter": "1Q6/k2N4/q7/8/8/8/8/4K3 b - - 23 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Da4+ Da7 2.De4+ Db7 3.De8+\n\nmat.\n\nEn mat.\n\nDeze maljutka is een verlenging\nmet één zet van mijn studie in\nFlemish Miniatures (1998):\n\nKe1 Dd1 Pd7 / Ka8 Db7 +\n\nKa7 4.De3+ (Zie zet  5.), enzo-\nvoort",
+      "after": "1…Ka7? 2.Da4+ Da6 3.Dd4+ Kb7\n4.Pc5+  en  5.Pxa6(+).  Of  hier\n3…Ka8 4.Dh8+ Ka7 5.Db8+ en\nmat.\n\n5…Ka6? 6.Pc5+ en 7.Pxb7.\n\n10…Kb7? 11.Pc5+ en 12.Pxb7.\n\n11…Kb7? 12.Pc5+ en 13.Pxa6.\n\nEn mat.\n\nDeze maljutka is een verlenging\nmet één zet van mijn studie in\nFlemish Miniatures (1998):\n\nKe1 Dd1 Pd7 / Ka8 Db7 +\n\n1.Da4+ Da7 2.De4+ Db7 3.De8+\nKa7 4.De3+ (Zie zet  5.), enzo-\nvoort",
       "beforeVariant": {}
     }
   }

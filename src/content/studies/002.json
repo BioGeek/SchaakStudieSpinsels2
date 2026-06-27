@@ -136,28 +136,73 @@
     {
       "id": "main.11",
       "ply": 11,
-      "san": "Kxc6",
-      "nl": "Kxc6?",
-      "fenAfter": "8/5P2/2K5/5n2/8/6k1/8/8 b - - 0 6",
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3K4/5P2/2b5/5n2/8/6k1/8/8 b - - 10 6",
       "variant": "main",
       "parent": "main.10"
     },
     {
       "id": "main.12",
       "ply": 12,
-      "san": "Ne7+",
-      "nl": "Pe7+",
-      "fenAfter": "8/4nP2/2K5/8/8/6k1/8/8 w - - 1 7",
+      "san": "Nd4",
+      "nl": "Pd4",
+      "fenAfter": "3K4/5P2/2b5/8/3n4/6k1/8/8 w - - 11 7",
       "variant": "main",
       "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "8/4KP2/2b5/8/3n4/6k1/8/8 b - - 12 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "8/4KP2/2b5/5n2/8/6k1/8/8 w - - 13 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/5P2/2b2K2/5n2/8/6k1/8/8 b - - 14 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Nd6",
+      "nl": "Pd6",
+      "fenAfter": "8/5P2/2bn1K2/8/8/6k1/8/8 w - - 15 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "f8=Q",
+      "nl": "f8D",
+      "fenAfter": "5Q2/8/2bn1K2/8/8/6k1/8/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "6...           Pd4(Pg7)\n\nPe7+ 7.Ke6 Pg6 8.Kf6  Pf8,\n    enzovoort. Maar geen winst.\n\nEn plots onverwacht:\n\nEen offeraanbod dat wit weigert:\n\nDe pointe van de vorige zet.\n\nDreigt 7…Pe6(+)\n\nmet winst.\n\nDeze maljutka  is ontstaan naar\naanleiding van een foute studie\nvan Andrei Selivanov in Shakmat-\nnaya Kompozitsia (1996):\n\nKb8 g6 / Ka6 Le1 Pb5 +\n\nNa 1.g7 Lg3+ 2.Kc8 Pd6+ 3.Kd7\nPe4 4.Ke6 Pg5 gaat de auteur ver-\nder met 5.Kf5 Pf7 6.Kg6 Pe5+\n\nontdekte dat 5.Ke7 Ld6+ 6.Ke8\nPe4 7.Kf7 Pg5+ het ook doet.\nNevenoplosbaar dus.\n\nHarold van der Heijden oordeelde\nechter: “Vandecasteele noemt dit\neen correctie. maar in feite is het\neen nieuwe  studie  after  Seliva-\nnov.”",
+      "after": "Pe7+ 7.Ke6 Pg6 8.Kf6  Pf8,\n    enzovoort. Maar geen winst.\n\nEn plots onverwacht:\n\nEen offeraanbod dat wit weigert:\n6.Kxc6? Pe7+ en 7…Pg6, remise.\n\nDe pointe van de vorige zet.\n\nDreigt 7…Pe6(+)\n\nmet winst.\n\nDeze maljutka  is ontstaan naar\naanleiding van een foute studie\nvan Andrei Selivanov in Shakmat-\nnaya Kompozitsia (1996):\n\nKb8 g6 / Ka6 Le1 Pb5 +\n\nNa 1.g7 Lg3+ 2.Kc8 Pd6+ 3.Kd7\nPe4 4.Ke6 Pg5 gaat de auteur ver-\nder met 5.Kf5 Pf7 6.Kg6 Pe5+\n7.Kf6 Pg4+ 8.Kg5 en wint. Maar ik\nontdekte dat 5.Ke7 Ld6+ 6.Ke8\nPe4 7.Kf7 Pg5+ het ook doet.\nNevenoplosbaar dus.\n\nHarold van der Heijden oordeelde\nechter: “Vandecasteele noemt dit\neen correctie. maar in feite is het\neen nieuwe  studie  after  Seliva-\nnov.”",
       "beforeVariant": {
-        "main.a": "remise. Want na 5.f8D of 5.f8T of\n\nzelfs winst voor zwart.\n\nDreigt 4…Pe6(+)\n\nNa:",
+        "main.a": "2.Ka7?  is  reeds  fout: 2…Pc6+\n3.Ka6 Lf1+ 4.Kb6 Pe5 en 5.f8P,\nremise. Want na 5.f8D of 5.f8T of\n5.f8L volgt 5…Pd7+ 6.K~ Pxf8 met\nzelfs winst voor zwart.\n\nDreigt 4…Pe6(+)\n\nNa:",
         "main.b": "voorbeeld  6.Kf6 Pd5  7.Kg6\n   Pf4+ Kh6 8.Pe6, met remise.\n   Ook na:"
       }
     }

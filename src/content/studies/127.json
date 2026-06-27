@@ -78,12 +78,147 @@
       "fenAfter": "1qk5/8/K7/2NQ4/8/7p/8/8 b - - 3 2",
       "variant": "main.b",
       "parent": "main.b.2"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "2k5/8/6q1/K1NQ4/8/7p/8/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Qg4",
+      "nl": "Dg4",
+      "fenAfter": "2k5/8/8/K1NQ4/6q1/7p/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qb7",
+      "nl": "Db7",
+      "fenAfter": "2k5/1Q6/8/K1N5/6q1/7p/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3k4/1Q6/8/K1N5/6q1/7p/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Qf7",
+      "nl": "Df7",
+      "fenAfter": "3k4/5Q2/8/K1N5/6q1/7p/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "h2",
+      "nl": "h2",
+      "fenAfter": "3k4/5Q2/8/K1N5/6q1/8/7p/8 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "3k4/1N3Q2/8/K7/6q1/8/7p/8 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k5/1N3Q2/8/K7/6q1/8/7p/8 w - - 2 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "2k5/5Q2/3N4/K7/6q1/8/7p/8 b - - 3 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd8",
+      "nl": "Kd8",
+      "fenAfter": "3k4/5Q2/3N4/K7/6q1/8/7p/8 w - - 4 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Qe8+",
+      "nl": "De8+",
+      "fenAfter": "3kQ3/8/3N4/K7/6q1/8/7p/8 b - - 5 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "4Q3/2k5/3N4/K7/6q1/8/7p/8 w - - 6 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nb5+",
+      "nl": "Pb5+",
+      "fenAfter": "4Q3/2k5/8/KN6/6q1/8/7p/8 b - - 7 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kb7",
+      "nl": "Kb7",
+      "fenAfter": "4Q3/1k6/8/KN6/6q1/8/7p/8 w - - 8 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qe7+",
+      "nl": "De7+",
+      "fenAfter": "8/1k2Q3/8/KN6/6q1/8/7p/8 b - - 9 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "Dc7 3.Df5+ Kb8 4.Pd7+ Kc8\n\nDoor de pion h3 is de diagonaal c8-\nh3 nu niet toegankelijk voor zwart,\nbijvoorbeeld 4…Dc8 5.Df6+ Ke8\n\nEn als 4…Kc8? 5.Kb6 Db4+ 6.Kc6\nDxc5 7.Kxc5 ook niet goed is, dan\nmaar:\n\nZwart voelt nattigheid, en om niet\nin de hoek mat gedrukt te worden\nspeelt hij:\n\nEn toch mat.",
+      "after": "Dc7 3.Df5+ Kb8 4.Pd7+ Kc8\n\n7.Dxc8+ en mat.\n\n2…Dg7? 3.Da8+ Kc7 4.Pe6+ en\n5.Pxg7.\n\nDoor de pion h3 is de diagonaal c8-\nh3 nu niet toegankelijk voor zwart,\nbijvoorbeeld 4…Dc8 5.Df6+ Ke8\n6.Dh8+ Ke7 7.Dxc8 en wint.\n\nEn als 4…Kc8? 5.Kb6 Db4+ 6.Kc6\nDxc5 7.Kxc5 ook niet goed is, dan\nmaar:\n\nZwart voelt nattigheid, en om niet\nin de hoek mat gedrukt te worden\nspeelt hij:\n\nEn toch mat.",
       "beforeVariant": {
         "main.a": "Dreigt mat in 2 zetten.",
         "main.b": "Kd8 4.Pb7+ Dxb7 5.Dxb7 wint."

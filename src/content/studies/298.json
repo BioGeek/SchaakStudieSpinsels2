@@ -69,12 +69,111 @@
       "fenAfter": "8/5N2/4k3/p2b4/3P4/4b1p1/6Q1/7K w - - 7 5",
       "variant": "main",
       "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd8+",
+      "nl": "Pd8+",
+      "fenAfter": "3N4/8/4k3/p2b4/3P4/4b1p1/6Q1/7K b - - 8 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "3N4/8/3k4/p2b4/3P4/4b1p1/6Q1/7K w - - 9 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "8/1N6/3k4/p2b4/3P4/4b1p1/6Q1/7K b - - 10 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/1N6/2k5/p2b4/3P4/4b1p1/6Q1/7K w - - 11 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nxa5+",
+      "nl": "Pxa5+",
+      "fenAfter": "8/8/2k5/N2b4/3P4/4b1p1/6Q1/7K b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/8/3k4/N2b4/3P4/4b1p1/6Q1/7K w - - 1 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "8/8/3k4/3b4/2NP4/4b1p1/6Q1/7K b - - 2 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/8/4k3/3b4/2NP4/4b1p1/6Q1/7K w - - 3 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxe3",
+      "nl": "Pxe3",
+      "fenAfter": "8/8/4k3/3b4/3P4/4N1p1/6Q1/7K b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bxg2+",
+      "nl": "Lxg2+",
+      "fenAfter": "8/8/4k3/8/3P4/4N1p1/6b1/7K w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kxg2",
+      "nl": "Kxg2",
+      "fenAfter": "8/8/4k3/8/3P4/4N1p1/6K1/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Na 1…Lxh6 komt de dame in aktie\nmet winst, maar zwart heeft een\nverrassing in petto:",
-      "after": "Nu  is de dame ten dode opge-\nschreven.\n\nFout  is het  verleidelijke 4.Pf5+?\nKe6  5.Pxe3  Lxg2+  6.Kxg2  a4\n\na1D, met remise.\n\nNa 4…Lxf7? zou de dame met\n\nOok hier is het paard slaan met de\n     loper uit den boze, de koning moet\n    deze  laatste  blijven dekken. Na\n\nen de dame komt in het spel, met\n     winst.\n\nVoor de vierde maal is het paard\n     onaantastbaar.\n\nDaar gaat de dame, maar wit wint\n     na:\n\nIk  verkies deze vereenvoudigde\n      stelling boven een eerdere gelijk-\n     aardige studie in dit boek, name-\n        lijk nummer - 295 - Maar ik vind\n    geen goede eerste zet voor wit.\n\n    Zodus…\n\n    Een vorige nevenoplosbare versie\n      uit 2002 verscheen in De Morgen.\n    De rubriekleider Wouter Janssens\n    reageerde toen aldus:”De witte d-\n     pion brengt de beslissing, maar de\n     glansrol is voor het witte paard, in\n    een  lichtvoetig maar  perfect en\n     typisch mechaniekje. Met dit soort\n     constructies vergaarde Vandecas-\n     teele  volkomen  terecht  wereld-\n     faam.”",
+      "after": "Nu  is de dame ten dode opge-\nschreven.\n\nFout  is het  verleidelijke 4.Pf5+?\nKe6  5.Pxe3  Lxg2+  6.Kxg2  a4\n7.Kxg3 a3 8.Kf4 a2 9.Pc2 Kd5\n10.Ke3 Kc4 11.Pa1 Kc3 12.d5 Kb2\n13.d6 Kxa1  14.d7 Kb1 15.d8D\na1D, met remise.\n\nNa 4…Lxf7? zou de dame met\n5.Dxg3+ nu winnen.\n\nOok hier is het paard slaan met de\n     loper uit den boze, de koning moet\n    deze  laatste  blijven dekken. Na\n\n6…Ke6? volgt 7.Pc5+ Kd6 8.Pe4+,\n\nen de dame komt in het spel, met\n     winst.\n\nVoor de vierde maal is het paard\n     onaantastbaar.\n\nDaar gaat de dame, maar wit wint\n     na:\n\nIk  verkies deze vereenvoudigde\n      stelling boven een eerdere gelijk-\n     aardige studie in dit boek, name-\n        lijk nummer - 295 - Maar ik vind\n    geen goede eerste zet voor wit.\n\n    Zodus…\n\n    Een vorige nevenoplosbare versie\n      uit 2002 verscheen in De Morgen.\n    De rubriekleider Wouter Janssens\n    reageerde toen aldus:”De witte d-\n     pion brengt de beslissing, maar de\n     glansrol is voor het witte paard, in\n    een  lichtvoetig maar  perfect en\n     typisch mechaniekje. Met dit soort\n     constructies vergaarde Vandecas-\n     teele  volkomen  terecht  wereld-\n     faam.”",
       "beforeVariant": {}
     }
   }

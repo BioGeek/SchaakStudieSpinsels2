@@ -26,6 +26,15 @@
       "parent": "main.1"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rxf4",
+      "nl": "Txf4",
+      "fenAfter": "7k/7p/7p/8/1p3R2/4p3/5PPK/4b3 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
       "id": "main.a.3",
       "ply": 3,
       "san": "fxe3",
@@ -69,24 +78,6 @@
       "fenAfter": "7k/7p/7p/8/5PR1/1p4b1/6P1/6K1 b - - 0 4",
       "variant": "main.a",
       "parent": "main.a.6"
-    },
-    {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Kh3",
-      "nl": "Kh3",
-      "fenAfter": "7k/7p/7p/8/1p3pR1/4p2K/5PP1/4b3 b - - 3 2",
-      "variant": "main",
-      "parent": "main.2"
-    },
-    {
-      "id": "main.6",
-      "ply": 6,
-      "san": "b3",
-      "nl": "b3",
-      "fenAfter": "7k/7p/7p/8/5pR1/1p2p2K/5PP1/4b3 w - - 0 3",
-      "variant": "main",
-      "parent": "main.5"
     },
     {
       "id": "main.b.3",
@@ -134,29 +125,254 @@
       "parent": "main.b.6"
     },
     {
-      "id": "main.7",
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "7k/7p/7p/8/1p3R2/2b1p3/5PPK/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a2.4",
+      "ply": 4,
+      "san": "Bxf2",
+      "nl": "Lxf2?",
+      "fenAfter": "7k/7p/7p/8/1p3R2/4p3/5bPK/8 w - - 0 3",
+      "variant": "main.a2",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.a2.5",
+      "ply": 5,
+      "san": "Rxb4",
+      "nl": "Txb4",
+      "fenAfter": "7k/7p/7p/8/1R6/4p3/5bPK/8 b - - 0 3",
+      "variant": "main.a2",
+      "parent": "main.a2.4"
+    },
+    {
+      "id": "main.a2.6",
+      "ply": 6,
+      "san": "e2",
+      "nl": "e2",
+      "fenAfter": "7k/7p/7p/8/1R6/8/4pbPK/8 w - - 0 4",
+      "variant": "main.a2",
+      "parent": "main.a2.5"
+    },
+    {
+      "id": "main.a2.7",
       "ply": 7,
+      "san": "Re4",
+      "nl": "Te4",
+      "fenAfter": "7k/7p/7p/8/4R3/8/4pbPK/8 b - - 1 4",
+      "variant": "main.a2",
+      "parent": "main.a2.6"
+    },
+    {
+      "id": "main.b2.4",
+      "ply": 4,
+      "san": "exf2",
+      "nl": "exf2?",
+      "fenAfter": "7k/7p/7p/8/1p3R2/8/5pPK/4b3 w - - 0 3",
+      "variant": "main.b2",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.b2.5",
+      "ply": 5,
+      "san": "g3",
+      "nl": "g3",
+      "fenAfter": "7k/7p/7p/8/1p3R2/6P1/5p1K/4b3 b - - 0 3",
+      "variant": "main.b2",
+      "parent": "main.b2.4"
+    },
+    {
+      "id": "main.b2.6",
+      "ply": 6,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "7k/7p/7p/8/5R2/1p4P1/5p1K/4b3 w - - 0 4",
+      "variant": "main.b2",
+      "parent": "main.b2.5"
+    },
+    {
+      "id": "main.b2.7",
+      "ply": 7,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "7k/7p/7p/8/5R2/1p4P1/5pK1/4b3 b - - 1 4",
+      "variant": "main.b2",
+      "parent": "main.b2.6"
+    },
+    {
+      "id": "main.b2.8",
+      "ply": 8,
+      "san": "b2",
+      "nl": "b2",
+      "fenAfter": "7k/7p/7p/8/5R2/6P1/1p3pK1/4b3 w - - 0 5",
+      "variant": "main.b2",
+      "parent": "main.b2.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rf8+",
+      "nl": "Tf8+",
+      "fenAfter": "5R1k/7p/7p/8/1p6/2b1p3/5PPK/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "5R2/6kp/7p/8/1p6/2b1p3/5PPK/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rb8",
+      "nl": "Tb8",
+      "fenAfter": "1R6/6kp/7p/8/1p6/2b1p3/5PPK/8 b - - 4 4",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.c.4",
+      "ply": 4,
+      "san": "b3",
+      "nl": "b3?",
+      "fenAfter": "7k/7p/7p/8/5R2/1p2p3/5PPK/4b3 w - - 0 3",
+      "variant": "main.c",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.c.5",
+      "ply": 5,
       "san": "fxe3",
       "nl": "fxe3",
-      "fenAfter": "7k/7p/7p/8/5pR1/1p2P2K/6P1/4b3 b - - 0 3",
-      "variant": "main",
-      "parent": "main.6"
+      "fenAfter": "7k/7p/7p/8/5R2/1p2P3/6PK/4b3 b - - 0 3",
+      "variant": "main.c",
+      "parent": "main.c.4"
+    },
+    {
+      "id": "main.c.6",
+      "ply": 6,
+      "san": "b2",
+      "nl": "b2",
+      "fenAfter": "7k/7p/7p/8/5R2/4P3/1p4PK/4b3 w - - 0 4",
+      "variant": "main.c",
+      "parent": "main.c.5"
+    },
+    {
+      "id": "main.c.7",
+      "ply": 7,
+      "san": "Rf8+",
+      "nl": "Tf8+",
+      "fenAfter": "5R1k/7p/7p/8/8/4P3/1p4PK/4b3 b - - 1 4",
+      "variant": "main.c",
+      "parent": "main.c.6"
+    },
+    {
+      "id": "main.c.8",
+      "ply": 8,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "5R2/6kp/7p/8/8/4P3/1p4PK/4b3 w - - 2 5",
+      "variant": "main.c",
+      "parent": "main.c.7"
+    },
+    {
+      "id": "main.a3.5",
+      "ply": 5,
+      "san": "Rf8+",
+      "nl": "Tf8+?",
+      "fenAfter": "5R1k/7p/7p/8/1p6/2b1p3/5PPK/8 b - - 2 3",
+      "variant": "main.a3",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.a3.6",
+      "ply": 6,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "5R2/6kp/7p/8/1p6/2b1p3/5PPK/8 w - - 3 4",
+      "variant": "main.a3",
+      "parent": "main.a3.5"
+    },
+    {
+      "id": "main.a3.7",
+      "ply": 7,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "4R3/6kp/7p/8/1p6/2b1p3/5PPK/8 b - - 4 4",
+      "variant": "main.a3",
+      "parent": "main.a3.6"
+    },
+    {
+      "id": "main.a3.8",
+      "ply": 8,
+      "san": "exf2",
+      "nl": "exf2",
+      "fenAfter": "4R3/6kp/7p/8/1p6/2b5/5pPK/8 w - - 0 5",
+      "variant": "main.a3",
+      "parent": "main.a3.7"
+    },
+    {
+      "id": "main.b3.5",
+      "ply": 5,
+      "san": "Re4",
+      "nl": "Te4?",
+      "fenAfter": "7k/7p/7p/8/1p2R3/2b1p3/5PPK/8 b - - 2 3",
+      "variant": "main.b3",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.b3.6",
+      "ply": 6,
+      "san": "exf2",
+      "nl": "exf2",
+      "fenAfter": "7k/7p/7p/8/1p2R3/2b5/5pPK/8 w - - 0 4",
+      "variant": "main.b3",
+      "parent": "main.b3.5"
+    },
+    {
+      "id": "main.b3.7",
+      "ply": 7,
+      "san": "Re8+",
+      "nl": "Te8+",
+      "fenAfter": "4R2k/7p/7p/8/1p6/2b5/5pPK/8 b - - 1 4",
+      "variant": "main.b3",
+      "parent": "main.b3.6"
+    },
+    {
+      "id": "main.b3.8",
+      "ply": 8,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "4R3/6kp/7p/8/1p6/2b5/5pPK/8 w - - 2 5",
+      "variant": "main.b3",
+      "parent": "main.b3.7"
     },
     {
       "id": "main.16",
       "ply": 16,
-      "san": "Bd2",
-      "nl": "Ld2",
-      "fenAfter": "7k/7p/7p/8/5pR1/1p2P2K/3b2P1/8 w - - 1 4",
+      "san": "Be1",
+      "nl": "Le1",
+      "fenAfter": "1R6/6kp/7p/8/1p6/4p3/5PPK/4b3 w - - 5 5",
       "variant": "main",
-      "parent": "main.7"
+      "parent": "main.11"
     },
     {
-      "id": "main.23",
-      "ply": 23,
-      "san": "Rh4",
-      "nl": "Th4",
-      "fenAfter": "7k/7p/7p/8/5p1R/1p2P2K/3b2P1/8 b - - 2 4",
+      "id": "main.17",
+      "ply": 17,
+      "san": "g3",
+      "nl": "g3",
+      "fenAfter": "1R6/6kp/7p/8/1p6/4p1P1/5P1K/4b3 b - - 0 5",
       "variant": "main",
       "parent": "main.16"
     }
@@ -164,15 +380,16 @@
   "prose": {
     "nl": {
       "before": "Deze copieuze studie kwam  tot\nstand dankzij de hulp van mijn jon-\nge landgenoot, de getalenteerde\nEddy van Espen.\n\nNa mijn negende(!) mislukte po-\nging, onder de titel ‘Het Leste is het\nBeste’ in EBUR, hebben wij samen\ner iets moois van gebakken. Mits\nkleurverwisseling van mijn studie,\ndoch met behoud van alle ingre-\ndiënten: geweigerde  offers,  ver-\nscheidene patwendingen, falende\npromoties tot dame, loper of paard,\nwerd zelfs een dreigende vesting-\nbouw verhinderd.\n\nIk verrijkte verder het geheel nog\nmet een verrassende eerste zet:\n‘de kers op de taart’. Proef maar:",
-      "after": "1…Kf6? 2.Txf4+ Ke5 3.fxe3 b3      4.Tf1 Lc3 en bijvoorbeeld 5.Kg3\n\n2…          Lc3\n\n3.Txb4\n\n3…           exf2\n\n8…f1T. Maar niet na 8…f1D?, zie\n\n8…          Le1        9.g3\n\n9…           f1T\n\n10.Kg2        Tf2+       11.Kg1       Te2       12.Kf1\n\n4. Als wit eerst 4.Tb1? speelt en de\n\nPf3+  12.Kf2  Pxe1  13.Kxe1\n   Kxg3 14.Kf1, is remise.\nDus probeert zwart:\n\nZodat de patwendingen eruit zijn.\n\nEn opnieuw Böhm: “En dat is het\ngrote verschil met de variant bij zet\n\ntoren dus op b5 zou staan, dan zou\nzwart de   tijd  hebben om met\n\nmateriële overmacht. En waar alle\nVandecasteeles naar op zoek zijn\nis  juist een overwinning van de\ngeest op de materie.\n\nEn de welverdiende remise is bin-\nnen.”\n\nEen smakelijk baksel om te sa-\nvoureren.\n\nDit boeiend eindspel werd door\nJan Timman en Hans Böhm ver-\nkozen tot een van de tien mooi-\nste studies van het jaar 2003.\n     In het boek Briljant Schaken ver-\n    wonderde, de  vermoedelijk  ver-\n     keerd ingelichte, Böhm zich er over\n    hoe ik, de ‘allerbelabberste partij-\n     speler’ (sic), tot zulk een uitzonder-\n       lijke prestatie kon komen ?\n\n     Sorry Hans, maar ik ben nooit of-te\n    nimmer een partijspeler geweest,\n    doch enkel een studie-componist,\n     pur et simple. Het is dus een flinke\n      flater, maar weliswaar goed be-\n     doeld als gewenste tegenstelling,\n    hoop ik.\n\n     Scheidsrechter  Rainer  Staudte\n     schreef over deze studie:“The mo-\n      tivation for the underpromotion be-\n    cause  of  different stalemate  re-\n     sources is very original.”\n\n    En Julien Vandiest besloot met:\n    “Deze  studie  heeft  alles!  Een\n    waar monument.”\n\n    En toch ontving ik slechts een 3de\n     eervolle vermelding?\n\n     Begrijpe wie kan.",
+      "after": "1…Kf6? 2.Txf4+ Ke5 3.fxe3 b3\n\n3.Txb4\n\n3…           exf2\n\n4.Tb8+\n\n4…         Kg7        5.Tb7+      Kg6\n\n6.Tb6+      Kg5        7.Tb5+      Kg4\n\nPf3+  12.Kf2  Pxe1  13.Kxe1\n   Kxg3 14.Kf1, is remise.\nDus probeert zwart:\n\nZodat de patwendingen eruit zijn.\n\nEn opnieuw Böhm: “En dat is het\ngrote verschil met de variant bij zet\n4. Als wit eerst 4.Tb1? speelt en de\ntoren dus op b5 zou staan, dan zou\nzwart de   tijd  hebben om met\n12…Te4 simpel  te winnen door\nmateriële overmacht. En waar alle\nVandecasteeles naar op zoek zijn\nis  juist een overwinning van de\ngeest op de materie.\n\nEn de welverdiende remise is bin-\nnen.”\n\nEen smakelijk baksel om te sa-\nvoureren.\n\nDit boeiend eindspel werd door\nJan Timman en Hans Böhm ver-\nkozen tot een van de tien mooi-\nste studies van het jaar 2003.\n     In het boek Briljant Schaken ver-\n    wonderde, de  vermoedelijk  ver-\n     keerd ingelichte, Böhm zich er over\n    hoe ik, de ‘allerbelabberste partij-\n     speler’ (sic), tot zulk een uitzonder-\n       lijke prestatie kon komen ?\n\n     Sorry Hans, maar ik ben nooit of-te\n    nimmer een partijspeler geweest,\n    doch enkel een studie-componist,\n     pur et simple. Het is dus een flinke\n      flater, maar weliswaar goed be-\n     doeld als gewenste tegenstelling,\n    hoop ik.\n\n     Scheidsrechter  Rainer  Staudte\n     schreef over deze studie:“The mo-\n      tivation for the underpromotion be-\n    cause  of  different stalemate  re-\n     sources is very original.”\n\n    En Julien Vandiest besloot met:\n    “Deze  studie  heeft  alles!  Een\n    waar monument.”\n\n    En toch ontving ik slechts een 3de\n     eervolle vermelding?\n\n     Begrijpe wie kan.",
       "beforeVariant": {
-        "main.a": "Wit moet omzichtig te werk gaan\n    wegens de zwarte dreigende vrij-\n     pionnen, en  fout  is  het  recht-\n     streekse 1.Txf4? exf2 2.g3 (2.Tf3,\n     b3) 2…b3 3.Kg2 b2 4.Tg4+ Kh8 en\n     zwart haalt dame, of verlies van de\n     toren.\n\nZwart kruipt in het hoekje, want na\n\nKe4 6.Tb1 b2 7.Kg4 Kxe3 8.Kh5\n    Kd3  9.g4  Lg7  10.Txb2  Lxb2\n\nMaar beslist niet:",
+        "main.a": "Wit moet omzichtig te werk gaan\n    wegens de zwarte dreigende vrij-\n     pionnen, en  fout  is  het  recht-\n     streekse 1.Txf4? exf2 2.g3 (2.Tf3,\n     b3) 2…b3 3.Kg2 b2 4.Tg4+ Kh8 en\n     zwart haalt dame, of verlies van de\n     toren.\n\nZwart kruipt in het hoekje, want na\n\n4.Tf1 Lc3 en bijvoorbeeld 5.Kg3\n\nKe4 6.Tb1 b2 7.Kg4 Kxe3 8.Kh5\n    Kd3  9.g4  Lg7  10.Txb2  Lxb2\n\n11.Kxh6 is het remise.\n\nMaar beslist niet:",
         "main.b": "Le1 5.f5 (5.Kf1 Lc3) 5…b2 6.f6\n       b1D 7.f7 Lg3+ en mat. Of hier\n\nDxf7. Ook niet:",
         "main.a2": "e1D, en zwart wint.\n    Na de tekstzet heeft zwart een\n      relatief makkelijke keuze:\n\nPogingen als",
         "main.c": "(4…Kg7   5.Tf3  b2  6.Tb3)",
-        "main.a3": "Het  ziet er  plots goed  uit voor\nzwart, want er dreigt niet alleen de\ndodelijke penning 3…Le5, maar te-\nvens dreigt nu de e-pion op te ruk-\nken. Daarom een onverwacht of-\nferaanbod van wit:",
-        "main.a4": "veert.\n\nOok verrassend. Want slaat zwart\nde  toren: 3…Lxb4?  dan  volgt\n\nmet remise,  al heeft zwart nog\nzoveel pionnen op de h-lijn.\nOok remise na 3…e2 4.Te4 e1D\n\nEerst dit schaak, want na 4.Tb1?\nLe1  5.Tb8+  Kg7  6.Tb7+  Kg6\n\nheeft wit een tempo minder dan in\nde hoofdvariant: het verschil tus-\nsen remise en verlies. De toren\nstaat hier namelijk op b5 in plaats\nvan op b1. Zwart besluit dan met:\n\n(Beter dan 9…b1D 10.Tb4+ Kg5,\nEn niet de toren slaan wegens pat.\n\nremise.) .\n\nKg7 10.Te4 f1D 11.Th4, met de\nwelgekende vestingbouw en remi-\nse.\n\nNa 8.Tc5?, en het fijne antwoord\n\nKe6 13.Tc6+ Ke5 14.Tc5+ Ke4\n\nvuur  ligt, Maar  niet na 8…f1D?\n\nriële achterstand heeft wit ook hier\neen oninneembare vesting bereikt.\nOok  is 8.g3? nu  te vroeg daar\nzwart dan wint door overmacht na\n\nzet 9.a).\n\nNu wel! Hans Böhm schrijft hier:\n“Er  zijn nog maar acht stukken\nover, een uitgangsstelling voor een\nminiatuur, en derhalve het terrein\nvan Vandecasteele. Inderdaad een\nhoogst opmerklijke situatie! “\nZwart kan nu promoveren, maar tot\nwat?",
-        "main.b4": "(10…Lxb4   pat.) 11.Tg4 Kh5\n\nremise. En ook:"
+        "main.a3": "5.Tb8, halen niets uit.\n\nHet  ziet er  plots goed  uit voor\nzwart, want er dreigt niet alleen de\ndodelijke penning 3…Le5, maar te-\nvens dreigt nu de e-pion op te ruk-\nken. Daarom een onverwacht of-\nferaanbod van wit:",
+        "main.b3": "5.Te7+ Kf8, noch",
+        "main.a4": "5.Te7+ Kf8 en zwart promo-\n\nveert.\n\nOok verrassend. Want slaat zwart\nde  toren: 3…Lxb4?  dan  volgt\n4.fxe3 en offert wit beide pionnen\nmet remise,  al heeft zwart nog\nzoveel pionnen op de h-lijn.\nOok remise na 3…e2 4.Te4 e1D\n5.Txe1 Lxe1. 6.f3, enzovoort..\n\nEerst dit schaak, want na 4.Tb1?\nLe1  5.Tb8+  Kg7  6.Tb7+  Kg6\n7.Tb6+ Kg5  8.Tb5+ Kg4  9.g3,\nheeft wit een tempo minder dan in\nde hoofdvariant: het verschil tus-\nsen remise en verlies. De toren\nstaat hier namelijk op b5 in plaats\nvan op b1. Zwart besluit dan met:\n9…f1T! en wint door overmacht.\n(Beter dan 9…b1D 10.Tb4+ Kg5,\nEn niet de toren slaan wegens pat.\n11.Tg4+  Kh5   12.Th4+  Kg6\n13.Tg4+  Kf5  14.Tf4+  Dxf4  en\n15.gxf4, remise. Of hier 10...Kf3\n11.Tf4+ Ke2 12.Txf1 Kxf1, ook met\nremise.) .\n\n5…Kf6?  6.Tb1  Le1  7.Tb3  f1D\n8.Tf3+ Dxf3 9.gxf3, remise.\n\n7...Le5+?  8.Txe5+ Kg6  9.Te6+\nKg7 10.Te4 f1D 11.Th4, met de\nwelgekende vestingbouw en remi-\nse.\n\nNa 8.Tc5?, en het fijne antwoord\n8…Ld2  verliest  wit: 9.Tc4+ Kg5\n10.Tc5+ Kg6 11.Tc6+ Kf7 12.Tc7+\nKe6 13.Tc6+ Ke5 14.Tc5+ Ke4\n15.Tc4+ Kd3, daar veld f4 onder\nvuur  ligt, Maar  niet na 8…f1D?\n9.Txc3 en ondanks de grote mate-\nriële achterstand heeft wit ook hier\neen oninneembare vesting bereikt.\nOok  is 8.g3? nu  te vroeg daar\nzwart dan wint door overmacht na\n8…f1T. Maar niet na 8…f1D?, zie\nzet 9.a).\n\nNu wel! Hans Böhm schrijft hier:\n“Er  zijn nog maar acht stukken\nover, een uitgangsstelling voor een\nminiatuur, en derhalve het terrein\nvan Vandecasteele. Inderdaad een\nhoogst opmerklijke situatie! “\nZwart kan nu promoveren, maar tot\nwat?",
+        "main.b4": "(10…Lxb4   pat.) 11.Tg4 Kh5\n\n14.Tf4+  Dxf4  15.gxf4,  met\n\nremise. En ook:"
       }
     }
   }

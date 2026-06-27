@@ -19,46 +19,182 @@
     {
       "id": "main.2",
       "ply": 2,
-      "san": "Kxa2",
-      "nl": "Kxa2",
-      "fenAfter": "8/p2P1p2/1r2p3/p7/P7/2K5/k7/B7 w - - 0 2",
+      "san": "Rd6",
+      "nl": "Td6",
+      "fenAfter": "8/p2P1p2/3rp3/p7/P7/k1K5/B7/B7 w - - 1 2",
       "variant": "main",
       "parent": "main.1"
-    },
-    {
-      "id": "main.3",
-      "ply": 3,
-      "san": "d8=Q",
-      "nl": "d8D",
-      "fenAfter": "3Q4/p4p2/1r2p3/p7/P7/2K5/k7/B7 b - - 0 2",
-      "variant": "main",
-      "parent": "main.2"
-    },
-    {
-      "id": "main.4",
-      "ply": 4,
-      "san": "Kxa1",
-      "nl": "Kxa1",
-      "fenAfter": "3Q4/p4p2/1r2p3/p7/P7/2K5/8/k7 w - - 0 3",
-      "variant": "main",
-      "parent": "main.3"
     },
     {
       "id": "main.b.5",
       "ply": 5,
       "san": "Kd4",
       "nl": "Kd4?",
-      "fenAfter": "3Q4/p4p2/1r2p3/p7/P2K4/8/8/k7 b - - 1 3",
+      "fenAfter": "8/p4p2/1r1Pp3/p7/P2K4/k7/B7/B7 b - - 1 1",
       "variant": "main.b",
+      "parent": null
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bb3",
+      "nl": "Lb3",
+      "fenAfter": "8/p2P1p2/3rp3/p7/P7/kBK5/8/B7 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rc6+",
+      "nl": "Tc6+",
+      "fenAfter": "8/p2P1p2/2r1p3/p7/P7/kBK5/8/B7 w - - 3 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/p2P1p2/2r1p3/p7/P1B5/k1K5/8/B7 b - - 4 3",
+      "variant": "main",
       "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rd6",
+      "nl": "Td6",
+      "fenAfter": "8/p2P1p2/3rp3/p7/P1B5/k1K5/8/B7 w - - 5 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bb5",
+      "nl": "Lb5",
+      "fenAfter": "8/p2P1p2/3rp3/pB6/P7/k1K5/8/B7 b - - 6 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/3P1p2/p2rp3/pB6/P7/k1K5/8/B7 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bb2",
+      "nl": "Lb2",
+      "fenAfter": "8/3P1p2/p2rp3/pB6/P7/k1K5/1B6/8 b - - 1 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/3P1p2/p2rp3/pB6/P7/2K5/kB6/8 w - - 2 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bc4+",
+      "nl": "Lc4+",
+      "fenAfter": "8/3P1p2/p2rp3/p7/P1B5/2K5/kB6/8 b - - 3 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb1",
+      "nl": "Kb1",
+      "fenAfter": "8/3P1p2/p2rp3/p7/P1B5/2K5/1B6/1k6 w - - 4 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bd3+",
+      "nl": "Ld3+",
+      "fenAfter": "8/3P1p2/p2rp3/p7/P7/2KB4/1B6/1k6 b - - 5 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka2",
+      "nl": "Ka2",
+      "fenAfter": "8/3P1p2/p2rp3/p7/P7/2KB4/kB6/8 w - - 6 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/3P1p2/p2rp3/p7/P7/3B4/kBK5/8 b - - 7 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Rc6+",
+      "nl": "Tc6+",
+      "fenAfter": "8/3P1p2/p1r1p3/p7/P7/3B4/kBK5/8 w - - 8 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bc4+",
+      "nl": "Lc4+",
+      "fenAfter": "8/3P1p2/p1r1p3/p7/P1B5/8/kBK5/8 b - - 9 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Rxc4+",
+      "nl": "Txc4+",
+      "fenAfter": "8/3P1p2/p3p3/p7/P1r5/8/kBK5/8 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/3P1p2/p3p3/p7/P1r5/2B5/k1K5/8 b - - 1 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1…         Td6\n\n2.Lb3\n\n2...          Tc6+        3.Lc4        Td6        4.Lb5\n\nDus nevenoplosbaar.\n\nEr dre!gt nu mat.\n\nDaarom:\n\nDe d-pion is voorlopig gedekt.\n\nDreigt de Loper te slaan.\n\nOpnieuw met matdreiging op c4.\n\nDe korste weg naar winst is nu dit\nofferaanbod:\n\nEn niet: 9.Lc3? Td6 10.Lxa5 Txd7,\nen er is geen winst.\n\nEn wit wint, daar nu de pion kan\npromoveren.\n\nEen ijverig stel witte Lopers!\nIn Schakend Nederland beaamde\nCor de Feijter: “In nr 1108 hand-\nhaaft wit voorlopig zijn d-pion door\nde matdreiging. Op het moment\ndat de pion verloren schijnt te zijn\nbrengt een magneetoffer, waar-\ndoor de toren zijn greep op de d-\npion verliest, wit de overwinning.”\n\nIn mijn boek ‘64 studies op 64\nvelden’ dacht ik oorspronkelijk dat\nde toren op a6 diende te staan,\nmaar het bleek achteraf niet zo.\nOok 1.Tb8 leek te winnen.\n\nMaar nu blijkt dat er dan twee cor-\nrecte oplossingen zijn, zoals aan-\ngetoond op de hier nevenstaande\nbladzijde: 1…Tb8 is nu de verlei-\nding.",
+      "after": "5.Lb5+ K~ 6.Lxd7) 5.Lxa6 Ka3\n    6.Lb5 a4 7.Lf6 Kb3 en 8.Lxd8.\n\nDus nevenoplosbaar.\n\nEr dre!gt nu mat.\n\nDaarom:\n\nDe d-pion is voorlopig gedekt.\n\nDreigt de Loper te slaan.\n\nOpnieuw met matdreiging op c4.\n\nDe korste weg naar winst is nu dit\nofferaanbod:\n\nEn niet: 9.Lc3? Td6 10.Lxa5 Txd7,\nen er is geen winst.\n\nEn wit wint, daar nu de pion kan\npromoveren.\n\nEen ijverig stel witte Lopers!\nIn Schakend Nederland beaamde\nCor de Feijter: “In nr 1108 hand-\nhaaft wit voorlopig zijn d-pion door\nde matdreiging. Op het moment\ndat de pion verloren schijnt te zijn\nbrengt een magneetoffer, waar-\ndoor de toren zijn greep op de d-\npion verliest, wit de overwinning.”\n\nIn mijn boek ‘64 studies op 64\nvelden’ dacht ik oorspronkelijk dat\nde toren op a6 diende te staan,\nmaar het bleek achteraf niet zo.\nOok 1.Tb8 leek te winnen.\n\nMaar nu blijkt dat er dan twee cor-\nrecte oplossingen zijn, zoals aan-\ngetoond op de hier nevenstaande\nbladzijde: 1…Tb8 is nu de verlei-\nding.",
       "beforeVariant": {
-        "main.a": "Zwart kan wel beide lopers slaan:\n\nwint wit door overmacht. Daarom:\n\nDé juiste zet in deze studie. Want\nna 1…Tb8?, de verlokkelijke zet,\nwint niet enkel 2.Lc4 Kxa4, en nu:"
+        "main.a": "Zwart kan wel beide lopers slaan:\n1...Kxa2 2.d8D Kxa1, maar dan\nwint wit door overmacht. Daarom:\n\nDé juiste zet in deze studie. Want\nna 1…Tb8?, de verlokkelijke zet,\nwint niet enkel 2.Lc4 Kxa4, en nu:",
+        "main.b": "9.Lxd8, en wit wint. Maar ook:"
       }
     }
   }

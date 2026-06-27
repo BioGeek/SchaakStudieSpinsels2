@@ -134,22 +134,130 @@
       "parent": "main.13"
     },
     {
-      "id": "B.33",
-      "ply": 33,
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qd8+",
+      "nl": "Dd8+",
+      "fenAfter": "3Q3k/6q1/6B1/8/5pKn/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Qg8",
+      "nl": "Dg8",
+      "fenAfter": "3Q2qk/8/6B1/8/5pKn/8/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qxh4+",
+      "nl": "Dxh4+",
+      "fenAfter": "6qk/8/6B1/8/5pKQ/8/8/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kg7",
+      "nl": "Kg7",
+      "fenAfter": "6q1/6k1/6B1/8/5pKQ/8/8/8 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qg5",
+      "nl": "Dg5",
+      "fenAfter": "6q1/6k1/6B1/6Q1/5pK1/8/8/8 b - - 2 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "f3",
+      "nl": "f3",
+      "fenAfter": "6q1/6k1/6B1/6Q1/6K1/5p2/8/8 w - - 0 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
       "san": "Kh3",
       "nl": "Kh3",
-      "fenAfter": "8/6k1/4Q1Bq/8/5p1n/7K/8/8 b - - 11 6",
+      "fenAfter": "6q1/6k1/6B1/6Q1/8/5p1K/8/8 b - - 1 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "A.22",
+      "ply": 22,
+      "san": "f2",
+      "nl": "f2",
+      "fenAfter": "6q1/6k1/6B1/6Q1/8/7K/5p2/8 w - - 0 12",
+      "variant": "A",
+      "parent": "main.21"
+    },
+    {
+      "id": "A.23",
+      "ply": 23,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "6q1/6k1/6B1/6Q1/8/8/5pK1/8 b - - 1 12",
+      "variant": "A",
+      "parent": "A.22"
+    },
+    {
+      "id": "A.24",
+      "ply": 24,
+      "san": "f1=Q+",
+      "nl": "f1D+",
+      "fenAfter": "6q1/6k1/6B1/6Q1/8/8/6K1/5q2 w - - 0 13",
+      "variant": "A",
+      "parent": "A.23"
+    },
+    {
+      "id": "A.25",
+      "ply": 25,
+      "san": "Kxf1",
+      "nl": "Kxf1",
+      "fenAfter": "6q1/6k1/6B1/6Q1/8/8/8/5K2 b - - 0 13",
+      "variant": "A",
+      "parent": "A.24"
+    },
+    {
+      "id": "A.a.26",
+      "ply": 26,
+      "san": "Qf8+",
+      "nl": "Df8+",
+      "fenAfter": "5q2/6k1/6B1/6Q1/8/8/8/5K2 w - - 1 14",
+      "variant": "A.a",
+      "parent": "A.25"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Qh8+",
+      "nl": "Dh8+",
+      "fenAfter": "7q/6k1/6B1/6Q1/8/5p1K/8/8 w - - 2 12",
       "variant": "B",
-      "parent": "main.10"
+      "parent": "main.21"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "15.Dd6! (en de dreiging 16.Kg5) 15…Kg7  16.Kg5 Da2  17.De7+\n\nEen lange studie van Th.C.L. Kok:\n\nKg4 Dd7 Lh5 /\n           Kh8 De5 a2 f4 h3 +\n\nin de Nieuwe Haagse Courant  uit\nhet jaar 1935(!), opgedragen aan\nDr. Tartakover, luidt:\n\nDg7  4.Dxh3 Kg8  5.Db3+ Kh8\n\nKg8 9.Dxa2+ Kh8 10.Da8+ Dg8\n\nEn nu: 15.Dh4+? Kg7 16.Dg5 f3\n\nKh6 25.Dg6+ en mat.\n\nIk vond evenwel een kortere ne-\nvenoplossing met de  stille  zet:\n\nKg8 18.Kh6 Dh2+ 19.Lh5 en nu\ngedwongen: 19...Dxh5+ 20.Kxh5\nmet winst.\n\nMet respect voor de lange oplos-\nsing van de Nederlander heb ik het\nessentiële er nu uitgehaald, ver-\nsterkt met een Friese volbloed.",
+      "after": "Een lange studie van Th.C.L. Kok:\n\nKg4 Dd7 Lh5 /\n           Kh8 De5 a2 f4 h3 +\n\nin de Nieuwe Haagse Courant  uit\nhet jaar 1935(!), opgedragen aan\nDr. Tartakover, luidt:\n\n1.Lg6 Dg7 2.Dc8+ Dg8 3.Dc3+\nDg7  4.Dxh3 Kg8  5.Db3+ Kh8\n6.Db8+ Dg8 7.Db2+ Dg7 8.Dh2+\nKg8 9.Dxa2+ Kh8 10.Da8+ Dg8\n11.Da1+  Dg7  12.Dh1+  Kg8\n13.Dd5+ Kh8 14.Dd8+ Dg8\n\nEn nu: 15.Dh4+? Kg7 16.Dg5 f3\n17.Kh3 f2 18.Kg2 f1D 19.Kxf1 Dh8\n20.Lh5+   Kf8   21.Dc5+   Kg7\n22.De5+ Kh7 23.Df5+ Kg7 24.Df7+\nKh6 25.Dg6+ en mat.\n\nIk vond evenwel een kortere ne-\nvenoplossing met de  stille  zet:\n15.Dd6! (en de dreiging 16.Kg5)\n15…Kg7  16.Kg5 Da2  17.De7+\nKg8 18.Kh6 Dh2+ 19.Lh5 en nu\ngedwongen: 19...Dxh5+ 20.Kxh5\nmet winst.\n\nMet respect voor de lange oplos-\nsing van de Nederlander heb ik het\nessentiële er nu uitgehaald, ver-\nsterkt met een Friese volbloed.",
       "beforeVariant": {
-        "A": "Nog de koning noch de dame heb-\nben een goede zet.",
-        "A.a": "Een mooie totempaal.\n\nEen nieuwe zwarte dame, want na\nook hier 12…Da8+ volgt 13.Le4+\nKf7 en valt zowel de oude als de\nnieuwe dame, na 14.Lxa8.",
+        "A": "2...Dg7? 3.Dd8+ (Zie zet 8.)\n\n5…Kh8?  6.Df6+  Dg7  (6…Kg8\n7.Lf7+ Kh7 8.Lg8+ Kxg8 9.Dxh6)\n7.Dd8+ Dg8 8.Dxh4+ (Zie zet 9.)\n\n7...Kg8? 8.Lf7+ Kh7 9.Lg8+ Kxg8\n10.Dxh6, en wint.\n\nNog de koning noch de dame heb-\nben een goede zet.",
+        "A.a": "11…Dc8+? 13.Lf4+ en 14.Lxc8.\n\nEen mooie totempaal.\n\nEen nieuwe zwarte dame, want na\nook hier 12…Da8+ volgt 13.Le4+\nKf7 en valt zowel de oude als de\nnieuwe dame, na 14.Lxa8.",
         "A.b": "en eindelijk mat.",
         "B": "Ook hier mat."
       }

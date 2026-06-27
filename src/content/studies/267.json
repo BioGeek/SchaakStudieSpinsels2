@@ -26,19 +26,208 @@
       "parent": "main.1"
     },
     {
-      "id": "main.11",
-      "ply": 11,
-      "san": "cxb4",
-      "nl": "cxb4",
-      "fenAfter": "4R3/5kBK/8/4p3/1P6/nP2P3/p7/8 b - - 0 2",
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rf8+",
+      "nl": "Tf8+",
+      "fenAfter": "5R2/5kBK/8/4p3/1p6/nPP1P3/p7/8 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "5R2/4k1BK/8/4p3/1p6/nPP1P3/p7/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rf1",
+      "nl": "Tf1",
+      "fenAfter": "8/4k1BK/8/4p3/1p6/nPP1P3/p7/5R2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nb1",
+      "nl": "Pb1",
+      "fenAfter": "8/4k1BK/8/4p3/1p6/1PP1P3/p7/1n3R2 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rf5",
+      "nl": "Tf5",
+      "fenAfter": "8/4k1BK/8/4pR2/1p6/1PP1P3/p7/1n6 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "8/4k1BK/8/4pR2/1p6/1PP1P3/8/qn6 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rxe5+",
+      "nl": "Txe5+",
+      "fenAfter": "8/4k1BK/8/4R3/1p6/1PP1P3/8/qn6 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/5kBK/8/4R3/1p6/1PP1P3/8/qn6 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rf5+",
+      "nl": "Tf5+",
+      "fenAfter": "8/5kBK/8/5R2/1p6/1PP1P3/8/qn6 b - - 2 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/6BK/4k3/5R2/1p6/1PP1P3/8/qn6 w - - 3 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Re5+",
+      "nl": "Te5+",
+      "fenAfter": "8/6BK/4k3/4R3/1p6/1PP1P3/8/qn6 b - - 4 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/6BK/3k4/4R3/1p6/1PP1P3/8/qn6 w - - 5 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rd5",
+      "nl": "Td5",
+      "fenAfter": "8/6BK/3k4/3R4/1p6/1PP1P3/8/qn6 b - - 6 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "8/6BK/2k5/3R4/1p6/1PP1P3/8/qn6 w - - 7 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rc5+",
+      "nl": "Tc5+",
+      "fenAfter": "8/6BK/2k5/2R5/1p6/1PP1P3/8/qn6 b - - 8 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/6BK/1k6/2R5/1p6/1PP1P3/8/qn6 w - - 9 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Rb5+",
+      "nl": "Tb5+",
+      "fenAfter": "8/6BK/1k6/1R6/1p6/1PP1P3/8/qn6 b - - 10 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "8/6BK/k7/1R6/1p6/1PP1P3/8/qn6 w - - 11 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "cxb4",
+      "nl": "cxb4",
+      "fenAfter": "8/6BK/k7/1R6/1P6/1P2P3/8/qn6 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Qxg7+",
+      "nl": "Dxg7+",
+      "fenAfter": "8/6qK/k7/1R6/1P6/1P2P3/8/1n6 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Kxg7",
+      "nl": "Kxg7",
+      "fenAfter": "8/6K1/k7/1R6/1P6/1P2P3/8/1n6 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kxb5",
+      "nl": "Kxb5",
+      "fenAfter": "8/6K1/8/1k6/1P6/1P2P3/8/1n6 w - - 0 13",
+      "variant": "main",
+      "parent": "main.23"
     }
   ],
   "prose": {
     "nl": {
       "before": "Er dreigt 1...a1D.",
-      "after": "2...         Ke7         3.Tf1        Pb1\n\n5.Lxa3.\n\n4.Tf5        a1D\n\n5.Txe5+      Kf7        6.Tf5+       Ke6\n\n2.Ta5 La3 3.Lg7 a1D 4.Te5+ Kf7 5.Tf5+ Ke6 6.Te5+ Kd6 7.Td5+\n\nnu  5...bxc3  6.Lxc3  of  5...Pb1\n\ndeze dame komt in het spel.\n\nNa  3...bxc3?  volgt  4.Lf8+  K~\n\nNa de tekstzet sluit het paard hier\nnu de eerste  rij af voor zijn toe-\nkomstige dame.\n\nNu of nooit, hoopt zwart.\n\nandere koningzetten is het eeuwig\nschaak. Eindelijk veilig hoopt zwart\nwant na 11.Ta5+? volgt 11...Dxa5.,\nmet winst.\nEn dan komt de pointe:\n\nen de zwarte dame is gevangen.\nBijvoorbeeld11...Da2?, of11..Da3?\n\nMaar het is dus remise.\n\nIk inspireerde mij voor deze stu-die\nop een werk van A.O. Herbst-man\nin Shackhmaty v SSSR (1953), dat\neen 2de prijs won:\n\nKh7 Tb6 Lh6 c2 c3 /\n                Kf5 Lb2 a2 b4 =\n\nMet de  oplossing;  1.Tb5+ Ke6\n\nKc6  8.Tc5+  Kb6  9.Tb5+  Ka6\n\nik door een paard.",
+      "after": "1...Kf5? of 1...Kg5? 2.Txe5+ Kg4\n3.Te4+ Kf3 4.Tf4+ Kxe3 5.Tf1 en\nnu  5...bxc3  6.Lxc3  of  5...Pb1\n6.cxb4, beide met winst voor wit.\n\n2.Txe5?  is te vroeg: 2...a1D en\ndeze dame komt in het spel.\n\nNa  3...bxc3?  volgt  4.Lf8+  K~\n5.Lxa3.\nNa de tekstzet sluit het paard hier\nnu de eerste  rij af voor zijn toe-\nkomstige dame.\n\nNu of nooit, hoopt zwart.\n\n8...Kxd5? 9.c4+ en 10.Lxa1.\n\n9...Kxc5? 10.cxb4+ en 11.Lxa1.\n\n10...Kxb5? 10.c4+ en 11.Lxa1. Na\nandere koningzetten is het eeuwig\nschaak. Eindelijk veilig hoopt zwart\nwant na 11.Ta5+? volgt 11...Dxa5.,\nmet winst.\nEn dan komt de pointe:\n\nen de zwarte dame is gevangen.\nBijvoorbeeld11...Da2?, of11..Da3?\n12.Ta5+ Dxa5 13.bxa5.\n\nMaar het is dus remise.\n\nIk inspireerde mij voor deze stu-die\nop een werk van A.O. Herbst-man\nin Shackhmaty v SSSR (1953), dat\neen 2de prijs won:\n\nKh7 Tb6 Lh6 c2 c3 /\n                Kf5 Lb2 a2 b4 =\n\nMet de  oplossing;  1.Tb5+ Ke6\n2.Ta5 La3 3.Lg7 a1D 4.Te5+ Kf7\n5.Tf5+ Ke6 6.Te5+ Kd6 7.Td5+\nKc6  8.Tc5+  Kb6  9.Tb5+  Ka6\n10.Ta5+  Kxa5  11.cxb4  Kxb4\n12.Lxa1, remise. De loper verving\nik door een paard.",
       "beforeVariant": {}
     }
   }

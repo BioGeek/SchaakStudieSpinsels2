@@ -118,26 +118,71 @@
     {
       "id": "main.13",
       "ply": 13,
-      "san": "Bd7",
-      "nl": "Ld7",
-      "fenAfter": "8/2KB4/k7/8/8/1q6/5Q2/8 b - - 13 7",
+      "san": "Qf1+",
+      "nl": "Df1+",
+      "fenAfter": "8/2K5/k1B5/8/8/1q6/8/5Q2 b - - 13 7",
       "variant": "main",
       "parent": "main.12"
     },
     {
       "id": "main.14",
       "ply": 14,
-      "san": "Ka5+",
-      "nl": "Ka5+",
-      "fenAfter": "8/2KB4/8/k7/8/1q6/5Q2/8 w - - 14 8",
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/2K5/2B5/k7/8/1q6/8/5Q2 w - - 14 8",
       "variant": "main",
       "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Qe1+",
+      "nl": "De1+",
+      "fenAfter": "8/2K5/2B5/k7/8/1q6/8/4Q3 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Qb4",
+      "nl": "Db4",
+      "fenAfter": "8/2K5/2B5/k7/1q6/8/8/4Q3 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qa1+",
+      "nl": "Da1+",
+      "fenAfter": "8/2K5/2B5/k7/1q6/8/8/Q7 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Qa4",
+      "nl": "Da4",
+      "fenAfter": "8/2K5/2B5/k7/q7/8/8/Q7 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Qxa4+",
+      "nl": "Dxa4+",
+      "fenAfter": "8/2K5/2B5/k7/Q7/8/8/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "Een  gedurfde  zet, maar  slaat\nzwart  dit offeraanbod dan volgt\nmat: 1…Dxb5 2.Da2+ Da6 3.Df2+\nKa8 4.Df8+ Ka7 5.Db8+.\n\nEen stille zet.\n\nWant na bijvoorbeeld 6…Dh7+?\n\nEn mat.",
+      "after": "Een  gedurfde  zet, maar  slaat\nzwart  dit offeraanbod dan volgt\nmat: 1…Dxb5 2.Da2+ Da6 3.Df2+\nKa8 4.Df8+ Ka7 5.Db8+.\n\nEen stille zet.\n\nWant na bijvoorbeeld 6…Dh7+?\n7.Ld7 Ka5+ is het mat.\n\nEn mat.",
       "beforeVariant": {}
     }
   }

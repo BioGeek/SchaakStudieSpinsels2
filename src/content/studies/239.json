@@ -11,7 +11,7 @@
       "id": "main.a.1",
       "ply": 1,
       "san": "Kc7",
-      "nl": "Kc7",
+      "nl": "Kc7?",
       "fenAfter": "4B3/2KPP2k/8/2n5/8/3r4/8/2r5 b - - 1 1",
       "variant": "main.a",
       "parent": null
@@ -29,7 +29,7 @@
       "id": "main.b.1",
       "ply": 1,
       "san": "Bf7",
-      "nl": "Lf7",
+      "nl": "Lf7?",
       "fenAfter": "3K4/3PPB1k/8/2n5/8/3r4/8/2r5 b - - 1 1",
       "variant": "main.b",
       "parent": null
@@ -305,24 +305,87 @@
       "parent": "main.12"
     },
     {
-      "id": "main.23",
-      "ply": 23,
-      "san": "Rxe8",
-      "nl": "Txe8",
-      "fenAfter": "3Nr3/3KPnk1/8/8/8/3B4/8/8 w - - 3 8",
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "3N3r/3KP1k1/8/4n3/8/3B4/8/8 w - - 3 8",
       "variant": "main",
       "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "3N3r/4P1k1/4K3/4n3/8/3B4/8/8 b - - 4 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Nxd3",
+      "nl": "Pxd3",
+      "fenAfter": "3N3r/4P1k1/4K3/8/8/3n4/8/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nb7",
+      "nl": "Pb7",
+      "fenAfter": "7r/1N2P1k1/4K3/8/8/3n4/8/8 b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "7r/1N2P1k1/4K3/8/5n2/8/8/8 w - - 2 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "7r/1N1KP1k1/8/8/5n2/8/8/8 b - - 3 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "7r/1N1KP1k1/8/3n4/8/8/8/8 w - - 4 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "e8=N+",
+      "nl": "e8P+",
+      "fenAfter": "4N2r/1N1K2k1/8/3n4/8/8/8/8 b - - 0 11",
+      "variant": "main",
+      "parent": "main.20"
     }
   ],
   "prose": {
     "nl": {
       "before": "Twee witte pionnen staant te po-\npelen om te promoveren.",
-      "after": "7.Kd7       Pe5+        8.Ke6\n\n11.e8P+\n\nmet  matdreiging. Want  6.d8D?\nfaalt inderdaad op 6…Pe5 7.Lh7\nTxh7 8.Dd5 Th8+ 9.Dg8+ Txg8+\nen mat. Daarom:\n\nEen eerste minorpromotie.\n\nBeter dan bijvoorbeeld: 6…Pd6+?\n\nwinst voor wit.\n\nHier niet: 8.Kd6? Pxd3, en zwart\nwint volgens Nalimov EGTB.\n\nDe énige remisezet.\nEn niet goed is 9.Kd7? Pc5+ met\nbijvoorbeeld: 10.Kd6 Pe4+ 11.Ke6\nPf6 12.Pf7 Ta8 13.Pd6 Kg6 14.Pc4\nTa6+  15.Ke5 Ta2  16.Pe3 Ta4\n\nmaar:\n\nWant op  zijn beurt  faalt hier de\nafwachtende zet 9…Tg8, op  bij-\nvoorbeeld: 10.Pd6 Pc5+ 11.Kd5\nPd7 en nu 12.e8P, met remise.\nNog een minorpromotie.\n\nDe pion kan nu  niet  ongestraft\npromoveren tot dame, toren of lo-\nper. Men  zie: 11.e8D? Pf6+ en\n\nwint zwart.\nGelukkig is er nog een remisezet,\nnamelijk een tweede paardpromo-\ntie:\n\nEn remise is een feit.\n      Het commentaar van prijsrechter\n      Yochanan Afek luidde: “The two\n      advanced pawns are underpromo-\n       ted to knights; yet the real hero of\n       the battle  is the acrobatic black\n        knight.”\n\nt      Persoonlijk vind ik dat een 2de Eer-\n        volle Vermelding eerder een wat\n     magere beloning is voor deze dub-\n       bele paardpromotie.\n\n        Maar...... “Goesting  is goesting.”\n       zei mijn wijze moeder zaliger…",
+      "after": "met  matdreiging. Want  6.d8D?\nfaalt inderdaad op 6…Pe5 7.Lh7\nTxh7 8.Dd5 Th8+ 9.Dg8+ Txg8+\nen mat. Daarom:\n\nEen eerste minorpromotie.\n\nBeter dan bijvoorbeeld: 6…Pd6+?\n7.Kd7 Td1 8.Kxd6, enzovoort met\nwinst voor wit.\n\nHier niet: 8.Kd6? Pxd3, en zwart\nwint volgens Nalimov EGTB.\n\nDe énige remisezet.\nEn niet goed is 9.Kd7? Pc5+ met\nbijvoorbeeld: 10.Kd6 Pe4+ 11.Ke6\nPf6 12.Pf7 Ta8 13.Pd6 Kg6 14.Pc4\nTa6+  15.Ke5 Ta2  16.Pe3 Ta4\n17.e8D Pxe8, en zwart wint. Dan\nmaar:\n\nWant op  zijn beurt  faalt hier de\nafwachtende zet 9…Tg8, op  bij-\nvoorbeeld: 10.Pd6 Pc5+ 11.Kd5\nPd7 en nu 12.e8P, met remise.\nNog een minorpromotie.\n\nDe pion kan nu  niet  ongestraft\npromoveren tot dame, toren of lo-\nper. Men  zie: 11.e8D? Pf6+ en\n12.Txe8. En na alle andere zetten\nwint zwart.\nGelukkig is er nog een remisezet,\nnamelijk een tweede paardpromo-\ntie:\n\nEn remise is een feit.\n      Het commentaar van prijsrechter\n      Yochanan Afek luidde: “The two\n      advanced pawns are underpromo-\n       ted to knights; yet the real hero of\n       the battle  is the acrobatic black\n        knight.”\n\nt      Persoonlijk vind ik dat een 2de Eer-\n        volle Vermelding eerder een wat\n     magere beloning is voor deze dub-\n       bele paardpromotie.\n\n        Maar...... “Goesting  is goesting.”\n       zei mijn wijze moeder zaliger…",
       "beforeVariant": {
         "main.a2": "Maar wit biedt eerst zijn loper aan:",
         "main.b2": "dame  houdt  remise  door\n                                                                  f   eeuwig schaak  te geven  of\n    door een toren te veroveren.\n    Bijvoorbeeld: 2…Kg7 3.De5+\n   Kg6 4.De8+ Kg5 5.Ke5+ Kg4\n\nw    14.Ke7, en het is zover.",
         "main.a3": "achteloos: 2…Kg7 met: 3.Kc7!\n   (maar niet 3.e8D? Pb7+ 4.Ke7\n   Te1+ 5.Le4 Txe4+ en mat.)\n\nTxe8 6.Kxe8, remise.",
-        "main.b3": "reeds zagen.",
+        "main.b3": "4.Le4 Txe4+ en mat, zoals we\n\nreeds zagen.",
         "main.a4": "(Pb7+) 5.Ke8 Th8+ en mat. Of\n    hier 4.d8D Th8+ en ook mat.",
         "main.b4": "Th8+ 5.Kd7 Txd8+ 6.exd8D\n    Pxd8, met remise."
       }

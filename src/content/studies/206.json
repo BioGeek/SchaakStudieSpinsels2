@@ -44,38 +44,191 @@
       "parent": "main.3"
     },
     {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "N7/2N5/8/k7/1b6/8/1K6/n5B1 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Nb3",
+      "nl": "Pb3",
+      "fenAfter": "N7/2N5/8/k7/1b6/1n6/1K6/6B1 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kxb3",
+      "nl": "Kxb3",
+      "fenAfter": "N7/2N5/8/k7/1b6/1K6/8/6B1 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bc5",
+      "nl": "Lc5",
+      "fenAfter": "N7/2N5/8/k1b5/8/1K6/8/6B1 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bh2",
+      "nl": "Lh2",
+      "fenAfter": "N7/2N5/8/k1b5/8/1K6/7B/8 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Bd6",
+      "nl": "Ld6",
+      "fenAfter": "N7/2N5/3b4/k7/8/1K6/7B/8 w - - 3 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/2N5/1N1b4/k7/8/1K6/7B/8 b - - 4 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
       "id": "A.a.12",
       "ply": 12,
       "san": "Bxh2",
       "nl": "Lxh2",
-      "fenAfter": "N7/8/N7/k7/8/pK6/p6B/4b3 b - - 1 1",
+      "fenAfter": "8/2N5/1N6/k7/8/1K6/7b/8 w - - 0 7",
       "variant": "A.a",
-      "parent": null
+      "parent": "A.11"
+    },
+    {
+      "id": "A.b.12",
+      "ply": 12,
+      "san": "Kxb6",
+      "nl": "Kxb6",
+      "fenAfter": "8/2N5/1k1b4/8/8/1K6/7B/8 w - - 0 7",
+      "variant": "A.b",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.c.12",
+      "ply": 12,
+      "san": "Bxc7",
+      "nl": "Lxc7",
+      "fenAfter": "8/2b5/1N6/k7/8/1K6/7B/8 w - - 0 7",
+      "variant": "A.c",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Bxc7",
+      "nl": "Lxc7",
+      "fenAfter": "8/2b5/1N6/k7/8/1K6/7B/8 w - - 0 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Bg1",
+      "nl": "Lg1",
+      "fenAfter": "N7/2N5/8/k7/8/1K6/7B/6b1 w - - 3 6",
+      "variant": "B",
+      "parent": "main.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Bf4",
+      "nl": "Lf4",
+      "fenAfter": "N7/2N5/8/k7/5B2/1K6/8/6b1 b - - 4 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Be3",
+      "nl": "Le3",
+      "fenAfter": "N7/2N5/8/k7/5B2/1K2b3/8/8 w - - 5 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/2N5/1N6/k7/5B2/1K2b3/8/8 b - - 6 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.a.14",
+      "ply": 14,
+      "san": "Bxf4",
+      "nl": "Lxf4",
+      "fenAfter": "8/2N5/1N6/k7/5b2/1K6/8/8 w - - 0 8",
+      "variant": "B.a",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.b.14",
+      "ply": 14,
+      "san": "Kxb6",
+      "nl": "Kxb6",
+      "fenAfter": "8/2N5/1k6/8/5B2/1K2b3/8/8 w - - 0 8",
+      "variant": "B.b",
+      "parent": "B.13"
     },
     {
       "id": "B.c.14",
       "ply": 14,
       "san": "Bxb6",
       "nl": "Lxb6",
-      "fenAfter": "N7/8/NB6/k7/8/pK6/p7/4b3 b - - 1 1",
+      "fenAfter": "8/2N5/1b6/k7/5B2/1K6/8/8 w - - 0 8",
       "variant": "B.c",
-      "parent": null
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Bd2+",
+      "nl": "Ld2+",
+      "fenAfter": "8/2N5/1N6/k7/5B2/1K6/3b4/8 w - - 7 8",
+      "variant": "B",
+      "parent": "B.13"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "En a), b) of c).\n    En ook hier wint wit.\n\n    Maar Nr - 206 - is de zuiverste.\n\n     ‘Driemaal is scheepsrecht’.",
+      "after": "1.P6c7       Lb4+        2.Kb2       Pb3\n\n3.Kxb3       Lc5        4.Lh2\n\n5.Pb6\n\n5.Lf4        Le3          6…Pb6\n\n1.P6c7       a3            2.Kxb3      a1P+            3.Kxa3       Lb4+      3...Pc2+ 4.Kb2 Pb4 5.Kb3 Pc6\n\n4.Kb2       Pb3            5.Kxb3       Lc5             6.Lh2,\n\n7.Lf4        Le3            8.Pb6\n\n7.Pb6\n\nEn a), b) of c).\n    En ook hier wint wit.\n\n    Maar Nr - 206 - is de zuiverste.\n\n     ‘Driemaal is scheepsrecht’.",
       "beforeVariant": {
-        "A": "Er dreigt mat op veld b6           A\n\nZwart heeft twee mogelijkheden:",
+        "A": "Er dreigt mat op veld b6           A\n\n2…Pc2+? 3.Kb2 Pb4 4.Kb3 Pd6\n5.Pxd5, en zwart verliest\n\nZwart heeft twee mogelijkheden:",
         "A.b": "En mat.",
         "B.b": "En mat.",
-        "B.a2": "En mat.\n\nDeze ‘bijna-miniatuur’ is niet enkel\neen correctie van de beroemde\nstudie  uit  1930,  verschenen  in\nVechernyaya, van de componist\nAbram Gurvich. Na 84 jaar wordt\nze nu ook nog eens verrijkt met\neen tweede variant. Ik heb er na-\nmelijk een extra zwart pionnetje\naan toegevoegd op veld a3.\nWant er is immers een nevenop-\nlossing voor het oorspronkelijk ju-\nweeltje van de begaafde Rus:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Ld2 a2+\n\nMaar hier wint ook de zet 3.Pb6:",
-        "B.a3": "Vriend Roger Missaen vond deze\nverbetering:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Le1 a2+\n\nLf2 4.Lh2 Lg3 5.Pb6, met:",
+        "B.a2": "En mat.\n\nDeze ‘bijna-miniatuur’ is niet enkel\neen correctie van de beroemde\nstudie  uit  1930,  verschenen  in\nVechernyaya, van de componist\nAbram Gurvich. Na 84 jaar wordt\nze nu ook nog eens verrijkt met\neen tweede variant. Ik heb er na-\nmelijk een extra zwart pionnetje\naan toegevoegd op veld a3.\nWant er is immers een nevenop-\nlossing voor het oorspronkelijk ju-\nweeltje van de begaafde Rus:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Ld2 a2+\n\n1.P6c7 a1P 2.Kb2 Pb3 3.Kxb3 Le3\n4.Lh2 Lg1 5.Lf4 Le3 6.Pb6 Lxb6\n7.Ld2+ en mat.\n\nMaar hier wint ook de zet 3.Pb6:",
+        "B.a3": "Vriend Roger Missaen vond deze\nverbetering:\n\nKb3 Lg1 Pa6 Pa8 / Ka5 Le1 a2+\n\n1.P6c7 a1P+ 2.Kb2 Pb3 3.Kxb3\nLf2 4.Lh2 Lg3 5.Pb6, met:",
         "B.a4": "Maar ook hier  is er een tweede\noplossing::  3.Ka3 Lb4+  4.Kxb3\nLc5+ 5.Lh2 met:\nA. 5…Ld6 6.Pb6, en a), b) en c).\nB. 5…Lg1 6.Lf4 Le3 7.Pb6 en",
-        "B.a5": "Dus ook hier nevenoplosbaar.\n\nIn 2010 verbeterde  ik dan deze\nuitzonderlijk mooie studie voor het\neerst, aldus:\n\nKa3 Lg1 Pa6 Pa8 /\n              Ka5 Le1 Pa1 +\n\nbijvoorbeeld 4.Le3. Maar niet met",
+        "B.a5": "Dus ook hier nevenoplosbaar.\n\nIn 2010 verbeterde  ik dan deze\nuitzonderlijk mooie studie voor het\neerst, aldus:\n\nKa3 Lg1 Pa6 Pa8 /\n              Ka5 Le1 Pa1 +\n\n2…Lc5 3.Lxc5 Pb3, en wint met\nbijvoorbeeld 4.Le3. Maar niet met\n4.Kxb3 pat.\n\n4.Lxc5+? geeft pat. En nu:",
         "B.b3": "En a), b) of c).",
-        "B.a6": "met a), b) of c).\n    Nu wel correct., maar hier zonder\n    de minorpromotie.\n\n      Bij een tweede poging  in 2014\n     slaagde ik er in de paardpromotie\n     te behouden, door toevoeging van\n    twee extra pionnen:\n\n    Kc4 Lg1 Pa6 Pa8 /\n              Ka5 Le1 a4 a2 b3 +",
+        "B.a6": "met a), b) of c).\n    Nu wel correct., maar hier zonder\n    de minorpromotie.\n\n      Bij een tweede poging  in 2014\n     slaagde ik er in de paardpromotie\n     te behouden, door toevoeging van\n    twee extra pionnen:\n\n    Kc4 Lg1 Pa6 Pa8 /\n              Ka5 Le1 a4 a2 b3 +\n\n6.Lb6+ en mat.",
         "B.b4": "En a), b) of c)."
       }
     }

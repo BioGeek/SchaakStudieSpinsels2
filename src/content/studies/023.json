@@ -123,15 +123,78 @@
       "fenAfter": "8/n2K4/2B5/N7/8/8/8/2k5 w - - 8 5",
       "variant": "main",
       "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ba4",
+      "nl": "La4",
+      "fenAfter": "8/n2K4/8/N7/B7/8/8/2k5 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "8/n2K4/8/N7/B7/8/1k6/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/n1K5/8/N7/B7/8/1k6/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ka3",
+      "nl": "Ka3",
+      "fenAfter": "8/n1K5/8/N7/B7/k7/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bd7",
+      "nl": "Ld7",
+      "fenAfter": "8/n1KB4/8/N7/8/k7/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/n1KB4/8/N7/1k6/8/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/n2B4/1K6/N7/1k6/8/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "1.Lc6,  1.Lc8,  1.Le8, 1.Pd2 en     1.La4)  1...Pg5  2.Kf4 Pf7 3.Pa5\n\n3.Kf6 Pd6 4.Lc6 Ke2 5.Ke6 Pc8     6.Kd7 Pa7, wint niet enkel 7.La4\n\nvoort.\n\nEn het paard wordt veroverd op\n    de volgende zet met winst voor\n     wit.\n\n     In de studie van Roger Missiaen\n    (1968):\n\n    Kf5 Ld7 Pb3 / Kf1 Ph7 e5 +\n\n     slaat de koning de pion: 1.Kxe5\n    (Maar ook winnend  zijn  1.Pc5,\n\n(korter is 3.Le6) 3...Pd6 4.Ke5 Pf7\n\nDus nevenoplosbaar.\n\n     In de eerste uitgave van dit boek\n    dacht ik dat dat mijn correctie kon\n    verlengd worden met twee zetten,\n    Namelijk: Kf5 Le6 Pa5 / Kf1 Pe8 +\n\n   Maar na 1.Ld7+ Pd6+ 2.Ke5 Pf7+\n\nKd2 8.Kc7 Kc3 9.Ld7 Kb4 10.Kb6\n    enzovoort, maar ook 7.Lb7 Kd2\n\nOok ik kan me vergissen.",
+      "after": "5.Kf6 Pd6 6.Lc6 Ke1 7.Ke6 Pc8     8.Kd7 Pa7 9.La4 Kd2 10.Kc7 Kc3\n\n3.Kf6 Pd6 4.Lc6 Ke2 5.Ke6 Pc8\n\n8.La6 Kc3 9.Kc7 Kb4 10.Kb6 Ka4     11.Pc4 Kb4 12.Kxa7..\n\nvoort.\n\n4...Pb6+? 5.Kc7.\n\nEn het paard wordt veroverd op\n    de volgende zet met winst voor\n     wit.\n\n     In de studie van Roger Missiaen\n    (1968):\n\n    Kf5 Ld7 Pb3 / Kf1 Ph7 e5 +\n\n     slaat de koning de pion: 1.Kxe5\n    (Maar ook winnend  zijn  1.Pc5,\n\n1.Lc6,  1.Lc8,  1.Le8, 1.Pd2 en\n    1.La4)  1...Pg5  2.Kf4 Pf7 3.Pa5\n\n(korter is 3.Le6) 3...Pd6 4.Ke5 Pf7\n\n11.Ld7 Kb4 12.Kb6 en wint.\n\nDus nevenoplosbaar.\n\n     In de eerste uitgave van dit boek\n    dacht ik dat dat mijn correctie kon\n    verlengd worden met twee zetten,\n    Namelijk: Kf5 Le6 Pa5 / Kf1 Pe8 +\n\n   Maar na 1.Ld7+ Pd6+ 2.Ke5 Pf7+\n\n6.Kd7 Pa7, wint niet enkel 7.La4\n\nKd2 8.Kc7 Kc3 9.Ld7 Kb4 10.Kb6\n    enzovoort, maar ook 7.Lb7 Kd2\n\nOok ik kan me vergissen.",
       "beforeVariant": {
-        "main.a": "zet 2.)",
-        "main.b": "paard valt op de volgende zet.\n   Ook na   4...Pe7 5.Le6 K~"
+        "main.a": "2.Kf5? Ph6 3.Kg5 Pf7 4.Kf6 (Zie\nzet 2.)",
+        "main.b": "3...Pg8+ 4.Kg5 en nu ofwel\n    4...Kc2 5.Le6 Pe7 6.Kf6 en het\n\npaard valt op de volgende zet.\n   Ook na   4...Pe7 5.Le6 K~"
       }
     }
   }

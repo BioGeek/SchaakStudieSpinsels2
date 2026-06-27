@@ -10,108 +10,108 @@
     {
       "id": "main.1",
       "ply": 1,
-      "san": "f7",
-      "nl": "f7?",
-      "fenAfter": "2Kb4/5P2/3k4/r7/B7/2p5/1B6/8 b - - 0 1",
+      "san": "Ba3+",
+      "nl": "La3+",
+      "fenAfter": "2Kb4/8/3k1P2/r7/B7/B1p5/8/8 b - - 1 1",
       "variant": "main",
       "parent": null
     },
     {
       "id": "main.2",
       "ply": 2,
-      "san": "Be7",
-      "nl": "Le7",
-      "fenAfter": "2K5/4bP2/3k4/r7/B7/2p5/1B6/8 w - - 1 2",
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "2Kb4/8/4kP2/r7/B7/B1p5/8/8 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
     },
     {
       "id": "main.3",
       "ply": 3,
-      "san": "Ba3+",
-      "nl": "La3+",
-      "fenAfter": "2K5/4bP2/3k4/r7/B7/B1p5/8/8 b - - 2 2",
+      "san": "Bb3+",
+      "nl": "Lb3+",
+      "fenAfter": "2Kb4/8/4kP2/r7/8/BBp5/8/8 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
     },
     {
       "id": "main.4",
       "ply": 4,
-      "san": "Ke6",
-      "nl": "Ke6",
-      "fenAfter": "2K5/4bP2/4k3/r7/B7/B1p5/8/8 w - - 3 3",
+      "san": "Kxf6",
+      "nl": "Kxf6",
+      "fenAfter": "2Kb4/8/5k2/r7/8/BBp5/8/8 w - - 0 3",
       "variant": "main",
       "parent": "main.3"
     },
     {
       "id": "main.5",
       "ply": 5,
-      "san": "Bb3+",
-      "nl": "Lb3+",
-      "fenAfter": "2K5/4bP2/4k3/r7/8/BBp5/8/8 b - - 4 3",
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "2Kb4/8/5k2/r7/1B6/1Bp5/8/8 b - - 1 3",
       "variant": "main",
       "parent": "main.4"
     },
     {
       "id": "main.6",
       "ply": 6,
-      "san": "Kf6",
-      "nl": "Kf6",
-      "fenAfter": "2K5/4bP2/5k2/r7/8/BBp5/8/8 w - - 5 4",
+      "san": "Rb5",
+      "nl": "Tb5",
+      "fenAfter": "2Kb4/8/5k2/1r6/1B6/1Bp5/8/8 w - - 2 4",
       "variant": "main",
       "parent": "main.5"
     },
     {
       "id": "main.7",
       "ply": 7,
-      "san": "Bc1",
-      "nl": "Lc1",
-      "fenAfter": "2K5/4bP2/5k2/r7/8/1Bp5/8/2B5 b - - 6 4",
+      "san": "Bxc3+",
+      "nl": "Lxc3+",
+      "fenAfter": "2Kb4/8/5k2/1r6/8/1BB5/8/8 b - - 0 4",
       "variant": "main",
       "parent": "main.6"
     },
     {
       "id": "main.8",
       "ply": 8,
-      "san": "Rb5",
-      "nl": "Tb5",
-      "fenAfter": "2K5/4bP2/5k2/1r6/8/1Bp5/8/2B5 w - - 7 5",
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "2Kb4/4k3/8/1r6/8/1BB5/8/8 w - - 1 5",
       "variant": "main",
       "parent": "main.7"
     },
     {
       "id": "main.9",
       "ply": 9,
-      "san": "Ba4",
-      "nl": "La4",
-      "fenAfter": "2K5/4bP2/5k2/1r6/B7/2p5/8/2B5 b - - 8 5",
+      "san": "Bd2",
+      "nl": "Ld2",
+      "fenAfter": "2Kb4/4k3/8/1r6/8/1B6/3B4/8 b - - 2 5",
       "variant": "main",
       "parent": "main.8"
     },
     {
       "id": "main.10",
       "ply": 10,
-      "san": "Rb1",
-      "nl": "Tb1",
-      "fenAfter": "2K5/4bP2/5k2/8/B7/2p5/8/1rB5 w - - 9 6",
+      "san": "Rxb3",
+      "nl": "Txb3",
+      "fenAfter": "2Kb4/4k3/8/8/8/1r6/3B4/8 w - - 0 6",
       "variant": "main",
       "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
-      "san": "Be3",
-      "nl": "Le3",
-      "fenAfter": "2K5/4bP2/5k2/8/B7/2p1B3/8/1r6 b - - 10 6",
+      "san": "Bg5+",
+      "nl": "Lg5+",
+      "fenAfter": "2Kb4/4k3/8/6B1/8/1r6/8/8 b - - 1 6",
       "variant": "main",
       "parent": "main.10"
     },
     {
       "id": "main.12",
       "ply": 12,
-      "san": "Kxf7",
-      "nl": "Kxf7",
-      "fenAfter": "2K5/4bk2/8/8/B7/2p1B3/8/1r6 w - - 0 7",
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "2Kb4/8/3k4/6B1/8/1r6/8/8 w - - 2 7",
       "variant": "main",
       "parent": "main.11"
     },
@@ -120,15 +120,33 @@
       "ply": 13,
       "san": "Bf4",
       "nl": "Lf4",
-      "fenAfter": "2K5/4bk2/8/8/B4B2/2p5/8/1r6 b - - 1 7",
+      "fenAfter": "2Kb4/8/3k4/8/5B2/1r6/8/8 b - - 3 7",
       "variant": "main",
       "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ke7",
+      "nl": "Ke7",
+      "fenAfter": "2Kb4/4k3/8/8/5B2/1r6/8/8 w - - 4 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bg5+",
+      "nl": "Lg5+",
+      "fenAfter": "2Kb4/4k3/8/6B1/8/1r6/8/8 b - - 5 8",
+      "variant": "main",
+      "parent": "main.14"
     }
   ],
   "prose": {
     "nl": {
-      "before": "Twee  witte  lopers en een pion\nstaan aangevallen. En niet goed is",
-      "after": "1.La3+      Ke6        2.Lb3+       Kxf6        3.Lb4        Tb5 3…Ta8? 4.Kb7 c2 5.Lxc2, remise.        4.Lxc3+      Ke7\n\n5.Ld2 5.Le1?, met dezelfde bedoeling,\n\n5…         Txb3 5…Tc5+? 6.Kb7 7b5+ Kc8 haalt\n\n6.Lg5+      Kd6\n\n2.Kc8 2…Ta5? 3.Lb3+ Kxf6 4.Lb4\n\n7.Lg5+ Kd6 8.Lf4+ Ke7 9.Lg5+, re-\n\n3.Ld7+ Ke5 4.Ld6+ Ke4 5.Lxf5+\n\nen zwart wint door overmacht.\n\nNu houdt wit remise met de enige\njuiste zet:\n\nfaalt: 5…Txb3 6.Lh4+ Kd6 7.Lxd8\n(7.Kxd8? 8.Tb8+ en mat) 7…Kc6\n\nTxe7, en zwart wint.\n\nniets uit.\n\nEen verlokkelijke zet.\n\nEn niet: 7.Lxd8? zoals vermeldt.\n\nEn remise door zetherhaling.\n\nHet is mijn correctie van een 1ste\nPrijs in Szachie (1988) voor een\ngezamenlijk werk van twee russen:\nde grootmeesters David Gurgenid-\nze en Nikolai Kralin:\n\nKb7 La3 Lb3 f6 / Kd7 Tf5 Ld8 c3 =\n\nmet de  oplossing:  1.La4+ Ke6\n\nTb5  5.Lxc3+  Ke7  6.Ld2  Txb3\n\nmise. Fraai.\n\nMaar na 2...Lxf6! wint zwart met\n\nDxf5 6.Kd7 c2 7.La5 Ke5 8.Kc6\nKd4 9.Lb5 Kc3 10.Lc1 Kb3 11.Ld2\nLb2  12.Le3  Ka2  13.Ld2  Kb1\n\nc1D+ 20.Kd5 Dd1+  , enzovoort.\nOef. (Nalimov.)\n\n“Verbeelding  is  belangrijker dan\nkennis.” wist Albert Einstein.",
+      "before": "Twee  witte  lopers en een pion\nstaan aangevallen. En niet goed is\n1.f7? Le7 2.La3+ Ke6 3.Lb3+ Kf6\n4.Lc1 Tb5 5.La4 Tb1 6.Le3 Kxf7,\nen zwart wint door overmacht.",
+      "after": "3…Ta8? 4.Kb7 c2 5.Lxc2, remise.\n\nNu houdt wit remise met de enige\njuiste zet:\n\n5.Le1?, met dezelfde bedoeling,\nfaalt: 5…Txb3 6.Lh4+ Kd6 7.Lxd8\n(7.Kxd8? 8.Tb8+ en mat) 7…Kc6\n8.Lh4 Th3 9.Lf6 Tf3 10.Le7 Tg3\n11.Kb8 Tg8+ 12.Ka7 Tg7 13.Ka6\nTxe7, en zwart wint.\n\n5…Tc5+? 6.Kb7 7b5+ Kc8 haalt\nniets uit.\n\nEen verlokkelijke zet.\n\nEn niet: 7.Lxd8? zoals vermeldt.\n\nEn remise door zetherhaling.\n\nHet is mijn correctie van een 1ste\nPrijs in Szachie (1988) voor een\ngezamenlijk werk van twee russen:\nde grootmeesters David Gurgenid-\nze en Nikolai Kralin:\n\nKb7 La3 Lb3 f6 / Kd7 Tf5 Ld8 c3 =\n\nmet de  oplossing:  1.La4+ Ke6\n2.Kc8 2…Ta5? 3.Lb3+ Kxf6 4.Lb4\nTb5  5.Lxc3+  Ke7  6.Ld2  Txb3\n7.Lg5+ Kd6 8.Lf4+ Ke7 9.Lg5+, re-\nmise. Fraai.\n\nMaar na 2...Lxf6! wint zwart met\n3.Ld7+ Ke5 4.Ld6+ Ke4 5.Lxf5+\nDxf5 6.Kd7 c2 7.La5 Ke5 8.Kc6\nKd4 9.Lb5 Kc3 10.Lc1 Kb3 11.Ld2\nLb2  12.Le3  Ka2  13.Ld2  Kb1\n14..Kc4 Lc1 15.Lb4 Le3 16.La3 Lf4\n17.Kd4 Lc1 18.Lb4 Lb2+ 19.Kc4\nc1D+ 20.Kd5 Dd1+  , enzovoort.\nOef. (Nalimov.)\n\n“Verbeelding  is  belangrijker dan\nkennis.” wist Albert Einstein.",
       "beforeVariant": {}
     }
   }

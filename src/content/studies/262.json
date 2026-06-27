@@ -26,30 +26,165 @@
       "parent": "main.1"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bc1+",
+      "nl": "Lc1+",
+      "fenAfter": "8/8/2N5/N7/nn6/k2p4/8/2B1K3 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nb2",
+      "nl": "Pb2",
+      "fenAfter": "8/8/2N5/N7/1n6/k2p4/1n6/2B1K3 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "8/8/2N5/8/1nN5/k2p4/1n6/2B1K3 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb3",
+      "nl": "Kb3",
+      "fenAfter": "8/8/2N5/8/1nN5/1k1p4/1n6/2B1K3 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "N6a5+",
+      "nl": "P6a5+",
+      "fenAfter": "8/8/8/N7/1nN5/1k1p4/1n6/2B1K3 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc2",
+      "nl": "Kc2",
+      "fenAfter": "8/8/8/N7/1nN5/3p4/1nk5/2B1K3 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
       "id": "main.a.9",
       "ply": 9,
       "san": "Bd2",
       "nl": "Ld2?",
-      "fenAfter": "8/1N6/2N5/8/nn6/1k1p4/3B4/4K3 b - - 1 1",
+      "fenAfter": "8/8/8/N7/1nN5/3p4/1nkB4/4K3 b - - 9 5",
       "variant": "main.a",
-      "parent": null
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a.10",
+      "ply": 10,
+      "san": "Nxc4",
+      "nl": "Pxc4",
+      "fenAfter": "8/8/8/N7/1nn5/3p4/2kB4/4K3 w - - 0 6",
+      "variant": "main.a",
+      "parent": "main.a.9"
+    },
+    {
+      "id": "main.a.11",
+      "ply": 11,
+      "san": "Nxc4",
+      "nl": "Pxc4",
+      "fenAfter": "8/8/8/8/1nN5/3p4/2kB4/4K3 b - - 0 6",
+      "variant": "main.a",
+      "parent": "main.a.10"
+    },
+    {
+      "id": "main.a.12",
+      "ply": 12,
+      "san": "Nd5",
+      "nl": "Pd5",
+      "fenAfter": "8/8/8/3n4/2N5/3p4/2kB4/4K3 w - - 1 7",
+      "variant": "main.a",
+      "parent": "main.a.11"
+    },
+    {
+      "id": "main.b.9",
+      "ply": 9,
+      "san": "Bxb2",
+      "nl": "Lxb2?",
+      "fenAfter": "8/8/8/N7/1nN5/3p4/1Bk5/4K3 b - - 0 5",
+      "variant": "main.b",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.b.10",
+      "ply": 10,
+      "san": "d2+",
+      "nl": "d2+",
+      "fenAfter": "8/8/8/N7/1nN5/8/1Bkp4/4K3 w - - 0 6",
+      "variant": "main.b",
+      "parent": "main.b.9"
+    },
+    {
+      "id": "main.b.11",
+      "ply": 11,
+      "san": "Nxd2",
+      "nl": "Pxd2",
+      "fenAfter": "8/8/8/N7/1n6/8/1BkN4/4K3 b - - 0 6",
+      "variant": "main.b",
+      "parent": "main.b.10"
+    },
+    {
+      "id": "main.b.12",
+      "ply": 12,
+      "san": "Kxb2",
+      "nl": "Kxb2",
+      "fenAfter": "8/8/8/N7/1n6/8/1k1N4/4K3 w - - 0 7",
+      "variant": "main.b",
+      "parent": "main.b.11"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Na3+",
+      "nl": "Pa3+",
+      "fenAfter": "8/8/8/N7/1n6/N2p4/1nk5/2B1K3 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kxc1",
+      "nl": "Kxc1",
+      "fenAfter": "8/8/8/N7/1n6/N2p4/1n6/2k1K3 w - - 0 6",
+      "variant": "main",
+      "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
       "san": "Nb3+",
       "nl": "Pb3+",
-      "fenAfter": "8/8/2N5/8/nn6/kN1pB3/8/4K3 b - - 3 2",
+      "fenAfter": "8/8/8/8/1n6/NN1p4/1n6/2k1K3 b - - 1 6",
       "variant": "main",
-      "parent": "main.2"
+      "parent": "main.10"
     }
   ],
   "prose": {
     "nl": {
       "before": "Van de vier mogelijkheden, die de\npaarden hebben, om schaak  te\ngeven, is er slechts éen correct:",
-      "after": "Maar het wit paard kiest nu voor de\n     vierde maal het winnende schaak:\n\nZwart slaat gretig de loper, want na\n\nijskoud mat met de vijfde paard-\n      zet:\n\nDeze studie, die ik opstuurde naar\n     het Jubileumturnier Jan Rusinek-\n    50 van Eugeniusz Iwanow in Po-\n      len, bleef tot op heden, zonder ge-\n     volg.\n\nSt\ntudies\n\n                     Finis coronat opus\n              Het einde kroont het werk",
+      "after": "Maar het wit paard kiest nu voor de\n     vierde maal het winnende schaak:\n\nZwart slaat gretig de loper, want na\n\n5…Kc3?  6.Ld2+  Kd4,  volgt nu\n    7.Lxb4 met winst. Maar wit geeft\n\nijskoud mat met de vijfde paard-\n      zet:\n\nDeze studie, die ik opstuurde naar\n     het Jubileumturnier Jan Rusinek-\n    50 van Eugeniusz Iwanow in Po-\n      len, bleef tot op heden, zonder ge-\n     volg.\n\nSt\ntudies\n\n                     Finis coronat opus\n              Het einde kroont het werk",
       "beforeVariant": {
-        "main.a": "Weerom moet wit kiezen tussen de\nvier mogelijke schaakzetten  van\nde witte hengsten:\n\nDe zwarte koning valt de loper aan,\ndie niet weg kan wegens remise,\nbijvoorbeeld:"
+        "main.a": "1…Kc3? 2.Ld4+ Kc2 3.Pxb4+.\n\nWeerom moet wit kiezen tussen de\nvier mogelijke schaakzetten  van\nde witte hengsten:\n\nDe zwarte koning valt de loper aan,\ndie niet weg kan wegens remise,\nbijvoorbeeld:"
       }
     }
   }

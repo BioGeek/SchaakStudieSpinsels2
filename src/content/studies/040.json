@@ -42,6 +42,177 @@
       "fenAfter": "8/8/8/1r5k/3Q4/7b/8/2K5 w - - 4 3",
       "variant": "main",
       "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Qd3",
+      "nl": "Dd3",
+      "fenAfter": "8/8/8/1r5k/8/3Q3b/8/2K5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rc5+",
+      "nl": "Tc5+",
+      "fenAfter": "8/8/8/2r4k/8/3Q3b/8/2K5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kd2",
+      "nl": "Kd2",
+      "fenAfter": "8/8/8/2r4k/8/3Q3b/3K4/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Bf5",
+      "nl": "Lf5",
+      "fenAfter": "8/8/8/2r2b1k/8/3Q4/3K4/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Qe2+",
+      "nl": "De2+",
+      "fenAfter": "8/8/8/2r2b1k/8/8/3KQ3/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Bg4",
+      "nl": "Lg4",
+      "fenAfter": "8/8/8/2r4k/6b1/8/3KQ3/8 w - - 10 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Qe8+",
+      "nl": "De8+",
+      "fenAfter": "4Q3/8/8/2r4k/6b1/8/3K4/8 b - - 11 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "4Q3/8/8/2r5/6bk/8/3K4/8 w - - 12 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Qe7+",
+      "nl": "De7+",
+      "fenAfter": "8/4Q3/8/2r5/6bk/8/3K4/8 b - - 13 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Rg5",
+      "nl": "Tg5",
+      "fenAfter": "8/4Q3/8/6r1/6bk/8/3K4/8 w - - 14 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "8/4Q3/8/6r1/6bk/4K3/8/8 b - - 15 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "A.16",
+      "ply": 16,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/4Q3/8/6rk/6b1/4K3/8/8 w - - 16 9",
+      "variant": "A",
+      "parent": "A.15"
+    },
+    {
+      "id": "A.17",
+      "ply": 17,
+      "san": "Qh7+",
+      "nl": "Dh7+",
+      "fenAfter": "8/7Q/8/6rk/6b1/4K3/8/8 b - - 17 9",
+      "variant": "A",
+      "parent": "A.16"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/8/6k1/2r2b2/8/8/3KQ3/8 w - - 10 6",
+      "variant": "B",
+      "parent": "main.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Qe8+",
+      "nl": "De8+",
+      "fenAfter": "4Q3/8/6k1/2r2b2/8/8/3K4/8 b - - 11 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "4Q3/8/5k2/2r2b2/8/8/3K4/8 w - - 12 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Qf8+",
+      "nl": "Df8+",
+      "fenAfter": "5Q2/8/5k2/2r2b2/8/8/3K4/8 b - - 13 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "5Q2/8/8/2r1kb2/8/8/3K4/8 w - - 14 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Qxc5",
+      "nl": "Dxc5",
+      "fenAfter": "8/8/8/2Q1kb2/8/8/3K4/8 b - - 0 8",
+      "variant": "B",
+      "parent": "B.14"
     }
   ],
   "prose": {
@@ -49,7 +220,7 @@
       "before": "Dat een dame wint tegen een to-\nren én een loper is niet zo evi-\ndent.",
       "after": "En ook hier wint wit.",
       "beforeVariant": {
-        "A": "Wit valt zowel de toren als de lo-\nper aan.\n\nZwart valt op zijn beurt de dame\naan.",
+        "A": "2…Kg5? 3.Dd3 Tc5+ 4.Kd2 Lf5\n5.De3+ en 6.Dxc5.\n\nWit valt zowel de toren als de lo-\nper aan.\n\n4…Lc8? 5.Dd4 Tf5 6.Dh8+ K~\n7.Dxc8.\nZwart valt op zijn beurt de dame\naan.",
         "B": "De zwarte stukken klitten samen\n     zodat wit ze niet kan slaan, maar\n     na:\n\nmet de dreiging 9.Kf4, heeft de\n     zwarte koning geen bewegings-\n      vrijheid meer.\n\nen mat is het gevolg."
       }
     }

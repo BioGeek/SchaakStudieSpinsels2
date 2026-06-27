@@ -134,21 +134,129 @@
       "parent": "main.13"
     },
     {
-      "id": "main.17",
-      "ply": 17,
-      "san": "Re4",
-      "nl": "Te4",
-      "fenAfter": "7b/8/5k2/5P2/4R2K/8/4p3/3b4 b - - 2 8",
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "7b/8/5k2/5P2/8/4R1K1/4p3/3b4 b - - 2 8",
       "variant": "main",
       "parent": "main.14"
+    },
+    {
+      "id": "main.a.16",
+      "ply": 16,
+      "san": "Kxf5",
+      "nl": "Kxf5?",
+      "fenAfter": "7b/8/8/5k2/8/4R1K1/4p3/3b4 w - - 0 9",
+      "variant": "main.a",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.a.17",
+      "ply": 17,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "7b/8/8/5k2/8/4R3/4pK2/3b4 b - - 1 9",
+      "variant": "main.a",
+      "parent": "main.a.16"
+    },
+    {
+      "id": "main.a.18",
+      "ply": 18,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/8/5k2/3b4/4R3/4pK2/3b4 w - - 2 10",
+      "variant": "main.a",
+      "parent": "main.a.17"
+    },
+    {
+      "id": "main.a.19",
+      "ply": 19,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/5k2/3b4/4R3/4p3/3bK3 b - - 3 10",
+      "variant": "main.a",
+      "parent": "main.a.18"
+    },
+    {
+      "id": "main.b.16",
+      "ply": 16,
+      "san": "Kf7",
+      "nl": "Kf7?",
+      "fenAfter": "7b/5k2/8/5P2/8/4R1K1/4p3/3b4 w - - 3 9",
+      "variant": "main.b",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "7b/8/8/5Pk1/8/4R1K1/4p3/3b4 w - - 3 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "f6",
+      "nl": "f6",
+      "fenAfter": "7b/8/5P2/6k1/8/4R1K1/4p3/3b4 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bxf6",
+      "nl": "Lxf6",
+      "fenAfter": "8/8/5b2/6k1/8/4R1K1/4p3/3b4 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/5b2/6k1/8/4R3/4pK2/3b4 b - - 1 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/8/6k1/3b4/4R3/4pK2/3b4 w - - 2 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Ke1",
+      "nl": "Ke1",
+      "fenAfter": "8/8/8/6k1/3b4/4R3/4p3/3bK3 b - - 3 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Bxe3",
+      "nl": "Lxe3",
+      "fenAfter": "8/8/8/6k1/8/4b3/4p3/3bK3 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit tracht de diagonaal a1-h8 te\nsluiten. En zwart wil geen loper of-\nferen.",
-      "after": "8…         Kg5\n\n9.f6\n\nLc5 16.Te6 Lg1 17.Kg2 Lb6\n\nniet verder daar  zijn koning\n       geen hulp kan bieden.\n    Dan maar:\n\nMaar dan blokkeert wit de diago-\n     naal a1-h8 voor de loper met:\n\nEen noodzakelijk offer.\n\nNu wel gedwongen.\n\nVeld h4 is nu ontoegankelijk voor\n    de zwarte loper door  zelfinterfe-\n      rentie.\n\nEn het is pat.\n\n      Slaat de loper niet, dan is het re-\n    mise met 12.Txe2.",
+      "after": "Lc5 16.Te6 Lg1 17.Kg2 Lb6\n\n18.Kg3, enzovoort. Zwart komt\n\nniet verder daar  zijn koning\n       geen hulp kan bieden.\n    Dan maar:\n\nMaar dan blokkeert wit de diago-\n     naal a1-h8 voor de loper met:\n\nEen noodzakelijk offer.\n\nNu wel gedwongen.\n\nVeld h4 is nu ontoegankelijk voor\n    de zwarte loper door  zelfinterfe-\n      rentie.\n\nEn het is pat.\n\n      Slaat de loper niet, dan is het re-\n    mise met 12.Txe2.",
       "beforeVariant": {
-        "main.a": "Deze zet interfereert nu Lh8, zodat\nde aanval op de e-pion mogelijk\nwordt.\n\nNa 5.Tc1(2)? Kxf5 komt ook de\nandere loper in het spel.\n\nNiet 7.Txe2? Ld1 en 8...Lxe2.\n\nMet de dreiging 9.Kg2.\n    Een cruciaal moment voor zwart:\n       hij mag de pion niet slaan.\n    Want na:",
+        "main.a": "Deze zet interfereert nu Lh8, zodat\nde aanval op de e-pion mogelijk\nwordt.\n\nNa 5.Tc1(2)? Kxf5 komt ook de\nandere loper in het spel.\n\nNiet 7.Txe2? Ld1 en 8...Lxe2.\n\n7…Lc4?  8.Kg4 Lg7  9.Kf3 Lh6\n10.Txe2 met remise.\n\nMet de dreiging 9.Kg2.\n    Een cruciaal moment voor zwart:\n       hij mag de pion niet slaan.\n    Want na:",
         "main.b": "Lxe3, staat wit pat. En na:"
       }
     }

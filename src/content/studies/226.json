@@ -62,15 +62,6 @@
       "parent": "main.b.3"
     },
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Kg6",
-      "nl": "K~",
-      "fenAfter": "8/8/N3rBKp/6P1/7k/8/5n2/8 b - - 1 1",
-      "variant": "main",
-      "parent": null
-    },
-    {
       "id": "main.c.1",
       "ply": 1,
       "san": "Nc7",
@@ -80,21 +71,202 @@
       "parent": null
     },
     {
+      "id": "main.1",
+      "ply": 1,
+      "san": "g6+",
+      "nl": "g6+",
+      "fenAfter": "8/8/N3rBPp/5K2/7k/8/5n2/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/8/N3rBPp/5K1k/8/8/5n2/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "g7",
+      "nl": "g7",
+      "fenAfter": "8/6P1/N3rB1p/5K1k/8/8/5n2/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Re8",
+      "nl": "Te8",
+      "fenAfter": "4r3/6P1/N4B1p/5K1k/8/8/5n2/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nc7",
+      "nl": "Pc7",
+      "fenAfter": "4r3/2N3P1/5B1p/5K1k/8/8/5n2/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Rg8",
+      "nl": "Tg8",
+      "fenAfter": "6r1/2N3P1/5B1p/5K1k/8/8/5n2/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ne6",
+      "nl": "Pe6",
+      "fenAfter": "6r1/6P1/4NB1p/5K1k/8/8/5n2/8 b - - 4 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
       "id": "main.8",
       "ply": 8,
       "san": "Nh3",
       "nl": "Ph3",
-      "fenAfter": "8/8/N3rBKp/6P1/7k/7n/8/8 w - - 2 2",
+      "fenAfter": "6r1/6P1/4NB1p/5K1k/8/7n/8/8 w - - 5 5",
       "variant": "main",
-      "parent": "main.5"
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/2B4n/8/8 b - - 6 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "A.10",
+      "ply": 10,
+      "san": "Kh4",
+      "nl": "Kh4",
+      "fenAfter": "6r1/6P1/4N2p/5K2/7k/2B4n/8/8 w - - 7 6",
+      "variant": "A",
+      "parent": "main.9"
+    },
+    {
+      "id": "A.11",
+      "ply": 11,
+      "san": "Be1+",
+      "nl": "Le1+",
+      "fenAfter": "6r1/6P1/4N2p/5K2/7k/7n/8/4B3 b - - 8 6",
+      "variant": "A",
+      "parent": "A.10"
+    },
+    {
+      "id": "A.12",
+      "ply": 12,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/7n/8/4B3 w - - 9 7",
+      "variant": "A",
+      "parent": "A.11"
+    },
+    {
+      "id": "A.13",
+      "ply": 13,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/6Bn/8/8 b - - 10 7",
+      "variant": "A",
+      "parent": "A.12"
+    },
+    {
+      "id": "A.14",
+      "ply": 14,
+      "san": "Rxg7",
+      "nl": "Txg7",
+      "fenAfter": "8/6r1/4N2p/5K1k/8/6Bn/8/8 w - - 0 8",
+      "variant": "A",
+      "parent": "A.13"
+    },
+    {
+      "id": "A.15",
+      "ply": 15,
+      "san": "Nf8",
+      "nl": "Pf8",
+      "fenAfter": "5N2/6r1/7p/5K1k/8/6Bn/8/8 b - - 1 8",
+      "variant": "A",
+      "parent": "A.14"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Nf2",
+      "nl": "Pf2",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/2B5/5n2/8 w - - 7 6",
+      "variant": "B",
+      "parent": "main.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Be1",
+      "nl": "Le1",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/8/5n2/4B3 b - - 8 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Nd3",
+      "nl": "Pd3",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/3n4/8/4B3 w - - 9 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Bg3",
+      "nl": "Lg3",
+      "fenAfter": "6r1/6P1/4N2p/5K1k/8/3n2B1/8/8 b - - 10 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Nc5",
+      "nl": "Pc5",
+      "fenAfter": "6r1/6P1/4N2p/2n2K1k/8/6B1/8/8 w - - 11 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "6r1/6P1/7p/2n2K1k/5N2/6B1/8/8 b - - 12 8",
+      "variant": "B",
+      "parent": "B.14"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit kan hier niet ongestraft de to-\nren of de pion slaan:",
-      "after": "1.g6+       Kh5\n\n2.Kxf6 en  bijvoorbeeld 2…Pg4+ 3.Kf5 h5 4.g7 Ph6+ 5.Kg6 Pg8 6.Kh7 Pf6+ 7.Kh8 Kg5 8.Pc7 Kg6 9.Pe8 Pxe8 10.g8D.        2.g7         Te8        3.Pc7        Tg8        4.Pe6\n\nWit mag dit offeraanbod niet aan-\n     vaarden: 7.Pxc5? 8.Txg7 met re-\n     mise. Maar hier is\n\nook mat.",
+      "after": "8.Pxg7+\n\nWit mag dit offeraanbod niet aan-\n     vaarden: 7.Pxc5? 8.Txg7 met re-\n     mise. Maar hier is\n\nook mat.",
       "beforeVariant": {
-        "A": "Kg3 3.K(P)xe6 haalt niets uit.\n   Daarom:\n\nHet beste, want 1...Txf6+? faalt op\n\nDekt tweemaal de pion, en dreigt\nmat op f4.\n\nmat.\n\nHier faalt nu de afwachtende zet\n\nTxg7 8.Lxg7 Pf3 9.Lxh6, maar er is\n    geen winst meer.",
+        "main.c": "3.K~ Pxh6, remise. Ook",
+        "A": "Kg3 3.K(P)xe6 haalt niets uit.\n   Daarom:\n\nHet beste, want 1...Txf6+? faalt op\n2.Kxf6 en  bijvoorbeeld 2…Pg4+\n3.Kf5 h5 4.g7 Ph6+ 5.Kg6 Pg8\n6.Kh7 Pf6+ 7.Kh8 Kg5 8.Pc7 Kg6\n9.Pe8 Pxe8 10.g8D.\n\nDekt tweemaal de pion, en dreigt\nmat op f4.\n\n4…Pd3? 5.Le7 Txg7 6.Pxg7+ en\n\nmat.\n\nHier faalt nu de afwachtende zet\n\n5.Le7? op 5...Pg5 6.Pf4+ Kh4 7.Lf6\n\nTxg7 8.Lxg7 Pf3 9.Lxh6, maar er is\n    geen winst meer.",
         "B": "Zwart is nu in zetdwang. Speelt het\n    paard dan  is het mat op f4. En\n     speelt  hij  bijvoorbeeld: 7…Tc8?\n\nPxf7 14.Kxf7, dan  wint  wit met\n     loper en paard.\n\nen mat."
       }
     }

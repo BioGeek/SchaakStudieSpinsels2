@@ -150,12 +150,21 @@
       "fenAfter": "8/8/8/3B4/1Qq5/5K2/k7/8 w - - 16 9",
       "variant": "main",
       "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Qxc4",
+      "nl": "Dxc4",
+      "fenAfter": "8/8/8/3B4/2Q5/5K2/k7/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "2.Dd3+, enzovoort als boven.\n\n2.Db3+, maar ook hier is 2.Dd3+\n\nEn wit wint.\n\nWit wint met hetzelfde materiaal\nals de heren Bacqué en Vandiest,\nmaar zonder nevenoplossing.\n    G. Bacqué kreeg een speciale prijs\n     in Diagrammes (1992-93) voor de-\n    ze maljutka:\n\n   Kg3 Da3 Le4 / Kd1 Db8 +\n\n   Na 1.Kf3 Dc7 wint wit niet alleen\n    met  2.Db3+ maar  tevens  met\n\nEn ook J. Vandiest publiceerde in\n   EBUR (1993):\n\n    Kf3 De7 Le4 / Kd1 Db8 +\n\n    met dezelfde oplossing: 1.Da3 Dc7\n\nwinnend.\n\n   Ook nevenoplosbaar dus. Het ver-\n    plaatsen  in deze diagramstelling\n    van de witte dame op a3 naar veld\n    e7 bracht dus geen redding.\n\n   Daarom mijn correcte versie, die\n    de dual uitschakelt.",
+      "after": "En wit wint.\n\nWit wint met hetzelfde materiaal\nals de heren Bacqué en Vandiest,\nmaar zonder nevenoplossing.\n    G. Bacqué kreeg een speciale prijs\n     in Diagrammes (1992-93) voor de-\n    ze maljutka:\n\n   Kg3 Da3 Le4 / Kd1 Db8 +\n\n   Na 1.Kf3 Dc7 wint wit niet alleen\n    met  2.Db3+ maar  tevens  met\n\n2.Dd3+, enzovoort als boven.\n\nEn ook J. Vandiest publiceerde in\n   EBUR (1993):\n\n    Kf3 De7 Le4 / Kd1 Db8 +\n\n    met dezelfde oplossing: 1.Da3 Dc7\n\n2.Db3+, maar ook hier is 2.Dd3+\n\nwinnend.\n\n   Ook nevenoplosbaar dus. Het ver-\n    plaatsen  in deze diagramstelling\n    van de witte dame op a3 naar veld\n    e7 bracht dus geen redding.\n\n   Daarom mijn correcte versie, die\n    de dual uitschakelt.",
       "beforeVariant": {}
     }
   }

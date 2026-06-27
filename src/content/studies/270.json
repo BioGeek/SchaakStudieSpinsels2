@@ -179,28 +179,73 @@
       "parent": "main.7"
     },
     {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Kxe8",
-      "nl": "Kxe8",
-      "fenAfter": "2N1K3/4B2p/6k1/1n3N2/8/8/8/8 b - - 0 5",
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nh4+",
+      "nl": "Ph4+",
+      "fenAfter": "2NKb3/4B2p/6k1/1n6/7N/8/8/8 b - - 6 5",
       "variant": "main",
       "parent": "main.8"
     },
     {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "2NKb3/4Bk1p/8/1n6/7N/8/8/8 w - - 7 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nf3",
+      "nl": "Pf3",
+      "fenAfter": "2NKb3/4Bk1p/8/1n6/8/5N2/8/8 b - - 8 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
       "id": "main.12",
       "ply": 12,
-      "san": "Nxd6+",
-      "nl": "Pxd6+",
-      "fenAfter": "2N1K3/4B2p/3n2k1/5N2/8/8/8/8 w - - 1 6",
+      "san": "h6",
+      "nl": "h6",
+      "fenAfter": "2NKb3/4Bk2/7p/1n6/8/5N2/8/8 w - - 0 7",
       "variant": "main",
       "parent": "main.11"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "2NKb3/4Bk2/7p/1n2N3/8/8/8/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "2NKb3/4B3/4k2p/1n2N3/8/8/8/8 w - - 2 8",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nxc6",
+      "nl": "Pxc6",
+      "fenAfter": "2NKb3/4B3/2N1k2p/1n6/8/8/8/8 b - - 3 8",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "6.Pf3\n\n6...          h6\n\nb1) 2…Kg7 3.Pf5+ Kf7 (3…Kg6\n\n4.Ph4+ en 5.Pxf3) 4.Lxa3, of\n\nb2) 2…Pb5+ Kb6 Kg7 4.Pf5+ en\n   nu ofwel 4…Kf7 5.Kxb5, ofwel\n\n4.Kg6 5.Ph4+ en 6.Pxf3.\n\n2...Kg7? is te vroeg, want dan ver-\n\nliest zwart de loper: 3.Pf5+ Kg6\n\n4.Lxa3 Kxf5 5.Pd6+ en 6.Pxe8.\n\nEr dreigt immers nog altijd mat.\n\nEn  niet:  4...Kf7? 5.Pcd6+ Pxd6\n\n6.Pxd6+ en 7.Kxe8. Of hier 5...Kg6\n\nZwart dekt zijn loper.\nMaar dan komt de pointe:\n\nEn plots kan noch de zwarte ko-\nning of een stuk zonder verlies ge-\nspeeld worden: 6...Pa3? of  ook\n\n6...Pc3? 7.Pd6+ en 8.Pxe8, of nog\n6...Lc6? 7.Pe5+ en 8.Pxc6. Dus:\n\nDit is beter dan 6...h5 7.Pg5+ Kg6\n\nDe enige afwachtende zet. Want\n\nKd5  10.Le3  Kxc6  11.Lxh6,   is\nonvoldoende voor de winst. (K.T.)\n\nAlles zit nu muurvast bij zwart.\n\nWant na 8…h4? 9.Lxh4 Pc3, om\nde  eigen   loper  doorgang   te\nverlenen,   volgt   10.Pd6+   en\n\n11.Pxe8. Of hier 9…Kf8 10.Le7+\n\nKf7 11.Pg5+ en 12.Kxe8.\n\nEn wit wint door overmacht.",
+      "after": "b1) 2…Kg7 3.Pf5+ Kf7 (3…Kg6\n\n4.Ph4+ en 5.Pxf3) 4.Lxa3, of\n\nb2) 2…Pb5+ Kb6 Kg7 4.Pf5+ en\n   nu ofwel 4…Kf7 5.Kxb5, ofwel\n\n4.Kg6 5.Ph4+ en 6.Pxf3.\n\n2...Kg7? is te vroeg, want dan ver-\nliest zwart de loper: 3.Pf5+ Kg6\n4.Lxa3 Kxf5 5.Pd6+ en 6.Pxe8.\n\nEr dreigt immers nog altijd mat.\n\nEn  niet:  4...Kf7? 5.Pcd6+ Pxd6\n6.Pxd6+ en 7.Kxe8. Of hier 5...Kg6\n6.Kxe8 Pxd6+ 7.Pxd6.\n\nZwart dekt zijn loper.\nMaar dan komt de pointe:\n\nEn plots kan noch de zwarte ko-\nning of een stuk zonder verlies ge-\nspeeld worden: 6...Pa3? of  ook\n6...Pc3? 7.Pd6+ en 8.Pxe8, of nog\n6...Lc6? 7.Pe5+ en 8.Pxc6. Dus:\n\nDit is beter dan 6...h5 7.Pg5+ Kg6\n\nDe enige afwachtende zet. Want\n7.Lc5? Lc6 8.Pe5+ Ke6 9.Pxc6\nKd5  10.Le3  Kxc6  11.Lxh6,   is\nonvoldoende voor de winst. (K.T.)\n\nAlles zit nu muurvast bij zwart.\n\nWant na 8…h4? 9.Lxh4 Pc3, om\nde  eigen   loper  doorgang   te\nverlenen,   volgt   10.Pd6+   en\n11.Pxe8. Of hier 9…Kf8 10.Le7+\nKf7 11.Pg5+ en 12.Kxe8.\n\nEn wit wint door overmacht.",
       "beforeVariant": {
         "main.a": "Want na:",
         "main.b": "ontsnapt de zwarte koning. En:",

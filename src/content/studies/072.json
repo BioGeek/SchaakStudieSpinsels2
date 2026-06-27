@@ -24,12 +24,165 @@
       "fenAfter": "6B1/8/2N5/1kp5/8/1K6/1n6/8 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ne5",
+      "nl": "Pe5",
+      "fenAfter": "6B1/8/8/1kp1N3/8/1K6/1n6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Na4",
+      "nl": "Pa4",
+      "fenAfter": "6B1/8/8/1kp1N3/n7/1K6/8/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Bc4+",
+      "nl": "Lc4+",
+      "fenAfter": "8/8/8/1kp1N3/n1B5/1K6/8/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/8/8/k1p1N3/n1B5/1K6/8/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "8/8/2N5/k1p5/n1B5/1K6/8/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/8/1kN5/2p5/n1B5/1K6/8/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nd8",
+      "nl": "Pd8",
+      "fenAfter": "3N4/8/1k6/2p5/n1B5/1K6/8/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "3N4/8/8/k1p5/n1B5/1K6/8/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "8/1N6/8/k1p5/n1B5/1K6/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/1N6/1k6/2p5/n1B5/1K6/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "8/1N6/1k6/2pB4/n7/1K6/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/1N6/8/1kpB4/n7/1K6/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "8/8/3N4/1kpB4/n7/1K6/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/8/3N4/k1pB4/n7/1K6/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/8/3N4/k1p5/n1B5/1K6/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nb6",
+      "nl": "Pb6",
+      "fenAfter": "8/8/1n1N4/k1p5/2B5/1K6/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nb7+",
+      "nl": "Pb7+",
+      "fenAfter": "8/1N6/1n6/k1p5/2B5/1K6/8/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit tracht het uitbreken van het\nzwarte paard te verhinderen.",
-      "after": "Kb5 6.Pb2+ Ka5 7.Pxa4, pat.\n\nEindelijk komt de hengst vrij, maar\nte laat. Er volgt immers mat na:\n\n“Een sober geconstrueerde direc-\nte  matstudie,  waarin  het  enige\nvluchtveld van het zwarte paard\nenige malen door de zwarte ko-\nning wordt versperd en tenslotte,\nnadat het door het zwart’s paard\nwordt bezet, wit in de gelegenheid\nstelt mat te geven.” Aldus oordeel-\nde Cor de Feijter.\n\nEn in Schach-Echo: “Diese hoch\noriginelle Komposition hat meister\nLudwich  Rellstab  zu  Begeiste-\nrungsstürmen  hingerissen;  Rell-\nstab teilte den Studiënredacteur in\nBad  Pyrmont am 3 November\n1963 mit, die Studie sei unge-\nfähr die schönste die er kenne.\nUnd das  will schon etwas besa-\ngen”.\n\nOok  in  ‘Briljant Schaken’ (2003)\nschreef Hans Böhm: “De mooiste\nstudie die Vandecasteele  ooit\nmaakte.” Een zeer natuurlijke stel-\nling om mee te beginnen Als het\nzwarte paard ontsnapt is het remi-\nse. Als het verloren gaat wint wit,\nook al zou menig clubspeler daar\nbehoorlijk wat moeite mee hebben.\nJe zou het zo op het eerste zicht\nniet geloven, maar wit vlecht in tien\nzetten een matnet om de zwarte\nkoning.”\n\nEn: “Una filigrana digna del mejor\norfebre.”, aldus José Copié.",
+      "after": "1…Kb6?  2.Pe5 Pd1  3.Pg4 en\n4.Kc2 met vangst van het paard.\n\n4.Le2?  faalt op 4…c4+ 5.Pxc4+\nKb5 6.Pb2+ Ka5 7.Pxa4, pat.\n\n5…Kc7? 6.Pe6+ Kd6 7.Kxa4\n\nEindelijk komt de hengst vrij, maar\nte laat. Er volgt immers mat na:\n\n“Een sober geconstrueerde direc-\nte  matstudie,  waarin  het  enige\nvluchtveld van het zwarte paard\nenige malen door de zwarte ko-\nning wordt versperd en tenslotte,\nnadat het door het zwart’s paard\nwordt bezet, wit in de gelegenheid\nstelt mat te geven.” Aldus oordeel-\nde Cor de Feijter.\n\nEn in Schach-Echo: “Diese hoch\noriginelle Komposition hat meister\nLudwich  Rellstab  zu  Begeiste-\nrungsstürmen  hingerissen;  Rell-\nstab teilte den Studiënredacteur in\nBad  Pyrmont am 3 November\n1963 mit, die Studie sei unge-\nfähr die schönste die er kenne.\nUnd das  will schon etwas besa-\ngen”.\n\nOok  in  ‘Briljant Schaken’ (2003)\nschreef Hans Böhm: “De mooiste\nstudie die Vandecasteele  ooit\nmaakte.” Een zeer natuurlijke stel-\nling om mee te beginnen Als het\nzwarte paard ontsnapt is het remi-\nse. Als het verloren gaat wint wit,\nook al zou menig clubspeler daar\nbehoorlijk wat moeite mee hebben.\nJe zou het zo op het eerste zicht\nniet geloven, maar wit vlecht in tien\nzetten een matnet om de zwarte\nkoning.”\n\nEn: “Una filigrana digna del mejor\norfebre.”, aldus José Copié.",
       "beforeVariant": {}
     }
   }

@@ -33,12 +33,138 @@
       "fenAfter": "3N4/1k6/7p/K4B2/4P3/1p6/1p6/8 b - - 3 2",
       "variant": "main",
       "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "3N4/2k5/7p/K4B2/4P3/1p6/1p6/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ne6+",
+      "nl": "Pe6+",
+      "fenAfter": "8/2k5/4N2p/K4B2/4P3/1p6/1p6/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kd6",
+      "nl": "Kd6",
+      "fenAfter": "8/8/3kN2p/K4B2/4P3/1p6/1p6/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nf8",
+      "nl": "Pf8",
+      "fenAfter": "5N2/8/3k3p/K4B2/4P3/1p6/1p6/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "5N2/8/7p/K3kB2/4P3/1p6/1p6/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "8/8/6Np/K3kB2/4P3/1p6/1p6/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kf6",
+      "nl": "Kf6",
+      "fenAfter": "8/8/5kNp/K4B2/4P3/1p6/1p6/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nh4",
+      "nl": "Ph4",
+      "fenAfter": "8/8/5k1p/K4B2/4P2N/1p6/1p6/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/7p/K3kB2/4P2N/1p6/1p6/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nf3+",
+      "nl": "Pf3+",
+      "fenAfter": "8/8/7p/K3kB2/4P3/1p3N2/1p6/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "8/8/7p/K4B2/4Pk2/1p3N2/1p6/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nd2",
+      "nl": "Pd2",
+      "fenAfter": "8/8/7p/K4B2/4Pk2/1p6/1p1N4/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "b1=Q",
+      "nl": "b1D",
+      "fenAfter": "8/8/7p/K4B2/4Pk2/1p6/3N4/1q6 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxb1",
+      "nl": "Pxb1",
+      "fenAfter": "8/8/7p/K4B2/4Pk2/1p6/8/1N6 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
     }
   ],
   "prose": {
     "nl": {
       "before": "Om de dreigende zwarte promotie\nte verhinderen draaft het wit paard\nhet hele bord rond:",
-      "after": "Natuurlijk niet: 2.e5? , wat de uit-\neindelijke bedoeling  is, want dan\nvolgt 2...Kxc6 3.e6 Kd6 4.Kb4 b1D\n\nOok hier niet 3.e5? Kxd8 4.Kb4\nKe7 5.Kc3 b1D 6.Lxb1 Ke6 7.Kd4\nh5, en  zowel  koning  als  loper\nmoeten  uiteindelijk de  pion e5\nprijsgeven.\n\nEnig goede zet, want na 4.Pd4? of\n\nKxe5 6.Lxb1, struikelt het paard.\n\nMaar nu niet 4...b1D? 5.e5+ Kxe5\n\nWeerom niet 6...b1D? 7.e5+ Kxc5\n\nEn nu slaat wit met het gevleugel-\nde paard de dame:\n\nOf 8…h5? 9.Kb4 h4 10.Kc1 b1D\n\nEn Pegasus zegeviert.\n\nEen hiervan afgeleide versie is de\nhiernaast staande studie.",
+      "after": "Natuurlijk niet: 2.e5? , wat de uit-\neindelijke bedoeling  is, want dan\nvolgt 2...Kxc6 3.e6 Kd6 4.Kb4 b1D\n5.Lxb1 Kxe6.\n\nOok hier niet 3.e5? Kxd8 4.Kb4\nKe7 5.Kc3 b1D 6.Lxb1 Ke6 7.Kd4\nh5, en  zowel  koning  als  loper\nmoeten  uiteindelijk de  pion e5\nprijsgeven.\n\nEnig goede zet, want na 4.Pd4? of\n4.Pf4?(4.Pg7? Ke5) 4…b1D 5.e5+\nKxe5 6.Lxb1, struikelt het paard.\n\nMaar nu niet 4...b1D? 5.e5+ Kxe5\n6.Lxb1 h5 7.Pg6+ Kf6 8.Kb4 Kg5\n9.Kxb3 en wit wint.\n\nWeerom niet 6...b1D? 7.e5+ Kxc5\n8.Lxb1.\n\nEn nu slaat wit met het gevleugel-\nde paard de dame:\n\nOf 8…h5? 9.Kb4 h4 10.Kc1 b1D\n11.Pxb1 h3 Lxh3, enzovoort.\n\nEn Pegasus zegeviert.\n\nEen hiervan afgeleide versie is de\nhiernaast staande studie.",
       "beforeVariant": {}
     }
   }

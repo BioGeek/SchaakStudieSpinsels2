@@ -8,19 +8,253 @@
   "stipulation": "+",
   "moves": [
     {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Be4",
-      "nl": "Le4",
-      "fenAfter": "8/r2p1k2/3P4/1P6/4B3/8/P7/6K1 b - - 1 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "b6",
+      "nl": "b6",
+      "fenAfter": "8/r2p1k2/1PBP4/8/8/8/P7/6K1 b - - 0 1",
       "variant": "main",
       "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ra6",
+      "nl": "Ta6",
+      "fenAfter": "8/3p1k2/rPBP4/8/8/8/P7/6K1 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "b7",
+      "nl": "b7",
+      "fenAfter": "8/1P1p1k2/r1BP4/8/8/8/P7/6K1 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Rb6",
+      "nl": "Tb6",
+      "fenAfter": "8/1P1p1k2/1rBP4/8/8/8/P7/6K1 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Be4",
+      "nl": "Le4",
+      "fenAfter": "8/1P1p1k2/1r1P4/8/4B3/8/P7/6K1 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/1P1p4/1r1Pk3/8/4B3/8/P7/6K1 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "8/1P1p4/1r1Pk3/8/P3B3/8/8/6K1 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kxd6",
+      "nl": "Kxd6",
+      "fenAfter": "8/1P1p4/1r1k4/8/P3B3/8/8/6K1 w - - 0 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "8/1P1p4/1r1k4/P7/4B3/8/8/6K1 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "8/1Pkp4/1r6/P7/4B3/8/8/6K1 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "axb6+",
+      "nl": "axb6+",
+      "fenAfter": "8/1Pkp4/1P6/8/4B3/8/8/6K1 b - - 0 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k6/1P1p4/1P6/8/4B3/8/8/6K1 w - - 1 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bd5",
+      "nl": "Ld5",
+      "fenAfter": "1k6/1P1p4/1P6/3B4/8/8/8/6K1 b - - 2 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "d6",
+      "nl": "d6",
+      "fenAfter": "1k6/1P6/1P1p4/3B4/8/8/8/6K1 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bc6",
+      "nl": "Lc6",
+      "fenAfter": "1k6/1P6/1PBp4/8/8/8/8/6K1 b - - 1 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "d5",
+      "nl": "d5",
+      "fenAfter": "1k6/1P6/1PB5/3p4/8/8/8/6K1 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "1k6/1P6/1PB5/3p4/8/8/5K2/8 b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "d4",
+      "nl": "d4",
+      "fenAfter": "1k6/1P6/1PB5/8/3p4/8/5K2/8 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bf3",
+      "nl": "Lf3",
+      "fenAfter": "1k6/1P6/1P6/8/3p4/5B2/5K2/8 b - - 1 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "d3",
+      "nl": "d3",
+      "fenAfter": "1k6/1P6/1P6/8/8/3p1B2/5K2/8 w - - 0 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "1k6/1P6/1P6/8/8/3pKB2/8/8 b - - 1 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "d2",
+      "nl": "d2",
+      "fenAfter": "1k6/1P6/1P6/8/8/4KB2/3p4/8 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "1k6/1P6/1P6/8/3K4/5B2/3p4/8 b - - 1 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "d1=Q+",
+      "nl": "d1D+",
+      "fenAfter": "1k6/1P6/1P6/8/3K4/5B2/8/3q4 w - - 0 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Bxd1",
+      "nl": "Lxd1",
+      "fenAfter": "1k6/1P6/1P6/8/3K4/8/8/3B4 b - - 0 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Kxb7",
+      "nl": "Kxb7",
+      "fenAfter": "8/1k6/1P6/8/3K4/8/8/3B4 w - - 0 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/1k6/1P6/2K5/8/8/8/3B4 b - - 1 14",
+      "variant": "main",
+      "parent": "main.26"
     }
   ],
   "prose": {
     "nl": {
-      "before": "De aangevallen loper trachten te\nredden  door  schaak  te  geven\nmislukt: 1.Ld5+? Kf6 2.b6 Ta4 3.b7\n(of 3.a3 Txa3 4.b7 Ta1+ 5.K~ Tb1",
-      "after": "5.a5 Kxd5 6.a6 Kc6 7.a7 Kxb7 en\n\n1.b6         Ta6        2.b7         Tb6        3.Le4\n\n3.Ld5+? Kf6 4.a4 Ke5 5.a5 Tb1+ 6.Kf2 Kxd5 7.a6 Kc6 8.Ke2 Txb7 9.axb7 Kxb7. Ook de d-pion valt.           3...         Ke6        4.a4        Kxd6        5.a5        Kc7\n\n6.axb6+     Kb8\n\nkomt naderbij) 3...Tb4 4.a4 Ke5\n\ner is geen winst. Ook niet na 5.Lg2\nKxd6 6.a5 Kc7 7.a6 Kb8. Dus:\n\nDekt  veld  b1. En  niet goed  is\n\nNa 5…Tb1+? 6.Lxb1 Kc7 7.a6 Kb8\n    komt de witte koning hulp bieden.\n\n    En nu, door de toren te offeren aast\n     zwart op pat.\n\nEr dreigt inderdaad 7...d5 8.Lxd5\n    en pat. Maar:\n\nDit is de enige manier om over het\n      kritisch veld d5 te geraken door het\n      zelf te bezetten.\n\nVerhindert 10.Ke3, maar:\n\nEn wit wint.\n\n     “Justo a tiempo” vond mijn Argen-\n      tijnse vriend Zoilo Caputto.\n\n    De prijrechters vonden het: “Een\n    mooie kleine studie waarin de wit-\n     te loper een zwarte toren domi-\n     neert, die zich uiteindelijk opoffert,\n    maar zonder dat dit nochtans de\n     nederlaag verhinderen kan.”",
+      "before": "De aangevallen loper trachten te\nredden  door  schaak  te  geven\nmislukt: 1.Ld5+? Kf6 2.b6 Ta4 3.b7\n(of 3.a3 Txa3 4.b7 Ta1+ 5.K~ Tb1\n6.Le4 Tb4 en de zwarte koning\nkomt naderbij) 3...Tb4 4.a4 Ke5\n5.a5 Kxd5 6.a6 Kc6 7.a7 Kxb7 en\ner is geen winst. Ook niet na 5.Lg2\nKxd6 6.a5 Kc7 7.a6 Kb8. Dus:",
+      "after": "Dekt  veld  b1. En  niet goed  is\n3.Ld5+? Kf6 4.a4 Ke5 5.a5 Tb1+\n6.Kf2 Kxd5 7.a6 Kc6 8.Ke2 Txb7\n9.axb7 Kxb7. Ook de d-pion valt.\n\nNa 5…Tb1+? 6.Lxb1 Kc7 7.a6 Kb8\n    komt de witte koning hulp bieden.\n\n    En nu, door de toren te offeren aast\n     zwart op pat.\n\nEr dreigt inderdaad 7...d5 8.Lxd5\n    en pat. Maar:\n\nDit is de enige manier om over het\n      kritisch veld d5 te geraken door het\n      zelf te bezetten.\n\nVerhindert 10.Ke3, maar:\n\nEn wit wint.\n\n     “Justo a tiempo” vond mijn Argen-\n      tijnse vriend Zoilo Caputto.\n\n    De prijrechters vonden het: “Een\n    mooie kleine studie waarin de wit-\n     te loper een zwarte toren domi-\n     neert, die zich uiteindelijk opoffert,\n    maar zonder dat dit nochtans de\n     nederlaag verhinderen kan.”",
       "beforeVariant": {}
     }
   }

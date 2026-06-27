@@ -161,15 +161,6 @@
       "parent": "main.2"
     },
     {
-      "id": "main.4",
-      "ply": 4,
-      "san": "Bh5",
-      "nl": "Lh5",
-      "fenAfter": "8/8/4pK2/7b/1k6/2n3B1/8/2N2N2 w - - 4 3",
-      "variant": "main",
-      "parent": "main.3"
-    },
-    {
       "id": "main.c.3",
       "ply": 3,
       "san": "Nbd2",
@@ -188,6 +179,15 @@
       "parent": "main.c.3"
     },
     {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Be8",
+      "nl": "Le8",
+      "fenAfter": "4b3/8/4pK2/8/1k6/2n3B1/8/2N2N2 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
       "id": "main.a3.4",
       "ply": 4,
       "san": "Ne4+",
@@ -204,15 +204,6 @@
       "fenAfter": "8/5K2/4p3/8/1k2n3/6B1/8/2N2N2 b - - 0 3",
       "variant": "main.a3",
       "parent": "main.a3.4"
-    },
-    {
-      "id": "main.11",
-      "ply": 11,
-      "san": "Ne2",
-      "nl": "Pe2",
-      "fenAfter": "8/8/4pK2/7b/1k6/2n3B1/4N3/5N2 b - - 5 3",
-      "variant": "main",
-      "parent": "main.4"
     },
     {
       "id": "main.b3.4",
@@ -242,26 +233,278 @@
       "parent": "main.c2.4"
     },
     {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Be1",
+      "nl": "Le1",
+      "fenAfter": "4b3/8/4pK2/8/1k6/2n5/8/2N1BN2 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "4b3/8/4pK2/8/2k5/2n5/8/2N1BN2 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "4b3/8/4pK2/8/2k5/2n1N3/8/2N1B3 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/4pK2/8/3k4/2n1N3/8/2N1B3 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nc2+",
+      "nl": "Pc2+",
+      "fenAfter": "4b3/8/4pK2/8/3k4/2n5/2N5/2N1B3 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "4b3/8/4pK2/8/2k5/2n5/2N5/2N1B3 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Na3+",
+      "nl": "Pa3+",
+      "fenAfter": "4b3/8/4pK2/8/2k5/N1n5/8/2N1B3 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/4pK2/8/3k4/N1n5/8/2N1B3 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "4b3/8/4pK2/8/3k4/NNn5/8/4B3 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "4b3/8/4pK2/8/8/NNnk4/8/4B3 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "4b3/8/4pK2/2N5/8/N1nk4/8/4B3 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/4pK2/2N5/3k4/N1n5/8/4B3 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxe6+",
+      "nl": "Pxe6+",
+      "fenAfter": "4b3/8/4NK2/8/3k4/N1n5/8/4B3 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "4b3/8/4NK2/8/8/N1nk4/8/4B3 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "4b3/8/5K2/2N5/8/N1nk4/8/4B3 b - - 2 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/5K2/2N5/3k4/N1n5/8/4B3 w - - 3 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "4b3/8/5K2/8/3k4/NNn5/8/4B3 b - - 4 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "4b3/8/5K2/8/8/NNnk4/8/4B3 w - - 5 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nc1+",
+      "nl": "Pc1+",
+      "fenAfter": "4b3/8/5K2/8/8/N1nk4/8/2N1B3 b - - 6 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/5K2/8/3k4/N1n5/8/2N1B3 w - - 7 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Nc2+",
+      "nl": "Pc2+",
+      "fenAfter": "4b3/8/5K2/8/3k4/2n5/2N5/2N1B3 b - - 8 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "4b3/8/5K2/8/2k5/2n5/2N5/2N1B3 w - - 9 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Ne3+",
+      "nl": "Pe3+",
+      "fenAfter": "4b3/8/5K2/8/2k5/2n1N3/8/2N1B3 b - - 10 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "4b3/8/5K2/8/3k4/2n1N3/8/2N1B3 w - - 11 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Nf5+",
+      "nl": "Pf5+",
+      "fenAfter": "4b3/8/5K2/5N2/3k4/2n5/8/2N1B3 b - - 12 15",
+      "variant": "main",
+      "parent": "main.28"
+    },
+    {
       "id": "main.30",
       "ply": 30,
       "san": "Kc4",
       "nl": "Kc4",
-      "fenAfter": "8/8/4pK2/7b/2k5/2n3B1/4N3/5N2 w - - 6 4",
+      "fenAfter": "4b3/8/5K2/5N2/2k5/2n5/8/2N1B3 w - - 13 16",
       "variant": "main",
-      "parent": "main.11"
+      "parent": "main.29"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "Nd6+",
+      "nl": "Pd6+",
+      "fenAfter": "4b3/8/3N1K2/8/2k5/2n5/8/2N1B3 b - - 14 16",
+      "variant": "main",
+      "parent": "main.30"
+    },
+    {
+      "id": "main.32",
+      "ply": 32,
+      "san": "Kd5",
+      "nl": "K~",
+      "fenAfter": "4b3/8/3N1K2/3k4/8/2n5/8/2N1B3 w - - 15 17",
+      "variant": "main",
+      "parent": "main.31"
+    },
+    {
+      "id": "main.33",
+      "ply": 33,
+      "san": "Nxe8",
+      "nl": "Pxe8",
+      "fenAfter": "4N3/8/5K2/3k4/8/2n5/8/2N1B3 b - - 0 17",
+      "variant": "main",
+      "parent": "main.32"
     }
   ],
   "prose": {
     "nl": {
       "before": "Wit kan de loper niet slaan zonder\nstukverlies. En na bijvoorbeeld:",
-      "after": "2...          Le8\n\n3.Le1\n\n3...         Kc4        4.Pe3+      Kd4 4...Kb4? en het is zover: 5.Pa2+\n\n5.Pc2+\n\n5…         Kc4        6.Pa3+      Kd4 6...Kb4? 7.Pb1 en 8.Pxc3.        7.Pb3+      Kd3        8.Pc5+      Kd4        9.Pxe6+\n\nnog korter.\n\nNu  dreigt 4.Pc1  via een  aftrek-\nschaak op a2 of e2, het paard Pc3\nte veroveren. Daarom:\n\nen 6.Pxc3\n\nDe zwarte pion verhinderd 5.Pf5+.\n\nWit slaat nu de lastige pion.\nHierna keert het witte paard op zijn\nstappen terug.  terwijl zwart   zijn\nvolbloed voortdurend moet gedekt\nhouden, dus:\n\nHad  zwart  eerder  2...Lh5?  ge-\nspeeld, dan zou nu 10.Pf4+ K~\n\nDeze zet is nu mogelijk omdat wit\neerder al de zwarte pion geplukt\nheeft. (9.Pxe6+)\n\nEn drie lichte stukken winnen te-\ngen één.\n\nVeertien (14!) maal geven de witte\npaarden schaak  in deze carrou-\nselstudie, die de prijs kreeg als de\nbeste Belgische inzending in het\nInternationaal  Toernooi  van  de\nKoninklijke  Schaakfederatie  van\nAntwerpens Handel.\n    Een originele studie, met  maxi-\n   mum acht stukken op het bord,\n    was de opdracht.\n\n     Prijsrechter  Vandiest  oordeelde:\n    “One of these elegant carousels\n    one remains found of and for which\n     the composer  has become  fa-\n    mous.”",
+      "after": "nog korter.\n\nNu  dreigt 4.Pc1  via een  aftrek-\nschaak op a2 of e2, het paard Pc3\nte veroveren. Daarom:\n\n4...Kb4? en het is zover: 5.Pa2+\nen 6.Pxc3\n\nDe zwarte pion verhinderd 5.Pf5+.\n\n6...Kb4? 7.Pb1 en 8.Pxc3.\n\nWit slaat nu de lastige pion.\nHierna keert het witte paard op zijn\nstappen terug.  terwijl zwart   zijn\nvolbloed voortdurend moet gedekt\nhouden, dus:\n\nHad  zwart  eerder  2...Lh5?  ge-\nspeeld, dan zou nu 10.Pf4+ K~\n11.Pxh5 volgen, met winst.\n\n14...Kb4? 15.Pd5+ en 16.Pxc3.\n\nDeze zet is nu mogelijk omdat wit\neerder al de zwarte pion geplukt\nheeft. (9.Pxe6+)\n\nEn drie lichte stukken winnen te-\ngen één.\n\nVeertien (14!) maal geven de witte\npaarden schaak  in deze carrou-\nselstudie, die de prijs kreeg als de\nbeste Belgische inzending in het\nInternationaal  Toernooi  van  de\nKoninklijke  Schaakfederatie  van\nAntwerpens Handel.\n    Een originele studie, met  maxi-\n   mum acht stukken op het bord,\n    was de opdracht.\n\n     Prijsrechter  Vandiest  oordeelde:\n    “One of these elegant carousels\n    one remains found of and for which\n     the composer  has become  fa-\n    mous.”",
       "beforeVariant": {
         "main.b": "geen winst meer. Ook niet na",
         "main.a2": "Ke4 4.Pg5+ Kxe3 5.Lxc3.\nDaarom:                          4\n\nNa 1...Kc4 2.Pbd2+ K~ valt de lo-\nper met 3.Kxf7.\n\nDe enige goede zet, want fout is:",
         "main.b2": "Pxg3 Kc3 en het wit paard in\n   de hoek zit in de val. Ook:",
-        "main.c": "de  zwarte  loper  zich  met   W",
+        "main.c": "de  zwarte  loper  zich  met   W\n\n2...Lh5. En na:",
         "main.a3": "mise.\n\nZeer verleidelijk is nu:",
-        "main.b3": "Pxg3 4.Pxg3 kan  wit nu de\n    pion zelfs stoppen op veld e5,\n   met  winst  volgens  Troitzki,\n    (koning en twee  paarden te-\n   gen koning en pion op e4) bij-\n    voorbeeld:  4...e5 5.Pe4 Kc4",
+        "main.b3": "Pxg3 4.Pxg3 kan  wit nu de\n    pion zelfs stoppen op veld e5,\n   met  winst  volgens  Troitzki,\n    (koning en twee  paarden te-\n   gen koning en pion op e4) bij-\n    voorbeeld:  4...e5 5.Pe4 Kc4\n\n6.Pe2 Kd3 7.Pg3. Na:",
         "main.c2": "zoals verder blijkt. Zie zet 10."
       }
     }

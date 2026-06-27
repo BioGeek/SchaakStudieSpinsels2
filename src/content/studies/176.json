@@ -62,15 +62,6 @@
       "parent": "main.a.4"
     },
     {
-      "id": "main.7",
-      "ply": 7,
-      "san": "Ng5",
-      "nl": "Pg5",
-      "fenAfter": "8/8/6k1/b5N1/7P/3p4/1B4K1/8 b - - 3 2",
-      "variant": "main",
-      "parent": "main.2"
-    },
-    {
       "id": "main.b.2",
       "ply": 2,
       "san": "Bb4",
@@ -107,50 +98,257 @@
       "parent": "main.b.4"
     },
     {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/6k1/b7/7P/3p1N2/6K1/2B5 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/8/8/b6k/7P/3p1N2/6K1/2B5 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kh3",
+      "nl": "Kh3",
+      "fenAfter": "8/8/8/b6k/7P/3p1N1K/8/2B5 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "3b4/8/8/7k/7P/3p1N1K/8/2B5 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Ng5",
+      "nl": "Pg5",
+      "fenAfter": "3b4/8/8/6Nk/7P/3p3K/8/2B5 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "8/4b3/8/6Nk/7P/3p3K/8/2B5 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
       "id": "main.9",
       "ply": 9,
       "san": "Bd2",
       "nl": "Ld2",
-      "fenAfter": "8/8/6k1/6N1/7P/3p4/1B1b2K1/8 w - - 4 3",
+      "fenAfter": "8/4b3/8/6Nk/7P/3p3K/3B4/8 b - - 9 5",
       "variant": "main",
-      "parent": "main.7"
+      "parent": "main.8"
     },
     {
       "id": "main.a2.9",
       "ply": 9,
       "san": "Ne6",
       "nl": "Pe6?",
-      "fenAfter": "8/8/4N1k1/8/7P/3p4/1B1b2K1/8 b - - 1 1",
+      "fenAfter": "8/4b3/4N3/7k/7P/3p3K/8/2B5 b - - 9 5",
       "variant": "main.a2",
-      "parent": null
+      "parent": "main.8"
+    },
+    {
+      "id": "main.a2.10",
+      "ply": 10,
+      "san": "Bxh4",
+      "nl": "Lxh4",
+      "fenAfter": "8/8/4N3/7k/7b/3p3K/8/2B5 w - - 0 6",
+      "variant": "main.a2",
+      "parent": "main.a2.9"
+    },
+    {
+      "id": "main.a2.11",
+      "ply": 11,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/7k/5N1b/3p3K/8/2B5 b - - 1 6",
+      "variant": "main.a2",
+      "parent": "main.a2.10"
+    },
+    {
+      "id": "main.a2.12",
+      "ply": 12,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/8/8/6k1/5N1b/3p3K/8/2B5 w - - 2 7",
+      "variant": "main.a2",
+      "parent": "main.a2.11"
+    },
+    {
+      "id": "main.b2.9",
+      "ply": 9,
+      "san": "Be3",
+      "nl": "Le3?",
+      "fenAfter": "8/4b3/8/6Nk/7P/3pB2K/8/8 b - - 9 5",
+      "variant": "main.b2",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.b2.10",
+      "ply": 10,
+      "san": "Bd8",
+      "nl": "Ld8",
+      "fenAfter": "3b4/8/8/6Nk/7P/3pB2K/8/8 w - - 10 6",
+      "variant": "main.b2",
+      "parent": "main.b2.9"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bf6",
+      "nl": "Lf6",
+      "fenAfter": "8/8/5b2/6Nk/7P/3p3K/3B4/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
       "san": "Ne6",
       "nl": "Pe6",
-      "fenAfter": "8/8/4N1k1/8/7P/3p4/1B1b2K1/8 b - - 5 3",
+      "fenAfter": "8/8/4Nb2/7k/7P/3p3K/3B4/8 b - - 11 6",
       "variant": "main",
-      "parent": "main.9"
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bxh4",
+      "nl": "Lxh4",
+      "fenAfter": "8/8/4N3/7k/7b/3p3K/3B4/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/7k/5N1b/3p3K/3B4/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/8/8/6k1/5N1b/3p3K/3B4/8 w - - 2 8",
+      "variant": "main",
+      "parent": "main.13"
     },
     {
       "id": "main.15",
       "ply": 15,
-      "san": "Bc1",
-      "nl": "Lc1?",
-      "fenAfter": "8/8/4N1k1/8/7P/3p4/1B4K1/2b5 w - - 6 4",
+      "san": "Nxd3+",
+      "nl": "Pxd3+",
+      "fenAfter": "8/8/8/6k1/7b/3N3K/3B4/8 b - - 0 8",
       "variant": "main",
-      "parent": "main.11"
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kh5",
+      "nl": "Kh5",
+      "fenAfter": "8/8/8/7k/7b/3N3K/3B4/8 w - - 1 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nf4+",
+      "nl": "Pf4+",
+      "fenAfter": "8/8/8/7k/5N1b/7K/3B4/8 b - - 2 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kg5",
+      "nl": "Kg5",
+      "fenAfter": "8/8/8/6k1/5N1b/7K/3B4/8 w - - 3 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bc1",
+      "nl": "Lc1",
+      "fenAfter": "8/8/8/6k1/5N1b/7K/8/2B5 b - - 4 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Bf2",
+      "nl": "Lf2",
+      "fenAfter": "8/8/8/6k1/5N2/7K/5b2/2B5 w - - 5 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/8/8/6k1/8/3N3K/5b2/2B5 b - - 6 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kg6",
+      "nl": "K~",
+      "fenAfter": "8/8/6k1/8/8/3N3K/5b2/2B5 w - - 7 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nxf2",
+      "nl": "Pxf2",
+      "fenAfter": "8/8/6k1/8/8/7K/5N2/2B5 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "3…          Ld8(Kh5)        4.Pg5         Le7(f6)\n\n5…           Lf6        6.Pe6        Lxh4        7.Pf4+      Kg5        8.Pxd3+\n\n1.Pe4?. Om elke  twijfel weg  te\n\nRemise,  daar  wit een  stuk\n   moet afgeven.\n\nIndien wit deze pion niet slaat en\n\nLe1, met remise.\n\nEveneens met winst.\nDe toenmalige eindspelredacteur\nFreek Spinhoven gaf aan de stel-\nling met de witte loper op b6, de\nEerste Prijs in Schakend Neder-\nland (1966), voorzien van dit com-\nmentaar: “Een leerzame  studie.\nEen klassiek voorbeeld van domi-\nnantie, zowel in de hoofdvariant als\nin de bijvarianten. Met een mini--\nmum aan materiaal wordt dit the-\nma tot uiting gebracht.”\n\nIk kreeg dan ook een onverwacht\ngroot diploma toegezonden met\nhet gewonnen   diagram en de\ntekst: Speciale Vermelding Stu-\ndie toernooi ‘Schakend Nederland’\n1966: I. Vandecasteele.\n      Enkele  maanden  later  schreef\n      Freek “Na de bezwaren beoor-\n      deeld  te hebben  die tegen de\n       studie zijn geuit heeft de jury de\n        definitieve uitslag als volgt vast-\n       gesteld: Eerste Eervolle Vermel-\n       ding: I.Vandecasteele.”\n\n      Welke bezwaren werden me niet\n      medegedeeld.\n\n      Jaren later twijfelde Jarl Ulrichsen\n      aan de correctheid van het minia-\nt       tuurtje wegens een mogelijke ne-\n      venoplossing  bij de  eerste  zet:\n\nnemen verplaatste ik dan de witte\n       loper van b6 naar b2.\n\n        Ik heb het geheel dan ook opge-\n      dragen aan de opmerkzama Noor.",
+      "after": "Remise,  daar  wit een  stuk\n   moet afgeven.\n\nIndien wit deze pion niet slaat en\n8.Lc1? speelt, volgt 8…d2 9.Lxd2\nLe1, met remise.\n\nEveneens met winst.\nDe toenmalige eindspelredacteur\nFreek Spinhoven gaf aan de stel-\nling met de witte loper op b6, de\nEerste Prijs in Schakend Neder-\nland (1966), voorzien van dit com-\nmentaar: “Een leerzame  studie.\nEen klassiek voorbeeld van domi-\nnantie, zowel in de hoofdvariant als\nin de bijvarianten. Met een mini--\nmum aan materiaal wordt dit the-\nma tot uiting gebracht.”\n\nIk kreeg dan ook een onverwacht\ngroot diploma toegezonden met\nhet gewonnen   diagram en de\ntekst: Speciale Vermelding Stu-\ndie toernooi ‘Schakend Nederland’\n1966: I. Vandecasteele.\n      Enkele  maanden  later  schreef\n      Freek “Na de bezwaren beoor-\n      deeld  te hebben  die tegen de\n       studie zijn geuit heeft de jury de\n        definitieve uitslag als volgt vast-\n       gesteld: Eerste Eervolle Vermel-\n       ding: I.Vandecasteele.”\n\n      Welke bezwaren werden me niet\n      medegedeeld.\n\n      Jaren later twijfelde Jarl Ulrichsen\n      aan de correctheid van het minia-\nt       tuurtje wegens een mogelijke ne-\n      venoplossing  bij de  eerste  zet:\n\n1.Pe4?. Om elke  twijfel weg  te\n\nnemen verplaatste ik dan de witte\n       loper van b6 naar b2.\n\n        Ik heb het geheel dan ook opge-\n      dragen aan de opmerkzama Noor.",
       "beforeVariant": {
         "main.a": "Sterker dan:",
-        "main.b": "(3.Kh3?  Lf2  4.Pe1  Lxh4,\n     remise.) 3…Lc5 en  bijvoor-\n    beeld 4.Ld2 (4.Ook 4.Le1 of\n\nvoort, zie de hoofdvariant.",
-        "main.a2": "Le7 4.Kh3 Lxh4 5.Pf4+ Kg5\n\nFout is 3.Kg3? Ld8 4.Pg5 (4.Ld2\nLxh4+ 5.Pxh4 en  pat.) 4…La5\n\nEn ook hier faalt 4…La5? 5.Pe4\nLe1 6.Pg3+ Lxg3 7.Kxg3 d2 8.Lxd2\nen wit wint.\nEn nu opgelet!\n\nDe énig winnende zet.",
+        "main.b": "(3.Kh3?  Lf2  4.Pe1  Lxh4,\n     remise.) 3…Lc5 en  bijvoor-\n    beeld 4.Ld2 (4.Ook 4.Le1 of\n\n4.Pg5 zijn winnend.) 7…Le7\n    5.Pg5 Lf6 6.Kh3 Le7, enzo-\n\nvoort, zie de hoofdvariant.",
+        "main.a2": "Le7 4.Kh3 Lxh4 5.Pf4+ Kg5\n\n6.Lc1 Le1 7.Pd3+ en 8.Pxe1\n\nFout is 3.Kg3? Ld8 4.Pg5 (4.Ld2\nLxh4+ 5.Pxh4 en  pat.) 4…La5\n5.Pe4 Le1+ 6.Kh3 Lxh4, remise.\n\nEn ook hier faalt 4…La5? 5.Pe4\nLe1 6.Pg3+ Lxg3 7.Kxg3 d2 8.Lxd2\nen wit wint.\nEn nu opgelet!\n\nDe énig winnende zet.",
         "main.b2": "pat.  Of  hier  7.Pxd3+  Kh5\n\nremise. En:"
       }
     }

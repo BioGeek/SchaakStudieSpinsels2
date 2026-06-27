@@ -143,6 +143,24 @@
       "parent": "main.14"
     },
     {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg8",
+      "nl": "K~",
+      "fenAfter": "6k1/8/8/3b4/4N3/8/3b1R1K/8 w - - 2 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxd2",
+      "nl": "Pxd2",
+      "fenAfter": "6k1/8/8/3b4/8/8/3N1R1K/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
       "id": "B.4",
       "ply": 4,
       "san": "Bb7+",
@@ -170,49 +188,103 @@
       "parent": "B.5"
     },
     {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Re6+",
+      "nl": "Te6+",
+      "fenAfter": "4k3/bb6/4R3/3N4/8/1N6/8/7K b - - 7 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/bb1k4/4R3/3N4/8/1N6/8/7K w - - 8 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Re7+",
+      "nl": "Te7+",
+      "fenAfter": "8/bb1kR3/8/3N4/8/1N6/8/7K b - - 9 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2k5/bb2R3/8/3N4/8/1N6/8/7K w - - 10 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "Rc7+",
+      "nl": "Tc7+",
+      "fenAfter": "2k5/bbR5/8/3N4/8/1N6/8/7K b - - 11 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "Kb8",
+      "nl": "Kb8",
+      "fenAfter": "1k6/bbR5/8/3N4/8/1N6/8/7K w - - 12 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
       "id": "B.15",
       "ply": 15,
       "san": "Nc5",
       "nl": "Pc5",
-      "fenAfter": "4k3/bb6/3R4/2NN4/8/8/8/7K b - - 7 4",
+      "fenAfter": "1k6/bbR5/8/2NN4/8/8/8/7K b - - 13 7",
       "variant": "B",
-      "parent": "B.6"
+      "parent": "B.12"
     },
     {
       "id": "B.16",
       "ply": 16,
       "san": "Bxc5",
       "nl": "Lxc5",
-      "fenAfter": "4k3/1b6/3R4/2bN4/8/8/8/7K w - - 0 5",
+      "fenAfter": "1k6/1bR5/8/2bN4/8/8/8/7K w - - 0 8",
       "variant": "B",
       "parent": "B.15"
     },
     {
-      "id": "A.9",
-      "ply": 9,
-      "san": "Re6+",
-      "nl": "Te6+",
-      "fenAfter": "2b5/b3k3/4RN2/8/8/1N6/8/7K b - - 5 3",
-      "variant": "A",
-      "parent": "main.4"
+      "id": "B.1",
+      "ply": 1,
+      "san": "Bg2+",
+      "nl": "Lg2+",
+      "fenAfter": "6k1/8/8/8/8/8/3N1RbK/8 w - - 1 10",
+      "variant": "B",
+      "parent": "main.17"
     },
     {
-      "id": "A.10",
-      "ply": 10,
-      "san": "Kf8",
-      "nl": "Kf8",
-      "fenAfter": "2b2k2/b7/4RN2/8/8/1N6/8/7K w - - 6 4",
-      "variant": "A",
-      "parent": "A.9"
+      "id": "B.2",
+      "ply": 2,
+      "san": "Ne4",
+      "nl": "Pe4",
+      "fenAfter": "6k1/8/8/8/4N3/8/5RbK/8 b - - 2 10",
+      "variant": "B",
+      "parent": "B.1"
     }
   ],
   "prose": {
     "nl": {
       "before": "Uitzonderlijk heeft deze buitenge-\nwoon  rijke  studie  drie  auteurs:\nGenrich Kasparjan, Roger Missi-\naen en Ignace Vandecasteele.",
-      "after": "8.Txd2? Lxe4 en remise.           8...         K~        9.Pxd2\n\n1.Kd2 Tf3 2.Lg2 Pe4+ 3.Kd1 Td3+ 4.Ke2 Td2+ 5.Kf1 Td4 6.Ke2 Ph4 7.Ke3 Pf5+ 8.Kf4 Pfd6 9.Ke3 Pf5+ 10.Kf4 Pfd6 9.Ke3, remise.\n\n2.Lb7+, gevonden door twee ijve-\n\n1.Pc6+ Kc7! 2.Te6!\n\nEdward Kudelich schreef:\n”Fijn spel in de twee varianten.”\n\nMaar dat er juist nu, na een tijds-\nspanne van bijna vijf jaar, aan de-\nze gespiegelde maar verder iden-\ntieke studie, met zelfs de beide\nvarianten A en B, een eerste prijs\ntoegekend werd  lijkt mij, op  zijn\nminst gezegd, verrassend.\nOmdat ik moeilijk kan geloven dat\nhier sprake is van plagiaat maar\neerder van toevallige  anticipatie,\nvermoed  ik  dat noch  professor\nRossi, noch de prijsrechter Kude-\nlich onze   studie kenden. Inder-\ndaad staat deze niet vermeld in\nHHdbIII. Harold was van mening\ndat de studie (n° 24611) reeds be-\nstond. Dat is ook zo, maar dan wel\nzonder de variant B, en ze werd\ndus niet opgenomen in zijn data-\nbase.\n\nWel kan men er het studiespie-\ngelbeeld vinden van P.Rossi en\nM.Campioli onder het n° 74. Het\nkreeg een aanbeveling  in 2004.\nTen onrechte dus.\n\nOnze studie verscheen als origi-\nneel in Flemish Miniatures onder\nn° 105, met de mededeling: Cor-\nrection of a Kasparyan, onwetend\ndat deze laatste, met een identie-\nke beginstelling een andere winst-\nvoering toonde.\n\nVandaar nu de varianten A en B.\n\nIn Spotlight (26) schreef rubriek-\nleider Jarl Ulrichsen:“Once more I\nam reluctant to talk of plagiarism. I\nthink that no one would suspect\nCampioli  of  cheating, and as   I\nmyself have recomposed endga-\nme studies, once even with a mir-\nrored position,\n           I always look for alternations. In my\nr     case  I simply forgot to look  for\n       mirrored positions although HHdb\n       allows this search. Mirrored posi-\n       tions are usually a typical sign of\n       plagiarism.\n\n      The last act of this story is an an-\n        ticlimax. Rossi was obviously not\n       content with the distinction in Gur-\n      genidze 50 JT. He sent the same\n     endgame study to another tourney\n      and was rewarded with the  first\n       prize in the ‘7 chess notes maga-\n        zine’.\n\n      This is of course a completely\n      unacceptable practice.  It is sur-\n        prising however that the judge did\n       not consult HHdbIII.”\n\n      Maar Marcel Van Herck e-mailde\n      me: “In my opinion Rossi must ha-\n      ve recomposed the study a second\n       time having completely forgotten\n      about this commendation in ‘Gur-\n      genidze 50 JT’. (He is an old man\n      and  I think he is not familiar with\n       computers.)”\n\n        Dit  lijkt mij zeer onwaarschijnlijk.\n     En of professor Rossi nu een com-\n       puter heeft of niet:\n\n       ‘Eerst is eerst.’",
+      "after": "2…Lg7+ 3.Pe5 Kd8 4.Td6+!! Ke7\n5.Td7+ Kf8 6.Tf7+ Kg8 9.Te7 Kf8\n8.Pf5! Lxf5 9.Tf7+ en 10.Txf5.\n\nEdward Kudelich schreef:\n”Fijn spel in de twee varianten.”\n\nMaar dat er juist nu, na een tijds-\nspanne van bijna vijf jaar, aan de-\nze gespiegelde maar verder iden-\ntieke studie, met zelfs de beide\nvarianten A en B, een eerste prijs\ntoegekend werd  lijkt mij, op  zijn\nminst gezegd, verrassend.\nOmdat ik moeilijk kan geloven dat\nhier sprake is van plagiaat maar\neerder van toevallige  anticipatie,\nvermoed  ik  dat noch  professor\nRossi, noch de prijsrechter Kude-\nlich onze   studie kenden. Inder-\ndaad staat deze niet vermeld in\nHHdbIII. Harold was van mening\ndat de studie (n° 24611) reeds be-\nstond. Dat is ook zo, maar dan wel\nzonder de variant B, en ze werd\ndus niet opgenomen in zijn data-\nbase.\n\nWel kan men er het studiespie-\ngelbeeld vinden van P.Rossi en\nM.Campioli onder het n° 74. Het\nkreeg een aanbeveling  in 2004.\nTen onrechte dus.\n\nOnze studie verscheen als origi-\nneel in Flemish Miniatures onder\nn° 105, met de mededeling: Cor-\nrection of a Kasparyan, onwetend\ndat deze laatste, met een identie-\nke beginstelling een andere winst-\nvoering toonde.\n\nVandaar nu de varianten A en B.\n\nIn Spotlight (26) schreef rubriek-\nleider Jarl Ulrichsen:“Once more I\nam reluctant to talk of plagiarism. I\nthink that no one would suspect\nCampioli  of  cheating, and as   I\nmyself have recomposed endga-\nme studies, once even with a mir-\nrored position,\n           I always look for alternations. In my\nr     case  I simply forgot to look  for\n       mirrored positions although HHdb\n       allows this search. Mirrored posi-\n       tions are usually a typical sign of\n       plagiarism.\n\n      The last act of this story is an an-\n        ticlimax. Rossi was obviously not\n       content with the distinction in Gur-\n      genidze 50 JT. He sent the same\n     endgame study to another tourney\n      and was rewarded with the  first\n       prize in the ‘7 chess notes maga-\n        zine’.\n\n      This is of course a completely\n      unacceptable practice.  It is sur-\n        prising however that the judge did\n       not consult HHdbIII.”\n\n      Maar Marcel Van Herck e-mailde\n      me: “In my opinion Rossi must ha-\n      ve recomposed the study a second\n       time having completely forgotten\n      about this commendation in ‘Gur-\n      genidze 50 JT’. (He is an old man\n      and  I think he is not familiar with\n       computers.)”\n\n        Dit  lijkt mij zeer onwaarschijnlijk.\n     En of professor Rossi nu een com-\n       puter heeft of niet:\n\n       ‘Eerst is eerst.’",
       "beforeVariant": {
-        "B": "maar er zit geen muziek meer in.\n\nVariant A (Kasparjan 1977)\n\nNu het paard gepend is komt het\nandere ter hulp.\n\nAlle witte stukken staan nu in.\n\ndreigt 6.Tg7+ en 7.Txb7.\n\nAlles is gedekt: En 6…Lxd2? wordt\nafgestraft met 7.Pd6+. Tot  hier\nKasparjan. Maar zwart volhardt:\n\nDe witte vorst  is nu verplicht te\nspelen om de toren te bevrijden.\n\nEen  tussenschaakje. Maar  niet\n\nEn wint. Ook na:\n\nPd6 10.Lxd6 K~ 11.Lxe4,\nBeide met remise.\n\nLf7 5.Te7+ Kd8 6.Pf5! Lf6 7.Txf7+)\nHier lost de auteur de studie zo op:\n\nvan de auteur,) 3...Lg7 4.Pe5+ Ke8\n\nMaar: 3…Ld6! 4.Pf5 Lxf5 5.Txf5\nKxc6 en remise.\nDe studie is dus incorrect.\n\nMaar gelukkig is er een niet min-\nder elegante oplossing dan die van\nde auteur, (3.Tf6!? was het ver-\nkeerde spoor.) 3.Pd4!! Lg7 4.Pge2\nLd3 5.Tb6 Kc7 6.Tb2! Le5 7.Ka2\nLxe2 8.Tc2+ Kd6 9.Pxe2.",
-        "A": "(Missiaen - Vandecasteele)\n\nNa 3.Kh2? Lb8 en 4…Lxd6\n\nWit dreigde met 4.Td7+ de loper te\nslaan. En nu  dreigt  zwart met\n\nNa 7..Lf2 wint wit door overmacht.\nEn plots is daar dan Pegasus met\neen prachtig offeraanbod:\n\n“Un Estudio para recordar!” vond\nZoilo R. Caputto.\n\nHier volgt de rare voorgeschiede-\nnis en de verdere ontwikkeling van\nde studie op de vorige bladzijde:\n\nMissiaen vond twee nevenoplos-\nsingen  in een  miniatuurtje van\nKasparjan, dat de 3de prijs won in\nSchakend Nederland (1977):\n\nKc2 Lf1 Lh2 / Ka8 Te3 Pf2 Pg6 =\n\nHier  zijn deze twee mogelijkhe-\nden:\n\nRoger kraakte hier dus een fijne\n     studie van de Armeense Interna-\n     tionale Grootmeester.\n\n     In Schach (1881- 82) publiceerde\n     Kasparjan dan een correctie on-\n     der hun beider naam.\n    Kc2 Lf1 Lh2 / Ka8 Te3 Pf6 Pg6 =\n\nRemise.\n\n    Doch  ik ontdekte dat zwart hier\n     wint  na:  2.Kd1  met 2…Td3+!\n\nTe2  6.Kf1 Pf4 en  bijvoorbeeld:\n\nEn dus geen remise voor wit.\n\n    En nu, op mijn beurt, kraakte ik de\n     verbeterde studie van Kasparjan\n     (en Missiaen?).\n\n    Na intensief zoeken slaagden Ro-\n     ger en ik er in om, mits kleurver-\n     wisseling, een correcte beginstel-\n      ling te vinden. (Zie volgend blad.)\n\nEn hoe inventieve geesten elkaar\nontmoeten  bleek   hieruit:  Onze\nvondst (en diagramstelling  dus)\nbleek krek dezelfde te zijn als een\nheel andere studie van Kasparjan,\ndie er  in 1977 de 1ste eervolle\nvermelding voor ontving in Magyar\nSakkélet, namelijk studie -175 -.\n\nKh1 Tb6 Pb3 Pd7 /\n              Ke8 La7 Lc8 +\n\nHet merkwaardige en interessan-\nte is dat dit gelauwerd miniatuurtje\nnu verrijkt is met een tweede en\nmooie  variant, namelijk de  zet\n\nrige Vlamingen.\n\nJulien  Vandiest  oordeelde  dan\nook: “Another superb  aristocrat.\nThe analytical power of my two\nfriends  is at  its pitch when only\npieces are involved.”\n\nDoch in het tijdschift Seven Chess\nNotes nr 3 van maart 2009 (The\nbulletin  of a chess miniature  in\nKareliya) verscheen de uitslag van\nhet  studietornooi  2008,  waarin\nprofessor Pietro Rossi voor de op-\nlossing van onderstaande gespie-\ngelde stelling de 1ste Prijs toege-\nwezen kreeg:\n\nKa1 Tg6 Pe7 Pg3 / Kd8 Lf8 Lh7 +\n\nMet de oplossing:",
+        "B": "2.Tc6? Lb7 3.Pa5 Lxc6+ 4.Pxc6,\nmaar er zit geen muziek meer in.\n\nVariant A (Kasparjan 1977)\n\nNu het paard gepend is komt het\nandere ter hulp.\n\nAlle witte stukken staan nu in.\n\ndreigt 6.Tg7+ en 7.Txb7.\n\nAlles is gedekt: En 6…Lxd2? wordt\nafgestraft met 7.Pd6+. Tot  hier\nKasparjan. Maar zwart volhardt:\n\nDe witte vorst  is nu verplicht te\nspelen om de toren te bevrijden.\n\nEen  tussenschaakje. Maar  niet\n8.Txd2? Lxe4 en remise.\n\nEn wint. Ook na:\n\nPd6 10.Lxd6 K~ 11.Lxe4,\nBeide met remise.\n\n2…Kd7(2…Lg8 3.Te8 Lg7+ 4.Pe5\nLf7 5.Te7+ Kd8 6.Pf5! Lf6 7.Txf7+)\nHier lost de auteur de studie zo op:\n3.Tf6!!, (de uitroepingstekens zijn\nvan de auteur,) 3...Lg7 4.Pe5+ Ke8\n5.Te6+ Kf8 6.Ka2!! Lg8 7.Pd7+.\n\nMaar: 3…Ld6! 4.Pf5 Lxf5 5.Txf5\nKxc6 en remise.\nDe studie is dus incorrect.\n\nMaar gelukkig is er een niet min-\nder elegante oplossing dan die van\nde auteur, (3.Tf6!? was het ver-\nkeerde spoor.) 3.Pd4!! Lg7 4.Pge2\nLd3 5.Tb6 Kc7 6.Tb2! Le5 7.Ka2\nLxe2 8.Tc2+ Kd6 9.Pxe2.",
+        "A": "(Missiaen - Vandecasteele)\n\nNa 3.Kh2? Lb8 en 4…Lxd6\n\nWit dreigde met 4.Td7+ de loper te\nslaan. En nu  dreigt  zwart met\n4…Lb8 de toren te slaan\n\n5...Kc6? 6.Pa5+ Kxd5 7.Txb7\n\nNa 7..Lf2 wint wit door overmacht.\nEn plots is daar dan Pegasus met\neen prachtig offeraanbod:\n\n“Un Estudio para recordar!” vond\nZoilo R. Caputto.\n\nHier volgt de rare voorgeschiede-\nnis en de verdere ontwikkeling van\nde studie op de vorige bladzijde:\n\nMissiaen vond twee nevenoplos-\nsingen  in een  miniatuurtje van\nKasparjan, dat de 3de prijs won in\nSchakend Nederland (1977):\n\nKc2 Lf1 Lh2 / Ka8 Te3 Pf2 Pg6 =\n\n1.Kd2 Tf3 2.Lg2 Pe4+ 3.Kd1 Td3+\n4.Ke2 Td2+ 5.Kf1 Td4 6.Ke2 Ph4\n7.Ke3 Pf5+ 8.Kf4 Pfd6 9.Ke3 Pf5+\n10.Kf4 Pfd6 9.Ke3, remise.\n\nHier  zijn deze twee mogelijkhe-\nden:\n\n4.Ke2, enzovoort zoals in b).\n\nRoger kraakte hier dus een fijne\n     studie van de Armeense Interna-\n     tionale Grootmeester.\n\n     In Schach (1881- 82) publiceerde\n     Kasparjan dan een correctie on-\n     der hun beider naam.\n    Kc2 Lf1 Lh2 / Ka8 Te3 Pf6 Pg6 =\n\n1.Lg2+ Pe4 2.Kd1 en 2…Ph4?\n\nRemise.\n\n    Doch  ik ontdekte dat zwart hier\n     wint  na:  2.Kd1  met 2…Td3+!\n\nTe2  6.Kf1 Pf4 en  bijvoorbeeld:\n\nEn dus geen remise voor wit.\n\n    En nu, op mijn beurt, kraakte ik de\n     verbeterde studie van Kasparjan\n     (en Missiaen?).\n\n    Na intensief zoeken slaagden Ro-\n     ger en ik er in om, mits kleurver-\n     wisseling, een correcte beginstel-\n      ling te vinden. (Zie volgend blad.)\n\nEn hoe inventieve geesten elkaar\nontmoeten  bleek   hieruit:  Onze\nvondst (en diagramstelling  dus)\nbleek krek dezelfde te zijn als een\nheel andere studie van Kasparjan,\ndie er  in 1977 de 1ste eervolle\nvermelding voor ontving in Magyar\nSakkélet, namelijk studie -175 -.\n\nKh1 Tb6 Pb3 Pd7 /\n              Ke8 La7 Lc8 +\n\nHet merkwaardige en interessan-\nte is dat dit gelauwerd miniatuurtje\nnu verrijkt is met een tweede en\nmooie  variant, namelijk de  zet\n2.Lb7+, gevonden door twee ijve-\nrige Vlamingen.\n\nJulien  Vandiest  oordeelde  dan\nook: “Another superb  aristocrat.\nThe analytical power of my two\nfriends  is at  its pitch when only\npieces are involved.”\n\nDoch in het tijdschift Seven Chess\nNotes nr 3 van maart 2009 (The\nbulletin  of a chess miniature  in\nKareliya) verscheen de uitslag van\nhet  studietornooi  2008,  waarin\nprofessor Pietro Rossi voor de op-\nlossing van onderstaande gespie-\ngelde stelling de 1ste Prijs toege-\nwezen kreeg:\n\nKa1 Tg6 Pe7 Pg3 / Kd8 Lf8 Lh7 +\n\nMet de oplossing:\n\n1.Pc6+ Kc7! 2.Te6!",
         "A.a": "Na 3.Ke1 Te3+ 4.Kd1 volgt:",
         "A.b": "Ta3+ 10.Kd4 Txe3 11.Lxd5+\n   en 12.Kxe3"
       }

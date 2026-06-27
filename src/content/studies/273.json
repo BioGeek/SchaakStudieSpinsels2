@@ -323,51 +323,304 @@
       "parent": "main.b3.17"
     },
     {
-      "id": "main.19",
-      "ply": 19,
-      "san": "a5",
-      "nl": "a5",
-      "fenAfter": "1K6/2p5/k2bP3/P4p2/8/6P1/6P1/8 b - - 0 8",
+      "id": "main.15",
+      "ply": 15,
+      "san": "Kc8",
+      "nl": "Kc8",
+      "fenAfter": "2K5/2p5/k2bP3/5p2/P7/6P1/6P1/8 b - - 4 8",
       "variant": "main",
       "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "c5",
+      "nl": "c5",
+      "fenAfter": "2K5/8/k2bP3/2p2p2/P7/6P1/6P1/8 w - - 0 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Kd7",
+      "nl": "Kd7",
+      "fenAfter": "8/3K4/k2bP3/2p2p2/P7/6P1/6P1/8 b - - 1 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Bf8",
+      "nl": "Lf8",
+      "fenAfter": "5b2/3K4/k3P3/2p2p2/P7/6P1/6P1/8 w - - 2 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Ke8",
+      "nl": "Ke8",
+      "fenAfter": "4Kb2/8/k3P3/2p2p2/P7/6P1/6P1/8 b - - 3 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Bh6",
+      "nl": "Lh6",
+      "fenAfter": "4K3/8/k3P2b/2p2p2/P7/6P1/6P1/8 w - - 4 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kf7",
+      "nl": "Kf7",
+      "fenAfter": "8/5K2/k3P2b/2p2p2/P7/6P1/6P1/8 b - - 5 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Bg5",
+      "nl": "Lg5",
+      "fenAfter": "8/5K2/k3P3/2p2pb1/P7/6P1/6P1/8 w - - 6 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Kg6",
+      "nl": "Kg6",
+      "fenAfter": "8/8/k3P1K1/2p2pb1/P7/6P1/6P1/8 b - - 7 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Be7",
+      "nl": "Le7",
+      "fenAfter": "8/4b3/k3P1K1/2p2p2/P7/6P1/6P1/8 w - - 8 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Kxf5",
+      "nl": "Kxf5",
+      "fenAfter": "8/4b3/k3P3/2p2K2/P7/6P1/6P1/8 b - - 0 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "c4",
+      "nl": "c4",
+      "fenAfter": "8/4b3/k3P3/5K2/P1p5/6P1/6P1/8 w - - 0 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/4b3/k3P3/8/P1p1K3/6P1/6P1/8 b - - 1 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/4b3/4P3/k7/P1p1K3/6P1/6P1/8 w - - 2 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "8/4b3/4P3/k7/P1pK4/6P1/6P1/8 b - - 3 15",
+      "variant": "main",
+      "parent": "main.28"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/4b3/4P3/8/PkpK4/6P1/6P1/8 w - - 4 16",
+      "variant": "main",
+      "parent": "main.29"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "8/4b3/4P3/P7/1kpK4/6P1/6P1/8 b - - 0 16",
+      "variant": "main",
+      "parent": "main.30"
     },
     {
       "id": "A.32",
       "ply": 32,
       "san": "Bc5+",
       "nl": "Lc5+",
-      "fenAfter": "1K6/2p5/k3P3/P1b2p2/8/6P1/6P1/8 w - - 1 9",
+      "fenAfter": "8/8/4P3/P1b5/1kpK4/6P1/6P1/8 w - - 1 17",
       "variant": "A",
-      "parent": "main.19"
+      "parent": "main.31"
     },
     {
-      "id": "A.39",
-      "ply": 39,
-      "san": "e7",
-      "nl": "e7",
-      "fenAfter": "1K6/2p1P3/k7/P1b2p2/8/6P1/6P1/8 b - - 0 9",
+      "id": "A.33",
+      "ply": 33,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/4P3/P1bK4/1kp5/6P1/6P1/8 b - - 2 17",
       "variant": "A",
       "parent": "A.32"
     },
     {
-      "id": "B.41",
-      "ply": 41,
-      "san": "Kb5",
-      "nl": "K~",
-      "fenAfter": "1K6/2p5/3bP3/Pk3p2/8/6P1/6P1/8 w - - 1 9",
+      "id": "A.34",
+      "ply": 34,
+      "san": "c3",
+      "nl": "c3",
+      "fenAfter": "8/8/4P3/P1bK4/1k6/2p3P1/6P1/8 w - - 0 18",
+      "variant": "A",
+      "parent": "A.33"
+    },
+    {
+      "id": "A.35",
+      "ply": 35,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/8/P3P3/2bK4/1k6/2p3P1/6P1/8 b - - 0 18",
+      "variant": "A",
+      "parent": "A.34"
+    },
+    {
+      "id": "A.36",
+      "ply": 36,
+      "san": "c2",
+      "nl": "c2",
+      "fenAfter": "8/8/P3P3/2bK4/1k6/6P1/2p3P1/8 w - - 0 19",
+      "variant": "A",
+      "parent": "A.35"
+    },
+    {
+      "id": "A.37",
+      "ply": 37,
+      "san": "a7",
+      "nl": "a7",
+      "fenAfter": "8/P7/4P3/2bK4/1k6/6P1/2p3P1/8 b - - 0 19",
+      "variant": "A",
+      "parent": "A.36"
+    },
+    {
+      "id": "A.a.38",
+      "ply": 38,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "8/P7/4P3/2bK4/1k6/6P1/6P1/2q5 w - - 0 20",
+      "variant": "A.a",
+      "parent": "A.37"
+    },
+    {
+      "id": "A.b.38",
+      "ply": 38,
+      "san": "Bxa7",
+      "nl": "Lxa7",
+      "fenAfter": "8/b7/4P3/3K4/1k6/6P1/2p3P1/8 w - - 0 20",
+      "variant": "A.b",
+      "parent": "A.37"
+    },
+    {
+      "id": "B.32",
+      "ply": 32,
+      "san": "Bf6+",
+      "nl": "Lf6+",
+      "fenAfter": "8/8/4Pb2/P7/1kpK4/6P1/6P1/8 w - - 1 17",
       "variant": "B",
-      "parent": "main.19"
+      "parent": "main.31"
+    },
+    {
+      "id": "B.33",
+      "ply": 33,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/8/4Pb2/P2K4/1kp5/6P1/6P1/8 b - - 2 17",
+      "variant": "B",
+      "parent": "B.32"
+    },
+    {
+      "id": "B.34",
+      "ply": 34,
+      "san": "c3",
+      "nl": "c3",
+      "fenAfter": "8/8/4Pb2/P2K4/1k6/2p3P1/6P1/8 w - - 0 18",
+      "variant": "B",
+      "parent": "B.33"
+    },
+    {
+      "id": "B.35",
+      "ply": 35,
+      "san": "a6",
+      "nl": "a6",
+      "fenAfter": "8/8/P3Pb2/3K4/1k6/2p3P1/6P1/8 b - - 0 18",
+      "variant": "B",
+      "parent": "B.34"
+    },
+    {
+      "id": "B.36",
+      "ply": 36,
+      "san": "c2",
+      "nl": "c2",
+      "fenAfter": "8/8/P3Pb2/3K4/1k6/6P1/2p3P1/8 w - - 0 19",
+      "variant": "B",
+      "parent": "B.35"
+    },
+    {
+      "id": "B.37",
+      "ply": 37,
+      "san": "e7",
+      "nl": "e7",
+      "fenAfter": "8/4P3/P4b2/3K4/1k6/6P1/2p3P1/8 b - - 0 19",
+      "variant": "B",
+      "parent": "B.36"
+    },
+    {
+      "id": "B.38",
+      "ply": 38,
+      "san": "Bxe7",
+      "nl": "Lxe7",
+      "fenAfter": "8/4b3/P7/3K4/1k6/6P1/2p3P1/8 w - - 0 20",
+      "variant": "B",
+      "parent": "B.37"
     }
   ],
   "prose": {
     "nl": {
       "before": "Nadat wit een nog te behalen da-\nme ruilt tegen de toren, ontstaat er\neen stelling met wit aan zet. Men\nzie:",
-      "after": "8…          c5        9.Kd7\n\n9...           Lf8\n\nEn niet 19.a7? c1D 20.e8D Dd2+\n\nEn zwart kan niet winnen.\n\n    De witte koning wandelt via Ka8,\n    Kb8, Kc8, Kd7, Ke8, Kf7, Kg6, Kf5,\n    Ke4, en Kd4 naar Kd5 om tot de\n     zwarte  pion  te komen.De  prijs-\n     rechters schreven dan ook: “White\n     King outside the c-pawn quadrant,\n     tours the board to get sufficient\n     counterplay.”\n\n    Het leuke is dat op het einde wit in\n     variant A. 19.a7 moet spelen en in\n     variant B. 19.e7 om remise te ha-\n      len.\n\n    Deze laatste variant (19.e7) vond\n      ik jammer genoeg eerst na de prijs-\n      uitreiking. Bij het eerder vermelden\n     ervan had ik misschien hoger ge-\n    scoord?",
+      "after": "En niet 19.a7? c1D 20.e8D Dd2+\n\n21.K~ Dxg2+ en 22.Dxa8.\n\nEn zwart kan niet winnen.\n\n    De witte koning wandelt via Ka8,\n    Kb8, Kc8, Kd7, Ke8, Kf7, Kg6, Kf5,\n    Ke4, en Kd4 naar Kd5 om tot de\n     zwarte  pion  te komen.De  prijs-\n     rechters schreven dan ook: “White\n     King outside the c-pawn quadrant,\n     tours the board to get sufficient\n     counterplay.”\n\n    Het leuke is dat op het einde wit in\n     variant A. 19.a7 moet spelen en in\n     variant B. 19.e7 om remise te ha-\n      len.\n\n    Deze laatste variant (19.e7) vond\n      ik jammer genoeg eerst na de prijs-\n      uitreiking. Bij het eerder vermelden\n     ervan had ik misschien hoger ge-\n    scoord?",
       "beforeVariant": {
+        "main.b": "4...Txg8. Ofwel:",
         "main.a2": "Tot zover dus de inleiding. En nu:",
-        "main.a3": "loopt door.\n\nNu niet 5...c5 6.Kxb8 c4 7.e6 c3\n\nEen eerste functie van pion a4.\n\nZwart blokkeert hier de doorgang\nvoor zijn c-pion, dus:\n\nMaakt de weg  vrij voor de pion,\nwant bijvoorbeeld:",
-        "A": "pion a4, waardoor de zwarte\n    koning vroeg of laat de eigen\n    pion moet loslaten) 10…Kb8\n\nNu dreigt er 9.e7 Lxe7 10.Kxc7,\ndaarom nu of nooit:\n\nMaar nu  is de loper geblokkerd\ndoor de eigen pion, dus:\n\nNa 9…c4 10.Kxd6 c3 11.e7 c2\n\nKa6 15.Db5+ Ka7 16.Dc5+ Dxc5+\n\nEn na deze achtervolging slaat wit\neen vervelende pion:\n\nNa 13...Ka5? 14.g4 c4 15.g5 Lxg5\n\nhier: 15...c3 16.g6 c2 17.g7 c1D\n\nEen derde functie van de a-pion is\ndat  zij 14...Kb5  niet  toelaat. En\nnatuurlijk  niet  14...e3?  15.Kd3\nLf6(Lb4) 16.e7 Lxe7 en 17.Kxc3.\n\nEen vierde functie van de a-pion.\nHij dreigt door te lopen. En nu zijn\ner twee voortzettingen voor zwart:",
-        "A.a": "Maar  niet  19.e7? c1D  20.e8D\nDc4+ 21.Ke5 De2+ en 22...Dxe8.\nOf  hier  nog  21.Kc6 Db5+  en",
+        "main.a3": "8.Kb8 c5 en de zwarte pion\n\nloopt door.\n\nNu niet 5...c5 6.Kxb8 c4 7.e6 c3\n8.e7 c2 9.e8D c1D 10.Db5+ mat.\nEen eerste functie van pion a4.\n\nZwart blokkeert hier de doorgang\nvoor zijn c-pion, dus:\n\nMaakt de weg  vrij voor de pion,\nwant bijvoorbeeld:",
+        "A": "10.a5 (Een tweede functie van\n\npion a4, waardoor de zwarte\n    koning vroeg of laat de eigen\n    pion moet loslaten) 10…Kb8\n\n11.a6 Ka7 en nu 12.e7 Lxe7\n\n15.Ke6 f4 en 16.gxf4, remise.\n\nNu dreigt er 9.e7 Lxe7 10.Kxc7,\ndaarom nu of nooit:\n\nMaar nu  is de loper geblokkerd\ndoor de eigen pion, dus:\n\nNa 9…c4 10.Kxd6 c3 11.e7 c2\n12.c8D c1D 13.Da8+ Kb614.Db8+\nKa6 15.Db5+ Ka7 16.Dc5+ Dxc5+\n17.Kxc5, en wit wint.\n\nEn na deze achtervolging slaat wit\neen vervelende pion:\n\nNa 13...Ka5? 14.g4 c4 15.g5 Lxg5\n16.Kxg5 c3 17.e7 c2 18.e8D. Of\nhier: 15...c3 16.g6 c2 17.g7 c1D\n18.g8D is het remise.\n\nEen derde functie van de a-pion is\ndat  zij 14...Kb5  niet  toelaat. En\nnatuurlijk  niet  14...e3?  15.Kd3\nLf6(Lb4) 16.e7 Lxe7 en 17.Kxc3.\n\nEen vierde functie van de a-pion.\nHij dreigt door te lopen. En nu zijn\ner twee voortzettingen voor zwart:",
+        "A.a": "Maar  niet  19.e7? c1D  20.e8D\nDc4+ 21.Ke5 De2+ en 22...Dxe8.\nOf  hier  nog  21.Kc6 Db5+  en\n22...Dxe8.",
         "A.b": "Remise of hier 20..Dd2+? 21.Ke5,\nremise. (Ken Thompson) Of ook:"
       }
     }

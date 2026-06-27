@@ -125,20 +125,56 @@
       "parent": "main.4"
     },
     {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bf5+",
+      "nl": "Lf5+",
+      "fenAfter": "8/8/8/5b2/P6R/2k4K/p6B/8 w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/8/8/5b2/P6R/2k5/p5KB/8 b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Be4+",
+      "nl": "Le4+",
+      "fenAfter": "8/8/8/8/P3b2R/2k5/p5KB/8 w - - 6 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "8/8/8/8/P3b2R/2k5/p4K1B/8 b - - 7 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
       "id": "main.10",
       "ply": 10,
       "san": "Kd4",
       "nl": "Kd4",
-      "fenAfter": "8/8/8/8/P2kb2R/7K/p6B/8 w - - 4 4",
+      "fenAfter": "8/8/8/8/P2kb2R/8/p4K1B/8 w - - 8 6",
       "variant": "main",
-      "parent": "main.5"
+      "parent": "main.9"
     },
     {
       "id": "main.11",
       "ply": 11,
       "san": "Rh5",
       "nl": "Th5",
-      "fenAfter": "8/8/8/7R/P2kb3/7K/p6B/8 b - - 5 4",
+      "fenAfter": "8/8/8/7R/P2kb3/8/p4K1B/8 b - - 9 6",
       "variant": "main",
       "parent": "main.10"
     },
@@ -147,18 +183,81 @@
       "ply": 12,
       "san": "Bf5",
       "nl": "Lf5",
-      "fenAfter": "8/8/8/5b1R/P2k4/7K/p6B/8 w - - 6 5",
+      "fenAfter": "8/8/8/5b1R/P2k4/8/p4K1B/8 w - - 10 7",
       "variant": "main",
       "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rxf5",
+      "nl": "Txf5",
+      "fenAfter": "8/8/8/5R2/P2k4/8/p4K1B/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "a1=Q",
+      "nl": "a1D",
+      "fenAfter": "8/8/8/5R2/P2k4/8/5K1B/q7 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Be5+",
+      "nl": "Le5+",
+      "fenAfter": "8/8/8/4BR2/P2k4/8/5K2/q7 b - - 1 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/8/8/4BR2/P3k3/8/5K2/q7 w - - 2 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Bxa1",
+      "nl": "Lxa1",
+      "fenAfter": "8/8/8/5R2/P3k3/8/5K2/B7 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kxf5",
+      "nl": "Kxf5",
+      "fenAfter": "8/8/8/5k2/P7/8/5K2/B7 w - - 0 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "a5",
+      "nl": "a5",
+      "fenAfter": "8/8/8/P4k2/8/8/5K2/B7 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "Zwart dreigt te promoveren na",
-      "after": "Kd5 5.Lxa1 Kxe6  is het ook\n    remise. Of  hier  faalt 3.Th4+\n   Kd5 4.Tf4 a1D 5.Txf3 Dxa4, en\n   geen winst. (Nalimov E.T.)\n\nWit wint na: 2…Kb3? 3.Ld4 Kxa4\nmet bijvoorbeeld 4.Kg3  in maxi-\nmum 27 zetten (Nalimov E.T.)\n\nEn niet het gulzige 3.Txe4? a1D\n\nKxe4, remise. Ook hier na 7.Te3+\nKxe3 8.Lxa1 Ke4, enzovoort.\n\nNu rukt de pion op tot het winnen-\nde promotieveld, daar de zwarte\nkoning buiten het kwadraat staat.\n\nDit is een correctie van de studie:\n\nKh3 Th6 Lg1 a3 a4 / Kc3 Lf3 a2+\n\ndie in de eerste uitgave van het\nboek SchaakStudieSpinselS  ver-\nscheen in 2008.\n Want na 1.Th4 Le4 slaat wit in\nplaats van 2.Lh2 enzovoort, nu\ntoch 2.Txe4! met 2...e1D 3.Ld4+\nKd3 4.Lxa1 Kxe4 5.a5 Kd5 6.a6\nKc6 en nu 7.Ld4! Kc7 8.La7! Kc6\n\nbieden voor de winst.\nNevenoplosbaar dus Er was, hoe\nraar dan ook, een witte pion te\nveel!\n\nFernand Joseph vond het: “Een\nfraaie en slinkse manoeuvre.”\n\nIn Finales…y Temas schreef José\nA. Copié: “Y promociona por que\ndejan fuera del cuadrado al Rey\nnegro. La presentación Y de  la\nobra es muy atractiva pues parece\ncomplicado detener la promoción\nque amenazan las negras y a la\nvez eludir la situación de ta-blas\nteóricas, pero Vandecasteele  lo\nlogra mediante las  finas manio-\nbras ideadas.”\n\nIn Probleemblad,  en later ook in\nEG, vond de prijsrechter Yocha-\nnan Afek  dat: “A  capture-delay\nprovides the essential tempo for\nwinning  the  eventual pawn  en-\nding. The attractive mini systema-\ntic manoevre is a correction of the\nauthor’s HhdbIV 74988.”",
+      "after": "Kd5 5.Lxa1 Kxe6  is het ook\n    remise. Of  hier  faalt 3.Th4+\n   Kd5 4.Tf4 a1D 5.Txf3 Dxa4, en\n   geen winst. (Nalimov E.T.)\n\nWit wint na: 2…Kb3? 3.Ld4 Kxa4\nmet bijvoorbeeld 4.Kg3  in maxi-\nmum 27 zetten (Nalimov E.T.)\n\nEn niet het gulzige 3.Txe4? a1D\n4.Ld4+ Kd3 5.Lxa1 Kxe4, remise.\n\n5.Txc4? a1D 6.Le5+ Kd3 7.Lxa1\nKxe4, remise. Ook hier na 7.Te3+\nKxe3 8.Lxa1 Ke4, enzovoort.\n\n6...Lg6? 7.Le5+ Ke4 8.Tg5 en na\n8...Lf7  wint 9.a5 En na 8…Lf5\n9.La1, enzovoort.\n\nNu rukt de pion op tot het winnen-\nde promotieveld, daar de zwarte\nkoning buiten het kwadraat staat.\n\nDit is een correctie van de studie:\n\nKh3 Th6 Lg1 a3 a4 / Kc3 Lf3 a2+\n\ndie in de eerste uitgave van het\nboek SchaakStudieSpinselS  ver-\nscheen in 2008.\n Want na 1.Th4 Le4 slaat wit in\nplaats van 2.Lh2 enzovoort, nu\ntoch 2.Txe4! met 2...e1D 3.Ld4+\nKd3 4.Lxa1 Kxe4 5.a5 Kd5 6.a6\nKc6 en nu 7.Ld4! Kc7 8.La7! Kc6\n9.a4, en de witte koning komt hulp\nbieden voor de winst.\nNevenoplosbaar dus Er was, hoe\nraar dan ook, een witte pion te\nveel!\n\nFernand Joseph vond het: “Een\nfraaie en slinkse manoeuvre.”\n\nIn Finales…y Temas schreef José\nA. Copié: “Y promociona por que\ndejan fuera del cuadrado al Rey\nnegro. La presentación Y de  la\nobra es muy atractiva pues parece\ncomplicado detener la promoción\nque amenazan las negras y a la\nvez eludir la situación de ta-blas\nteóricas, pero Vandecasteele  lo\nlogra mediante las  finas manio-\nbras ideadas.”\n\nIn Probleemblad,  en later ook in\nEG, vond de prijsrechter Yocha-\nnan Afek  dat: “A  capture-delay\nprovides the essential tempo for\nwinning  the  eventual pawn  en-\nding. The attractive mini systema-\ntic manoevre is a correction of the\nauthor’s HhdbIV 74988.”",
       "beforeVariant": {
         "main.a": "waarop wit repliceert met\n\nen de dreiging 3.Ld4+.\nNiet goed is:",
-        "main.b": "zwart houdt remise daar zijn\n    koning veld a8 bereikt. En na"
+        "main.b": "4.Ld4+ Kc4 5.Lxa1 Kxd5 en\n\nzwart houdt remise daar zijn\n    koning veld a8 bereikt. En na"
       }
     }
   }

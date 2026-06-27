@@ -195,6 +195,27 @@ def tokenize_body(body: str) -> list[dict]:
     variant_re = re.compile(r"^\s*Variant\s+([A-Z])\s*$")
     subvar_re = re.compile(r"^\s*([a-z])\)\s*(.*)$")
 
+    def _indent(s: str) -> int:
+        return len(s) - len(s.lstrip())
+
+    # Does this study lay its solution out as an indented move-table column?
+    # The printed studies put each main-line ply in a narrow right-hand column
+    # (indent ≥ 3), while wrapped inline variant analysis runs flush against the
+    # left margin (indent 0). When a table column is present, a flush-left line
+    # that merely *opens* with a move number is therefore side-line prose, not a
+    # table row — and must not seed the move tree: its ply can outrun the main
+    # tail and silently corrupt the trunk (e.g. studies 6 and 11, where a
+    # flush-left "5.Pe4+ …" wrapped from the previous variant truncated the main
+    # line). Single-column studies (no indented rows at all, e.g. 12/95/228)
+    # keep their flush-left rows, so the guard only applies when a column exists.
+    body_lines = body.splitlines()
+    has_indented_table = any(
+        MOVE_LINE_RE.match(ln.rstrip())
+        and not subvar_re.match(ln.rstrip())
+        and _indent(ln.rstrip()) >= 3
+        for ln in body_lines
+    )
+
     def flush_prose():
         if current_prose:
             text = "\n".join(current_prose).strip()
@@ -223,7 +244,24 @@ def tokenize_body(body: str) -> list[dict]:
             flush_moves()
             tokens.append({"kind": "subvariant_header", "label": m.group(1), "tail": m.group(2)})
             continue
-        if MOVE_LINE_RE.match(line) or (line.lstrip().startswith("…") or line.lstrip().startswith("...")):
+        is_move_num_line = bool(MOVE_LINE_RE.match(line))
+        is_ellipsis_line = line.lstrip().startswith("…") or line.lstrip().startswith("...")
+        if is_move_num_line or is_ellipsis_line:
+            # Flush-left move-number line in a column-formatted study is wrapped
+            # inline variant analysis — but only when it carries the wrapped-prose
+            # signature: two or more move numbers on the one physical line, or
+            # leftover prose words (`not _is_clean_move_row`). A lone, clean
+            # flush-left move (e.g. a main row the extractor pushed to the margin,
+            # or one prefixed by a stray ".") is a genuine table row and stays.
+            if (
+                has_indented_table
+                and is_move_num_line
+                and _indent(line) == 0
+                and (len(MOVE_NUM_RE.findall(line)) >= 2 or not _is_clean_move_row(line))
+            ):
+                flush_moves()
+                current_prose.append(line)
+                continue
             flush_prose()
             current_moves.append(line)
             # A line containing a "(zie zet N.)" style back-reference marks

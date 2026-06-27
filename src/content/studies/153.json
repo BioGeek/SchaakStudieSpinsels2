@@ -24,12 +24,273 @@
       "fenAfter": "8/8/8/8/1kpBp3/n7/1K6/2N5 w - - 2 2",
       "variant": "main",
       "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Na2+",
+      "nl": "Pa2+",
+      "fenAfter": "8/8/8/8/1kpBp3/n7/NK6/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/8/8/8/k1pBp3/n7/NK6/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nc3+",
+      "nl": "Pc3+",
+      "fenAfter": "8/8/8/8/k1pBp3/n1N5/1K6/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/8/8/1kpBp3/n1N5/1K6/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "8/8/8/3N4/1kpBp3/n7/1K6/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/8/8/3N4/k1pBp3/n7/1K6/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "8/8/1N6/8/k1pBp3/n7/1K6/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/1N6/8/1kpBp3/n7/1K6/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Bc3+",
+      "nl": "Lc3+",
+      "fenAfter": "8/8/1N6/8/1kp1p3/n1B5/1K6/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/1N6/1k6/2p1p3/n1B5/1K6/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3N4/8/1k6/2p1p3/n1B5/1K6/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/3N4/8/8/k1p1p3/n1B5/1K6/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "8/8/8/2N5/k1p1p3/n1B5/1K6/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1kN5/2p1p3/n1B5/1K6/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxe4",
+      "nl": "Pxe4",
+      "fenAfter": "8/8/8/1k6/2p1N3/n1B5/1K6/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/8/8/8/k1p1N3/n1B5/1K6/8 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "8/8/8/2N5/k1p5/n1B5/1K6/8 b - - 2 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1kN5/2p5/n1B5/1K6/8 w - - 3 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3N4/8/1k6/2p5/n1B5/1K6/8 b - - 4 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/3N4/8/8/k1p5/n1B5/1K6/8 w - - 5 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "8/8/1N6/8/k1p5/n1B5/1K6/8 b - - 6 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/1N6/1k6/2p5/n1B5/1K6/8 w - - 7 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/1N6/1k6/2pB4/n7/1K6/8 b - - 8 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/1N6/8/1kpB4/n7/1K6/8 w - - 9 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Nd5+",
+      "nl": "Pd5+",
+      "fenAfter": "8/8/8/3N4/1kpB4/n7/1K6/8 b - - 10 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Ka4",
+      "nl": "Ka4",
+      "fenAfter": "8/8/8/3N4/k1pB4/n7/1K6/8 w - - 11 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Bc3",
+      "nl": "Lc3",
+      "fenAfter": "8/8/8/3N4/k1p5/n1B5/1K6/8 b - - 12 15",
+      "variant": "main",
+      "parent": "main.28"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Nb5",
+      "nl": "Pb5",
+      "fenAfter": "8/8/8/1n1N4/k1p5/2B5/1K6/8 w - - 13 16",
+      "variant": "main",
+      "parent": "main.29"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "Nb6+",
+      "nl": "Pb6+",
+      "fenAfter": "8/8/1N6/1n6/k1p5/2B5/1K6/8 b - - 14 16",
+      "variant": "main",
+      "parent": "main.30"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "Een eerste poging om de Friese\nvolbloed naar veld b5 te dwingen\nfaalt:  5.Lc3? e3 6.Le1 e2 7.Pc3+\nKb4  8.Pb1+  c3+  9.Lxc3+ Ka4\n\nZwart ontneemt hier gedwongen\nhet  vluchtveld  voor  zijn  paard:\n\nNiet 7...Kc6? 8.Pe5+ K~ 9.Kxa3.\n\nEen tweede poging om het zwarte\n    paard naar b5 te lokken faalt even\n    eens 10.Ld2(Le1)? c3+ 11.Pxc3+\n    Kb4 12.Pb1+ Ka4 13.Pxa3. En ook\n     hier is hier pat.\n\nEindelijk. Nu het pionnetje weg is\n    moet het paard spelen:\n\nmaar blokkeert daardoor  zijn  ei-\n    gen koning. En wit geeft mat met:\n\n“Un  trabajo muy  bello,  plastico,\n    armonioso que fuera en su opor-\n     tunidad elogiada por el Prof Zoilo\n     R. Caputto como un obra perfecta,\n    como la figura geometrica que la\n     distingue” oordeelde José A.Co-\n      pié.\n\n     In EG 10 N°394 (10/1967) staat:\n     “A remarkable  miniature by the\n     well-know  Belgian composer. A\n     popular mating theme enriched by\n     stalemate on moves 5 and 10.”",
+      "after": "1...Pd2? 2.Lc3+ K~ 3.Lxd2\n\nEen eerste poging om de Friese\nvolbloed naar veld b5 te dwingen\nfaalt:  5.Lc3? e3 6.Le1 e2 7.Pc3+\nKb4  8.Pb1+  c3+  9.Lxc3+ Ka4\n10.Pxa3 e1D 11.Lxe1, en pat.\n\nZwart ontneemt hier gedwongen\nhet  vluchtveld  voor  zijn  paard:\n6...Kc5? 7.Pa4+ K~ 8.Kxa3.\n\nNiet 7...Kc6? 8.Pe5+ K~ 9.Kxa3.\n\nEen tweede poging om het zwarte\n    paard naar b5 te lokken faalt even\n    eens 10.Ld2(Le1)? c3+ 11.Pxc3+\n    Kb4 12.Pb1+ Ka4 13.Pxa3. En ook\n     hier is hier pat.\n\nEindelijk. Nu het pionnetje weg is\n    moet het paard spelen:\n\nmaar blokkeert daardoor  zijn  ei-\n    gen koning. En wit geeft mat met:\n\n“Un  trabajo muy  bello,  plastico,\n    armonioso que fuera en su opor-\n     tunidad elogiada por el Prof Zoilo\n     R. Caputto como un obra perfecta,\n    como la figura geometrica que la\n     distingue” oordeelde José A.Co-\n      pié.\n\n     In EG 10 N°394 (10/1967) staat:\n     “A remarkable  miniature by the\n     well-know  Belgian composer. A\n     popular mating theme enriched by\n     stalemate on moves 5 and 10.”",
       "beforeVariant": {}
     }
   }

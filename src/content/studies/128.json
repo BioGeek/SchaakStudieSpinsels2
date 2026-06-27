@@ -168,12 +168,21 @@
       "fenAfter": "8/knB5/8/2p5/K7/2N5/8/8 w - - 2 10",
       "variant": "main",
       "parent": "main.17"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Bxa5",
+      "nl": "Lxa5",
+      "fenAfter": "8/kn6/8/B1p5/K7/2N5/8/8 b - - 3 10",
+      "variant": "main",
+      "parent": "main.18"
     }
   ],
   "prose": {
     "nl": {
       "before": "",
-      "after": "Dreigt het paard in te sluiten.\n\nNa 2…Pc1? verliest zwart na 40\nzetten. Bijvoorbeeld: 3.Lh2 Pe2+\n\nzovoort.\n\nen het liedje is uit.\n\nNa 10…Ka7  verliest zwartna 28\n     zetten door bijvoorbveeld 11.Kb5\n    Ka8 12.Kc4 Ka7 13.Pb5+ Ka6\n\nWinst door elf (11) opeenvolgende\n     zetten van wit zonder schaak te\n     geven!",
+      "after": "Dreigt het paard in te sluiten.\n\nNa 2…Pc1? verliest zwart na 40\nzetten. Bijvoorbeeld: 3.Lh2 Pe2+\n4.Kc4 Ka7 5.Pc5 Pc1 6.Lf4 Pe2\n7.Le3 Pg3 8.Pe4+ c5 9.Pxg3, en-\nzovoort.\n\n9…c4? 10.Kb4 Ka7 11.Kb5 Ka8\n12.Kxc4 Ka7 13.Pb5+ Ka6 14.Kb4\nen het liedje is uit.\n\nNa 10…Ka7  verliest zwartna 28\n     zetten door bijvoorbveeld 11.Kb5\n    Ka8 12.Kc4 Ka7 13.Pb5+ Ka6\n\n14.Kb4, enzovoort.\n\nWinst door elf (11) opeenvolgende\n     zetten van wit zonder schaak te\n     geven!",
       "beforeVariant": {}
     }
   }
