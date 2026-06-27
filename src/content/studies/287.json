@@ -130,5 +130,6 @@
       "before": "Omdat ik ten onrechte dacht dat de bovenstaande studie in de eerste uitgave van SchaakStudieSpinsels fout was, (ik vertrok namelijk van een verkeerd diagram), componeerde ik de uitgebreidere studie op de vorige bladzijde. Maar deze voorganger is dus blijkbaar toch correct:\n\nEn niet 1.Kxb7 Pxc7 2.Kxc7 Lc5 3.Kc6 Ld4 4.Lf7 Kg5 5.Lxg6 Kxg6, remise.\n\nEr dreigen nu drie (3) damepromoties, maar 1…Pxc7? faalt op 2.b8D;",
       "after": "4.b8D? Ld6+ 5.Dxd6 Pxd6 6.Kxd6 Kg6, remise.\n\nZwart houdt veld h4 vrij voor zijn loper.\n\n6.b8D? Lg3+ 7.Kf5 Lxb8, remise.\n\nEn niet 7.b8D? Lc7+ 8.Dxc7 pat.\n\nDus geen damepromoties, maar een loperpromotie!\n\nDe eindredacteur Cor de Feijter poneerde indertijd: “De minorpromotie is aantrekkelijk voor beginnende componisten, ik weet het uit ervaring.” En verder: ”Componeren is soms een worsteling met het materiaal!”\n\nNou, en of !"
     }
-  }
+  },
+  "curated": true
 }

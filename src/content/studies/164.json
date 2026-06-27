@@ -625,5 +625,6 @@
       "before": "De zwarte koning staat schaak en kiest uit 3 mogelijkheden de beste zet, namelijk:",
       "after": "\"A stupendous move!\" vond Julien Vandiest.\n\nNiet goed is 2.axb7? Th2+ 3.Ke3 Tb2 4.Pe5+ Kg3 5.a5 Txb7, en de pion valt. Ook zo na 2.a7? Ta5 enzovoort.\n\n2...Kf5 is het juiste antwoord, want andere zetten verliezen snel:\na) 2...Txe5? 3.axb7 Te8 4.a5 Tb8 5.a6 K~ 6.a7 Txb7 en 8.a8D.\nb) 2...Kg5? 3.a7 Th8 4.Pf7+ en 5.Pxh8.\nc) 2...Kf4? 3.axb7 Th2+ (3...Th8 4.Pg6+ en 5.Pxh8) 4.Kg1 Tb2 5.Pd3+ en 6.Pxb2.\nd) 2...Kh4? 3.axb7 Th8 4.Pg6+ en 5.Pxh8.\ne) 2...Kh3? 3.axb7 Tf5+ 4.Pf3 Tf8 5.a5, of hier 3...Th8 4.Pd7 Kh4 5.b8D Txb8 6.Pxb8.\n\n3.a7? Th8 4.Pc4 Ta8 5.Pd6+ Ke6 6.Pb5 Kd7 7.Ke3 b6, geen winst.\n\n4...Th3+? 5.Pf3 Th8 6.a5, etc.\n\nEen mooie verleiding is 5.Pf7? (dreigt 6.Pd6+) 5...Ke6 6.a5 Kd7 7.a6 Kc7 8.Pd8 Ta2 met remise. Er dreigt nu na de tekstzet 5.Pc4 6.Pd6+ en 7.Pb5, daarom 5...Tb3+.\n\n5...Txb7? 6.Pd6+ en 7.Pxb7.\n\n8...Txb7? 9.Pd8+ en 10.Pxb7.\n\nPaard en pion gaan voor de winst."
     }
-  }
+  },
+  "curated": true
 }

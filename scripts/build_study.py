@@ -40,12 +40,39 @@ def run(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:
     return subprocess.run(cmd, check=True, capture_output=True, text=True, **kwargs)
 
 
-def build_one(study_number: int, fen_override: str | None) -> dict:
+def build_one(study_number: int, fen_override: str | None, force: bool = False) -> dict:
     """Run the extractor + classifier + parser for a single study.
 
     Returns a small status dict with counts + whether overrides were
     used, so the --all driver can summarise at the end.
+
+    A study whose committed JSON is marked ``"curated": true`` was manually
+    corrected (FEN override sidecar) or hand-built (the parser truncates it),
+    and cannot be reproduced from a clean checkout — the override sidecars live
+    under the gitignored ``data/exemplar/``. Such a study is skipped (preserving
+    the committed JSON) unless ``force`` is set, so a bulk ``--all`` rebuild can
+    never silently clobber hand-curated work.
     """
+    json_path = STUDY_CONTENT_DIR / f"{study_number:03d}.json"
+    if not force and json_path.exists():
+        try:
+            existing = json.loads(json_path.read_text())
+        except (json.JSONDecodeError, OSError):
+            existing = {}
+        if existing.get("curated"):
+            print(
+                f"[{study_number}] curated study — skipping (pass --force to "
+                f"rebuild from the diagram/overrides and overwrite it)",
+                file=sys.stderr,
+            )
+            return {
+                "study": study_number,
+                "source": "curated-skip",
+                "moves": len(existing.get("moves", [])),
+                "fen": existing.get("fen"),
+                "skipped": True,
+            }
+
     out = EXEMPLAR_DIR / str(study_number)
     out.mkdir(parents=True, exist_ok=True)
 
@@ -122,8 +149,12 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
             source = "classifier+solution"
 
     # 3. Parse moves.
-    json_path = STUDY_CONTENT_DIR / f"{study_number:03d}.json"
     STUDY_CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+    # A forced rebuild of a study that was previously curated keeps its marker,
+    # so it stays protected from the next non-forced rebuild.
+    was_curated = json_path.exists() and (
+        json.loads(json_path.read_text()).get("curated") is True
+    )
     run([
         "uv", "run", "python", "scripts/parse_study.py",
         "--text", str(out / "text.txt"),
@@ -133,10 +164,17 @@ def build_one(study_number: int, fen_override: str | None) -> dict:
     ], cwd=ROOT)
 
     # parse_study re-derives the GBR from the text, so re-apply the override
-    # to the stored study after the fact.
+    # to the stored study after the fact. Also re-stamp the curated marker and
+    # the FEN-override flag so the rebuilt JSON stays self-describing.
     parsed = json.loads(json_path.read_text())
+    dirty = False
     if gbr_override and parsed.get("gbr") != gbr_override:
         parsed["gbr"] = gbr_override
+        dirty = True
+    if (was_curated or fen_override or override_file.exists() or gbr_override) and not parsed.get("curated"):
+        parsed["curated"] = True
+        dirty = True
+    if dirty:
         json_path.write_text(
             json.dumps(parsed, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
@@ -160,10 +198,13 @@ def main() -> None:
                     help="build every detected study (slow; writes to "
                          "src/content/studies/ in bulk)")
     ap.add_argument("--limit", type=int, help="with --all, cap the run at N studies")
+    ap.add_argument("--force", action="store_true",
+                    help="rebuild even curated (hand-built/override) studies, "
+                         "overwriting their committed JSON")
     args = ap.parse_args()
 
     if args.study is not None:
-        result = build_one(args.study, args.fen)
+        result = build_one(args.study, args.fen, force=args.force or args.fen is not None)
         print(json.dumps(result, indent=2))
         return
 
@@ -176,9 +217,13 @@ def main() -> None:
     summary: list[dict] = []
     for r in regions:
         try:
-            summary.append(build_one(r.number, None))
-            print(f"✓ study {r.number:3d}  ch {r.chapter_num}  "
-                  f"{summary[-1]['moves']:3d} moves  ({summary[-1]['source']})")
+            s = build_one(r.number, None, force=args.force)
+            summary.append(s)
+            if s.get("skipped"):
+                print(f"⏭  study {r.number:3d}  ch {r.chapter_num}  curated — skipped")
+            else:
+                print(f"✓ study {r.number:3d}  ch {r.chapter_num}  "
+                      f"{s['moves']:3d} moves  ({s['source']})")
         except subprocess.CalledProcessError as e:
             print(f"✗ study {r.number:3d}  FAILED: {e.stderr.strip()[:200]}",
                   file=sys.stderr)
@@ -187,8 +232,10 @@ def main() -> None:
     (ROOT / "data" / "build_summary.json").write_text(
         json.dumps(summary, indent=2), encoding="utf-8"
     )
-    ok = sum(1 for s in summary if "error" not in s)
-    print(f"\n{ok}/{len(summary)} studies built successfully")
+    built = sum(1 for s in summary if "error" not in s and not s.get("skipped"))
+    skipped = sum(1 for s in summary if s.get("skipped"))
+    print(f"\n{built} built, {skipped} curated-skipped, "
+          f"{len(summary) - built - skipped} failed (of {len(summary)})")
 
 
 if __name__ == "__main__":

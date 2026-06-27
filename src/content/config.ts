@@ -22,6 +22,11 @@ const studies = defineCollection({
     // cleanly; allow empty and default to '+'.
     stipulation: z.union([z.enum(['+', '=']), z.literal('')]).default('+'),
     kings: z.string().optional(),
+    // Manually curated study: its FEN was corrected via a (gitignored) override
+    // sidecar, or its move tree was hand-built because the parser truncates it.
+    // Such studies cannot be reproduced by a clean `build_study --all`, so the
+    // builder refuses to overwrite them unless `--force` is passed.
+    curated: z.boolean().optional(),
     moves: z.array(
       z.object({
         id: z.string(),
