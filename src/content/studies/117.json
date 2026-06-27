@@ -343,7 +343,7 @@
   ],
   "prose": {
     "nl": {
-      "before": "Zonder die twee zwarte pionnen in\nde vorige studie is het hier boven\nstaand  economisch  miniatuurtje\n(met de witte koning dus op h3)\ntoch gewonnen voor wit:",
+      "before": "Zonder die twee zwarte pionnen in\n[de vorige studie](study:116) is het hier boven\nstaand  economisch  miniatuurtje\n(met de witte koning dus op h3)\ntoch gewonnen voor wit:",
       "after": "Na 10.Tf1+? Kc2 wint ook 11.Kg1\nof 11.Kh1. Dus eveneens neven-\noplosbaar.\n\nEn wit wint eveneens.\n\nDe vraag blijft of het wel mogelijk is\nom, van uit de beginstand van een\npartij, tot de bovenstaande hoek-\nstelling te komen?\n\nMaar dat geldt voor vele studies.",
       "beforeVariant": {
         "A": "Na 3…Kf1? 4.Tf2+ Ke1 wint zowel\n\nals 6.Tgb2. Dus nevenoplosbaar.",

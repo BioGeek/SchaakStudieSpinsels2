@@ -1,5 +1,6 @@
 ---
 import { t, type Locale } from '../i18n/ui';
+import { renderProse } from '../lib/prose';
 
 interface StudyMove {
   id: string;
@@ -124,7 +125,7 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
       <span>{study.gbr}</span>
     </p>
 
-    {proseBefore && <div class="study-prose study-prose-before">{proseBefore}</div>}
+    {proseBefore && <div class="study-prose study-prose-before" set:html={renderProse(proseBefore, locale)} />}
 
     <section class="main-line">
       <h3 class="sr-only">{t(locale, 'study.moves')}</h3>
@@ -161,7 +162,7 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
             ?? study.prose?.nl?.beforeVariant?.[sec.id];
           return (
           <details open class="variant-section">
-            {intro && <p class="variant-intro">{intro}</p>}
+            {intro && <p class="variant-intro" set:html={renderProse(intro, locale)} />}
             <summary>{sec.label}</summary>
             <table class="move-table">
               <tbody>
@@ -219,7 +220,7 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
       </section>
     )}
 
-    {proseAfter && <div class="study-prose study-prose-after">{proseAfter}</div>}
+    {proseAfter && <div class="study-prose study-prose-after" set:html={renderProse(proseAfter, locale)} />}
   </div>
 </div>
 

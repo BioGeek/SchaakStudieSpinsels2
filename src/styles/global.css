@@ -46,3 +46,15 @@
 .prose blockquote p:last-of-type::after {
   content: none;
 }
+
+/* Cross-reference links between studies (e.g. "zie studie - 173 -"), rendered
+   from `[label](study:N)` markers in the prose by src/lib/prose.ts. */
+.study-xref {
+  color: theme('colors.accent.DEFAULT');
+  text-decoration: underline;
+  text-decoration-color: rgba(122, 31, 14, 0.35);
+  text-underline-offset: 0.15em;
+}
+.study-xref:hover {
+  text-decoration-color: theme('colors.accent.DEFAULT');
+}

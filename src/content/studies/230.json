@@ -298,7 +298,7 @@
   ],
   "prose": {
     "nl": {
-      "before": "Deze studie heb ik gecomponeerd\nnadat de correcte versie, op de\nvorige  bladzijde  onterecht werd\nafgekeurd door de prijsrechter. En\nal  viel  ik nu met bovenstaande\nstudie in de prijzen, toch verkies ik\nde versie op de vorige bladzijde.\n\n                   W",
+      "before": "Deze studie heb ik gecomponeerd\nnadat de correcte versie, op de\nvorige  bladzijde  onterecht werd\nafgekeurd door de prijsrechter. En\nal  viel  ik nu met bovenstaande\nstudie in de prijzen, toch verkies ik\nde [versie op de vorige bladzijde](study:229).\n\n                   W",
       "after": "Kxc8 en pion h2 promoveert.\n\nWit wint in beide varianten.",
       "beforeVariant": {
         "B": "voorbeeld 9.Pd4 Txc7  of 9.Kd4\nTc2 10.K~ Txh2. Geen winst dus."

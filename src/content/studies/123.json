@@ -317,7 +317,7 @@
   "prose": {
     "nl": {
       "before": "",
-      "after": "Maar niet 6.Ta7? Pd6, remise.\n\nOok de witte koning doet een duit\nin het zakje, want niet 7.Tb5? Pf6\nen geen winst meer.\n\nEveneens met winst.\n\nEen strijd van toren tegen loper en\npaard.\n\nZie ook de volgende studie.",
+      "after": "Maar niet 6.Ta7? Pd6, remise.\n\nOok de witte koning doet een duit\nin het zakje, want niet 7.Tb5? Pf6\nen geen winst meer.\n\nEveneens met winst.\n\nEen strijd van toren tegen loper en\npaard.\n\nZie ook [de volgende studie](study:124).",
       "beforeVariant": {
         "main.a": "Na 1.Ka3? en bijvoorbeeld 1…Lc2\n\n2.Tc1 Pb5+ 3.Kb2 Ld3 enzovoort is\n\ner geen winst meer.\n\nNiet goed is:",
         "A.a": "En niet",
