@@ -5,7 +5,7 @@ export const defaultLocale: Locale = 'nl';
 
 export const ui = {
   nl: {
-    'site.title': 'Schaakstudiespinsels 2',
+    'site.title': 'SchaakStudieSpinselS 2',
     'site.subtitle': 'Verzonnen en gesponnen door Ignace Vandecasteele',
     'site.tagline': 'Meer dan driehonderd eindspelen',
     'nav.home': 'Home',
@@ -32,7 +32,7 @@ export const ui = {
     'translation.stub': 'Vertaling in voorbereiding.',
   },
   en: {
-    'site.title': 'Schaakstudiespinsels 2',
+    'site.title': 'SchaakStudieSpinselS 2',
     'site.subtitle': 'Dreamt up and spun together by Ignace Vandecasteele',
     'site.tagline': 'More than three hundred endgame studies',
     'nav.home': 'Home',
