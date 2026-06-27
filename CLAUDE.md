@@ -71,6 +71,7 @@ Coverage: **305 of the book's 308 studies are shipped** (`src/content/studies/`)
 - **The board** is split: `StudyBoard.astro` renders the move table server-side (grouping plies into book-style numbered rows and nesting the variant tree); `study-board.client.ts` hydrates it client-side with **cm-chessboard** + **chess.js**, wiring the prev/next/start/end controls and click-to-jump on each move.
 - **Move notation**: canonical storage is **English SAN** (what chess.js needs); Dutch display letters (`K D T L P`) are produced by `src/i18n/moves.ts` (`sanToDutch`/`dutchToSan`). UI strings live in `src/i18n/ui.ts`.
 - **Piece sprite**: the board uses a custom SVG sprite of Ignace's own piece silhouettes, generated from `data/template.png` by `scripts/generate_piece_sprite.py` into `public/pieces/ignace.svg`.
+- **Variant tree**: `scripts/variant_tree_svg.py --study N` renders a study's whole variant tree (trunk, top-level variants, sub-variant tries, with data-detected `→ zet N` transpositions) as an SVG into `src/variant-trees/NNN.svg`. The study page (`[num].astro`) `import.meta.glob`s that folder and shows the SVG inline in a collapsible "Variantenboom" `<details>` for any study that has one — handy for the gnarly multi-variant studies (e.g. study 1). Regenerate after editing a study's move tree.
 
 ## Deployment
 

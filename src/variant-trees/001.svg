@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 904 424" font-family="ui-sans-serif,system-ui,sans-serif" role="img" aria-label="Variantenboom studie 1">
+<rect width="904" height="424" rx="10" fill="#fbf4e6"/>
+<text x="22" y="30" font-size="16" font-weight="700" fill="#2b2118">Variantenboom — studie 1</text>
+<text x="22" y="50" font-size="12.5" fill="#6a5f4b">wit wint · 1.Pa5+ Ka2 2.Pc4</text>
+<line x1="22" y1="60" x2="882" y2="60" stroke="#cdbb91" stroke-width="1"/>
+<path d="M 31 94 V 265" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 31 115 H 46" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 31 145 H 46" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 31 175 H 46" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 31 265 H 46" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 184 V 235" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 205 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 235 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 274 V 385" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 295 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 325 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 355 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<path d="M 57 385 H 72" fill="none" stroke="#cdbb91" stroke-width="1.5"/>
+<circle cx="31" cy="85" r="6" fill="#b8923f"/>
+<text x="44" y="89" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="700" fill="#2b2118">1.Pa5+ Ka2 2.Pc4</text>
+<circle cx="57" cy="115" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="70" y="119" font-size="12.5" font-weight="600" fill="#6a5f4b">a)</text>
+<text x="96.0" y="119" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">2.Da4+ Kb1 3.De4+ Ka2 4.Pc4</text>
+<text x="325.95" y="119" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 2</text>
+<circle cx="57" cy="145" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="70" y="149" font-size="12.5" font-weight="600" fill="#6a5f4b">b)</text>
+<text x="96.0" y="149" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">2.Dd5+ Ka1 3.Dd4+ Ka2 4.Da4+ Kb1 5.De4+ Ka2 6.Pc4</text>
+<text x="498.65" y="149" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 2</text>
+<rect x="51" y="169" width="12" height="12" rx="2" fill="#7a1f0e"/>
+<text x="70" y="179" font-size="12.5" font-weight="700" fill="#7a1f0e">Variant A</text>
+<text x="147.0" y="179" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#2b2118">2…Dd8+ 3.Kc2 Dg8 4.De2 Dg3 5.Pe3 Dc7+ 6.Kd1+ Kb3 7.Db5+ Kc3 8.Pd5+ Kd4 9.Pxc7</text>
+<text x="769.4499999999999" y="179" font-size="11.5" font-style="italic" fill="#b8923f">wit wint</text>
+<circle cx="83" cy="205" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="209" font-size="12.5" font-weight="600" fill="#6a5f4b">a)</text>
+<text x="122.0" y="209" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">4.Pd2 Dc8+ 5.Pc4 Dg8 6.De2</text>
+<text x="344.1" y="209" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 4</text>
+<circle cx="83" cy="235" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="239" font-size="12.5" font-weight="600" fill="#6a5f4b">b)</text>
+<text x="122.0" y="239" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">6.Pc4 Dg3 7.Pe3</text>
+<text x="257.75" y="239" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 5</text>
+<rect x="51" y="259" width="12" height="12" rx="2" fill="#7a1f0e"/>
+<text x="70" y="269" font-size="12.5" font-weight="700" fill="#7a1f0e">Variant B</text>
+<text x="147.0" y="269" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#2b2118">2…Dd7+ 3.Kc2 Da4+ 4.Kc1 Kb3 5.Pd2+ Ka3 6.Dd3+ Kb4 7.Dc4+ Ka5 8.Pb3+ Kb6 9.Dxa4</text>
+<text x="777.3" y="269" font-size="11.5" font-style="italic" fill="#b8923f">wit wint</text>
+<circle cx="83" cy="295" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="299" font-size="12.5" font-weight="600" fill="#6a5f4b">a)</text>
+<text x="122.0" y="299" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">6.Pb1 Kb3 7.Pd2+ Ka3 8.Dd3+</text>
+<text x="351.95" y="299" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 6</text>
+<circle cx="83" cy="325" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="329" font-size="12.5" font-weight="600" fill="#6a5f4b">b)</text>
+<text x="122.0" y="329" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">6.Db7 Db4 7.Da6+ Da4 8.Dd3+</text>
+<text x="351.95" y="329" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 6</text>
+<circle cx="83" cy="355" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="359" font-size="12.5" font-weight="600" fill="#6a5f4b">c)</text>
+<text x="122.0" y="359" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">6.De7+ Ka2 7.Df7+ Ka3 8.Db7 Db4 9.Da6+ Da4 10.Dd3+</text>
+<text x="532.5" y="359" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 6</text>
+<circle cx="83" cy="385" r="4" fill="none" stroke="#6a5f4b" stroke-width="1.5"/>
+<text x="96" y="389" font-size="12.5" font-weight="600" fill="#6a5f4b">d)</text>
+<text x="122.0" y="389" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="400" fill="#6a5f4b">6.Dd5 Db4 7.Da8+ Da4 8.Db7 Db4 9.Da6+ Da4 10.Dd3+</text>
+<text x="524.65" y="389" font-size="11.5" font-style="italic" fill="#6a5f4b">→ zet 6</text>
+</svg>
