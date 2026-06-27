@@ -236,16 +236,23 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
     margin: 2rem 0;
   }
 
+  /* The board sticks just below the site header at every width. On desktop it
+     sits in its own column; on mobile (single column) it pins to the top and
+     the text column scrolls up *behind* it — the opaque background and raised
+     z-index keep the diagram and its controls readable/usable while you read
+     on. (The board precedes the text in the DOM, so it needs z-index to paint
+     over it.) */
+  .board-frame {
+    position: sticky;
+    top: 5rem; /* clear the ~60px sticky site header */
+    z-index: 10;
+    background: theme('colors.paper.light');
+  }
+
   @media (min-width: 900px) {
     .study-board {
       grid-template-columns: 420px 1fr;
       align-items: start;
-    }
-    .board-frame {
-      position: sticky;
-      /* Clear the sticky site header (~60px) so the board's top rank isn't
-         hidden underneath it when the page is scrolled. */
-      top: 5rem;
     }
   }
 
@@ -253,6 +260,18 @@ const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.
     aspect-ratio: 1;
     max-width: 420px;
     width: 100%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 899px) {
+    /* Keep the board from filling the screen so text stays visible below it. */
+    .board {
+      max-width: min(78vw, 42vh);
+    }
+    .board-frame {
+      padding-bottom: 0.5rem;
+      box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 0.22);
+    }
   }
 
   .board-controls {
