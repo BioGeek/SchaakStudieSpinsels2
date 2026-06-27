@@ -1,0 +1,350 @@
+{
+  "number": 189,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Probleemblad, 2006",
+  "gbr": "0015.01 b2e4",
+  "fen": "1B2n3/8/8/8/2N1k3/8/1K4p1/7N w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Ng3+",
+      "nl": "Pg3+",
+      "fenAfter": "1B2n3/8/8/8/2N1k3/6N1/1K4p1/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "1B2n3/8/8/8/2N5/3k2N1/1K4p1/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "1B2n3/8/8/4N3/8/3k2N1/1K4p1/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "1B2n3/8/8/4N3/8/4k1N1/1K4p1/8 w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Ng4+",
+      "nl": "Pg4+",
+      "fenAfter": "1B2n3/8/8/8/6N1/4k1N1/1K4p1/8 b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "1B2n3/8/8/8/6N1/5kN1/1K4p1/8 w - - 6 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nh2+",
+      "nl": "Ph2+",
+      "fenAfter": "1B2n3/8/8/8/8/5kN1/1K4pN/8 b - - 7 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "1B2n3/8/8/8/8/6N1/1K3kpN/8 w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ne4+",
+      "nl": "Pe4+",
+      "fenAfter": "1B2n3/8/8/8/4N3/8/1K3kpN/8 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "1B2n3/8/8/8/4N3/4k3/1K4pN/8 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Nc3",
+      "nl": "Pc3",
+      "fenAfter": "1B2n3/8/8/8/8/2N1k3/1K4pN/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "g1=N",
+      "nl": "g1P",
+      "fenAfter": "1B2n3/8/8/8/8/2N1k3/1K5N/6n1 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ba7+",
+      "nl": "La7+",
+      "fenAfter": "4n3/B7/8/8/8/2N1k3/1K5N/6n1 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "4n3/B7/8/8/5k2/2N5/1K5N/6n1 w - - 2 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bxg1",
+      "nl": "Lxg1",
+      "fenAfter": "4n3/8/8/8/5k2/2N5/1K5N/6B1 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "4n3/8/8/8/8/2N3k1/1K5N/6B1 w - - 1 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ne2+",
+      "nl": "Pe2+",
+      "fenAfter": "4n3/8/8/8/8/6k1/1K2N2N/6B1 b - - 2 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "4n3/8/8/8/8/8/1K2N1kN/6B1 w - - 3 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "4n3/8/8/8/8/2K5/4N1kN/6B1 b - - 4 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "8/8/5n2/8/8/2K5/4N1kN/6B1 w - - 5 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Bd4",
+      "nl": "Ld4",
+      "fenAfter": "8/8/5n2/8/3B4/2K5/4N1kN/8 b - - 6 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3n4/8/8/3B4/2K5/4N1kN/8 w - - 7 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nf1",
+      "nl": "Pf1",
+      "fenAfter": "8/3n4/8/8/3B4/2K5/4N1k1/5N2 b - - 8 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kxf1",
+      "nl": "Kxf1",
+      "fenAfter": "8/3n4/8/8/3B4/2K5/4N3/5k2 w - - 0 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Nf4",
+      "nl": "Pf4",
+      "fenAfter": "8/3n4/8/8/3B1N2/2K5/8/5k2 b - - 1 13",
+      "variant": "main",
+      "parent": "main.24"
+    },
+    {
+      "id": "main.26",
+      "ply": 26,
+      "san": "Nb8",
+      "nl": "Pb8",
+      "fenAfter": "1n6/8/8/8/3B1N2/2K5/8/5k2 w - - 2 14",
+      "variant": "main",
+      "parent": "main.25"
+    },
+    {
+      "id": "main.27",
+      "ply": 27,
+      "san": "Ng6",
+      "nl": "Pg6",
+      "fenAfter": "1n6/8/6N1/8/3B4/2K5/8/5k2 b - - 3 14",
+      "variant": "main",
+      "parent": "main.26"
+    },
+    {
+      "id": "main.28",
+      "ply": 28,
+      "san": "Nd7",
+      "nl": "Pd7",
+      "fenAfter": "8/3n4/6N1/8/3B4/2K5/8/5k2 w - - 4 15",
+      "variant": "main",
+      "parent": "main.27"
+    },
+    {
+      "id": "main.29",
+      "ply": 29,
+      "san": "Kd3",
+      "nl": "Kd3",
+      "fenAfter": "8/3n4/6N1/8/3B4/3K4/8/5k2 b - - 5 15",
+      "variant": "main",
+      "parent": "main.28"
+    },
+    {
+      "id": "main.30",
+      "ply": 30,
+      "san": "Kg2",
+      "nl": "Kg2",
+      "fenAfter": "8/3n4/6N1/8/3B4/3K4/6k1/8 w - - 6 16",
+      "variant": "main",
+      "parent": "main.29"
+    },
+    {
+      "id": "main.31",
+      "ply": 31,
+      "san": "Ke4",
+      "nl": "Ke4",
+      "fenAfter": "8/3n4/6N1/8/3BK3/8/6k1/8 b - - 7 16",
+      "variant": "main",
+      "parent": "main.30"
+    },
+    {
+      "id": "main.32",
+      "ply": 32,
+      "san": "Kg3",
+      "nl": "Kg3",
+      "fenAfter": "8/3n4/6N1/8/3BK3/6k1/8/8 w - - 8 17",
+      "variant": "main",
+      "parent": "main.31"
+    },
+    {
+      "id": "main.33",
+      "ply": 33,
+      "san": "Kf5",
+      "nl": "Kf5",
+      "fenAfter": "8/3n4/6N1/5K2/3B4/6k1/8/8 b - - 9 17",
+      "variant": "main",
+      "parent": "main.32"
+    },
+    {
+      "id": "main.34",
+      "ply": 34,
+      "san": "Kf3",
+      "nl": "Kf3",
+      "fenAfter": "8/3n4/6N1/5K2/3B4/5k2/8/8 w - - 10 18",
+      "variant": "main",
+      "parent": "main.33"
+    },
+    {
+      "id": "main.35",
+      "ply": 35,
+      "san": "Ba7",
+      "nl": "La7",
+      "fenAfter": "8/B2n4/6N1/5K2/8/5k2/8/8 b - - 11 18",
+      "variant": "main",
+      "parent": "main.34"
+    },
+    {
+      "id": "main.36",
+      "ply": 36,
+      "san": "Kg3",
+      "nl": "K~",
+      "fenAfter": "8/B2n4/6N1/5K2/8/6k1/8/8 w - - 12 19",
+      "variant": "main",
+      "parent": "main.35"
+    },
+    {
+      "id": "main.37",
+      "ply": 37,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/B2n4/4K1N1/8/8/6k1/8/8 b - - 13 19",
+      "variant": "main",
+      "parent": "main.36"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "",
+      "after": "Dit publiceerde ik in Probleemblad 2006, die de foute oplossing van Bazlov daardoor correct maakte.\n\nRecent, in 2008 kreeg dezelfde Juri Bazlov, nu, na 36 jaar (!) een 'aanbeveling' in het Benko-80 JT voor deze studieverbetering:\n\nKg2 Le6 Pa5 Pf4 / Ke3 Pf7 b3 + ZAZ +\n\n1...Pd8 2.Pd5+ Kd4 3.Lg8 b2 4.Pb3+ Kd3 5.Pb4+ Kc3 6.Pa2+ Kc2 7.Pd4+ Kd3 8.Pf3 b1P 9.Lh7+ Kc4 10.Lxb1 Kb3 11.Pd2+ Kb2 12.Kf3 Pc6 13.Le4 Pe7,\n\nEn hier vervolgt Harold van der Heijden met mijn vondst: ”and now the surprising move that cooks Bazlov’s study: 14.Pc1.” (in plaats van 14.Lb1?),\n\ngevolgd door de zetten: 14…Kxc1 15.Pc4 Pg8 16.Pb6 Pe7 17.Ke3 Kd1 18.Kd4 Ke2 19.Ke5 Kf2 20.Kf4 Ke2 21.Pc4 Pc8 22.Ke5 Pa7 23.Pd6 en wint.\n\nMaar 22.Kf5 wint ook. De studie is dus nevenoplosbaar.\n\nErger is dat de zet 14.Pc1 precies de verbetering is die ik reeds in 2005 en later in 2006 vermeldde.\n\nDe studie van Bazlov lijkt dus eerder op plagiaat dan op anticipatie."
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "number": 251,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "Finales…y Temas N° 89, 2016",
+  "gbr": "3776.10 f6h7",
+  "fen": "R6B/3r1P1k/4nK1n/2b4b/1r6/8/2q5/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "f8=N+",
+      "nl": "f8=P+",
+      "fenAfter": "R4N1B/3r3k/4nK1n/2b4b/1r6/8/2q5/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "R4NkB/3r4/4nK1n/2b4b/1r6/8/2q5/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nxd7+",
+      "nl": "Pxd7+",
+      "fenAfter": "R5kB/3N4/4nK1n/2b4b/1r6/8/2q5/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "R6B/3N3k/4nK1n/2b4b/1r6/8/2q5/8 w - - 1 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nf8+",
+      "nl": "Pf8+",
+      "fenAfter": "R4N1B/7k/4nK1n/2b4b/1r6/8/2q5/8 b - - 2 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "R4NkB/8/4nK1n/2b4b/1r6/8/2q5/8 w - - 3 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nxe6+",
+      "nl": "Pxe6+",
+      "fenAfter": "R5kB/8/4NK1n/2b4b/1r6/8/2q5/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "R6B/7k/4NK1n/2b4b/1r6/8/2q5/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nf8+",
+      "nl": "Pf8+",
+      "fenAfter": "R4N1B/7k/5K1n/2b4b/1r6/8/2q5/8 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "R4NkB/8/5K1n/2b4b/1r6/8/2q5/8 w - - 3 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ng6+",
+      "nl": "Pg6+",
+      "fenAfter": "R5kB/8/5KNn/2b4b/1r6/8/2q5/8 b - - 4 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "R6B/7k/5KNn/2b4b/1r6/8/2q5/8 w - - 5 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Ra7+",
+      "nl": "Ta7+",
+      "fenAfter": "7B/R6k/5KNn/2b4b/1r6/8/2q5/8 b - - 6 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Rb7",
+      "nl": "Tb7",
+      "fenAfter": "7B/Rr5k/5KNn/2b4b/8/8/2q5/8 w - - 7 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rxb7+",
+      "nl": "Txb7+",
+      "fenAfter": "7B/1R5k/5KNn/2b4b/8/8/2q5/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Be7+",
+      "nl": "Le7+",
+      "fenAfter": "7B/1R2b2k/5KNn/7b/8/8/2q5/8 w - - 1 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rxe7+",
+      "nl": "Txe7+",
+      "fenAfter": "7B/4R2k/5KNn/7b/8/8/2q5/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nf7",
+      "nl": "Pf7",
+      "fenAfter": "7B/4Rn1k/5KN1/7b/8/8/2q5/8 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Rxf7+",
+      "nl": "Txf7+",
+      "fenAfter": "7B/5R1k/5KN1/7b/8/8/2q5/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "7B/5R2/5KNk/7b/8/8/2q5/8 w - - 1 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Bg7+",
+      "nl": "Lg7+",
+      "fenAfter": "8/5RB1/5KNk/7b/8/8/2q5/8 b - - 2 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kh7",
+      "nl": "Kh7",
+      "fenAfter": "8/5RBk/5KN1/7b/8/8/2q5/8 w - - 3 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Bf8+",
+      "nl": "Lf8+",
+      "fenAfter": "5B2/5R1k/5KN1/7b/8/8/2q5/8 b - - 4 12",
+      "variant": "main",
+      "parent": "main.22"
+    },
+    {
+      "id": "main.24",
+      "ply": 24,
+      "san": "Kg8",
+      "nl": "Kg8",
+      "fenAfter": "5Bk1/5R2/5KN1/7b/8/8/2q5/8 w - - 5 13",
+      "variant": "main",
+      "parent": "main.23"
+    },
+    {
+      "id": "main.25",
+      "ply": 25,
+      "san": "Rg7#",
+      "nl": "Tg7#",
+      "fenAfter": "5Bk1/6R1/5KN1/7b/8/8/2q5/8 b - - 6 13",
+      "variant": "main",
+      "parent": "main.24"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na 250 studies, even ontspannen!\n\nEen grappige stelling, waarbij een schuchter wit pionnetje, ondersteund door twee bodyguards, het opneemt tegen de gezamenlijke zwarte oppositiestukken. Zwart dreigt met 1…Pg4+ en mat. Maar er is de blanke held op veld f7!",
+      "after": "Er wordt achtereenvolgens veertien (14) maal ‘schaak’ gegeven.\n\nHet is een uitbreiding van de studie met acht stukken die ik componeerde in 2014: Kf6 Ta8 Lh8 Pb7 / Kg8 Th5 Le6 Pg5.\n\nIk kon niet nalaten er vier zwarte stukken aan toe te voegen om het geheel de indruk te geven als: onoplosbaar op het eerste zicht. “La relatividad en ajedrez”, aldus José A. Copié."
+    }
+  }
+}

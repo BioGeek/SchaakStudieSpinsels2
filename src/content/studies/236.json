@@ -1,0 +1,269 @@
+{
+  "number": 236,
+  "chapter": "Bijna - Miniaturen",
+  "chapterNumber": 5,
+  "source": "C.I. 75° Anniversario Foguelman-Caputto- Carlsson, 2000\n3de Prijs",
+  "gbr": "0430.11 a2b6",
+  "fen": "8/r7/1k6/R7/6b1/2p5/KP6/8 w - - 0 1",
+  "stipulation": "=",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rxa7",
+      "nl": "Txa7",
+      "fenAfter": "8/R7/1k6/8/6b1/2p5/KP6/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "c2",
+      "nl": "c2",
+      "fenAfter": "8/R7/1k6/8/6b1/8/KPp5/8 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rg7",
+      "nl": "Tg7",
+      "fenAfter": "8/6R1/1k6/8/6b1/8/KPp5/8 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "A.4",
+      "ply": 4,
+      "san": "Be6+",
+      "nl": "Le6+",
+      "fenAfter": "8/6R1/1k2b3/8/8/8/KPp5/8 w - - 2 3",
+      "variant": "A",
+      "parent": "main.3"
+    },
+    {
+      "id": "A.5",
+      "ply": 5,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "8/6R1/1k2b3/8/8/1P6/K1p5/8 b - - 0 3",
+      "variant": "A",
+      "parent": "A.4"
+    },
+    {
+      "id": "A.6",
+      "ply": 6,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "8/6R1/1k2b3/8/8/1P6/K7/2q5 w - - 0 4",
+      "variant": "A",
+      "parent": "A.5"
+    },
+    {
+      "id": "A.7",
+      "ply": 7,
+      "san": "Rb7+",
+      "nl": "Tb7+",
+      "fenAfter": "8/1R6/1k2b3/8/8/1P6/K7/2q5 b - - 1 4",
+      "variant": "A",
+      "parent": "A.6"
+    },
+    {
+      "id": "A.8",
+      "ply": 8,
+      "san": "Kxb7",
+      "nl": "Kxb7",
+      "fenAfter": "8/1k6/4b3/8/8/1P6/K7/2q5 w - - 0 5",
+      "variant": "A",
+      "parent": "A.7"
+    },
+    {
+      "id": "B.4",
+      "ply": 4,
+      "san": "Bh5",
+      "nl": "Lh5",
+      "fenAfter": "8/6R1/1k6/7b/8/8/KPp5/8 w - - 2 3",
+      "variant": "B",
+      "parent": "main.3"
+    },
+    {
+      "id": "B.5",
+      "ply": 5,
+      "san": "Rg1",
+      "nl": "Tg1",
+      "fenAfter": "8/8/1k6/7b/8/8/KPp5/6R1 b - - 3 3",
+      "variant": "B",
+      "parent": "B.4"
+    },
+    {
+      "id": "B.6",
+      "ply": 6,
+      "san": "Bd1",
+      "nl": "Ld1",
+      "fenAfter": "8/8/1k6/8/8/8/KPp5/3b2R1 w - - 4 4",
+      "variant": "B",
+      "parent": "B.5"
+    },
+    {
+      "id": "B.7",
+      "ply": 7,
+      "san": "Rg6+",
+      "nl": "Tg6+",
+      "fenAfter": "8/8/1k4R1/8/8/8/KPp5/3b4 b - - 5 4",
+      "variant": "B",
+      "parent": "B.6"
+    },
+    {
+      "id": "B.8",
+      "ply": 8,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/6R1/1k6/8/8/KPp5/3b4 w - - 6 5",
+      "variant": "B",
+      "parent": "B.7"
+    },
+    {
+      "id": "B.9",
+      "ply": 9,
+      "san": "Rg5+",
+      "nl": "Tg5+",
+      "fenAfter": "8/8/8/1k4R1/8/8/KPp5/3b4 b - - 7 5",
+      "variant": "B",
+      "parent": "B.8"
+    },
+    {
+      "id": "B.10",
+      "ply": 10,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/8/8/6R1/1k6/8/KPp5/3b4 w - - 8 6",
+      "variant": "B",
+      "parent": "B.9"
+    },
+    {
+      "id": "B.11",
+      "ply": 11,
+      "san": "b3",
+      "nl": "b3",
+      "fenAfter": "8/8/8/6R1/1k6/1P6/K1p5/3b4 b - - 0 6",
+      "variant": "B",
+      "parent": "B.10"
+    },
+    {
+      "id": "B.12",
+      "ply": 12,
+      "san": "c1=Q",
+      "nl": "c1D",
+      "fenAfter": "8/8/8/6R1/1k6/1P6/K7/2qb4 w - - 0 7",
+      "variant": "B",
+      "parent": "B.11"
+    },
+    {
+      "id": "B.13",
+      "ply": 13,
+      "san": "Rg4+",
+      "nl": "Tg4+",
+      "fenAfter": "8/8/8/8/1k4R1/1P6/K7/2qb4 b - - 1 7",
+      "variant": "B",
+      "parent": "B.12"
+    },
+    {
+      "id": "B.14",
+      "ply": 14,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1k6/6R1/1P6/K7/2qb4 w - - 2 8",
+      "variant": "B",
+      "parent": "B.13"
+    },
+    {
+      "id": "B.15",
+      "ply": 15,
+      "san": "Rb4+",
+      "nl": "Tb4+",
+      "fenAfter": "8/8/8/1k6/1R6/1P6/K7/2qb4 b - - 3 8",
+      "variant": "B",
+      "parent": "B.14"
+    },
+    {
+      "id": "B.16",
+      "ply": 16,
+      "san": "Ka5",
+      "nl": "Ka5",
+      "fenAfter": "8/8/8/k7/1R6/1P6/K7/2qb4 w - - 4 9",
+      "variant": "B",
+      "parent": "B.15"
+    },
+    {
+      "id": "B.17",
+      "ply": 17,
+      "san": "Ra4+",
+      "nl": "Ta4+",
+      "fenAfter": "8/8/8/k7/R7/1P6/K7/2qb4 b - - 5 9",
+      "variant": "B",
+      "parent": "B.16"
+    },
+    {
+      "id": "B.18",
+      "ply": 18,
+      "san": "Kb5",
+      "nl": "Kb5",
+      "fenAfter": "8/8/8/1k6/R7/1P6/K7/2qb4 w - - 6 10",
+      "variant": "B",
+      "parent": "B.17"
+    },
+    {
+      "id": "B.19",
+      "ply": 19,
+      "san": "Rb4+",
+      "nl": "Tb4+",
+      "fenAfter": "8/8/8/1k6/1R6/1P6/K7/2qb4 b - - 7 10",
+      "variant": "B",
+      "parent": "B.18"
+    },
+    {
+      "id": "B.20",
+      "ply": 20,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "8/8/8/2k5/1R6/1P6/K7/2qb4 w - - 8 11",
+      "variant": "B",
+      "parent": "B.19"
+    },
+    {
+      "id": "B.21",
+      "ply": 21,
+      "san": "Rc4+",
+      "nl": "Tc4+",
+      "fenAfter": "8/8/8/2k5/2R5/1P6/K7/2qb4 b - - 9 11",
+      "variant": "B",
+      "parent": "B.20"
+    },
+    {
+      "id": "B.22",
+      "ply": 22,
+      "san": "Qxc4",
+      "nl": "Dxc4",
+      "fenAfter": "8/8/8/2k5/2q5/1P6/K7/3b4 w - - 0 12",
+      "variant": "B",
+      "parent": "B.21"
+    },
+    {
+      "id": "B.23",
+      "ply": 23,
+      "san": "bxc4",
+      "nl": "bxc4",
+      "fenAfter": "8/8/8/2k5/2P5/8/K7/3b4 b - - 0 12",
+      "variant": "B",
+      "parent": "B.22"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Na een minder mooie zet 1.Txa7 c2 2.Tg7, (Zie nu zet 3.Txg7) verloopt de studie verder zoals boven.",
+      "after": "Deze eerste versie kreeg de 3de prijs in het Concurso Internacional de Estudios (Finales Artisticos) ter gelegenheid van de 75ste verjaardag van drie Argentijnse componisten A. Foguelman, Z. Caputto en O. Carlsson (1998-2000).\n\nHet verdict luidde: “Espléndida miniatura con un juego preciso por ambas partes, que presenta varias posiciones de ahogado. N. De R. Se constrye una sencilla posicion de resistencia, con la torre oscilando los esquaues ‘a3’ y ‘c3’ que las negras no pueden evitar.\n\nIk verkies de nieuwe, niet bekroonde, versie (Ka2 / Kd5) die José Copié in het tijdschrift Finales...y temas (2005) bewierookte met: “Bella obra de arte!! Mi amigo, el brillante compositor belga Ignace Vandecasteele, mejora un estudió de su pertenencia que mericó el 3er Premio en el concurso 75 JT Foguelman - Caputto - Carlsson 2000, que también es muy bello.”"
+    }
+  }
+}

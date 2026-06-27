@@ -1,0 +1,225 @@
+{
+  "number": 213,
+  "chapter": "Miniaturen",
+  "chapterNumber": 4,
+  "source": "Origineel, 2017",
+  "gbr": "0055.02",
+  "fen": "1k6/7b/8/4N1p1/4p1B1/5N2/3B4/1K3n2 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nxg5",
+      "nl": "Pxg5",
+      "fenAfter": "1k6/7b/8/4N1N1/4p1B1/8/3B4/1K3n2 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Nxd2+",
+      "nl": "Pxd2+",
+      "fenAfter": "1k6/7b/8/4N1N1/4p1B1/8/3n4/1K6 w - - 0 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kc1",
+      "nl": "Kc1",
+      "fenAfter": "1k6/7b/8/4N1N1/4p1B1/8/3n4/2K5 b - - 1 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nb3+",
+      "nl": "Pb3+",
+      "fenAfter": "1k6/7b/8/4N1N1/4p1B1/1n6/8/2K5 w - - 2 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kb2",
+      "nl": "Kb2",
+      "fenAfter": "1k6/7b/8/4N1N1/4p1B1/1n6/1K6/8 b - - 3 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Bg8",
+      "nl": "Lg8",
+      "fenAfter": "1k4b1/8/8/4N1N1/4p1B1/1n6/1K6/8 w - - 4 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "1k4b1/8/2N5/6N1/4p1B1/1n6/1K6/8 b - - 5 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kc7",
+      "nl": "Kc7",
+      "fenAfter": "6b1/2k5/2N5/6N1/4p1B1/1n6/1K6/8 w - - 6 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Ne7",
+      "nl": "Pe7",
+      "fenAfter": "6b1/2k1N3/8/6N1/4p1B1/1n6/1K6/8 b - - 7 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bc4",
+      "nl": "Lc4",
+      "fenAfter": "8/2k1N3/8/6N1/2b1p1B1/1n6/1K6/8 w - - 8 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kc3",
+      "nl": "Kc3",
+      "fenAfter": "8/2k1N3/8/6N1/2b1p1B1/1nK5/8/8 b - - 9 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Na5",
+      "nl": "Pa5",
+      "fenAfter": "8/2k1N3/8/n5N1/2b1p1B1/2K5/8/8 w - - 10 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "8/2k1N3/8/n5N1/1Kb1p1B1/8/8/8 b - - 11 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kb6",
+      "nl": "Kb6",
+      "fenAfter": "8/4N3/1k6/n5N1/1Kb1p1B1/8/8/8 w - - 12 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Nc8+",
+      "nl": "Pc8+",
+      "fenAfter": "2N5/8/1k6/n5N1/1Kb1p1B1/8/8/8 b - - 13 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Ka6",
+      "nl": "Ka6",
+      "fenAfter": "2N5/8/k7/n5N1/1Kb1p1B1/8/8/8 w - - 14 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Nxe4",
+      "nl": "Pxe4",
+      "fenAfter": "2N5/8/k7/n7/1Kb1N1B1/8/8/8 b - - 0 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Nc6+",
+      "nl": "Pc6+",
+      "fenAfter": "2N5/8/k1n5/8/1Kb1N1B1/8/8/8 w - - 1 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Kxc4",
+      "nl": "Kxc4",
+      "fenAfter": "2N5/8/k1n5/8/2K1N1B1/8/8/8 b - - 0 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ne5+",
+      "nl": "Pe5+",
+      "fenAfter": "2N5/8/k7/4n3/2K1N1B1/8/8/8 w - - 1 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "2N5/8/k7/4n3/1K2N1B1/8/8/8 b - - 2 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Nxg4",
+      "nl": "Pxg4",
+      "fenAfter": "2N5/8/k7/8/1K2N1n1/8/8/8 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Nc5+",
+      "nl": "Pc5+",
+      "fenAfter": "2N5/8/k7/2N5/1K4n1/8/8/8 b - - 1 12",
+      "variant": "main",
+      "parent": "main.22"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "In 1998 publiceerde Roger  Mis-\niaen in Flemish Miniatures onder-\nstaand miniatuurtje, met volgend\ncommentaar van Julien Vandiest:\n“Countless composers have been\n(and presumable still are) attracted\nby two Knights, on a mating trip (do\nnot read this the wrong way.”)\n\nKc1 Lg4 Pf3 Pg8 /\n             Kb7 Le4 Pa1 +\n\nDe zeer fijnzinnige oplossing was:\n1.Pg5 Pb3+ 2.Kb2 Ld5? 3.Pe7 Lc4\n4.Kc3 Pa5 5.Kb4 Kb6 6.Pc8+ Ka6\n7.Pe4 Pc6+ 8.Kxc4 Pe5+ 9.Kb4\nPxg4 10.Pc5+, en mat.\n\n“Looking at the diagram position\nwho would suspect a final mate,\nand a stunning one as that?\n\n If one looks at a tourney award as\nbeing the final result   of several\n‘nominations’ it is perhaps a good\nthing that a composer can at best\nwin a prize, and not an Oscar, for\nthe level of insight that Roger is\ndisplaying here  will  drive Oscar\nWilde.”\n\nHelaas is de studie,niet correct. In\nplaats van 2.Ld5? verdedigt zwart\nzich met 2.Lc6! en na 3.Kxb3 volgt\n3…Ld5+ en 4.Lxg8. Ook na 3.Pe7\nPc5 of 3.Kc3 Kc7 blijft het remise.\n\nMaar ik vond hopelijk de correctie,\nmet twee zetten meer:",
+      "after": "4…Kb7 5.Pe7+ Lc4 6.Kc3 Pa5\n7.Kb4 Ka6 8.Pxe4 La2 9.Pc5+ Kb6\n10.Lc8+ Kc6 11.Ld7+ Kd5 12.Le6+\nKd4 13.Lxa2 en wint.\n\n7…Kd6? Pg6 e3 9.Kxa5 en wit wint\nna 43 zetten. (Lomonosov.)\n\nEn mat..\nMet hetzelfde materiaal zijn ook de\nvolgende studies leerzame voorlo-\npers:\n\nP. Soborevsky (1951)\n\nKh3 Lf6 Pg6 / Kf7 Lg3 Pg2 +\n\n1.Ph8+ Kg8 2.Kxg2 Lf4 3.Pg6 Lh6\n4.Pg5 Lg7 5.Pe7+ Kh8 6.Pf7+ Kh7\n7.Lh4 Lf6 8.Pg5+ Kh6 9.Pg8+ Kh5\n10.Pxf6+ Kxh4 11.Pf3+ mat. Maar\n2.Kxg3! wint ook.\n\nF. Richter (1952)\n\nKc3 Lb4 Pd1 Pf5 / Kd8 Lc4 Pb6 +\n\n1.La5 Kc7 2.Pb2 Lb5 3.Pd4 Kb7\n4.Pxb5 Ka6 5.Pc7+ Kxa5 6.Kb3\nPc8(Pd7) 7.Pc4+ en mat.\nMooi\n\nR. Missiaen\n\nKb4 Ld5 Pc8 Ph1 / Ka6 Ld1 Pd8+\n\n1.Pf2 Lc2 2.Pg4 Ld3 3.Pf6 Lb5\n4.Pe4 Pb7 5.Pc3 Ld3 6.Pa4 Le2\n7.Le4 Lf1  8.Lf3 Ld3 9.Lg2 Lb5\n10.Pc3 Ld7 11.Lf1+ Lb5 12.Lxb5+\nen mat.\nMaar 5.Le6 wint ook.\n\nNu maar hopen dat mijn verbete-\nring hiernaast correct is!",
+      "beforeVariant": {}
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "number": 304,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Origineel, 2011",
+  "gbr": "0345.01 g6a3",
+  "fen": "7b/7n/3B2K1/p1N1r3/8/k7/1N6/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "Nc4+",
+      "nl": "Pc4+",
+      "fenAfter": "7b/7n/3B2K1/p1N1r3/2N5/k7/8/8 b - - 1 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kb4",
+      "nl": "Kb4",
+      "fenAfter": "7b/7n/3B2K1/p1N1r3/1kN5/8/8/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Nxe5",
+      "nl": "Pxe5",
+      "fenAfter": "7b/7n/3B2K1/p1N1N3/1k6/8/8/8 b - - 0 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Bxe5",
+      "nl": "Lxe5",
+      "fenAfter": "8/7n/3B2K1/p1N1b3/1k6/8/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Nd3+",
+      "nl": "Pd3+",
+      "fenAfter": "8/7n/3B2K1/p3b3/1k6/3N4/8/8 b - - 1 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Kc4",
+      "nl": "Kc4",
+      "fenAfter": "8/7n/3B2K1/p3b3/2k5/3N4/8/8 w - - 2 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Nxe5+",
+      "nl": "Pxe5+",
+      "fenAfter": "8/7n/3B2K1/p3N3/2k5/8/8/8 b - - 0 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "8/7n/3B2K1/p2kN3/8/8/8/8 w - - 1 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Nf7",
+      "nl": "Pf7",
+      "fenAfter": "8/5N1n/3B2K1/p2k4/8/8/8/8 b - - 2 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke6",
+      "nl": "Ke6",
+      "fenAfter": "8/5N1n/3Bk1K1/p7/8/8/8/8 w - - 3 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Ba3",
+      "nl": "La3",
+      "fenAfter": "8/5N1n/4k1K1/p7/8/B7/8/8 b - - 4 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "a4",
+      "nl": "a4",
+      "fenAfter": "8/5N1n/4k1K1/8/p7/B7/8/8 w - - 0 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Bb4",
+      "nl": "Lb4",
+      "fenAfter": "8/5N1n/4k1K1/8/pB6/8/8/8 b - - 1 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "a3",
+      "nl": "a3",
+      "fenAfter": "8/5N1n/4k1K1/8/1B6/p7/8/8 w - - 0 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Bxa3",
+      "nl": "Lxa3",
+      "fenAfter": "8/5N1n/4k1K1/8/8/B7/8/8 b - - 0 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Nf6",
+      "nl": "Pf6",
+      "fenAfter": "8/5N2/4knK1/8/8/B7/8/8 w - - 1 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Ng5+",
+      "nl": "Pg5+",
+      "fenAfter": "8/8/4knK1/6N1/8/B7/8/8 b - - 2 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Ke5",
+      "nl": "Ke5",
+      "fenAfter": "8/8/5nK1/4k1N1/8/B7/8/8 w - - 3 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bb2+",
+      "nl": "Lb2+",
+      "fenAfter": "8/8/5nK1/4k1N1/8/8/1B6/8 b - - 4 10",
+      "variant": "main",
+      "parent": "main.18"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Het zwarte overwicht moet gebroken worden door de toren te veroveren, maar hoe?",
+      "after": "Verleidelijk is:\na) 1.Pbc3? Td5 2.Kxh7 Txd6\nb) 1.Pcd3+? Kb3 2.Pxe5 Kxb2\nc) 1.Pd7+? Kxb2 2.Pxe5 Pf6\nd) 1.Lxe5? Lxe5 2.Pc4+ Kb4 en 3.Pxe5 Kxe5.\n\nNa 2…Lxe5:\na) 2…Pf8+? 3.Lxf8 Lxe5 4.Pd7+ Kb3 5.Pxe5 met winst voor wit.\nb) 2…Pf6? 3.Pcd7+ Kb3 4.Pxf6 a4 5.Pf7 Lxf6 6.Kxf6, en wint.\nc) 2…a4? 3.Kxh7 Lxe5 4.Pd3+ Kb3 5.Lxe5 en wint ook.\n\nFout is 6.Lc5?, want na 6…Pf6 7.Pg5+ volgt 7…Kd5 En na een witte loperzet breekt de zwarte hengst los met een rampzalig gevolg.\n\nEn het paard valt op de volgende zet.\n\nWit wint en dankt de overwinning door met de juiste paardzet te beginnen, wat niet zo voor de hand ligt.",
+      "beforeVariant": {}
+    }
+  }
+}

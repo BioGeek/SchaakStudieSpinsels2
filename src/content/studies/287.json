@@ -1,0 +1,134 @@
+{
+  "number": 287,
+  "chapter": "Studies",
+  "chapterNumber": 6,
+  "source": "Tijdschrift van de KNSB, 1969",
+  "gbr": "0346.30 c6h5",
+  "fen": "n7/1rP1b3/P1K3n1/7k/2B5/7P/8/8 w - - 0 1",
+  "stipulation": "+",
+  "moves": [
+    {
+      "id": "main.1",
+      "ply": 1,
+      "san": "axb7",
+      "nl": "axb7",
+      "fenAfter": "n7/1PP1b3/2K3n1/7k/2B5/7P/8/8 b - - 0 1",
+      "variant": "main",
+      "parent": null
+    },
+    {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Ne5+",
+      "nl": "Ne5+",
+      "fenAfter": "n7/1PP1b3/2K5/4n2k/2B5/7P/8/8 w - - 1 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Kd5",
+      "nl": "Kd5",
+      "fenAfter": "n7/1PP1b3/8/3Kn2k/2B5/7P/8/8 b - - 2 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Nxc7+",
+      "nl": "Nxc7+",
+      "fenAfter": "8/1Pn1b3/8/3Kn2k/2B5/7P/8/8 w - - 0 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Kxe5",
+      "nl": "Kxe5",
+      "fenAfter": "8/1Pn1b3/8/4K2k/2B5/7P/8/8 b - - 0 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
+      "id": "main.6",
+      "ply": 6,
+      "san": "Ne8",
+      "nl": "Ne8",
+      "fenAfter": "4n3/1P2b3/8/4K2k/2B5/7P/8/8 w - - 1 4",
+      "variant": "main",
+      "parent": "main.5"
+    },
+    {
+      "id": "main.7",
+      "ply": 7,
+      "san": "Bf7+",
+      "nl": "Bf7+",
+      "fenAfter": "4n3/1P2bB2/8/4K2k/8/7P/8/8 b - - 2 4",
+      "variant": "main",
+      "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kh6",
+      "nl": "Kh6",
+      "fenAfter": "4n3/1P2bB2/7k/4K3/8/7P/8/8 w - - 3 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Bxe8+",
+      "nl": "Bxe8+",
+      "fenAfter": "4B3/1P2b3/7k/4K3/8/7P/8/8 b - - 0 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Bh4",
+      "nl": "Bh4",
+      "fenAfter": "4B3/1P6/7k/4K3/7b/7P/8/8 w - - 1 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Kf4",
+      "nl": "Kf4",
+      "fenAfter": "4B3/1P6/7k/8/5K1b/7P/8/8 b - - 2 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Bd8",
+      "nl": "Bd8",
+      "fenAfter": "3bB3/1P6/7k/8/5K2/7P/8/8 w - - 3 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "b8=B",
+      "nl": "b8=B",
+      "fenAfter": "1B1bB3/8/7k/8/5K2/7P/8/8 b - - 0 7",
+      "variant": "main",
+      "parent": "main.12"
+    }
+  ],
+  "prose": {
+    "nl": {
+      "before": "Omdat ik ten onrechte dacht dat de bovenstaande studie in de eerste uitgave van SchaakStudieSpinsels fout was, (ik vertrok namelijk van een verkeerd diagram), componeerde ik de uitgebreidere studie op de vorige bladzijde. Maar deze voorganger is dus blijkbaar toch correct:\n\nEn niet 1.Kxb7 Pxc7 2.Kxc7 Lc5 3.Kc6 Ld4 4.Lf7 Kg5 5.Lxg6 Kxg6, remise.\n\nEr dreigen nu drie (3) damepromoties, maar 1…Pxc7? faalt op 2.b8D;",
+      "after": "4.b8D? Ld6+ 5.Dxd6 Pxd6 6.Kxd6 Kg6, remise.\n\nZwart houdt veld h4 vrij voor zijn loper.\n\n6.b8D? Lg3+ 7.Kf5 Lxb8, remise.\n\nEn niet 7.b8D? Lc7+ 8.Dxc7 pat.\n\nDus geen damepromoties, maar een loperpromotie!\n\nDe eindredacteur Cor de Feijter poneerde indertijd: “De minorpromotie is aantrekkelijk voor beginnende componisten, ik weet het uit ervaring.” En verder: ”Componeren is soms een worsteling met het materiaal!”\n\nNou, en of !"
+    }
+  }
+}
