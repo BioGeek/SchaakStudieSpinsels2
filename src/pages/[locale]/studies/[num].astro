@@ -46,26 +46,16 @@ const num = String(data.number).padStart(3, '0');
       <h1 class="title text-4xl my-2">— {data.number} —</h1>
     </header>
 
-    <StudyNav
-      locale={locale}
-      prevNum={prevNum}
-      nextNum={nextNum}
-      chapterNumber={data.chapterNumber}
-    />
-
-    {data.prose.nl.before && (
-      <div class="prose prose-lg mx-auto mb-4 mt-6 whitespace-pre-line">
-        {locale === 'nl' ? data.prose.nl.before : data.prose.en?.before}
-      </div>
-    )}
+    <div class="mb-8 mt-6">
+      <StudyNav
+        locale={locale}
+        prevNum={prevNum}
+        nextNum={nextNum}
+        chapterNumber={data.chapterNumber}
+      />
+    </div>
 
     <StudyBoard study={data} locale={locale} />
-
-    {data.prose.nl.after && (
-      <div class="prose prose-lg mx-auto mt-8 whitespace-pre-line text-ink-soft">
-        {locale === 'nl' ? data.prose.nl.after : data.prose.en?.after}
-      </div>
-    )}
 
     <div class="mt-12 border-t border-ink-muted/20 pt-6">
       <StudyNav

@@ -94,6 +94,12 @@ for (const m of study.moves) {
     }
   }
 }
+
+// The study's intro/closing prose lives in this same right-hand column as the
+// moves, so the whole study reads as one scrolling text column beside the
+// (sticky) board — rather than centred blocks above and below it.
+const proseBefore = (locale === 'nl' ? study.prose?.nl?.before : study.prose?.en?.before) ?? '';
+const proseAfter = (locale === 'nl' ? study.prose?.nl?.after : study.prose?.en?.after) ?? '';
 ---
 
 <div class="study-board" data-board-id={boardId} data-study={JSON.stringify(study)}>
@@ -117,6 +123,8 @@ for (const m of study.moves) {
       <span class="stipulation">{study.stipulation}</span>
       <span>{study.gbr}</span>
     </p>
+
+    {proseBefore && <div class="study-prose study-prose-before">{proseBefore}</div>}
 
     <section class="main-line">
       <h3 class="sr-only">{t(locale, 'study.moves')}</h3>
@@ -210,6 +218,8 @@ for (const m of study.moves) {
         );})}
       </section>
     )}
+
+    {proseAfter && <div class="study-prose study-prose-after">{proseAfter}</div>}
   </div>
 </div>
 
@@ -277,6 +287,22 @@ for (const m of study.moves) {
     margin-right: 0.5em;
     font-family: theme('fontFamily.serif');
     color: theme('colors.ink.DEFAULT');
+  }
+
+  .study-prose {
+    font-family: theme('fontFamily.serif');
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    white-space: pre-line;
+    max-width: 60ch;
+  }
+  .study-prose-before {
+    margin: 0 0 1.25rem;
+    color: theme('colors.ink.DEFAULT');
+  }
+  .study-prose-after {
+    margin: 1.5rem 0 0;
+    color: theme('colors.ink.soft');
   }
 
   .move-table {
