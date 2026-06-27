@@ -3,23 +3,14 @@ title: 'You feel at ease in your command of English?'
 order: 4
 ---
 
-Koning
-King
-
-Dame
-Queen
-
-Toren
-Rook
-
-Loper
-Bishop
-
-Paard
-Knight
-
-Pion
-Pawn
+<div style="display:flex;flex-wrap:wrap;gap:1.25rem 1.75rem;justify-content:center;margin:1.5rem 0 2.5rem;">
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Koning / King"><use href="/pieces/ignace.svg#bk"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;"><b>K</b>oning<br><span style="color:#6a5f4b;">King</span></figcaption></figure>
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Dame / Queen"><use href="/pieces/ignace.svg#bq"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;"><b>D</b>ame<br><span style="color:#6a5f4b;">Queen</span></figcaption></figure>
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Toren / Rook"><use href="/pieces/ignace.svg#br"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;"><b>T</b>oren<br><span style="color:#6a5f4b;">Rook</span></figcaption></figure>
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Loper / Bishop"><use href="/pieces/ignace.svg#bb"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;"><b>L</b>oper<br><span style="color:#6a5f4b;">Bishop</span></figcaption></figure>
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Paard / Knight"><use href="/pieces/ignace.svg#bn"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;"><b>P</b>aard<br><span style="color:#6a5f4b;">Knight</span></figcaption></figure>
+<figure style="margin:0;width:4.5rem;text-align:center;"><svg viewBox="0 0 40 40" width="52" height="52" role="img" aria-label="Pion / Pawn"><use href="/pieces/ignace.svg#bp"></use></svg><figcaption style="font-size:0.95rem;line-height:1.35;margin-top:0.35rem;">Pion<br><span style="color:#6a5f4b;">Pawn</span></figcaption></figure>
+</div>
 
 “Then time has come for the endgame addict you hopefully are to win a
 few tempi by simply skipping the forgoing text in Dutch. Protocol prescribes
