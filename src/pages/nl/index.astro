@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import CoverMark from '../../components/CoverMark.astro';
+import Hero from '../../components/Hero.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../../i18n/ui';
 import { chapterAnchor } from '../../lib/chapters';
@@ -23,23 +23,7 @@ const total = studies.length;
 
 <BaseLayout title={t(locale, 'site.title')} locale={locale} pathSansLocale="/">
   <!-- Cover hero: the site opens on the book's cover identity. -->
-  <section class="overflow-hidden rounded-2xl bg-gold text-paper-light shadow-md">
-    <div class="grid items-center gap-6 p-8 sm:grid-cols-[1fr_auto] sm:p-12">
-      <div>
-        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-cover-cream/90">
-          {t(locale, 'site.tagline')}
-        </p>
-        <h1 class="mt-3 break-words font-display text-3xl font-bold leading-[1.05] sm:text-5xl" style="font-variant-caps: small-caps; letter-spacing: 0.04em;">
-          SchaakStudieSpinselS
-          <span class="block text-5xl sm:text-7xl">2</span>
-        </h1>
-        <p class="mt-4 max-w-md text-cover-cream/90">
-          {t(locale, 'site.subtitle')}
-        </p>
-      </div>
-      <CoverMark class="mx-auto h-48 w-48 sm:h-60 sm:w-60" />
-    </div>
-  </section>
+  <Hero locale={locale} />
 
   <!-- Intro + primary call to action straight into the studies. -->
   <section class="mx-auto mt-10 max-w-2xl text-center">
