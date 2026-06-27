@@ -74,4 +74,4 @@ Coverage: **305 of the book's 308 studies are shipped** (`src/content/studies/`)
 
 ## Deployment
 
-There is currently **no CI/deploy workflow** and no publish command. `npm run build` produces the static site in `dist/`; wiring up deployment is open work.
+`.github/workflows/deploy.yml` builds and publishes to **GitHub Pages** on every push to `master` (custom domain `schaakstudiespinsels2.be` via `public/CNAME`). The workflow has three jobs: **`verify`** → **`build`** → **`deploy`**. The `verify` gate runs `uv run python scripts/verify_studies.py --fail-only` (fast; no PDF/network, just `python-chess`) and `build` `needs: verify`, so a study whose move-tree is illegal/inconsistent blocks the deploy — `astro build` alone only validates the Zod schema *shape*, not chess validity. `verify_studies.py` exits non-zero when any study fails. The tablebase audit (`tablebase_audit.py`) is intentionally **not** a CI gate (needs the Lichess API — network/rate-limited); run it manually/periodically.

@@ -17,7 +17,25 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Gate: the study move-trees must be legal + consistent. verify_studies.py
+  # checks GBR material/side-to-move and that every SAN is legal from its parent
+  # and lands on its recorded fenAfter. `astro build` only validates the Zod
+  # schema shape (strings), not chess validity, so this catches broken study
+  # data before it can deploy. Fast (~0.5s) — no PDF, no network, just python-chess.
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Verify study move-trees
+        run: uv run python scripts/verify_studies.py --fail-only
+
   build:
+    needs: verify
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

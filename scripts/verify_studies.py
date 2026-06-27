@@ -157,6 +157,9 @@ def main() -> None:
         print(f"{mark} study {r['study']:3d}{detail}")
     print(f"\n{len(passed)}/{len(results)} studies pass GBR/move verification "
           f"({len(failed)} need attention)")
+    # Non-zero exit so this can gate CI / pre-commit.
+    if failed:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
