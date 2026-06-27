@@ -34,8 +34,6 @@ onder andere, criteria tot waardering én beloning.
 De componist streeft er tenslotte naar, om met een minimum aan materiaal, een maximum aan schoonheid te bereiken. Het strijdelement wordt hier
 ondergeschikt aan het kunstzinnige.
 
-30
-
 Als John Roycrofts statement luidt: “An honour in a tourney award is made
 – ought to be made – to a composer for his creative achievement”, waarom
 zou dan een uitzonderlijk fijn maar klein kunstwerkje, (zoals bijvoorbeeld de
@@ -63,8 +61,6 @@ gerezen onder het ‘ongedwongen vrolijk gezelschap’: In de beide betekenissen
 Want er zijn nu twee opties: Bij een jurybeoordeling kan men positionsmined-from-a-database, of men ze nu ontdekt of gecomponeerd noemt, beschouwen als ‘normale’ studies, ofwel kan men ze koudweg diskwalificeren,
 dus ongeschikt verklaren voor het FIDE-album.
 
-31
-
 De hoofdredacteur van EG en het eertijdse EBUR, Harold van der Heijden, reageerde op de vraag of studies die met de hulp van eindspeldatabases zijn gemaakt nog wel geschikt zijn voor publicatie (laat staan voor
 mededinging aan het FIDE Album) aldus: “Eerlijk gezegd word ik een beetje
 kriegelig van bepaalde personen die bij elke gelegenheid roepen dat dit geen
@@ -90,8 +86,6 @@ Tenslotte is er nog de nuchtere mening van studiecomponist Michael
 Roxlau: “Ich bin mir ziemlich sicher, das in den Fünfsteiner-Databanken noch
 zahlreiche Schätze schlummern, die entdeckt und gehoben werden wollen.
 Dies herauszufinden, kan für den Autor hartnäckige Analysearbeit bedeuten.” En waarom zou dan een waardevol kleinood, ontsproten uit die volgehouden zoektocht, niet beloond mogen worden en bewaard voor het nageslacht?
-
-32
 
 In EG nr 171 las ik tot mijn opluchting dat, op de recente PCCC-meeting
 (Permanent Commision of the Chess Composition) in Rhodes, de Codex
