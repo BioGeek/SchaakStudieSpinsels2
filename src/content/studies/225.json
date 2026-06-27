@@ -4,46 +4,222 @@
   "chapterNumber": 5,
   "source": "Schakend Nederland, 1971",
   "gbr": "0420.02 b3g2",
-  "fen": "rB6/8/R7/6p1/1p6/1K3B2/6k1/8 w - - 0 1",
+  "fen": "rB6/8/B7/6p1/1p6/1K3R2/6k1/8 w - - 0 1",
   "stipulation": "+",
   "moves": [
     {
-      "id": "main.5",
-      "ply": 5,
-      "san": "Bb7+",
-      "nl": "Lb7+",
-      "fenAfter": "rB6/1B6/R7/6p1/1p6/1K6/6k1/8 b - - 1 1",
+      "id": "main.1",
+      "ply": 1,
+      "san": "Rg3+",
+      "nl": "Tg3+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K4R1/6k1/8 b - - 1 1",
       "variant": "main",
       "parent": null
     },
     {
+      "id": "main.2",
+      "ply": 2,
+      "san": "Kh2",
+      "nl": "Kh2",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K4R1/7k/8 w - - 2 2",
+      "variant": "main",
+      "parent": "main.1"
+    },
+    {
+      "id": "main.3",
+      "ply": 3,
+      "san": "Rg2+",
+      "nl": "Tg2+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/6Rk/8 b - - 3 2",
+      "variant": "main",
+      "parent": "main.2"
+    },
+    {
+      "id": "main.4",
+      "ply": 4,
+      "san": "Kh1",
+      "nl": "Kh1",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/6R1/7k w - - 4 3",
+      "variant": "main",
+      "parent": "main.3"
+    },
+    {
+      "id": "main.5",
+      "ply": 5,
+      "san": "Rh2+",
+      "nl": "Th2+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/7R/7k b - - 5 3",
+      "variant": "main",
+      "parent": "main.4"
+    },
+    {
       "id": "main.6",
       "ply": 6,
-      "san": "Kf2",
-      "nl": "Kf2",
-      "fenAfter": "rB6/1B6/R7/6p1/1p6/1K6/5k2/8 w - - 2 2",
+      "san": "Kg1",
+      "nl": "Kg1",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/7R/6k1 w - - 6 4",
       "variant": "main",
       "parent": "main.5"
     },
     {
-      "id": "main.19",
-      "ply": 19,
-      "san": "Kxb4",
-      "nl": "Kxb4",
-      "fenAfter": "rB6/1B6/R7/6p1/1K6/8/5k2/8 b - - 0 2",
+      "id": "main.7",
+      "ply": 7,
+      "san": "Rh1+",
+      "nl": "Th1+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/8/6kR b - - 7 4",
       "variant": "main",
       "parent": "main.6"
+    },
+    {
+      "id": "main.8",
+      "ply": 8,
+      "san": "Kf2",
+      "nl": "Kf2",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/5k2/7R w - - 8 5",
+      "variant": "main",
+      "parent": "main.7"
+    },
+    {
+      "id": "main.9",
+      "ply": 9,
+      "san": "Rf1+",
+      "nl": "Tf1+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K6/5k2/5R2 b - - 9 5",
+      "variant": "main",
+      "parent": "main.8"
+    },
+    {
+      "id": "main.10",
+      "ply": 10,
+      "san": "Ke3",
+      "nl": "Ke3",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K2k3/8/5R2 w - - 10 6",
+      "variant": "main",
+      "parent": "main.9"
+    },
+    {
+      "id": "main.11",
+      "ply": 11,
+      "san": "Rf3+",
+      "nl": "Tf3+",
+      "fenAfter": "rB6/8/B7/6p1/1p6/1K2kR2/8/8 b - - 11 6",
+      "variant": "main",
+      "parent": "main.10"
+    },
+    {
+      "id": "main.12",
+      "ply": 12,
+      "san": "Kd4",
+      "nl": "Kd4",
+      "fenAfter": "rB6/8/B7/6p1/1p1k4/1K3R2/8/8 w - - 12 7",
+      "variant": "main",
+      "parent": "main.11"
+    },
+    {
+      "id": "main.13",
+      "ply": 13,
+      "san": "Rd3+",
+      "nl": "Td3+",
+      "fenAfter": "rB6/8/B7/6p1/1p1k4/1K1R4/8/8 b - - 13 7",
+      "variant": "main",
+      "parent": "main.12"
+    },
+    {
+      "id": "main.14",
+      "ply": 14,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "rB6/8/B7/2k3p1/1p6/1K1R4/8/8 w - - 14 8",
+      "variant": "main",
+      "parent": "main.13"
+    },
+    {
+      "id": "main.15",
+      "ply": 15,
+      "san": "Rd5+",
+      "nl": "Td5+",
+      "fenAfter": "rB6/8/B7/2kR2p1/1p6/1K6/8/8 b - - 15 8",
+      "variant": "main",
+      "parent": "main.14"
+    },
+    {
+      "id": "main.16",
+      "ply": 16,
+      "san": "Kc6",
+      "nl": "Kc6",
+      "fenAfter": "rB6/8/B1k5/3R2p1/1p6/1K6/8/8 w - - 16 9",
+      "variant": "main",
+      "parent": "main.15"
+    },
+    {
+      "id": "main.17",
+      "ply": 17,
+      "san": "Rd6+",
+      "nl": "Td6+",
+      "fenAfter": "rB6/8/B1kR4/6p1/1p6/1K6/8/8 b - - 17 9",
+      "variant": "main",
+      "parent": "main.16"
+    },
+    {
+      "id": "main.18",
+      "ply": 18,
+      "san": "Kc5",
+      "nl": "Kc5",
+      "fenAfter": "rB6/8/B2R4/2k3p1/1p6/1K6/8/8 w - - 18 10",
+      "variant": "main",
+      "parent": "main.17"
+    },
+    {
+      "id": "main.19",
+      "ply": 19,
+      "san": "Bc7",
+      "nl": "Lc7",
+      "fenAfter": "r7/2B5/B2R4/2k3p1/1p6/1K6/8/8 b - - 19 10",
+      "variant": "main",
+      "parent": "main.18"
+    },
+    {
+      "id": "main.20",
+      "ply": 20,
+      "san": "Ra7",
+      "nl": "Ta7",
+      "fenAfter": "8/r1B5/B2R4/2k3p1/1p6/1K6/8/8 w - - 20 11",
+      "variant": "main",
+      "parent": "main.19"
+    },
+    {
+      "id": "main.21",
+      "ply": 21,
+      "san": "Bb6+",
+      "nl": "Lb6+",
+      "fenAfter": "8/r7/BB1R4/2k3p1/1p6/1K6/8/8 b - - 21 11",
+      "variant": "main",
+      "parent": "main.20"
+    },
+    {
+      "id": "main.22",
+      "ply": 22,
+      "san": "Kxd6",
+      "nl": "Kxd6",
+      "fenAfter": "8/r7/BB1k4/6p1/1p6/1K6/8/8 w - - 0 12",
+      "variant": "main",
+      "parent": "main.21"
+    },
+    {
+      "id": "main.23",
+      "ply": 23,
+      "san": "Bxa7",
+      "nl": "Lxa7",
+      "fenAfter": "8/B7/B2k4/6p1/1p6/1K6/8/8 b - - 0 12",
+      "variant": "main",
+      "parent": "main.22"
     }
   ],
   "prose": {
     "nl": {
-      "before": "Drie witte stukken staan aange-\nvallen! Na een lange  achtervol-\nging,  eerst neerwaarts dan op-\nwaarts, redt wit zich uiteindelijk, na\nvele offeraanbiedingen\n\n1...Kf2?  2.Tg2+  Ke3  (2…Kxg2",
-      "after": "2...Kh3? 3.Th2+ Kg4 4.Lc8+ Kf3\n\n3.Th2+      Kg1        4.Th1+       Kf2        5.Tf1+       Ke3\n\n7.Td3+      Kc5        8.Td5+\n\n8...           K(b)c6        9.Td6+      Kc5\n\n10.Lc7        Ta7\n\nKf3 10.Lb7+ Kxg3 11.Lxa8\n\nMaar niet 8.Ld6+? Kc6 9.Lc4 Ta3+\n\n10.Kc2 Txd3 11.Lxd3 Kxd6 remise.\n\nOf  hier  10.Kxb4 Txd3  11.Lxd3\nKxd6.\n\nEn nu dat La6 gedekt is speelt wit:\n\nZwarts laatste hoop.\n\nDaar gaat de witte toren, maar ook\nde zwarte:\n\nWit wit nu makkelijk met beide lo-\npers.",
-      "beforeVariant": {
-        "main.a": "en de  witte Koning komt  hulp\nbieden.) 3.Te2+ Kf3 4.Lb7+ Kxe2\n\n5.Lxa8 en  wint. Of  hier 3...Kd4\n4.Le5+ K~ en de a-loper komt vrij.\n       2.Tg2+      Kh1      W\n\n5.Lb7+ en 6.Lxa8 met winst.\n\n6.Te1+? Kd2 7.Te2 Kd1 en  bij-\n\nvoorbeeld 8.Tg2 Txa6 met remise.\n\nHet hardnekkigste.\nNa 6...Kd2 7.Td3+ en:",
-        "main.b": "beeld  na  8...Kf2  9.Tb6  g4\n\n12.Lxg3 en wint.",
-        "main.c": "Kb1 10.Td1+ en mat."
-      }
+      "before": "Drie witte stukken staan aange-\nvallen! Na een lange  achtervol-\nging,  eerst neerwaarts dan op-\nwaarts, redt wit zich uiteindelijk, na\nvele offeraanbiedingen",
+      "after": "1...Kf2?  2.Tg2+  Ke3  (2…Kxg2\n3.Lb7+ Kf2 4.Lxg8 g4 5.Kxb4 g3\n6.La7+ Kf1 7.Lb7 g2 8.La6+ Ke1\nen de  witte Koning komt  hulp\nbieden.) 3.Te2+ Kf3 4.Lb7+ Kxe2\n5.Lxa8 en  wint. Of  hier 3...Kd4\n4.Le5+ K~ en de a-loper komt vrij.\n\n2.Tg2+      Kh1      W\n\n2...Kh3? 3.Th2+ Kg4 4.Lc8+ Kf3\n5.Lb7+ en 6.Lxa8 met winst.\n\n6.Te1+? Kd2 7.Te2 Kd1 en  bij-\nvoorbeeld 8.Tg2 Txa6 met remise.\n\nHet hardnekkigste.\nNa 6...Kd2 7.Td3+ en:\n\nbeeld  na  8...Kf2  9.Tb6  g4\n\n12.Lxg3 en wint.\n\nKb1 10.Td1+ en mat.\n\nKf3 10.Lb7+ Kxg3 11.Lxa8\n\nMaar niet 8.Ld6+? Kc6 9.Lc4 Ta3+\n10.Kc2 Txd3 11.Lxd3 Kxd6 remise.\nOf  hier  10.Kxb4 Txd3  11.Lxd3\nKxd6.\n\nEn nu dat La6 gedekt is speelt wit:\n\nZwarts laatste hoop.\n\nDaar gaat de witte toren, maar ook\nde zwarte:\n\nWit wit nu makkelijk met beide lo-\npers."
     }
-  }
+  },
+  "curated": true
 }
