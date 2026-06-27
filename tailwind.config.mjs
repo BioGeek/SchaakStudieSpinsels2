@@ -3,7 +3,7 @@ import typography from '@tailwindcss/typography';
 
 export default {
   content: ['./src/**/*.{astro,html,md,mdx,ts,tsx,js,jsx}'],
-  darkMode: 'media',
+  darkMode: 'class', // opt-in only; the site is light-only for now
   theme: {
     extend: {
       fontFamily: {

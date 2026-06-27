@@ -4,16 +4,11 @@
 
 @layer base {
   html {
+    /* Light only for now — opt out of UA dark-mode restyling. */
+    color-scheme: light;
     font-family: theme('fontFamily.serif');
     background: theme('colors.paper.light');
     color: theme('colors.ink.DEFAULT');
-  }
-
-  @media (prefers-color-scheme: dark) {
-    html {
-      background: theme('colors.paper.dark');
-      color: #f0e8d5;
-    }
   }
 
   h1, h2, h3 {
