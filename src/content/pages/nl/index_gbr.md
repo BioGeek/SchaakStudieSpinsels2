@@ -3,8 +3,7 @@ title: 'Index = GBR-code'
 order: 323
 ---
 
-> *Die zoekt, die vindt*
-> (Mattheus)
+<div class="epigraph"><b>Die zoekt, die vindt</b><br />(Mattheus)</div>
 
 **Studies geordend volgens de GBR-code** van de drie samenstellers: *Guy – Blandford – Roycroft*.
 

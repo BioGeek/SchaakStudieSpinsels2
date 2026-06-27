@@ -3,8 +3,7 @@ title: 'Recensies bij de eerste druk'
 order: 324
 ---
 
-> *Relata refero*
-> Ik vertel wat mij verteld is
+<div class="epigraph"><b>Relata refero</b><br /><b>Ik vertel wat mij verteld is</b></div>
 
 De eerste druk van *Schaakstudiespinsels* verscheen in 2008 en werd warm onthaald in de schaakpers — van **Clubblad VLAANDEREN SCHAAKT** tot de internationale studiekringen van ARVES en *Harold van der Heijden*. Hun besprekingen staan opgenomen in de gedrukte uitgave.
 

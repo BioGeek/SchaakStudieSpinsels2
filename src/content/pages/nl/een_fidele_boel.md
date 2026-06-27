@@ -3,9 +3,7 @@ title: 'Een Fidele Boel'
 order: 5
 ---
 
-Aevo rarissima nostro simplicitas
-Eenvoud is in onze dagen zeer zeldzaam
-(Ovidius)
+<div class="epigraph"><b>Aevo rarissima nostro simplicitas</b><br /><b>Eenvoud is in onze dagen zeer zeldzaam</b><br />(Ovidius)</div>
 
 Sommige juryleden en zelfs componisten vinden dat schaakstudies met
 slechts vijf stukken op het bord minderwaardig zijn. Zij zijn de mening toegedaan dat deze maljutka’s, zoals ze genoemd worden, niet, dan toch laag,

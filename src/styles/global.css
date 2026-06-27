@@ -23,3 +23,18 @@
     font-weight: 600;
   }
 }
+
+/* Chapter motto / epigraph: a tinted panel with a left bar, right-aligned —
+   the same treatment as the study-chapter epigraphs on the studies page.
+   Quote lines go in <b>; the attribution stays unbolded. */
+.epigraph {
+  margin: 1.75rem 0;
+  padding: 0.85rem 1.25rem 0.85rem 1.5rem;
+  border-left: 4px solid rgba(209, 171, 102, 0.6);
+  background: rgba(209, 171, 102, 0.09);
+  border-radius: 0 0.5rem 0.5rem 0;
+  text-align: right;
+  font-style: italic;
+  line-height: 1.5;
+  color: theme('colors.ink.soft');
+}

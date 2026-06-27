@@ -3,8 +3,7 @@ title: 'Enkele voor- en nabeschouwingen'
 order: 3
 ---
 
-<div style="text-align: right"><b>De eindspelcompositie is de poëzie van het schaakspel</b></div>
-<div style="text-align: right">(Ignace Vandecasteele)</div>
+<div class="epigraph"><b>De eindspelcompositie is de poëzie van het schaakspel</b><br />(Ignace Vandecasteele)</div>
 
 
 “Wat brengt een mens ertoe te blijven volharden in het componeren van

@@ -3,16 +3,7 @@ title: 'Ten Geleide'
 order: 2
 ---
 
-<div style="text-align: right"><b>Daar ik partijschaken meer</b></div>
-<div style="text-align: right"><b>als pure proza bezie,</b></div>
-<div style="text-align: right"><b>en openingen dan weer</b></div>
-<div style="text-align: right"><b>als tactische theorie,</b></div>
-<div style="text-align: right"><b>zijn eindspelen veeleer</b></div>
-<div style="text-align: right"><b>onverhoopte poëzie,</b></div>
-<div style="text-align: right"><b>die ik koester en waardeer</b></div>
-<div style="text-align: right"><b>in een schone schaakstudie.</b></div>
-<br />
-<br />
+<div class="epigraph"><b>Daar ik partijschaken meer</b><br /><b>als pure proza bezie,</b><br /><b>en openingen dan weer</b><br /><b>als tactische theorie,</b><br /><b>zijn eindspelen veeleer</b><br /><b>onverhoopte poëzie,</b><br /><b>die ik koester en waardeer</b><br /><b>in een schone schaakstudie.</b></div>
 Een gefantaseerd schaakeindspel, beter gekend als een schaakstudie, is
 een willekeurige opstelling van de schaakstukken, door een componist
 bedacht, waarbij hij beweert winst of remise te kunnen bereiken op een
